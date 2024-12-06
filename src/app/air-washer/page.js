@@ -266,22 +266,17 @@ export default function() {
 
 
 
-                    <div className=' py-3   text-left ' >
-                      <IoMdCheckmarkCircleOutline className=' h-10 w-10 p-1' /> <div>
-                        <span className='text-2xl' > Double stage  </span> <br />
-                        <span className=' italic font-sans font-thin '>  (Indirect Evaporative Coolling System) </span>
-                      </div>
-
-                    </div>
+                  
 
                   </div>
                 </div>
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-3xl  font-sans mb-3  uppercase  text-left ">SINGLE STAGE Air Washer (DIRECT EVAPORATIVE
-                  COOLING SYSTEM) </h2>
-                <p className=" text-[15px] w-full text-center font-serif" > (Working Principle)</p>
+                <h2 className=" text-center text-3xl  font-sans   uppercase   ">SINGLE STAGE Air Washer <br /> 
+                <span className=' text-[14px]'> (DIRECT EVAPORATIVE
+                  COOLING SYSTEM)</span> </h2>
+                <p className=" text-[20px] w-full text-center font-serif " > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
@@ -345,8 +340,7 @@ export default function() {
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-[6vw] md:text-4xl font-sans mb-3  uppercase ">SINGLE STAGE Air Washer <br /><span className=' text-sm px-0 py-0 mx-0 my-0 relative bottom-3'>(DIRECT EVAPORATIVE
-                  COOLING SYSTEM)</span>  </h2>
+        
                 <div className="text-justify ">
                   <ul className="list-disc">
                     <li>Direct evaporative cooling, also known as direct adiabatic cooling or wet bulb cooling, is called direct as there is direct contact between the water and the air stream. During the direct evaporative cooling process, water is evaporated directly into the air stream that needs to be cooled down. This type of evaporative cooling is the most used form worldwide, especially in dry regions.</li>
@@ -405,7 +399,7 @@ export default function() {
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-3xl  font-sans mb-3  uppercase  text-left "> Double STAGE Air Washer (IN-DIRECT EVAPORATIVE
+                <h2 className="text-3xl  font-sans mb-3  uppercase  text-left "> Double STAGE Air Washer <br /> (IN-DIRECT EVAPORATIVE
                   COOLING SYSTEM) </h2>
                 <p className=" text-[15px] w-full text-center font-serif" > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
@@ -438,77 +432,7 @@ export default function() {
           </div>
 
 
-          <div className="row">
-            <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-
-              <div className="md:w-[20%] w-auto rounded-lg bg-[#0445E3] text-white   ">
-                <div className="flex items-center justify-center h-full">
-                  <div className=" px-10 py-16" >
-                    <p className=' text-4xl capitalize' > Air Cooling
-                      in
-                      Industrial Space
-                      with
-                      Air Washers </p>
-
-
-
-
-
-
-
-                  </div>
-                </div>
-              </div>
-
-              <div className="md:w-[80%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-3xl  font-sans mb-3  uppercase  text-left "> Double STAGE Air Washer (IN-DIRECT EVAPORATIVE
-                  COOLING SYSTEM) </h2>
-                <p className=" text-[15px] w-full text-center font-serif" > (Working Principle)</p>
-                <div className="flex items-center w-full justify-center h-full">
-                  <div className="content max-w-md pe-5 ">
-                    <div className="text-justify ">
-                      <ul className="list-disc ">
-                        <li> <span className=' font-sans  font-bold uppercase'>Outdoor Air Intake:</span> The ducted air cooler draws in warm, dry air from outside the industrial space.
-                        </li>
-                        <li>
-                          <span className=' font-sans  font-bold uppercase'>Evaporative Cooling Process:</span> This hot air passes through wetted pads inside the cooler. As the air moves through the pads, water evaporates into the air stream, absorbing heat in the process. This cool, moist air is then distributed throughout the industrial space via ducts.
-                        </li>
-                        <li>
-                          <span className=' font-sans  font-bold uppercase'> Temperature Reduction:</span> The cooler lowers the temperature of the air by several degrees Celsius, depending on the outdoor humidity. This cool air helps to improve worker comfort and productivity in hot environments.
-                        </li>
-
-                      </ul>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
-                      <div className="w-auto">
-                        <div className="w-full object-cover rounded-xl">
-                          {/* Use the Next.js Image component for optimized image loading */}
-                          <img
-                            className=" h-full w-full"
-                            src="/awi/4.webp"
-                            alt="Air washer"
-                            fetchPriority="high"
-                            decoding="async"
-                          // Set appropriate height
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-
-            </div>
-
-
-
-
-          </div>
+         
 
           <div className="row">
             <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
@@ -753,27 +677,7 @@ export default function() {
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
-                <div className="absolute bottom-0 start-0">
-                  <svg className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="531" y="352" width="99" height="99" fill="currentColor" />
-                    <rect x="140" y="352" width="106" height="99" fill="currentColor" />
-                    <rect x="482" y="402" width="64" height="49" fill="currentColor" />
-                    <rect x="433" y="402" width="63" height="49" fill="currentColor" />
-                    <rect x="384" y="352" width="49" height="50" fill="currentColor" />
-                    <rect x="531" y="328" width="50" height="50" fill="currentColor" />
-                    <rect x="99" y="303" width="49" height="58" fill="currentColor" />
-                    <rect x="99" y="352" width="49" height="50" fill="currentColor" />
-                    <rect x="99" y="392" width="49" height="59" fill="currentColor" />
-                    <rect x="44" y="402" width="66" height="49" fill="currentColor" />
-                    <rect x="234" y="402" width="62" height="49" fill="currentColor" />
-                    <rect x="334" y="303" width="50" height="49" fill="currentColor" />
-                    <rect x="581" width="49" height="49" fill="currentColor" />
-                    <rect x="581" width="49" height="64" fill="currentColor" />
-                    <rect x="482" y="123" width="49" height="49" fill="currentColor" />
-                    <rect x="507" y="124" width="49" height="24" fill="currentColor" />
-                    <rect x="531" y="49" width="99" height="99" fill="currentColor" />
-                  </svg>
-                </div>
+             
 
               </div>
 

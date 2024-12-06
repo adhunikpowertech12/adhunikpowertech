@@ -241,7 +241,7 @@ export default function page2() {
       </div>
 
       <div className=" justify-center items-center flex flex-col " >
-        <p className=' px-10 pt-32  text-4xl  w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
+        <p className=' px-10 pt-9  text-4xl  w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
 
         </p>
         <p className=' px-1 pt-3  text-[15px]  w-[70%] text-center font-sans font-thin' >Adhunik Powertech is committed to taking Indian manufacturing to the global stage. Our products are designed and engineered in India, and exported to diverse markets across the globe, from Asia's bustling cities to the Middle East’s skyscrapers. We believe in delivering products that are not only efficient and reliable but also environmentally friendly. Our focus on sustainability drives us to develop innovative solutions that reduce energy consumption and minimize our carbon footprint. </p>
