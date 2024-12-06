@@ -636,315 +636,17 @@ export default function DuctedAirCooler() {
 </div>
 
 
-<div className="row  p-5 justify-center flex"  style={{ backgroundImage: "url('/lcbg.png')" }} >
-<div className=" h-full w-fit flex flex-col md:flex-row text-center p-5  justify-center items-center bg-[#FCFCFC] m-4 rounded-xl">
 
-<div className="md:w-[50%] w-auto">
-        <div className="flex items-center justify-center h-full">
-          <div>
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden  rounded-xl">
-              <div className="w-auto">
-                <div className="w-full object-cover  rounded-xl">
-                  <img
-                    className=""
-                    fetchPriority="high"
-                    decoding="async"
-                    alt="DUCTED   AIR COOLER "
-                    src="/lc.png"
-                  />
-                </div>
-              </div>
-             
-          
-            </div>
-          </div>
-        </div>
-      </div>
-
-<div className="md:w-[40%] w-auto h-full p-2 m-2 md:p-5 md:m-5  justify-center flex-col items-center ">
-
-        <h2 className="text-[6vw] font-sans text-left font-thin  md:text-4xl mb-3 ">
-        Adhunik Powertech <br /> Ducted Air Cooler: <br /> Efficient Cooling <br /> at Low Cost
-        </h2>
-        <p className=" text-left text-[12px] text-gray-500 ">
-        Adhunik Powertech Ducted Air Coolers <br /> utilize evaporative cooling technology <br /> to deliver cool air at a fraction <br /> operating cost of traditional air <br /> conditioners. This eco-friendly <br /> approach achieves significant cost <br /> savings while providing effective <br /> cooling.
-        </p>
-        <div className="show_m mt-5">
-      
-
-
-
-        </div>
-      </div>
-
-    
-
-    
-
-
-    </div>
-</div>
-
-
-<div className="row  p-5 justify-center flex"  style={{ backgroundImage: "url('/lcbg.png')" }} >
-
-
-<div className=" h-full w-fit flex justify-center items-center flex-col md:flex-row text-center p-5  bg-[#FCFCFC] m-4 rounded-xl">
-
-
-
-<div className="md:w-[20%] w-auto h-full p-2 m-2 md:p-5 md:m-5  ">
-
-        <h2 className="text-[6vw] font-sans text-center font-thin  md:text-4xl mb-3 ">
-        How Adhunik Powertech Ducted Air Coolers Deliver Cool Comfort Through Natural Evaporation
-        </h2>
-     
-        <div className="show_m mt-5">
-      
-
-
-
-        </div>
-      </div>
-
-      <div className="md:w-[80%] w-auto">
-        <div className="flex items-center w-full justify-center h-full">
-          <div>
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden  rounded-xl">
-              <div className="w-auto">
-                <div className="w-full object-cover  rounded-xl">
-                  <img
-                    className=" "
-                    fetchPriority="high"
-                    decoding="async"
-                    alt="DUCTED   AIR COOLER "
-                    src="/cra.png"
-                  />
-                </div>
-              </div>
-             
-          
-            </div>
-          </div>
-        </div>
-      </div>
-    
-
-    
-
-
-    </div>
-
-    
-</div>
-
-
-<div className="row  p-5 justify-center flex"  style={{ backgroundImage: "url('/lcbg.png')" }} >
-
-
-<div className=" h-full w-fit flex justify-center items-center flex-col md:flex-row text-center p-5  bg-[#FCFCFC] m-4 rounded-xl">
-
-
-<div className="md:w-[40%] w-auto">
-        <div className="flex items-center w-full justify-center h-full">
-          <div>
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden  rounded-xl">
-              <div className="w-auto">
-                <div className="w-full object-cover  rounded-xl">
-                  <img
-                    className=" "
-                    fetchPriority="high"
-                    decoding="async"
-                    alt=""
-                    src="/roll.png"
-                  />
-                </div>
-              </div>
-             
-          
-            </div>
-          </div>
-        </div>
-      </div>
-<div className="md:w-[50%] w-auto h-full p-2 m-2 md:p-5 md:m-5  ">
-
-        <p className="text-sm font-sans text-center font-thin  mb-3 ">
-        Adhunik Powertech Ducted Air Coolers utilize a natural <br /> process called evaporative cooling to deliver refreshing <br /> comfort to your home.
-        </p>
-        <p className=" text-5xl font-sans font-thin ">Here's a breakdown of <br /> the science behind it:</p>
-        <p className=" font-serif  py-3 text-2xl">The Power  of Evaporation:</p>
-        <p  className=" font-sans font-thin">Imagine a hot summer day. Just like sweat cools your body as it evaporates, Adhunik Powertech Ducted Air Coolers work on the same principle. Inside the cooler, large, specially designed cooling pads are kept constantly wet using a water distribution system. As hot, dry air passes through these wet pads, water molecules absorb heat and evaporate into the air. This process cools the air down significantly, delivering a refreshing breeze to your living space.</p>
-     
-        <div className="show_m mt-5">
-      
-
-
-
-        </div>
-      </div>
-  
-    
-
-    
-
-
-    </div>
-
-    
-</div>
 
 
 
 
 
 <div className="row">
-<div className="container mx-auto ">
-      <h1 className="text-center text-3xl font-bold mb-8">Ducted Air Cooler vs Air Conditioner</h1>
-
-<div className="row flex flex-row">
-<div className="w-3/12 justify-center items-center flex md:w-[20%]  h-full p-2 m-2 md:p-5 md:m-5  ">
-<h2 className="text-[6vw]  font-sans text-center font-thin  md:text-4xl mb-3 ">
-        How Adhunik Powertech Ducted Air Coolers Deliver Cool Comfort Through Natural Evaporation
-        </h2>
-      </div>
-
-      <div className="border border-gray-200 shadow-lg overflow-hidden w-9/12 ">
-        {/* Headers */}
-       
-
-        {/* Table Rows */}
-      
-        <div className="overflow-x-auto">
-  <table className=" w-full table-auto">
-
-    <thead>
-      <tr className=" text-center ">
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-      <span className="bg-clip-text font-sans font-bold text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-      Ducted Air Cooler 
-  </span>
-        </th>
-        <th className="px-2 py-3 text-2xl  text-transparent bg-gray-100 text-center  font-medium text-gray-500 uppercase ">
-          Image
-        </th>
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-         <span className="bg-clip-text font-sans font-bold text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-         Air Conditioner 
-  </span>
-        </th>
-      </tr>
-    </thead>
-
-    <tbody className=" bg-[#F8F9FA]  ">
-      {comparisonData.map((item, index) => (
-        <tr key={index} className=" p-4 bg-[#F8F9FA]">
-          {/* First Column */}
-          <td className="px-2 py-2 bg-[#375B6D]  rounded-br-lg rounded-full border-white border-2 text-center whitespace-nowrap text-[13px]  text-white ">
-             {item.cooler}
-          </td>
-
-          {/* Second Column (Image Column) */}
-          <td className="px-2 py-2 text-center whitespace-nowrap">
-            <div className="flex justify-center">
-              <img
-                src={item.image}
-                alt="Comparison"
-                className="w-12 h-12 object-cover "
-              />
-            </div>
-          </td>
-
-          {/* Third Column */}
-          <td className="px-2 py-2 bg-[#375B6D] rounded-bl-lg  rounded-full border-white border-2 text-center whitespace-nowrap text-[13px]  text-white">
-            {item.ac}
-          </td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-</div>
 
 
 
-      </div>
-
-
-      
-</div>
      
-    </div>
-</div>
-
-
-<div className="row">
-
-<div className="container w-6/12">
-
-</div>
-
-      <div className="overflow-x-auto ">
-      <h1 className="text-center text-3xl font-bold  mt-11 ">Ducted Cooler vs Air Conditioner vs Air Washer </h1>
-
-  <table className=" w-full table-auto">
-
-    <thead>
-      <tr className=" text-center ">
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-       
-        </th>
-     
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-        <span className="bg-clip-text font-sans font-bold text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-        Ducted Cooler
-  </span>
-       
-        </th>
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-        <span className="bg-clip-text font-sans font-bold text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-        Air Conditioner
-  </span>
-        </th>
-        <th className="px-2 py-3 text-[18px] bg-gray-100  font-medium text-gray-500 uppercase ">
-       <span className="bg-clip-text font-sans font-bold text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-       Air Washer 
-  </span>
-        </th>
-      </tr>
-    </thead>
-
-    <tbody className=" bg-[#F8F9FA]  ">
-      {comparisonData1.map((item, index) => (
-        <tr key={index} className=" p-4 bg-[#F8F9FA] ">
-          {/* First Column */}
-          <td className="px-2 w-96 py-5 bg-[#375B6D]   rounded-bl-sm rounded-tr-sm  rounded-full border-white border-2 text-center whitespace-nowrap text-[12px]  text-white ">
-             {item.cooler}
-          </td>
-
-      
-
-          {/* Third Column */}
-          <td className="px-5 py-2  text-center whitespace-nowrap text-[13px]  ">
-            {item.dc}
-
-          </td>
-
-
-          <td className="px-2 py-2  text-center whitespace-nowrap text-[13px]  ">
-            {item.ac}
-
-          </td>
-
-
-          <td className="px-2 py-2 text-center whitespace-nowrap text-[13px]  ">
-            {item.aw}
-          </td>
-
-
-        </tr>
-      ))}
-    </tbody>
-  </table>
-</div>
 
 
 <div className="row">
@@ -1146,7 +848,7 @@ export default function DuctedAirCooler() {
       <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
-      <div className="absolute bottom-0 start-0">
+      {/* <div className="absolute bottom-0 start-0">
         <svg className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="531" y="352" width="99" height="99" fill="currentColor" />
           <rect x="140" y="352" width="106" height="99" fill="currentColor" />
@@ -1166,7 +868,7 @@ export default function DuctedAirCooler() {
           <rect x="507" y="124" width="49" height="24" fill="currentColor" />
           <rect x="531" y="49" width="99" height="99" fill="currentColor" />
         </svg>
-      </div>
+      </div> */}
 
     </div>
 
