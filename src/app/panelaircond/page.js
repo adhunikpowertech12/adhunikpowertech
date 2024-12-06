@@ -1,0 +1,960 @@
+'use client'
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import { FaPlay } from "react-icons/fa";
+
+export default function 
+() {
+
+  const [showModal, setShowModal] = React.useState(false);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+    const [mounted, setMounted] = useState(false);
+
+    // Ensure this component only renders on the client side
+    useEffect(() => {
+      setMounted(true);
+    }, []);
+  
+    if (!mounted) {
+      return <>
+    <div className="flex justify-center items-center h-screen">
+<div className="flex flex-row gap-2">
+  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce"></div>
+  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]"></div>
+  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]"></div>
+</div>
+</div>
+       
+      </>; // Return nothing while rendering on the server to avoid mismatches
+    }
+
+  
+    
+  
+
+    
+    const products2 = [
+        {
+          id: 1,
+          title: "Where are Panel Air Conditioning Systems Used?",
+          description:
+            "It is designed to prevent excessive heat that may occur inside electrical panels. These systems are used to control the indoor temperature and ensure the safety of electrical panels.",
+      
+          imageSrc: "/panelac.png",
+          altText: "Panel Air Conditioner ",
+        },
+        // Add more product objects if needed
+      ];
+
+
+
+
+    const products3 = [
+        {
+          id: 1,
+          title: "Specifications of Panel Air Conditioner",
+          imageSrc: "/pac.jpg",
+          altText: "Panel Air Conditioner ",
+        },
+        // Add more product objects if needed
+      ];
+
+
+      const wall_mount = [
+        {
+          heading: "Model No.",
+          values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "WMS-025", "WMS-005", "WMS-0010", "WMS-0015", "WMS-0020", "WMS-0025", "WMS-0030", "WMS-0035", "WMS-0050", "WMS-0070"],
+        },
+        {
+          heading: "Cooling Capacity",
+          values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119", "6825 ", "8525", "10352", "11945", "17064", "24000"],
+        },
+        {
+          heading: "Dimension in mm",
+          values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "570x285x285", "570x285x285", "780x285x307", "780x285x307", "1220x257x400", "1220x257x400", "420x330x730", "420x330x730", "420x330x730", "420x330x730"],
+        },
+        {
+          heading: "Power Input",
+          values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "475/2.2", "689/3.2", " 754/ 3.5", " 906/4.2", " 1010/4.4", "1290/5.8", "1405/6.5", "1470/6.8", "2115/9.2", "2594/12"],
+        },
+        {
+          heading: "Air-Flow",
+          values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "85", "85", "314", "314", "320", "485", "680", "731", "1076", "1326"],
+        },
+        {
+          heading: "Gross Weight",
+          values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "25", "25", "32", "34", "52", "55", "55", "58", "100", "105"],
+        },
+      ];
+
+      const top_mount = [
+        {
+          heading: "Model No.",
+          values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "TMT-025", "TMT-005", "TMT-0010", "TMT-0015"],
+        },
+        {
+          heading: "Cooling Capacity",
+          values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1707", "3413", "5120"],
+        },
+        {
+          heading: "Dimension in mm",
+          values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "555x438x465", "555x438x465", "345x395x655", "345x395x655"],
+        },
+        {
+          heading: "Power Input",
+          values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "475/2.2", "689/3.2", " 754/ 3.5", " 906/4.2",],
+        },
+        {
+          heading: "Air-Flow",
+          values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "68", "221", "221"],
+        },
+        {
+          heading: "Gross Weight",
+          values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "26", "28", "39", "43",],
+        },
+      ];
+
+      const stand_alone = [
+        {
+          heading: "Model No.",
+          values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "SA-0010", "SA-0015", "SA-0030", "SA-0050", "SA-070",],
+        },
+        {
+          heading: "Cooling Capacity",
+          values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "3413", "5121", "10230", "17064", "24000 ", ],
+        },
+        {
+          heading: "Dimension in mm",
+          values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "710x390x420", "710x390x420", "1150x550x550", "1150x550x550", "1500x545x425"],
+        },
+        {
+          heading: "Power Input",
+          values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, " 454/ 3.5", " 906/4.2", " 1729/6.5", " 2053/9.5", " 2594/12", ],
+        },
+        {
+          heading: "Air-Flow",
+          values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "221", "221", "714", "883", "1326", ],
+        },
+        {
+          heading: "Gross Weight",
+          values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "38", "38", "72", "82", "105"],
+        },
+      ];
+
+      const column1 = [
+        "CNC Machine Tools ",
+        "Robotics",
+        "Automation Machines ",
+        "Furnace & Elevator Control",
+        "Computer CPUs   ","Server Enclosures"
+        
+      ];
+      
+      const column2 = [
+        "Textile Machines",
+        "Telecom Equipment",
+        "Medical Electronics Equipment",
+        "Retail stores/Showrooms",
+        "Process Control Equipment",
+        "Drive Panels, PLC Panels ",
+        
+      ];
+
+      const logos = [
+        { src: '/pa1.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa2.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa3.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa4.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa5.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa6.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa7.webp', alt: 'Asahi-India-Glass-Ltd' },
+        { src: '/pa8.webp', alt: 'Asahi-India-Glass-Ltd' },
+       
+   
+    
+      ];
+
+  return (
+
+    
+    <>
+<div className="row  mt-32 font-sans">
+<p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Panel Air Conditioner </p>
+
+<div>
+
+
+<div className="row">
+<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+
+      <div className="md:w-[40%] w-auto">
+        <div className="flex items-center justify-center h-full">
+          <div>
+            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+              <div className="w-auto">
+                <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                  <img
+                    className="  h-[28rem]  object-center object-fill "
+                    fetchPriority="high"
+                    decoding="async"
+                    alt="Panel Air Conditioner "
+                    src="/wm.png"
+                  />
+                </div>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h2 className="font-dmserif text-3xl font-bold text-white">Wall Mount </h2>
+                <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                </p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+        <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Wall Mount </h2>
+        <p className="text-justify md:text-center">
+        Our wall-mounted panel air conditioner is a compact and efficient cooling solution designed to protect your critical electrical equipment. We offer a range of cooling capacities from 250W to 7000W, ensuring an ideal fit for your needs. Whether you require cooling for a small electrical panel or a large industrial control cabinet, we have the right unit to keep your equipment cool and operating optimally. With its quiet operation, easy installation, and reliable performance, you can ensure your equipment functions effectively and lasts longer.
+        </p>
+        <div className="show_m mt-5">
+          <button
+  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+  onClick={() => {
+    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+  }}
+>
+  Enquiry Now
+</button>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
+    <div className="flex justify-center">
+  <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
+    <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+    <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+        <tr className="text-center">
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">250 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">500 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1500 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">2000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">2500 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">3000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">3500 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">5000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">7000 Watt</th>
+        </tr>
+      </thead>
+      <tbody>
+        {wall_mount.map((row, index) => (
+          <tr key={index} className="bg-white text-center border-b border-gray-300">
+            <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+            {row.values.map((value, i) => (
+              <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+
+
+<div className="row">
+<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+
+
+
+
+      
+
+
+      <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+
+<h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">
+Top Mount 
+</h2>
+<p className="text-justify md:text-center">
+Discover our Top-Mount Panel Air Conditioners, designed to deliver optimal cooling with capacities ranging from 250W to 1500W. No matter the size of your electrical panel or control cabinet, we have the perfect solution to ensure your equipment remains cool and functions at its best. Protect your investment and enhance performance with our reliable air conditioning units!
+</p>
+<div className="show_m mt-5">
+  <button
+className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+onClick={() => {
+window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+}}
+>
+Enquiry Now
+</button>
+
+
+
+</div>
+</div>
+<div className="md:w-[40%] w-auto">
+        <div className="flex items-center justify-center h-full">
+          <div>
+            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+              <div className="w-auto">
+                <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                  <img
+                    className=" h-96"
+                    fetchPriority="high"
+                    decoding="async"
+                    alt="Panel Air Conditioner "
+                    src="/tm.png"
+                  />
+                </div>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h2 className="font-dmserif text-3xl font-bold text-white">Top Mount </h2>
+                <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                </p>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+
+
+    </div>
+    <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
+    <div className="flex justify-center">
+  <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
+    <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+    <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+        <tr className="text-center">
+
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">250 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">500 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1500 Watt</th>
+       
+
+        </tr>
+      </thead>
+      <tbody>
+        {top_mount.map((row, index) => (
+          <tr key={index} className="bg-white text-center border-b border-gray-300">
+            <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+            {row.values.map((value, i) => (
+              <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+
+
+<div className="row">
+<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+
+
+
+
+
+<div className="md:w-[40%] w-auto">
+        <div className="flex items-center justify-center h-full">
+          <div>
+            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+              <div className="w-auto">
+                <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                  <img
+                    className=" h-96"
+                    fetchPriority="high"
+                    decoding="async"
+                    alt="Panel Air Conditioner "
+                    src="/sa.png"
+                  />
+                </div>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h2 className="font-dmserif text-3xl font-bold text-white">Stand Alone  </h2>
+                <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                </p>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+
+<h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">
+Stand Alone  
+</h2>
+<p className="text-justify md:text-center">
+Enhance your cooling experience with our Stand-Alone Panel Air Conditioners—flexible and efficient solutions that fit seamlessly into any area of your facility. These units are ideal for situations where wall or top-mounted installations are not feasible. Our panel air conditioners provide powerful cooling capacities ranging from 1,000W to 7,000W. 
+Now enjoy the advantages of a compact design, whisper-quiet operation, and reliable performance, ensuring that your critical equipment receives the optimal cooling it needs to thrive.
+</p>
+<div className="show_m mt-5">
+  <button
+className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+onClick={() => {
+window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+}}
+>
+Enquiry Now
+</button>
+
+
+
+</div>
+</div>
+
+    
+
+    
+
+
+    </div>
+    <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
+    <div className="flex justify-center">
+  <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
+    <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+    <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+        <tr className="text-center">
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
+         
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">1500 Watt</th>
+        
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">3000 Watt</th>
+         
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">5000 Watt</th>
+          <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">7000 Watt</th>
+        </tr>
+      </thead>
+      <tbody>
+        {stand_alone.map((row, index) => (
+          <tr key={index} className="bg-white text-center border-b border-gray-300">
+            <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+            {row.values.map((value, i) => (
+              <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+      {products2.map((product) => (
+        <div key={product.id} className="h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          {/* Image Container */}
+     
+
+      
+          <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+
+          <span className=' relative right-6'>
+
+            <h2 className="text-[6vw] md:text-4xl text-left mb-3 ">{product.title}</h2>
+            <p className=' text-justify'>Industrial Panel air conditioners are used in a variety of application areas. <br /> Here are some examples:</p>
+          </span>
+
+            <div className=" text-justify">
+         
+              <ul className="list-disc">
+             <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+  <path  strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+</svg>
+Manufacturing Facilities</span> 
+
+                <li>Cool precision machinery (CNC, robotics, automation).
+
+</li>
+<li>
+Prevent overheating in electrical control panels (drives, PLCs).</li>
+<li>Maintain product quality and efficiency on production lines.</li>
+<li>Create comfortable assembly environments.</li>
+                
+              </ul>
+
+
+              <ul className="list-disc">
+             <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+  <path  strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+</svg>
+    Food and Beverage Industry:
+</span> 
+
+                <li>Cool processing equipment, control labs, and storage areas.
+
+
+</li>
+<li>
+Prevent spoilage and maintain product freshness           .
+</li>
+
+                
+              </ul>
+
+
+              <ul className="list-disc">
+             <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+  <path  strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+</svg>
+    Data Centers
+</span> 
+
+                <li>Protect servers and network equipment from overheating.
+
+
+</li>
+<li>
+Ensure data integrity and energy efficiency.
+</li>
+
+                
+              </ul>
+            </div>
+          
+          </div>
+    {/* Text Container */}
+
+
+          <div className="md:w-[40%] w-auto">
+            <div className="flex items-center justify-center h-full">
+              <div>
+                <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                  <div className="w-auto">
+                    <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                      {/* Use next/image for optimized image loading */}
+                      <Image
+                        className="h-[30rem] object-center object-fill"
+                        priority
+                        alt={product.altText}
+                        src={product.imageSrc}
+                        width={500} // Set appropriate width
+                        height={700} // Set appropriate height
+                        layout="responsive" // Ensure responsive behavior
+                      />
+                    </div>
+                  </div>
+
+                  {/* Overlay */}
+           
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+
+
+      {products3.map((product) => (
+
+
+        <div key={product.id} className="h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          {/* Image Container */}
+          <div className="md:w-[40%] w-auto">
+            <div className="flex items-center justify-center h-full">
+              <div>
+                <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                  <div className="w-auto">
+                    <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                      {/* Use next/image for optimized image loading */}
+                      <Image
+                        className="h-[30rem] object-center object-fill"
+                        priority
+                        alt={product.altText}
+                        src={product.imageSrc}
+                        width={500} 
+                        height={700} 
+                        layout="responsive" 
+                      />
+                    </div>
+                  </div>
+
+                  {/* Overlay */}
+           
+                </div>
+              </div>
+            </div>
+          </div>
+
+       {/* Text Container */}
+
+          <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+
+          <span className=' relative right-6'>
+
+            <h2 className="text-[6vw] md:text-4xl px-8  py-4 rounded-full text-left mb-3 bg-black text-white  ">{product.title}</h2>
+            
+          </span>
+  
+
+            <div className=" text-justify">
+         
+              <ul className="list-disc">
+           
+
+
+
+ 
+ 
+
+ 
+
+                <li>   A wide range of products starts from 250 watts to 7000 watts.
+
+</li>
+<li>
+Using eco-friendly refrigerant R-134a.</li>
+<li> Hermetically sealed reciprocating compressor with a make of Emerson/ Danfoss/Tecumseh.</li>
+<li> Designed for a 24-hour working.</li>
+<li> Low noise level & aesthetically appealing.</li>
+<li> Compact design which saves huge space.</li>
+<li> MS powder-coated body and SS 304 also available as per the requirement .</li>
+<li>Energy saving Microprocessor-based controller which is easy
+to operate.</li>
+                
+              </ul>
+
+
+              
+            </div>
+          
+          </div>
+   
+        </div>
+      ))}
+
+
+    </div>
+
+    <div className="row">
+
+
+<div className="inline-flex items-center justify-center w-full mx-auto my-4">
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<div className="row">
+
+
+
+
+
+
+<div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+
+  <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
+
+
+    <div>
+      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
+      </p>
+      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
+      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
+
+      <ul className="space-y-2 sm:space-y-4 pt-3">
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Quick To Respond
+            </span>
+          </div>
+        </li>
+
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Flexible Price
+            </span>
+          </div>
+        </li>
+
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              24/7 Hours Support
+            </span>
+          </div>
+        </li>
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Experienced Professionals
+            </span>
+          </div>
+        </li>
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Experienced Professionals
+            </span>
+          </div>
+        </li>
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Conscientious
+            </span>
+          </div>
+        </li>
+        <li className="flex gap-x-3">
+          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+          </span>
+          <div className="grow">
+            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
+              Ontime at Services
+            </span>
+          </div>
+        </li>
+      </ul>
+
+
+
+
+
+
+      <div className="mt-7 grid gap-3 w-full sm:inline-flex">
+        <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
+          Know more About Us
+          <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+        </a>
+        <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
+          Contact sales team
+        </a>
+      </div>
+
+
+
+    </div>
+
+
+    <div className="relative ms-4 items-center flex justify-center">
+
+      <div className="flex justify-center  absolute " >
+        <span className="relative flex h-16 w-16">
+          <span
+            className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
+          ></span>
+
+          <span
+            className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
+          >
+            <FaPlay />
+          </span>
+
+        </span>
+        <button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
+      </div>
+
+
+
+
+      <img className="h-[70%] rounded-md" src="/about3.jpg" alt="Hero Image" />
+      <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
+
+
+      <div className="absolute bottom-0 start-0">
+        <svg className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="531" y="352" width="99" height="99" fill="currentColor" />
+          <rect x="140" y="352" width="106" height="99" fill="currentColor" />
+          <rect x="482" y="402" width="64" height="49" fill="currentColor" />
+          <rect x="433" y="402" width="63" height="49" fill="currentColor" />
+          <rect x="384" y="352" width="49" height="50" fill="currentColor" />
+          <rect x="531" y="328" width="50" height="50" fill="currentColor" />
+          <rect x="99" y="303" width="49" height="58" fill="currentColor" />
+          <rect x="99" y="352" width="49" height="50" fill="currentColor" />
+          <rect x="99" y="392" width="49" height="59" fill="currentColor" />
+          <rect x="44" y="402" width="66" height="49" fill="currentColor" />
+          <rect x="234" y="402" width="62" height="49" fill="currentColor" />
+          <rect x="334" y="303" width="50" height="49" fill="currentColor" />
+          <rect x="581" width="49" height="49" fill="currentColor" />
+          <rect x="581" width="49" height="64" fill="currentColor" />
+          <rect x="482" y="123" width="49" height="49" fill="currentColor" />
+          <rect x="507" y="124" width="49" height="24" fill="currentColor" />
+          <rect x="531" y="49" width="99" height="99" fill="currentColor" />
+        </svg>
+      </div>
+
+    </div>
+
+
+    {showModal ? (
+      <>
+        <div
+          className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+          onClick={closeModal} // Close modal when clicking outside
+        >
+          <div
+            className="relative  my-6    container-fluid "
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
+          >
+            {/*content*/}
+            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              {/*header*/}
+
+              {/*body*/}
+              <div className="relative  flex-auto">
+           
+                <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/jtizPl_Y744?si=oWwFcUq_IwXZgvjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+              </div>
+              {/*footer*/}
+
+            </div>
+          </div>
+        </div>
+        <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      </>
+    ) : null}
+
+
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+<div className="row pb-16 flex justify-center items-center flex-col">
+
+
+<div className="flex justify-center items-center w-full h-full flex-row">
+  {/* Left line */}
+  <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+
+  {/* Center text */}
+  <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
+    APPLICATIONS
+  </span>
+
+  {/* Right line */}
+  <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+</div>
+
+<div className="row  w-full h-full">
+ 
+
+  <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
+
+  
+      <table className="w-[50%] text-sm text-center text-gray-500 ">
+        <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
+        
+        </thead>
+        <tbody>
+          <tr className="bg-white text-[15px]">
+            <td className="px-6 py-4  text-left">
+              <ul className="list-disc list-inside">
+                {column1.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </td>
+            <td className="px-6 py-4 text-left">
+              <ul className="list-disc list-inside">
+                {column2.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</div>
+
+
+<div className="w-[85%] py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+  {[...Array(2)].map((_, index) => (
+    <ul
+      key={index}
+      className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+      aria-hidden={index === 1 ? 'true' : 'false'}
+    >
+      {logos.map((logo, idx) => (
+        <li key={idx}>
+          <img
+            className=" w-48 object-center object-cover  h-48  rounded-full"
+            src={logo.src}
+            alt={logo.alt}
+          />
+        </li>
+      ))}
+    </ul>
+  ))}
+</div>
+
+</div>
+
+</div>
+  
+    </>
+  )
+}
