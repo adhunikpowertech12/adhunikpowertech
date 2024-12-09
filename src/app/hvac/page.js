@@ -440,12 +440,13 @@ CERTIFICATION
 
                 Air Cooling Jobs</h2>
               <p className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                We follow the process of lowering air temperature by various cooling methods as per the requirement. We provide increased airflow and reduced temperatures with the use of Air Cooling Products like Air Washers, Ventilation Fans, Ducted, and Non-Ducted Air Coolers, etc. according to the requirement.
+              At Adhunik Powertech, we take pride in delivering a wide range of cooling methods that effectively lower air temperatures according to your specific needs. Our selection of Air Cooling Products—such as Air Washers, Ventilation Fans, and both Ducted and Non-Ducted Air Coolers—ensures increased airflow and reduced temperatures, helping you create the ideal environment.
+
                 <br />
-                The technique involves increased airflow over the target that needs to be cooled or increasing the surface area of the object to help disperse heat. Sometimes both techniques are used.
+                Our proven technique focuses on boosting airflow over the areas you want to cool or increasing the surface area of objects to maximize heat dispersal. We often combine both methods to achieve outstanding results.
+
                 <br />
-                We are technically very competitive to complete any kind of Air Cooling Job where the conditions are different from normal.
-              </p>
+                When it comes to air cooling projects, we stand out with our expertise, even in non-standard conditions. Trust us to provide reliable and efficient air cooling solutions that meet and exceed your expectations.  </p>
             </div>
             <div className=" w-full h-full md:w-5/12 my-5  ">
               <ImageGallery items={images3} className=" rounded-lg " alt="pics" />
