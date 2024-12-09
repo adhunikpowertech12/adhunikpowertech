@@ -260,7 +260,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="https://img.freepik.com/free-photo/person-working-building-construction_23-2149184906.jpg?w=1800&t=st=1728471161~exp=1728471761~hmac=e20c17d854a8dc2d6354a909dabe6598ba80392ba6c6c96e4ed9e6125cf3de7a"
+                          src="awi/1.jpeg"
                         />
                       </div>
                     </div>
@@ -363,7 +363,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="https://img.freepik.com/free-photo/person-working-building-construction_23-2149184906.jpg?w=1800&t=st=1728471161~exp=1728471761~hmac=e20c17d854a8dc2d6354a909dabe6598ba80392ba6c6c96e4ed9e6125cf3de7a"
+                          src="awi/14.jpeg"
                         />
                       </div>
                     </div>
@@ -508,7 +508,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="https://img.freepik.com/free-photo/person-working-building-construction_23-2149184906.jpg?w=1800&t=st=1728471161~exp=1728471761~hmac=e20c17d854a8dc2d6354a909dabe6598ba80392ba6c6c96e4ed9e6125cf3de7a"
+                          src="awi/15.jpeg"
                         />
                       </div>
                     </div>
@@ -613,7 +613,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="https://img.freepik.com/free-photo/person-working-building-construction_23-2149184906.jpg?w=1800&t=st=1728471161~exp=1728471761~hmac=e20c17d854a8dc2d6354a909dabe6598ba80392ba6c6c96e4ed9e6125cf3de7a"
+                          src="awi/16.jpeg"
                         />
                       </div>
                     </div>
