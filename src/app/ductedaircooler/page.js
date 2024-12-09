@@ -663,12 +663,15 @@ export default function DuctedAirCooler() {
 
 <div className="md:w-[50%] w-auto h-full p-2 m-2 md:p-5 md:m-5  ">
 
-        <p className="text-sm font-sans text-center font-thin  mb-3 ">
-        Outdoor Air Intake: The ducted air cooler  draws in warm, <br /> dry air from outside the industrial space.
-        </p>
-        <p className=" text-[20px] font-sans font-thin ">  <span className=" "> Evaporative Cooling Process:</span> This hot air passes through wetted pads inside the cooler. As the air moves through the pads, water evaporates into the air stream, absorbing heat in the process. This cool, moist air is then distributed throughout the industrial space via ducts.
+       
+
+        <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" ">  Outdoor Air Intake:</span>     The ducted air cooler  draws in warm,  dry air from outside the industrial space.
+      
 </p>
-        <p className=" text-[20px] font-sans font-thin ">  <span>Temperature Reduction:</span>  The cooler lowers the temperature of the air by several degrees Celsius, depending on the outdoor humidity. This cool air helps to improve worker comfort and productivity in hot environments.
+
+        <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" "> Evaporative Cooling Process:</span> This hot air passes through wetted pads inside the cooler. As the air moves through the pads, water evaporates into the air stream, absorbing heat in the process. This cool, moist air is then distributed throughout the industrial space via ducts.
+</p>
+        <p className=" text-[20px] font-sans font-thin  text-left">  <span>Temperature Reduction:</span>  The cooler lowers the temperature of the air by several degrees Celsius, depending on the outdoor humidity. This cool air helps to improve worker comfort and productivity in hot environments.
 </p>
       
      
