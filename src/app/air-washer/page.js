@@ -3,39 +3,13 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
-export default function() {
+export default function page() {
 
   const [showModal, setShowModal] = React.useState(false);
 
   const closeModal = () => {
     setShowModal(false);
   };
-
-
-  const [mounted, setMounted] = useState(false);
-
-  // Ensure this component only renders on the client side
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return <>
-
-      <div className="flex justify-center items-center h-screen">
-        <div className="flex flex-row gap-2">
-          <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce"></div>
-          <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]"></div>
-          <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]"></div>
-        </div>
-      </div>
-
-    </>; // Return nothing while rendering on the server to avoid mismatches
-  }
-
-
-
-
 
 
   const column1 = [
@@ -67,10 +41,6 @@ export default function() {
     { src: '/awi/11.webp', alt: 'Asahi-India-Glass-Ltd' },
     { src: '/awi/12.webp', alt: 'Asahi-India-Glass-Ltd' },
     { src: '/awi/13.webp', alt: 'Asahi-India-Glass-Ltd' },
-
-
-
-
 
   ];
 
@@ -129,7 +99,7 @@ export default function() {
     },
   ];
 
-  
+
   return (
 
 
@@ -139,7 +109,7 @@ export default function() {
       <div className="row  mt-32 font-sans">
         <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase">Air washer</p>
 
-        <div>
+      
 
 
           <div className="row ">
@@ -266,16 +236,16 @@ export default function() {
 
 
 
-                  
+
 
                   </div>
                 </div>
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className=" text-center text-3xl  font-sans   uppercase   ">SINGLE STAGE Air Washer <br /> 
-                <span className=' text-[14px]'> (DIRECT EVAPORATIVE
-                  COOLING SYSTEM)</span> </h2>
+                <h2 className=" text-center text-3xl  font-sans   uppercase   ">SINGLE STAGE Air Washer <br />
+                  <span className=' text-[14px]'> (DIRECT EVAPORATIVE
+                    COOLING SYSTEM)</span> </h2>
                 <p className=" text-[20px] w-full text-center font-serif " > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
@@ -340,7 +310,7 @@ export default function() {
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-        
+
                 <div className="text-justify ">
                   <ul className="list-disc">
                     <li>Direct evaporative cooling, also known as direct adiabatic cooling or wet bulb cooling, is called direct as there is direct contact between the water and the air stream. During the direct evaporative cooling process, water is evaporated directly into the air stream that needs to be cooled down. This type of evaporative cooling is the most used form worldwide, especially in dry regions.</li>
@@ -432,7 +402,7 @@ export default function() {
           </div>
 
 
-         
+
 
           <div className="row">
             <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
@@ -523,7 +493,7 @@ export default function() {
           </div>
 
 
-        </div>
+        
 
         <div className="row">
 
@@ -677,7 +647,7 @@ export default function() {
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
-             
+
 
               </div>
 
@@ -698,7 +668,7 @@ export default function() {
 
                         {/*body*/}
                         <div className="relative  flex-auto">
-                        
+
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/maCpVe_3Y2M?si=a1rz8p00L814B6xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                         {/*footer*/}
@@ -797,3 +767,5 @@ export default function() {
     </>
   )
 }
+
+
