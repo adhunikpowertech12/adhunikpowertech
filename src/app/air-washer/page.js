@@ -369,9 +369,11 @@ export default function page() {
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-3xl  font-sans mb-3  uppercase  text-left "> Double STAGE Air Washer <br /> (IN-DIRECT EVAPORATIVE
-                  COOLING SYSTEM) </h2>
-                <p className=" text-[15px] w-full text-center font-serif" > (Working Principle)</p>
+             
+                <h2 className=" text-center text-3xl  font-sans   uppercase   ">Double STAGE Air Washer <br />
+                  <span className=' text-[14px]'> (IN-DIRECT  EVAPORATIVE
+                    COOLING SYSTEM)</span> </h2>
+                <p className=" text-[20px] w-full text-center font-serif " > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
