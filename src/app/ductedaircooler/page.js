@@ -893,7 +893,8 @@ export default function DuctedAirCooler() {
               {/*body*/}
               <div className="relative  flex-auto">
               
-                <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/zCH3jHqXoSo?si=AdmiMjEtClY5y6R9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+                <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/NRKxjM4SW7I?si=VRKaD5km3jKjQkfd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
               </div>
               {/*footer*/}

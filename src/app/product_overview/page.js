@@ -621,7 +621,9 @@ export default function page2() {
              
                 {/*body*/}
                 <div className="relative  flex-auto">
-                     <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/AnPECCeuIwI?si=xT4FXatZ9MJrwT5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  
+                 
+                     <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/lrCuiQKhzpg?si=9YXv4snGgFg7rXA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 </div>
                 {/*footer*/}
