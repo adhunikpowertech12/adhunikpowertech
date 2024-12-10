@@ -210,23 +210,14 @@ export default function ContactUs() {
 
 
 
-                        <div className=" h-fit justify-center items-center flex  w-full md:w-7/12 ">
+                    <div className="h-fit justify-center items-center flex w-full md:w-7/12">
+  <img
+    src="/contactus.webp" // Replace this with your desired image URL
+    alt="Description of the image"
+    className="w-full h-auto object-cover"
+  />
+</div>
 
-                            <video
-                                autoPlay
-                                loop
-                                muted
-                                className="w-full h-auto object-cover"
-                            >
-                                <source src='https://videos.pexels.com/video-files/5311356/5311356-sd_640_360_25fps.mp4' type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-
-
-                          
-
-
-                        </div>
 
 
                         <div className="h-fit w-auto lg:w-5/12  mt-5">
