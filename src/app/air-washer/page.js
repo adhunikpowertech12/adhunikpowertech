@@ -48,7 +48,7 @@ export default function page() {
   const lists = [
     {
       heading: '100% fresh, clean, cool air ',
-      img: '/102.png',
+      img: '/100.png',
       items: ['Maintains excellent indoor air quality', 'Healthy conditions for the human body',]
     },
     {
@@ -58,43 +58,43 @@ export default function page() {
     },
     {
       heading: 'High level of filtration',
-      img: '/102.png',
+      img: '/104.png',
       items: ['Supplies clean air', 'Keeps indoor areas clean',]
     },
     {
       heading: 'Positive pressure system',
-      img: '/102.png',
+      img: '/106.png',
       items: ['Prevents ingress of dust', ' Drives out harmful contaminants',]
     },
     {
       heading: <>Non refrigerant and compressor <br /> based technology
       </>,
-      img: '/102.png',
+      img: '/108.png',
       items: ['No harmful gases used', 'Sustainable cooling solution',]
     },
     {
       heading: 'Robust and compact design',
-      img: '/102.png',
+      img: '/110.png',
       items: ['The body of the machine doesn’t get damaged when exposed to harsh weather conditions ', 'Long product life',]
     },
     {
       heading: 'Up to 5°C more cooling compared to direct evaporative air-coolers ',
-      img: '/102.png',
+      img: '/112.png',
       items: ['Easily maintains temperatures below 30°C ', 'Ideal temperature conditions for both man and machine',]
     },
     {
       heading: 'Up to 60% less moisture addition in air compared to direct evaporative air-coolers',
-      img: '/102.png',
+      img: '/114.png',
       items: ['Supplies drier air compared to direct evaporative air-coolers ', ' Can be used even in the monsoon season',]
     },
     {
       heading: '3 modes of operation – IDEC, IEC and ventilation ',
-      img: '/102.png',
+      img: '/100.png',
       items: ['  Modes can be selected based on ambient weather conditions  ', ' All weather cooling solution ',]
     },
     {
       heading: ' Blow through design  ',
-      img: '/102.png',
+      img: '/104.png',
       items: ['   Blower doesn’t come in contact with moist air  ', '  Zero chance of blower rusting ',]
     },
   ];
@@ -246,7 +246,7 @@ export default function page() {
                 <h2 className=" text-center text-3xl  font-sans   uppercase   ">SINGLE STAGE Air Washer <br />
                   <span className=' text-[14px]'> (DIRECT EVAPORATIVE
                     COOLING SYSTEM)</span> </h2>
-                <p className=" text-[20px] w-full text-center font-serif " > (Working Principle)</p>
+                <p className=" text-[20px] w-full text-center font-serif pb-5 " > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
@@ -373,7 +373,7 @@ export default function page() {
                 <h2 className=" text-center text-3xl  font-sans   uppercase   ">Double STAGE Air Washer <br />
                   <span className=' text-[14px]'> (IN-DIRECT  EVAPORATIVE
                     COOLING SYSTEM)</span> </h2>
-                <p className=" text-[20px] w-full text-center font-serif " > (Working Principle)</p>
+                <p className=" text-[20px] w-full text-center font-serif  pb-5" > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
