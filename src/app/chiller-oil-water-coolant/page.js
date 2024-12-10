@@ -363,7 +363,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="awi/14.jpeg"
+                          src="awi/15.jpeg"
                         />
                       </div>
                     </div>
@@ -508,7 +508,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="awi/15.jpeg"
+                          src="awi/16.jpeg"
                         />
                       </div>
                     </div>
@@ -613,7 +613,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
-                          src="awi/16.jpeg"
+                          src="awi/14.jpeg"
                         />
                       </div>
                     </div>
