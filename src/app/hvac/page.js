@@ -471,9 +471,12 @@ CERTIFICATION
 
                 Air Conditioning Jobs</h2>
               <p className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                We follow the process of altering the properties of air to the more comfortable conditions, typically intending to distribute the conditioned air to an occupied space, such as Residential buildings, Commercial spaces, Hospitals, Pharma and Food Industries, Industrial and Institutional sector, etc., to improve the thermal comfort and indoor air quality.
+              We specialize in enhancing air quality and comfort in every environment. Our mission is to efficiently deliver conditioned air to all spaces, ensuring that everyone enjoys optimal conditions.
+
                 <br />
-                We at Om Cooling System are well-experienced in handling Air Conditioning jobs and have completed many projects proudly.
+                We proudly offer HVAC services to a wide variety of settings, including residential, commercial, hospitals, and industries such as pharmaceuticals and food manufacturing, as well as factories and schools. By choosing us, you guarantee improved comfort and exceptional indoor air quality.
+<br />
+With years of experience in air conditioning projects, we have a proven track record of success. Trust us to meet your air conditioning needs and experience the difference in quality and comfort.
               </p>
             </div>
 
@@ -493,60 +496,67 @@ CERTIFICATION
 
               </h2>
               <div className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                Our Team of professional engineers is experienced in Designing an HVAC layout for Clean Rooms and OTs which is a work of high precision with zero tolerance for the entry of foreign particles. We provide a controlled, isolated environment for handling contamination-sensitive substances or for protecting the exterior
+              Our team of professional engineers specializes in designing HVAC layouts for clean rooms and operating theatres, which require a high level of precision with strict zero tolerance for the entry of foreign particles. We create controlled, isolated environments for handling contamination-sensitive substances while also protecting the exterior environment from hazardous materials within these controlled areas. 
+
                 <br />
-                environment from dangerous substances in the controlled area. The density of sub-micron and larger airborne particle contamination inside a cleanroom is kept within tightly controlled limits by forcing clean, filtered air into the cleanroom.
+                To maintain these standards, we manage the density of sub-micron and larger airborne particles by introducing clean, filtered air into the cleanroom. 
+<p className=' text-2xl '>Our services include:
+</p>
                 <div className="card">
       <ul className="list-disc py-3 space-y-1 ps-4">
-
-     
-
-
 
         <li>
         Making a blueprint of the duct layout
         </li>
-  <li>
-  A.H.U design
-  </li>
-<li>
-Duct designing including calculation of the requirement of Risers and Diffusers
-</li>
-<li>
-Contamination control through Air flow rate and direction, pressurization, temperature, humidity, and specialized filtration
-</li>
-<li>
-Maintaining Positive Laminar flow inside the room and not allowing the outside air/foreign particle to enter.
-</li>
-<li>
-Installation of a set of Micro-Filters and HEPA Filters as required.
-</li>
-<li>
-Air Balancing and maintaining positive pressure
-</li>
-<li>
-Fabrication and manufacturing of A.H.U with required Filters and provision of humidity control
-</li>
-<li>
-Installation of HEPA filters either in the A.H.U or at terminals of the Supply duct as the space allows
+        <li>
+        Making blueprints for duct layouts 
+        </li>
+        <li>
+         ⁠Designing/Selecting Air Handling Units (AHUs) 
 
-</li>
-<li>
-Fabrication of 16G/18-G/20-G/22-G/24-G/26-G duct
-
-</li>
-<li>
-Guaranteed assurance of class maintenance (particle count) inside the work-space
-</li>
-<li>
-Installation of Duct and A.H.Us under the supervision of experienced professionals
-</li>
-<li>
-Installation of all other standard equipment required for the clean room.
-</li>
+        </li>
+        <li>
+        ⁠Designing ducts, including calculating the requirement for risers and diffusers
+        </li>
+        <li>
+        ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration 
+        </li>
+        <li>
+        ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration
+        </li>
+        <li>
+        ⁠Contamination control through airflow rate and direction, pressurization, temperature, humidity, and specialized filtration
+        </li>
+ <li>
+ ⁠Maintaining positive laminar flow inside the room to prevent outside air and foreign particles from entering
+ </li>
+ <li>
+ ⁠Installing a set of micro-filters and HEPA filters as required 
+ </li>
+ <li>
+ ⁠Conducting air balancing to ensure positive pressure is maintained
+ </li>
+ <li>
+ ⁠Fabricating and manufacturing AHUs with the necessary filters and humidity control provisions 
+ </li>
+ <li>
+ ⁠Installing HEPA filters either within the AHU or at the terminals of the supply duct, depending on available space 
+ </li>
+ <li>
+ ⁠Fabricating ducts in various gauges (16G, 18G, 20G, 22G, 24G, 26G) 
+ </li>
+ <li>
+ ⁠Providing guaranteed assurance of class maintenance (particle count) inside the workspace 
+ </li>
+ <li>
+ ⁠Installing ducts and AHUs under the supervision of experienced professionals 
+ </li>
+ <li>
+ ⁠Installing all other standard equipment necessary for the clean room.
+ </li>
       </ul>
     </div>
-
+<p>Our commitment ensures the highest standards of cleanliness and safety within controlled environments.</p>
               </div>
 
 
@@ -579,27 +589,19 @@ Basement Ventilation </h2>
   <div className="section-title ">
  
     <p className=" text-gray-500 font-sans">
-      Are you looking for a <strong className="font-semibold">basement ventilation?</strong>
+    Do you notice stale, stuffy, or moldy air lingering in your space? At Adhunik Powertech, we offer an effective Basement Ventilation System designed to improve your air quality by addressing the natural “stack effect” found in industrial, institutional, commercial, and residential settings.
+
     </p>
 
     <p className=" text-gray-500 font-sans mt-4">
-      Do you have <strong className="font-semibold">stale, stuffy, or moldy air</strong> that needs to be filtered out?
+    Our innovative Ventilation System provides a crucial escape route for trapped, unhealthy air in your basement while bringing in clean, dry air from above to replace the damp, polluted atmosphere.
     </p>
 
     <p className=" text-gray-500 font-sans mt-4">
-      If so, we at <strong className="font-semibold">Om Cooling System</strong> provide a Basement Ventilation System that will help improve the air quality by combating the natural 
-      <strong className="font-semibold"> “stack effect”</strong> in the <strong className="font-semibold">industrial, institutional, commercial</strong>, and 
-      <strong className="font-semibold"> residential sectors</strong>.
+    The best part? No extra heating or cooling ducts are required! Our system enhances air circulation, resulting in more frequent air exchanges. Enjoy a cleaner and healthier living environment that you can truly appreciate.
     </p>
 
-    <p className=" text-gray-500 font-sans mt-4">
-      Our <strong className="font-semibold">Ventilation System</strong> creates a much-needed path of escape from the dirty basement air and introduces the clean, dry air from upstairs to replace the damp, polluted air.
-    </p>
-
-    <p className=" text-gray-500 font-sans mt-4">
-      No additional heating or cooling ducts are necessary. Our <strong className="font-semibold">Ventilation System</strong> assists in air circulation throughout the area. The entire space benefits from increased 
-      <strong className="font-semibold"> air exchanges</strong>, creating a cleaner, healthier living environment that you can see and feel!
-    </p>
+   
 
  
   </div>
@@ -629,39 +631,42 @@ Ducting Jobs
   <div className="section-title  ">
    
     <p className=" text-gray-500 font-sans ">
-      We at <strong className="font-semibold">Om Cooling System</strong> ensure that ductwork is installed properly, providing an efficient way to keep your environment 
-      <strong className="font-semibold"> comfortable</strong> and <strong className="font-semibold">regulating</strong> the temperature in the required area.
+    At Adhunik Powertech, we understand the importance of expertly installed ductwork in creating a comfortable indoor environment. Our commitment ensures that your space remains at the ideal temperature, enhancing your overall comfort.
+
     </p>
 
     <p className=" text-gray-500 font-sans  mt-4">
-      If <strong className="font-semibold">ductwork</strong> is not done properly, it can result in air <strong className="font-semibold">leakage, inefficient systems, poor air quality,</strong> and early failure of 
-      <strong className="font-semibold"> heating/air conditioning</strong> equipment.
+    Neglecting proper ductwork installation can lead to significant problems, including air leakage, inefficient systems, compromised air quality, and expedited wear and tear on your heating and air conditioning systems. Don’t let improper installation jeopardize your comfort and investment!
+
     </p>
 
     <p className=" text-gray-500 font-sans  mt-4">
-      Proper sizing is also crucial for <strong className="font-semibold">ductwork installation</strong>. The size of the ducts must match your 
-      <strong className="font-semibold"> heater or air conditioner</strong> to ensure efficient operation.
+    Correct duct sizing is also vital—duct dimensions must perfectly match your heater or air conditioner for optimal performance. Our team of expert technicians specializes in precisely aligning your duct system to your existing equipment. Through meticulous adjustments, we maximize efficiency, comfort, and system longevity, guaranteeing effective airflow wherever you need it.
+
     </p>
 
-    <p className=" text-gray-500 font-sans  mt-4">
-      Our <strong className="font-semibold">ductwork installation professionals</strong> are skilled technicians who will perfectly match the duct system to your equipment. They fine-tune the ductwork for 
-      <strong className="font-semibold"> optimal efficiency, comfort, and longevity</strong>, ensuring air flows correctly into the required areas.
-    </p>
+  
 
     <p className=" text-gray-700 font-sans  mt-4">
-      <strong>Our process of Ducting Jobs includes:</strong>
+      <strong>Our comprehensive Ducting Jobs process includes:
+      </strong>
     </p>
 
     <ul className="list-disc py-3 space-y-1 ps-4">
-      <li>Carrying out installation and operation of all ducting activities.</li>
-      <li>Scheduling, assigning, planning, and monitoring ducting work on project sites.</li>
-      <li>Reviewing layouts and drawings for current and future ducting projects.</li>
-      <li>Supervising ducting works on-site.</li>
-      <li>Ensuring progress, schedules, and completion within the promised time.</li>
-      <li>Preparing and submitting daily reports to supervisors, engineers, and clients.</li>
+      <li> Carrying out seamless installation and operation of all ducting activities.
+      </li>
+      <li>  ⁠Efficiently scheduling, assigning, planning, and monitoring duct work on your project sites.
+      </li>
+      <li>  ⁠Thoroughly reviewing layouts and drawings for both current and future ducting projects. </li>
+      <li> Supervising all duct work on-site to ensure quality.
+      </li>
+      <li> Upholding progress, schedules, and meeting project deadlines without fail.
+      </li>
+      <li> ⁠Preparing and delivering detailed daily reports to supervisors, engineers, and clients.
+      </li>
     </ul>
 
-   
+   <p>Choose Adhunik Powertech for professional ductwork that you can trust, ensuring comfort and efficiency for years to come!</p>
   </div>
 </div>
 
