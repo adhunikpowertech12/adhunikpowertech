@@ -77,8 +77,9 @@ export default function AirWasher() {
 
       <div className="row h-auto">
 
-
-        <div className="timeline">
+<p className=" font-sans text-5xl text-center "><span class=" bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#80D0C7] uppercase">   COMPANY MILESTONES </span>
+</p>
+       <div className="timeline">
 
 
           <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
