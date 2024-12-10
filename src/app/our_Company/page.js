@@ -6,7 +6,7 @@ export default function AirWasher() {
 
 
 
- return (
+  return (
     <>
 
       <div className=" my-11">
@@ -17,23 +17,23 @@ export default function AirWasher() {
         <div className="col py-12 justify-center items-center  flex flex-col">
 
 
-      
+
 
 
 
           <p className="  text-3xl font-serif" >   HVAC Solution Under One Roof </p>
 
-      
+
 
           <p className="text-[12xl] w-[75%] text-center font-sans font-thin py-7">
 
-          Adhunik Powertech Private Limited is a leading manufacturer specializing in high-quality air cooling and air conditioning products. We offer comprehensive HVAC project services, including expert design, installation, and maintenance, ensuring our clients receive unparalleled support throughout every phase. With over 19 years of experience in the HVAC industry, we are committed to providing innovative turnkey solutions that meet and exceed international standards. Choose Adhunik Powertech to enhance your indoor comfort and energy efficiency with our trusted HVAC expertise.
+            Adhunik Powertech Private Limited is a leading manufacturer specializing in high-quality air cooling and air conditioning products. We offer comprehensive HVAC project services, including expert design, installation, and maintenance, ensuring our clients receive unparalleled support throughout every phase. With over 19 years of experience in the HVAC industry, we are committed to providing innovative turnkey solutions that meet and exceed international standards. Choose Adhunik Powertech to enhance your indoor comfort and energy efficiency with our trusted HVAC expertise.
           </p>
 
         </div>
       </div>
 
-      <div className="row">
+      <div className="row ">
 
         <div className="relative h-[500px] w-full">
           {/* Video background */}
@@ -49,36 +49,276 @@ export default function AirWasher() {
           </video>
 
           {/* Overlay container for centered content */}
-          <div className="absolute inset-0 text-gray-700  flex items-center justify-center"  
-         >
+          <div className="absolute inset-0 text-gray-700  flex items-center justify-center"
+          >
 
 
 
-            <div  className=" text-center   w-[75%]  rounded-md  border-gray-400  border-[1px] p-11 font-thin bg-white text-gray-700 ">
+            <div className=" text-center   w-[75%]  rounded-md  border-gray-400  border-[1px] p-11 font-thin bg-white text-gray-700 ">
               <h1 className="text-3xl  font-sans  mb-4"> A Brighter India, Powered by Adhunik Powertech </h1>
 
               <p className="text-lg font-thin font-sans">Our conviction, "A Brighter India, Powered by Adhunik Powertech," drives our vision and actions every day. We have successfully evolved from an HVAC services company to India’s premier manufacturer of air cooling and air conditioning products. By supporting the Make in India initiative, we not only enhance local manufacturing but also bring our innovative products to markets around the world, demonstrating our commitment to quality and excellence on a global scale. </p>
 
-           
+
 
             </div>
           </div>
 
 
-          
+
         </div>
       </div>
 
 
-     
 
-      <div className="row ">
-      <div className="container-fluid justify-center flex w-full">
 
-        <img src="amap.png" className=" object-center object-contain" alt="" />
+
+
+
+      <div className="row h-auto">
+
+
+        <div className="timeline">
+
+
+          <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+            <div className="timeline__event__icon ">
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              February 2005
+            </div>
+            <div className="timeline__event__content ">
+              <div className="timeline__event__title">
+                Adhunik Cooling System Pvt. Ltd.
+              </div>
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+            <div className="timeline__event__icon">
+            ◈
+
+            </div>
+            <div className="timeline__event__date">
+              June 2010
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Air Washer Manufacturing
+              </div>
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda officiis possimus aliquam nostrum odit!</li>
+                <li>
+                 Lorem, ipsum dolor.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+            <div className="timeline__event__icon">
+
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              October 2014
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Panel Air
+Conditioner
+Manufacturing
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>   </div>
+
+            </div>
+          </div>
+
+
+
+          <div className="timeline__event animated fadeInUp timeline__event--type1">
+            <div className="timeline__event__icon">
+
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              October 2016
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Establishment of
+              Manufacturing Plant
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>    </div>
+            </div>
+          </div>
+
+
+          <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+            <div className="timeline__event__icon ">
+            ◈
+
+            </div>
+            <div className="timeline__event__date">
+              April 2017
+            </div>
+            <div className="timeline__event__content ">
+              <div className="timeline__event__title">
+              Oil Chiller
+Manufacturing
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>     </div>
+            </div>
+          </div>
+
+
+
+          <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+            <div className="timeline__event__icon">
+
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              November 2019
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Ducted Air Cooler Manufacturing
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>   </div>
+            </div>
+          </div>
+
+
+          <div className="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+            <div className="timeline__event__icon">
+            ◈
+
+            </div>
+            <div className="timeline__event__date">
+              October 2020
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Ventilation Fan Manufacturing
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>   </div>
+
+            </div>
+          </div>
+
+
+
+          <div className="timeline__event animated fadeInUp timeline__event--type1">
+            <div className="timeline__event__icon">
+
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              August 2021
+            </div>
+            <div className="timeline__event__content">
+              <div className="timeline__event__title">
+              Air Shower & Pass Box 2021
+              Manufacturing
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>   </div>
+            </div>
+          </div>
+
+
+          <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+            <div className="timeline__event__icon ">
+
+            ◈
+            </div>
+            <div className="timeline__event__date">
+              June 2024
+            </div>
+            <div className="timeline__event__content ">
+              <div className="timeline__event__title">
+              Adhunik Powertech Pvt. Ltd. – Expansion to Fire & Safety Services
+              </div>
+              <div className="timeline__event__description">
+              <ul className="timeline__event__description list-disc  ps-4">
+                <li>Company Incorporated
+                  as Adhunik Cooling System Pvt.</li>
+                <li>
+                  Started with HVAC
+                  Services
+                </li>
+              </ul>  </div>
+            </div>
+          </div>
+
+
+
+        
+
+        </div>
       </div>
-      </div>
-      
+
 
     </>
   )
