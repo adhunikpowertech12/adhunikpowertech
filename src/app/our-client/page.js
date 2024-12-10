@@ -113,11 +113,7 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
    
-    {
-      src: "/projects/clients/21.webp",
-      alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
-    },
+  
    
     {
       src: "/projects/clients/22.webp",
