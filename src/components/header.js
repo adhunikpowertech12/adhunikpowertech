@@ -360,7 +360,7 @@ function Navbar() {
           <span className="relative w-full text-left">
             Product Catalogue
           </span>
-          <span className="absolute inset-0 border-2 rounded-full"></span>
+          <span className="absolute inset-0  rounded-full"></span>
         </a>
                   
                   </div>
@@ -389,7 +389,7 @@ function Navbar() {
           <span className="relative w-full text-left">
             Project Catalogue
           </span>
-          <span className="absolute inset-0 border-2 rounded-full"></span>
+          <span className="absolute inset-0 rounded-full"></span>
         </a>
                   </div>
 
