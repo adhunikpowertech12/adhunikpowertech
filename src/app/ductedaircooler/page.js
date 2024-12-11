@@ -5,45 +5,54 @@ import { FaPlay } from "react-icons/fa";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 export default function DuctedAirCooler() {
+
+  
   const accordionData = useMemo(() => [
     {
       title: "1. How does an evaporative air cooler work?",
-      content: "The air cooler works by pulling warm air through moistened pads, which causes the water to evaporate and cool the air. The cooled air is then circulated through ducts and into the desired space, providing a refreshing breeze. This process is energy-efficient and helps to increase humidity levels in dry climates.",
+      content:
+        "The air cooler works by pulling warm air through moistened pads, which causes the water to evaporate and cool the air. The cooled air is then circulated through ducts and into the desired space, providing a refreshing breeze. This process is energy-efficient and helps to increase humidity levels in dry climates.",
     },
     {
       title: "2. What is the electricity consumption of evaporative cooling systems?",
-      content: "They consume 90% less electricity as compared to an air conditioner. To cool an area of 1500 sqft. it consumes only 1.5-2 units/hr.",
+      content:
+        "They consume 90% less electricity as compared to an air conditioner. To cool an area of 1500 sqft. it consumes only 1.5-2 units/hr.",
     },
     {
-      title: "3. Are evaporative Cooling Machines Environment Friendly? ",
-      content: "Yes, They're eco-friendly. Unlike air conditioners that use harmful chemicals like CFCs, these cooling systems don't release any gases that harm the ozone layer.",
-    },
-    
-    {
-      title: " 4. Is the Air-Cooling machine installed inside or does it require an open space? ",
-      content: "The air cooler needs to be installed outside in an open area. You can put it on the ground using a stand, place it on the terrace, or hang it on walls using a special structure called a cantilever.",
+      title: "3. Are evaporative Cooling Machines Environment Friendly?",
+      content:
+        "Yes, They're eco-friendly. Unlike air conditioners that use harmful chemicals like CFCs, these cooling systems don't release any gases that harm the ozone layer.",
     },
     {
-      title: " 5. How much time does it take to install an evaporative cooling system? ",
-      content: "It generally takes around 10-15 days to properly install an effective cooling system with ducts. Hence, it's always better to plan the installation before the summer season. So that your factory is summer-ready and you do not lose productivity due to extreme heat.",
+      title: "4. Is the Air-Cooling machine installed inside or does it require an open space?",
+      content:
+        "The air cooler needs to be installed outside in an open area. You can put it on the ground using a stand, place it on the terrace, or hang it on walls using a special structure called a cantilever.",
     },
-    
-
+    {
+      title: "5. How much time does it take to install an evaporative cooling system?",
+      content:
+        "It generally takes around 10-15 days to properly install an effective cooling system with ducts. Hence, it's always better to plan the installation before the summer season. So that your factory is summer-ready and you do not lose productivity due to extreme heat.",
+    },
   ], []);
-  
 
-const [contentHeights, setContentHeights] = useState({});
+  // State for active accordion index
+  const [activeIndex, setActiveIndex] = useState(null);
 
-const refs = useRef([]);
+  // Refs for dynamic content heights
+  const refs = useRef([]);
 
-useEffect(() => {
-    const heights = refs.current.map(ref => ref.scrollHeight);
-    const heightsMap = heights.reduce((acc, height, index) => {
-        acc[index] = height;
-        return acc;
-    }, {});
-    setContentHeights(heightsMap);
-}, [accordionData]);
+  // Calculate heights dynamically and ensure they are set after component mounts
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      refs.current = refs.current.slice(0, accordionData.length);
+    }
+  }, [accordionData]);
+
+  const handleClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+
 
   const [showModal, setShowModal] = React.useState(false);
 
@@ -185,11 +194,7 @@ useEffect(() => {
         "Gymnasium"
       ];
 
-      const [activeIndex, setActiveIndex] = useState(null);
-
-      const handleClick = (index) => {
-        setActiveIndex(index === activeIndex ? null : index);
-      };
+     
     
 
     return (
@@ -758,35 +763,47 @@ useEffect(() => {
 
      
       <div className="container mx-auto mt-8 mb-10">
-            {accordionData.map((item, index) => (
-                <div
-                    className="border-[#F6F6F8] mb-4 rounded border"
-                    key={index}
-                >
-                    <div
-                        className=" font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
-                        onClick={() => handleClick(index)}
-                    >
-                        {item.title}
-                        <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-</svg>
-</span>
-                    </div>
-                    <div
-                        ref={el => refs.current[index] = el}
-                        className={` font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-height duration-300 ease-in-out ${
-                            activeIndex === index ? 'h-auto' : 'h-0'
-                        }`}
-                        style={{
-                            height: activeIndex === index ? `${contentHeights[index]}px` : '0px'
-                        }}
-                    >
-                        <div className="px-4 pb-4 pt-2">{item.content}</div>
-                    </div>
-                </div>
-            ))}
+      {accordionData.map((item, index) => (
+        <div
+          className="border-[#F6F6F8] mb-4 rounded border"
+          key={index}
+        >
+          <div
+            className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+            onClick={() => handleClick(index)}
+          >
+            {item.title}
+            <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                {activeIndex === index ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                )}
+              </svg>
+            </span>
+          </div>
+          <div
+            ref={(el) => (refs.current[index] = el)}
+            className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${
+              activeIndex === index ? 'max-h-screen' : 'max-h-0'
+            }`}
+            style={{
+              height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
+            }}
+          >
+            <div className="px-4 pb-4 pt-2">{item.content}</div>
+          </div>
         </div>
+      ))}
+    </div>
 
 
 
@@ -795,7 +812,7 @@ useEffect(() => {
       <div className="mt-7 grid gap-3 w-full sm:inline-flex">
         <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
           Know more About Us
-          <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+          <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
         </a>
         <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
           Contact sales team
