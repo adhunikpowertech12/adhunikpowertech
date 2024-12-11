@@ -9,7 +9,7 @@ export default function DuctedAirCooler() {
   
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const accordionData = [
+  const ac = [
     {
       title: "1. How does an evaporative air cooler work?",
       content:
@@ -750,7 +750,7 @@ export default function DuctedAirCooler() {
 
      
       <div className="container mx-auto mt-8 mb-10">
-      {accordionData.map((item, index) => (
+      {ac.map((item, index) => (
         <div key={index} className="mb-4 border border-gray-200 rounded shadow-sm">
           <button
             onClick={() => toggleAccordion(index)}
