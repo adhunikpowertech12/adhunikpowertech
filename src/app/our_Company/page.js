@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 export default function AirWasher() {
 
@@ -70,6 +71,43 @@ export default function AirWasher() {
       </div>
 
 
+      <div className="row">
+    
+   
+   
+   <div className="container mx-auto mt-8 mb-10">
+            {accordionData.map((item, index) => (
+                <div
+                    className="border-[#F6F6F8] mb-4 rounded border"
+                    key={index}
+                >
+                    <div
+                        className="accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+                        onClick={() => handleClick(index)}
+                    >
+                        {item.title}
+                        <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+</svg>
+</span>
+                    </div>
+                    <div
+                        ref={el => refs.current[index] = el}
+                        className={`accordion-content overflow-hidden transition-height duration-300 ease-in-out ${
+                            activeIndex === index ? 'h-auto' : 'h-0'
+                        }`}
+                        style={{
+                            height: activeIndex === index ? `${contentHeights[index]}px` : '0px'
+                        }}
+                    >
+                        <div className="px-4 pb-4 pt-2">{item.content}</div>
+                    </div>
+                </div>
+            ))}
+        </div>
+
+
+    </div>
 
 
 
@@ -81,3 +119,4 @@ export default function AirWasher() {
     </>
   )
 }
+

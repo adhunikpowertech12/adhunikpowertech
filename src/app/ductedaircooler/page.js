@@ -2,6 +2,8 @@
 
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+import { useEffect, useMemo, useRef, useState } from "react";
+
 export default function DuctedAirCooler() {
   
   const [showModal, setShowModal] = React.useState(false);
@@ -104,31 +106,7 @@ export default function DuctedAirCooler() {
       
       ];
 
-      const comparisonData = [
-        { cooler: "Evaporative Cooling (Water evaporation)", ac: "Refrigerant Cycle", image: "100.png" },
-        { cooler: "Very High (Uses less electricity)", ac: "Lower (Uses more electricity)", image: "102.png" },
-        { cooler: "Low", ac: "Higher", image: "104.png" },
-        { cooler: "Limited (15-18°C below outdoor temp)", ac: "Precise (Can cool to much lower temperatures)", image: "106.png" },
-        { cooler: "Works best in dry climates", ac: "Less effective in humid climates", image: "108.png" },
-        { cooler: "Introduces fresh, cool air", ac: "Recirculates existing air", image: "110.png" },
-        { cooler: "Maintains natural humidity", ac: "Can dry out the air", image: "112.png" },
-        { cooler: "Relatively simple", ac: "More complex", image: "114.png" },
-      ];
-
-      const comparisonData1 = [
-
-        { cooler: "Capacity ", dc: "40,000 CMH" , ac:"8.5 TR",  image: "100.png" ,aw:"40,000 CMH", },
-        { cooler: "Power", dc: "4KW", image: "102.png" ,ac:"9.4KW",aw:"7.5KW", },
-        { cooler: "Covered Area", dc: "1", image: "104.png" ,ac:"3500Sqft",aw:"3500Sqft", },
-        { cooler: "No of Machines Required", dc: "4KW", image: "106.png",ac:"3",aw:"1", },
-        { cooler: "Total kw", dc: "9600", image: "108.png",ac:"28.2KW",aw:"7.5KW", },
-        { cooler: <>Electricity unit consumption <br /> per year (10hr ,240 days)</>, dc: "96,000", image: "110.png",ac:"67680",aw:"18000", },
-        { cooler: <>Running cost per year <br /> ( ₹10.00 per unit )</>, dc: "14.18%", image: "112.png",ac:"6,76,800",aw:"1,80,000", },
-        { cooler: <>
-          %Running cost with Reference <br /> to Refrigerative Aircon
-        </>, dc: "3500Sqft", image: "114.png",ac:"100%",aw:"26.5%", },
-
-      ];
+     
 
       const logos = [
         { src: '/dc1.webp', alt: 'Asahi-India-Glass-Ltd' },
@@ -167,6 +145,53 @@ export default function DuctedAirCooler() {
         "Religious Places",
         "Gymnasium"
       ];
+
+      const [activeIndex, setActiveIndex] = useState(null);
+
+      const handleClick = (index) => {
+        setActiveIndex(index === activeIndex ? null : index);
+      };
+    
+      const accordionData = useMemo(() => [
+        {
+          title: "1. How does an evaporative air cooler work?",
+          content: "The air cooler works by pulling warm air through moistened pads, which causes the water to evaporate and cool the air. The cooled air is then circulated through ducts and into the desired space, providing a refreshing breeze. This process is energy-efficient and helps to increase humidity levels in dry climates.",
+        },
+        {
+          title: "2. What is the electricity consumption of evaporative cooling systems?",
+          content: "They consume 90% less electricity as compared to an air conditioner. To cool an area of 1500 sqft. it consumes only 1.5-2 units/hr.",
+        },
+        {
+          title: "3. Are evaporative Cooling Machines Environment Friendly? ",
+          content: "Yes, They're eco-friendly. Unlike air conditioners that use harmful chemicals like CFCs, these cooling systems don't release any gases that harm the ozone layer.",
+        },
+        
+        {
+          title: " 4. Is the Air-Cooling machine installed inside or does it require an open space? ",
+          content: "The air cooler needs to be installed outside in an open area. You can put it on the ground using a stand, place it on the terrace, or hang it on walls using a special structure called a cantilever.",
+        },
+        {
+          title: " 5. How much time does it take to install an evaporative cooling system? ",
+          content: "It generally takes around 10-15 days to properly install an effective cooling system with ducts. Hence, it's always better to plan the installation before the summer season. So that your factory is summer-ready and you do not lose productivity due to extreme heat.",
+        },
+        
+    
+      ], []);
+      
+    
+    const [contentHeights, setContentHeights] = useState({});
+    
+    const refs = useRef([]);
+    
+    useEffect(() => {
+        const heights = refs.current.map(ref => ref.scrollHeight);
+        const heightsMap = heights.reduce((acc, height, index) => {
+            acc[index] = height;
+            return acc;
+        }, {});
+        setContentHeights(heightsMap);
+    }, [accordionData]);
+    
     return (
 
 
@@ -729,83 +754,39 @@ export default function DuctedAirCooler() {
       <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
       </p>
       <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
+      <p className="mt-3  text-[15px] text-gray-800 dark:text-neutral-400 font-sans font-medium ">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
 
-      <ul className="space-y-2 sm:space-y-4 pt-3">
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Quick To Respond
-            </span>
-          </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Flexible Price
-            </span>
-          </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              24/7 Hours Support
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Conscientious
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Ontime at Services
-            </span>
-          </div>
-        </li>
-      </ul>
-
+     
+      <div className="container mx-auto mt-8 mb-10">
+            {accordionData.map((item, index) => (
+                <div
+                    className="border-[#F6F6F8] mb-4 rounded border"
+                    key={index}
+                >
+                    <div
+                        className=" font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+                        onClick={() => handleClick(index)}
+                    >
+                        {item.title}
+                        <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+</svg>
+</span>
+                    </div>
+                    <div
+                        ref={el => refs.current[index] = el}
+                        className={` font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-height duration-300 ease-in-out ${
+                            activeIndex === index ? 'h-auto' : 'h-0'
+                        }`}
+                        style={{
+                            height: activeIndex === index ? `${contentHeights[index]}px` : '0px'
+                        }}
+                    >
+                        <div className="px-4 pb-4 pt-2">{item.content}</div>
+                    </div>
+                </div>
+            ))}
+        </div>
 
 
 
