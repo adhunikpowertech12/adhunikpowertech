@@ -1,10 +1,56 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { FaPlay } from "react-icons/fa";
 
-export default function 
-() {
+export default function () {
+
+  const accordionData = useMemo(() => [
+    {
+      title: "1. Why are panel air conditioners important?",
+      content:
+        " Panel air conditioners are crucial for preventing overheating, ensuring reliability, improving efficiency, and protecting electronic components from environmental factors. ",
+    },
+    {
+      title: "2. What factors should I consider when choosing a panel air conditioner? ",
+      content:
+        "Consider factors like cooling capacity, noise level, energy efficiency, mounting options, and compatibility with your specific equipment.",
+    },
+    {
+      title: "3. How often should I maintain my panel air conditioner? ",
+      content:
+        " Regular maintenance, including cleaning the filters and coils, can help ensure optimal performance and longevity. 1 Consult the manufacturer's guidelines for specific recommendations. ",
+    },
+    {
+      title: "4. What is the difference between a panel air conditioner and a regular air conditioner? ",
+      content:
+        "Panel air conditioners are specifically designed for cooling enclosed spaces with sensitive electronic equipment, while regular air conditioners are designed for cooling larger areas like rooms or buildings. They often offer more precise temperature control and are optimized for efficient heat dissipation.",
+    },
+    {
+      title: "5. Why should I choose Adhunik Powertech panel air conditioners? ",
+      content:
+        "Adhunik Powertech is a renowned manufacturer of high-quality panel air conditioners, offering: Reliability: Proven performance and durability. Energy Efficiency: Reduced operating costs. Customizable Solutions: Tailored to specific cooling needs.",
+    },
+  ], []);
+
+  // State for active accordion index
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  // Refs for dynamic content heights
+  const refs = useRef([]);
+
+  // Calculate heights dynamically and ensure they are set after component mounts
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      refs.current = refs.current.slice(0, accordionData.length);
+    }
+  }, [accordionData]);
+
+  const handleClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+
 
   const [showModal, setShowModal] = React.useState(false);
 
@@ -692,85 +738,50 @@ to operate.</li>
 
 
     <div>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
-      </p>
-      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
-
-      <ul className="space-y-2 sm:space-y-4 pt-3">
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Quick To Respond
+    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">FAQs
+    </p>
+      <div className="container mx-auto mt-8 mb-10">
+      {accordionData.map((item, index) => (
+        <div
+          className="border-[#F6F6F8] mb-4 rounded border"
+          key={index}
+        >
+          <div
+            className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+            onClick={() => handleClick(index)}
+          >
+            {item.title}
+            <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                {activeIndex === index ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                )}
+              </svg>
             </span>
           </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Flexible Price
-            </span>
+          <div
+            ref={(el) => (refs.current[index] = el)}
+            className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${
+              activeIndex === index ? 'max-h-screen' : 'max-h-0'
+            }`}
+            style={{
+              height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
+            }}
+          >
+            <div className="px-4 pb-4 pt-2">{item.content}</div>
           </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              24/7 Hours Support
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Conscientious
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Ontime at Services
-            </span>
-          </div>
-        </li>
-      </ul>
+        </div>
+      ))}
+    </div>
 
 
 
