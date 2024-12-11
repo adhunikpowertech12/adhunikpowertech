@@ -738,7 +738,8 @@ to operate.</li>
 
 
     <div>
-    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">FAQs
+    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">Panel Air Conditioner FAQs
+
     </p>
       <div className="container mx-auto mt-8 mb-10">
       {accordionData.map((item, index) => (
