@@ -756,12 +756,9 @@ export default function DuctedAirCooler() {
 
 
     <div>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
+      <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">FAQs
       </p>
-      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-      <p className="mt-3  text-[15px] text-gray-800 dark:text-neutral-400 font-sans font-medium ">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
-
-     
+      {/* <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1> */}
       <div className="container mx-auto mt-8 mb-10">
       {accordionData.map((item, index) => (
         <div
@@ -804,6 +801,10 @@ export default function DuctedAirCooler() {
         </div>
       ))}
     </div>
+    
+
+     
+  
 
 
 
