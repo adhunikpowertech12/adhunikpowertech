@@ -7,9 +7,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 export default function DuctedAirCooler() {
 
   
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const ac = [
+  const accordionData = useMemo(() => [
     {
       title: "1. How does an evaporative air cooler work?",
       content:
@@ -35,11 +33,26 @@ export default function DuctedAirCooler() {
       content:
         "It generally takes around 10-15 days to properly install an effective cooling system with ducts. Hence, it's always better to plan the installation before the summer season. So that your factory is summer-ready and you do not lose productivity due to extreme heat.",
     },
-  ];
+  ], []);
 
-  const toggleAccordion = (index) => {
+  // State for active accordion index
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  // Refs for dynamic content heights
+  const refs = useRef([]);
+
+  // Calculate heights dynamically and ensure they are set after component mounts
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      refs.current = refs.current.slice(0, accordionData.length);
+    }
+  }, [accordionData]);
+
+  const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+
+
 
   const [showModal, setShowModal] = React.useState(false);
 
@@ -750,19 +763,44 @@ export default function DuctedAirCooler() {
 
      
       <div className="container mx-auto mt-8 mb-10">
-      {ac.map((item, index) => (
-        <div key={index} className="mb-4 border border-gray-200 rounded shadow-sm">
-          <button
-            onClick={() => toggleAccordion(index)}
-            className="w-full px-4 py-2 text-left font-semibold text-gray-800 bg-gray-100 hover:bg-gray-200"
+      {accordionData.map((item, index) => (
+        <div
+          className="border-[#F6F6F8] mb-4 rounded border"
+          key={index}
+        >
+          <div
+            className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+            onClick={() => handleClick(index)}
           >
             {item.title}
-          </button>
-          {activeIndex === index && (
-            <div className="px-4 py-2 text-gray-700 border-t border-gray-200">
-              {item.content}
-            </div>
-          )}
+            <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                {activeIndex === index ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                )}
+              </svg>
+            </span>
+          </div>
+          <div
+            ref={(el) => (refs.current[index] = el)}
+            className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${
+              activeIndex === index ? 'max-h-screen' : 'max-h-0'
+            }`}
+            style={{
+              height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
+            }}
+          >
+            <div className="px-4 pb-4 pt-2">{item.content}</div>
+          </div>
         </div>
       ))}
     </div>
