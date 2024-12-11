@@ -337,6 +337,64 @@ function Navbar() {
               <div className="row text-right flex flex-row justify-end items-center">
 
                 <div className="row flex flex-col md:flex-row justify-center items-center">
+                  
+
+                  <div
+                    className="col text-left text-[12px] ps-3 hidden md:block"
+                    
+                    style={{ cursor: 'pointer' }} // Optional styling for pointer and color
+                  >
+        
+         
+         <a
+          href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
+          download="Adhunik-Powertech-Product-Catalogue-2024"
+          className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${
+            isScrolled
+              ? " text-black hover:text-black border-black"
+              : " text-white hover:text-black "
+          }`}
+        >
+          <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
+          <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
+          <span className="relative w-full text-left">
+            Product Catalogue
+          </span>
+          <span className="absolute inset-0 border-2 rounded-full"></span>
+        </a>
+                  
+                  </div>
+                
+
+                  <hr className=' rotate-90 w-10  relative hidden md:block ' />
+                
+
+                  <div
+                    className="col text-left text-[12px] ps-3 hidden md:block"
+                   
+                    style={{ cursor: 'pointer' }} // Optional styling for pointer and color
+                  >
+            
+            <a
+          href="/Adhunik-Powertech-HVAC-&-Firefighting-Profile.pdf" // The file path in the public folder
+                  download="Adhunik-Powertech-HVAC-&-Firefighting-Profile"
+          className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${
+            isScrolled
+              ? " text-black hover:text-black border-black "
+              : " text-white hover:text-black "
+          }`}
+        >
+          <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
+          <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
+          <span className="relative w-full text-left">
+            Project Catalogue
+          </span>
+          <span className="absolute inset-0 border-2 rounded-full"></span>
+        </a>
+                  </div>
+
+
+                  <hr className=' rotate-90 w-10  relative hidden md:block ' />
                   <div className="col">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
