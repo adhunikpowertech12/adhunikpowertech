@@ -9,10 +9,10 @@ export default function AirWasher() {
   const [isOnFirstSlide, setIsOnFirstSlide] = useState(true);
   const [isMyslideInView, setIsMyslideInView] = useState(false); // Track if myslide is in view
   const pages = [
-    { id: 0, title: 'Home', description: 'Welcome to our website' },
-    { id: 1, title: 'About', description: 'Learn more about us' },
-    { id: 2, title: 'Services', description: 'Our range of services' },
-    { id: 3, title: 'Contact', description: 'Get in touch with us' },
+    { id: 0, title: 'Business', description: 'Welcome to our website' },
+    { id: 1, title: 'Ownership', description: 'Learn more about us' },
+    { id: 2, title: 'Values', description: 'Our range of services' },
+    { id: 3, title: 'Financials', description: 'Get in touch with us' },
   ];
 
   const handleWheel = (e) => {
@@ -95,7 +95,7 @@ export default function AirWasher() {
               {pages.map((page) => (
                 <div
                   key={page.id}
-                  className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-400 to-purple-600 text-white"
+                  className="h-screen flex flex-col items-center justify-center   bg-gray-600 text-white"
                 >
                   <h1 className="text-4xl font-bold">{page.title}</h1>
                   <p className="text-lg mt-4">{page.description}</p>
@@ -104,21 +104,26 @@ export default function AirWasher() {
             </div>
 
             {/* Page Indicators */}
-            <div className="absolute top-1/2 left-4 transform -translate-y-1/2 flex flex-col items-center">
+            <div className="absolute  top-1/2 left-4 transform -translate-y-1/2 flex flex-col items-center">
               {pages.map((page) => (
+
                 <div
                   key={page.id}
-                  className={`flex items-center justify-start mb-4 cursor-pointer transition-all duration-300 ${
-                    page.id === activePage ? 'opacity-100 scale-105' : 'opacity-50'
-                  }`}
+                  className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${page.id === activePage ? 'opacity-100 scale-105' : 'opacity-50'
+                    }`}
                   onClick={() => !isScrolling && setActivePage(page.id)}
                 >
                   <div
-                    className={`h-4 w-4 rounded-full mr-2 ${
-                      page.id === activePage ? 'bg-purple-600' : 'bg-gray-400'
-                    }`}
+                    className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage ? ' border-2  border-blue-500' : 'bg-gray-400'
+                      }`}
                   ></div>
-                  <span className="text-sm font-medium text-gray-800">
+                  
+                  <div
+                    className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? ' bg-blue-500' : 'bg-gray-400'
+                      }`}
+                  ></div>
+
+                  <span className="text-sm font-medium text-white">
                     {page.title}
                   </span>
                 </div>
