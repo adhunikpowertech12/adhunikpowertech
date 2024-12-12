@@ -9,10 +9,30 @@ export default function AirWasher() {
   const [isOnFirstSlide, setIsOnFirstSlide] = useState(true);
   const [isMyslideInView, setIsMyslideInView] = useState(false); // Track if myslide is in view
   const pages = [
-    { id: 0, title: 'Business', description: 'Welcome to our website' },
-    { id: 1, title: 'Ownership', description: 'Learn more about us' },
-    { id: 2, title: 'Values', description: 'Our range of services' },
-    { id: 3, title: 'Financials', description: 'Get in touch with us' },
+    {
+      id: 0,
+      title: 'Business',
+      description: 'Welcome to our website',
+      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+    },
+    {
+      id: 1,
+      title: 'Ownership',
+      description: 'Learn more about us',
+      bgImage: 'https://images.unsplash.com/photo-1733913128715-ddfac4bcf9fd?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+      id: 2,
+      title: 'Values',
+      description: 'Our range of services',
+      bgImage: 'https://images.unsplash.com/photo-1577702160540-01e3d86e0be2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D',
+    },
+    {
+      id: 3,
+      title: 'Financials',
+      description: 'Get in touch with us',
+      bgImage: 'https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
   ];
 
   const handleWheel = (e) => {
@@ -84,9 +104,12 @@ export default function AirWasher() {
 
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <div id="myslide" className="h-screen myslide w-full overflow-hidden relative bg-gray-100">
+    <div className="container-fluid">
+    <div className="row">
+          <div
+            id="myslide"
+            className="h-screen w-full overflow-hidden relative"
+          >
             {/* Main Pages */}
             <div
               className="h-full w-full transition-transform ease-in-out duration-500"
@@ -95,82 +118,91 @@ export default function AirWasher() {
               {pages.map((page) => (
                 <div
                   key={page.id}
-                  className="h-screen flex flex-col items-center justify-center   bg-gray-600 text-white"
+                  className="h-screen flex flex-col items-center justify-center text-white relative"
+                  style={{
+                    backgroundImage: `url(${page.bgImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
                 >
-                  <h1 className="text-4xl font-bold">{page.title}</h1>
-                  <p className="text-lg mt-4">{page.description}</p>
+                  {/* Dark Overlay */}
+                  <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+                  {/* Content */}
+                  <div className="z-10 text-center">
+                    <h1 className="text-4xl font-bold">{page.title}</h1>
+                    <p className="text-lg mt-4">{page.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
 
             {/* Page Indicators */}
-            <div className="absolute  top-1/2 left-4 transform -translate-y-1/2 flex flex-col items-center">
+            <div className="absolute top-1/2 left-4 transform -translate-y-1/2 flex flex-col items-center">
               {pages.map((page) => (
-
                 <div
-                  key={page.id}
-                  className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${page.id === activePage ? 'opacity-100 scale-105' : 'opacity-50'
-                    }`}
-                  onClick={() => !isScrolling && setActivePage(page.id)}
-                >
-                  <div
-                    className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage ? ' border-2  border-blue-500' : 'bg-gray-400'
-                      }`}
-                  ></div>
-                  
-                  <div
-                    className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? ' bg-blue-500' : 'bg-gray-400'
-                      }`}
-                  ></div>
+            key={page.id}
+            className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${
+              page.id === activePage ? 'opacity-100 scale-105' : 'opacity-50'
+            }`}
+            onClick={() => !isScrolling && setActivePage(page.id)}
+          >
+            <div
+              className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage ? 'border-2 border-blue-500' : 'bg-gray-400'}`}
+            ></div>
 
-                  <span className="text-sm font-medium text-white">
-                    {page.title}
-                  </span>
-                </div>
+            <div
+              className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? 'bg-blue-500' : 'bg-gray-400'}`}
+            ></div>
+
+            <span className="text-sm font-medium text-white">{page.title}</span>
+          </div>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Rest of the content below */}
-        <div className="my-11">
-          <span className="text-transparent">.</span>
-        </div>
+  {/* Rest of the content below */}
+  <div className="my-11">
+    <span className="text-transparent">.</span>
+  </div>
 
-        <div className="row">
-          <div className="col py-12 justify-center items-center flex flex-col">
-            <p className="text-3xl font-serif">HVAC Solution Under One Roof</p>
-            <p className="text-[12xl] w-[75%] text-center font-sans font-thin py-7">
-              Adhunik Powertech Private Limited is a leading manufacturer specializing in high-quality air cooling and air conditioning products. We offer comprehensive HVAC project services, including expert design, installation, and maintenance, ensuring our clients receive unparalleled support throughout every phase. With over 19 years of experience in the HVAC industry, we are committed to providing innovative turnkey solutions that meet and exceed international standards. Choose Adhunik Powertech to enhance your indoor comfort and energy efficiency with our trusted HVAC expertise.
-            </p>
-          </div>
-        </div>
+  <div className="row">
+    <div className="col py-12 justify-center items-center flex flex-col">
+      <p className="text-3xl font-serif">HVAC Solution Under One Roof</p>
+      <p className="text-[12xl] w-[75%] text-center font-sans font-thin py-7">
+        Adhunik Powertech Private Limited is a leading manufacturer specializing in high-quality air cooling and air conditioning products. We offer comprehensive HVAC project services, including expert design, installation, and maintenance, ensuring our clients receive unparalleled support throughout every phase. With over 19 years of experience in the HVAC industry, we are committed to providing innovative turnkey solutions that meet and exceed international standards. Choose Adhunik Powertech to enhance your indoor comfort and energy efficiency with our trusted HVAC expertise.
+      </p>
+    </div>
+  </div>
 
-        <div className="row">
-          <div className="relative h-[500px] w-full">
-            {/* Video background */}
-            <video
-              autoPlay
-              loop
-              muted
-              className="absolute top-0 left-0 w-full h-full object-fill object-center"
-            >
-              <source src="https://rilstaticasset.akamaized.net/sites/default/files/2022-08/about-us-flag-video-mob.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+  <div className="row">
+    <div className="relative h-[500px] w-full">
+     
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute top-0 left-0 w-full h-full object-fill object-center"
+      >
+        <source src="https://rilstaticasset.akamaized.net/sites/default/files/2022-08/about-us-flag-video-mob.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-            {/* Overlay container for centered content */}
-            <div className="absolute inset-0 text-gray-700 flex items-center justify-center">
-              <div className="text-center w-[75%] rounded-md border-gray-400 border-[1px] p-11 font-thin bg-white text-gray-700">
-                <h1 className="text-3xl font-sans mb-4">A Brighter India, Powered by Adhunik Powertech</h1>
-                <p className="text-lg font-thin font-sans">
-                  Our conviction, "A Brighter India, Powered by Adhunik Powertech," drives our vision and actions every day. We have successfully evolved from an HVAC services company to India’s premier manufacturer of air cooling and air conditioning products. By supporting the Make in India initiative, we not only enhance local manufacturing but also bring our innovative products to markets around the world, demonstrating our commitment to quality and excellence on a global scale.
-                </p>
-              </div>
-            </div>
-          </div>
+   
+      <div className="absolute inset-0 text-gray-700 flex items-center justify-center">
+        <div className="text-center w-[75%] rounded-md border-gray-400 border-[1px] p-11 font-thin bg-white text-gray-700">
+          <h1 className="text-3xl font-sans mb-4">A Brighter India, Powered by Adhunik Powertech</h1>
+          <p className="text-lg font-thin font-sans">
+            Our conviction, "A Brighter India, Powered by Adhunik Powertech," drives our vision and actions every day. We have successfully evolved from an HVAC services company to India’s premier manufacturer of air cooling and air conditioning products. By supporting the Make in India initiative, we not only enhance local manufacturing but also bring our innovative products to markets around the world, demonstrating our commitment to quality and excellence on a global scale.
+          </p>
         </div>
       </div>
+    </div>
+  </div>
+
+  
+</div>
+
     </>
   );
 }

@@ -499,25 +499,7 @@ export default function Hero() {
 
 
             <div className="  justify-center   ">
-              {/* {cardsData.map((card) => (
-                <div key={card.id} className=" flex flex-col md:flex-col   md:w-[30%]  lg:w-[29%]   mx-2 my-3 border border-gray-200 rounded-lg shadow  bg-gray-900">
-                  <a href="#" className='  '>
-                    <img className="rounded-t-lg    md:h-56 md:w-full object-cover object-center" src={card.imgSrc} alt={card.title} />
-                  </a>
-                  <div className="p-2 ">
-                    <h2 className='text-white uppercase text-1xl px-3 py-2'>{card.title}</h2>
-                    <p className='text-white text-[12px] px-3 py-2'>
-                      {card.description}
-                    </p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg">
-                      Read more
-                      <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              ))} */}
+        
 
               <div className="row">
   <div className="col py-4">
