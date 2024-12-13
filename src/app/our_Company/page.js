@@ -14,7 +14,7 @@ export default function AirWasher() {
       id: 0,
       title: 'Overview',
       description: 'We are Adhunik Powertech: Experts Who Make a Difference. ',
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/slideabout.jpg',
       content: (
         <div className="z-10 text-center">
           <div className="row">
