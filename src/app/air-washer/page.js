@@ -650,7 +650,7 @@ export default function page() {
 
 
               <div>
-              <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">Air washers FAQs
+              <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> FAQs
 
               </p>
 

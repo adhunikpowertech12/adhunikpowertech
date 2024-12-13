@@ -837,7 +837,7 @@ export default function DuctedAirCooler() {
 
 
     <div className=" mt-5">
-    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> Chiller FAQs
+    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">  FAQs
 
               </p>
       <div className="container mx-auto mt-8 mb-10">
