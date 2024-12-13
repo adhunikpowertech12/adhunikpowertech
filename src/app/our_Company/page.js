@@ -12,7 +12,9 @@ export default function AirWasher() {
  
     {
       id: 0,
+      
       title: 'Overview',
+      year:'About Us',
       description: 'We are Adhunik Powertech: Experts Who Make a Difference. ',
       bgImage: '/slideabout.webp',
       content: (
@@ -59,18 +61,22 @@ export default function AirWasher() {
     },
     {
       id: 1,
+      year:'2005',
       title: 'Ownership',
       description: 'Learn more about us',
       bgImage: 'https://images.unsplash.com/photo-1733913128715-ddfac4bcf9fd?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       id: 2,
+      year:'2010',
+     
       title: 'Values',
       description: 'Our range of services',
       bgImage: 'https://images.unsplash.com/photo-1577702160540-01e3d86e0be2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D',
     },
     {
       id: 3,
+      year:'2014',
       title: 'Financials',
       description: 'Get in touch with us',
       bgImage: 'https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -78,6 +84,28 @@ export default function AirWasher() {
     {
       id: 4,
       title: 'Business',
+      year:'2016',
+      description: 'Welcome to our website',
+      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+    },
+    {
+      id: 5,
+      title: 'Business',
+      year:'2017',
+      description: 'Welcome to our website',
+      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+    },
+    {
+      id: 6,
+      title: 'Business',
+      year:'2019',
+      description: 'Welcome to our website',
+      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+    },
+    {
+      id: 7,
+      title: 'Business',
+      year:'2020',
       description: 'Welcome to our website',
       bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
     },
@@ -206,7 +234,7 @@ export default function AirWasher() {
           className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? 'bg-blue-500' : 'bg-gray-400'}`}
         ></div>
 
-        <span className=" text-white font-sans font-thin ">{page.title}</span>
+        <span className=" text-white font-sans font-thin ">{page.year}</span>
       </div>
     ))}
   </div>
