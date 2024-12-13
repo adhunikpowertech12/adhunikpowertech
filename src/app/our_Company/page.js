@@ -14,7 +14,7 @@ export default function AirWasher() {
       id: 0,
       title: 'Overview',
       description: 'We are Adhunik Powertech: Experts Who Make a Difference. ',
-      bgImage: '/slideabout.jpg',
+      bgImage: '/slideabout.webp',
       content: (
         <div className="z-10 text-center">
           <div className="row">
@@ -189,7 +189,7 @@ export default function AirWasher() {
   </div>
 
   {/* Page Indicators */}
-  <div className="absolute top-1/2 left-4 transform -translate-y-1/2 flex flex-col items-center">
+  <div className="absolute top-1/2 right-4 transform -translate-y-1/2 flex flex-col items-center">
     {pages.map((page) => (
       <div
         key={page.id}
@@ -206,7 +206,7 @@ export default function AirWasher() {
           className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? 'bg-blue-500' : 'bg-gray-400'}`}
         ></div>
 
-        <span className="text-sm font-medium text-white">{page.title}</span>
+        <span className=" text-white font-sans font-thin ">{page.title}</span>
       </div>
     ))}
   </div>
