@@ -9,17 +9,17 @@ export default function DuctedAirCooler() {
     const accordionData = useMemo(() => [
       
       {
-        title: "1. What are the key applications of oil chillers?",
+        title: " What are the key applications of oil chillers?",
         content:
           " Oil chillers are used in industries like manufacturing, CNC machining, plastic injection molding, die casting, and hydraulic press operations to prevent overheating and ensure smooth performance. ",
       },
       {
-        title: "2.  How do Oil and Coolant Chillers Work? ",
+        title: "  How do Oil and Coolant Chillers Work? ",
         content:
           " Both oil and coolant chillers operate on a similar principle. They circulate the fluid through a heat exchanger where it transfers heat to a refrigerant. The refrigerant absorbs the heat and dissipates it into the environment, cooling the fluid in the process. ",
       },
       {
-        title: "3. What are the Benefits of Using Oil and Coolant Chillers? ",
+        title: " What are the Benefits of Using Oil and Coolant Chillers? ",
         content:
   
         <>
@@ -40,12 +40,12 @@ export default function DuctedAirCooler() {
       },
   
       {
-        title: "4. Can I Use an Oil Chiller for Coolant and Vice Versa? ",
+        title: " Can I Use an Oil Chiller for Coolant and Vice Versa? ",
         content:
           "While it's possible to use an oil chiller for coolant and vice versa, it's not recommended. Oil and coolant have different properties and require specific cooling requirements. Using the wrong chiller can lead to reduced performance and potential damage to the equipment.",
       },
       {
-        title: "5. What are the common issues faced by oil chillers? ",
+        title: " What are the common issues faced by oil chillers? ",
         content:"Common problems include clogged filters, low refrigerant levels, pump malfunctions, and improper oil flow due to viscosity changes.",
       },
     ], []);

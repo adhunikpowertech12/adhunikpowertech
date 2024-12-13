@@ -7,17 +7,17 @@ export default function () {
 
   const accordionData = useMemo(() => [
     {
-      title: "1. Why are panel air conditioners important?",
+      title: " Why are panel air conditioners important?",
       content:
         " Panel air conditioners are crucial for preventing overheating, ensuring reliability, improving efficiency, and protecting electronic components from environmental factors. ",
     },
     {
-      title: "2. What factors should I consider when choosing a panel air conditioner? ",
+      title: " What factors should I consider when choosing a panel air conditioner? ",
       content:
         "Consider factors like cooling capacity, noise level, energy efficiency, mounting options, and compatibility with your specific equipment.",
     },
     {
-      title: "3. How often should I maintain my panel air conditioner? ",
+      title: " How often should I maintain my panel air conditioner? ",
       content:<>
         <div className="faq-item">
   <div className="faq-content">
@@ -37,12 +37,12 @@ export default function () {
       </>,
     },
     {
-      title: "4. What is the difference between a panel air conditioner and a regular air conditioner? ",
+      title: " What is the difference between a panel air conditioner and a regular air conditioner? ",
       content:
         "Panel air conditioners are specifically designed for cooling enclosed spaces with sensitive electronic equipment, while regular air conditioners are designed for cooling larger areas like rooms or buildings. They often offer more precise temperature control and are optimized for efficient heat dissipation.",
     },
     {
-      title: "5. Why should I choose Adhunik Powertech panel air conditioners? ",
+      title: " Why should I choose Adhunik Powertech panel air conditioners? ",
       content:
       <>
       <div className="faq-item">

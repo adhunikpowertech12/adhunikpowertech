@@ -9,27 +9,27 @@ export default function DuctedAirCooler() {
   
   const accordionData = useMemo(() => [
     {
-      title: "1. How does an evaporative air cooler work?",
+      title: " How does an evaporative air cooler work?",
       content:
         "The air cooler works by pulling warm air through moistened pads, which causes the water to evaporate and cool the air. The cooled air is then circulated through ducts and into the desired space, providing a refreshing breeze. This process is energy-efficient and helps to increase humidity levels in dry climates.",
     },
     {
-      title: "2. What is the electricity consumption of evaporative cooling systems?",
+      title: " What is the electricity consumption of evaporative cooling systems?",
       content:
         "They consume 90% less electricity as compared to an air conditioner. To cool an area of 1500 sqft. it consumes only 1.5-2 units/hr.",
     },
     {
-      title: "3. Are evaporative Cooling Machines Environment Friendly?",
+      title: " Are evaporative Cooling Machines Environment Friendly?",
       content:
         "Yes, They're eco-friendly. Unlike air conditioners that use harmful chemicals like CFCs, these cooling systems don't release any gases that harm the ozone layer.",
     },
     {
-      title: "4. Is the Air-Cooling machine installed inside or does it require an open space?",
+      title: " Is the Air-Cooling machine installed inside or does it require an open space?",
       content:
         "The air cooler needs to be installed outside in an open area. You can put it on the ground using a stand, place it on the terrace, or hang it on walls using a special structure called a cantilever.",
     },
     {
-      title: "5. How much time does it take to install an evaporative cooling system?",
+      title: " How much time does it take to install an evaporative cooling system?",
       content:
         "It generally takes around 10-15 days to properly install an effective cooling system with ducts. Hence, it's always better to plan the installation before the summer season. So that your factory is summer-ready and you do not lose productivity due to extreme heat.",
     },

@@ -10,17 +10,17 @@ export default function page() {
   const accordionData = useMemo(() => [
     
     {
-      title: "1. How does an air washer work?",
+      title: " How does an air washer work?",
       content:
         " An air washer, also known as an evaporative air cooler, works by using the principle of evaporative cooling to lower the temperature of the air. In this process, hot outdoor air is drawn into the unit and passed through water-saturated pads. As the air passes through these pads, it loses heat and evaporates the water, resulting in cooler, more comfortable air. The cooled air is then circulated throughout the building by a blower and duct system.",
     },
     {
-      title: "2. What are the benefits of using an air washer? ",
+      title: "What are the benefits of using an air washer? ",
       content:
         " Air washers offer several benefits, including cooling large industrial spaces, improving air quality by filtering out dust, pollen, and allergens, and maintaining humidity levels, creating a more comfortable and breathable environment, especially in dry climates. ",
     },
     {
-      title: "3. What are the different types of air washers available? ",
+      title: "What are the different types of air washers available? ",
       content:
 
       <>
@@ -70,7 +70,7 @@ export default function page() {
     },
 
     {
-      title: "4. What Are the Differences Between an Air Washer and an AHU? ",
+      title: " What Are the Differences Between an Air Washer and an AHU? ",
       content: <>
         <div className="faq-item">
   <div className="faq-content">
@@ -93,7 +93,7 @@ export default function page() {
       </>,
     },
     {
-      title: "5. How do air washer systems enhance efficiency in industrial processes? ",
+      title: " How do air washer systems enhance efficiency in industrial processes? ",
       content:
        <>
        <div>
