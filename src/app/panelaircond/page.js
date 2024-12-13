@@ -18,8 +18,23 @@ export default function () {
     },
     {
       title: "3. How often should I maintain my panel air conditioner? ",
-      content:
-        " Regular maintenance, including cleaning the filters and coils, can help ensure optimal performance and longevity. 1 Consult the manufacturer's guidelines for specific recommendations. ",
+      content:<>
+        <div className="faq-item">
+  <div className="faq-content">
+   
+    <ul className="list-disc pl-5">
+      <li><strong>Check and clean filters:</strong> Every 1-2 months.</li>
+      <li><strong>Clean the coils:</strong> Every 6-12 months.</li>
+      <li><strong>Inspect refrigerant levels:</strong> Annually or if cooling is inadequate.</li>
+      <li><strong>Check drainage system:</strong> Every 3-6 months to prevent blockages.</li>
+      <li><strong>Examine the unit for debris:</strong> Regularly, especially in outdoor units.</li>
+      <li><strong>Check for wear and tear:</strong> Annually or as needed.</li>
+    </ul>
+    <p>Regular maintenance ensures better performance and longevity!</p>
+  </div>
+</div>
+
+      </>,
     },
     {
       title: "4. What is the difference between a panel air conditioner and a regular air conditioner? ",
@@ -31,58 +46,19 @@ export default function () {
       content:
       <>
       <div className="faq-item">
-      
-        <div className="faq-content">
-          <p>
-          Adhunik Powertech is a renowned manufacturer of high-quality panel air conditioners, offering:
-
-          </p>
-          <ul className="list-disc pl-5">
-          
-            <li>
-
-              <strong>Reliability</strong>
-
-              <p>
-              Proven performance and durability.
-              </p>
-
-
-         
-            </li>
-
-
-            <li>
-              <strong>Energy Efficiency</strong>
-
-              <p>
-
-              Reduced operating costs.
-
-              </p>
-
-            
-            </li>
-
-
-            <li>
-          
-              <strong> Customizable Solutions</strong>
-
-              <p>
-
-              Tailored to specific cooling needs.
-
-              </p>
-
-            
-            </li>
-
-
-          </ul>
-        </div>
-      </div>
-    </>},
+    <div className="faq-content">
+    <p>Adhunik Powertech is a renowned manufacturer of high-quality panel air conditioners, offering:
+</p>
+      <ul className="list-disc pl-5">
+        <li><strong>Reliability:</strong> Proven performance and durability.</li>
+        <li><strong>Energy Efficiency:</strong> Reduced operating costs.</li>
+        <li><strong>Customizable Solutions:</strong> Tailored to specific cooling needs.</li>
+      </ul>
+    </div>
+  </div>
+    </>
+    
+  },
   ], []);
 
   // State for active accordion index

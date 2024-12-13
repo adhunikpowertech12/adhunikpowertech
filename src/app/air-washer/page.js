@@ -12,7 +12,7 @@ export default function page() {
     {
       title: "1. How does an air washer work?",
       content:
-        " An air washer works on the principle of evaporative air cooling. Inside the unit, large, specially designed cooling pads are kept constantly wet by a water distribution system. As hot, dry air passes through these wet pads, water molecules absorb the heat and evaporate into the air. This process effectively cools the air, resulting in a refreshing breeze that helps maintain a comfortable and cool environment in your workplace. ",
+        " An air washer, also known as an evaporative air cooler, works by using the principle of evaporative cooling to lower the temperature of the air. In this process, hot outdoor air is drawn into the unit and passed through water-saturated pads. As the air passes through these pads, it loses heat and evaporates the water, resulting in cooler, more comfortable air. The cooled air is then circulated throughout the building by a blower and duct system.",
     },
     {
       title: "2. What are the benefits of using an air washer? ",
@@ -22,6 +22,7 @@ export default function page() {
     {
       title: "3. What are the different types of air washers available? ",
       content:
+
       <>
       <div className="faq-item">
       
@@ -65,26 +66,48 @@ export default function page() {
         </div>
       </div>
     </>,
+
     },
+
     {
       title: "4. What Are the Differences Between an Air Washer and an AHU? ",
-      content:
-        "An Air Washer and an Air Handling Unit (AHU) are two different systems used for indoor air treatment. An Air Washer primarily cools, humidifies, and purifies air by adding moisture and filtering impurities, often used in dry environments like in industrial areas. An AHU, on the other hand, is a complex system that conditions and circulates air throughout a building, controlling temperature, humidity, and air quality.While an Air Washer focuses on specific air treatments, an AHU offers a comprehensive solution for air conditioning and circulation in larger buildings.",
+      content: <>
+        <div className="faq-item">
+  <div className="faq-content">
+    <p>
+      An Air Washer and an Air Handling Unit (AHU) are two different systems used for indoor air treatment. 
+      An Air Washer primarily cools, humidifies, and purifies air by adding moisture and filtering impurities, 
+      often used in dry environments like in industrial areas.
+    </p>
+    <p>
+      An AHU, on the other hand, is a complex system that conditions and circulates air throughout a building, 
+      controlling temperature, humidity, and air quality. 
+    </p>
+    <p>
+      While an Air Washer focuses on specific air treatments, an AHU offers a comprehensive solution 
+      for air conditioning and circulation in larger buildings.
+    </p>
+  </div>
+</div>
+
+      </>,
     },
     {
       title: "5. How do air washer systems enhance efficiency in industrial processes? ",
       content:
        <>
-       <div className="faq-item">
-  <div className="faq-content">
+       <div>
+       
+    <p><strong>Key factors to consider when choosing an air washer include:</strong></p>
     <ul className="list-disc pl-5">
-      <li><strong>Improved Air Quality</strong>: Air washers remove dust and contaminants, preventing product contamination and ensuring a safer work environment.</li>
-      <li><strong>Regulated Climate</strong>: They maintain optimal temperature and humidity levels, essential for industries like pharmaceuticals and electronics to prevent equipment malfunctions.</li>
-      <li><strong>Energy Efficiency</strong>: By using evaporative cooling, air washers reduce energy costs and lower carbon footprints compared to traditional air conditioning.</li>
-      <li><strong>Enhanced Equipment Performance</strong>: Stable conditions increase the lifespan of sensitive machinery, reducing downtime and maintenance costs.</li>
+      <li>Cooling Capacity</li>
+      <li>Humidity Control</li>
+      <li>Air Quality</li>
+      <li>Energy Efficiency</li>
+      <li>Maintenance Ease & Cost</li>
     </ul>
+    <p>Also, factor in the specific environment and any special needs.</p>
   </div>
-</div>
        </>,
     },
   ], []);
@@ -630,6 +653,7 @@ export default function page() {
               <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">Air washers FAQs
 
               </p>
+
                 <div className="container mx-auto mt-8 mb-10">
       {accordionData.map((item, index) => (
         <div
@@ -672,10 +696,6 @@ export default function page() {
         </div>
       ))}
     </div>
-
-
-
-
 
 
                 <div className="mt-7 grid gap-3 w-full sm:inline-flex">

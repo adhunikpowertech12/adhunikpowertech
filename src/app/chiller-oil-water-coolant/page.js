@@ -1,10 +1,71 @@
 "use client";
-import React from "react";
-import { FaPlay } from "react-icons/fa";
 
+import { FaPlay } from "react-icons/fa";
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 
 export default function DuctedAirCooler() {
 
+
+    const accordionData = useMemo(() => [
+      
+      {
+        title: "1. What are the key applications of oil chillers?",
+        content:
+          " Oil chillers are used in industries like manufacturing, CNC machining, plastic injection molding, die casting, and hydraulic press operations to prevent overheating and ensure smooth performance. ",
+      },
+      {
+        title: "2.  How do Oil and Coolant Chillers Work? ",
+        content:
+          " Both oil and coolant chillers operate on a similar principle. They circulate the fluid through a heat exchanger where it transfers heat to a refrigerant. The refrigerant absorbs the heat and dissipates it into the environment, cooling the fluid in the process. ",
+      },
+      {
+        title: "3. What are the Benefits of Using Oil and Coolant Chillers? ",
+        content:
+  
+        <>
+   <div className="faq-item">
+  <div className="faq-content">
+    <ul className="list-disc pl-5">
+      <li><strong>Improved Equipment Performance</strong>: Maintains optimal operating temperatures, reducing wear and tear.</li>
+      <li><strong>Increased Productivity</strong>: Ensures consistent performance and prevents downtime.</li>
+      <li><strong>Extended Equipment Life</strong>: Prevents premature failure due to overheating.</li>
+      <li><strong>Enhanced Product Quality</strong>: Maintains precise temperature control for consistent results.</li>
+      <li><strong>Reduced Energy Consumption</strong>: Efficient cooling systems minimize energy usage.</li>
+    </ul>
+  </div>
+</div>
+
+      </>,
+  
+      },
+  
+      {
+        title: "4. Can I Use an Oil Chiller for Coolant and Vice Versa? ",
+        content:
+          "While it's possible to use an oil chiller for coolant and vice versa, it's not recommended. Oil and coolant have different properties and require specific cooling requirements. Using the wrong chiller can lead to reduced performance and potential damage to the equipment.",
+      },
+      {
+        title: "5. What are the common issues faced by oil chillers? ",
+        content:"Common problems include clogged filters, low refrigerant levels, pump malfunctions, and improper oil flow due to viscosity changes.",
+      },
+    ], []);
+  
+    // State for active accordion index
+    const [activeIndex, setActiveIndex] = useState(null);
+  
+    // Refs for dynamic content heights
+    const refs = useRef([]);
+  
+    // Calculate heights dynamically and ensure they are set after component mounts
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        refs.current = refs.current.slice(0, accordionData.length);
+      }
+    }, [accordionData]);
+  
+    const handleClick = (index) => {
+      setActiveIndex(activeIndex === index ? null : index);
+    };
 
   const [showModal, setShowModal] = React.useState(false);
 
@@ -51,9 +112,6 @@ export default function DuctedAirCooler() {
     "Religious Places",
     "Gymnasium"
   ];
-
-
-
 
   const features2 = [
     {
@@ -778,86 +836,52 @@ export default function DuctedAirCooler() {
   <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
 
 
-    <div>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
-      </p>
-      <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-      <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
+    <div className=" mt-5">
+    <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> Chiller FAQs
 
-      <ul className="space-y-2 sm:space-y-4 pt-3">
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Quick To Respond
+              </p>
+      <div className="container mx-auto mt-8 mb-10">
+      {accordionData.map((item, index) => (
+        <div
+          className="border-[#F6F6F8] mb-4 rounded border"
+          key={index}
+        >
+          <div
+            className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+            onClick={() => handleClick(index)}
+          >
+            {item.title}
+            <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                {activeIndex === index ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                )}
+              </svg>
             </span>
           </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Flexible Price
-            </span>
+          <div
+            ref={(el) => (refs.current[index] = el)}
+            className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${
+              activeIndex === index ? 'max-h-screen' : 'max-h-0'
+            }`}
+            style={{
+              height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
+            }}
+          >
+            <div className="px-4 pb-4 pt-2">{item.content}</div>
           </div>
-        </li>
-
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              24/7 Hours Support
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Experienced Professionals
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Conscientious
-            </span>
-          </div>
-        </li>
-        <li className="flex gap-x-3">
-          <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-            <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-          </span>
-          <div className="grow">
-            <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-              Ontime at Services
-            </span>
-          </div>
-        </li>
-      </ul>
+        </div>
+      ))}
+    </div>
 
 
 
@@ -904,27 +928,7 @@ export default function DuctedAirCooler() {
       <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
-      <div className="absolute bottom-0 start-0">
-        <svg className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="531" y="352" width="99" height="99" fill="currentColor" />
-          <rect x="140" y="352" width="106" height="99" fill="currentColor" />
-          <rect x="482" y="402" width="64" height="49" fill="currentColor" />
-          <rect x="433" y="402" width="63" height="49" fill="currentColor" />
-          <rect x="384" y="352" width="49" height="50" fill="currentColor" />
-          <rect x="531" y="328" width="50" height="50" fill="currentColor" />
-          <rect x="99" y="303" width="49" height="58" fill="currentColor" />
-          <rect x="99" y="352" width="49" height="50" fill="currentColor" />
-          <rect x="99" y="392" width="49" height="59" fill="currentColor" />
-          <rect x="44" y="402" width="66" height="49" fill="currentColor" />
-          <rect x="234" y="402" width="62" height="49" fill="currentColor" />
-          <rect x="334" y="303" width="50" height="49" fill="currentColor" />
-          <rect x="581" width="49" height="49" fill="currentColor" />
-          <rect x="581" width="49" height="64" fill="currentColor" />
-          <rect x="482" y="123" width="49" height="49" fill="currentColor" />
-          <rect x="507" y="124" width="49" height="24" fill="currentColor" />
-          <rect x="531" y="49" width="99" height="99" fill="currentColor" />
-        </svg>
-      </div>
+     
 
     </div>
 
