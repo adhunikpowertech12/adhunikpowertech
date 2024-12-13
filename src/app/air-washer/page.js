@@ -8,6 +8,7 @@ export default function page() {
 
 
   const accordionData = useMemo(() => [
+    
     {
       title: "1. How does an air washer work?",
       content:
@@ -66,14 +67,25 @@ export default function page() {
     </>,
     },
     {
-      title: "4. What is the difference between a panel air conditioner and a regular air conditioner? ",
+      title: "4. What Are the Differences Between an Air Washer and an AHU? ",
       content:
-        "Panel air conditioners are specifically designed for cooling enclosed spaces with sensitive electronic equipment, while regular air conditioners are designed for cooling larger areas like rooms or buildings. They often offer more precise temperature control and are optimized for efficient heat dissipation.",
+        "An Air Washer and an Air Handling Unit (AHU) are two different systems used for indoor air treatment. An Air Washer primarily cools, humidifies, and purifies air by adding moisture and filtering impurities, often used in dry environments like in industrial areas. An AHU, on the other hand, is a complex system that conditions and circulates air throughout a building, controlling temperature, humidity, and air quality.While an Air Washer focuses on specific air treatments, an AHU offers a comprehensive solution for air conditioning and circulation in larger buildings.",
     },
     {
-      title: "5. Why should I choose Adhunik Powertech panel air conditioners? ",
+      title: "5. How do air washer systems enhance efficiency in industrial processes? ",
       content:
-        "Adhunik Powertech is a renowned manufacturer of high-quality panel air conditioners, offering: Reliability: Proven performance and durability. Energy Efficiency: Reduced operating costs. Customizable Solutions: Tailored to specific cooling needs.",
+       <>
+       <div className="faq-item">
+  <div className="faq-content">
+    <ul className="list-disc pl-5">
+      <li><strong>Improved Air Quality</strong>: Air washers remove dust and contaminants, preventing product contamination and ensuring a safer work environment.</li>
+      <li><strong>Regulated Climate</strong>: They maintain optimal temperature and humidity levels, essential for industries like pharmaceuticals and electronics to prevent equipment malfunctions.</li>
+      <li><strong>Energy Efficiency</strong>: By using evaporative cooling, air washers reduce energy costs and lower carbon footprints compared to traditional air conditioning.</li>
+      <li><strong>Enhanced Equipment Performance</strong>: Stable conditions increase the lifespan of sensitive machinery, reducing downtime and maintenance costs.</li>
+    </ul>
+  </div>
+</div>
+       </>,
     },
   ], []);
 
