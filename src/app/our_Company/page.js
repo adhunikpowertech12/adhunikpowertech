@@ -18,10 +18,12 @@ export default function AirWasher() {
       
       bgImage: '/slideabout.webp',
       content: (
+
         <div className="z-10 text-center">
+
           <div className="row">
             <div className="col py-12 justify-center items-center flex flex-col">
-            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl" >About Us</p>
+            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl ps-5 pb-3" >About Us</p>
            <p  className="text-[12xl] w-[55%]  font-semibold  text-justify font-sans  text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
               <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7">
               Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
@@ -42,29 +44,42 @@ export default function AirWasher() {
             </div>
           </div>
   
-          {/* <div className="row">
-            <div className="relative h-[500px] w-full">
-            
-  
-              <div className="absolute inset-0 text-gray-700 flex items-center justify-center">
-                <div className="text-center w-[75%] rounded-md border-gray-400 border-[1px] p-11 font-thin bg-white text-gray-700">
-                  <h1 className="text-3xl font-sans mb-4">A Brighter India, Powered by Adhunik Powertech</h1>
-                  <p className="text-lg font-thin font-sans">
-                    Our conviction, "A Brighter India, Powered by Adhunik Powertech," drives our vision and actions every day. We have successfully evolved from an HVAC services company to India’s premier manufacturer of air cooling and air conditioning products. By supporting the Make in India initiative, we not only enhance local manufacturing but also bring our innovative products to markets around the world, demonstrating our commitment to quality and excellence on a global scale.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
+        
         </div>
       ),
     },
     {
       id: 1,
       year:'2005',
-      title: 'Ownership',
-      description: 'Learn more about us',
+    
       bgImage: 'https://images.unsplash.com/photo-1733913128715-ddfac4bcf9fd?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      content: (
+
+        <div className="z-10 text-center">
+        
+          <div className="row">
+            <div className="col py-12 justify-center items-center flex flex-col">
+            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl ps-5 pb-3" > Our Journey  </p>
+           <p  className="text-[12xl] w-[55%]  font-thin  text-justify font-sans  text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
+              <div className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7">
+              <blockquote class="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
+              </div>
+            
+
+              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+
+              <div className="row">
+              <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      ),
     },
     {
       id: 2,
@@ -242,44 +257,7 @@ export default function AirWasher() {
 
         </div>
 
-  {/* Rest of the content below */}
-  {/* <div className="my-11">
-    <span className="text-transparent">.</span>
-  </div>
-
-  <div className="row">
-    <div className="col py-12 justify-center items-center flex flex-col">
-      <p className="text-3xl font-serif">HVAC Solution Under One Roof</p>
-      <p className="text-[12xl] w-[75%] text-center font-sans font-thin py-7">
-        Adhunik Powertech Private Limited is a leading manufacturer specializing in high-quality air cooling and air conditioning products. We offer comprehensive HVAC project services, including expert design, installation, and maintenance, ensuring our clients receive unparalleled support throughout every phase. With over 19 years of experience in the HVAC industry, we are committed to providing innovative turnkey solutions that meet and exceed international standards. Choose Adhunik Powertech to enhance your indoor comfort and energy efficiency with our trusted HVAC expertise.
-      </p>
-    </div>
-  </div>
-
-  <div className="row">
-    <div className="relative h-[500px] w-full">
-     
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-full object-fill object-center"
-      >
-        <source src="https://rilstaticasset.akamaized.net/sites/default/files/2022-08/about-us-flag-video-mob.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-
-   
-      <div className="absolute inset-0 text-gray-700 flex items-center justify-center">
-        <div className="text-center w-[75%] rounded-md border-gray-400 border-[1px] p-11 font-thin bg-white text-gray-700">
-          <h1 className="text-3xl font-sans mb-4">A Brighter India, Powered by Adhunik Powertech</h1>
-          <p className="text-lg font-thin font-sans">
-            Our conviction, "A Brighter India, Powered by Adhunik Powertech," drives our vision and actions every day. We have successfully evolved from an HVAC services company to India’s premier manufacturer of air cooling and air conditioning products. By supporting the Make in India initiative, we not only enhance local manufacturing but also bring our innovative products to markets around the world, demonstrating our commitment to quality and excellence on a global scale.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> */}
+  
 
   
 </div>
