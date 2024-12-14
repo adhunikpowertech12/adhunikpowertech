@@ -6,8 +6,13 @@
 import Link from 'next/link';
 
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 function Footer() {
+  const pathname = usePathname();
+  console.log("Current Pathname:", pathname); // Debugging line
+
+
 
   const handleMapClick = () => {
     const latitude = "28.407386810274993";
@@ -81,6 +86,9 @@ function Footer() {
 
 
 
+  if (pathname === "/our_Company") {
+    return null;
+  }
   return (
     <footer className="  text-[10px] font-sans text-center h-auto w-auto bg-black text-white lg:text-left lg:px-14 py-5">
 
