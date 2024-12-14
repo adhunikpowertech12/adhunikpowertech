@@ -119,9 +119,37 @@ export default function AirWasher() {
     {
       id: 3,
       year:'2014',
-      title: 'Financials',
-      description: 'Get in touch with us',
+    
       bgImage: 'https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      content: (
+
+        <div className="z-10 text-center">
+        
+          <div className="row">
+            <div className="col py-12 justify-center items-center flex flex-col">
+            <p className="text-[12xl] w-[65%] text-justify font-sans font-semibold   text-3xl  pb-3" >2014  </p>
+           <p  className="text-[12xl] w-[65%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Product Launch:</span> Introduced Panel Air
+           Conditioner Manufacturing  </p>
+              <div className="text-[12xl] w-[65%] text-justify font-sans font-thin pt-7">
+              <blockquote class="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
+              milestone in our growth. </blockquote>
+              </div>
+            
+
+              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+
+              <div className="row">
+              <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      ),
     },
     {
       id: 4,
