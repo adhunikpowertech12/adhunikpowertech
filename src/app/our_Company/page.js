@@ -13,22 +13,22 @@ export default function AirWasher() {
     {
       id: 0,
       
-      title: 'Overview',
+     
       year:'About Us',
-      description: 'We are Adhunik Powertech: Experts Who Make a Difference. ',
+      
       bgImage: '/slideabout.webp',
       content: (
         <div className="z-10 text-center">
           <div className="row">
             <div className="col py-12 justify-center items-center flex flex-col">
-           
+            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl" >About Us</p>
+           <p  className="text-[12xl] w-[55%]  font-semibold  text-justify font-sans  text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
               <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7">
               Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
-              </p>
-              <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-2 ">
               Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
 
               </p>
+            
 
               <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
 
