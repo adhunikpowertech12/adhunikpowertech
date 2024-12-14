@@ -23,9 +23,9 @@ export default function AirWasher() {
 
           <div className="row">
             <div className="col py-12 justify-center items-center flex flex-col">
-            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl ps-5 pb-3" >About Us</p>
-           <p  className="text-[12xl] w-[55%]  font-semibold  text-justify font-sans  text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
-              <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7">
+            <p className="text-[12xl] w-[60%] text-justify font-sans font-thin pt-7 italic text-3xl ps-5 pb-3" >About Us</p>
+           <p  className="text-[12xl] w-[60%]  font-semibold  text-justify font-sans  text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
+              <p className="text-[12xl] w-[60%] text-justify font-sans font-thin pt-7">
               Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
               Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
 
@@ -59,8 +59,9 @@ export default function AirWasher() {
         
           <div className="row">
             <div className="col py-12 justify-center items-center flex flex-col">
-            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl ps-5 pb-3" > Our Journey  </p>
-           <p  className="text-[12xl] w-[55%]  font-thin  text-justify font-sans  text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
+            <p className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7 italic text-3xl  " > Our Journey  </p>
+            <p className="text-[12xl] w-[55%] text-justify font-sans font-semibold   text-3xl  pb-3" >2005  </p>
+           <p  className="text-[12xl] w-[55%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
               <div className="text-[12xl] w-[55%] text-justify font-sans font-thin pt-7">
               <blockquote class="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
               </div>
@@ -85,9 +86,35 @@ export default function AirWasher() {
       id: 2,
       year:'2010',
      
-      title: 'Values',
-      description: 'Our range of services',
+     
       bgImage: 'https://images.unsplash.com/photo-1577702160540-01e3d86e0be2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D',
+      content: (
+
+        <div className="z-10 text-center">
+        
+          <div className="row">
+            <div className="col py-12 justify-center items-center flex flex-col">
+            <p className="text-[12xl] w-[65%] text-justify font-sans font-semibold   text-3xl  pb-3" >2010  </p>
+           <p  className="text-[12xl] w-[65%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing  </p>
+              <div className="text-[12xl] w-[65%] text-justify font-sans font-thin pt-7">
+              <blockquote class="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
+              </div>
+            
+
+              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+
+              <div className="row">
+              <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      ),
     },
     {
       id: 3,
