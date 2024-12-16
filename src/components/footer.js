@@ -10,8 +10,6 @@ import { usePathname } from 'next/navigation';
 
 function Footer() {
   const pathname = usePathname();
-  console.log("Current Pathname:", pathname); // Debugging line
-
 
 
   const handleMapClick = () => {
