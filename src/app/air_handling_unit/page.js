@@ -224,7 +224,7 @@ export default function DuctedAirCooler() {
                 fetchPriority="high"
                 decoding="async"
                 alt="Air Handling Unit"
-                src="ahu.png"
+                src="ahu2.jpeg"
               />
             </div>
           </div>
@@ -244,7 +244,7 @@ export default function DuctedAirCooler() {
   <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
     <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Air Handling Unit (Customizable)</h2>
     <p className="text-justify md:text-center">
-    Experience refreshing comfort duringTransform your indoor spaces with Adhunik Powertech's Air Handling Unit, a premier solution for customizable and energy-efficient cooling. Designed with elegance and adaptability, it delivers optimal comfort while its robust cooling power effortlessly counters the summer heat. Discover how you can enjoy a perfect blend of style and performance that elevates your environment. Contact us today to learn more and take the first step towards a cooler, more comfortable space.
+     Air Handling Unit, a premier solution for customizable and energy-efficient cooling. Designed with elegance and adaptability, it delivers optimal comfort while its robust cooling power effortlessly counters the summer heat. Discover how you can enjoy a perfect blend of style and performance that elevates your environment. Contact us today to learn more and take the first step towards a cooler, more comfortable space.
     </p>
     <div className="show_m mt-5">
       <button
@@ -318,7 +318,7 @@ export default function DuctedAirCooler() {
 
 
 
-<div className="row">
+{/* <div className="row">
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -383,16 +383,16 @@ export default function DuctedAirCooler() {
 
 
 <div className="bg-[#283e56] p-4 relative">
-{/* Background Blur Effect */}
+
 <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
 <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
 <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
 </div>
 
-{/* Main Content */}
+
 <div className="max-w-7xl mx-auto px-6 py-4 md:px-12 xl:px-6">
 <div className="md:w-2/3 lg:w-1/2 mt-2 text-gray-100 flex items-center">
-  {/* Icon */}
+
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
@@ -408,7 +408,7 @@ export default function DuctedAirCooler() {
   <h2 className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</h2>
 </div>
 
-{/* Grid of Features */}
+
 <div className="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
   {features2.map((feature) => (
     <div key={feature.id} className="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
@@ -425,7 +425,7 @@ export default function DuctedAirCooler() {
 </div>
 </div>
 </div>
-</div>
+</div> */}
    
 
 
@@ -440,7 +440,7 @@ export default function DuctedAirCooler() {
 
 
 
-          <div className="flex justify-center items-center w-full h-full flex-row">
+          <div className="flex pt-5 justify-center items-center w-full h-full flex-row">
             {/* Left line */}
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
