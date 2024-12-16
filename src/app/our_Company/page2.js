@@ -10,10 +10,9 @@ export default function AirWasher() {
 
   const [activePage, setActivePage] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
-  const [isMyslideInView, setIsMyslideInView] = useState(false);
-  const [isPageScrollingAllowed, setIsPageScrollingAllowed] = useState(true); // Allow body scroll by default
-
-  // Track if myslide is in view
+  const [isOnLastSlide, setIsOnLastSlide] = useState(false);
+  const [isOnFirstSlide, setIsOnFirstSlide] = useState(true);
+  const [isMyslideInView, setIsMyslideInView] = useState(false); // Track if myslide is in view
   const pages = [
  
 
@@ -352,13 +351,13 @@ export default function AirWasher() {
         <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex  bg-black  ">
         
           <div className="row text-center  ">
-      
+            <div className="  ">
            
         <p className=' relative top-8 font-sans  text-4xl'> Growing Stronger, <br />
        <span> Innovating Always…</span></p>
 
         
-          
+            </div>
           </div>
 
         
@@ -370,135 +369,144 @@ export default function AirWasher() {
   ];
 
   const handleWheel = (e) => {
-    if (!isMyslideInView || isScrolling) return; // Prevent actions if not in slides or scrolling in progress
+    if (!isMyslideInView || isScrolling) return; // Prevent scrolling if myslide is not in view or transition is in progress
 
-    // Slide scrolling
-    if (e.deltaY > 0 && activePage < pages.length - 1) {
-      // Scroll down
+    if (e.deltaY > 0 && activePage < pages.length - 1 && !isOnLastSlide) {
       setIsScrolling(true);
       setActivePage((prev) => prev + 1);
-    } else if (e.deltaY < 0 && activePage > 0) {
-      // Scroll up
+    } else if (e.deltaY < 0 && activePage > 0 && !isOnFirstSlide) {
       setIsScrolling(true);
       setActivePage((prev) => prev - 1);
-    } else if (e.deltaY > 0 && activePage === pages.length - 1) {
-      // End of last slide: Enable page scrolling
-      setIsPageScrollingAllowed(true);
-      setIsMyslideInView(false);
-    } else if (e.deltaY < 0 && activePage === 0) {
-      // Top of first slide: Enable page scrolling
-      setIsPageScrollingAllowed(true);
-      setIsMyslideInView(false);
     }
   };
 
-  // Reset scrolling lock after a delay
   useEffect(() => {
-    const timeout = setTimeout(() => setIsScrolling(false), 600); // Match transition duration
+    const timeout = setTimeout(() => {
+      setIsScrolling(false);
+    }, 600); // Match the transition duration
+
     return () => clearTimeout(timeout);
   }, [activePage]);
 
-  // Toggle body scroll based on whether the slides are in view
+  // Prevent body scrolling during the transition
   useEffect(() => {
-    document.body.style.overflow = isPageScrollingAllowed ? "auto" : "hidden";
-    return () => (document.body.style.overflow = "auto");
-  }, [isPageScrollingAllowed]);
+    if (isScrolling) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
 
-  // Intersection Observer to track if slides are in the viewport
+    return () => {
+      document.body.style.overflow = "auto"; // Ensure scrolling is enabled when component unmounts
+    };
+  }, [isScrolling]);
+
+  // Update state for first and last slides
   useEffect(() => {
-    const slideElement = document.getElementById("myslide");
+    setIsOnFirstSlide(activePage === 0);
+    setIsOnLastSlide(activePage === pages.length - 1);
+  }, [activePage]);
+
+  // Intersection observer to track if myslide is in the viewport
+  useEffect(() => {
+    const myslideElement = document.getElementById("myslide");
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsMyslideInView(true);
-          setIsPageScrollingAllowed(false); // Disable window scrolling
-        } else {
-          setIsMyslideInView(false);
-          setIsPageScrollingAllowed(true); // Enable window scrolling
-        }
+        setIsMyslideInView(entry.isIntersecting); // Update state when myslide is in view
       },
-      { threshold: 1.0 } // Trigger when 90% of myslide is visible
+      { threshold: 0.5 } // Trigger when 50% of myslide is in view
     );
 
-    if (slideElement) observer.observe(slideElement);
+    if (myslideElement) {
+      observer.observe(myslideElement);
+    }
 
     return () => {
-      if (slideElement) observer.unobserve(slideElement);
+      if (myslideElement) {
+        observer.unobserve(myslideElement);
+      }
     };
   }, []);
 
-  // Attach the wheel event listener
+  // Add event listener for the wheel scroll
   useEffect(() => {
-    window.addEventListener("wheel", handleWheel);
-    return () => window.removeEventListener("wheel", handleWheel);
-  }, [activePage, isMyslideInView, isScrolling]);
+    window.addEventListener('wheel', handleWheel);
+    return () => window.removeEventListener('wheel', handleWheel);
+  }, [isScrolling, activePage, isMyslideInView]);
+
 
   
   return (
     <>
     <div className="container-fluid">
-      <div className="row">
-        <div id="myslide" className="h-screen w-full overflow-hidden relative">
-          {/* Slide Pages */}
-          <div
-            className="h-full w-full transition-transform ease-in-out duration-500"
-            style={{ transform: `translateY(-${activePage * 100}vh)` }}
-          >
-            {pages.map((page) => (
-              <div
-                key={page.id}
-                className="h-screen flex flex-col items-center justify-center text-white relative"
-                style={{
-                  backgroundImage: `url(${page.bgImage})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                {/* Content */}
-                <div className="z-10 text-center">
-                  <h1 className="text-4xl font-bold">{page.title}</h1>
-                  <p className="text-lg mt-4">{page.description}</p>
-                  {page.content}
-                </div>
-              </div>
-            ))}
-          </div>
 
-          {/* Page Indicators */}
-          <div className="absolute top-1/2 right-4 transform -translate-y-1/2 flex flex-col items-center">
-            {pages.map((page) => (
-              <div
-                key={page.id}
-                className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${
-                  page.id === activePage ? "opacity-100 scale-105" : "opacity-50"
-                }`}
-                onClick={() => !isScrolling && setActivePage(page.id)}
-              >
-                <div
-                  className={`h-8 w-2 rounded-full mr-2 ${
-                    page.id === activePage ? "border-2 border-blue-500" : "bg-gray-400"
-                  }`}
-                >
-
-                </div>
-                <div
-                  className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${
-                    page.id === activePage ? "border-2 border-blue-500" : "bg-gray-400"
-                  }`}
-                >
-
-                </div>
-                
-                <span className="text-white font-sans font-thin">{page.year}</span>
-              </div>
-            ))}
-          </div>
+    
+    <div className="row">
+    <div
+  id="myslide"
+  className="h-screen w-full overflow-hidden relative"
+>
+  {/* Main Pages */}
+  <div
+    className="h-full w-full transition-transform ease-in-out duration-500"
+    style={{ transform: `translateY(-${activePage * 100}vh)` }}
+  >
+    {pages.map((page) => (
+      <div
+        key={page.id}
+        className="h-screen flex flex-col items-center justify-center text-white relative"
+        style={{
+          backgroundImage: `url(${page.bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+        {/* Content */}
+        <div className="z-10 text-center">
+          <h1 className="text-4xl font-bold">{page.title}</h1>
+          <p className="text-lg mt-4">{page.description}</p>
+          {/* Page Specific Content */}
+          {page.content}
         </div>
       </div>
-    </div>
+    ))}
+  </div>
+
+  {/* Page Indicators */}
+  <div className="absolute top-1/2 right-4 transform -translate-y-1/2 flex flex-col items-center">
+    {pages.map((page) => (
+      <div
+        key={page.id}
+        className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${
+          page.id === activePage ? 'opacity-100 scale-105' : 'opacity-50'
+        }`}
+        onClick={() => !isScrolling && setActivePage(page.id)}
+      >
+        <div
+          className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage ? 'border-2 border-blue-500' : 'bg-gray-400'}`}
+        >
+            
+        </div>
+
+        <div
+          className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage ? 'bg-blue-500' : 'bg-gray-400'}`}
+        ></div>
+
+        <span className=" text-white font-sans font-thin ">{page.year}</span>
+      </div>
+    ))}
+  </div>
+</div>
+
+        </div>
+
+  
+
+  
+</div>
 
     </>
   );
