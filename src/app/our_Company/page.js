@@ -387,8 +387,8 @@ export default function AirWasher() {
       setIsMyslideInView(false);
     } else if (e.deltaY < 0 && activePage === 0) {
       // Top of first slide: Enable page scrolling
-      setIsPageScrollingAllowed(true);
-      setIsMyslideInView(false);
+      setIsPageScrollingAllowed(false);
+      setIsMyslideInView(true);
     }
   };
 
