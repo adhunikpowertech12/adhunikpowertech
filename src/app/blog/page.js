@@ -18,8 +18,8 @@ export default function Page() {
       title: "What is a Ducted Air Cooler?",
       image:
       "pw.png",
-      link: "#",
-      img: "ac4.webp",
+      link: "/what-is-a-ducted-air-cooler",
+      img: "/ac4.webp",
     },
     
     {

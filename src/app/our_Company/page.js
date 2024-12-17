@@ -408,10 +408,10 @@ export default function AirWasher() {
       id: 9,
       year: 'Present',
 
-      bgImage: '', // Add the image URL here
+      bgImage: '/gs.webp', // Add the image URL here
       content: (
 
-        <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex  bg-black  ">
+        <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex    ">
 
           <div className="row text-center  ">
 
