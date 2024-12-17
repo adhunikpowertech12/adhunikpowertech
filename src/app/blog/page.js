@@ -8,23 +8,25 @@ export default function Page() {
       id: 1,
       title: "What is an Air Washer?",
       image:
-        "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80",
+        "pw.png",
       link: "/what-is-an-air-washer",
       img: "/awt.png",
     },
+
     {
       id: 2,
-      title: "How to Maintain Air Quality",
+      title: "What is a Ducted Air Cooler?",
       image:
-        "https://images.unsplash.com/photo-1556740749-887f6717d7e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80",
+      "pw.png",
       link: "#",
-      img: "",
+      img: "ac4.webp",
     },
+    
     {
       id: 3,
       title: "What is Panel Air Conditioners ?",
       image:
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80",
+      "pw.png",
       link: "/what-is-panel-air-conditioners",
       img: "/panelac.png",
     },
@@ -53,7 +55,7 @@ export default function Page() {
                 }}
               >
                 <div className="flex p-4 ">
-                  <h3 className="text-4xl text-white/90 group-hover:text-white">
+                  <h3 className="text-4xl text-cyan-800 group-hover:text-gray-500">
                     <span className="font-bold">{blog.title.split(" ")[0]}</span>{" "}
                     {blog.title.split(" ").slice(1).join(" ")}
                   </h3>
@@ -62,7 +64,7 @@ export default function Page() {
 
                   <img src={blog.img} alt={blog.title}  className="w-full h-auto max-h-64 sm:max-h-72 lg:max-h-80 object-cover rounded-md" />
 
-                  <div className=" pt-3 inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/70">
+                  <div className=" pt-3 inline-flex items-center gap-2 text-sm font-medium  text-gray-800 group-hover:text-gray-500 ">
                     Read More
 
                     <svg
