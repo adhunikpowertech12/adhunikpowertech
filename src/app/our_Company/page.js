@@ -468,7 +468,7 @@ export default function AirWasher() {
           </div>
 
           {/* Page Indicators */}
-          <div className="absolute top-1/2 right-4 transform -translate-y-1/2 flex flex-col items-center">
+          <div className="absolute top-[60%] right-4 transform -translate-y-1/2 flex flex-col items-center">
             {pages.map((page) => (
               <div
                 key={page.id}
@@ -479,20 +479,20 @@ export default function AirWasher() {
               >
                 <div
                   className={`h-8 w-2 rounded-full mr-2 ${
-                    page.id === activePage ? "border-2 border-blue-500" : "bg-gray-400"
+                    page.id === activePage ? "border-2 border-cyan-500" : "bg-gray-400"
                   }`}
                 >
 
                 </div>
                 <div
                   className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${
-                    page.id === activePage ? "border-2 border-blue-500" : "bg-gray-400"
+                    page.id === activePage ? "border-2 border-cyan-500" : "bg-gray-400"
                   }`}
                 >
 
                 </div>
                 
-                <span className="text-white font-sans font-thin">{page.year}</span>
+                <span className="text-white  font-sans font-thin text-[14px] ">{page.year}</span>
               </div>
             ))}
           </div>

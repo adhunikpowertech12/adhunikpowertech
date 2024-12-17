@@ -17,7 +17,6 @@ export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
 
-
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
@@ -38,7 +37,6 @@ export default function Hero() {
   };
 
  
-
   const images3 = [
     {
       original: "/AWI.webp",
@@ -100,7 +98,6 @@ export default function Hero() {
     { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112  },
   ];
   
-
 
   const slides = [
     {
@@ -242,8 +239,6 @@ export default function Hero() {
     },
 
   ];
-
-
 
   const images6 = [
     { src: '/l1.jpg', alt: 'pics', width: 120, height: 120 },
