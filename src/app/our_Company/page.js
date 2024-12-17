@@ -75,7 +75,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[70%] text-justify font-sans font-semibold   text-3xl  pb-3" >2005  </p>
            <p  className="text-[12xl] w-[70%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
               </div>
             
 
@@ -110,7 +110,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[90%] text-justify font-sans font-semibold   text-3xl  pb-3" >2010  </p>
            <p  className="text-[12xl] w-[90%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing  </p>
               <div className="text-[12xl] w-[90%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
               </div>
             
 
@@ -145,7 +145,7 @@ export default function AirWasher() {
            <p  className="text-[12xl] w-[70%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Product Launch:</span> Introduced Panel Air
            Conditioner Manufacturing  </p>
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
               milestone in our growth. </blockquote>
               </div>
             
@@ -182,7 +182,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[63%] text-justify font-sans font-semibold   text-3xl  pb-3" >2016  </p>
            <p  className="text-[12xl] w-[63%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans"> Manufacturing Milestone:</span> Established a dedicated manufacturing plant </p>
               <div className="text-[12xl] w-[63%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
               </div>
             
 
@@ -216,7 +216,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[82%] text-justify font-sans font-semibold   text-3xl  pb-3" >2017  </p>
            <p  className="text-[12xl] w-[82%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
               <div className="text-[12xl] w-[82%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
               </div>
             
 
@@ -252,7 +252,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[80%] text-justify font-sans font-semibold   text-3xl  pb-3" >2020            </p>
            <p  className="text-[12xl] w-[80%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans"> Market Expansion:</span>  Started Ventilation Fan Manufacturing </p>
               <div className="text-[12xl] w-[80%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
               </div>
             
 
@@ -287,7 +287,7 @@ export default function AirWasher() {
             <p className="text-[12xl] w-[70%] text-justify font-sans font-semibold   text-3xl  pb-3" >2021</p>
            <p  className="text-[12xl] w-[70%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans"> Product Launch:</span>  Introduced Air Shower & Pass Box Manufacturing </p>
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Air Shower & Pass Box Manufacturing to meet cleanroom demands. </blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Air Shower & Pass Box Manufacturing to meet cleanroom demands. </blockquote>
               </div>
             
 
@@ -323,7 +323,7 @@ export default function AirWasher() {
            <p  className="text-[12xl] w-[77%]  font-thin text-left   font-sans  text-4xl " ><span className=" font-semibold font-sans"> Rebranding:</span> 
             The company name changed to Adhunik Powertech Private Limited </p>
               <div className="text-[12xl] w-[77%] text-justify font-sans font-thin pt-7">
-              <blockquote className="border-l-4 border-[#A58149]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited  </blockquote>
+              <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited  </blockquote>
               </div>
             
 
@@ -346,7 +346,7 @@ export default function AirWasher() {
   
     {
       id: 9,
-      year:'2025',
+      year:'Present',
       
       bgImage: '', // Add the image URL here
       content: (
