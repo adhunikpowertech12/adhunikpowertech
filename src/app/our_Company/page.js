@@ -79,7 +79,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -114,7 +114,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -150,7 +150,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -186,7 +186,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -220,7 +220,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -256,7 +256,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -291,7 +291,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
@@ -327,7 +327,7 @@ export default function AirWasher() {
               </div>
             
 
-              <p className=" relative  top-16 font-sans font-thin">Scroll down to learn more about us.</p>
+              
 
               <div className="row">
               <svg className="arrows">
