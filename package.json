@@ -18,6 +18,7 @@
     "d3-geo": "^3.1.1",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
+    "fuse.js": "^7.0.0",
     "gsap": "^3.12.5",
     "next": "^14.2.5",
     "preline": "^2.6.0",

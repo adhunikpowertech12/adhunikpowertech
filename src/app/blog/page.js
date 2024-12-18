@@ -1,8 +1,14 @@
+"use client"
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useState } from "react";
+import Fuse from "fuse.js";
+import { useRouter } from "next/navigation";
 
 
 export default function Page() {
+
+
   const blogData = [
     {
       id: 1,
@@ -31,6 +37,54 @@ export default function Page() {
       img: "/pab.png",
     },
   ];
+
+  const searchBarRef = useRef(null); // Ref for the search bar
+
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState([]);
+  const [showSearch, setShowSearch] = useState(false); // To toggle input visibility
+  const router = useRouter();
+
+  const items = [
+    { id: "1", name: "Product A", link: "/products/1" },
+    { id: "2", name: "Product B", link: "/products/2" },
+    { id: "3", name: "Product C", link: "/products/3" },
+    { id: "4", name: "Product D", link: "/products/4" },
+  ];
+
+  const fuse = new Fuse(items, {
+    keys: ["name"],
+    threshold: 0.3,
+  });
+
+  const handleSearch = (e) => {
+    const input = e.target.value;
+    setQuery(input);
+
+    if (input.trim() === "") {
+      setResults([]);
+    } else {
+      const searchResults = fuse.search(input).map((result) => result.item);
+      setResults(searchResults);
+    }
+  };
+
+  const handleSelect = (link) => {
+    router.push(link);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+        setShowSearch(false); // Close the search bar
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <>
@@ -89,9 +143,95 @@ export default function Page() {
         </div>
         {/* End Title */}
 
-        {/* Grid */}
+    <div className="row">
+   
+    
+    <div className="search-bar-container">
+      {/* Logo Section */}
+      <div className="logo-section">
+      <i className="px-2 fa-solid fa-magnifying-glass"  onClick={() => setShowSearch(!showSearch)} ></i>
 
-        {/* End Grid */}
+       
+     
+      </div>
+
+      {/* Input Section */}
+      {showSearch && (
+        <div className="search-bar p-5"  ref={searchBarRef}>
+          <input
+            type="text"
+            value={query}
+            onChange={handleSearch}
+            placeholder="Search products..."
+            className="search-input"
+          />
+          {results.length > 0 && (
+            <ul className="search-results">
+              {results.map((item) => (
+                <li
+                  key={item.id}
+                  className="search-item"
+                  onClick={() => handleSelect(item.link)}
+                >
+                  {item.name}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+
+      <style jsx>{`
+        .logo-section {
+          text-align: center;
+          cursor: pointer;
+          margin: 20px 0;
+        }
+        .logo {
+          width: 100px;
+          height: auto;
+        }
+        .search-bar {
+          position: fixed;
+          top: 60px; /* Adjust as needed */
+          left: 50%;
+          transform: translateX(-50%);
+          background: white;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          padding: 10px;
+          width: 400px; /* Adjust width as needed */
+          z-index: 1000;
+        }
+        .search-input {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        .search-results {
+          margin-top: 10px;
+          background: white;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          max-height: 200px;
+          overflow-y: auto;
+          list-style: none;
+          padding: 0;
+        }
+        .search-item {
+          padding: 10px;
+          cursor: pointer;
+        }
+        .search-item:hover {
+          background: #f0f0f0;
+        }
+      `}</style>
+
+    </div>
+   
+    </div>
       </div>
     </>
   );
