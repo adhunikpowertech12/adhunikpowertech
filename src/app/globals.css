@@ -673,6 +673,28 @@ section .card__img span {
 
 
 #chartdiv {
-  width: 100%;
+  width: 50%;
   height: 550px;
 }
+
+/* For tablets (screen width 768px and up) */
+@media (max-width: 1024px) {
+  #chartdiv {
+    height: 450px;
+  }
+}
+
+/* For mobile devices (screen width 480px and up) */
+@media (max-width: 768px) {
+  #chartdiv {
+    height: auto;
+  }
+}
+
+/* For very small screens (less than 480px) */
+@media (max-width: 480px) {
+  #chartdiv {
+    height: auto;
+  }
+}
+

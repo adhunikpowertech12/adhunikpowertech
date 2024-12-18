@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
-import WorldMap from "react-svg-worldmap";
 import { FaPlay } from "react-icons/fa";
 import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
@@ -153,17 +152,7 @@ export default function page2() {
     },
   ];
 
-  const data = [
 
-    { country: "in", value: 1311559204 }, // india
-    { country: "us", value: 1311559204 }, // united states
-
-    { country: "br", value: 1311559204 }, // brazil
-
-    { country: "bd", value: 1311559204 }, // bangladesh
-    { country: "ru", value: 1311559204 }, // russia
-    { country: "mx", value: 1311559204 }, // mexico
-  ];
 
   
   const [showModal, setShowModal] = React.useState(false);
@@ -262,10 +251,14 @@ export default function page2() {
 
     // Set data for cities
     let cities = [
-      { title: "Vienna", latitude: 48.2092, longitude: 16.3728 },
-      { title: "Minsk", latitude: 53.9678, longitude: 27.5766 },
-      // Add the rest of your cities here...
+      { title: "Nepal", latitude: 28.3949, longitude: 84.1240 }, // Nepal
+      { title: "India", latitude: 20.5937, longitude: 78.9629 }, // India
+      { title: "Iraq", latitude: 33.2232, longitude: 43.6793 }, // Iraq
+      { title: "Saudi Arabia", latitude: 23.8859, longitude: 45.0792 }, // Saudi Arabia
+      { title: "Bangladesh", latitude: 23.685, longitude: 90.3563 }, // Bangladesh
+      { title: "UAE", latitude: 23.4241, longitude: 53.8478 } // UAE
     ];
+    
 
     for (let i = 0; i < cities.length; i++) {
       let city = cities[i];
@@ -377,7 +370,7 @@ export default function page2() {
         <div className=' flex justify-center items-center'>
 
 
-          <div className="col w-[80%]   justify-center flex flex-col px-10 pt-14">
+          <div className="col w-[80%]   justify-center flex flex-col px-10 ">
 
             <br />
 
@@ -406,22 +399,7 @@ export default function page2() {
 
         <div className="col w-full px-4">
           <div className=' justify-center items-center flex'>
-            <div className="App ">
-              <WorldMap
-                color="#1d4ed8"
-                title=""
-
-
-
-                data={data}
-
-                valueSuffix=""
-                strokeOpacity='0.5'
-
-
-
-              />
-            </div>
+          <div id="chartdiv" ></div>
           </div>
 
 
@@ -741,7 +719,7 @@ export default function page2() {
       </div>
 
 
-      <div id="chartdiv" style={{ width: "50%", height: "500px" }}></div>
+  
 
     </>
   )
