@@ -8,7 +8,7 @@ export default function Page() {
       id: 1,
       title: "What is an Air Washer?",
       image:
-        "pw.png",
+        "",
       link: "/what-is-an-air-washer",
       img: "/awb.png",
     },
@@ -17,7 +17,7 @@ export default function Page() {
       id: 2,
       title: "What is a Ducted Air Cooler?",
       image:
-      "pw.png",
+      "",
       link: "/what-is-a-ducted-air-cooler",
       img: "/ac4.webp",
     },
@@ -26,7 +26,7 @@ export default function Page() {
       id: 3,
       title: "What is Panel Air Conditioners ?",
       image:
-      "pw.png",
+      "",
       link: "/what-is-panel-air-conditioners",
       img: "/pab.png",
     },
@@ -47,11 +47,13 @@ export default function Page() {
             {blogData.map((blog) => (
               <Link
                 key={blog.id}
-                className="group relative flex flex-col w-full  bg-cover bg-center rounded-xl hover:shadow-lg transition"
+                className="group border border-cyan-500 relative flex flex-col w-full  bg-cover bg-center rounded-xl hover:shadow-lg transition"
 
                 href={blog.link}
                 style={{
-                  backgroundImage: `url('${blog.image}')`,
+                  backgroundImage: `url('${blog.image}')`
+                  
+                  ,
                 }}
               >
                 <div className="flex p-4 ">
