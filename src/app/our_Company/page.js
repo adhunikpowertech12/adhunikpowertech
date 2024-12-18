@@ -16,31 +16,38 @@ export default function AirWasher() {
   // Handle wheel event for scrolling
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
-
+  
+    // Prevent scrolling past the last slide
     if (e.deltaY > 0 && activePage < pages.length - 1) {
-      // Scroll down
+      // Scroll down to the next slide (only if not on the last slide)
       setIsScrolling(true);
-      setActivePage((prev) => prev + 1);
+      setActivePage((prev) => Math.min(prev + 1, pages.length - 1)); // Ensure we don't go beyond last page
     } else if (e.deltaY < 0 && activePage > 0) {
-      // Scroll up
+      // Scroll up to the previous slide (only if not on the first slide)
       setIsScrolling(true);
-      setActivePage((prev) => prev - 1);
+      setActivePage((prev) => Math.max(prev - 1, 0)); // Ensure we don't go before first page
     } else if (e.deltaY > 0 && activePage === pages.length - 1) {
-      // Allow scrolling on last slide
+      // If already at the last slide, prevent further scrolling
+      setIsScrolling(false); 
       setIsPageScrollingAllowed(true);
-      setIsMyslideInView(false);
+      setIsMyslideInView(false); // Do nothing and prevent scrolling past last slide
     } else if (e.deltaY < 0 && activePage === 0) {
-      // Lock scrolling on first slide
+      // If already at the first slide, lock scrolling
       setIsPageScrollingAllowed(false);
       setIsMyslideInView(true);
     }
   };
+  
+ 
+
+  
 
   // Smooth scrolling reset
   useEffect(() => {
     const timeout = setTimeout(() => setIsScrolling(false), 800);
     return () => clearTimeout(timeout);
   }, [activePage]);
+  
 
   // Toggle body scroll
   useEffect(() => {
