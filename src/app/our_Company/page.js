@@ -121,10 +121,11 @@ export default function AirWasher() {
 
 
     {
+      
       id: 1,
       year: '2005',
 
-      bgImage: 'https://images.unsplash.com/photo-1733913128715-ddfac4bcf9fd?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/au2005.webp',
       content: (
 
         <div className="z-10 text-center">
