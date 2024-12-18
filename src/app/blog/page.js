@@ -10,7 +10,7 @@ export default function Page() {
       image:
         "pw.png",
       link: "/what-is-an-air-washer",
-      img: "/awt.png",
+      img: "/awb.png",
     },
 
     {
@@ -28,7 +28,7 @@ export default function Page() {
       image:
       "pw.png",
       link: "/what-is-panel-air-conditioners",
-      img: "/panelac.png",
+      img: "/pab.png",
     },
   ];
 
