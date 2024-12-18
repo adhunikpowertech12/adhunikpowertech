@@ -149,7 +149,7 @@ export default function Page() {
     <div className="search-bar-container">
       {/* Logo Section */}
       <div className="logo-section">
-      <i className="px-2 fa-solid fa-magnifying-glass"  onClick={() => setShowSearch(!showSearch)} ></i>
+      {/* <i className="px-2 fa-solid fa-magnifying-glass"  onClick={() => setShowSearch(!showSearch)} ></i> */}
 
        
      
