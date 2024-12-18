@@ -3,9 +3,15 @@ import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
 import WorldMap from "react-svg-worldmap";
 import { FaPlay } from "react-icons/fa";
+import * as am5 from "@amcharts/amcharts5";
+import * as am5map from "@amcharts/amcharts5/map";
+import am4geodata_worldLow from "@amcharts/amcharts4-geodata/worldLow";
+import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
+
 export default function page2() {
 
 
+ 
   const slides = [
     {
       id: 1,
@@ -166,6 +172,119 @@ export default function page2() {
     setShowModal(false);
   };
 
+
+  useEffect(() => {
+    let root = am5.Root.new("chartdiv");
+
+    root.setThemes([
+      am5themes_Animated.new(root)
+    ]);
+
+    let chart = root.container.children.push(
+      am5map.MapChart.new(root, {
+        panX: "rotateX",
+        panY: "translateY",
+        projection: am5map.geoMercator(),
+      })
+    );
+
+    let zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+    zoomControl.homeButton.set("visible", true);
+
+    let polygonSeries = chart.series.push(
+      am5map.MapPolygonSeries.new(root, {
+        geoJSON: am4geodata_worldLow,
+        exclude: ["AQ"]
+      })
+    );
+
+    polygonSeries.mapPolygons.template.setAll({
+      fill: am5.color(0xdadada)
+    });
+
+    let pointSeries = chart.series.push(am5map.ClusteredPointSeries.new(root, {}));
+
+    pointSeries.set("clusteredBullet", function(root) {
+      let container = am5.Container.new(root, {
+        cursorOverStyle: "pointer"
+      });
+
+      let circle1 = container.children.push(am5.Circle.new(root, {
+        radius: 8,
+        tooltipY: 0,
+        fill: am5.color(0xff8c00)
+      }));
+
+      let circle2 = container.children.push(am5.Circle.new(root, {
+        radius: 12,
+        fillOpacity: 0.3,
+        tooltipY: 0,
+        fill: am5.color(0xff8c00)
+      }));
+
+      let circle3 = container.children.push(am5.Circle.new(root, {
+        radius: 16,
+        fillOpacity: 0.3,
+        tooltipY: 0,
+        fill: am5.color(0xff8c00)
+      }));
+
+      let label = container.children.push(am5.Label.new(root, {
+        centerX: am5.p50,
+        centerY: am5.p50,
+        fill: am5.color(0xffffff),
+        populateText: true,
+        fontSize: "8",
+        text: "{value}"
+      }));
+
+      container.events.on("click", function(e) {
+        pointSeries.zoomToCluster(e.target.dataItem);
+      });
+
+      return am5.Bullet.new(root, {
+        sprite: container
+      });
+    });
+
+    pointSeries.bullets.push(function() {
+      let circle = am5.Circle.new(root, {
+        radius: 6,
+        tooltipY: 0,
+        fill: am5.color(0xff8c00),
+        tooltipText: "{title}"
+      });
+
+      return am5.Bullet.new(root, {
+        sprite: circle
+      });
+    });
+
+    // Set data for cities
+    let cities = [
+      { title: "Vienna", latitude: 48.2092, longitude: 16.3728 },
+      { title: "Minsk", latitude: 53.9678, longitude: 27.5766 },
+      // Add the rest of your cities here...
+    ];
+
+    for (let i = 0; i < cities.length; i++) {
+      let city = cities[i];
+      addCity(city.longitude, city.latitude, city.title);
+    }
+
+    function addCity(longitude, latitude, title) {
+      pointSeries.data.push({
+        geometry: { type: "Point", coordinates: [longitude, latitude] },
+        title: title
+      });
+    }
+
+    chart.appear(1000, 100);
+
+    return () => {
+      root.dispose(); // Clean up when component unmounts
+    };
+  }, []);
   return (
     <>
 
@@ -258,7 +377,7 @@ export default function page2() {
         <div className=' flex justify-center items-center'>
 
 
-          <div className="col w-[80%]   justify-center flex flex-col px-10 ">
+          <div className="col w-[80%]   justify-center flex flex-col px-10 pt-14">
 
             <br />
 
@@ -580,27 +699,6 @@ export default function page2() {
               <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
-              <div className="absolute bottom-0 start-0">
-                <svg className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="531" y="352" width="99" height="99" fill="currentColor" />
-                  <rect x="140" y="352" width="106" height="99" fill="currentColor" />
-                  <rect x="482" y="402" width="64" height="49" fill="currentColor" />
-                  <rect x="433" y="402" width="63" height="49" fill="currentColor" />
-                  <rect x="384" y="352" width="49" height="50" fill="currentColor" />
-                  <rect x="531" y="328" width="50" height="50" fill="currentColor" />
-                  <rect x="99" y="303" width="49" height="58" fill="currentColor" />
-                  <rect x="99" y="352" width="49" height="50" fill="currentColor" />
-                  <rect x="99" y="392" width="49" height="59" fill="currentColor" />
-                  <rect x="44" y="402" width="66" height="49" fill="currentColor" />
-                  <rect x="234" y="402" width="62" height="49" fill="currentColor" />
-                  <rect x="334" y="303" width="50" height="49" fill="currentColor" />
-                  <rect x="581" width="49" height="49" fill="currentColor" />
-                  <rect x="581" width="49" height="64" fill="currentColor" />
-                  <rect x="482" y="123" width="49" height="49" fill="currentColor" />
-                  <rect x="507" y="124" width="49" height="24" fill="currentColor" />
-                  <rect x="531" y="49" width="99" height="99" fill="currentColor" />
-                </svg>
-              </div>
 
             </div>
 
@@ -642,6 +740,8 @@ export default function page2() {
 
       </div>
 
+
+      <div id="chartdiv" style={{ width: "50%", height: "500px" }}></div>
 
     </>
   )

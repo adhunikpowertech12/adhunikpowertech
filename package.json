@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@amcharts/amcharts4-geodata": "^4.1.30",
+    "@amcharts/amcharts5": "^5.10.8",
+    "@amcharts/amcharts5-geodata": "^5.1.4",
     "@cloudinary/url-gen": "^1.21.0",
     "cloudinary-react": "^1.8.1",
     "d3": "^7.9.0",

@@ -671,3 +671,8 @@ section .card__img span {
   -webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
 
+
+#chartdiv {
+  width: 100%;
+  height: 550px;
+}
