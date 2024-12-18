@@ -258,7 +258,7 @@ export default function page2() {
         <div className=' flex justify-center items-center'>
 
 
-          <div className="col w-[80%]   justify-center flex flex-col px-10 pt-14">
+          <div className="col w-[80%]   justify-center flex flex-col px-10 ">
 
             <br />
 
