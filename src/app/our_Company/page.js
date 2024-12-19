@@ -12,7 +12,30 @@ export default function AirWasher() {
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMyslideInView, setIsMyslideInView] = useState(false);
   const [isPageScrollingAllowed, setIsPageScrollingAllowed] = useState(true);
+  const [touchStartY, setTouchStartY] = useState(null);
 
+  const handleTouchStart = (e) => {
+    setTouchStartY(e.touches[0].clientY);
+  };
+
+  const handleTouchMove = (e) => {
+    if (touchStartY === null || isScrolling) return;
+
+    const touchEndY = e.touches[0].clientY;
+    const deltaY = touchStartY - touchEndY;
+
+    if (deltaY > 50 && activePage < pages.length - 1) {
+      // Swipe up
+      setIsScrolling(true);
+      setActivePage((prev) => Math.min(prev + 1, pages.length - 1));
+    } else if (deltaY < -50 && activePage > 0) {
+      // Swipe down
+      setIsScrolling(true);
+      setActivePage((prev) => Math.max(prev - 1, 0));
+    }
+
+    setTouchStartY(null);
+  };
   // Handle wheel event for scrolling
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
@@ -445,7 +468,8 @@ export default function AirWasher() {
     <>
      <div className="container-fluid">
       <div className="row">
-        <div id="myslide" className="h-screen w-full overflow-hidden relative">
+        <div id="myslide"   onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove} className="h-screen w-full overflow-hidden relative">
           {/* Slide Pages */}
           <div
             className="h-full w-full transition-transform ease-in-out duration-500"
