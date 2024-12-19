@@ -699,7 +699,7 @@ export default function Hero() {
 
 
               <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4">
+                <div className="flex flex-wrap -mx-4 text-center md:text-left">
                   {[
                     {
                       icon: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
