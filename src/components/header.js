@@ -1,6 +1,9 @@
 "use client"
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState }  from 'react';
+
+import Fuse from "fuse.js";
+import { useRouter } from "next/navigation";
 
 import { Dropdown, DropdownItem } from "flowbite-react";
 
@@ -9,13 +12,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { usePathname } from 'next/navigation';
-import { useRouter } from 'next/navigation'; // Import useRouter
 
 
 
 function Navbar() {
 
-  const router = useRouter(); // Initialize useRouter
+
 
   const [openDropdown, setOpenDropdown] = useState(null);
 
@@ -292,6 +294,65 @@ function Navbar() {
     }
   };
 
+
+  const searchBarRef = useRef(null); // Ref for the search bar
+
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState([]);
+  const [showSearch, setShowSearch] = useState(false); // To toggle input visibility
+  const router = useRouter();
+
+  const items = [
+    { id: "1", name: "Air Washer", link: "/air-washer" },
+    { id: "2", name: "Ducted Air Coolers", link: "/ductedaircooler" },
+    { id: "3", name: "Ventilation Exhaust Fan", link: "/ventilation-fans" },
+    { id: "4", name: "Panel Air Conditioner", link: "/panelaircond" },
+    { id: "5", name: "Oil Chiller & Coolant Chiller", link: "/chiller-oil-water-coolant" },
+    { id: "6", name: "Air Handling Unit", link: "/air_handling_unit" },
+    { id: "7", name: " Air Shower & Pass Box ", link: "/air_shower" },
+    { id: "8", name: " Fire Extinguishers", link: "/fire_extinguishers" },
+    { id: "9", name: " Fire Hydrant System", link: "/fire_hydrant_system" },
+    { id: "10", name: " Fire Sprinkler System", link: "/fire_sprinkler_system" },
+    { id: "11", name: " Fire suppression system", link: "/fire_suppression_system" },
+    { id: "12", name: " Glow Signage & Emergency Lights", link: "/glow-signage-&-emergency-lights" },
+    { id: "13", name: " Fire tubing system", link: "/fire-tubing-system" },
+    { id: "14", name: " Fire VESDA System", link: "/fire-VESDA-system" },
+  ];
+
+  const fuse = new Fuse(items, {
+    keys: ["name"],
+    threshold: 0.3,
+  });
+
+  const handleSearch = (e) => {
+    const input = e.target.value;
+    setQuery(input);
+
+    if (input.trim() === "") {
+      setResults([]);
+    } else {
+      const searchResults = fuse.search(input).map((result) => result.item);
+      setResults(searchResults);
+    }
+  };
+
+  const handleSelect = (link) => {
+    router.push(link);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+        setShowSearch(false); // Close the search bar
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
 
     <nav className={`fixed  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black text-white"
@@ -435,7 +496,7 @@ function Navbar() {
 
                 </div>
 
-                <i className="px-2 fa-solid fa-magnifying-glass"></i>
+                <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
 
                 <div
                   onClick={handleAudioToggle}
@@ -643,6 +704,54 @@ function Navbar() {
 
       </div>
 
+      <div className="search-bar-container">
+      {/* Logo Section */}
+
+      <div className="logo-section">
+
+      </div>
+
+      {/* Input Section */}
+      
+      {showSearch && (
+        <div className="search-bar p-5"  ref={searchBarRef}>
+          <input
+            type="text"
+            value={query}
+            onChange={handleSearch}
+            placeholder="Search products..."
+           
+
+            className={`search-input ${isScrolled
+                          ? " text-black hover:text-black border-black "
+                          : " text-black hover:text-black "
+                        }`}
+          />
+          {results.length > 0 && (
+            <ul 
+                 className={`search-results ${isScrolled
+                          ? " text-black hover:text-black border-black "
+                          : " text-black hover:text-black "
+                        }`}
+            
+            >
+              {results.map((item) => (
+                <li
+                  key={item.id}
+                  className="search-item"
+                  onClick={() => handleSelect(item.link)}
+                >
+                  {item.name}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+
+ 
+
+    </div>
 
 
     </nav>
