@@ -85,7 +85,7 @@ export default function FireSafety() {
       imgSrc: ' firex/4.png ',
       imgAlt: 'fire extinguisher',
       title: 'Top Quality Products',
-      description: 'We are well versed in how important fire safety products are during an emergency, so we provide pre-tested, top-quality, and branded fire safety equipment in Delhi, India.',
+      description: 'We are well versed in how important fire safety products are during an emergency, so we provide pre-tested, top-quality, and branded fire safety equipment in  Gurugram , India.',
     },
     {
       id: 2,
