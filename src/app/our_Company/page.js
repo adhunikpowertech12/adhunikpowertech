@@ -12,30 +12,7 @@ export default function AirWasher() {
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMyslideInView, setIsMyslideInView] = useState(false);
   const [isPageScrollingAllowed, setIsPageScrollingAllowed] = useState(true);
-  const [touchStartY, setTouchStartY] = useState(null);
 
-  const handleTouchStart = (e) => {
-    setTouchStartY(e.touches[0].clientY);
-  };
-
-  const handleTouchMove = (e) => {
-    if (touchStartY === null || isScrolling) return;
-
-    const touchEndY = e.touches[0].clientY;
-    const deltaY = touchStartY - touchEndY;
-
-    if (deltaY > 50 && activePage < pages.length - 1) {
-      // Swipe up
-      setIsScrolling(true);
-      setActivePage((prev) => Math.min(prev + 1, pages.length - 1));
-    } else if (deltaY < -50 && activePage > 0) {
-      // Swipe down
-      setIsScrolling(true);
-      setActivePage((prev) => Math.max(prev - 1, 0));
-    }
-
-    setTouchStartY(null);
-  };
   // Handle wheel event for scrolling
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
@@ -121,10 +98,10 @@ export default function AirWasher() {
         <div className="z-10 text-center">
 
           <div className="row">
-            <div className="col py-12 justify-center items-center flex flex-col">
-              <p className="text-[12xl] w-[60%] text-justify font-sans font-thin pt-7 italic text-3xl  pb-3" >About Us</p>
-              <p className="text-[12xl] w-[60%]  font-semibold  text-justify font-sans  text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
-              <p className="text-[12xl] w-[60%] text-justify font-sans font-thin pt-7">
+            <div className="col py-12 relative md:static  right-10 md:right-0  justify-center items-center flex flex-col">
+              <p className="text-[12xl] w-[60%]  text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >About Us</p>
+              <p className="text-[12xl] w-[60%]  font-semibold  text-justify font-sans  md:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
+              <p className=" text-[12px] md:text-[12xl] w-[60%] text-justify font-sans font-thin pt-7">
                 Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
                 Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
 
@@ -468,8 +445,7 @@ export default function AirWasher() {
     <>
      <div className="container-fluid">
       <div className="row">
-        <div id="myslide"   onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove} className="h-screen w-full overflow-hidden relative">
+        <div id="myslide" className="h-screen w-full overflow-hidden relative">
           {/* Slide Pages */}
           <div
             className="h-full w-full transition-transform ease-in-out duration-500"
@@ -486,7 +462,7 @@ export default function AirWasher() {
                 }}
               >
                 {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+                <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
                 {/* Content */}
                 <div className="z-10 text-center">
                   <h1 className="text-4xl font-bold">{page.title}</h1>
@@ -498,7 +474,7 @@ export default function AirWasher() {
           </div>
 
           {/* Page Indicators */}
-          <div className="absolute top-[60%] right-4 transform -translate-y-1/2 flex flex-col items-center">
+          <div className="absolute top-[60%]  left-[70%] md:left-auto  md:right-4 transform -translate-y-1/2 flex flex-col items-center">
             {pages.map((page) => (
               <div
                 key={page.id}
