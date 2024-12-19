@@ -269,7 +269,7 @@ export default function Hero() {
 
   const products = [
     {
-      src: "/AWI.webp",
+      src: "/AWI.png",
       alt: "Air Washer",
       title: "Air Washer",
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
@@ -277,7 +277,7 @@ export default function Hero() {
       linkText: "Read more",
     },
     {
-      src: "/DCI.webp",
+      src: "/DCI.png",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space. ",
@@ -285,7 +285,7 @@ export default function Hero() {
       linkText: "Read more",
     },
     {
-      src: "efss.jpeg",
+      src: "efss.png",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
@@ -305,7 +305,7 @@ export default function Hero() {
       linkText: "Read more",
     },
     {
-      src: "OC.jpeg",
+      src: "OC.png",
       alt: "OIL AND COOLANT CHILLER UNIT",
       title: "OIL AND COOLANT CHILLER ",
       description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
@@ -321,7 +321,7 @@ export default function Hero() {
       linkText: "Read more",
     },
     {
-      src: "AHU.jpg",
+      src: "AHU.png",
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
@@ -506,7 +506,7 @@ export default function Hero() {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className="  h-96 w-full object-bottom object-cover"
+                    className="  h-96 w-full object-center object-contain"
                     src={item.src}
                     fetchPriority="high"
                     decoding="async"

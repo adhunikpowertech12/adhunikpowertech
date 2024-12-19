@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 
@@ -10,7 +11,7 @@ export default function FireSafety() {
     {
       id: 1,
       video: 'https://videos.pexels.com/video-files/5930438/5930438-uhd_2560_1440_30fps.mp4',
-      title: 'WELCOME TO ADHUNIK FIRETECH',
+      title: 'WELCOME TO ADHUNIK FIREXPERT',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
     },
@@ -222,7 +223,7 @@ export default function FireSafety() {
                   <div className="w-full lg:w-7/12 ss">
                     <div className="text-primary">
                       <h1 className="text-2xl lg:text-[34px] font-sans font-extrabold p-9">
-                        Adhunik Firetech Services Is A Leading Fire Protection Equipment Supplier in Delhi, India
+                        Adhunik FIREXPERT Services Is A Leading Fire Protection Equipment Supplier in Delhi, India
                       </h1>
                     </div>
                     <p className="mt-3 uk21"></p>
@@ -231,8 +232,8 @@ export default function FireSafety() {
                     <p className="lead text-black"></p>
                     <p className="text-black text-justify font-sans  p-9">
                       When it comes to fire safety, ignorance can lead to disaster. Fire accidents can happen anywhere,
-                      risking the lives of people working or living there. It should be taken quite seriously. Shyama Fire
-                      Protection Services provides excellent quality fire safety equipment in Delhi, India to enhance and
+                      risking the lives of people working or living there. It should be taken quite seriously. FIREXPERT
+                      Protection Services provides excellent quality fire safety equipment , India to enhance and
                       optimize your fire safety.
                     </p>
                   </div>
@@ -343,14 +344,12 @@ export default function FireSafety() {
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link href='/fire_extinguishers'
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                  
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -396,14 +395,12 @@ export default function FireSafety() {
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                 href='/fire_hydrant_system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -506,14 +503,12 @@ export default function FireSafety() {
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                href='/fire_sprinkler_system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -557,14 +552,12 @@ export default function FireSafety() {
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+             href='/fire_suppression_system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -664,14 +657,12 @@ various environments where traditional wiring is not feasible.</li>
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                 href='/fire_alarm_system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -716,14 +707,12 @@ Only” or “No Smoking.
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                 href='/glow-signage-&-emergency-lights'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -861,14 +850,12 @@ case of activation.
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                href='/fire-tubing-system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 
@@ -930,14 +917,12 @@ especially in environments where rapid response is vital. </p>
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <button
+                <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
+                href='/fire-VESDA-system'
                 >
                   Know More
-                </button>
+                </Link>
 
 
 

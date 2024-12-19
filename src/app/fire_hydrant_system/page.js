@@ -228,15 +228,12 @@ immediate use.
 
 
                   </li>
-                  <li>  <span className=" font-sans font-bold">Color Code:</span>  Class A extinguishers are often marked with a
-                  green label.</li>
+                
                   <li><span className=" font-sans font-bold"> Dry Barrel Hydrants: </span>  Designed for colder climates, these
 have a valve at the base that prevents water from
 entering the barrel when not in use, reducing freezing
 risks.</li>
-                  <li><span className=" font-sans font-bold"> Post Indicator Valve Hydrants:  </span> Often used in commercial
-areas, these hydrants include a visible indicator to show
-whether the valve is open or closed.</li>
+                 
                 </ul>
               </div>
               <div className="show_m mt-5">
