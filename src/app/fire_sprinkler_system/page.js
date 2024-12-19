@@ -265,7 +265,7 @@ water is released.
                 <button
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
                   onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+                    window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
                   }}
                 >
                   Enquiry Now
