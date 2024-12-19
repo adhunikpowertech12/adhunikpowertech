@@ -338,6 +338,7 @@ function Navbar() {
 
   const handleSelect = (link) => {
     router.push(link);
+    setShowSearch(false);
   };
 
   useEffect(() => {
