@@ -10,7 +10,7 @@ export default function FireSafety() {
   const slides = [
     {
       id: 1,
-      video: '/videos/fs.mp4',
+      video: 'https://videos.pexels.com/video-files/5930438/5930438-uhd_2560_1440_30fps.mp4',
       title: 'WELCOME TO ADHUNIK FIREXPERT',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
@@ -85,7 +85,7 @@ export default function FireSafety() {
       imgSrc: ' firex/4.png ',
       imgAlt: 'fire extinguisher',
       title: 'Top Quality Products',
-      description: 'We are well versed in how important fire safety products are during an emergency, so we provide pre-tested, top-quality, and branded fire safety equipment in  Gurugram , India.',
+      description: 'We are well versed in how important fire safety products are during an emergency, so we provide pre-tested, top-quality, and branded fire safety equipment in Gurugram, India.',
     },
     {
       id: 2,
@@ -223,7 +223,7 @@ export default function FireSafety() {
                   <div className="w-full lg:w-7/12 ss">
                     <div className="text-primary">
                       <h1 className="text-2xl lg:text-[34px] font-sans font-extrabold p-9">
-                        Adhunik FIREXPERT Services Is A Leading Fire Protection Equipment Supplier in Delhi, India
+                        Adhunik FIREXPERT Services Is A Leading Fire Protection Equipment Supplier in Gurugram, India
                       </h1>
                     </div>
                     <p className="mt-3 uk21"></p>

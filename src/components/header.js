@@ -455,7 +455,7 @@ function Navbar() {
 
 
                   <hr className=' rotate-90 w-10  relative hidden md:block ' />
-                  <div className="col">
+                  <div className="col pb-2 md:pb-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
@@ -474,7 +474,7 @@ function Navbar() {
 
                   <hr className=' rotate-90 w-10  relative hidden md:block ' />
 
-                  <div className="col">
+                  <div className="col pb-2 md:pb-0 ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                     </svg>
@@ -496,22 +496,28 @@ function Navbar() {
                   <hr className=' rotate-90 w-10  relative hidden md:block' />
 
                 </div>
+<div className="row flex flex-col  md:flex-row">
+  <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
+</div>
 
-                <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
-
-                <div
+  <div className="col">
+  <div
                   onClick={handleAudioToggle}
-                  className="cursor-pointer flex items-center justify-center  rounded-full p-3  transition"
-                  style={{ width: "50px", height: "50px" }}
+                  className="cursor-pointer flex items-center justify-center  rounded-full md:p-3  transition"
+                  style={{ width: "50px", height: "40px" }}
                 >
                   {isPlaying ? (
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
                     </svg>
                   ) : (
-                    <i className=" px-2 fa-solid fa-headphones"></i>
+                    <i className=" md:px-2 fa-solid fa-headphones"></i>
                   )}
                 </div>
+  </div>
+</div>
+           
+              
               </div>
 
               <div className=" flex w-full  py-3 items-center rounded-full">
