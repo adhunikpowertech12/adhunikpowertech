@@ -283,6 +283,7 @@ export default function page2() {
 
 
       <div
+
         className="relative w-full h-screen overflow-hidden"
         ref={containerRef}
         onMouseDown={handleMouseDown}
@@ -290,6 +291,7 @@ export default function page2() {
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
       >
+
         {slides.map((slide, index) => (
           <div
             key={slide.id}
@@ -673,7 +675,7 @@ export default function page2() {
 
 
 
-              <img className="h-[70%] rounded-md" src="/about3.jpg" alt="Hero Image"  />
+              <img className="  rounded-md" src="/po.png" alt="Hero Image"  />
               <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
