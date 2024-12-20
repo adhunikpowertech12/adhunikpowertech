@@ -350,7 +350,7 @@ export default function Page() {
         <div className="row">
           <main className="relative flex flex-col justify-center overflow-hidden">
             <div className="w-full max-w-6xl flex justify-center items-center flex-col mx-auto px-4 md:px-6 py-24">
-              <section className="  mx-auto md:w-[70%]    pb-5 grid gap-12 md:grid-cols-2 lg:grid-cols-2 px-6 md:px-0 md:gap-16">
+              <section className="  w-full lg:w-[70%]    pb-5 grid gap-12 md:grid-cols-2 lg:grid-cols-2 px-6 md:px-0 md:gap-16">
                 <CounterBlock
                   counter={600}
                   suffix="+"
