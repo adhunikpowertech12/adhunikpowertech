@@ -369,10 +369,12 @@ Conduct gateway reviews as required
               <img src="pe.jpg" alt="Project Execution" className="rounded-lg shadow-lg" />
             </div>
           </div>
+          
         </div>
 
-        {/* Additional Content Row */}
+       
         <div className="row mt-5">
+
           <div className="col-lg-12">
             <div className="about-content">
               <p className=' font-normal font-sans'>
@@ -384,6 +386,7 @@ Conduct gateway reviews as required
               </p>
             </div>
           </div>
+
         </div>
       </div>
 
