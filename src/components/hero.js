@@ -273,7 +273,7 @@ export default function Hero() {
       alt: "Air Washer",
       title: "Air Washer",
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
-      link: "/",
+      link: "/air-washer",
       linkText: "Read more",
     },
     {
@@ -281,7 +281,7 @@ export default function Hero() {
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space. ",
-      link: "/",
+      link: "/ductedaircooler",
       linkText: "Read more",
     },
     {
@@ -289,7 +289,7 @@ export default function Hero() {
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
-      link: "/",
+      link: "/ventilation-fans",
       linkText: "Read more",
     },
     // Add more items if needed
@@ -301,7 +301,7 @@ export default function Hero() {
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
       description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
-      link: "/",
+      link: "/panelaircond",
       linkText: "Read more",
     },
     {
@@ -309,7 +309,7 @@ export default function Hero() {
       alt: "OIL AND COOLANT CHILLER UNIT",
       title: "OIL AND COOLANT CHILLER ",
       description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
-      link: "/",
+      link: "/chiller-oil-water-coolant",
       linkText: "Read more",
     },
     {
@@ -317,7 +317,7 @@ export default function Hero() {
       alt: "AIR SHOWER",
       title: "AIR SHOWER",
       description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
-      link: "/",
+      link: "/air_shower",
       linkText: "Read more",
     },
     {
@@ -325,7 +325,7 @@ export default function Hero() {
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
-      link: "/",
+      link: "/air_handling_unit",
       linkText: "Read more",
     },
     // Add more items if needed
