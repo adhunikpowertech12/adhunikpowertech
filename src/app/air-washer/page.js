@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 export default function page() {
 
 
@@ -699,13 +700,18 @@ export default function page() {
 
 
                 <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                  <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                    Know more About Us
-                    <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
-                  </a>
-                  <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
-                    Contact sales team
-                  </a>
+                
+              
+              
+                  <Link href="/our_Company" class="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
+    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+    <span class="relative">       Know more About Us </span>
+</Link>
+                  <a  href="tel:+919870248420" 
+    onclick="location.href='tel:+919870248420'; return false;"  class="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
+    <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+    <span class="relative"> Contact sales team</span>
+</a>
                 </div>
 
 
