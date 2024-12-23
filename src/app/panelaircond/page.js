@@ -161,7 +161,7 @@ export default function () {
         },
         {
           heading: "Gross Weight",
-          values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "25", "25", "32", "34", "52", "55", "55", "58", "100", "105"],
+          values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "25", "25", "32", "34", "52", "54", "56", "58", "100", "105"],
         },
       ];
 

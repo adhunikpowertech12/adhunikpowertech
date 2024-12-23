@@ -59,18 +59,7 @@ export default function Hero() {
       original: "/2.jpg",
       thumbnail: "2.jpg",
     },
-    {
-      original: "/4.jpg",
-      thumbnail: "4.jpg",
-    },
-    {
-      original: "/5.jpg",
-      thumbnail: "5.jpg",
-    },
-    {
-      original: "/6.jpg",
-      thumbnail: "6.jpg",
-    },
+   
     {
       original: "/7.jpg",
       thumbnail: "7.jpg",
@@ -704,7 +693,7 @@ export default function Hero() {
                 <div className="flex flex-wrap -mx-4 text-center md:text-left">
                   {[
                     {
-                      icon: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
+                      icon: '/cad.webp',
                       title: 'Consultancy & Design',
                       description: 'Adhunik PowerTech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
