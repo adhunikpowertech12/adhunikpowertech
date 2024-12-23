@@ -10,6 +10,7 @@ import { useEffect, useRef, useState } from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
+import Popup from '@/app/popup/page';
 
 
 export default function Hero() {
@@ -335,6 +336,7 @@ export default function Hero() {
   return (
     <>
 
+<Popup />
 
       <div className="row   h-auto w-full relative font-sans" >
 
