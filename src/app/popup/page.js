@@ -126,15 +126,15 @@ export default function Popup() {
         </button>
       </div>
       <div
-        className="lg:p-9 p-3 rounded-sm"
+        className="lg:p-9 p-3 rounded-sm  "
         style={{
           backgroundImage: `url(/dc6.webp)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          filter: "brightness(.9)",
+          filter: "brightness(1)",
         }}
       >
-        <h2 className="font-semibold text-[20px] md:text-2xl py-4 text-center text-transparent bg-gradient-to-r from-white via-white to-white bg-clip-text">
+        <h2 className="font-semibold  text-[20px] md:text-2xl py-4 text-center  text-white">
          HVAC Solution Under One Roof
         </h2>
       </div>
