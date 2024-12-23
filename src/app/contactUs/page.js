@@ -1,8 +1,16 @@
 'use client'
 import Image from 'next/image';
 import { Suspense, useRef, useState } from 'react';
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+import { useRouter } from 'next/navigation';
 
 export default function ContactUs() {
+    const notifye = () => toast.error(" Invalid Details ");
+    const notifys = () => toast(" Message Sent ");
+    const router = useRouter();
     const phoneNumber = "8287885885";
 
     const handlePhoneCall = () => {
@@ -48,7 +56,11 @@ export default function ContactUs() {
         }
         if (formData.phoneNumber.trim() === "") {
             newErrors.phoneNumber = "Phone Number is required";
+            
         }
+     else if (!/^\d{10}$/.test(formData.phoneNumber)) {
+        newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
+    }
         if (formData.email.trim() === "") {
             newErrors.email = "Email is required";
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -76,16 +88,16 @@ export default function ContactUs() {
             // Your existing code for sending email goes here
 
             emailjs
-                .sendForm("service_ysubrsd", "template_4fk2nea", form.current, {
-                    publicKey: "Iq_-ZmeI5PickXmHm",
+                .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
+                    publicKey: "MhRQ4EQ146BN6g6VJ",
                 })
                 .then(() => {
                     notifys();
                     console.log("SUCCESS!");
-                    history("/ThankYouPage");
+                   
                     setTimeout(() => {
-                        history("/");
-                    }, 10000);
+                        router.push("/");
+                    }, 5000);
                 })
                 .catch((error) => {
                     console.log("FAILED...", error);
@@ -174,6 +186,7 @@ export default function ContactUs() {
 
     return (
         <>
+           <ToastContainer />
             <div className="w-full  ">
                 <div className=" w-full p-7   items-center justify-center ">
                     <h1 className="text-5xl pt-4 text-center h-full mt-16">Contact Us</h1>
@@ -181,28 +194,28 @@ export default function ContactUs() {
                 <div className=" w-full ">
                     <div className="text-center">
 
-                    <div className="justify-around grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 group p-5">
-        {contactDetails.map((detail) => (
+                        <div className="justify-around grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 group p-5">
+                            {contactDetails.map((detail) => (
 
 
-            <div
-                key={detail.id}
-                className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
-            >
-                <div className="w-auto h-auto">{detail.icon}</div>
-                <h4 className="uppercase text-[18px] font-sans py-3 font-bold">{detail.title}</h4>
-                <p className="text-sm leading-7  font-light opacity-50">{detail.value}</p>
-                <button
-                    className="bg-btn_primary py-2.5 px-8  text-[14px] rounded-full hover:text-gray-400"
-                    onClick={detail.onClick}
-                >
-                    Get in Touch
-                </button>
-            </div>
+                                <div
+                                    key={detail.id}
+                                    className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
+                                >
+                                    <div className="w-auto h-auto">{detail.icon}</div>
+                                    <h4 className="uppercase text-[18px] font-sans py-3 font-bold">{detail.title}</h4>
+                                    <p className="text-sm leading-7  font-light opacity-50">{detail.value}</p>
+                                    <button
+                                        className="bg-btn_primary py-2.5 px-8  text-[14px] rounded-full hover:text-gray-400"
+                                        onClick={detail.onClick}
+                                    >
+                                        Get in Touch
+                                    </button>
+                                </div>
 
 
-        ))}
-    </div>
+                            ))}
+                        </div>
 
                     </div>
 
@@ -210,13 +223,13 @@ export default function ContactUs() {
 
 
 
-                    <div className="h-fit justify-center items-center flex w-full md:w-7/12">
-  <img
-    src="/contactus.webp" // Replace this with your desired image URL
-    alt="Description of the image"
-    className="w-full h-auto object-cover"
-  />
-</div>
+                        <div className="h-fit justify-center items-center flex w-full md:w-7/12">
+                            <img
+                                src="/contactus.webp" // Replace this with your desired image URL
+                                alt="Description of the image"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
 
 
 
@@ -364,7 +377,7 @@ export default function ContactUs() {
                     <div className="w-full h-full">
                         <div className="google-maps-embed">
 
-                  
+
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.3866213825036!2d76.99470307554475!3d28.40758867578828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1820517a67c3%3A0x2674661964851cd9!2sAdhunik%20Powertech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1726057699009!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
                                 className=" w-full h-[50vh]"
                                 style={{ border: 0 }}
