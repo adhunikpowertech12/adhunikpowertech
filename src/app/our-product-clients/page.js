@@ -83,7 +83,7 @@ export default function page() {
 
     <div className="row   mt-36">
 
-<p className=" text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </p>
+<p className=" text-2xl md:text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </p>
 
 
 <div className="col">
