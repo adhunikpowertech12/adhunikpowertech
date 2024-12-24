@@ -284,17 +284,18 @@ export default function Page() {
       id: 1,
       imgSrc: "certi/1.webp",
       clientName: "BKT Tires, Bhuj",
-      location: "Gujrat",
+      location: "gujarat",
       jobType: "Chiller, AHU & BMS",
       orderValue: "8 Cr",
     },
 
 
     {
+       
       id: 2,
       imgSrc: "certi/2.webp",
-      clientName: "Suncity Parikarma",
-      location: "Punchkula, Haryana",
+      clientName: "Suncity Parikrama",
+      location: "Panchkula, Haryana",
       jobType: "Basement Ventilation",
       orderValue: "4 Cr",
     },
@@ -331,7 +332,7 @@ export default function Page() {
       id: 6,
       imgSrc: "certi/6.webp",
       clientName: " Abdos Labtech ",
-      location: "Roorkee, Uttrakhand",
+      location: "Roorkee, Uttarakhand",
       jobType: "VRV & AHU",
       orderValue: "2.5 Cr",
     },

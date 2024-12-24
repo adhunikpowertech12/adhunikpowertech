@@ -132,10 +132,12 @@ export default function Hero() {
       title: 'Hospital, Pharma & Food Industry',
       description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
+
     },
 
   ];
 
+  
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startPos, setStartPos] = useState(0);

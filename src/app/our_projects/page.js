@@ -84,7 +84,7 @@ export default function page() {
         },
         {
           imgSrc: " projects/35.webp ",
-          title: " Arvy Hospital",
+          title: " Aarvy Hospital",
           location: "Manesar, Haryana",
         },
         {
