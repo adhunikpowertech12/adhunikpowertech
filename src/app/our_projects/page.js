@@ -50,8 +50,8 @@ export default function page() {
         },
         {
           imgSrc: "/projects/11.webp ",
-          title: "Aadarsh Shiksha Niketan  ",
-          location: <>senior secondary School <br />  Delhi</>,
+          title: " Adarsh Shiksha Niketan  ",
+          location: <> Senior Secondary School <br />  Delhi</>,
         },
         {
           imgSrc: "projects/17.webp",
@@ -103,7 +103,7 @@ export default function page() {
         {
           imgSrc: " /projects/30.webp ",
           title: " Abdos Labtech,",
-          location: "Roorkee, Uttrakhand",
+          location: "Roorkee, Uttarakhand",
         },
         {
           imgSrc: " /projects/32.webp ",
