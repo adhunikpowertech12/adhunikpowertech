@@ -333,17 +333,24 @@ export default function page2() {
             </video>
 
 
-            <div className="flex items-center h-full bg-black bg-opacity-40">
+            <div className="flex  items-center h-full bg-black bg-opacity-40">
 
-              <div className=" text-white  text-center md:text-left  lg:px-16">
-                <p className="  text-3xl md:text-6xl  font-sans md:w-[90%]  mb-2 font-thin">
-                  {slide.title}</p>
-                <p className=' text-[14px]   md:w-[70%]'>{slide.description}</p>
+              <div className=" text-white  text-center md:text-left  lg:px-16 ">
+
+                <p className="  text-3xl md:text-6xl    font-sans w-full  md:w-[90%]  mb-2 font-thin">
+                  {slide.title}  
+                </p>
+
+                <p className=' text-[14px]  md:w-[70%]  '>
+                {slide.description}
+                </p>
+
                 <button
-                  className=" cursor-pointer relative  text-5xl z-10  top-28 mt-4   text-white rounded-lg shadow-lg transition-colors duration-300"
+                  className=" cursor-pointer relative  text-5xl z-10  top-28 mt-4   text-white rounded-lg shadow-lg transition-colors duration-300" >
 
-                >
                   {slide.buttonText}
+
+
                   <div className=" font-sans text-sm flex justify-center items-center ">
                   Products <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -351,6 +358,7 @@ export default function page2() {
                     Overview
 
                   </div>
+
                 </button>
 
 
@@ -378,10 +386,10 @@ export default function page2() {
       </div>
 
       <div className=" justify-center items-center flex flex-col " >
-        <p className=' px-10 pt-9  text-4xl  w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
+        <p className=' px-10 pt-9 text-2xl  md:text-4xl w-full  md:w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
 
         </p>
-        <p className=' px-1 pt-3  text-[15px]  w-[70%] text-center font-sans font-thin' >Adhunik Powertech is committed to taking Indian manufacturing to the global stage. Our products are designed and engineered in India, and exported to diverse markets across the globe, from Asia's bustling cities to the Middle East’s skyscrapers. We believe in delivering products that are not only efficient and reliable but also environmentally friendly. Our focus on sustainability drives us to develop innovative solutions that reduce energy consumption and minimize our carbon footprint. </p>
+        <p className=' px-1 pt-3  text-[15px] w-full  md:w-[70%] text-center font-sans font-thin' >Adhunik Powertech is committed to taking Indian manufacturing to the global stage. Our products are designed and engineered in India, and exported to diverse markets across the globe, from Asia's bustling cities to the Middle East’s skyscrapers. We believe in delivering products that are not only efficient and reliable but also environmentally friendly. Our focus on sustainability drives us to develop innovative solutions that reduce energy consumption and minimize our carbon footprint. </p>
 
 
       </div>
@@ -392,21 +400,21 @@ export default function page2() {
 
 
 
-        <div className=' flex justify-center items-center'>
+        <div className=' flex w-full justify-center items-center'>
 
 
-          <div className="col w-[80%]   justify-center flex flex-col px-10 ">
+          <div className="col w-full md:w-[80%]   justify-center flex flex-col px-2 md:px-10 ">
 
             <br />
 
-            <p className=' px-11   text-[15px] text-gray-500' >
+            <p className=' px-2 md:px-11 text-center   text-[15px] text-gray-500' >
 
               Adhunik Powertech is more than just a company; it's a movement. We are dedicated to empowering India's manufacturing sector and contributing to the nation's economic growth. By choosing Adhunik Powertech, you are not just selecting a product; you are supporting Indian manufacturing and investing in a sustainable future.
 
 
             </p>
 
-            <p className=' text-center text-2xl ps-10 pt-3'>
+            <p className=' text-center text-2xl md:ps-10 pt-3'>
               Choose From Our Wide Range Of Products
 
             </p>
@@ -577,10 +585,10 @@ export default function page2() {
 
 
             <div>
-              <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
+              <p className="  text-center md:text-left mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
               </p>
-              <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-              <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
+              <h1 className="block text-2xl md:text-3xl font-bold text-center  text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
+              <p className="mt-3 text-sm md:text-lg text-gray-800 dark:text-neutral-400 text-center">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
 
               <ul className="space-y-2 sm:space-y-4 pt-3">
                 {/* <li className="flex gap-x-3">
