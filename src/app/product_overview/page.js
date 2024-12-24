@@ -278,6 +278,29 @@ export default function page2() {
       root.dispose(); // Clean up when component unmounts
     };
   }, []);
+
+  const data = [
+    {
+      id: 1,
+      title: "Affordable Price",
+      description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consequatur?",
+      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+    },
+    {
+      id: 2,
+      title: "24/7 Emergency Suppport  ",
+      description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consequatur?",
+      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+    },
+    {
+      id: 3,
+      title: "Expert In Any Bussiness",
+      description: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consequatur?",
+      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+    },
+    // Add more items as needed
+  ];
+
   return (
     <>
 
@@ -560,7 +583,7 @@ export default function page2() {
               <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">We are pleased to introduce ourselves as one of the Heating, Ventilation, and Air Conditioning Contractors and Solution providers with considerable experience in the field to provide turnkey solutions for HVAC and HVACR works meeting International Standards.</p>
 
               <ul className="space-y-2 sm:space-y-4 pt-3">
-                <li className="flex gap-x-3">
+                {/* <li className="flex gap-x-3">
                   <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
                     <svg className="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
                   </span>
@@ -631,7 +654,32 @@ export default function page2() {
                       Ontime at Services
                     </span>
                   </div>
-                </li>
+                </li> */}
+
+                <div>
+      {data.map((item) => (
+        <a
+          key={item.id}
+          href="#"
+          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-2"
+        >
+          <img
+            className="rounded-full h-14 w-14 m-5"
+            src={item.imgSrc}
+            alt=""
+          />
+          <div className="flex flex-col justify-between p-4 leading-normal">
+            <h5 className="mb-2 text-[15px] font-bold tracking-tight text-gray-900 dark:text-white">
+              {item.title}
+            </h5>
+            <p className="mb-3 font-normal text-[12px] text-gray-700 dark:text-gray-400">
+              {item.description}
+            </p>
+          </div>
+        </a>
+      ))}
+    </div>
+
               </ul>
 
 

@@ -16,7 +16,7 @@ export default function AirWasher() {
   // Handle wheel event for scrolling
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
-  
+
     // Prevent scrolling past the last slide
     if (e.deltaY > 0 && activePage < pages.length - 1) {
       // Scroll down to the next slide (only if not on the last slide)
@@ -28,7 +28,7 @@ export default function AirWasher() {
       setActivePage((prev) => Math.max(prev - 1, 0)); // Ensure we don't go before first page
     } else if (e.deltaY > 0 && activePage === pages.length - 1) {
       // If already at the last slide, prevent further scrolling
-      setIsScrolling(false); 
+      setIsScrolling(false);
       setIsPageScrollingAllowed(true);
       setIsMyslideInView(false); // Do nothing and prevent scrolling past last slide
     } else if (e.deltaY < 0 && activePage === 0) {
@@ -37,17 +37,17 @@ export default function AirWasher() {
       setIsMyslideInView(true);
     }
   };
-  
- 
 
-  
+
+
+
 
   // Smooth scrolling reset
   useEffect(() => {
     const timeout = setTimeout(() => setIsScrolling(false), 800);
     return () => clearTimeout(timeout);
   }, [activePage]);
-  
+
 
   // Toggle body scroll
   useEffect(() => {
@@ -128,7 +128,7 @@ export default function AirWasher() {
 
 
     {
-      
+
       id: 1,
       year: '2005',
 
@@ -138,12 +138,12 @@ export default function AirWasher() {
         <div className="z-10 text-center">
 
           <div className="row">
-            <div className="col py-12 justify-center items-center flex flex-col">
-              <p className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7 italic text-3xl  " > Our Journey  </p>
-              <p className="text-[12xl] w-[70%] text-justify font-sans font-semibold   text-3xl  pb-3" >2005  </p>
-              <p className="text-[12xl] w-[70%]  font-thin text-left   font-sans  text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
+            <div className="col relative md:static  right-5 md:right-0 py-12 justify-center items-center flex flex-col">
+              <p className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7 italic md:text-3xl   " > Our Journey  </p>
+              <p className="text-[12xl] w-[70%] text-justify font-sans font-semibold   md:text-3xl  pb-3" >2005  </p>
+              <p className="text-[12xl] w-[60%] relative md:static   right-5 md:right-0  md:w-[70%]  font-thin text-left   font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
-                <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
+                <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
               </div>
 
 
@@ -439,78 +439,75 @@ export default function AirWasher() {
 
   ];
 
-  
+
 
   return (
     <>
-     <div className="container-fluid">
-      <div className="row">
-        <div id="myslide" className="h-screen w-full overflow-hidden relative">
-          {/* Slide Pages */}
-          <div
-            className="h-full w-full transition-transform ease-in-out duration-500"
-            style={{ transform: `translateY(-${activePage * 100}vh)` }}
-          >
-            {pages.map((page) => (
-              <div
-                key={page.id}
-                className="h-screen flex flex-col items-center justify-center text-white relative"
-                style={{
-                  backgroundImage: `url(${page.bgImage})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
-                {/* Content */}
-                <div className="z-10 text-center">
-                  <h1 className="text-4xl font-bold">{page.title}</h1>
-                  <p className="text-lg mt-4">{page.description}</p>
-                  {page.content}
+      <div className="container-fluid">
+        <div className="row">
+          <div id="myslide" className="h-screen w-full overflow-hidden relative">
+            {/* Slide Pages */}
+            <div
+              className="h-full w-full transition-transform ease-in-out duration-500"
+              style={{ transform: `translateY(-${activePage * 100}vh)` }}
+            >
+              {pages.map((page) => (
+                <div
+                  key={page.id}
+                  className="h-screen flex flex-col items-center justify-center text-white relative"
+                  style={{
+                    backgroundImage: `url(${page.bgImage})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  {/* Dark Overlay */}
+                  <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+                  {/* Content */}
+                  <div className="z-10 text-center">
+                    <h1 className="text-4xl font-bold">{page.title}</h1>
+                    <p className="text-lg mt-4">{page.description}</p>
+                    {page.content}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
 
-          {/* Page Indicators */}
-          <div className="absolute top-[60%]  left-[70%] md:left-auto  md:right-4 transform -translate-y-1/2 flex flex-col items-center">
-            {pages.map((page) => (
-              <div
-                key={page.id}
-                className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${
-                  page.id === activePage
-                    ? "opacity-100 scale-105"
-                    : "opacity-50"
-                }`}
-                onClick={() => !isScrolling && setActivePage(page.id)}
-              >
-                {/* Indicator Circle */}
+            {/* Page Indicators */}
+            <div className="absolute top-[60%]  left-[70%] md:left-auto  md:right-4 transform -translate-y-1/2 flex flex-col items-center">
+              {pages.map((page) => (
                 <div
-                  className={`h-8 w-2 rounded-full mr-2 ${
-                    page.id === activePage
-                      ? "border-2 border-cyan-500"
-                      : "bg-gray-400"
-                  }`}
-                ></div>
-                {/* Indicator Line */}
-                <div
-                  className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${
-                    page.id === activePage
-                      ? "border-2 border-cyan-500"
-                      : "bg-gray-400"
-                  }`}
-                ></div>
-                {/* Year */}
-                <span className="text-white font-sans font-thin text-[14px]">
-                  {page.year}
-                </span>
-              </div>
-            ))}
+                  key={page.id}
+                  className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${page.id === activePage
+                      ? "opacity-100 scale-105"
+                      : "opacity-50"
+                    }`}
+                  onClick={() => !isScrolling && setActivePage(page.id)}
+                >
+                  {/* Indicator Circle */}
+                  <div
+                    className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage
+                        ? "border-2 border-cyan-500"
+                        : "bg-gray-400"
+                      }`}
+                  ></div>
+                  {/* Indicator Line */}
+                  <div
+                    className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage
+                        ? "border-2 border-cyan-500"
+                        : "bg-gray-400"
+                      }`}
+                  ></div>
+                  {/* Year */}
+                  <span className="text-white font-sans font-thin text-[14px]">
+                    {page.year}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     </>
   );
