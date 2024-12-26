@@ -280,38 +280,28 @@ export default function page2() {
   }, []);
 
   const data = [
+  
     {
       id: 1,
-      title: "Pioneers in Innovation",
-      description: "We are the proud manufacturers of India's first stainless steel (304 grade) air washer and ducted air cooler, setting the benchmark for durability and hygiene.",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
-    },
-    {
-      id: 2,
       title: "Unmatched Variety  ",
       description: "Our extensive product range caters to diverse needs and budgets, ensuring you find the perfect fit for your requirements.",
       imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
     },
+   
     {
-      id: 3,
-      title: "Cost-Effective & Energy-Efficient",
-      description: "Our innovative designs prioritize energy efficiency, translating to lower operating costs and a smaller environmental footprint. ",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
-    },
-    {
-      id: 4,
+      id: 2,
       title: "Eco-Conscious Cooling ",
       description: "Our eco-friendly products bring in fresh, outside air while minimizing environmental impact.  ",
       imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
     },
     {
-      id: 5,
+      id: 3,
       title: "Unwavering Support  ",
       description: "We offer a standard 1-year warranty, backed by 10 years of reliable spare parts support, ensuring long-term peace of mind.  ",
       imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
     },
     {
-      id: 6,
+      id: 4,
       title: "Global Reach  ",
       description: "Our products are readily available across India and exported globally, making us a trusted choice worldwide.  ",
       imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
