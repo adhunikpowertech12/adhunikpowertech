@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Script from "next/script";
 export const metadata = {
   title: "Adhunik Powertech",
   description: "HVAC  Solution under one roof",
@@ -15,6 +16,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
   
       <head>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">
+  
+</Script>
+      <Script  id="google-analytics">
+  
+
+ {` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5MBSC4RFX3');`}
+
+      </Script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -28,6 +42,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        
       </body>
     </html>
   );

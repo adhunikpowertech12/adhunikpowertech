@@ -595,6 +595,7 @@ export default function page2() {
             <div>
               <p className="  text-center md:text-left mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
               </p>
+              
               <h1 className="block text-2xl md:text-3xl font-bold text-center md:text-left  text-gray-600 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">What Makes Us <br /> the Right Choice</h1>
               {/* <p className="mt-3 text-sm md:text-md text-gray-800 dark:text-neutral-400 text-center md:text-left">What Makes Us the Right Choice
 Choosing the right cooling solution can significantly impact your comfort, energy bills, and environmental impact. That's why we stand out as the preferred choice for cooling needs. Here's why:
