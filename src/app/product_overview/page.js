@@ -606,9 +606,9 @@ export default function page2() {
               <p className="  text-center md:text-left mt-3 text-lg text-gray-800 dark:text-neutral-400">About Our Company
               </p>
               <h1 className="block text-2xl md:text-3xl font-bold text-center md:text-left  text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1>
-              <p className="mt-3 text-sm md:text-md text-gray-800 dark:text-neutral-400 text-center md:text-left">What Makes Us the Right Choice
+              {/* <p className="mt-3 text-sm md:text-md text-gray-800 dark:text-neutral-400 text-center md:text-left">What Makes Us the Right Choice
 Choosing the right cooling solution can significantly impact your comfort, energy bills, and environmental impact. That's why we stand out as the preferred choice for cooling needs. Here's why:
-</p>
+</p> */}
 
               <ul className="space-y-2 sm:space-y-4 pt-3">
              
@@ -619,18 +619,18 @@ Choosing the right cooling solution can significantly impact your comfort, energ
         <a
           key={item.id}
           href="#"
-          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 dark:hover:bg-gray-700 ps-2 "
+          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 text-cyan-500 hover:text-black  dark:hover:bg-gray-700 ps-2 "
         >
-          <img
+          {/* <img
             className="rounded-full h-14 w-14 "
             src={item.imgSrc}
             alt=""
-          />
+          /> */}
           <div className="flex flex-col justify-between py-2 px-4 leading-normal">
-            <h5 className="mb-2 text-[15px] font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-[15px] font-bold tracking-tight    dark:text-white">
               {item.title}
             </h5>
-            <p className="mb-3 font-normal text-[12px] text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal  text-[12px]     dark:text-gray-400">
               {item.description}
             </p>
           </div>
