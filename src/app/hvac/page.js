@@ -284,7 +284,7 @@ export default function Page() {
       id: 1,
       imgSrc: "certi/1.webp",
       clientName: "BKT Tires, Bhuj",
-      location: "gujarat",
+      location: "Gujarat",
       jobType: "Chiller, AHU & BMS",
       orderValue: "8 Cr",
     },
