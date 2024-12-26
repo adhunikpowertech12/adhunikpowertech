@@ -4,7 +4,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata = {
   title: "Adhunik Powertech",
   description: "HVAC  Solution under one roof",
@@ -13,6 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+  
       <head>
         <link
           rel="stylesheet"
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
+      <SpeedInsights/>
         <Header />
         {children}
         <Footer />
