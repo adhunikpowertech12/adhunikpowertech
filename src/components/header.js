@@ -33,7 +33,7 @@ function Navbar() {
   };
 
   const links = [
-    { to: '/', text: 'Home' },
+    { href: '/', text: 'Home' },
 
     {
       to: '#',

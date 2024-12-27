@@ -249,7 +249,7 @@ export default function page() {
                       <div className="w-auto">
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                           <img
-                            className="  h-[28rem]  object-center object-fill "
+                            className="  md:h-[28rem]  object-center object-fill "
                             fetchPriority="high"
                             decoding="async"
                             alt="Air washer"
@@ -381,7 +381,7 @@ export default function page() {
                         <div className="w-full object-cover rounded-xl">
                           {/* Use the Next.js Image component for optimized image loading */}
                           <img
-                            className=" h-full w-full"
+                            className=" md:h-full  md:w-full"
                             src="/awi/1.webp"
                             alt="Air washer"
                             fetchPriority="high"
@@ -415,7 +415,7 @@ export default function page() {
                       <div className="w-auto">
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                           <img
-                            className="  h-[28rem]  object-center object-fill "
+                            className="  md:h-[28rem]  object-center object-fill "
                             fetchPriority="high"
                             decoding="async"
                             alt="Air washer"
@@ -555,7 +555,7 @@ export default function page() {
               <div className="md:w-[80%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
                 <div className="flex flex-wrap">
                   {/* Column 1 */}
-                  <div className="w-6/12">
+                  <div className=" w-full md:w-6/12">
                     {lists.slice(0, 5).map((list, index) => (
                       <div key={index} className="mb-4">
                         {/* Image with ul heading */}
@@ -583,9 +583,9 @@ export default function page() {
                   </div>
 
                   {/* Column 2 */}
-                  <div className="w-6/12">
+                  <div className=" w-full md:w-6/12">
                     {lists.slice(5).map((list, index) => (
-                      <div key={index} className="mb-4">
+                      <div key={index} className="mb-4  ">
                         {/* Image with ul heading */}
                         <div className="flex items-center mb-2">
                           <Image
@@ -606,6 +606,7 @@ export default function page() {
                             </li>
                           ))}
                         </ul>
+
                       </div>
                     ))}
                   </div>
@@ -640,11 +641,6 @@ export default function page() {
 
         <div className="row">
 
-
-
-
-
-
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
 
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
@@ -655,7 +651,7 @@ export default function page() {
 
               </p>
 
-                <div className="container mx-auto mt-8 mb-10">
+                <div className=" container mx-auto mt-8 mb-10">
       {accordionData.map((item, index) => (
         <div
           className="border-[#F6F6F8] mb-4 rounded border"
@@ -740,7 +736,7 @@ export default function page() {
 
 
 
-                <img className="h-[70%] rounded-md" src="/awth.png" alt="Hero Image" />
+                <img className="md:h-[70%] rounded-md" src="/awth.png" alt="Hero Image" />
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -806,12 +802,12 @@ export default function page() {
             <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
 
 
-              <table className="w-[50%] text-sm text-center text-gray-500 ">
+              <table className="md:w-[50%] text-sm text-center text-gray-500 ">
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
-                <tbody>
-                  <tr className="bg-white text-[15px]">
+                <tbody >
+                  <tr className="bg-white text-[15px] flex flex-col md:flex-row justify-center  ">
                     <td className="px-6 py-4  text-left">
                       <ul className="list-disc list-inside">
                         {column1.map((item, index) => (
@@ -844,7 +840,7 @@ export default function page() {
                 {logos.map((logo, idx) => (
                   <li key={idx}>
                     <img
-                      className=" w-48 object-center object-cover  h-48  rounded-full"
+                      className="  w-32 h-32 md:w-48 md:h-48 object-center object-cover    rounded-full"
                       src={logo.src}
                       alt={logo.alt}
                     />

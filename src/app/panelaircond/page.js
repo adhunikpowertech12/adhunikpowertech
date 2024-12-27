@@ -87,25 +87,25 @@ export default function () {
     setShowModal(false);
   };
 
-    const [mounted, setMounted] = useState(false);
+//     const [mounted, setMounted] = useState(false);
 
-    // Ensure this component only renders on the client side
-    useEffect(() => {
-      setMounted(true);
-    }, []);
+//     // Ensure this component only renders on the client side
+//     useEffect(() => {
+//       setMounted(true);
+//     }, []);
   
-    if (!mounted) {
-      return <>
-    <div className="flex justify-center items-center h-screen">
-<div className="flex flex-row gap-2">
-  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce"></div>
-  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]"></div>
-  <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]"></div>
-</div>
-</div>
+//     if (!mounted) {
+//       return <>
+//     <div className="flex justify-center items-center h-screen">
+// <div className="flex flex-row gap-2">
+//   <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce"></div>
+//   <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]"></div>
+//   <div className="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]"></div>
+// </div>
+// </div>
        
-      </>; // Return nothing while rendering on the server to avoid mismatches
-    }
+//       </>; // Return nothing while rendering on the server to avoid mismatches
+//     }
 
   
     
@@ -258,7 +258,7 @@ export default function () {
     
     <>
 <div className="row  mt-32 font-sans">
-<p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Panel Air Conditioner </p>
+<p className=" w-full text-center font-sans  text-4xl  md:text-5xl  text-sky-700 uppercase"> Panel Air Conditioner </p>
 
 <div>
 
@@ -273,7 +273,7 @@ export default function () {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className="  h-[28rem]  object-center object-fill "
+                    className="  md:h-[28rem]  object-center object-fill "
                     fetchPriority="high"
                     decoding="async"
                     alt="Panel Air Conditioner "
@@ -357,7 +357,7 @@ export default function () {
 
 
 <div className="row">
-<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+<div className=" h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
 
 
@@ -394,7 +394,7 @@ Enquiry Now
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className=" h-96"
+                    className=" md:h-96"
                     fetchPriority="high"
                     decoding="async"
                     alt="Panel Air Conditioner "
@@ -468,7 +468,7 @@ Enquiry Now
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className=" h-96"
+                    className=" md:h-96"
                     fetchPriority="high"
                     decoding="async"
                     alt="Panel Air Conditioner "
@@ -553,7 +553,7 @@ Enquiry Now
 </div>
 
       {products2.map((product) => (
-        <div key={product.id} className="h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+        <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
           {/* Image Container */}
      
 
@@ -652,6 +652,7 @@ Ensure data integrity and energy efficiency.
               </div>
             </div>
           </div>
+
         </div>
       ))}
 
@@ -847,7 +848,7 @@ to operate.</li>
 
 
 
-      <img className="h-[70%] rounded-md" src="/pacth.png" alt="Hero Image" />
+      <img className="md:h-[70%] rounded-md" src="/pacth.png" alt="Hero Image" />
       <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -859,7 +860,7 @@ to operate.</li>
     {showModal ? (
       <>
         <div
-          className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+          className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none "
           onClick={closeModal} // Close modal when clicking outside
         >
           <div

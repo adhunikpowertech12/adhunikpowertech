@@ -256,7 +256,7 @@ export default function DuctedAirCooler() {
 
 
 <div className="row">
-<p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Ventilation  Fan </p>
+<p className=" w-full text-center font-sans  text-4xl md:text-5xl  text-sky-700 uppercase"> Ventilation  Fan </p>
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -267,7 +267,7 @@ export default function DuctedAirCooler() {
           <div className="w-auto">
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  h-[31rem]  object-center object-cover "
+                className="  md:h-[31rem]  object-center object-cover "
                 fetchPriority="high"
                 decoding="async"
                 alt="Axial Flow Fan"
@@ -440,7 +440,7 @@ export default function DuctedAirCooler() {
           <div className="w-auto">
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  h-[28rem]  object-center object-cover "
+                className="  md:h-[28rem]  object-center object-cover "
                 fetchPriority="high"
                 decoding="async"
                 alt="Exhaust Fan (PP)"
@@ -577,7 +577,7 @@ export default function DuctedAirCooler() {
           <div className="w-auto">
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  h-[32rem]  object-center object-cover "
+                className="  md:h-[32rem]  object-center object-cover "
                 fetchPriority="high"
                 decoding="async"
                 alt="Exhaust Fan (SS)"
@@ -735,7 +735,7 @@ export default function DuctedAirCooler() {
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
             {/* Center text */}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
+            <span className="bg-clip-text text-3xl text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
 
@@ -762,7 +762,7 @@ export default function DuctedAirCooler() {
 
                   </thead>
                   <tbody>
-                    <tr className="bg-white text-[15px]">
+                    <tr className="bg-white text-[15px] flex flex-col md:flex-row justify-center">
                       <td className="px-6 py-4  text-left">
                         <ul className="list-disc list-inside">
                           {column1.map((item, index) => (
@@ -795,7 +795,7 @@ export default function DuctedAirCooler() {
                   {logos.map((logo, idx) => (
                     <li key={idx}>
                       <img
-                        className=" w-48 object-center object-cover  h-48  rounded-full"
+                        className="  object-center object-cover  w-32 h-32 md:w-48 md:h-48  rounded-full"
                         src={logo.src}
                         alt={logo.alt}
                       />

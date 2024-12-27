@@ -216,7 +216,7 @@ export default function DuctedAirCooler() {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className="  h-[28rem]  object-center object-fill "
+                    className="  md:h-[28rem]  object-center object-fill "
                     fetchPriority="high"
                     decoding="async"
                     alt="DUCTED   AIR COOLER "
@@ -320,7 +320,7 @@ export default function DuctedAirCooler() {
 
 
 <div className="row">
-<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+<div className=" h-full flex flex-col-reverse  md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
 
 <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
@@ -353,7 +353,7 @@ export default function DuctedAirCooler() {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className=" h-96"
+                    className=" md:h-96"
                     fetchPriority="high"
                     decoding="async"
                     alt="DUCTED   AIR COOLER "
@@ -446,7 +446,7 @@ export default function DuctedAirCooler() {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className=" h-96"
+                    className=" md:h-96"
                     fetchPriority="high"
                     decoding="async"
                     alt="DUCTED   AIR COOLER "
@@ -552,7 +552,7 @@ export default function DuctedAirCooler() {
 </div>
 
 <div className="row">
-<div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+<div className=" h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
 
 <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
@@ -585,7 +585,7 @@ export default function DuctedAirCooler() {
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                   <img
-                    className=" h-96"
+                    className=" md:h-96"
                     fetchPriority="high"
                     decoding="async"
                     alt="DUCTED   AIR COOLER "
@@ -929,12 +929,13 @@ export default function DuctedAirCooler() {
   <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
 
 
-      <table className="w-[50%] text-sm text-center text-gray-500 ">
+      <table className="md:w-[50%] text-sm text-center text-gray-500 ">
         <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
         
         </thead>
         <tbody>
-          <tr className="bg-white text-[15px]">
+          <tr className="bg-white text-[15px] flex  justify-center flex-col md:flex-row">
+          
             <td className="px-6 py-4  text-left">
               <ul className="list-disc list-inside">
                 {column1.map((item, index) => (
@@ -942,6 +943,7 @@ export default function DuctedAirCooler() {
                 ))}
               </ul>
             </td>
+
             <td className="px-6 py-4 text-left">
               <ul className="list-disc list-inside">
                 {column2.map((item, index) => (
@@ -949,6 +951,7 @@ export default function DuctedAirCooler() {
                 ))}
               </ul>
             </td>
+
           </tr>
         </tbody>
       </table>
@@ -967,7 +970,7 @@ export default function DuctedAirCooler() {
       {logos.map((logo, idx) => (
         <li key={idx}>
           <img
-            className=" w-48 object-center object-cover  h-48  rounded-full"
+            className="  w-32 h-32 md:w-48 md:h-48 object-center object-cover    rounded-full"
             src={logo.src}
             alt={logo.alt}
           />
@@ -978,6 +981,8 @@ export default function DuctedAirCooler() {
 </div>
 
 </div>
+
+
 
 </div>
 

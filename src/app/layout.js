@@ -7,12 +7,13 @@ const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 export const metadata = {
-  title: "Adhunik Powertech",
+  title: "Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India",
   description: "HVAC  Solution under one roof",
 };
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="en">
   
       <head>
