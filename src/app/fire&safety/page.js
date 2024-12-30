@@ -222,7 +222,7 @@ export default function FireSafety() {
                 <div className="flex flex-wrap">
                   <div className="w-full lg:w-7/12 ss">
                     <div className="text-primary">
-                      <h1 className="text-2xl lg:text-[34px] font-sans font-extrabold p-9">
+                      <h1 className="text-2xl lg:text-[34px] font-sans text-center md:text-left font-extrabold p-9">
                         Adhunik FIREXPERT Services Is A Leading Fire Protection Equipment Supplier in Gurugram, India
                       </h1>
                     </div>
@@ -230,7 +230,7 @@ export default function FireSafety() {
                   </div>
                   <div className="w-full lg:w-5/12 sa">
                     <p className="lead text-black"></p>
-                    <p className="text-black text-justify font-sans  p-9">
+                    <p className="text-black text-center md:text-justify font-sans  p-9">
                       When it comes to fire safety, ignorance can lead to disaster. Fire accidents can happen anywhere,
                       risking the lives of people working or living there. It should be taken quite seriously. FIREXPERT
                       Protection Services provides excellent quality fire safety equipment , India to enhance and
@@ -302,7 +302,7 @@ export default function FireSafety() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[22rem]  object-center object-fill "
+                          className="  md:h-[22rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -415,7 +415,7 @@ export default function FireSafety() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -455,7 +455,7 @@ export default function FireSafety() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"

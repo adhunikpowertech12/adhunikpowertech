@@ -350,7 +350,7 @@ export default function Page() {
 
         <div className="row">
           <main className="relative flex flex-col justify-center overflow-hidden">
-            <div className="w-full max-w-6xl flex justify-center items-center flex-col mx-auto px-4 md:px-6 py-24">
+            <div className="w-full max-w-6xl flex justify-center items-center flex-col mx-auto px-4 md:px-6 py-10 md:py-24 ">
               <section className="  w-full lg:w-[70%]    pb-5 grid gap-12 md:grid-cols-2 lg:grid-cols-2 px-6 md:px-0 md:gap-16">
                 <CounterBlock
                   counter={600}
@@ -391,21 +391,21 @@ export default function Page() {
 
 
     
-<p className="text-5xl font-sans  py-3 w-full text-center text-cyan-900 capitalize">
+<p className=" text-2xl md:text-5xl font-sans  py-3 w-full text-center text-cyan-900 capitalize">
 SOME OF OUR PROJECT COMPLETION
 CERTIFICATION
         </p>
         <div className="row flex flex-row flex-wrap">
       
       {cardData.map((card) => (
-        <div key={card.id} className="col w-6/12 p-8">
+        <div key={card.id} className="col w-full md:w-6/12 p-8">
           <div
             
             className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             {/* Image Section */}
             <img
-              className="object-cover w-[50%] p-8 h-[50%]"
+              className="object-cover md:w-[50%] p-8 md:h-[50%]"
               src={card.imgSrc}
               alt={`${card.clientName} project`}
             />
@@ -431,7 +431,7 @@ CERTIFICATION
     </div>
 
         <div className="row">
-          <p className="text-5xl font-sans py-3 w-full text-center text-cyan-900 capitalize">
+          <p className=" text-4xl md:text-5xl font-sans py-3 w-full text-center text-cyan-900 capitalize">
             Air Management Jobs
 
           </p>
@@ -442,7 +442,7 @@ CERTIFICATION
                 className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
 
                 Air Cooling Jobs</h2>
-              <p className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+              <p className="  text-center font-normal text-[16px] leading-8 px-3 text-gray-500  max-w-2xl mx-auto">
               At Adhunik Powertech, we take pride in delivering a wide range of cooling methods that effectively lower air temperatures according to your specific needs. Our selection of Air Cooling Products—such as Air Washers, Ventilation Fans, and both Ducted and Non-Ducted Air Coolers—ensures increased airflow and reduced temperatures, helping you create the ideal environment.
 
                 <br />
@@ -462,18 +462,16 @@ CERTIFICATION
         <div className="row">
 
 
-          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+          <div className="row flex flex-col-reverse  md:flex-row-reverse  justify-evenly items-center">
 
-            <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images4} className=" rounded-lg " alt="pics" />
-
-            </div>
-            <div className=" w-full h-full md:w-5/12 ">
+          <div className=" w-full h-full md:w-5/12 pt-5 ">
               <h2
-                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-3 md:mb-9 max-lg:text-center relative">
 
                 Air Conditioning Jobs</h2>
-              <p className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+
+
+              <p className=" text-justify px-3 font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
               We specialize in enhancing air quality and comfort in every environment. Our mission is to efficiently deliver conditioned air to all spaces, ensuring that everyone enjoys optimal conditions.
 
                 <br />
@@ -482,6 +480,12 @@ CERTIFICATION
 With years of experience in air conditioning projects, we have a proven track record of success. Trust us to meet your air conditioning needs and experience the difference in quality and comfort.
               </p>
             </div>
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images4} className=" rounded-lg " alt="pics" />
+
+            </div>
+
+
 
           </div>
         </div>
@@ -505,8 +509,8 @@ With years of experience in air conditioning projects, we have a proven track re
                 To maintain these standards, we manage the density of sub-micron and larger airborne particles by introducing clean, filtered air into the cleanroom. 
 <p className=' text-2xl '>Our services include:
 </p>
-                <div className="card">
-      <ul className="list-disc py-3 space-y-1 ps-4">
+                <div className="card px-4  md:px-0 ">
+      <ul className="list-disc py-3 space-y-1 ps-4   ">
 
         <li>
         Making a blueprint of the duct layout
@@ -577,40 +581,49 @@ With years of experience in air conditioning projects, we have a proven track re
 
 
 
-<div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+<div className="row flex md:flex-row flex-col-reverse flex-wrap-reverse  justify-evenly items-center">
+
+
+<div className=" w-full h-full md:w-5/12 ">
+
+<h2
+  className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+
+ Basement Ventilation
+ 
+  </h2>
+
+<div className="about-content pb-8">
+<div className="section-title ">
+
+<p className=" text-gray-500 font-sans">
+Do you notice stale, stuffy, or moldy air lingering in your space? At Adhunik Powertech, we offer an effective Basement Ventilation System designed to improve your air quality by addressing the natural “stack effect” found in industrial, institutional, commercial, and residential settings.
+
+</p>
+
+<p className=" text-gray-500 font-sans mt-4">
+Our innovative Ventilation System provides a crucial escape route for trapped, unhealthy air in your basement while bringing in clean, dry air from above to replace the damp, polluted atmosphere.
+</p>
+
+<p className=" text-gray-500 font-sans mt-4">
+The best part? No extra heating or cooling ducts are required! Our system enhances air circulation, resulting in more frequent air exchanges. Enjoy a cleaner and healthier living environment that you can truly appreciate.
+</p>
+
+
+
+
+</div>
+</div>
+
+</div>
+
 
   <div className=" w-full h-full md:w-5/12 my-5  ">
     <ImageGallery items={images6} className=" rounded-lg " alt="pics" />
 
   </div>
-  <div className=" w-full h-full md:w-5/12 ">
-    <h2
-      className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
-
-Basement Ventilation </h2>
-<div className="about-content pb-8">
-  <div className="section-title ">
- 
-    <p className=" text-gray-500 font-sans">
-    Do you notice stale, stuffy, or moldy air lingering in your space? At Adhunik Powertech, we offer an effective Basement Ventilation System designed to improve your air quality by addressing the natural “stack effect” found in industrial, institutional, commercial, and residential settings.
-
-    </p>
-
-    <p className=" text-gray-500 font-sans mt-4">
-    Our innovative Ventilation System provides a crucial escape route for trapped, unhealthy air in your basement while bringing in clean, dry air from above to replace the damp, polluted atmosphere.
-    </p>
-
-    <p className=" text-gray-500 font-sans mt-4">
-    The best part? No extra heating or cooling ducts are required! Our system enhances air circulation, resulting in more frequent air exchanges. Enjoy a cleaner and healthier living environment that you can truly appreciate.
-    </p>
-
-   
 
  
-  </div>
-</div>
-
-  </div>
 
 </div>
 
@@ -655,7 +668,8 @@ Ducting Jobs
       </strong>
     </p>
 
-    <ul className="list-disc py-3 space-y-1 ps-4">
+   <div className="card px-4 md:px-0">
+   <ul className="list-disc py-3 space-y-1 ps-4 ">
       <li> Carrying out seamless installation and operation of all ducting activities.
       </li>
       <li>  ⁠Efficiently scheduling, assigning, planning, and monitoring duct work on your project sites.
@@ -668,6 +682,7 @@ Ducting Jobs
       <li> ⁠Preparing and delivering detailed daily reports to supervisors, engineers, and clients.
       </li>
     </ul>
+   </div>
 
    <p>Choose Adhunik Powertech for professional ductwork that you can trust, ensuring comfort and efficiency for years to come!</p>
   </div>

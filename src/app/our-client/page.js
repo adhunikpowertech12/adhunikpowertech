@@ -203,7 +203,7 @@ export default function page() {
 
     <div className="row   mt-36">
 
-<p className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PROJECT CLIENTS </p>
+<p className=" text-4xl md:text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PROJECT CLIENTS </p>
 
 
 <div className="col">

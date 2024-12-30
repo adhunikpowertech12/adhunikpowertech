@@ -190,9 +190,9 @@ export default function page() {
     
 
     <div className="row   mt-36">
-    <p className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PROJECTS </p>
+    <p className=" text-4xl md:text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PROJECTS </p>
 <div className="card justify-center flex items-center">
-<p className=" text-[15px]  w-[75%]  font-sans py-3  text-center text-cyan-900 capitalize "> As a leading HVAC contractor, Adhunik Powertech is committed to delivering innovative solutions that optimize indoor environments. With a strong track record in the industry, we have successfully executed projects across diverse sectors, including industrial, institutional, healthcare, pharmaceutical, food processing, residential, and commercial spaces. Our team of skilled professionals is dedicated to providing energy-efficient, sustainable, and reliable HVAC systems that enhance comfort and productivity. </p>
+<p className=" text-[15px] px-4 md:px-0  md:w-[75%]  font-sans py-3  text-center text-cyan-900 capitalize "> As a leading HVAC contractor, Adhunik Powertech is committed to delivering innovative solutions that optimize indoor environments. With a strong track record in the industry, we have successfully executed projects across diverse sectors, including industrial, institutional, healthcare, pharmaceutical, food processing, residential, and commercial spaces. Our team of skilled professionals is dedicated to providing energy-efficient, sustainable, and reliable HVAC systems that enhance comfort and productivity. </p>
 
 
 </div>

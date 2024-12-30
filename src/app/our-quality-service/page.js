@@ -177,13 +177,13 @@ Conduct gateway reviews as required
 
       <div>
         <div className="row pt-32  ">
-          <section className="about-area py-16 ">
+          <section className="about-area md:py-16 ">
             <div className="container mx-auto px-10">
-              <div className="flex flex-wrap ">
+              <div className="flex  flex-wrap-reverse ">
 
                 <div className="   lg:w-1/2 w-full mb-8 lg:mb-0">
                   <div className="about-content">
-                    <div className="section-title  text-justify ">
+                    <div className="section-title text-center  md:text-justify ">
                       <h2 className="text-3xl font-semibold mb-4 font-sans ">Consultancy &amp; Design</h2>
                       <p className="mb-4 font-sans font-normal">
                         <strong> Adhunik Powertech </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
@@ -199,10 +199,10 @@ Conduct gateway reviews as required
                   </div>
                 </div>
 
-                <div className="lg:w-1/2 w-full">
+                <div className="lg:w-1/2 w-full pb-5">
                   <div className="about-company-1 rounded-xl  ">
                     <img src="/cd.jpg " alt="Consultancy Design"
-                     className=" object-center  px-5 " />
+                     className=" object-center   px-5 " />
                   </div>
                 </div>
 
@@ -225,7 +225,7 @@ Conduct gateway reviews as required
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-secondary">
             {/* SVG content */}
           </svg>
-          <h2 className=" w-full text-2xl font-bold text-white md:text-4xl ps-3"> HVAC Project Planning and Execution Steps </h2>
+          <h2 className=" w-full text-2xl font-bold text-white  md:text-4xl ps-3"> HVAC Project Planning and Execution Steps </h2>
         </div>
         <div className="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3">
           {features.map((feature) => (
@@ -250,7 +250,7 @@ Conduct gateway reviews as required
           </section>
 
           <section className="about-area py-16 ">
-            <div className="container mx-auto px-10">
+            <div className="container mx-auto md:px-10">
               <div className="flex flex-wrap ">
 
               <div className="lg:w-1/2 w-full">
@@ -259,19 +259,19 @@ Conduct gateway reviews as required
                   </div>
                 </div>
 
-                <div className="   lg:w-1/2 w-full mb-8 lg:mb-0">
+                <div className="   lg:w-1/2 w-full mb-8 lg:mb-0 mt-4">
                   <div className="about-content">
 
-                    <div className="section-title">
-                      <h2 className="text-3xl font-semibold mb-4"> Detailed Engineering </h2>
-                      <p className="mb-4 font-normal font-sans" >
+                    <div className="section-title px-2">
+                      <h2 className="text-3xl font-semibold mb-4  text-center md:text-start"> Detailed Engineering </h2>
+                      <p className="mb-4 text-center md:text-left font-normal font-sans " >
                    
                       We have over    <span className=' font-extrabold'> 19+ years</span> of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with minimum maintenance that is for large <strong> industrial, institutional, commercial </strong>  as well as residential premises.
                       </p>
-                      <p className="mb-4 font-sans font-normal">
+                      <p className="mb-4 text-center md:text-left font-sans font-normal">
                       In <strong>  Detailed Engineering</strong> , we consider creating a comfortable indoor environment along with improved air quality. By considering this process of work we create a balanced environment that is convenient and comfortable to work, live, and play in and out. Not only this but we also consider safety as well as the energy efficiency of the building.
                       </p>
-                      <p className="mb-4 font-sans font-normal">
+                      <p className="mb-4 text-center md:text-left font-sans font-normal">
                       Our engineers are Highly skilled and experienced with in-depth knowledge of <strong> HVAC systems</strong>    having a detailed understanding of building standards and regulations.
                       </p>
                     </div>
@@ -290,27 +290,27 @@ Conduct gateway reviews as required
               <div className="container mx-auto px-4">
       <div className="row">
         <div className="col-lg-12">
-          <div className="about-content text-gray-800 pt-5">
-            <p className="mb-4 font-sans font-normal ">
+          <div className="about-content text-gray-800 md:pt-5">
+            <p className="mb-4 text-center md:text-left font-sans font-normal ">
               In the <strong>detailed engineering</strong> phase, we ensure that the design is developed to a point where
               the technical input for all procurement and construction tendering is defined in sufficient
               detail.
             </p>
 
-            <p className="mb-4 font-sans font-normal">
+            <p className="mb-4 text-center md:text-left font-sans font-normal">
               We offer services of basic and extended engineering like the development of <strong>PFD, P&amp;ID, Line
               sizing, Energy mass balance, Utility consumption summary, Electrical load list, PDS, IPDS,</strong>
               and more.
             </p>
 
-            <p className="mb-4 font-sans font-normal">
+            <p className="mb-4 text-center md:text-left font-sans font-normal">
               Our <strong>Front End engineering design services (FEED)</strong> and basic engineering cover all aspects of
               the engineering process, including plot <strong>plans, 2D/3D models, isometrics, material take-off
               (MTO),</strong> and more required to move from the initial planning stage to procurement and
               construction.
             </p>
 
-            <p className='font-sans font-normal'>
+            <p className='font-sans font-normal text-center md:text-left'>
               Our team carries out design and analysis to suggest improvements for various types
               of equipment, such as <strong>storage tanks, pressure vessels, towers, shell and tube heat
               exchangers, amount of budget, type of material, etc.</strong>
@@ -328,12 +328,12 @@ Conduct gateway reviews as required
 
           <section className="about-area pt-10 pb-10 bg-gray-100 relative">
       <div className="container mx-auto px-4">
-        <div className="row flex flex-row flex-wrap">
+        <div className="row flex flex-row  flex-wrap-reverse">
           {/* Left Column */}
-          <div className="col-lg-7 w-7/12 ">
+          <div className="col-lg-7 md:w-7/12 pt-10 ">
             <div className="about-content space-y-6">
-              <div className="section-title px-10">
-                <h2 className="text-2xl font-bold mb-4">Project Execution</h2>
+              <div className="section-title text-center md:text-left  md:px-10">
+                <h2 className="text-2xl font-bold mb-4 ">Project Execution</h2>
                 <p className=' font-normal font-sans '>
                   We execute all the projects under <strong>NBC, CPWD &amp; NABH guidelines . We also follow ISHRAE, ASHRAE &amp; ISO Standards. </strong> 
                   We are committed to safety, measurement &amp; precautions during the execution of the work.
@@ -349,7 +349,7 @@ Conduct gateway reviews as required
                 <br />
                 <p className=' pb-2'><strong>Project Execution Phase Activities include:</strong></p>
                 
-                <ul className="space-y-2 list-disc list-inside">
+                <ul className="space-y-2 text-left list-disc list-inside">
       {tasks.map((task, index) => (
         <li key={index} className="flex items-center">
           {task.icon && task.icon} {/* Render icon if available */}
@@ -364,7 +364,7 @@ Conduct gateway reviews as required
           </div>
 
           {/* Right Column */}
-          <div className="col-lg-5 w-5/12 col-md-12 mt-6 lg:mt-0">
+          <div className="col-lg-5 md:w-5/12 col-md-12 mt-6 lg:mt-0">
             <div className="about-company-1">
               <img src="pe.jpg" alt="Project Execution" className="rounded-lg shadow-lg" />
             </div>
@@ -377,7 +377,7 @@ Conduct gateway reviews as required
 
           <div className="col-lg-12">
             <div className="about-content">
-              <p className=' font-normal font-sans'>
+              <p className=' font-normal  text-center md:text-left font-sans'>
 
             
 
