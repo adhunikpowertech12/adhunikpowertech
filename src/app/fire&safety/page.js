@@ -230,7 +230,7 @@ export default function FireSafety() {
                   </div>
                   <div className="w-full lg:w-5/12 sa">
                     <p className="lead text-black"></p>
-                    <p className="text-black text-center md:text-justify font-sans  p-9">
+                    <p className="text-black text-center  md:text-justify font-sans  p-9">
                       When it comes to fire safety, ignorance can lead to disaster. Fire accidents can happen anywhere,
                       risking the lives of people working or living there. It should be taken quite seriously. FIREXPERT
                       Protection Services provides excellent quality fire safety equipment , India to enhance and
@@ -293,7 +293,7 @@ export default function FireSafety() {
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -323,9 +323,9 @@ export default function FireSafety() {
               </div>
             </div>
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   ">Fire Extinguishers </h2>
-              <p className=' text-justify' >Fire extinguishers are crucial devices designed to
+            <div className=" md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">Fire Extinguishers </h2>
+              <p className=' text-center md:text-justify' >Fire extinguishers are crucial devices designed to
                 suppress small fires and prevent them from spreading.
                 Understanding the different types of fire extinguishers
                 and their specific applications can help ensure safety in
@@ -366,19 +366,19 @@ export default function FireSafety() {
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   ">Fire Hydrant System </h2>
-              <p className=' text-justify' >A fire hydrant system is a critical component of fire protection infrastructure, providing emergency
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">Fire Hydrant System </h2>
+              <p className=' text-center md:text-justify' >A fire hydrant system is a critical component of fire protection infrastructure, providing emergency
                 responders with quick access to water for firefighting operations. These systems are strategically
                 placed in urban and rural areas to ensure that firefighters can effectively combat fires and protect life
                 and property.</p>
               <h2 className=' text-2xl text-left py-4  underline'>Components of a Fire Hydrant System</h2>
               <div className="text-justify ">
-                <ul className="list-disc ps-4">
+                <ul className="list-disc ps-4 text-left md:text-justify">
                   <li> <span className=" font-bold font-sans ">Hydrants:  </span>  The primary components, hydrants are typically made of durable materials such as ductile iron or
                     brass. They come in various types, including:</li>
                   <li> <span className=" font-bold font-sans "> Wet Barrel Hydrants:  </span>  Common in warmer climates, where water remains in the hydrant.
@@ -446,7 +446,7 @@ export default function FireSafety() {
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -465,7 +465,7 @@ export default function FireSafety() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white"> Fire Sprinkler System <span className=' text-sm'> </span> </h2>
+                      <h2 className="font-dmserif text-3xl  font-bold text-white"> Fire Sprinkler System <span className=' text-sm'> </span> </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
                       </p>
@@ -477,13 +477,13 @@ export default function FireSafety() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   ">Fire Sprinkler System </h2>
-              <p className=' text-justify' > Fire sprinkler systems are vital components of modern fire protection, designed to detect and
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">Fire Sprinkler System </h2>
+              <p className=' text-center md:text-justify ' > Fire sprinkler systems are vital components of modern fire protection, designed to detect and
                 suppress fires automatically. These systems can significantly reduce the risk of fire-related injuries
                 and property damage, making them an essential element in both residential and commercial
                 buildings. </p>
               <h2 className=' text-2xl text-left py-4 underline'>Components of a Fire Sprinkler System</h2>
-              <div className="text-justify ">
+              <div className="text-start md:text-justify ">
                 <ul className="list-disc ps-4">
                   <li> <span className=" font-bold font-sans "> Sprinkler Heads:  </span>  The most visible part of the system, sprinkler heads release water when activated by heat.
                     They come in various types, including:</li>
@@ -525,19 +525,19 @@ export default function FireSafety() {
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   "> Fire suppression system </h2>
-              <p className=' text-justify' > Fire suppression systems are crucial safety measures designed to detect and extinguish fires before
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire suppression system </h2>
+              <p className=' text-center md:text-justify' > Fire suppression systems are crucial safety measures designed to detect and extinguish fires before
                 they escalate, protecting lives, property, and assets. These systems can be categorized into various
                 types, each tailored to specific environments and fire risks. Fire suppression systems are critical
                 components in fire protection strategies, designed to detect and control fires quickly, minimizing
                 damage and protecting lives. </p>
               <h2 className=' text-2xl text-left py-4 underline '> Key Components</h2>
-              <div className="text-justify ">
+              <div className=" text-start md:text-justify ">
                 <ul className="list-disc ps-4">
                   <li> <span className=" font-bold font-sans "> Detection Devices:  </span>  Smoke detectors, heat sensors, and flame detectors identify the
                     presence of fire and initiate the suppression process. </li>
@@ -572,7 +572,7 @@ export default function FireSafety() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -604,7 +604,7 @@ export default function FireSafety() {
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
           <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -613,7 +613,7 @@ export default function FireSafety() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -635,13 +635,13 @@ export default function FireSafety() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   "> Fire Alarm System </h2>
-              <p className=' text-justify' > Fire alarm systems are essential safety mechanisms designed to detect fires early and alert occupants,
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire Alarm System </h2>
+              <p className=' text-center md:text-justify' > Fire alarm systems are essential safety mechanisms designed to detect fires early and alert occupants,
 enabling swift evacuation and response. They play a crucial role in protecting lives and property by
 providing early warning signals when a fire is detected. By providing timely warnings, these systems help
 ensure swift evacuations, potentially saving lives and minimizing property damage. </p>
               <h2 className=' text-2xl text-left py-4 underline'>Types of Fire Alarm Systems</h2>
-              <div className="text-justify ">
+              <div className="text-start md:text-justify ">
                 <ul className="list-disc ps-4">
                   <li><span className=" font-bold font-sans "> Conventional Fire Alarm Systems:  </span> 
 These systems divide the building into zones. When an alarm is triggered, the control panel indicates the
@@ -682,17 +682,17 @@ various environments where traditional wiring is not feasible.</li>
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
            
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   ">Glow Signage and Emergency Lights</h2>
-              <p className=' text-justify' > Glow signage and emergency lights are critical components of safety management in public spaces,
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3    ">Glow Signage and Emergency Lights</h2>
+              <p className=' text-center md:text-justify' > Glow signage and emergency lights are critical components of safety management in public spaces,
 commercial buildings, and industrial facilities. They serve to guide and inform occupants during
 emergencies, ensuring a safe and efficient evacuation. </p>
               <h2 className=' text-2xl text-left py-4 underline'> Types of Glow Signage </h2>
-              <div className="text-justify ">
+              <div className="text-start md:text-justify ">
                 <ul className="list-disc ps-4">
                   <li> <span className=" font-bold font-sans "> Exit Signs:  </span> Indicate the nearest exit routes, guiding occupants to safety.</li>
                   <li><span className=" font-bold font-sans "> Directional Signs:  </span> Provide information on the location of exits, restrooms, fire
@@ -726,7 +726,7 @@ Only” or “No Smoking.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -756,7 +756,7 @@ Only” or “No Smoking.
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
           <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -765,7 +765,7 @@ Only” or “No Smoking.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[30rem]  object-center object-fill "
+                          className="  md:h-[30rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
@@ -792,15 +792,15 @@ Only” or “No Smoking.
 
 
 
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   ">      Fire Tubing System</h2>
-              <p className=' text-justify' >
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">      Fire Tubing System</h2>
+              <p className=' text-center md:text-justify' >
               A fire tubing system typically consists of a network of flexible, heat-sensitive tubes filled with a special
 agent, such as water, foam, or dry chemicals, designed to activate when exposed to heat or flames. The
 tubing is strategically placed throughout a protected area, often in vulnerable or high-risk locations,
 such as machinery rooms, electrical panels, or large storage areas.
  </p>
               <h2 className=' text-2xl text-left py-4 underline'>  Key Components </h2>
-              <div className="text-justify ">
+              <div className="text-start md:text-justify ">
                 <ul className="list-disc ps-4">
 
               
@@ -874,19 +874,19 @@ case of activation.
         </div>
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
         
    
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl text-left font-sans mb-3   "> Fire VESDA System </h2>
-              <p className=' text-justify' >   The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire VESDA System </h2>
+              <p className=' text-center md:text-justify' >   The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
 detection solution designed to provide early warning of potential fire risks. This system is widely
 recognized for its ability to detect smoke at extremely low concentrations—often well before visible
 signs of smoke or flames appear—making it a critical component in modern fire protection systems,
 especially in environments where rapid response is vital. </p>
               <h2 className=' text-2xl text-left py-4 underline'> Key Components </h2>
-              <div className="text-justify ">
+              <div className="text-center md:text-justify ">
                 <ul className="list-disc ps-4">
 
 
