@@ -554,10 +554,8 @@ Enquiry Now
 
       {products2.map((product) => (
         <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-          {/* Image Container */}
-     
 
-      
+         
           <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
           <span className=' relative right-6'>
@@ -918,12 +916,12 @@ to operate.</li>
   <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
 
   
-      <table className="w-[50%] text-sm text-center text-gray-500 ">
+      <table className="md:w-[50%] text-sm text-center text-gray-500 ">
         <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
         
         </thead>
         <tbody>
-          <tr className="bg-white text-[15px]">
+          <tr className="bg-white text-[15px]  flex  flex-col   md:flex-row justify-center">
             <td className="px-6 py-4  text-left">
               <ul className="list-disc list-inside">
                 {column1.map((item, index) => (
@@ -956,7 +954,7 @@ to operate.</li>
       {logos.map((logo, idx) => (
         <li key={idx}>
           <img
-            className=" w-48 object-center object-cover  h-48  rounded-full"
+            className=" w-32 h-32 md:w-48 md:h-48 object-center object-cover   rounded-full "
             src={logo.src}
             alt={logo.alt}
           />

@@ -285,12 +285,12 @@ export default function DuctedAirCooler() {
 
         <div className="row">
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex  flex-col-reverse   md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (1.5 TR.) </h2>
+              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Oil Chiller Unit (1.5 TR.) </h2>
               <p className="text-justify md:text-center">
                 Our 1.5 TR Oil/Coolant Chiller is a powerful yet compact cooling solution tailored to meet the demands of various applications. This advanced refrigeration system effectively controls the temperature of your oil and other industrial fluids. With a sophisticated cooling process, our chillers ensure consistent temperature regulation, safeguarding your valuable equipment and maximizing productivity. </p>
               <div className="show_m mt-5">
@@ -315,7 +315,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover "
+                          className="  md:h-[28rem]  object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
@@ -418,7 +418,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover "
+                          className="  md:h-[28rem]  object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
@@ -563,7 +563,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover "
+                          className="  md:h-[28rem]  object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
@@ -668,7 +668,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover "
+                          className="  md:h-[28rem]  object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
                           alt="Exhaust Fan (SS)"
@@ -927,7 +927,7 @@ export default function DuctedAirCooler() {
 
 
 
-      <img className="h-[70%] rounded-md" src="/pacth.png" alt="Hero Image" />
+      <img className="md:h-[70%] rounded-md" src="/pacth.png" alt="Hero Image" />
       <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -980,7 +980,7 @@ export default function DuctedAirCooler() {
           <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
           {/* Center text */}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white text-3xl md:text-4xl font-sans font-bold capitalize text-center">
             APPLICATIONS
           </span>
 
@@ -1002,7 +1002,7 @@ export default function DuctedAirCooler() {
             <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
 
 
-              <table className="w-[50%] text-sm text-center text-gray-500 ">
+              <table className="  w-[50%] text-sm text-center text-gray-500 ">
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>

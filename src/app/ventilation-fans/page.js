@@ -746,18 +746,13 @@ export default function DuctedAirCooler() {
 
           <div className="row pb-16 flex justify-center items-center flex-col">
 
-
-
-
-
-
             <div className="row  w-full h-full">
 
 
               <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
 
 
-                <table className="w-[50%] text-sm text-center text-gray-500 ">
+                <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
                   <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                   </thead>
