@@ -44,6 +44,7 @@ export default function page() {
       buttonText: <> <div className=' text-left pb-2'>
 Manufacturing and R&D
       </div></>,
+      video: 'https://videos.pexels.com/video-files/17850330/17850330-uhd_2560_1440_60fps.mp4',
     },
 
   ];
@@ -147,12 +148,16 @@ Manufacturing and R&D
               className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'
                 }`}
             >
-             <img
-  src={slide.image}
-  alt="Background"
-  className="w-full h-full object-cover"
-  style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
-/>
+           <video
+                autoPlay
+                loop
+                muted
+                className="w-full h-full object-cover"
+                style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
+              >
+                <source src={slide.video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
 
 
 
