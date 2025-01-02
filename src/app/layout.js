@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
+      <Analytics/>
       <SpeedInsights/>
         <Header />
         <WatsapButton phoneNumber="+919599050534" />

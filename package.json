@@ -14,6 +14,7 @@
     "@amcharts/amcharts5-geodata": "^5.1.4",
     "@cloudinary/url-gen": "^1.21.0",
     "@emailjs/browser": "^4.4.1",
+    "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "cloudinary-react": "^1.8.1",
     "d3": "^7.9.0",
