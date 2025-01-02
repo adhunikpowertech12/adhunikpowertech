@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Button, Tooltip } from "flowbite-react";
 
 const WatsapButton = ({ phoneNumber }) => {
-    const [message, setMessage] = useState('Hello DecoDive Team, I am interested to know more about your home interior design/renovation services. ');
+    const [message, setMessage] = useState('Hello Adhunik Powertech Team, I am interested to know more about your HVAC services. ');
 
     const openChatWindow = () => {
         // Open WhatsApp chat window with the predefined message
