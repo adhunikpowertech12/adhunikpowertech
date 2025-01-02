@@ -886,7 +886,7 @@ recognized for its ability to detect smoke at extremely low concentrations—oft
 signs of smoke or flames appear—making it a critical component in modern fire protection systems,
 especially in environments where rapid response is vital. </p>
               <h2 className=' text-2xl text-left py-4 underline'> Key Components </h2>
-              <div className="text-center md:text-justify ">
+              <div className="text-left md:text-justify ">
                 <ul className="list-disc ps-4">
 
 

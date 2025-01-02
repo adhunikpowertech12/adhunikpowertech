@@ -7,164 +7,15 @@ export default function DuctedAirCooler() {
 
 
 
-  const logos = [
-    { src: '/dc1.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc2.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc3.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc4.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc5.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc6.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc7.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc8.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc9.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc10.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc11.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc12.webp', alt: 'Asahi-India-Glass-Ltd' },
-    { src: '/dc13.webp', alt: 'Asahi-India-Glass-Ltd' },
+  
+
+ 
 
 
-  ];
-
-  const column1 = [
-    "Warehouses",
-    "Automotive Industry",
-    "Banquet Halls",
-    "Food Industry",
-    "Medical / Healthcare",
-    "Offices",
-    "Restaurants"
-  ];
-
-  const column2 = [
-    "Educational Institutions",
-    "Textile Industry",
-    "Multiplex/Theatres",
-    "Retail stores/Showrooms",
-    "Print & Packaging Industry",
-    "Religious Places",
-    "Gymnasium"
-  ];
+  
 
 
-  const features = [
-    {
-      id: 1,
-      description: "Wide range of products (Double Skin Comfort & Clean Room Fire Extinguishers) Starts from capacity 500CFM to 50000 CFM.",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-    {
-      id: 2,
-      description: " MS powder coated body and SS-304 also available as per requirement.",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-    {
-      id: 3,
-      description: "⁠All Spare parts have rust free anti corrosion coating. ",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-    {
-      id: 4,
-      description: " Maximum energy efficiency and indoor air quality. ",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-
-  ];
-
-
-  const features2 = [
-    {
-      id: 1,
-      description: " Ideal For: Class A extinguishers are best for use in areas with materials that can easily ignite and burn, such as offices, homes, and schools. ",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-
-    {
-      id: 2,
-      description: " Not Suitable For: They should not be used on fires involving flammable liquids (Class B), electrical fires (Class C), or reactive metals (Class D), as water can spread the fire or cause dangerous reactions. ",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="w-10 h-10  text-[#e8f1f5"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-            clipRule="evenodd"
-          />
-        </svg>
-      ),
-    },
-
-
-
-  ];
+ 
 
 
   return (
@@ -176,9 +27,9 @@ export default function DuctedAirCooler() {
 
 
         <div className="row">
-          <p className=" w-full text-center font-sans  text-5xl  text-sky-700  capitalize"> Fire Extinguishers: Your First Line of Defense </p>
+          <p className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700  capitalize"> Fire Extinguishers: Your First Line of Defense </p>
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -187,7 +38,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -208,9 +59,9 @@ export default function DuctedAirCooler() {
               </div>
             </div>
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Understanding Fire Extinguishers </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2 ">
                 Fire extinguishers are crucial devices designed to suppress
                 small fires and prevent them from spreading. Understanding
                 the different types of fire extinguishers and their specific
@@ -260,13 +111,13 @@ export default function DuctedAirCooler() {
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 1. Water (Class A) </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 A Water (Class A) fire extinguisher is specifically designed to
                 combat fires involving ordinary combustibles such as wood,
                 paper, cloth, and certain plastics. These extinguishers work
@@ -274,7 +125,7 @@ export default function DuctedAirCooler() {
                 necessary for combustion.
               </p>
 
-              <div className="card">
+              <div className="card   text-left ">
 
        
 
@@ -310,7 +161,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
               </div>
 
 
-              <div className="card">
+              <div className="card text-left">
        
 
              
@@ -367,7 +218,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -404,7 +255,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
@@ -416,7 +267,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -438,9 +289,9 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
             </div>
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 2. Foam (Class A and B)</h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 Foam fire extinguishers are versatile firefighting
                 tools designed to combat both Class A and Class B
                 fires. Class A fires involve ordinary combustibles
@@ -453,7 +304,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
 
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  ">Advantages </p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -471,7 +322,7 @@ training. The operation typically involves a simple "pull, aim, squeeze, and swe
               </div>
 
 
-              <div className="card">
+              <div className="card   text-left">
        
 
 
@@ -534,13 +385,13 @@ use.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 3. Dry Powder (Class A, B, and C) </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 Dry powder extinguishers are versatile firefighting
                 tools designed to combat a variety of fire types.
                 They use a dry chemical agent to suppress flames
@@ -557,7 +408,7 @@ use.
            
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Advantages </p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -586,7 +437,7 @@ use.
 
               </div>
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Key Features </p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -623,7 +474,7 @@ effectively stopping the fire's spread.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -661,7 +512,7 @@ effectively stopping the fire's spread.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
@@ -673,7 +524,7 @@ effectively stopping the fire's spread.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -695,9 +546,9 @@ effectively stopping the fire's spread.
             </div>
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 4. Carbon Dioxide (CO2)</h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 A Carbon Dioxide (CO2) fire extinguisher is a
                 specialized fire suppression device designed to
                 extinguish fires by displacing oxygen and cooling the
@@ -710,7 +561,7 @@ effectively stopping the fire's spread.
 
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  ">Advantages</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -730,7 +581,7 @@ effectively stopping the fire's spread.
               </div>
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Key Features </p>
                 <p className=" pt-2 font-sans font-bold">1. Mechanism of Action:</p>
                 <ul className=" list-disc  space-y-1  ps-4">
@@ -791,13 +642,13 @@ effectively stopping the fire's spread.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 5. Wet Chemical (Class K) </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 A Wet Chemical fire extinguisher is specifically
                 designed to combat Class K fires, which involve
                 cooking oils and fats, commonly found in
@@ -812,7 +663,7 @@ effectively stopping the fire's spread.
 
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Advantages </p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -833,7 +684,7 @@ effectively stopping the fire's spread.
 
               </div>
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Key Features </p>
                 <p className=" pt-2 font-sans font-bold"> 1.Specialized Agent:</p>
                 <ul className=" list-disc  space-y-1  ps-4">
@@ -880,7 +731,7 @@ effectively stopping the fire's spread.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -918,7 +769,7 @@ effectively stopping the fire's spread.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
@@ -930,7 +781,7 @@ effectively stopping the fire's spread.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Extinguishers"
@@ -952,9 +803,9 @@ effectively stopping the fire's spread.
             </div>
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> 6. Clean Agent </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
                 Clean agent fire extinguishers are advanced fire
                 suppression devices that utilize environmentally
                 friendly chemicals to extinguish fires without leaving
@@ -965,7 +816,7 @@ effectively stopping the fire's spread.
 
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  ">Advantages</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -986,7 +837,7 @@ effectively stopping the fire's spread.
               </div>
 
 
-              <div className="card">
+              <div className="card   text-left">
                 <p className=" text-4xl pt-2  "> Key Features </p>
                 <p className=" pt-2 font-sans font-bold"> 1. Clean Agent Composition:</p>
                 <ul className=" list-disc  space-y-1  ps-4">
@@ -1047,7 +898,7 @@ effectively stopping the fire's spread.
         <div className="row flex-col flex justify-center items-center py-10">
 
 
-          <div className="flex items-center justify-center  py-10  ">
+          <div className="flex items-center justify-center  md:py-10  ">
          
             <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
             <span className="text-transparent  bg-clip-text bg-gradient-to-r to-[#f7b733] from-[#fc4a1a]">    Choosing the Right Fire Extinguisher</span> 
@@ -1055,7 +906,7 @@ effectively stopping the fire's spread.
           </div>
 
 
-          <div className="container  text-center py-5 px-10">
+          <div className="container  text-center py-5 md:px-10 px-3">
             <p> The appropriate type of fire extinguisher depends on the specific hazards present in your home, office, or workplace. For example, if you frequently cook with oils, a Class K extinguisher is essential. Consult with a fire safety expert to determine the best options for your needs.
             </p>
 
