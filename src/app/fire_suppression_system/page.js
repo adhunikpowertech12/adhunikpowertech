@@ -176,9 +176,9 @@ export default function DuctedAirCooler() {
 
 
         <div className="row">
-          <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire suppression system </p>
+          <p className=" w-full text-center font-sans text-4xl  md:text-5xl  text-sky-700 uppercase"> Fire suppression system </p>
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -187,7 +187,7 @@ export default function DuctedAirCooler() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire suppression system"
@@ -208,9 +208,9 @@ export default function DuctedAirCooler() {
               </div>
             </div>
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire suppression system</h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
               A Fire suppression system is a critical safety  mechanism designed to control or extinguish fires in
 various environments, protecting lives, property, and
 assets. These systems utilize different methods and
@@ -229,7 +229,7 @@ tailored to specific hazards and settings.
 
 
 
-        <div className="card">
+        <div className="card   text-left">
      
           <ul className=" list-disc py-3 space-y-1  ps-4">
             <li>
@@ -336,16 +336,16 @@ fire suppression.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4 items-center">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4 items-center">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
         
 
 
            
-            <div className="card">
+            <div className="card   text-left">
               <p className=" text-4xl pt-2  text-left "> Importance of Fire Suppression Systems</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
 
@@ -429,7 +429,7 @@ regulations.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire suppression system"
@@ -466,7 +466,7 @@ regulations.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
             <div className="md:w-[40%] w-auto">
@@ -476,7 +476,7 @@ regulations.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-cover  "
+                          className="  md:h-[28rem]  object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire suppression system"
@@ -498,7 +498,7 @@ regulations.
             </div>
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Maintenance and Inspection</h2>
             
             
@@ -508,7 +508,7 @@ regulations.
 
 
 
-              <div className="card">
+              <div className="card   text-left">
            
 
                 <ul className=" list-disc py-3 space-y-1  ps-4">

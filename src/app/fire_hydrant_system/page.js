@@ -51,9 +51,9 @@ export default function FireHydrantSystem() {
               </div>
             </div>
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire Hydrant System </h2>
-              <p className="text-justify  py-2">
+              <p className="md:text-justify  py-2">
               A fire hydrant system is a crucial part of fire protection
 infrastructure, providing firefighters with quick access
 to water during emergencies. This system enhances
@@ -61,7 +61,7 @@ public safety by ensuring a reliable water supply for
 firefighting operations. Here’s an in-depth look at its
 components, types, maintenance, and importance.
               </p>
-              <div className="card">
+              <div className="card   text-left">
               <p className=" text-4xl pt-2  ">Types of Fire Hydrants</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -111,17 +111,17 @@ risks.</li>
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3    text-left"> Key Components of a Fire Hydrant System </h2>
         
              
 
 
-              <div className="card">
+              <div className="card   text-left">
               <p className=" text-4xl pt-2  ">Features</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -240,13 +240,13 @@ freezing in colder climates.</li>
             </div>
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Importance of Fire Hydrant Systems</h2>
             
              
 
 
-              <div className="card">
+              <div className="card   text-left">
             
                 <ul className=" list-disc py-3 space-y-1  ps-4">
                   <li>
@@ -275,11 +275,11 @@ premiums, reflecting reduced fire risk. </li>
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Maintenance and Inspection</h2>
             
              
-<p className="space-y-1  ps-4">Regular maintenance is vital to ensure fire hydrants
+<p className="space-y-1  text-left ps-4 ">Regular maintenance is vital to ensure fire hydrants
 function correctly when needed. Key maintenance
 practices include:</p>
 
-            <div className="card">
+            <div className="card   text-left">
           
               <ul className=" list-disc py-3 space-y-1  ps-4">
                 <li>
