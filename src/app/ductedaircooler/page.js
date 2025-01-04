@@ -8,6 +8,7 @@ import Link from "next/link";
 export default function DuctedAirCooler() {
 
   
+
   const accordionData = useMemo(() => [
     {
       title: " How does an evaporative air cooler work?",
@@ -228,8 +229,7 @@ export default function DuctedAirCooler() {
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">AIROSTA ECO</h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                </p>
+             Stay cool and comfortable all summer long with AIROSTA ECO, built to last with a durable polypropylene body and offers powerful cooling for warehouses, factories, and more. </p>
               
               </div>
             </div>
@@ -365,8 +365,7 @@ export default function DuctedAirCooler() {
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">AIROSTA PLUS</h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                </p>
+                Invest in the AIROSTA PLUS, the ducted air cooler that combines performance with practicality. Its robust construction and stainless steel tank make it a low-maintenance solution for large spaces.  </p>
               
               </div>
             </div>
@@ -458,8 +457,7 @@ export default function DuctedAirCooler() {
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">CYCLON</h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                </p>
+                Built to last, the CYCLONE is crafted from durable stainless steel (SS 304) for long-lasting performance and minimal maintenance.   </p>
              
               </div>
             </div>
@@ -597,7 +595,7 @@ export default function DuctedAirCooler() {
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">CYCLON PLUS</h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Transform your cooling experience with CYCLONE PLUS! Enjoy powerful cooling, enhanced energy efficiency, and a larger tank that ensures optimal comfort and productivity.
                 </p>
               
               </div>

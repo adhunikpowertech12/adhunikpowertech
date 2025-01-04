@@ -3,7 +3,7 @@ import OurCompany from "./OurCompany";
 export const metadata = {
 
   title: {
-    default: " Our Company ",
+    default: " About Us ",
     template: " %s - Hvac Under One Roof "
   },
 

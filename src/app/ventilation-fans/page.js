@@ -279,8 +279,7 @@ export default function DuctedAirCooler() {
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
             <h2 className="font-dmserif text-3xl font-bold text-white">  Axial Flow Fan  </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-            </p>
+            Improve air quality and efficiency with our high-performance axial flow fans. Engineered for optimal airflow, low noise operation, and energy saving.   </p>
 
           </div>
         </div>
@@ -455,8 +454,7 @@ export default function DuctedAirCooler() {
             <h2 className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (PP)
             </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-            </p>
+            Constructed with high-quality Poly polypropylene plastic, our Exhaust Fans are corrosion-resistant and offer long-lasting performance.  </p>
 
           </div>
         </div>
@@ -590,8 +588,7 @@ export default function DuctedAirCooler() {
             <h2 className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (SS)
             </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-            </p>
+            Experience the peace of mind that comes with our stainless steel Exhaust Fans. Their robust construction ensures years of reliable operation and corrosion resistance.  </p>
 
           </div>
         </div>
