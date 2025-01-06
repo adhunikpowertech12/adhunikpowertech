@@ -39,11 +39,11 @@ function Navbar() {
       to: '#',
       text: 'ABOUT US',
       dropdownItems: [
-        { href: '/our_Company', label: 'Our Company' },
+        { href: '/our-Company', label: 'Our Company' },
 
-        { href: '/vision_&_mission', label: 'Vision & Mission' },
+        { href: '/vision-&-mission', label: 'Vision & Mission' },
 
-        { href: '/certificate_&_accreditation', label: 'Certificate & Accreditation' },
+        { href: '/certificate-&-accreditation', label: 'Certificate & Accreditation' },
 
       ],
     },
@@ -53,15 +53,15 @@ function Navbar() {
       to: '#',
       text: 'PRODUCTS',
       dropdownItems: [
-        { href: '/product_overview', label: 'Overview' },
+        { href: '/product-overview', label: 'Overview' },
         { href: '/our-product-clients', label: 'Our Clients' },
         { href: '/air-washer', label: 'Air Washer' },
-        { href: '/ductedaircooler', label: 'Ducted Air Coolers' },
+        { href: '/ducted-air-cooler', label: 'Ducted Air Coolers' },
         { href: '/ventilation-fans', label: 'Ventilation Exhaust Fan' },
-        { href: '/panelaircond', label: 'Panel Air Conditioner' },
+        { href: '/panel-air-conditioners', label: 'Panel Air Conditioner' },
         { href: '/chiller-oil-water-coolant', label: 'Oil Chiller & Coolant Chiller' },
-        { href: '/air_handling_unit', label: 'Air Handling Unit' },
-        { href: '/air_shower', label: 'Air Shower & Pass Box' },
+        { href: '/air-handling-unit', label: 'Air Handling Unit' },
+        { href: '/air-shower', label: 'Air Shower & Pass Box' },
       ],
     },
     {
@@ -70,7 +70,7 @@ function Navbar() {
 
         { label: 'Overview', href: '/hvac' },
         { label: 'Our Quality Service', href: '/our-quality-service' },
-        { label: 'Our Projects ', href: '/our_projects' },
+        { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
       ],
@@ -80,11 +80,11 @@ function Navbar() {
       text: ' FIRE & SAFETY ',
       dropdownItems: [
         { label: 'Overview', href: '/fire&safety' },
-        { label: " Fire Extinguishers ", href: "/fire_extinguishers " },
-        { label: " Fire Hydrant System ", href: "/fire_hydrant_system " },
-        { label: " Fire Sprinkler System ", href: "/fire_sprinkler_system" },
-        { label: " Fire suppression system ", href: "/fire_suppression_system" },
-        { label: " Fire Alarm System ", href: "/fire_alarm_system " },
+        { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
+        { label: " Fire Hydrant System ", href: "/fire-hydrant-system " },
+        { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
+        { label: " Fire suppression system ", href: "/fire-suppression-system" },
+        { label: " Fire Alarm System ", href: "/fire-alarm-system " },
         { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
         { label: " Fire tubing system ", href: "/fire-tubing-system " },
         { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
@@ -108,7 +108,7 @@ function Navbar() {
     },
 
     { text: 'BLOG', href: '/blog' },
-    { text: 'CONTACT US', href: '/contactUs' },
+    { text: 'CONTACT US', href: '/contact-Us' },
   ];
 
 
@@ -165,7 +165,7 @@ function Navbar() {
 
   useEffect(() => {
     if (pathname) {
-      if (pathname === '/fire&safety' || pathname === '/fire_extinguishers' || pathname === '/fire_hydrant_system' || pathname === '/fire_sprinkler_system' || pathname === '/fire_suppression_system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire_alarm_system') {
+      if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
         setLogoSrc('/next2.png');
         setLogoSize({ width: '180', height: '44' }); // Custom size for vercel.svg
       } else {
@@ -182,24 +182,24 @@ function Navbar() {
     {
       label: "ABOUT US",
       dropdown: [
-        { label: "Our Company", href: "/our_Company" },
-        { label: "Vision & Mission", href: "/vision_&_mission" },
-        { label: "Certificate & Accreditation", href: "/certificate_&_accreditation" },
+        { label: "Our Company", href: "/our-Company" },
+        { label: "Vision & Mission", href: "/vision-&-mission" },
+        { label: "Certificate & Accreditation", href: "/certificate-&-accreditation" },
       ],
     },
 
     {
       label: "PRODUCTS",
       dropdown: [
-        { label: "Overview", href: "/product_overview" },
+        { label: "Overview", href: "/product-overview" },
         { href: '/our-product-clients', label: 'Our Clients' },
         { label: "Air Washer", href: "/air-washer" },
-        { label: "Ducted Air Coolers", href: "/ductedaircooler" },
+        { label: "Ducted Air Coolers", href: "/ducted-air-cooler" },
         { label: "Ventilation Exhaust Fan", href: "/ventilation-fans" },
-        { label: "Panel Air Conditioner", href: "/panelaircond" },
+        { label: "Panel Air Conditioner", href: "/panel-air-conditioners" },
         { label: "Oil Chiller & Coolant Chiller", href: "/chiller-oil-water-coolant" },
-        { label: "Air Handling Unit", href: "/air_handling_unit" },
-        { label: "Air Shower & Pass Box ", href: "/air_shower" },
+        { label: "Air Handling Unit", href: "/air-handling-unit" },
+        { label: "Air Shower & Pass Box ", href: "/air-shower" },
 
       ],
     },
@@ -210,7 +210,7 @@ function Navbar() {
 
         { label: "Overview", href: "/hvac" },
         { label: 'Our Quality Service', href: '/our-quality-service' },
-        { label: 'Our Projects ', href: '/our_projects' },
+        { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
       ],
@@ -220,11 +220,11 @@ function Navbar() {
       label: "    FIRE & SAFETY ",
       dropdown: [
         { label: "Overview", href: "/fire&safety" },
-        { label: " Fire Extinguishers ", href: "/fire_extinguishers " },
-        { label: " Fire Hydrant System ", href: "/fire_hydrant_system" },
-        { label: " Fire Sprinkler System ", href: "/fire_sprinkler_system" },
-        { label: " Fire suppression system ", href: "/fire_suppression_system" },
-        { label: " Fire Alarm System ", href: "/fire_alarm_system" },
+        { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
+        { label: " Fire Hydrant System ", href: "/fire-hydrant-system" },
+        { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
+        { label: " Fire suppression system ", href: "/fire-suppression-system" },
+        { label: " Fire Alarm System ", href: "/fire-alarm-system" },
         { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
         { label: " Fire tubing system ", href: "/fire-tubing-system " },
         { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
@@ -247,7 +247,7 @@ function Navbar() {
     },
 
     { label: "BLOG", href: "/blog" },
-    { label: "CONTACT US", href: "/contactUs" },
+    { label: "CONTACT US", href: "/contact-Us" },
   ];
 
 
@@ -304,16 +304,16 @@ function Navbar() {
 
   const items = [
     { id: "1", name: "Air Washer", link: "/air-washer" },
-    { id: "2", name: "Ducted Air Coolers", link: "/ductedaircooler" },
+    { id: "2", name: "Ducted Air Coolers", link: "/ducted-air-cooler" },
     { id: "3", name: "Ventilation Exhaust Fan", link: "/ventilation-fans" },
-    { id: "4", name: "Panel Air Conditioner", link: "/panelaircond" },
+    { id: "4", name: "Panel Air Conditioner", link: "/panel-air-conditioners" },
     { id: "5", name: "Oil Chiller & Coolant Chiller", link: "/chiller-oil-water-coolant" },
-    { id: "6", name: "Air Handling Unit", link: "/air_handling_unit" },
-    { id: "7", name: " Air Shower & Pass Box ", link: "/air_shower" },
-    { id: "8", name: " Fire Extinguishers", link: "/fire_extinguishers" },
-    { id: "9", name: " Fire Hydrant System", link: "/fire_hydrant_system" },
-    { id: "10", name: " Fire Sprinkler System", link: "/fire_sprinkler_system" },
-    { id: "11", name: " Fire suppression system", link: "/fire_suppression_system" },
+    { id: "6", name: "Air Handling Unit", link: "/air-handling-unit" },
+    { id: "7", name: " Air Shower & Pass Box ", link: "/air-shower" },
+    { id: "8", name: " Fire Extinguishers", link: "/fire-extinguishers" },
+    { id: "9", name: " Fire Hydrant System", link: "/fire-hydrant-system" },
+    { id: "10", name: " Fire Sprinkler System", link: "/fire-sprinkler-system" },
+    { id: "11", name: " Fire suppression system", link: "/fire-suppression-system" },
     { id: "12", name: " Glow Signage & Emergency Lights", link: "/glow-signage-&-emergency-lights" },
     { id: "13", name: " Fire tubing system", link: "/fire-tubing-system" },
     { id: "14", name: " Fire VESDA System", link: "/fire-VESDA-system" },

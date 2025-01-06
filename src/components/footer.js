@@ -28,14 +28,14 @@ function Footer() {
 
   const links = [
 
-    { href: "/product_overview", text: "Overview" },
+    { href: "/product-overview", text: "Overview" },
     { href: "/air-washer", text: "Air Washer" },
-    { href: "/ductedaircooler", text: "Ducted Air Cooler" },
+    { href: "/ducted-air-cooler", text: "Ducted Air Cooler" },
     { href: "/ventilation-fans", text: "Ventilation Exhaust Fan" },
-    { href: "/panelaircond", text: "Panel Air Conditioner" },
+    { href: "/panel-air-conditioners", text: "Panel Air Conditioner" },
     { href: "/chiller-oil-water-coolant", text: "Oil Chiller" },
-    { href: "/air_handling_unit", text: "Air Handling Unit" },
-    { href: "/air_shower", text: "Air Shower & Pass Box" },
+    { href: "/air-handling-unit", text: "Air Handling Unit" },
+    { href: "/air-shower", text: "Air Shower & Pass Box" },
   ];
 
 
@@ -50,12 +50,12 @@ function Footer() {
   const links2 = [
 
     { href: "/", text: "Home" },
-    { href: "/our_Company", text: "About Us" },
-    { href: "/product_overview", text: "Products" },
-    { href: "/", text: <>Manufacturing and  R&amp;D </> },
+    { href: "/our-Company", text: "About Us" },
+    { href: "/product-overview", text: "Products" },
+    { href: "/manufacturing-and-r-&-d", text: <>Manufacturing and  R&amp;D </> },
     { href: "/annual-maintenance-contract", text: "Maintenance" },
-    { href: "/", text: "Blog" },
-    { href: "/contactUs", text: "Contact Us" },
+    { href: "/blog", text: "Blog" },
+    { href: "/contact-Us", text: "Contact Us" },
   ];
 
 

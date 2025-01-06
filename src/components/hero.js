@@ -273,7 +273,7 @@ export default function Hero() {
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space. ",
-      link: "/ductedaircooler",
+      link: "/ducted-air-cooler",
       linkText: "Read more",
     },
     {
@@ -293,7 +293,7 @@ export default function Hero() {
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
       description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
-      link: "/panelaircond",
+      link: "/panel-air-conditioners",
       linkText: "Read more",
     },
     {
@@ -309,7 +309,7 @@ export default function Hero() {
       alt: "AIR SHOWER",
       title: "AIR SHOWER",
       description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
-      link: "/air_shower",
+      link: "/air-shower",
       linkText: "Read more",
     },
     {
@@ -317,7 +317,7 @@ export default function Hero() {
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
-      link: "/air_handling_unit",
+      link: "/air-handling-unit",
       linkText: "Read more",
     },
     // Add more items if needed
@@ -656,7 +656,7 @@ export default function Hero() {
 
                 </div>
 <div className="container flex  justify-center pt-3">
-<Link href='/product_overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+<Link href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
                     learn more
                   </Link>
 </div>
