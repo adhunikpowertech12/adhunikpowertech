@@ -250,8 +250,7 @@ export default function DuctedAirCooler() {
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
             <h2 className="font-dmserif text-3xl font-bold text-white">  Air Shower </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-            </p>
+            Ensure a clean and contaminant-free environment with our high-performance Air Showers. Our powerful units effectively remove dust, debris, and particles, enhancing workplace safety.     </p>
 
           </div>
         </div>
@@ -427,8 +426,7 @@ export default function DuctedAirCooler() {
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
             <h2 className="font-dmserif text-2xl font-bold text-white">  Pass Box </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-            </p>
+            Protect your cleanroom investment with our essential Pass Box. Designed for the safe transfer of materials between areas with different cleanliness levels, it minimizes contamination and ensures the integrity of your controlled settings.  </p>
 
           </div>
         </div>

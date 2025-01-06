@@ -234,7 +234,7 @@ export default function page() {
                     width={600}
                     height={400}
                     alt="Air Washer Manufacturers"
-                    className="  w-80 mx-auto"
+                    className="  md:w-80 mx-auto"
                   />
                 </div>
                  {/* Question Section */}

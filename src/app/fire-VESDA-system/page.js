@@ -178,7 +178,7 @@ export default function DuctedAirCooler() {
         <div className="row">
           <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire VESDA System </p>
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -208,9 +208,9 @@ export default function DuctedAirCooler() {
               </div>
             </div>
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire VESDA System </h2>
-              <p className="text-justify  py-2">
+              <p className="md:md:text-justify  py-2">
               he VESDA (Very Early Smoke Detection Apparatus) system is a cutting-edge fire detection
 technology designed to identify smoke at its earliest stages. This proactive approach to fire safety is
 particularly valuable in environments where traditional smoke detectors may not provide adequate
@@ -218,7 +218,7 @@ protection, such as in data centers, museums, or industrial facilities.
               </p>
 
 
-              <div className="card">
+              <div className="card text-left">
               <p className=" text-4xl pt-2  text-left "> Key Components of VESDA Systems</p>
                 <ul className=" list-disc py-3 space-y-1  ps-4">
 
@@ -318,11 +318,11 @@ providing comprehensive coverage and enhancing overall fire safety protocols.
         <div className="row">
 
 
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4 items-center">
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4 items-center">
 
 
 
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  text-justify">
+            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3    text-left">  Benefits of VESDA Systems </h2>
         
              
@@ -333,7 +333,7 @@ providing comprehensive coverage and enhancing overall fire safety protocols.
 
 
 
-              <div className="card">
+              <div className="card text-left">
 
             
                 <ul className=" list-disc py-3 space-y-1  ps-4">
@@ -407,7 +407,7 @@ server rooms, museums, and healthcare facilities, where conventional detectors m
 
            
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Conclusion </h2>
-              <p className="text-justify  py-2">
+              <p className="md:md:text-justify  py-2">
               The VESDA system represents a significant advancement in fire detection technology, offering early
 warning and reliable monitoring to enhance fire safety. Its ability to minimize false alarms, coupled
 with its adaptability to various environments, makes it an invaluable tool in safeguarding lives and
@@ -434,7 +434,7 @@ systems and ensure comprehensive fire protection.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  h-[28rem]  object-center object-contain  "
+                          className="  md:h-[28rem]  object-center object-contain  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire VESDA System"

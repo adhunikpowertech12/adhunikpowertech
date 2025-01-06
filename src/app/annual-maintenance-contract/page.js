@@ -381,7 +381,7 @@ export default function page() {
                   src="amc4.jpg" // Replace with actual img path
                   alt="Annual Maintenance Contract"
 
-                  className=" w-6/12 h-6/12"
+                  className=" md:w-6/12 md:h-6/12"
                 />
               </div>
               <div className="content-maintanance">
@@ -394,7 +394,7 @@ export default function page() {
                 </p>
 
 
-                <p className=" p-3 text-white bg-gradient-to-r from-[#f74c06] to-[#efb42b] motive font-semibold mb-4">
+                <p className=" text-center p-3 text-white bg-gradient-to-r from-[#f74c06] to-[#efb42b] motive font-semibold mb-4">
                   For further information regarding Annual Maintenance Contract (AMC) service, pricing, etc., related queries. Kindly contact our Customer Care Number:
                 </p>
 

@@ -359,7 +359,7 @@ function Navbar() {
     <nav className={`fixed  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black text-white"
       }`}
     >
-      <div className=" mx-2 px-4">
+      <div className=" md:mx-2 md:px-4">
         <div className="flex lg:flex-row items-center xl:flex-row justify-between p-4" >
 
           <div className="flex space-x-4">
@@ -373,7 +373,7 @@ function Navbar() {
                   width={logoSize.width}
                   height={logoSize.height}
                   alt="Picture"
-                  className=" h-[60px] w-auto my-3"
+                  className="  md:h-[60px] md:w-auto my-3"
                   style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }} // Ensure correct styling
 
                 />
@@ -598,9 +598,9 @@ function Navbar() {
 
 
 
-      <div className={`mobile-menu lg:hidden ${isMobileMenuOpen ? 'mobile-menu-open bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
+      <div className={`mobile-menu lg:hidden  ${isMobileMenuOpen ? 'mobile-menu-open bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
         {isMobileMenuOpen && links.map((link, index) => (
-          <div key={index} className="mx-7 mb-2">
+          <div key={index} className="mx-7 mb-2 border-b-2">
             {link.dropdownItems ? (
               <div>
                 <div

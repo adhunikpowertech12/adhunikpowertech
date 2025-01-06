@@ -576,7 +576,7 @@ export default function DuctedAirCooler() {
                       <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (5 TR.)
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                      Invest in a reliable and efficient cooling solution for your industrial needs. Our 5 TR Oil Chiller delivers precise temperature control, extending the lifespan and performance of your critical equipment.
                       </p>
 
                     </div>
@@ -681,7 +681,7 @@ export default function DuctedAirCooler() {
                       <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (8 TR.)
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                      Boost your industrial productivity with our reliable 8 TR Oil Chiller. Designed for heavy-duty applications, it delivers precise temperature control, ensuring optimal equipment performance and a longer service life.
                       </p>
 
                     </div>

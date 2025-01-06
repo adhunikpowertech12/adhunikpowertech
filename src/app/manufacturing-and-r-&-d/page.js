@@ -209,7 +209,7 @@ Overview
 
       <div className="row ">
 
-        <div className=" container-fluid px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto ">
+        <div className=" container-fluid px-2 md:px-4 pt-6 lg:pt-10 pb-12  lg:px-8 mx-auto ">
           <div className="max-w-2xl">
 
 
@@ -279,7 +279,7 @@ Shaping the Future of HVAC</h2>
 
 
 
-        <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+        <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4]">
 
 
 
