@@ -7,10 +7,22 @@ const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
+
 export const metadata = {
-  title: "Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India",
+
+  title: {
+    default: " Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India ",
+    template: " %s - Hvac Under One Roof "
+  },
+
   description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs",
-};
+  
+  twitter:{
+    card:"summary_large_image",
+  }
+  
+}
+
 
 export default function RootLayout({ children }) {
   return (

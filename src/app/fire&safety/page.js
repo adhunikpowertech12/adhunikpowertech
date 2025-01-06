@@ -344,7 +344,7 @@ export default function FireSafety() {
                 </ul>
               </div>
               <div className="show_m mt-5">
-                <Link href='/fire_extinguishers'
+                <Link href='/fire-extinguishers'
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
                   
                 >
@@ -397,7 +397,7 @@ export default function FireSafety() {
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                 href='/fire_hydrant_system'
+                 href='/fire-hydrant-system'
                 >
                   Know More
                 </Link>
@@ -505,7 +505,7 @@ export default function FireSafety() {
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                href='/fire_sprinkler_system'
+                href='/fire-sprinkler-system'
                 >
                   Know More
                 </Link>
@@ -554,7 +554,7 @@ export default function FireSafety() {
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-             href='/fire_suppression_system'
+             href='/fire-suppression-system'
                 >
                   Know More
                 </Link>
@@ -659,7 +659,7 @@ various environments where traditional wiring is not feasible.</li>
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                 href='/fire_alarm_system'
+                 href='/fire-alarm-system'
                 >
                   Know More
                 </Link>
