@@ -285,7 +285,7 @@ export default function () {
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">Wall Mount </h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Protect your critical electrical equipment with our compact and efficient wall-mounted panel air conditioners, designed to provide reliable cooling for a range of applications.
                 </p>
               
               </div>
@@ -406,7 +406,7 @@ Enquiry Now
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">Top Mount </h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Experience powerful cooling in your panels with our compact Top-Mount Panel Air Conditioners. Designed for optimal cooling in limited spaces, they're the ideal solution for installations where space is a constraint.
                 </p>
              
               </div>
@@ -480,7 +480,7 @@ Enquiry Now
               <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h2 className="font-dmserif text-3xl font-bold text-white">Stand Alone  </h2>
                 <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Enjoy the flexibility of our Stand-Alone Panel Air Conditioners. Ideal for situations where wall or top-mounted installations are not feasible.
                 </p>
              
               </div>

@@ -280,7 +280,7 @@ export default function DuctedAirCooler() {
 
       <div className="row mt-36 font-sans">
 
-        <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Chiller </p>
+        <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> OIL/COOLANT CHILLER </p>
 
 
         <div className="row">
@@ -328,7 +328,7 @@ export default function DuctedAirCooler() {
                       <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (1.5 TR.)
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                      Our powerful 1.5 TR Oil Chiller protects your equipment and boosts productivity with precise temperature control.
                       </p>
 
                     </div>
@@ -431,7 +431,7 @@ export default function DuctedAirCooler() {
                       <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (3 TR.)
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                      Experience superior cooling performance with our 3 TR Oil Chiller. This factory-tested unit offers exceptional cooling capacity, durable construction, and improved energy efficiency.
                       </p>
 
                     </div>
