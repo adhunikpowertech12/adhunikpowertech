@@ -435,11 +435,13 @@ export default function HeroPage() {
             <div className="gap-16 items-center pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
 
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
-                <h2 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
+              
+                <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
 
                 Adhunik Powertech: Over 19+ Years of 
                 <br />HVAC Excellence
-                </h2>
+
+                </h1>
 
 
                 <p className="mb-2">
@@ -700,7 +702,7 @@ export default function HeroPage() {
                     {
                       icon: '/cad.webp',
                       title: 'Consultancy & Design',
-                      description: 'Adhunik PowerTech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
+                      description: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
                       icon: '/de.webp',

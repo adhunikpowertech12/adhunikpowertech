@@ -18,11 +18,13 @@ export default function AirWasher() {
       content:
         " An air washer, also known as an evaporative air cooler, works by using the principle of evaporative cooling to lower the temperature of the air. In this process, hot outdoor air is drawn into the unit and passed through water-saturated pads. As the air passes through these pads, it loses heat and evaporates the water, resulting in cooler, more comfortable air. The cooled air is then circulated throughout the building by a blower and duct system.",
     },
+
     {
       title: "What are the benefits of using an air washer? ",
       content:
         " Air washers offer several benefits, including cooling large industrial spaces, improving air quality by filtering out dust, pollen, and allergens, and maintaining humidity levels, creating a more comfortable and breathable environment, especially in dry climates. ",
     },
+
     {
       title: "What are the different types of air washers available? ",
       content:
@@ -116,6 +118,7 @@ export default function AirWasher() {
     },
   ], []);
 
+
   // State for active accordion index
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -128,6 +131,8 @@ export default function AirWasher() {
       refs.current = refs.current.slice(0, accordionData.length);
     }
   }, [accordionData]);
+
+
 
   const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -152,6 +157,7 @@ export default function AirWasher() {
 
   ];
 
+
   const column2 = [
     "Workshops",
     "  Spot Cooling",
@@ -162,6 +168,8 @@ export default function AirWasher() {
 
   ];
 
+
+  
   const logos = [
     { src: '/awi/6.webp', alt: 'Asahi-India-Glass-Ltd' },
     { src: '/awi/7.webp', alt: 'Asahi-India-Glass-Ltd' },
@@ -181,42 +189,50 @@ export default function AirWasher() {
       img: '/100.png',
       items: ['Maintains excellent indoor air quality', 'Healthy conditions for the human body',]
     },
+
     {
       heading: <>Up to 80% less power consumption <br /> compared to air-conditioners</>,
       img: '/102.png',
       items: ['Low operating cost ', 'Low carbon footprint',]
     },
+
     {
       heading: 'High level of filtration',
       img: '/104.png',
       items: ['Supplies clean air', 'Keeps indoor areas clean',]
     },
+
     {
       heading: 'Positive pressure system',
       img: '/106.png',
       items: ['Prevents ingress of dust', ' Drives out harmful contaminants',]
     },
+
     {
       heading: <>Non refrigerant and compressor <br /> based technology
       </>,
       img: '/108.png',
       items: ['No harmful gases used', 'Sustainable cooling solution',]
     },
+
     {
       heading: 'Robust and compact design',
       img: '/110.png',
       items: ['The body of the machine doesn’t get damaged when exposed to harsh weather conditions ', 'Long product life',]
     },
+
     {
       heading: 'Up to 5°C more cooling compared to direct evaporative air-coolers ',
       img: '/112.png',
       items: ['Easily maintains temperatures below 30°C ', 'Ideal temperature conditions for both man and machine',]
     },
+
     {
       heading: 'Up to 60% less moisture addition in air compared to direct evaporative air-coolers',
       img: '/114.png',
       items: ['Supplies drier air compared to direct evaporative air-coolers ', ' Can be used even in the monsoon season',]
     },
+
     {
       heading: '3 modes of operation – IDEC, IEC and ventilation ',
       img: '/100.png',
@@ -245,7 +261,9 @@ export default function AirWasher() {
             <div className=" h-auto  flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
               <div className="md:w-[40%] w-auto  rounded-xl ">
+
                 <div className="flex items-center justify-center h-full">
+
                   <div>
                     <div className="">
                       <div className="w-auto">
