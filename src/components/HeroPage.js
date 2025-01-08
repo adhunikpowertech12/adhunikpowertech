@@ -201,35 +201,44 @@ export default function HeroPage() {
   };
 
   const images4 = [
+
     {
       src: 'https://media.istockphoto.com/id/922401366/photo/intertwining-highway.jpg?s=612x612&w=0&k=20&c=8qy1aGJ6hwgfqiyJXy8inHqN__LZE96zuukcAIyAL1w=',
       alt: 'Photo by Minh Pham',
       label: 'India',
+
     },
+
     {
       src: 'https://images.unsplash.com/photo-1511215579272-6192432f83bc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5lcGFsfGVufDB8MHwwfHx8MA%3D%3D',
       alt: 'Photo by Magicle',
       label: 'Nepal',
+
     },
+
     {
       src: 'https://images.unsplash.com/photo-1668511762738-5230782e587d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Photo by Martin Sanchez',
       label: 'Bangladesh',
+
     },
     {
       src: 'https://media.istockphoto.com/id/517465184/photo/famous-buildings-in-abu-dhabi.jpg?s=612x612&w=0&k=20&c=br1TLSa-fKyJnBRWjk0WXjsCvHgPhNZRYTN1VV7gQmg=',
       alt: 'Photo by Lorenzo Herrera',
       label: 'UAE',
+
     },
     {
       src: 'https://images.unsplash.com/photo-1585226256693-d34c04276432?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFNhdWRpJTIwQXJhYnxlbnwwfHwwfHx8MA%3D%3D',
       alt: 'Photo by Lorenzo Herrera',
       label: 'Saudi Arab',
+
     },
     {
       src: 'https://images.unsplash.com/photo-1709477085938-345643da9fe2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
       alt: 'Photo by Martin Sanchez',
       label: 'Iraq',
+
     },
 
   ];
@@ -240,7 +249,8 @@ export default function HeroPage() {
     { src: '/GEM.png', alt: 'pics', width: 220, height: 220 },
     { src: '/RL.png', alt: 'pics', width: 200, height: 100 }, // Custom size
     { src: '/l3.jpg', alt: 'pics', width: 120, height: 120 },
-    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 }
+    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 },
+
   ];
 
   const images7 = [
@@ -249,7 +259,8 @@ export default function HeroPage() {
     { src: '/GEM.png', alt: 'pics', width: 50, height: 50 },
     { src: '/RL.png', alt: 'pics', width: 50, height: 50 },
     { src: '/l3.jpg', alt: 'pics', width: 120, height: 50 },
-    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 }
+    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 },
+
   ];
   
 
@@ -269,15 +280,17 @@ export default function HeroPage() {
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
       link: "/air-washer",
       linkText: "Read more",
+
     },
     {
       src: "/DCI.png",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
-      description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space. ",
+      description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
       link: "/ducted-air-cooler",
       linkText: "Read more",
     },
+    
     {
       src: "efss.png",
       alt: "Ventlilation Exhaust Fan",

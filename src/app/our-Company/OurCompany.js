@@ -2,6 +2,16 @@
 
 
 import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+
+
+
+// import required modules
+import { EffectCards } from 'swiper/modules';
 
 
 export default function OurCompany() {
@@ -443,7 +453,7 @@ export default function OurCompany() {
     <>
          <div className="container-fluid">
         <div className="row">
-          <div id="myslide" className="h-screen w-full overflow-hidden relative">
+          <div id="myslide" className="   hidden lg:block  h-screen w-full overflow-hidden relative">
             {/* Slide Pages */}
             <div
               className="h-full w-full transition-transform ease-in-out duration-500"
@@ -504,6 +514,111 @@ export default function OurCompany() {
               ))}
             </div>
           </div>
+
+        
+        </div>
+
+        <div className="row h-screen flex mt-10  w-full justify-center items-center">
+
+        <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+      >
+
+
+        <SwiperSlide>
+
+
+        <div className="text-center 5">
+
+<div className="row">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >About Us</p>
+    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
+    <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
+      Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
+      Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
+
+    </p>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+        </SwiperSlide>
+
+        <SwiperSlide>
+
+        <div className="text-center">
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2005  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
+
+    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
+      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+      
+
+        </SwiperSlide>
+
+        <SwiperSlide>
+    
+
+
+        <div className="text-center">
+
+
+
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2010  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing</p>
+
+    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
+      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+      
+
+        </SwiperSlide>
+
+
+     
+
+
+      
+      
+      </Swiper>
         </div>
       </div>
     </>

@@ -506,7 +506,7 @@ export default function AirWasher() {
                     <div className=' py-3   text-left ' >
                       <IoMdCheckmarkCircleOutline className=' h-10 w-10 p-1' /> <div>
                         <span className='text-2xl' > Double stage  </span> <br />
-                        <span className=' italic font-sans font-thin '>  (Indirect Evaporative Coolling System) </span>
+                        <span className=' italic font-sans font-thin '>  (Indirect Evaporative Cooling System) </span>
                       </div>
 
                     </div>
