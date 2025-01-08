@@ -518,7 +518,7 @@ export default function OurCompany() {
         
         </div>
 
-        <div className="row h-screen flex mt-10  w-full justify-center items-center">
+        <div className="  block lg:hidden row h-screen flex mt-10  w-full justify-center items-center">
 
         <Swiper
         effect={'cards'}
@@ -620,6 +620,8 @@ export default function OurCompany() {
       
       </Swiper>
         </div>
+
+
       </div>
     </>
   )
