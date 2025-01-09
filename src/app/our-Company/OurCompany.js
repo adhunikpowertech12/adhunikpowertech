@@ -279,6 +279,8 @@ export default function OurCompany() {
       ),
     },
 
+
+
     {
       id: 5,
       year: '2017',
@@ -518,7 +520,7 @@ export default function OurCompany() {
         
         </div>
 
-        <div className="  block lg:hidden row h-screen flex mt-10  w-full justify-center items-center">
+        <div className="  block lg:hidden row h-screen flex mt-10  w-full overflow-hidden justify-center items-center">
 
         <Swiper
         effect={'cards'}
@@ -597,6 +599,102 @@ export default function OurCompany() {
 
     <div className="text-[16px]  text-justify font-sans font-thin pt-7">
       <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+      
+
+        </SwiperSlide>
+
+        <SwiperSlide>
+    
+        <div className="text-center">
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2014  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+    <span className=" font-semibold font-sans">
+    Product Launch:</span> Introduced Panel Air
+    Conditioner Manufacturing
+    </p>
+
+    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
+    milestone in our growth. </blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+      
+
+        </SwiperSlide>
+
+
+     
+        <SwiperSlide>
+    
+      
+
+
+        <div className="text-center">
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2016  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+    <span className=" font-semibold font-sans"> Manufacturing Milestone:</span> Established a dedicated manufacturing plant 
+    </p>
+
+    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+      
+
+        </SwiperSlide>
+
+
+     
+        <SwiperSlide>
+    
+        <div className="text-center">
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2017  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+    <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
+
+    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
     </div>
 
 

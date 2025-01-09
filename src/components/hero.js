@@ -16,12 +16,14 @@ export default function Hero() {
 
 
 
-
   return (
+
     <>
 
 <HeroPage/>
 
     </>
+
   )
+  
 }

@@ -12,7 +12,7 @@ export const metadata = {
 
   title: {
     default: " Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India ",
-    template: " %s - Hvac Under One Roof "
+    template: " %s "
   },
   description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs",
  
