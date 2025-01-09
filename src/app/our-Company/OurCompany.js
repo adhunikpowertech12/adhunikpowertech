@@ -712,6 +712,34 @@ export default function OurCompany() {
 
 
      
+        <SwiperSlide>
+    
+        <div className="text-center">
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2017  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+    <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
+
+    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+        </SwiperSlide>
+
+
+     
 
 
       
