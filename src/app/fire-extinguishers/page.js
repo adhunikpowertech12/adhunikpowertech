@@ -1,21 +1,9 @@
 "use client";
 
 
-export default function DuctedAirCooler() {
+export default function FireEx() {
 
 
-
-
-
-  
-
- 
-
-
-  
-
-
- 
 
 
   return (
@@ -914,15 +902,19 @@ effectively stopping the fire's spread.
               <button
                 className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
                 onClick={() => {
-    window.location.href = 'tel:+1234567890'; // Replace with the actual phone number
+    window.location.href = 'tel:+919870284753'; // Replace with the actual phone number
   }}
               >
+
                Call Us Now
+
               </button>
 
 
 
             </div>
+
+            
           </div>
 
 

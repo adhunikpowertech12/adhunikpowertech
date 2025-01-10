@@ -16,6 +16,7 @@ export default function DuctedAirCooler() {
       <div className="row mt-32 font-sans">
 
 
+
         <div className="row">
           <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire Alarm System </p>
 
@@ -641,7 +642,42 @@ systems is crucial for effective fire protection. </p>
 
 </div>
 
+<div className="row flex-col flex justify-center items-center py-10">
+
+
+<div className="flex items-center justify-center  md:py-10  ">
+
+  <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
+  <span className="text-transparent  bg-clip-text bg-gradient-to-r to-[#f7b733] from-[#fc4a1a]">    Choosing the Right Fire Alarm System</span> 
+  </p>
+</div>
+
+
+<div className="container  text-center py-5 md:px-10 px-3">
+  <p> The appropriate type of Fire Alarm System depends on the specific hazards present in your home, office, or workplace. For example, if you frequently cook with oils, a Class K extinguisher is essential. Consult with a fire safety expert to determine the best options for your needs.
+  </p>
+
+  <div className="show_m mt-5">
+    <button
+      className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+      onClick={() => {
+window.location.href = 'tel:+919870284753'; // Replace with the actual phone number
+}}
+    >
+
+     Call Us Now
+
+    </button>
+
+
+
+  </div>
+
   
+</div>
+
+
+</div>
 
       </div>
 
