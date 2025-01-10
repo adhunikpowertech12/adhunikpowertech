@@ -4,6 +4,9 @@
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import { Cloudinary } from "@cloudinary/url-gen";
+import { AdvancedImage, AdvancedVideo } from '@cloudinary/react';
+
 
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
@@ -16,6 +19,8 @@ import Popup from '@/app/popup/page';
 export default function HeroPage() {
 
       
+  const cld = new Cloudinary({ cloud: { cloudName: 'demvtn6lc' } });
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -41,6 +46,7 @@ export default function HeroPage() {
 
  
   const images3 = [
+
     {
       original: "/AWI.webp",
       thumbnail: "/AWI.webp",
@@ -92,17 +98,21 @@ export default function HeroPage() {
   
 
   const slides = [
+
     {
       id: 1,
-      video: 'https://videos.pexels.com/video-files/28201695/12326029_1920_1080_30fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1_dh1m9a.mp4',
       title: 'WELCOME TO ADHUNIK POWERTECH',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
-    },
+      descriptivetext: "We are technically very competent to design any kind of project where conditions are different from nominal."
+
+    }
+    ,
     
     {
       id: 2,
-      video: 'https://videos.pexels.com/video-files/4687091/4687091-uhd_2560_1440_24fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492912/v2_dm9290.mp4',
       title: 'Air Cooling & Air Conditioning System',
       description: <>
         Installation, Service, Repair &amp; Maintenance
@@ -110,30 +120,37 @@ export default function HeroPage() {
         24x7 Service Available
       </>,
       buttonText: 'CALL US NOW',
+      descriptivetext: "Air Cooling & Air Conditioning System"
+
     },
 
     {
       id: 3,
-      video: 'https://videos.pexels.com/video-files/18354200/18354200-uhd_2560_1440_30fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492790/v3_pdbkfe.mp4',
       title: 'Add Peace Of Mind',
       description: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
+      descriptivetext: "We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries."
+      
     },
 
     {
       id: 4,
-      video: 'https://videos.pexels.com/video-files/20538711/20538711-uhd_2560_1440_30fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492733/v4_w6zrtj.mp4',
       title: 'Commercial, Residential & Office Space',
       description: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
+      descriptivetext: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment."
+      
     },
 
     {
       id: 5,
-      video: 'https://videos.pexels.com/video-files/4726169/4726169-hd_1920_1080_30fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492601/v5_i1aosw.mp4',
       title: 'Hospital, Pharma & Food Industry',
       description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
+       descriptivetext: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions."
 
     },
 
@@ -203,11 +220,14 @@ export default function HeroPage() {
   const images4 = [
 
     {
+
       src: 'https://media.istockphoto.com/id/922401366/photo/intertwining-highway.jpg?s=612x612&w=0&k=20&c=8qy1aGJ6hwgfqiyJXy8inHqN__LZE96zuukcAIyAL1w=',
       alt: 'Photo by Minh Pham',
       label: 'India',
 
-    },
+
+    }
+    ,
 
     {
       src: 'https://images.unsplash.com/photo-1511215579272-6192432f83bc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5lcGFsfGVufDB8MHwwfHx8MA%3D%3D',
@@ -369,10 +389,15 @@ export default function HeroPage() {
                 muted
                 className="w-full h-full object-cover"
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
+
               >
                 <source src={slide.video} type="video/mp4" />
-                Your browser does not support the video tag.
+
+               {slide.descriptivetext}
+
               </video>
+
+              
 
 
               <div className="flex items-center h-full bg-black bg-opacity-40">
