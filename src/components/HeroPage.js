@@ -94,6 +94,8 @@ export default function HeroPage() {
     { src: '/projects/8.png', alt: 'Bajaj', width: 176, height: 112  },
     { src: '/projects/9.jpeg', alt: 'Bajaj', width: 176, height: 112  },
     { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/11.png', alt: 'Bajaj', width: 176, height: 112  },
   ];
   
 
@@ -222,7 +224,7 @@ export default function HeroPage() {
     {
 
       src: 'https://media.istockphoto.com/id/922401366/photo/intertwining-highway.jpg?s=612x612&w=0&k=20&c=8qy1aGJ6hwgfqiyJXy8inHqN__LZE96zuukcAIyAL1w=',
-      alt: 'Photo by Minh Pham',
+      alt: 'India',
       label: 'India',
 
 
@@ -231,32 +233,32 @@ export default function HeroPage() {
 
     {
       src: 'https://images.unsplash.com/photo-1511215579272-6192432f83bc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5lcGFsfGVufDB8MHwwfHx8MA%3D%3D',
-      alt: 'Photo by Magicle',
+      alt: 'Nepal',
       label: 'Nepal',
 
     },
 
     {
       src: 'https://images.unsplash.com/photo-1668511762738-5230782e587d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'Photo by Martin Sanchez',
+      alt: 'Bangladesh',
       label: 'Bangladesh',
 
     },
     {
       src: 'https://media.istockphoto.com/id/517465184/photo/famous-buildings-in-abu-dhabi.jpg?s=612x612&w=0&k=20&c=br1TLSa-fKyJnBRWjk0WXjsCvHgPhNZRYTN1VV7gQmg=',
-      alt: 'Photo by Lorenzo Herrera',
+      alt: 'UAE',
       label: 'UAE',
 
     },
     {
       src: 'https://images.unsplash.com/photo-1585226256693-d34c04276432?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFNhdWRpJTIwQXJhYnxlbnwwfHwwfHx8MA%3D%3D',
-      alt: 'Photo by Lorenzo Herrera',
+      alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
     },
     {
       src: 'https://images.unsplash.com/photo-1709477085938-345643da9fe2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
-      alt: 'Photo by Martin Sanchez',
+      alt: 'Iraq',
       label: 'Iraq',
 
     },
@@ -807,9 +809,9 @@ export default function HeroPage() {
 
 
 
-              <div className="inline-flex items-center justify-center w-full mx-auto my-4 mt-8">
+              <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
                 <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
-                <span className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-center font-sans">Member of</span>
+                <span className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</span>
               </div>
 
         <div className="row hidden md:block">
@@ -833,47 +835,7 @@ export default function HeroPage() {
         </div>
 
 
-{/* 
-            <div className="row">
-          <div className="relative w-full max-w-xl mx-auto block md:hidden">
-            <div className="overflow-hidden">
-              <div
-                className="flex transition-transform duration-700 ease-in-out"
-                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-              >
-                {images.map((image, index) => (
-                  <div
-                    key={index}
-                    className="min-w-full"
-                    style={{ height: "400px" }}
-                  >
-                    <img
-                      src={image}
-                      alt={`Slide ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
 
-         
-            <button
-              onClick={handlePrev}
-              className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-2  rounded-lg  "
-            >
-              &#8249;
-            </button>
-
-           
-            <button
-              onClick={handleNext}
-              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-2  rounded-lg"
-            >
-              &#8250;
-            </button>
-          </div>
-        </div> */}
 
         <div className="row">
   <div className="relative w-full max-w-xl mx-auto block md:hidden">
@@ -885,13 +847,13 @@ export default function HeroPage() {
         {images7.map((image, index) => (
           <div
             key={index}
-            className="min-w-full"
-            style={{ height: "280px", width:"150px", padding:"30px" }}
+            className="min-w-full flex justify-center items-center"
+           
           >
             <img
               src={image.src}
               alt={image.alt}
-              className="w-full h-full object-fill  "
+              className="w-auto h-auto object-contain  "
             />
           </div>
         ))}
@@ -922,7 +884,7 @@ export default function HeroPage() {
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <span className=" absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans  " > Proudly We Serve </span>
+            <span className=" absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans  " > Proudly We Serve </span>
 
           </div>
 

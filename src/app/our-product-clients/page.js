@@ -37,7 +37,7 @@ export default function page() {
     { src: "/productClients/30.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/31.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/32.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
-    { src: "/productClients/33.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
+    { src: "/projects/10.png", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/34.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/35.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/36.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },

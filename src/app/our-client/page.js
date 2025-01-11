@@ -116,7 +116,7 @@ export default function page() {
   
    
     {
-      src: "/projects/clients/22.webp",
+      src: "/projects/11.png",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
