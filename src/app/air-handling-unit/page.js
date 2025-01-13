@@ -12,10 +12,6 @@ export const metadata = {
 export default function AirHandlingUnit() {
 
 
-
- 
-
-
   return (
 
 
