@@ -27,6 +27,9 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
+
+  
+
   return (
     
     <html lang="en">
@@ -46,6 +49,34 @@ export default function RootLayout({ children }) {
   gtag('config', 'G-5MBSC4RFX3');`}
 
       </Script>
+
+     <Script id="disable-actions">
+        {`
+          if (typeof window !== 'undefined') {
+            const handleContextMenu = (e) => {
+              e.preventDefault();
+              alert('Content is protected');
+            };
+
+            const handleKeyDown = (e) => {
+              if ((e.ctrlKey && e.key === 'u') || (e.ctrlKey && e.key === 'p')) {
+                e.preventDefault();
+                alert('Content is protected');
+              }
+            };
+
+            document.addEventListener('contextmenu', handleContextMenu);
+            document.addEventListener('keydown', handleKeyDown);
+
+            // Cleanup event listeners on window unload
+            window.addEventListener('beforeunload', () => {
+              document.removeEventListener('contextmenu', handleContextMenu);
+              document.removeEventListener('keydown', handleKeyDown);
+            });
+          }
+        `}
+      </Script>
+
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
