@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
 
       </Script>
 
-      <Script id="disable-actions">
+      {/* <Script id="disable-actions">
   {`
     if (typeof window !== 'undefined') {
       const handleContextMenu = (e) => {
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
       });
     }
   `}
-</Script>
+</Script> */}
 
 
         <link
