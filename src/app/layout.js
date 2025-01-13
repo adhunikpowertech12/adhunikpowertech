@@ -50,32 +50,40 @@ export default function RootLayout({ children }) {
 
       </Script>
 
-     <Script id="disable-actions">
-        {`
-          if (typeof window !== 'undefined') {
-            const handleContextMenu = (e) => {
-              e.preventDefault();
-              alert('Content is protected');
-            };
+      <Script id="disable-actions">
+  {`
+    if (typeof window !== 'undefined') {
+      const handleContextMenu = (e) => {
+        e.preventDefault();
+        alert('Content is protected');
+      };
 
-            const handleKeyDown = (e) => {
-              if ((e.ctrlKey && e.key === 'u') || (e.ctrlKey && e.key === 'p')) {
-                e.preventDefault();
-                alert('Content is protected');
-              }
-            };
+      const handleKeyDown = (e) => {
+        // Disable Ctrl + U (view source)
+        if ((e.ctrlKey && e.key === 'u') || 
+            // Disable Ctrl + P (print)
+            (e.ctrlKey && e.key === 'p') ||
+            // Disable Ctrl + C (copy)
+            (e.ctrlKey && e.key === 'c') || 
+            // Disable Print Screen
+            (e.key === 'PrintScreen')) {
+          e.preventDefault();
+          alert('Content is protected');
+        }
+      };
 
-            document.addEventListener('contextmenu', handleContextMenu);
-            document.addEventListener('keydown', handleKeyDown);
+      document.addEventListener('contextmenu', handleContextMenu);
+      document.addEventListener('keydown', handleKeyDown);
 
-            // Cleanup event listeners on window unload
-            window.addEventListener('beforeunload', () => {
-              document.removeEventListener('contextmenu', handleContextMenu);
-              document.removeEventListener('keydown', handleKeyDown);
-            });
-          }
-        `}
-      </Script>
+      // Cleanup event listeners on window unload
+      window.addEventListener('beforeunload', () => {
+        document.removeEventListener('contextmenu', handleContextMenu);
+        document.removeEventListener('keydown', handleKeyDown);
+      });
+    }
+  `}
+</Script>
+
 
         <link
           rel="stylesheet"
