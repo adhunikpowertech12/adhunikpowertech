@@ -93,6 +93,9 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+
+<link rel="icon" href="/favicon.ico" sizes="any" />
+
       </head>
       <body className={inter.className}>
       <Analytics/>
