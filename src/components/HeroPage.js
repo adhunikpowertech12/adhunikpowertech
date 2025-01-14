@@ -98,6 +98,19 @@ export default function HeroPage() {
     { src: '/projects/11.png', alt: 'Bajaj', width: 176, height: 112  },
   ];
   
+  const handleButtonClick = (buttonText) => {
+    console.log('Button clicked:', buttonText); // Log the button text
+    if (buttonText === 'Request A Quote') {
+      window.location.href = '/contact-Us'; // Redirect to Contact Us page
+    } 
+    else {
+      console.log('Please chordo');
+      window.location.href = 'tel:+8287885885'; // Initiate a phone call
+    }
+  };
+  
+  
+  
 
   const slides = [
 
@@ -408,17 +421,18 @@ export default function HeroPage() {
                   <p className="   text-3xl md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
                   <p className=' text-[14px]  md:w-[70%]'>{slide.description}</p>
                   <button
-                    className=" cursor-pointer z-10 relative mt-4 text-sm px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
-                    style={{
-                      background: `
-      radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%),
-      linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%)
-    `,
-                      backgroundBlendMode: 'multiply' // You can adjust this if needed
-                    }}
-                  >
-                    {slide.buttonText}
-                  </button>
+                className="cursor-pointer z-10 relative mt-4 text-sm px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
+                style={{
+                  background: `
+                    radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%),
+                    linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%)
+                  `,
+                  backgroundBlendMode: 'multiply',
+                }}
+                onClick={() => handleButtonClick(slide.buttonText)}
+              >
+                {slide.buttonText}
+              </button>
                 </div>
               </div>
 

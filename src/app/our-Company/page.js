@@ -2,9 +2,9 @@ import OurCompany from "./OurCompany";
 
 export const metadata = {
 
-  title: "About Us",
+  title: "Adhunik Powertech: About Us | HVAC & Manufacturing Experts in Gurugram",
 
-  description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs",
+  description: "Over 19+ Years of HVAC & Manufacturing Excellence in Gurugram. Discover our journey and experience innovative solutions for your comfort & efficiency. Contact us for a free quote.",
   
   
   
