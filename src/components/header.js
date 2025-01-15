@@ -356,10 +356,11 @@ function Navbar() {
 
   return (
 
-    <nav className={`fixed  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black text-white"
+    <nav className={` fixed    h-[7.5rem]  z-20 w-full top-0 transition-all duration-300 ${isScrolled ? " bg-gray-100 text-black shadow-md" : " bg-gradient-to-b from-black text-white"
       }`}
     >
       <div className=" md:mx-2 md:px-4">
+
         <div className="flex lg:flex-row items-center xl:flex-row justify-between p-4" >
 
           <div className="flex space-x-4">
