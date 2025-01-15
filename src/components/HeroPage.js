@@ -15,7 +15,8 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
 import Popup from '@/app/popup/page';
-
+import { CldImage } from 'next-cloudinary';
+ 
 export default function HeroPage() {
 
       
@@ -48,37 +49,37 @@ export default function HeroPage() {
   const images3 = [
 
     {
-      original: "/AWI.webp",
-      thumbnail: "/AWI.webp",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
     },
     {
-      original: "/DCI.webp",
-      thumbnail: "DCI.webp",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923982/DCI_nnkwzk.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923982/DCI_nnkwzk.webp",
     },
     {
-      original: "/3.jpg",
-      thumbnail: "3.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
     },
     {
-      original: "/1.jpg",
-      thumbnail: "1.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
     },
     {
-      original: "/2.jpg",
-      thumbnail: "2.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
     },
    
     {
-      original: "/7.jpg",
-      thumbnail: "7.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
     },
     {
-      original: "/8.jpg",
-      thumbnail: "8.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
     },
     {
-      original: "/9.jpg",
-      thumbnail: "9.jpg",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
     },
   ];
 
@@ -236,7 +237,7 @@ export default function HeroPage() {
 
     {
 
-      src: 'https://media.istockphoto.com/id/922401366/photo/intertwining-highway.jpg?s=612x612&w=0&k=20&c=8qy1aGJ6hwgfqiyJXy8inHqN__LZE96zuukcAIyAL1w=',
+      src: '1_sa8yfj',
       alt: 'India',
       label: 'India',
 
@@ -245,32 +246,32 @@ export default function HeroPage() {
     ,
 
     {
-      src: 'https://images.unsplash.com/photo-1511215579272-6192432f83bc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5lcGFsfGVufDB8MHwwfHx8MA%3D%3D',
+      src: 'nepal_k1ewct',
       alt: 'Nepal',
       label: 'Nepal',
 
     },
 
     {
-      src: 'https://images.unsplash.com/photo-1668511762738-5230782e587d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      src: 'bangladesh_wjfsuo',
       alt: 'Bangladesh',
       label: 'Bangladesh',
 
     },
     {
-      src: 'https://media.istockphoto.com/id/517465184/photo/famous-buildings-in-abu-dhabi.jpg?s=612x612&w=0&k=20&c=br1TLSa-fKyJnBRWjk0WXjsCvHgPhNZRYTN1VV7gQmg=',
+      src: 'uae_zoxpfo',
       alt: 'UAE',
       label: 'UAE',
 
     },
     {
-      src: 'https://images.unsplash.com/photo-1585226256693-d34c04276432?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fFNhdWRpJTIwQXJhYnxlbnwwfHwwfHx8MA%3D%3D',
+      src: 'saudi_lvgcvu',
       alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
     },
     {
-      src: 'https://images.unsplash.com/photo-1709477085938-345643da9fe2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
+      src: 'iraq_y7s6ng',
       alt: 'Iraq',
       label: 'Iraq',
 
@@ -309,7 +310,7 @@ export default function HeroPage() {
 
   const products = [
     {
-      src: "/AWI.png",
+      src: "awb_y87hai",
       alt: "Air Washer",
       title: "Air Washer",
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
@@ -318,7 +319,7 @@ export default function HeroPage() {
 
     },
     {
-      src: "/DCI.png",
+      src: "DD_oxeclc",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
@@ -327,7 +328,7 @@ export default function HeroPage() {
     },
     
     {
-      src: "efss.png",
+      src: "efss_r3q8fb",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
@@ -339,7 +340,7 @@ export default function HeroPage() {
  
   const products2 = [
     {
-      src: "panelac.png",
+      src: "pab_p1r8bt",
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
       description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
@@ -347,7 +348,7 @@ export default function HeroPage() {
       linkText: "Read more",
     },
     {
-      src: "OC.png",
+      src: "OC_vvhkto",
       alt: "OIL AND COOLANT CHILLER UNIT",
       title: "OIL AND COOLANT CHILLER ",
       description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
@@ -355,7 +356,7 @@ export default function HeroPage() {
       linkText: "Read more",
     },
     {
-      src: "as.png",
+      src: "Air_Shower2_wfkoyp",
       alt: "AIR SHOWER",
       title: "AIR SHOWER",
       description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
@@ -363,7 +364,7 @@ export default function HeroPage() {
       linkText: "Read more",
     },
     {
-      src: "AHU.png",
+      src: "AHU1_lab7sl",
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
@@ -460,7 +461,16 @@ export default function HeroPage() {
 
 
           <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
-            <img src='/nw.png' className=' h-full md:w-[70%]  ' alt='pic' />
+          <CldImage
+  width="960"
+  height="600"
+  src="nw_pa2sza"
+  className="h-full md:w-[70%]"
+  alt="pic"
+  fetchPriority="high"
+  decoding="async"
+  effect="blur"
+/>
             
           </p>
 
@@ -520,14 +530,18 @@ export default function HeroPage() {
               </div>
 
               <div className="grid grid-cols-2 gap-4 mt-8">
-                <img
+                <CldImage
                   className="w-full h-[90%] object-center object-cover rounded-lg"
-                  src="https://images.unsplash.com/photo-1466803136990-7c174b34ff32?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="landingpage_esq6qm"
                   alt="office content 1"
+                 width="600"
+  height="960"
                 />
-                <img
+                <CldImage
                   className="mt-4 w-full lg:mt-10 rounded-lg"
-                  src="https://plus.unsplash.com/premium_photo-1681074963749-661bc5579d6e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D"
+                width="600"
+  height="960"
+                 src="lan2_k80ubh"
                   alt="office content 2"
                 />
               </div>
@@ -557,14 +571,17 @@ export default function HeroPage() {
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                  <img
-                    className="  h-96 w-full object-center object-contain"
-                    src={item.src}
-                    fetchPriority="high"
-                    decoding="async"
-                    effect="blur"
-                    alt={item.alt}
-                  />
+                <CldImage
+  width="960"
+  height="600"
+  src={item.src} // Assuming item.src contains the Cloudinary public ID
+  sizes="100vw"
+  alt={item.alt} // Assuming item.alt contains the alt description
+  fetchPriority="high"
+  decoding="async"
+  className="h-96 w-full object-center object-contain"
+  effect="blur"
+/>
                 </div>
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -598,14 +615,18 @@ export default function HeroPage() {
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                  <img
-                    className="  h-96 w-full object-center object-fill"
-                    src={item.src}
-                    fetchPriority="high"
-                    decoding="async"
-                    effect="blur"
-                    alt={item.alt}
-                  />
+                
+<CldImage
+  width="960"
+  height="600"
+  src={item.src} // Assuming item.src contains the Cloudinary public ID
+  sizes="100vw"
+  alt={item.alt} // Assuming item.alt contains the alt description
+  fetchPriority="high"
+  decoding="async"
+  className="h-96 w-full object-center object-fill"
+  effect="blur"
+/>
                 </div>
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -669,8 +690,10 @@ export default function HeroPage() {
                         href="#"
                         className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg ${index === 0 || index === 3 || index == 4 ? 'md:col-span-2' : ''} md:h-44`}
                       >
-                        <img
-                          src={image.src}
+                        <CldImage
+                        src={image.src}
+                           width="800"
+  height="600"
                           alt={image.alt}
                           loading="lazy"
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -754,17 +777,17 @@ export default function HeroPage() {
                 <div className="flex flex-wrap -mx-4 text-center md:text-left">
                   {[
                     {
-                      icon: '/cad.webp',
+                      icon: 'cad_zeyqux',
                       title: 'Consultancy & Design',
                       description: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
-                      icon: '/de.webp',
+                      icon: 'de_nvmycd',
                       title: 'Detailed Engineering',
                       description: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
-                      icon: 'di.png',
+                      icon: 'Project_Execution_iogkqo',
                       title: 'Project Execution',
                       description: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
                     },
@@ -776,7 +799,16 @@ export default function HeroPage() {
                       >
                         <div className="flex h-full flex-col items-start">
                           <div className="flex w-full mb-12 items-center justify-between">
-                            <img className="block  w-full rounded-lg h-40  object-cover object-center" src={service.icon} alt="services" />
+                          
+<CldImage
+  width="960"
+  height="400"
+  src={service.icon} // Assuming service.icon contains the Cloudinary public ID
+  className="block w-full rounded-lg h-52 object-cover object-center"
+  alt="services"
+  fetchPriority="high"
+  decoding="async"
+/>
 
                           </div>
                           <div className="mt-auto ">
