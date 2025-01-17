@@ -380,12 +380,52 @@ export default function HeroPage() {
     // Add more items if needed
   ];
 
+  const [showPopup, setShowPopup] = useState(true);
+
+  const handleClosePopup = () => {
+
+    setShowPopup(false);
+
+  };
+
+  // Automatically close popup after 5 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(false);
+    }, 10000); // 5 seconds
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
+
 
   return (
     <>
 
 
 <Popup />
+
+
+<div>
+      {showPopup && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="relative bg-yellow-400 p-2 rounded-lg shadow-lg max-w-md w-full">
+            <button 
+              onClick={handleClosePopup} 
+              className="absolute h-14 w-14 text-white  hover:text-black  top-6  right-6  rounded-full  hover:bg-gray-200"
+            >
+              ✖
+            </button>
+            <img 
+              src="https://res.cloudinary.com/demvtn6lc/image/upload/v1737114623/CCM_Award_Adhunik_Powertech_hfvmr4.png" // Replace with your image URL
+              alt="Popup Image" 
+              className="w-full rounded-md"
+            />
+          </div>
+        </div>
+      )}
+    
+    </div>
+
 
       <div className="row   h-auto w-full relative font-sans" >
 
