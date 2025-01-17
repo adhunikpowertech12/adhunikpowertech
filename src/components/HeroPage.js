@@ -403,6 +403,8 @@ export default function HeroPage() {
                 autoPlay
                 loop
                 muted
+                poster="https://res.cloudinary.com/demvtn6lc/image/upload/v1736923987/slideabout_etmcii.jpg"
+             
                 type="video/mp4"
                 className="w-full h-full object-cover"
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
