@@ -261,7 +261,7 @@ function Footer() {
 
 
       <div className="bg-black/5 p-6 text-center">
-        <Link className="font-semibold " href="/"> © Copyright 2024 Adhunik Powertech Private Ltd. All Rights Reserved.</Link>
+        <Link className="font-semibold " href="/"> © Copyright 2025 Adhunik Powertech Private Ltd. All Rights Reserved.</Link>
       </div>
     </footer>
   );

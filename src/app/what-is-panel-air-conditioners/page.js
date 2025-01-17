@@ -3,10 +3,7 @@ import React from 'react'
 
 export default function page() {
  
-// Cooling: 
-// Distribution: 
-// Heat Extraction : 
-// Exhaust: 
+
     const features = [
         {
           title: ' Intake',
@@ -92,11 +89,7 @@ export default function page() {
         
       ];
 
-//       Key Benefits of Choosing Adhunik Powertech Panel Air Conditioners:
-// :
-// 
-// : 
-// :
+
 
     const features4 = [
         {
@@ -134,10 +127,8 @@ export default function page() {
               <div className="blog-section-content">
                 {/* Title Section */}
                 <h1 className="text-4xl text-gray-700 font-bold mb-4 text-center">
-                Panel Air Conditioners: Keep Your Industrial Equipment Cool
-                
+                What is a Panel Air Conditioner?
                 </h1>
-<p className='text-2xl font-semibold mb-3 text-gray-600 pt-5'>What is a Panel Air Conditioner?</p>
 
                 <p className="mb-4 text-gray-700 font-sans font-normal">
                   <Link
