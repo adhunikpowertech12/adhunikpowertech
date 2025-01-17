@@ -20,7 +20,7 @@ import { CldImage } from 'next-cloudinary';
 export default function HeroPage() {
 
       
-  const cld = new Cloudinary({ cloud: { cloudName: 'demvtn6lc' } });
+  // const cld = new Cloudinary({ cloud: { cloudName: 'demvtn6lc' } });
 
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -117,7 +117,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1_dh1m9a.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737092275/Home_Page_Video_pc4hhv.mp4',
       title: 'WELCOME TO ADHUNIK POWERTECH',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
@@ -413,7 +413,7 @@ export default function HeroPage() {
 
               </video>
 
-              
+
 
 
               <div className="flex items-center h-full bg-black bg-opacity-40">
