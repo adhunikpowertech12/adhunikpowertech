@@ -33,6 +33,14 @@ export default function Page() {
       link: "/what-is-panel-air-conditioners",
       img: "/pab.png",
     },
+    {
+      id: 4,
+      title: "What is HVAC?",
+      image:
+      "",
+      link: "/what-is-hvac?",
+      img: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737096838/magic-eraser20250117_jacknt.png",
+    },
   ];
 
  
@@ -60,9 +68,9 @@ export default function Page() {
                   ,
                 }}
               >
-                <div className="flex p-4 ">
+                <div className="flex p-4   justify-center items-center ">
                   <h3 className="text-4xl text-cyan-800 group-hover:text-gray-500">
-                    <span className="font-bold">{blog.title.split(" ")[0]}</span>{" "}
+                    <span className="font-bold ">{blog.title.split(" ")[0]}</span>{" "}
                     {blog.title.split(" ").slice(1).join(" ")}
                   </h3>
                 </div>
