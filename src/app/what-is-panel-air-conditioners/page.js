@@ -120,7 +120,7 @@ export default function page() {
   return (
     <>
 
-      <section className=" py-8 mt-32">
+      <section className=" py-8 mt-32 lg:px-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full">

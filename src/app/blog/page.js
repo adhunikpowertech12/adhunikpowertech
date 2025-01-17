@@ -41,6 +41,14 @@ export default function Page() {
       link: "/what-is-hvac?",
       img: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737096838/magic-eraser20250117_jacknt.png",
     },
+    {
+      id: 5,
+      title: "Top HVAC Contractor in India",
+      image:
+      "",
+      link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
+      img: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737112236/WhatsApp_Image_2025-01-17_at_16.36.23_1_io1o9z.jpg",
+    },
   ];
 
  
