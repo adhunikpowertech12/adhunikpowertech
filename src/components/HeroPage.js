@@ -403,6 +403,7 @@ export default function HeroPage() {
                 autoPlay
                 loop
                 muted
+                type="video/mp4"
                 className="w-full h-full object-cover"
                 style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
 
