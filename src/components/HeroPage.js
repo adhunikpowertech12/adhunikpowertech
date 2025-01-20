@@ -380,7 +380,7 @@ export default function HeroPage() {
     // Add more items if needed
   ];
 
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   const handleClosePopup = () => {
 
@@ -388,14 +388,24 @@ export default function HeroPage() {
 
   };
 
-  // Automatically close popup after 5 seconds
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(false);
-    }, 10000); // 5 seconds
 
-    return () => clearTimeout(timer); // Cleanup on unmount
+  useEffect(() => {
+    // Show the popup after 5 seconds
+    const showTimer = setTimeout(() => {
+      setShowPopup(true);
+    }, 5000); // 5 seconds after page load
+
+    // Hide the popup 5 seconds after it's shown
+    const hideTimer = setTimeout(() => {
+      setShowPopup(false);
+    }, 15000); // 5 seconds after popup is shown (total of 10 seconds after page load)
+
+    return () => {
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+    }; // Cleanup on unmount
   }, []);
+
 
 
   return (
@@ -406,19 +416,19 @@ export default function HeroPage() {
 
 
 <div>
-      {showPopup && (
+{showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="relative bg-yellow-400 p-2 rounded-lg shadow-lg max-w-md w-full">
+          <div className="relative bg-yellow-400 p-2 rounded-lg w-6/12 shadow-lg md:max-w-md md:w-full">
             <button 
-              onClick={handleClosePopup} 
-              className="absolute h-14 w-14 text-white  hover:text-black  top-6  right-6  rounded-full  hover:bg-gray-200"
+              onClick={() => setShowPopup(false)} 
+              className="absolute md:h-14 md:w-14 text-white hover:text-black md:top-6 right-6 rounded-full hover:bg-gray-200"
             >
               ✖
             </button>
             <img 
-              src="https://res.cloudinary.com/demvtn6lc/image/upload/v1737114623/CCM_Award_Adhunik_Powertech_hfvmr4.png" // Replace with your image URL
+              src="https://res.cloudinary.com/demvtn6lc/image/upload/v1737114623/CCM_Award_Adhunik_Powertech_hfvmr4.png"
               alt="Popup Image" 
-              className="w-full rounded-md"
+              className="  md:w-full rounded-md"
             />
           </div>
         </div>
