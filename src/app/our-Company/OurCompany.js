@@ -716,20 +716,102 @@ export default function OurCompany() {
     
         <div className="text-center">
 
+      
+
 <div className="row h-[30rem]">
   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2017  </p>
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2020  </p>
     <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
     <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
+    <span className=" font-semibold font-sans"> Market Expansion:</span>  Started Ventilation Fan Manufacturing </p>
 
     <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
     </div>
 
 
    
   </div>
+</div>
+
+
+</div>
+
+
+        </SwiperSlide>
+
+
+     
+
+
+      
+        <SwiperSlide>
+    
+        <div className="text-center">
+
+   
+
+<div className="row h-[30rem]">
+  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2024  </p>
+    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+    <span className=" font-semibold font-sans"> Service Expansion:</span>   Added Fire & Safety Services </p>
+
+
+    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
+
+
+    <span className=" font-semibold font-sans"> Rebranding:</span>
+                The company name changed to Adhunik Powertech Private Limited </p>
+
+    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited </blockquote>
+    </div>
+
+
+   
+  </div>
+</div>
+
+
+</div>
+
+
+        </SwiperSlide>
+
+
+     
+
+
+      
+        <SwiperSlide>
+    
+        <div className="text-center">
+
+   
+
+
+
+
+<div className="row ">
+
+
+
+<div className="row h-[30rem] flex flex-col justify-center items-center">
+
+ <p>
+ Growing Stronger,
+
+ </p>
+ <span> Innovating Always… </span>
+  
+
+
+</div>
+
+
+
 </div>
 
 
