@@ -28,28 +28,28 @@ export default function TopHvacContractor() {
              
 
 
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                 Ensuring your workplace remains comfortable throughout the year is essential, and choosing the right HVAC contractor plays a vital role in this. In the Indian market, where climatic conditions vary greatly and energy efficiency is crucial, selecting a dependable contractor can save you time, money, and stress. Here are 10 tips tailored for the Indian HVAC market to help you make the best choice.  </h2>
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl font-semibold mb-3">
                 1. Verify Licensing and Accreditation
                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                 In India, ensure that the contractor complies with local government regulations and industry standards. Look for contractors certified by recognized bodies like the Indian Society of Heating, Refrigerating, and Air Conditioning Engineers (ISHRAE), which ensures quality and professionalism in the HVAC sector.  </h2>
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl font-semibold mb-3">
                 2. Seek Referrals and Online Reviews
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                 Ask for recommendations from friends, family, or colleagues who have hired HVAC contractors. Additionally, browse online platforms such as Justdial, IndiaMART, or Google reviews to gauge the contractor's reputation and customer satisfaction levels.
                   </h2>
 
                 <h2 className="text-2xl font-semibold mb-3">
                 3. Check for Insurance Coverage
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 Confirm that the contractor has insurance to cover any potential damage to property or injuries during the project. This is particularly important in India, where construction-related risks are common.
                   </h2>
@@ -59,7 +59,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 4. Request Detailed Quotes
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                 Obtain written estimates from multiple contractors. The quote should outline labor costs, equipment specifications, and additional expenses. Avoid contractors offering significantly lower prices, as this could indicate compromised quality or hidden charges.
@@ -70,7 +70,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 5. Assess Experience and Expertise
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                 Experience is a key factor in the Indian HVAC market. Opt for contractors with a proven track record and expertise in handling systems suitable for Indian climatic conditions. Contractors experienced in managing high humidity or extreme temperatures are particularly valuable.
@@ -82,7 +82,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 6. Inquire About AMC (Annual Maintenance Contracts)
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                 A reliable contractor should offer Annual Maintenance Contracts to ensure the efficient operation of your HVAC system. In India, AMCs are vital due to frequent power fluctuations and dusty conditions that can impact HVAC performance.
@@ -95,7 +95,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 7. Inspect References and Portfolio
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                 Request references and case studies from previous projects. Contact past clients to learn about their experience with the contractor. Reviewing portfolios can provide insights into the contractor’s ability to handle residential or commercial projects in India.
@@ -108,7 +108,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 8. Prioritize Energy Efficiency
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                 Energy efficiency is a major concern in India due to rising electricity costs. Choose a contractor knowledgeable about energy-efficient solutions like inverter technology and BEE-rated systems. Discuss options to optimize energy consumption and reduce long-term costs.
@@ -120,7 +120,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 9. Ensure Clear Communication
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                
@@ -134,7 +134,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 10. Review Warranties and After-Sales Support
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                
@@ -147,7 +147,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 Why Choose Adhunik Powertech for Your HVAC Needs?
                                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
                
