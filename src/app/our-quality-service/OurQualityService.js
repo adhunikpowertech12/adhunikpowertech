@@ -1,3 +1,5 @@
+
+'use client'
 import React from 'react'
 
 export default function OurQualityService() {
@@ -182,7 +184,18 @@ Conduct gateway reviews as required
                       <p className="mb-4 font-sans font-normal">
                         At <strong>Adhunik Powertech</strong>  our HVAC engineer takes the core responsibility to prepare the design/layout of the heating and cooling systems along with the control systems while keeping in mind the respective standards to be followed.
                       </p>
+                      <button
+                  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+                  onClick={() => {
+                    window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+                  }}
+                >
+                  Enquiry Now
+                </button>
                     </div>
+
+                  
+
                   </div>
                 </div>
 
@@ -302,9 +315,26 @@ Conduct gateway reviews as required
               of equipment, such as <strong>storage tanks, pressure vessels, towers, shell and tube heat
               exchangers, amount of budget, type of material, etc.</strong>
             </p>
+            
+          <div className="row flex  justify-center  md:justify-self-start ">
+          <button
+                  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+                  onClick={() => {
+                    window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+                  }}
+                >
+                  Enquiry Now
+                </button>
           </div>
+
+          </div>
+   
+      
         </div>
       </div>
+
+
+    
     </div>
             
             </div>
@@ -344,7 +374,16 @@ Conduct gateway reviews as required
         </li>
       ))}
     </ul>
-             
+    <div className="row flex  justify-center  md:justify-self-start ">
+          <button
+                  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+                  onClick={() => {
+                    window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+                  }}
+                >
+                  Enquiry Now
+                </button>
+          </div>
              
               </div>
             </div>
@@ -361,6 +400,7 @@ Conduct gateway reviews as required
 
        
         <div className="row mt-5">
+
 
           <div className="col-lg-12">
             <div className="about-content">

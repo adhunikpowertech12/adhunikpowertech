@@ -7,6 +7,7 @@ export default function Page() {
 
 
   const blogData = [
+
     {
       id: 1,
       title: "What is an Air Washer?",
@@ -35,15 +36,15 @@ export default function Page() {
     },
     {
       id: 4,
-      title: "What is HVAC?",
+      title: "What is HVAC? How to Choose Right Product?",
       image:
       "",
       link: "/what-is-hvac?",
-      img: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737096838/magic-eraser20250117_jacknt.png",
+      img: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737112236/WhatsApp_Image_2025-01-17_at_16.36.23_sbvjwu.jpg",
     },
     {
       id: 5,
-      title: "Top HVAC Contractor in India",
+      title: "How to Choose HVAC Contractor in India?",
       image:
       "",
       link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",

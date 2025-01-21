@@ -699,6 +699,31 @@ Ducting Jobs
 </div>
 </div>
 
+<div className="row flex-col flex justify-center items-center py-10">
+  <div className="flex items-center justify-center md:py-10">
+    <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
+      <span className=" text-transparent bg-clip-text bg-gradient-to-r to-[#06b6d4] from-[#0ea5e9] ">Choosing the Right HVAC Product</span>
+    </p>
+  </div>
+
+  <div className="container text-center py-5 md:px-10 px-3">
+    <p>The right HVAC system ensures optimal comfort and energy efficiency in your home or office. Factors like climate, room size, and insulation are critical in determining the best HVAC solution. Consult with an HVAC professional to find a system that fits your specific needs and enhances indoor air quality.
+    </p>
+
+    <div className="show_m mt-5">
+      <button
+        className="rounded-md bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+        onClick={() => {
+          window.location.href = 'tel:+8287885885'; // Replace with the actual phone number
+        }}
+      >
+        Call Us Now
+      </button>
+    </div>
+  </div>
+</div>
+
+
       </div>
     </>
   )
