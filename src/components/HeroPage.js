@@ -406,11 +406,22 @@ export default function HeroPage() {
     }; // Cleanup on unmount
   }, []);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "name": "Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India",
+    "image": "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923987/slideabout_etmcii.jpg",
+    "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems",
+    "url": "https://www.adhunikpowertech.com/"
+  }
 
 
   return (
     <>
-
+ <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
 <Popup />
 
