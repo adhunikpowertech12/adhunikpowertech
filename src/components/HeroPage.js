@@ -593,7 +593,7 @@ export default function HeroPage() {
                 Experience the Adhunik Difference and Explore Our Solutions Today!
 
                 </p>
-                <Link href='/hvac' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems page" href='/hvac' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
                   learn more
                 </Link>
 
@@ -808,7 +808,7 @@ export default function HeroPage() {
 
                 </div>
 <div className="container flex  justify-center pt-3">
-<Link href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+<Link  aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
                     learn more
                   </Link>
 </div>
