@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
+import { GoogleTagManager } from '@next/third-parties/google'
+ 
+
 
 export const metadata = {
 
@@ -35,12 +38,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
   
       <head>
+<GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
+
 <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">
   
 </Script>
+
       <Script  id="google-analytics">
-  
 
  {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -48,7 +53,7 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-5MBSC4RFX3');`}
 
-      </Script>
+</Script>
       
 
       {/* <Script id="disable-actions">
@@ -102,6 +107,10 @@ export default function RootLayout({ children }) {
       <SpeedInsights/>
         <Header />
         <WatsapButton phoneNumber="+919599050534" />
+       
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
+height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></noscript>
+
         {children}
         <Footer />
         
