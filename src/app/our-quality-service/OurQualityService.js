@@ -37,7 +37,7 @@ export default function OurQualityService() {
           item2: "Before the start-up of any new project our HVAC design engineers ensure to understand the overall layout of the project which is with regards to the planning, schematics, and blueprints."
     },
     {
-      id: 2,
+      id: 3,
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-[#e8f1f5]">
           <path
@@ -51,7 +51,7 @@ export default function OurQualityService() {
            item2: " We will always be cordial and modest, respecting the rights and needs of others to strengthen healthy social relationships and improve the quality of life in our communities. "
     },
     {
-      id: 2,
+      id: 4,
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-[#e8f1f5]">
           <path
@@ -65,7 +65,7 @@ export default function OurQualityService() {
          item2: "Post accreditation from the client on the system design and specification we provide valuable support on the budget estimation of the project by evaluating proper technical specification and commercial cost."
     },
     {
-      id: 2,
+      id: 5,
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-[#e8f1f5]">
           <path
@@ -79,7 +79,7 @@ export default function OurQualityService() {
         item2: "The team of engineers coordinates and cooperates with the team of architects and contractors who are part of the project when the work is assigned to design heating and cooling systems."
     },
     {
-      id: 2,
+      id: 6,
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-[#e8f1f5]">
           <path
