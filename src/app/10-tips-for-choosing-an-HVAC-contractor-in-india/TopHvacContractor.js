@@ -21,7 +21,8 @@ export default function TopHvacContractor() {
                     className="md:w-6/12 mx-auto"
                   />
                 </div>
-                {/* Title Section */}
+              
+              
                 <h1 className="text-4xl font-bold mb-4 text-center">
                 10 Tips for Choosing an HVAC Contractor in India
                 </h1>
@@ -35,16 +36,19 @@ export default function TopHvacContractor() {
                 <h2 className="text-2xl font-semibold mb-3">
                 1. Verify Licensing and Accreditation
                 </h2>
+
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
-                In India, ensure that the contractor complies with local government regulations and industry standards. Look for contractors certified by recognized bodies like the Indian Society of Heating, Refrigerating, and Air Conditioning Engineers (ISHRAE), which ensures quality and professionalism in the HVAC sector.  </h2>
+                In India, ensure that the contractor complies with local government regulations and industry standards. Look for contractors certified by recognized bodies like the Indian Society of Heating, Refrigerating, and Air Conditioning Engineers (ISHRAE), which ensures quality and professionalism in the HVAC sector. 
+                 </h2>
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl font-semibold mb-3">
                 2. Seek Referrals and Online Reviews
-                                </h2>
+                </h2>
+                
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
                 Ask for recommendations from friends, family, or colleagues who have hired HVAC contractors. Additionally, browse online platforms such as Justdial, IndiaMART, or Google reviews to gauge the contractor's reputation and customer satisfaction levels.
-                  </h2>
+                </h2>
 
                 <h2 className="text-2xl font-semibold mb-3">
                 3. Check for Insurance Coverage
@@ -74,7 +78,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                
 
                 Experience is a key factor in the Indian HVAC market. Opt for contractors with a proven track record and expertise in handling systems suitable for Indian climatic conditions. Contractors experienced in managing high humidity or extreme temperatures are particularly valuable.
-                  </h2>
+                </h2>
 
 
                 
@@ -82,12 +86,10 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 6. Inquire About AMC (Annual Maintenance Contracts)
                                 </h2>
-                <h2 className="mb-4 text-gray-700 font-sans font-normal">
-               
 
-                A reliable contractor should offer Annual Maintenance Contracts to ensure the efficient operation of your HVAC system. In India, AMCs are vital due to frequent power fluctuations and dusty conditions that can impact HVAC performance.
-                
-                  </h2>
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
+           A reliable contractor should offer Annual Maintenance Contracts to ensure the efficient operation of your HVAC system. In India, AMCs are vital due to frequent power fluctuations and dusty conditions that can impact HVAC performance.
+              </h2>
 
 
                 
@@ -95,10 +97,9 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 7. Inspect References and Portfolio
                                 </h2>
-                <h2 className="mb-4 text-gray-700 font-sans font-normal">
-               
 
-                Request references and case studies from previous projects. Contact past clients to learn about their experience with the contractor. Reviewing portfolios can provide insights into the contractor’s ability to handle residential or commercial projects in India.
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
+               Request references and case studies from previous projects. Contact past clients to learn about their experience with the contractor. Reviewing portfolios can provide insights into the contractor’s ability to handle residential or commercial projects in India.
                   </h2>
 
 
@@ -108,10 +109,9 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 8. Prioritize Energy Efficiency
                                 </h2>
-                <h2 className="mb-4 text-gray-700 font-sans font-normal">
-               
 
-                Energy efficiency is a major concern in India due to rising electricity costs. Choose a contractor knowledgeable about energy-efficient solutions like inverter technology and BEE-rated systems. Discuss options to optimize energy consumption and reduce long-term costs.
+                <h2 className="mb-4 text-gray-700 font-sans font-normal">
+               Energy efficiency is a major concern in India due to rising electricity costs. Choose a contractor knowledgeable about energy-efficient solutions like inverter technology and BEE-rated systems. Discuss options to optimize energy consumption and reduce long-term costs.
                   </h2>
 
 
@@ -134,6 +134,7 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 <h2 className="text-2xl font-semibold mb-3">
                 10. Review Warranties and After-Sales Support
                                 </h2>
+
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
                
 
@@ -146,11 +147,9 @@ Confirm that the contractor has insurance to cover any potential damage to prope
 
                 <h2 className="text-2xl font-semibold mb-3">
                 Why Choose Adhunik Powertech for Your HVAC Needs?
-                                </h2>
+                
+                </h2>
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
-               
-
-               
                
 At Adhunik Powertech Private Limited, we understand the unique requirements of the Indian market. As a trusted HVAC contractor, we specialize in delivering comprehensive solutions that cater to India's diverse climatic conditions. From efficient installation to timely maintenance and expert repairs, we offer end-to-end services designed to ensure optimal comfort and energy efficiency. Our certified professionals are dedicated to providing personalized support and unmatched after-sales service, making us the preferred choice for HVAC needs across industrial and commercial spaces.
 <br /> 
@@ -160,14 +159,12 @@ By following these 10 tips and partnering with a trusted contractor like Adhunik
 </h2>
 
 
-               
-
-
-          
               </div>
+
             </div>
           </div>
         </div>
+
       </section>
     </>
   )

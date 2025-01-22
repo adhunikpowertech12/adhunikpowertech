@@ -36,7 +36,7 @@ export default function Page() {
     },
     {
       id: 4,
-      title: "What is HVAC? How to Choose Right Product?",
+      title: "What is HVAC?",
       image:
       "",
       link: "/what-is-hvac?",
