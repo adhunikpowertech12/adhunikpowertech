@@ -447,7 +447,8 @@ CERTIFICATION
                 Our proven technique focuses on boosting airflow over the areas you want to cool or increasing the surface area of objects to maximize heat dispersal. We often combine both methods to achieve outstanding results.
 
                 <br />
-                When it comes to air cooling projects, we stand out with our expertise, even in non-standard conditions. Trust us to provide reliable and efficient air cooling solutions that meet and exceed your expectations.  </p>
+                When it comes to air cooling projects, we stand out with our expertise, even in non-standard conditions. Trust us to provide reliable and efficient air cooling solutions that meet and exceed your expectations. 
+                 </p>
             </div>
             <div className=" w-full h-full md:w-5/12 my-5  ">
               <ImageGallery items={images3} className=" rounded-lg " alt="pics" />
@@ -702,7 +703,7 @@ Ducting Jobs
 <div className="row flex-col flex justify-center items-center py-10">
   <div className="flex items-center justify-center md:py-10">
     <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
-      <span className=" text-transparent bg-clip-text bg-gradient-to-r to-[#06b6d4] from-[#0ea5e9] ">Choosing the Right HVAC Product</span>
+      <span className=" text-transparent bg-clip-text bg-gradient-to-r to-[#06b6d4] from-[#0ea5e9] capitalize">contact us for your next upcoming project</span>
     </p>
   </div>
 
