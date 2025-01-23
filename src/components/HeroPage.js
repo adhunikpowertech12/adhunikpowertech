@@ -470,7 +470,7 @@ export default function HeroPage() {
                 autoPlay
                 loop
                 muted
-                poster="https://res.cloudinary.com/demvtn6lc/image/upload/v1737541136/desktop_view.webp"
+                poster="/mv.webp"
              
                 type="video/mp4"
                 className="w-full h-full object-cover"

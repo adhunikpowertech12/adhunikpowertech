@@ -708,7 +708,7 @@ Ducting Jobs
   </div>
 
   <div className="container text-center py-5 md:px-10 px-3">
-    <p>The right HVAC system ensures optimal comfort and energy efficiency in your home or office. Factors like climate, room size, and insulation are critical in determining the best HVAC solution. Consult with an HVAC professional to find a system that fits your specific needs and enhances indoor air quality.
+    <p>The right HVAC system ensures optimal comfort and energy efficiency in your working space. Factors like climate, room size, and insulation are critical in determining the best HVAC solution. Consult with an HVAC professional to find a system that fits your specific needs and enhances indoor air quality.
     </p>
 
     <div className="show_m mt-5">
