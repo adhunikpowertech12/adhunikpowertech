@@ -53,8 +53,8 @@ export default function HeroPage() {
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
     },
     {
-      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923982/DCI_nnkwzk.webp",
-      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923982/DCI_nnkwzk.webp",
+      original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
+      thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
@@ -602,7 +602,7 @@ export default function HeroPage() {
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <CldImage
                   className="w-full h-[90%] object-center object-cover rounded-lg"
-                  src="landingpage_esq6qm"
+                  src="planing2_htfegq"
                   alt="office content 1"
                  width="600"
   height="960"
@@ -611,7 +611,7 @@ export default function HeroPage() {
                   className="mt-4 w-full lg:mt-10 rounded-lg"
                 width="600"
   height="960"
-                 src="lan2_k80ubh"
+                 src="planing_jnvp46"
                   alt="office content 2"
                 />
               </div>
