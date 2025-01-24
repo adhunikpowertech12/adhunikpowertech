@@ -471,7 +471,7 @@ export default function HeroPage() {
                 autoPlay
                 loop
                 muted
-                poster="/mv.webp"
+                poster="/mv2.webp"
              
                 type="video/mp4"
                 className="w-full h-full object-cover"
