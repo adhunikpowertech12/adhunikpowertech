@@ -44,7 +44,7 @@ export default function page() {
       buttonText: <> <div className=' text-left pb-2'>
 Manufacturing and R&D
       </div></>,
-      video: 'https://videos.pexels.com/video-files/17850330/17850330-uhd_2560_1440_60fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711060/Manufacturing_and_R_D_q8bg4u.mp4',
     },
 
   ];

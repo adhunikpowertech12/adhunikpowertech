@@ -14,7 +14,7 @@ export default function page2() {
   const slides = [
     {
       id: 1,
-      video: 'https://videos.pexels.com/video-files/28750643/12466849_2560_1440_25fps.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711063/Product_Overview_tyr0uy.mp4',
       title: <> A Legacy of Strength  A <br /> Future of Hope </>,
       description: '',
       buttonText: 'Overview',
@@ -334,6 +334,7 @@ export default function page2() {
               loop
               muted
               className="w-full h-full object-cover"
+              poster="/mv.webp"
               style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }}
             >
               <source src={slide.video} type="video/mp4" />

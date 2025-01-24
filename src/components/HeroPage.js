@@ -142,7 +142,7 @@ export default function HeroPage() {
 
     {
       id: 3,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492790/v3_pdbkfe.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711058/Home4_qe3gp4.mp4',
       title: 'Add Peace Of Mind',
       description: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
@@ -152,7 +152,7 @@ export default function HeroPage() {
 
     {
       id: 4,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492733/v4_w6zrtj.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711056/Home5_rohajj.mp4',
       title: 'Commercial, Residential & Office Space',
       description: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
@@ -162,7 +162,7 @@ export default function HeroPage() {
 
     {
       id: 5,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736492601/v5_i1aosw.mp4',
+      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711054/Home_Page3_gqac7n.mp4',
       title: 'Hospital, Pharma & Food Industry',
       description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
@@ -427,6 +427,7 @@ export default function HeroPage() {
 
 
 <div>
+
 {/* {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="relative bg-yellow-400 p-2 rounded-lg w-6/12 shadow-lg md:max-w-md md:w-full">

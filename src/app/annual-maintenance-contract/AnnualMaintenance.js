@@ -5,7 +5,7 @@ export default function AnnualMaintenance() {
     const slides = [
         {
           id: 1,
-          video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1736924966/1_yu32ce.mp4',
+          video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711054/Fire_Overview_hzknhs.mp4',
           title: <> Reliable Maintenance Today, <br /> Assured Performance Tomorrow.</>,
           description: '',
           buttonText: <> <div className=' text-left pb-2'>
