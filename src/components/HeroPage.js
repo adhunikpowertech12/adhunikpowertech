@@ -427,7 +427,7 @@ export default function HeroPage() {
 
 
 <div>
-{showPopup && (
+{/* {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="relative bg-yellow-400 p-2 rounded-lg w-6/12 shadow-lg md:max-w-md md:w-full">
             <button 
@@ -443,7 +443,7 @@ export default function HeroPage() {
             />
           </div>
         </div>
-      )}
+      )} */}
     
     </div>
 
