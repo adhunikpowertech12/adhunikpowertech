@@ -44,41 +44,48 @@ export default function HeroPage() {
 
  
   const images3 = [
-
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
+      alt: "HVAC System Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
+      alt: "Ducted Air Cooler Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
+      alt: "Cooling Equipment Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
+      alt: "Air Handling Unit Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
+      alt: "Industrial Air Cooling System Image",
     },
-   
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
+      alt: "Ventilation Fans Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
+      alt: "Panel Air Conditioners Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
+      alt: "Chiller Oil Water Coolant Image",
     },
   ];
+  
 
 
   const logos = [
@@ -922,7 +929,8 @@ Product Overview
               </p>
             </div>
             <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3} className=" rounded-lg " alt="pics" />
+              <ImageGallery items={images3} originalAlt="pics"  
+thumbnailAlt="pics" className=" rounded-lg " />
 
             </div>
           </div>
