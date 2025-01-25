@@ -47,42 +47,42 @@ export default function HeroPage() {
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
-      alt: "HVAC System Image",
+      originalAlt: "HVAC System Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
-      alt: "Ducted Air Cooler Image",
+      originalAlt: "Ducted Air Cooler Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
-      alt: "Cooling Equipment Image",
+      originalAlt: "Cooling Equipment Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
-      alt: "Air Handling Unit Image",
+      originalAlt: "Air Handling Unit Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
-      alt: "Industrial Air Cooling System Image",
+      originalAlt: "Industrial Air Cooling System Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
-      alt: "Ventilation Fans Image",
+      originalAlt: "Ventilation Fans Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
-      alt: "Panel Air Conditioners Image",
+      originalAlt: "Panel Air Conditioners Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
-      alt: "Chiller Oil Water Coolant Image",
+      originalAlt: "Chiller Oil Water Coolant Image",
     },
   ];
   
@@ -536,6 +536,7 @@ export default function HeroPage() {
 
 
           <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
+
           <CldImage
   width="960"
   height="600"
@@ -928,10 +929,9 @@ Product Overview
                 We pride ourselves on offering a diverse and innovative product range designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for performance, durability, and efficiency. Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
               </p>
             </div>
-            <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3} originalAlt="pics"  
-thumbnailAlt="pics" className=" rounded-lg " />
 
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images3}  originalAlt={images3.alt}  thumbnailAlt={images3.alt} className="rounded-lg " />
             </div>
           </div>
 
