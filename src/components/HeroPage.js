@@ -48,41 +48,49 @@ export default function HeroPage() {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923974/AWI_dy3ktv.webp",
       originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1737632969/ductedAirCooler_znfebs.webp",
       originalAlt: "Ducted Air Cooler Image",
+      thumbnailAlt: "Ducted Air Cooler Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923845/3_hlacmx.webp",
       originalAlt: "Cooling Equipment Image",
+      thumbnailAlt: "Cooling Equipment Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923847/1_vmsg3f.webp",
       originalAlt: "Air Handling Unit Image",
+      thumbnailAlt: "Air Handling Unit Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923846/2_pxs9ab.webp",
       originalAlt: "Industrial Air Cooling System Image",
+      thumbnailAlt: "Industrial Air Cooling System Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/7_xjguld.webp",
       originalAlt: "Ventilation Fans Image",
+      thumbnailAlt: "Ventilation Fans Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923851/8_l2toyp.webp",
       originalAlt: "Panel Air Conditioners Image",
+      thumbnailAlt: "Panel Air Conditioners Image",
     },
     {
       original: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
       thumbnail: "https://res.cloudinary.com/demvtn6lc/image/upload/v1736923852/9_f9bq6x.webp",
       originalAlt: "Chiller Oil Water Coolant Image",
+      thumbnailAlt: "Chiller Oil Water Coolant Image",
     },
   ];
   
@@ -931,7 +939,7 @@ Product Overview
             </div>
 
             <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3}  originalAlt={images3.alt}  thumbnailAlt={images3.alt} className="rounded-lg " />
+              <ImageGallery items={images3}   className="rounded-lg " />
             </div>
           </div>
 
