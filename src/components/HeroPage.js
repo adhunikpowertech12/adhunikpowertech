@@ -19,9 +19,6 @@ import { CldImage } from 'next-cloudinary';
  
 export default function HeroPage() {
 
-      
-  // const cld = new Cloudinary({ cloud: { cloudName: 'demvtn6lc' } });
-
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -321,7 +318,7 @@ export default function HeroPage() {
       title: "Air Washer",
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
       link: "/air-washer",
-      linkText: "Read more",
+      linkText: ">",
 
     },
     {
@@ -330,7 +327,7 @@ export default function HeroPage() {
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
       link: "/ducted-air-cooler",
-      linkText: "Read more",
+      linkText: ">",
     },
     
     {
@@ -339,7 +336,7 @@ export default function HeroPage() {
       title: "Ventlilation Exhaust Fan",
       description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
       link: "/ventilation-fans",
-      linkText: "Read more",
+      linkText: ">",
     },
     // Add more items if needed
   ];
@@ -351,7 +348,7 @@ export default function HeroPage() {
       title: "PANEL AIR CONDITIONER",
       description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
       link: "/panel-air-conditioners",
-      linkText: "Read more",
+      linkText: ">",
     },
     {
       src: "OC_vvhkto",
@@ -359,7 +356,7 @@ export default function HeroPage() {
       title: "OIL AND COOLANT CHILLER ",
       description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
       link: "/chiller-oil-water-coolant",
-      linkText: "Read more",
+      linkText: ">",
     },
     {
       src: "Air_Shower2_wfkoyp",
@@ -367,7 +364,7 @@ export default function HeroPage() {
       title: "AIR SHOWER",
       description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
       link: "/air-shower",
-      linkText: "Read more",
+      linkText: ">",
     },
     {
       src: "AHU1_lab7sl",
@@ -375,7 +372,7 @@ export default function HeroPage() {
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
       link: "/air-handling-unit",
-      linkText: "Read more",
+      linkText: ">",
     },
     // Add more items if needed
   ];
@@ -590,12 +587,20 @@ export default function HeroPage() {
 
 
                 </p>
+
                 <p className=' pb-8'>
+
                 Experience the Adhunik Difference and Explore Our Solutions Today!
 
                 </p>
-                <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems page" href='/hvac' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
-                  learn more
+                <Link 
+
+                    aria-label="Learn more about HVAC solutions and air cooling systems"
+                  title="Learn more about HVAC solutions and air cooling systems"
+  
+                href='/hvac' 
+                className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                  Our Products
                 </Link>
 
               </div>
@@ -810,7 +815,7 @@ export default function HeroPage() {
                 </div>
 <div className="container flex  justify-center pt-3">
 <Link  aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
-                    learn more
+Product Overview
                   </Link>
 </div>
                
