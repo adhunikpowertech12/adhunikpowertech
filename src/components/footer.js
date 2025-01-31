@@ -201,6 +201,15 @@ function Footer() {
             
            
             </div>
+            <div className="pb-2 font-sans">  
+            
+
+           <span className=' font-bold'> Hyderabad</span>  :  Unit No. 21-024, TSIIC Colony, <br /> Opp. Adarsh Bank, Jedimetla, <br /> Hyderabad, Telangana 500055
+            
+            
+            
+           
+            </div>
 
 
             <h2 className="mb-2  text-[15px] flex justify-center  font-sans font-semibold uppercase ">
