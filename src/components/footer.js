@@ -185,10 +185,7 @@ function Footer() {
             </div>
           ))}
 
-          {/* Information Section */}
-
-
-          {/* About Us and Social Links */}
+   
           <div className=' '>
 
             <h2 className="mb-2 text-[15px] flex justify-center  font-sans font-semibold uppercase ">
@@ -204,7 +201,7 @@ function Footer() {
             <div className="pb-2 font-sans">  
             
 
-           <span className=' font-bold'> Hyderabad</span>  :  Unit No. 21-024, TSIIC Colony, <br /> Opp. Adarsh Bank, Jedimetla, <br /> Hyderabad, Telangana 500055
+           <span className=' font-bold'> Hyderabad</span>  :  Unit No. 21-024, TSIIC Colony, <br /> Opp. Adarsh Bank, Jeedimelta, <br /> Hyderabad, Telangana 500055
             
             
             
