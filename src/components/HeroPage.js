@@ -129,7 +129,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      video: '/videos/Home_Page_v1.mp4',
+      video: './videos/Home_Page_v1.mp4',
       title: 'WELCOME TO ADHUNIK POWERTECH',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
@@ -140,7 +140,7 @@ export default function HeroPage() {
     
     {
       id: 2,
-      video: '/videos/Home_Page_v2.mp4',
+      video: './videos/Home_Page_v2.mp4',
       title: 'Air Cooling & Air Conditioning System',
       description: <>
         Installation, Service, Repair &amp; Maintenance
@@ -154,7 +154,7 @@ export default function HeroPage() {
 
     {
       id: 3,
-      video: '/videos/Home_Page_v3.mp4',
+      video: './videos/Home_Page_v3.mp4',
       title: 'Add Peace Of Mind',
       description: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
@@ -164,7 +164,7 @@ export default function HeroPage() {
 
     {
       id: 4,
-      video: '/videos/Home_Page_v4.mp4',
+      video: './videos/Home_Page_v4.mp4',
       title: 'Commercial, Residential & Office Space',
       description: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
@@ -174,7 +174,7 @@ export default function HeroPage() {
 
     {
       id: 5,
-      video: '/videos/Home_Page_v5.mp4',
+      video: './videos/Home_Page_v5.mp4',
       title: 'Hospital, Pharma & Food Industry',
       description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
