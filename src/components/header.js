@@ -44,7 +44,7 @@ function Navbar() {
         { href: '/vision-&-mission', label: 'Vision & Mission' },
 
         { href: '/certificate-&-accreditation', label: 'Certificate & Accreditation' },
-        { href: '/', label: 'Awards and Recognitions' },
+        { href: '/awards-and-recognitions', label: 'Awards and Recognitions' },
 
       ],
     },
@@ -186,7 +186,7 @@ function Navbar() {
         { label: "Our Company", href: "/our-Company" },
         { label: "Vision & Mission", href: "/vision-&-mission" },
         { label: "Certificate & Accreditation", href: "/certificate-&-accreditation" },
-        { label: "Awards and Recognitions", href: "/" },
+        { label: "Awards and Recognitions", href: "/awards-and-recognitions" },
       ],
     },
 
