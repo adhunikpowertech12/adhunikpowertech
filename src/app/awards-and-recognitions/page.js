@@ -62,12 +62,12 @@ export default function page() {
                   <div className="flex-row flex flex-wrap justify-center items-center gap-5 pb-10">
 
                     {products.map((item, index) => (
-                      <div key={index} className="md:w-[32%] w-80">
+                      <div key={index} className="md:w-[35%] w-80">
                         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
                           <div className="w-auto">
                             <div className={`w-full rounded-xl  bg-white  `}>
                               <img
-                                className={` h-72 border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
+                                className={`  h-[50%] border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
                            rounded-lg  `} // Dynamic border color
                                 src={item.src}
                                 fetchPriority="high"
