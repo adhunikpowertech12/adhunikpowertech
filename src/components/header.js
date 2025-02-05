@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useEffect, useRef, useState }  from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import Fuse from "fuse.js";
 import { useRouter } from "next/navigation";
@@ -414,8 +414,8 @@ function Navbar() {
                       href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
                       download="Adhunik-Powertech-Product-Catalogue-2024"
                       className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
-                          ? " text-black hover:text-black border-black"
-                          : " text-white hover:text-black "
+                        ? " text-black hover:text-black border-black"
+                        : " text-white hover:text-black "
                         }`}
                     >
                       <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
@@ -442,8 +442,8 @@ function Navbar() {
                       href="/Adhunik-Powertech-HVAC-&-Firefighting-Profile.pdf" // The file path in the public folder
                       download="Adhunik-Powertech-HVAC-&-Firefighting-Profile"
                       className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
-                          ? " text-black hover:text-black border-black "
-                          : " text-white hover:text-black "
+                        ? " text-black hover:text-black border-black "
+                        : " text-white hover:text-black "
                         }`}
                     >
                       <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
@@ -458,7 +458,7 @@ function Navbar() {
 
                   <hr className=' rotate-90 w-10  relative hidden lg:block ' />
                   <div className="col pb-2 md:pb-0">
-                    <svg  onClick={() => window.location.href = "mailto:info@adhunikpowertech.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <svg onClick={() => window.location.href = "mailto:info@adhunikpowertech.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
 
@@ -498,28 +498,28 @@ function Navbar() {
                   <hr className=' rotate-90 w-10  relative hidden md:block' />
 
                 </div>
-<div className="row flex flex-col  md:flex-row">
-  <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
-</div>
+                <div className="row flex flex-col  md:flex-row">
+                  <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
+                  </div>
 
-  <div className="col">
-  <div
-                  onClick={handleAudioToggle}
-                  className="cursor-pointer flex items-center justify-center  rounded-full md:p-3  transition"
-                  style={{ width: "50px", height: "40px" }}
-                >
-                  {isPlaying ? (
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-                    </svg>
-                  ) : (
-                    <i className=" md:px-2 fa-solid fa-headphones"></i>
-                  )}
+                  <div className="col">
+                    <div
+                      onClick={handleAudioToggle}
+                      className="cursor-pointer flex items-center justify-center  rounded-full md:p-3  transition"
+                      style={{ width: "50px", height: "40px" }}
+                    >
+                      {isPlaying ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+                        </svg>
+                      ) : (
+                        <i className=" md:px-2 fa-solid fa-headphones"></i>
+                      )}
+                    </div>
+                  </div>
                 </div>
-  </div>
-</div>
-           
-              
+
+
               </div>
 
               <div className=" flex w-full  py-3 items-center rounded-full">
@@ -714,53 +714,53 @@ function Navbar() {
       </div>
 
       <div className="search-bar-container">
-      {/* Logo Section */}
+        {/* Logo Section */}
 
-      <div className="logo-section">
+        <div className="logo-section">
+
+        </div>
+
+        {/* Input Section */}
+
+        {showSearch && (
+          <div className="search-bar p-5" ref={searchBarRef}>
+            <input
+              type="text"
+              value={query}
+              onChange={handleSearch}
+              placeholder="Search products..."
+
+
+              className={`search-input ${isScrolled
+                ? " text-black hover:text-black border-black "
+                : " text-black hover:text-black "
+                }`}
+            />
+            {results.length > 0 && (
+              <ul
+                className={`search-results ${isScrolled
+                  ? " text-black hover:text-black border-black "
+                  : " text-black hover:text-black "
+                  }`}
+
+              >
+                {results.map((item) => (
+                  <li
+                    key={item.id}
+                    className="search-item"
+                    onClick={() => handleSelect(item.link)}
+                  >
+                    {item.name}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+
+
 
       </div>
-
-      {/* Input Section */}
-      
-      {showSearch && (
-        <div className="search-bar p-5"  ref={searchBarRef}>
-          <input
-            type="text"
-            value={query}
-            onChange={handleSearch}
-            placeholder="Search products..."
-           
-
-            className={`search-input ${isScrolled
-                          ? " text-black hover:text-black border-black "
-                          : " text-black hover:text-black "
-                        }`}
-          />
-          {results.length > 0 && (
-            <ul 
-                 className={`search-results ${isScrolled
-                          ? " text-black hover:text-black border-black "
-                          : " text-black hover:text-black "
-                        }`}
-            
-            >
-              {results.map((item) => (
-                <li
-                  key={item.id}
-                  className="search-item"
-                  onClick={() => handleSelect(item.link)}
-                >
-                  {item.name}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-
- 
-
-    </div>
 
 
     </nav>
