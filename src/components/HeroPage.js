@@ -703,7 +703,7 @@ export default function HeroPage() {
     <div className="items-center justify-center h-full">
       <div  className=' flex-row flex-wrap flex justify-center items-center gap-3'>
         {products2.map((item, index) => (
-          <div key={index} className="md:w-[22%]  w-80">
+          <div key={index} className="   w-80">
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
               <div className="w-auto">
                 <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">

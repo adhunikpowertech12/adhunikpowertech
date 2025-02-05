@@ -403,9 +403,8 @@ function Navbar() {
 
                 <div className="row flex flex-col md:flex-row justify-center items-center">
 
-
                   <div
-                    className="col text-left text-[12px] ps-3 hidden md:block"
+                    className=" hidden lg:block col text-left text-[12px] ps-3  "
 
                     style={{ cursor: 'pointer' }} // Optional styling for pointer and color
                   >
@@ -430,11 +429,11 @@ function Navbar() {
                   </div>
 
 
-                  <hr className=' rotate-90 w-10  relative hidden md:block ' />
+                  <hr className=' rotate-90 w-10  relative hidden lg:block ' />
 
 
                   <div
-                    className="col text-left text-[12px] ps-3 hidden md:block"
+                    className="col text-left text-[12px] ps-3 hidden lg:block"
 
                     style={{ cursor: 'pointer' }} // Optional styling for pointer and color
                   >
@@ -457,7 +456,7 @@ function Navbar() {
                   </div>
 
 
-                  <hr className=' rotate-90 w-10  relative hidden md:block ' />
+                  <hr className=' rotate-90 w-10  relative hidden lg:block ' />
                   <div className="col pb-2 md:pb-0">
                     <svg  onClick={() => window.location.href = "mailto:info@adhunikpowertech.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
