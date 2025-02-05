@@ -129,7 +129,7 @@ export default function HeroPage() {
 
     {
       id: 1,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737092275/Home_Page_Video_pc4hhv.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738647245/Home_Page_v1_gmslhl.mp4',
       title: 'WELCOME TO ADHUNIK POWERTECH',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
@@ -140,7 +140,7 @@ export default function HeroPage() {
     
     {
       id: 2,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737529885/Home_Page_2_kxx6b1.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738647251/Home_Page_v2_suqvdg.mp4',
       title: 'Air Cooling & Air Conditioning System',
       description: <>
         Installation, Service, Repair &amp; Maintenance
@@ -154,7 +154,7 @@ export default function HeroPage() {
 
     {
       id: 3,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711058/Home4_qe3gp4.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738647245/Home_Page_v3_zaxdfb.mp4',
       title: 'Add Peace Of Mind',
       description: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
@@ -164,7 +164,7 @@ export default function HeroPage() {
 
     {
       id: 4,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711056/Home5_rohajj.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738647238/Home_Page_v4_mmlhja.mp4',
       title: 'Commercial, Residential & Office Space',
       description: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
@@ -174,7 +174,7 @@ export default function HeroPage() {
 
     {
       id: 5,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711054/Home_Page3_gqac7n.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738647233/Home_Page_v5_uxnb0e.mp4',
       title: 'Hospital, Pharma & Food Industry',
       description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
@@ -249,7 +249,7 @@ export default function HeroPage() {
 
     {
 
-      src: '1_sa8yfj',
+      src: '1_sa8yfj_n8td1t',
       alt: 'India',
       label: 'India',
 
@@ -258,32 +258,32 @@ export default function HeroPage() {
     ,
 
     {
-      src: 'nepal_k1ewct',
+      src: 'nepal__bm11kx',
       alt: 'Nepal',
       label: 'Nepal',
 
     },
 
     {
-      src: 'bangladesh_wjfsuo',
+      src: 'bangladesh__hbpsm0',
       alt: 'Bangladesh',
       label: 'Bangladesh',
 
     },
     {
-      src: 'uae_zoxpfo',
+      src: 'uae_zoxpfo_ezgnyl',
       alt: 'UAE',
       label: 'UAE',
 
     },
     {
-      src: 'saudi_lvgcvu',
+      src: 'saudi_lvgcvu_fpkzqu',
       alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
     },
     {
-      src: 'iraq_y7s6ng',
+      src: 'iraq_y7s6ng_xllxjz',
       alt: 'Iraq',
       label: 'Iraq',
 
@@ -328,7 +328,7 @@ export default function HeroPage() {
 
   const products = [
     {
-      src: "awb_y87hai",
+      src: "awb_y87hai_edmbck",
       alt: "Air Washer",
       title: "Air Washer",
       description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
@@ -337,7 +337,7 @@ export default function HeroPage() {
 
     },
     {
-      src: "DD_oxeclc",
+      src: "DD__mz6hmv",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
@@ -346,7 +346,7 @@ export default function HeroPage() {
     },
     
     {
-      src: "efss_r3q8fb",
+      src: "efss_r3q8fb_dyacni",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
@@ -358,7 +358,7 @@ export default function HeroPage() {
  
   const products2 = [
     {
-      src: "pab_p1r8bt",
+      src: "pab_p1r8bt_jhglwg",
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
       description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
@@ -366,7 +366,7 @@ export default function HeroPage() {
       linkText: ">",
     },
     {
-      src: "OC_vvhkto",
+      src: "OC__koeafw",
       alt: "OIL AND COOLANT CHILLER UNIT",
       title: "OIL AND COOLANT CHILLER ",
       description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
@@ -374,7 +374,7 @@ export default function HeroPage() {
       linkText: ">",
     },
     {
-      src: "Air_Shower2_wfkoyp",
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750082/Air_Shower2__of10ut.webp",
       alt: "AIR SHOWER",
       title: "AIR SHOWER",
       description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
@@ -382,7 +382,7 @@ export default function HeroPage() {
       linkText: ">",
     },
     {
-      src: "AHU1_lab7sl",
+      src: "AHU1_lab7sl_ccwn9d",
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
       description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
@@ -548,7 +548,7 @@ export default function HeroPage() {
           <CldImage
   width="960"
   height="600"
-  src="nw_pa2sza"
+  src="nw_pa2sza_ddz65c"
   className="h-full md:w-[70%]"
   alt="pic"
   fetchPriority="high"
@@ -624,7 +624,7 @@ export default function HeroPage() {
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <CldImage
                   className="w-full h-[90%] object-center object-cover rounded-lg"
-                  src="planing2_htfegq"
+                  src="planing2_htfegq_jija0x"
                   alt="office content 1"
                  width="600"
   height="960"
@@ -633,7 +633,7 @@ export default function HeroPage() {
                   className="mt-4 w-full lg:mt-10 rounded-lg"
                 width="600"
   height="960"
-                 src="planing_jnvp46"
+                 src="planing_jnvp46_hqobwv"
                   alt="office content 2"
                 />
               </div>
@@ -869,17 +869,17 @@ Product Overview
                 <div className="flex flex-wrap -mx-4 text-center md:text-left">
                   {[
                     {
-                      icon: 'cad_zeyqux',
+                      icon: 'cad__bvhdns',
                       title: 'Consultancy & Design',
                       description: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
-                      icon: 'de_nvmycd',
+                      icon: 'de__xjfjdj',
                       title: 'Detailed Engineering',
                       description: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
-                      icon: 'Project_Execution_iogkqo',
+                      icon: 'Project_Execution_iogkqo_wnsmhr',
                       title: 'Project Execution',
                       description: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
                     },

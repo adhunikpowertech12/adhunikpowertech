@@ -875,7 +875,7 @@ export default function DuctedAirCoolerPage() {
               <div className="relative  flex-auto">
               
       
-                <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/NRKxjM4SW7I?si=VRKaD5km3jKjQkfd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/NRKxjM4SW7I?si=VRKaD5km3jKjQkfd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
               </div>
               {/*footer*/}
