@@ -159,7 +159,7 @@ export default function WhatIsHvac() {
 
               <div className="blog-img mb-6 text-center">
                   <CldImage
-                    src="https://res.cloudinary.com/demvtn6lc/image/upload/v1737112236/WhatsApp_Image_2025-01-17_at_16.36.23_sbvjwu.jpg"
+                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738837317/whatis_hvac_hulcg7.jpg"
                     width={600}
                     height={400}
                     alt="HVAC complete guide for beginners"
