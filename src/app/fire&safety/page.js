@@ -10,7 +10,7 @@ export default function FireSafety() {
   const slides = [
     {
       id: 1,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737716770/Fire_zb5c0r.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738750036/Fire__pbzsax.mp4',
       title: 'WELCOME TO ADHUNIK FIREXPERT',
       description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',

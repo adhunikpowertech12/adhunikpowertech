@@ -5,7 +5,7 @@ export default function AnnualMaintenance() {
     const slides = [
         {
           id: 1,
-          video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711054/Fire_Overview_hzknhs.mp4',
+          video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738750032/Fire_Overview__k7uos8.mp4',
           title: <> Reliable Maintenance Today, <br /> Assured Performance Tomorrow.</>,
           description: '',
           buttonText: <> <div className=' text-left pb-2'>
@@ -93,7 +93,7 @@ export default function AnnualMaintenance() {
     >
       <video
         autoPlay
-        poster="https://res.cloudinary.com/demvtn6lc/image/upload/v1736923987/slideabout_etmcii.jpg"
+        poster="/mv2.webp"
         loop
         muted
          type="video/mp4"

@@ -101,7 +101,7 @@ export default function OurCompany() {
 
       year: 'Overview',
 
-      bgImage: 'https://res.cloudinary.com/demvtn6lc/image/upload/v1737541136/desktop_view.webp',
+      bgImage: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp',
       content: (
 
         <div className="z-10 text-center">

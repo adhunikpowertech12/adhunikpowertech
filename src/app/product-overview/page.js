@@ -14,7 +14,7 @@ export default function page2() {
   const slides = [
     {
       id: 1,
-      video: 'https://res.cloudinary.com/demvtn6lc/video/upload/v1737711063/Product_Overview_tyr0uy.mp4',
+      video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738750032/Product_Overview_tyr0uy_ir7wzg.mp4',
       title: <> A Legacy of Strength  A <br /> Future of Hope </>,
       description: '',
       buttonText: 'Overview',
