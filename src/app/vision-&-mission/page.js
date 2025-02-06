@@ -98,7 +98,7 @@ export default function page() {
           {/* Right Image */}
           <img
             className="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
-            src="https://pagedone.io/asset/uploads/1717751272.png"
+            src="m2.webp"
             alt="about Us image"
           />
         </div>
