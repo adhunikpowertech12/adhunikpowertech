@@ -251,13 +251,33 @@ export default function page2() {
 
     // Set data for cities
     let cities = [
-      { title: "Nepal", latitude: 28.3949, longitude: 84.1240 }, // Nepal
-      { title: "India", latitude: 20.5937, longitude: 78.9629 }, // India
+     
       { title: "Iraq", latitude: 33.2232, longitude: 43.6793 }, // Iraq
       { title: "Saudi Arabia", latitude: 23.8859, longitude: 45.0792 }, // Saudi Arabia
-      { title: "Bangladesh", latitude: 23.685, longitude: 90.3563 }, // Bangladesh
-      { title: "UAE", latitude: 23.4241, longitude: 53.8478 } // UAE
+      { title: "Bangladesh", latitude: 23.6850, longitude: 90.3563 }, // Bangladesh
+      { title: "UAE", latitude: 23.4241, longitude: 53.8478 }, // UAE
+      { title: "Orissa", latitude: 20.9517, longitude: 85.0985 }, // Odisha (Orissa)
+      { title: "Kolkata", latitude: 22.5726, longitude: 88.3639 }, // Kolkata
+      { title: "West Bengal", latitude: 22.9868, longitude: 87.8550 }, // West Bengal
+      { title: "Hyderabad", latitude: 17.3850, longitude: 78.4867 }, // Hyderabad
+      { title: "Andhra Pradesh", latitude: 15.9129, longitude: 79.7400 }, // Andhra Pradesh
+      { title: "Gujarat", latitude: 22.2587, longitude: 71.1924 }, // Gujarat
+      { title: "Rajasthan", latitude: 27.0238, longitude: 74.2179 }, // Rajasthan
+      { title: "Jaipur", latitude: 26.9124, longitude: 75.7873 }, // Jaipur
+      { title: "Tamil Nadu", latitude: 11.1271, longitude: 78.6569 }, // Tamil Nadu
+      { title: "Karnataka", latitude: 15.3173, longitude: 75.7139 }, // Karnataka
+      { title: "Maharashtra", latitude: 19.7515, longitude: 75.7139 }, // Maharashtra
+      { title: "Pune", latitude: 18.5204, longitude: 73.8567 }, // Pune
+      { title: "Goa", latitude: 15.2993, longitude: 74.1240 }, // Goa
+      { title: "Kerala", latitude: 10.8505, longitude: 76.2711 }, // Kerala
+      { title: "Andaman and Nicobar", latitude: 11.7401, longitude: 92.6586 }, // Andaman and Nicobar
+      { title: "Uttar Pradesh", latitude: 26.8467, longitude: 80.9462 }, // Uttar Pradesh
+      { title: "Madhya Pradesh", latitude: 23.4733, longitude: 77.9470 }, // Madhya Pradesh
+      { title: "Haryana", latitude: 29.0588, longitude: 76.0856 }, // Haryana
+      { title: "Chhattisgarh", latitude: 21.2787, longitude: 81.8661 }, // Chhattisgarh
+      { title: "Nepal", latitude: 28.3949, longitude: 84.1240 } // Nepal (Duplicate, but added for completeness)
     ];
+    
     
 
     for (let i = 0; i < cities.length; i++) {
