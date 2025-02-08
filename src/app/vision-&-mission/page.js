@@ -2,11 +2,15 @@
 export default function page() {
 
   const paragraphs = [
-    <> Adhunik Powertech Private Limited envisions a market influenced by the high-standard products, we manufacture. We believe in setting a mark and so consider the present to be very important. Manufacturing goods is not only part of our work but a venture to satisfy our extended customers. The manufacturing process has extensive steps that involve extra focus like - Design, Material Selection, Raw Material, Manufacturing Standards, and QC Process. The entire setup especially involves the work of a team of well-qualified and experienced engineers and technicians who are qualified and capable of giving out excellent results.  Adhunik Powertech Private Limited is built on the cornerstone of customer satisfaction by timely delivery of products and services at the most competitive prices along with high standards, and we look forward to sticking earnestly to our policy in the future. </>
+    <> 
+    Adhunik Powertech Private Limited envisions a market influenced by the high-standard products, we manufacture. We believe in setting a mark and so consider the present to be very important. Manufacturing goods is not only part of our work but a venture to satisfy our extended customers. The manufacturing process has extensive steps that involve extra focus like - Design, Material Selection, Raw Material, Manufacturing Standards, and QC Process. The entire setup especially involves the work of a team of well-qualified and experienced engineers and technicians who are qualified and capable of giving out excellent results.  Adhunik Powertech Private Limited is built on the cornerstone of customer satisfaction by timely delivery of products and services at the most competitive prices along with high standards, and we look forward to sticking earnestly to our policy in the future.
+     </>
   ];
   const paragraphs2 = [
-   <>Adhunik Powertech Private Limited aims at providing the latest cooling technologies with sustainable climate control at the fingertips. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises. .</>,
-    <>As our present mission, we would like to claim ourselves as one of the Heating Ventilation, and Air Conditioning Contractors with considerable experience in the field to provide turnkey solutions for HVAC works to meet international standards</>,
+   <>
+   Adhunik Powertech Private Limited aims at providing the latest cooling technologies with sustainable climate control at the fingertips. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises. .</>,
+    <>As our present mission, we would like to claim ourselves as one of the Heating Ventilation, and Air Conditioning Contractors with considerable experience in the field to provide turnkey solutions for HVAC works to meet international standards
+    </>,
    
   ];
 

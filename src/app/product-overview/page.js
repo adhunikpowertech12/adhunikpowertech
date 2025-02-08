@@ -88,7 +88,7 @@ export default function page2() {
       title: ' Air Washer',
       description: 'Breathe easy with our air washers. Experience cleaner, fresher air by removing pollutants and allergens. ',
       imgSrc: '/AWI.png',
-      link: '#',
+      link: '/air-washer',
       imgHeight: "250px ",
       imgWidth: "250px ",
     },
@@ -97,7 +97,7 @@ export default function page2() {
       title: ' Ducted Air Coolers ',
       description: 'Stay comfortable in style. Our ducted air coolers provide quiet, efficient cooling without compromising your space.',
       imgSrc: '/DCI.png',
-      link: '#',
+      link: '/ducted-air-cooler',
       imgHeight: "250px    ",
       imgWidth: "250px ",
     },
@@ -106,7 +106,7 @@ export default function page2() {
       title: ' Ventlilation Exhaust Fan ',
       description: ' Create a healthier, more comfortable indoor environment. Our ventilation exhaust fans remove moisture, odors, and pollutants. ',
       imgSrc: '/efss.png',
-      link: '#',
+      link: '/ventilation-fans',
       imgHeight: "250px ",
       imgWidth: " 250px  ",
     },
@@ -119,7 +119,7 @@ export default function page2() {
       title: ' PANEL AIR CONDITIONER ',
       description: 'Keep your CNC and electrical panels running smoothly. Our panel air conditioners provide precise temperature control and reliable cooling, preventing overheating and system failures.',
       imgSrc: '/panelac.png',
-      link: '#',
+      link: '/panel-air-conditioners',
       imgHeight: "350px",
       imgWidth: "350px",
     },
@@ -128,7 +128,7 @@ export default function page2() {
       title: ' OIL AND COOLANT CHILLER ',
       description: 'Protect your valuable machinery and maintain optimal operating temperatures with our efficient oil and coolant chillers. Prevent overheating, reduce downtime, and improve overall productivity.',
       imgSrc: '/OC.png',
-      link: '#',
+      link: '/chiller-oil-water-coolant',
       imgHeight: "350px",
       imgWidth: "350px",
     },
@@ -137,7 +137,7 @@ export default function page2() {
       title: 'AIR SHOWER ',
       description: ' Maintain a clean and controlled environment with our high-performance air showers. Effectively remove dust, debris, and contaminants from personnel before entering critical areas. ',
       imgSrc: '/as.png',
-      link: '#',
+      link: '/air-washer',
       imgHeight: "350px",
       imgWidth: "350px",
     },
@@ -146,7 +146,7 @@ export default function page2() {
       title: 'Air Handling Unit ',
       description: ' Optimize indoor air quality and comfort with our efficient air handling units. Control temperature, humidity, and airflow for a healthy and productive environment. ',
       imgSrc: '/AHU.png',
-      link: '#',
+      link: '/air-handling-unit',
       imgHeight: "350px",
       imgWidth: "350px",
     },
@@ -607,10 +607,10 @@ Choosing the right cooling solution can significantly impact your comfort, energ
 
                 <div>
       {data.map((item) => (
-        <a
+        <div
           key={item.id}
           href="#"
-          className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
+          className=" cursor-pointer flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
         >
           {/* <img
             className="rounded-full h-14 w-14 "
@@ -625,7 +625,7 @@ Choosing the right cooling solution can significantly impact your comfort, energ
               {item.description}
             </p>
           </div>
-        </a>
+        </div>
       ))}
     </div>
 
@@ -637,13 +637,21 @@ Choosing the right cooling solution can significantly impact your comfort, energ
 
 
               <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
+                <a href='/our-Company' className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" >
                   Know more About Us
                   <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
                 </a>
-                <a className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href="#">
-                  Contact sales team
-                </a>
+                <a
+  href="tel:+919870248420"
+  onClick={(e) => {
+    e.preventDefault(); // Prevent default link behavior
+    window.location.href = "tel:+919870248420";
+  }}
+  className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+>
+  Contact sales team
+</a>
+
               </div>
 
 
