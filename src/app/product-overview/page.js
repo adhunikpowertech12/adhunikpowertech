@@ -249,33 +249,33 @@ export default function page2() {
       });
     });
 
-    // Set data for cities
+    
     let cities = [
      
-      { title: "Iraq", latitude: 33.2232, longitude: 43.6793 }, // Iraq
-      { title: "Saudi Arabia", latitude: 23.8859, longitude: 45.0792 }, // Saudi Arabia
-      { title: "Bangladesh", latitude: 23.6850, longitude: 90.3563 }, // Bangladesh
-      { title: "UAE", latitude: 23.4241, longitude: 53.8478 }, // UAE
-      { title: "Orissa", latitude: 20.9517, longitude: 85.0985 }, // Odisha (Orissa)
-      { title: "Kolkata", latitude: 22.5726, longitude: 88.3639 }, // Kolkata
-      { title: "West Bengal", latitude: 22.9868, longitude: 87.8550 }, // West Bengal
-      { title: "Hyderabad", latitude: 17.3850, longitude: 78.4867 }, // Hyderabad
-      { title: "Andhra Pradesh", latitude: 15.9129, longitude: 79.7400 }, // Andhra Pradesh
-      { title: "Gujarat", latitude: 22.2587, longitude: 71.1924 }, // Gujarat
-      { title: "Rajasthan", latitude: 27.0238, longitude: 74.2179 }, // Rajasthan
-      { title: "Jaipur", latitude: 26.9124, longitude: 75.7873 }, // Jaipur
-      { title: "Tamil Nadu", latitude: 11.1271, longitude: 78.6569 }, // Tamil Nadu
-      { title: "Karnataka", latitude: 15.3173, longitude: 75.7139 }, // Karnataka
-      { title: "Maharashtra", latitude: 19.7515, longitude: 75.7139 }, // Maharashtra
-      { title: "Pune", latitude: 18.5204, longitude: 73.8567 }, // Pune
-      { title: "Goa", latitude: 15.2993, longitude: 74.1240 }, // Goa
-      { title: "Kerala", latitude: 10.8505, longitude: 76.2711 }, // Kerala
-      { title: "Andaman and Nicobar", latitude: 11.7401, longitude: 92.6586 }, // Andaman and Nicobar
-      { title: "Uttar Pradesh", latitude: 26.8467, longitude: 80.9462 }, // Uttar Pradesh
-      { title: "Madhya Pradesh", latitude: 23.4733, longitude: 77.9470 }, // Madhya Pradesh
-      { title: "Haryana", latitude: 29.0588, longitude: 76.0856 }, // Haryana
-      { title: "Chhattisgarh", latitude: 21.2787, longitude: 81.8661 }, // Chhattisgarh
-      { title: "Nepal", latitude: 28.3949, longitude: 84.1240 } // Nepal (Duplicate, but added for completeness)
+      { title: "Iraq", latitude: 33.2232, longitude: 43.6793 }, 
+      { title: "Saudi Arabia", latitude: 23.8859, longitude: 45.0792 }, 
+      { title: "Bangladesh", latitude: 23.6850, longitude: 90.3563 }, 
+      { title: "UAE", latitude: 23.4241, longitude: 53.8478 }, 
+      { title: "Orissa", latitude: 20.9517, longitude: 85.0985 }, 
+      { title: "Kolkata", latitude: 22.5726, longitude: 88.3639 }, 
+      { title: "West Bengal", latitude: 22.9868, longitude: 87.8550 }, 
+      { title: "Hyderabad", latitude: 17.3850, longitude: 78.4867 }, 
+      { title: "Andhra Pradesh", latitude: 15.9129, longitude: 79.7400 }, 
+      { title: "Gujarat", latitude: 22.2587, longitude: 71.1924 }, 
+      { title: "Rajasthan", latitude: 27.0238, longitude: 74.2179 }, 
+      { title: "Jaipur", latitude: 26.9124, longitude: 75.7873 }, 
+      { title: "Tamil Nadu", latitude: 11.1271, longitude: 78.6569 }, 
+      { title: "Karnataka", latitude: 15.3173, longitude: 75.7139 }, 
+      { title: "Maharashtra", latitude: 19.7515, longitude: 75.7139 }, 
+      { title: "Pune", latitude: 18.5204, longitude: 73.8567 },
+      { title: "Goa", latitude: 15.2993, longitude: 74.1240 }, 
+      { title: "Kerala", latitude: 10.8505, longitude: 76.2711 }, 
+      { title: "Andaman and Nicobar", latitude: 11.7401, longitude: 92.6586 }, 
+      { title: "Uttar Pradesh", latitude: 26.8467, longitude: 80.9462 }, 
+      { title: "Madhya Pradesh", latitude: 23.4733, longitude: 77.9470 }, 
+      { title: "Haryana", latitude: 29.0588, longitude: 76.0856 }, 
+      { title: "Chhattisgarh", latitude: 21.2787, longitude: 81.8661 }, 
+      { title: "Nepal", latitude: 28.3949, longitude: 84.1240 } 
     ];
     
     
@@ -700,7 +700,7 @@ Choosing the right cooling solution can significantly impact your comfort, energ
 
 
 
-              <img className="  rounded-md" src="/po.png" alt="Hero Image"  />
+              <img className="  rounded-md" src="/po.webp" alt="Hero Image"  />
               <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -726,7 +726,7 @@ Choosing the right cooling solution can significantly impact your comfort, energ
                 <div className="relative  flex-auto">
                   
                  
-                     <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/lrCuiQKhzpg?si=9YXv4snGgFg7rXA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/lrCuiQKhzpg?si=9YXv4snGgFg7rXA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
                 </div>
                 {/*footer*/}
