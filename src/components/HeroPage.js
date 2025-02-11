@@ -466,6 +466,7 @@ export default function HeroPage() {
 
 
         <div
+        
           className="relative w-full h-screen overflow-hidden"
           ref={containerRef}
           onMouseDown={handleMouseDown}
@@ -480,6 +481,7 @@ export default function HeroPage() {
                 }`}
             >
               <video
+              
                 autoPlay
                 loop
                 muted
@@ -499,13 +501,13 @@ export default function HeroPage() {
 
 
 
-              <div className="flex items-center h-full bg-black bg-opacity-40">
+              <div className="  flex items-center h-full bg-black bg-opacity-40">
 
                 <div className=" text-white  text-center md:text-left  lg:px-16">
-                  <p className="   text-3xl md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
-                  <p className=' text-[14px]  md:w-[70%]'>{slide.description}</p>
+                  <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
+                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.description}</p>
                   <button
-                className="cursor-pointer z-10 relative mt-4 text-sm px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
+                className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
                 style={{
                   background: `
                     radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%),

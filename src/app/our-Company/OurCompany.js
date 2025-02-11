@@ -550,8 +550,6 @@ export default function OurCompany() {
 
     </p>
 
-
-   
   </div>
 </div>
 
