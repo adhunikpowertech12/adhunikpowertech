@@ -489,7 +489,7 @@ export default function OurCompany() {
                 <div
                   key={page.id}
                   className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${page.id === activePage
-                      ? "opacity-100 scale-105"
+                      ? "opacity-100 scale-105 "
                       : "opacity-50"
                     }`}
                   onClick={() => !isScrolling && setActivePage(page.id)}
@@ -505,11 +505,16 @@ export default function OurCompany() {
                   <div
                     className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage
                         ? "border-2 border-cyan-500"
-                        : "bg-gray-400"
+                        : "bg-gray-400 "
                       }`}
                   ></div>
                   {/* Year */}
-                  <span className="text-white font-sans font-thin text-[14px]">
+                  <span className={` font-sans font-normal  text-[14px]
+                  ${page.id === activePage
+                      ? "opacity-100 scale-105 bg-white text-black rounded-full text-[12px] p-1"
+                      : "opacity-50 text-white"
+                    }
+                    `}>
                     {page.year}
                   </span>
                 </div>
