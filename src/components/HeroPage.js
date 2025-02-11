@@ -501,11 +501,11 @@ export default function HeroPage() {
 
 
 
-              <div className="  flex items-center h-full bg-black bg-opacity-40">
+              <div className="  flex items-center h-screen bg-black bg-opacity-40">
 
-                <div className=" text-white  text-center md:text-left  lg:px-16">
+                <div className=" text-white   text-center md:text-left  lg:px-16">
                   <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
-                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.description}</p>
+                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.description} </p>
                   <button
                 className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
                 style={{
@@ -528,15 +528,17 @@ export default function HeroPage() {
 
           {/* Progress indicators (dots) */}
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-            {slides.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => handleDotClick(index)}
-                className={`w-5 h-1 rounded-sm  ${index === currentSlide ? 'bg-[#FC6C1E]' : 'bg-gray-400'
-                  }`}
-              />
-            ))}
-          </div>
+  {slides.map((_, index) => (
+    <button
+      key={index}
+      onClick={() => handleDotClick(index)}
+      className={`w-5 h-1 rounded-sm ${index === currentSlide ? 'bg-[#FC6C1E]' : 'bg-gray-400'}`}
+      aria-label={`Go to slide ${index + 1}`}
+      aria-current={index === currentSlide ? "true" : undefined}
+    />
+  ))}
+</div>
+
 
         </div>
 
@@ -906,7 +908,7 @@ Product Overview
 
                           </div>
                           <div className="mt-auto ">
-                            <h4 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h4>
+                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
                             <p className="text-gray-400 tracking-tight leading-5">{service.description}</p>
                           </div>
                         </div>
@@ -958,7 +960,7 @@ Product Overview
           <section className=" ">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-4 text-center">
-                <h4 className="text-2xl  text-center font-medium"></h4>
+                <h2 className="text-2xl  text-center font-medium"></h2>
               </div>
 
               <div className="  grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">

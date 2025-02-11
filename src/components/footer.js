@@ -131,7 +131,7 @@ function Footer() {
               </h2>
               {links.map((link, idx) => (
                 <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe ">
+                  <Link  href={link.href} className="link link--thebe ">
                     {link.text}
                   </Link>
                 </p>
@@ -147,7 +147,7 @@ function Footer() {
               </h2>
               {links4.map((link, idx) => (
                 <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe ">
+                  <Link href={link.href} className="link link--thebe">
                     {link.text}
                   </Link>
                 </p>
@@ -162,7 +162,7 @@ function Footer() {
               </h2>
               {links2.map((link, idx) => (
                 <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe ">
+                  <Link href={link.href} className="link link--thebe">
                     {link.text}
                   </Link>
                 </p>
@@ -177,7 +177,7 @@ function Footer() {
               </h2>
               {links3.map((link, idx) => (
                 <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe ">
+                  <Link href={link.href} className="link link--thebe">
                     {link.text}
                   </Link>
                 </p>
