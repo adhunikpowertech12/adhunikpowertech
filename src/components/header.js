@@ -167,7 +167,7 @@ function Navbar() {
   useEffect(() => {
     if (pathname) {
       if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
-        setLogoSrc('/next2.png');
+        setLogoSrc('/next2.webp');
         setLogoSize({ width: '180', height: '44' }); // Custom size for vercel.svg
       } else {
         setLogoSrc('/we.svg');

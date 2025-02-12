@@ -104,11 +104,11 @@ export default function HeroPage() {
     { src: '/projects/5.webp', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112  },
     { src: '/projects/7.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/8.png', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/9.jpeg', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112  },
     { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112  },
     { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/11.png', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112  },
   ];
   
   const handleButtonClick = (buttonText) => {
@@ -292,22 +292,22 @@ export default function HeroPage() {
   ];
 
   const images6 = [
-    { src: '/l1.jpg', alt: 'pics', width: 120, height: 120 },
-    { src: '/l2.jpg', alt: 'pics', width: 150, height: 150 }, // Custom size
-    { src: '/GEM.png', alt: 'pics', width: 220, height: 220 },
-    { src: '/RL.png', alt: 'pics', width: 200, height: 100 }, // Custom size
-    { src: '/l3.jpg', alt: 'pics', width: 120, height: 120 },
-    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 },
+    { src: '/l1.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/l2.webp', alt: 'pics', width: 150, height: 150 }, // Custom size
+    { src: '/GEM.webp', alt: 'pics', width: 220, height: 220 },
+    { src: '/RL.webp', alt: 'pics', width: 200, height: 100 }, // Custom size
+    { src: '/l3.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
 
   const images7 = [
-    { src: '/l1.jpg', alt: 'pics', width: 50, height: 50 },
-    { src: '/l2.jpg', alt: 'pics', width: 50, height: 50 }, 
-    { src: '/GEM.png', alt: 'pics', width: 50, height: 50 },
-    { src: '/RL.png', alt: 'pics', width: 50, height: 50 },
-    { src: '/l3.jpg', alt: 'pics', width: 120, height: 50 },
-    { src: '/NHWC.png', alt: 'pics', width: 120, height: 120 },
+    { src: '/l1.webp', alt: 'pics', width: 50, height: 50 },
+    { src: '/l2.webp', alt: 'pics', width: 50, height: 50 }, 
+    { src: '/GEM.webp', alt: 'pics', width: 50, height: 50 },
+    { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
+    { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
+    { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
   
