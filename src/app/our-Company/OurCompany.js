@@ -453,14 +453,24 @@ export default function OurCompany() {
 
   return (
     <>
-         <div className="container-fluid">
+      <div className="container-fluid">
         <div className="row">
+
+
+
           <div id="myslide" className="   hidden lg:block  h-screen w-full overflow-hidden relative">
             {/* Slide Pages */}
+
+
+
+
+
+
             <div
               className="h-full w-full transition-transform ease-in-out duration-500"
               style={{ transform: `translateY(-${activePage * 100}vh)` }}
             >
+
               {pages.map((page) => (
                 <div
                   key={page.id}
@@ -489,23 +499,23 @@ export default function OurCompany() {
                 <div
                   key={page.id}
                   className={`flex items-center w-40 justify-start mb-4 cursor-pointer transition-all duration-300 ${page.id === activePage
-                      ? "opacity-100 scale-105 "
-                      : "opacity-50"
+                    ? "opacity-100 scale-105 "
+                    : "opacity-50"
                     }`}
                   onClick={() => !isScrolling && setActivePage(page.id)}
                 >
                   {/* Indicator Circle */}
                   <div
                     className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage
-                        ? "border-2 border-cyan-500"
-                        : "bg-gray-400"
+                      ? "border-2 border-cyan-500"
+                      : "bg-gray-400"
                       }`}
                   ></div>
                   {/* Indicator Line */}
                   <div
                     className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage
-                        ? "border-2 border-cyan-500"
-                        : "bg-gray-400 "
+                      ? "border-2 border-cyan-500"
+                      : "bg-gray-400 "
                       }`}
                   ></div>
                   {/* Year */}
@@ -522,314 +532,322 @@ export default function OurCompany() {
             </div>
           </div>
 
-        
+
         </div>
 
-        <div className="  block lg:hidden row h-screen flex mt-10  w-full overflow-hidden justify-center items-center">
+        <div className="  block lg:hidden row h-screen flex flex-col mt-10  w-full overflow-hidden justify-center items-center">
+          <p>
 
-        <Swiper
-        effect={'cards'}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper"
-      >
+            &gt;&gt; SWIPE RIGHT TO SEE MORE
 
 
-        <SwiperSlide>
+          </p>
+          <Swiper
+            effect={'cards'}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiper"
+          >
 
 
-        <div className="text-center 5">
+            <SwiperSlide>
 
-<div className="row">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >About Us</p>
-    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
-    <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
-      Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
-      Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
 
-    </p>
+              <div className="text-center ">
 
-  </div>
-</div>
+                <div className="row">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >About Us</p>
+                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
+                    <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
+                      Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
+                      Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
 
+                    </p>
 
-</div>
+                  </div>
+                </div>
 
-        </SwiperSlide>
 
-        <SwiperSlide>
+              </div>
 
-        <div className="text-center">
+            </SwiperSlide>
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2005  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
 
-    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
-      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
-    </div>
 
 
-   
-  </div>
-</div>
+            <SwiperSlide>
 
+              <div className="text-center">
 
-</div>
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2005  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
 
+                    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 lg:pl-7 md:text-2xl font-sans font-thin ">With a vision to provide innovative and sustainable HVAC solutions.</blockquote>
+                    </div>
 
-      
 
-        </SwiperSlide>
 
-        <SwiperSlide>
-    
+                  </div>
+                </div>
 
 
-        <div className="text-center">
+              </div>
 
 
 
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2010  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className="text-2xl   font-semibold  lg:text-justify font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing</p>
+            </SwiperSlide>
 
-    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
-      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 md:pl-7 md:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
-    </div>
+            <SwiperSlide>
 
 
-   
-  </div>
-</div>
 
+              <div className="text-center">
 
-</div>
 
 
-      
 
-        </SwiperSlide>
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2010  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing</p>
 
-        <SwiperSlide>
-    
-        <div className="text-center">
+                    <div className="text-[16px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 lg:pl-7 lg:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
+                    </div>
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2014  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans">
-    Product Launch:</span> Introduced Panel Air
-    Conditioner Manufacturing
-    </p>
 
-    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
-    milestone in our growth. </blockquote>
-    </div>
 
+                  </div>
+                </div>
 
-   
-  </div>
-</div>
 
+              </div>
 
-</div>
 
 
-      
 
-        </SwiperSlide>
+            </SwiperSlide>
 
+            <SwiperSlide>
 
-     
-        <SwiperSlide>
-    
-      
+              <div className="text-center">
 
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2014  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
+                      <span className=" font-semibold font-sans">
+                        Product Launch:</span> Introduced Panel Air
+                      Conditioner Manufacturing
+                    </p>
 
-        <div className="text-center">
+                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Launched Panel Air Conditioner Manufacturing, marking a significant
+                        milestone in our growth. </blockquote>
+                    </div>
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2016  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans"> Manufacturing Milestone:</span> Established a dedicated manufacturing plant 
-    </p>
 
-    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
-    </div>
 
+                  </div>
+                </div>
 
-   
-  </div>
-</div>
 
+              </div>
 
-</div>
 
 
-      
 
-        </SwiperSlide>
+            </SwiperSlide>
 
 
-     
-        <SwiperSlide>
-    
-        <div className="text-center">
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2017  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
+            <SwiperSlide>
 
-    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
-    </div>
 
 
-   
-  </div>
-</div>
 
+              <div className="text-center">
 
-</div>
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2016  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
+                      <span className=" font-semibold font-sans"> Manufacturing Milestone:</span> Established a dedicated manufacturing plant
+                    </p>
 
+                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Established a dedicated manufacturing plant to enhance production capabilities. </blockquote>
+                    </div>
 
-      
 
-        </SwiperSlide>
 
+                  </div>
+                </div>
 
-     
-        <SwiperSlide>
-    
-        <div className="text-center">
 
-      
+              </div>
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2020  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans"> Market Expansion:</span>  Started Ventilation Fan Manufacturing </p>
 
-    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
-    </div>
 
 
-   
-  </div>
-</div>
+            </SwiperSlide>
 
 
-</div>
 
+            <SwiperSlide>
 
-        </SwiperSlide>
+              <div className="text-center">
 
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2017  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
+                      <span className=" font-semibold font-sans"> Diversification:</span> Expanded into Oil Chiller Manufacturing </p>
 
-     
+                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
+                    </div>
 
 
-      
-        <SwiperSlide>
-    
-        <div className="text-center">
 
-   
+                  </div>
+                </div>
 
-<div className="row h-[30rem]">
-  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-    <p className="text-3xl   text-justify font-sans font-semibold   md:text-3xl py-5  " >2024  </p>
-    <p className="text-3xl   text-justify font-sans font-thin  italic md:text-3xl  px-4 py-3 " >Our Journey </p>
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
-    <span className=" font-semibold font-sans"> Service Expansion:</span>   Added Fire & Safety Services </p>
 
+              </div>
 
-    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  md:text-5xl  " >
 
 
-    <span className=" font-semibold font-sans"> Rebranding:</span>
-                The company name changed to Adhunik Powertech Private Limited </p>
 
-    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
-    <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7  font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited </blockquote>
-    </div>
+            </SwiperSlide>
 
 
-   
-  </div>
-</div>
 
+            <SwiperSlide>
 
-</div>
+              <div className="text-center">
 
 
-        </SwiperSlide>
 
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2020  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
+                      <span className=" font-semibold font-sans"> Market Expansion:</span>  Started Ventilation Fan Manufacturing </p>
 
-     
+                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Expanded our product portfolio with Ventilation Fan Manufacturing. </blockquote>
+                    </div>
 
 
-      
-        <SwiperSlide>
-    
-        <div className="text-center">
 
-   
+                  </div>
+                </div>
 
 
+              </div>
 
 
-<div className="row ">
+            </SwiperSlide>
 
 
 
-<div className="row h-[30rem] flex flex-col justify-center items-center">
 
- <p>
- Growing Stronger,
 
- </p>
- <span> Innovating Always… </span>
-  
 
+            <SwiperSlide>
 
-</div>
+              <div className="text-center">
 
 
 
-</div>
+                <div className="row h-[30rem]">
+                  <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
+                    <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2024  </p>
+                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
+                      <span className=" font-semibold font-sans"> Service Expansion:</span>   Added Fire & Safety Services </p>
 
 
-</div>
+                    <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
 
 
-        </SwiperSlide>
+                      <span className=" font-semibold font-sans"> Rebranding:</span>
+                      The company name changed to Adhunik Powertech Private Limited </p>
 
+                    <div className="text-[13px]  text-justify font-sans font-thin pt-7">
+                      <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited </blockquote>
+                    </div>
 
-     
 
 
-      
-      
-      </Swiper>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </SwiperSlide>
+
+
+
+
+
+
+            <SwiperSlide>
+
+              <div className="text-center">
+
+
+
+
+
+
+                <div className="row ">
+
+
+
+                  <div className="row h-[30rem] flex flex-col justify-center items-center">
+
+                    <p>
+                      Growing Stronger,
+
+                    </p>
+                    <span> Innovating Always… </span>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+              </div>
+
+
+            </SwiperSlide>
+
+
+
+
+
+
+
+          </Swiper>
         </div>
 
 
