@@ -605,7 +605,7 @@ function Navbar() {
 
 
 
-      <div className={`mobile-menu lg:hidden  ${isMobileMenuOpen ? 'mobile-menu-open bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
+      <div className={`mobile-menu xl:hidden  ${isMobileMenuOpen ? 'mobile-menu-open bg-gray-100 text-black' : 'mobile-menu-closed'}`}>
         {isMobileMenuOpen && links.map((link, index) => (
           <div key={index} className="mx-7 mb-2 border-b-2">
             {link.dropdownItems ? (
