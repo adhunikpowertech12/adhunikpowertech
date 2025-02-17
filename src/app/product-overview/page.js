@@ -87,7 +87,7 @@ export default function page2() {
       id: 1,
       title: ' Air Washer',
       description: 'Breathe easy with our air washers. Experience cleaner, fresher air by removing pollutants and allergens. ',
-      imgSrc: '/AWI.png',
+      imgSrc: '/AWP.webp',
       link: '/air-washer',
       imgHeight: "250px ",
       imgWidth: "250px ",
@@ -96,7 +96,7 @@ export default function page2() {
       id: 2,
       title: ' Ducted Air Coolers ',
       description: 'Stay comfortable in style. Our ducted air coolers provide quiet, efficient cooling without compromising your space.',
-      imgSrc: '/DCI.png',
+      imgSrc: '/DCP.webp',
       link: '/ducted-air-cooler',
       imgHeight: "250px    ",
       imgWidth: "250px ",
@@ -105,7 +105,7 @@ export default function page2() {
       id: 3,
       title: ' Ventlilation Exhaust Fan ',
       description: ' Create a healthier, more comfortable indoor environment. Our ventilation exhaust fans remove moisture, odors, and pollutants. ',
-      imgSrc: '/efss.png',
+      imgSrc: '/efss.webp',
       link: '/ventilation-fans',
       imgHeight: "250px ",
       imgWidth: " 250px  ",
@@ -118,7 +118,7 @@ export default function page2() {
       id: 1,
       title: ' PANEL AIR CONDITIONER ',
       description: 'Keep your CNC and electrical panels running smoothly. Our panel air conditioners provide precise temperature control and reliable cooling, preventing overheating and system failures.',
-      imgSrc: '/panelac.png',
+      imgSrc: '/panelac.webp',
       link: '/panel-air-conditioners',
       imgHeight: "350px",
       imgWidth: "350px",
@@ -127,7 +127,7 @@ export default function page2() {
       id: 2,
       title: ' OIL AND COOLANT CHILLER ',
       description: 'Protect your valuable machinery and maintain optimal operating temperatures with our efficient oil and coolant chillers. Prevent overheating, reduce downtime, and improve overall productivity.',
-      imgSrc: '/OC.png',
+      imgSrc: '/OC.webp',
       link: '/chiller-oil-water-coolant',
       imgHeight: "350px",
       imgWidth: "350px",
@@ -136,7 +136,7 @@ export default function page2() {
       id: 3,
       title: 'AIR SHOWER ',
       description: ' Maintain a clean and controlled environment with our high-performance air showers. Effectively remove dust, debris, and contaminants from personnel before entering critical areas. ',
-      imgSrc: '/as.png',
+      imgSrc: '/as.webp',
       link: '/air-washer',
       imgHeight: "350px",
       imgWidth: "350px",
@@ -145,7 +145,7 @@ export default function page2() {
       id: 4,
       title: 'Air Handling Unit ',
       description: ' Optimize indoor air quality and comfort with our efficient air handling units. Control temperature, humidity, and airflow for a healthy and productive environment. ',
-      imgSrc: '/AHU.png',
+      imgSrc: '/AHU.webp',
       link: '/air-handling-unit',
       imgHeight: "350px",
       imgWidth: "350px",
@@ -305,26 +305,26 @@ export default function page2() {
       id: 1,
       title: "Unmatched Variety  ",
       description: "Our extensive product range caters to diverse needs and budgets, ensuring you find the perfect fit for your requirements.",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+      
     },
    
     {
       id: 2,
       title: "Eco-Conscious Cooling ",
       description: "Our eco-friendly products bring in fresh, outside air while minimizing environmental impact.  ",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+      
     },
     {
       id: 3,
       title: "Unwavering Support  ",
       description: "We offer a standard 1-year warranty, backed by 10 years of reliable spare parts support, ensuring long-term peace of mind.  ",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+      
     },
     {
       id: 4,
       title: "Global Reach  ",
       description: "Our products are readily available across India and exported globally, making us a trusted choice worldwide.  ",
-      imgSrc: "https://plus.unsplash.com/premium_photo-1672847671576-21241c8e28f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZHVzdHJpYWx8ZW58MHx8MHx8fDA%3D",
+      
     },
     // Add more items as needed
   ];
@@ -632,11 +632,7 @@ Choosing the right cooling solution can significantly impact your comfort, energ
           href="#"
           className=" cursor-pointer flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
         >
-          {/* <img
-            className="rounded-full h-14 w-14 "
-            src={item.imgSrc}
-            alt=""
-          /> */}
+         
           <div className="flex flex-col justify-between py-2 px-4 leading-normal">
             <h5 className="mb-2 text-[15px] font-bold tracking-tight    dark:text-white">
               {item.title}

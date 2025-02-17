@@ -10,22 +10,26 @@ export default function page() {
       src: "/certi/award1.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
-    },
+    }
+    ,
     {
       src: "/certi/award2.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
-    },
+    }
+    ,
     {
       src: "/certi/award3.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
-    },
+    }
+    ,
     {
       src: "/certi/award4.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
-    },
+    }
+    ,
     {
       src: "/certi/award5.webp",
       alt: "Ducted Air Coolers",

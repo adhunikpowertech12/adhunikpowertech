@@ -6,22 +6,22 @@ export default function page() {
 
   const products = [
     {
-      src: "/certi/7.jpg",
+      src: "/certi/7.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
     {
-      src: "/certi/8.jpg",
+      src: "/certi/8.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
     {
-      src: "/certi/9.jpg",
+      src: "/certi/9.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
     {
-      src: "/certi/10.png",
+      src: "/certi/10.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
@@ -31,7 +31,7 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
     {
-      src: "/certi/12.jpg",
+      src: "/certi/12.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
