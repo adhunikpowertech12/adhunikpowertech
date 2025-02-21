@@ -5,6 +5,7 @@ import React from 'react'
 export default function page() {
 
   const products = [
+
     { src: "/productClients/1.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/2.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/3.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
@@ -47,9 +48,6 @@ export default function page() {
     { src: "/productClients/40.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/41.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/42.jpg", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
-
-
-    
     { src: "/productClients/43.webp", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/44.webp", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/45.webp", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
@@ -75,70 +73,70 @@ export default function page() {
     { src: "/productClients/65.webp", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
     { src: "/productClients/66.webp", alt: "Ducted Air Coolers", borderColor: "border-yellow-500" },
   ];
-  
-  
+
+
   return (
     <>
-    
-
-    <div className="row   mt-36">
-
-<p className=" text-2xl md:text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </p>
 
 
-<div className="col">
+      <div className="row   mt-36">
+
+        <p className=" text-2xl md:text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </p>
 
 
-  <div className="  justify-center   ">
+        <div className="col">
 
 
-    <div className="row">
+          <div className="  justify-center   ">
 
 
-      <div className="col py-4">
+            <div className="row">
 
 
-      <div className="items-center justify-center h-full">
+              <div className="col py-4">
 
-      <div className="flex-row flex flex-wrap justify-center items-center gap-5 pt-5 pb-10">
 
-      {products.map((item, index) => (
-        <div key={index} className="md:w-[15%]  ">
+                <div className="items-center justify-center h-full">
 
-          <div className=" group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
-            <div className="w-auto  items-center flex justify-center">
-              <div className={`w-full rounded-xl  bg-white   ${item.borderColor}`}>
-                <img
-                  className={`h-[50%] border w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `} // Dynamic border color
-                  src={item.src}
-                  fetchPriority="high"
-                  decoding="async"
-                  alt={item.alt}
-                />
+                  <div className="flex-row flex flex-wrap justify-center items-center gap-5 pt-5 pb-10">
+
+                    {products.map((item, index) => (
+                      <div key={index} className="md:w-[15%]  ">
+
+                        <div className=" group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
+                          <div className="w-auto  items-center flex justify-center">
+                            <div className={`w-full rounded-xl  bg-white   ${item.borderColor}`}>
+                              <img
+                                className={`h-[50%] border w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `} // Dynamic border color
+                                src={item.src}
+                                fetchPriority="high"
+                                decoding="async"
+                                alt={item.alt}
+                              />
+
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+
+
+
+                  </div>
+
+                  <p className=' text-center'>And Many More.</p>
+                </div>
 
               </div>
-          
+
             </div>
+
           </div>
+
         </div>
-      ))}
-
-      
-      
-    </div>
-
-    <p className=' text-center'>And Many More.</p>
-</div>
 
       </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-</div>
     </>
   )
 }

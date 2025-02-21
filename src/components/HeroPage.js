@@ -298,6 +298,7 @@ export default function HeroPage() {
     { src: '/RL.webp', alt: 'pics', width: 200, height: 100 }, // Custom size
     { src: '/l3.webp', alt: 'pics', width: 120, height: 120 },
     { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/NTIC.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
 
