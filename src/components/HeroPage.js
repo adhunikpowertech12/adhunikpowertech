@@ -308,7 +308,7 @@ export default function HeroPage() {
     { src: '/GEM.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
-    { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/NHWC.webp', alt: 'pics', width: 119, height: 119 },
     { src: '/NTIC.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
