@@ -34,7 +34,7 @@ export default function FireHydrantSystem() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Hydrant"
-                          src=" https://5.imimg.com/data5/ANDROID/Default/2023/11/359513701/RH/FG/DT/29794236/product-jpeg-500x500.jpg"
+                          src=" firex/fh1.webp"
                         />
                       </div>
                     </div>
@@ -173,7 +173,7 @@ freezing in colder climates.</li>
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Hydrant"
-                          src=" https://5.imimg.com/data5/SELLER/Default/2024/6/425222064/TX/AN/UE/6616348/fire-hydrant-system-500x500.jpg"
+                          src=" firex/fh2.webp"
                         />
                       </div>
                     </div>

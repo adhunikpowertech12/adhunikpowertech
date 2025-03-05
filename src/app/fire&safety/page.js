@@ -96,7 +96,7 @@ export default function FireSafety() {
     },
     {
       id: 3,
-      imgSrc: 'https://www.shyamafireprotectionservices.com/images/sfty-prdcts.jpg',
+      imgSrc: 'https://media.istockphoto.com/id/1165656389/photo/detector-on-ceiling.jpg?s=612x612&w=0&k=20&c=M5kL8whMCn2Muk60qVP4Bxb6Vbn0QkqNboAKOVADqjs=',
       imgAlt: 'smoke detector',
       title: 'Best Price',
       description: "When it comes to fire safety, one shouldn't compromise on cost. Our equipment and services are more affordable than most in the market, without sacrificing quality.",
@@ -616,8 +616,8 @@ export default function FireSafety() {
                           className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
-                          alt="Air washer"
-                          src=" https://media.istockphoto.com/id/935712068/photo/fire-security-equipment-and-blueprint-on-a-table-good-for-security-servise-engeniering-company.jpg?s=612x612&w=0&k=20&c=1gI3Fsg8aLKxAGjAxhQpKA1g2tDIb_ye3awHgb8wVQM= "
+                          alt="fire alarm system"
+                          src=" firex/fire-alarm-system.webp"
                         />
                       </div>
                     </div>
