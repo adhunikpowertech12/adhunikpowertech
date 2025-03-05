@@ -914,13 +914,13 @@ onclick="location.href='tel:+919953909177'; return false;"  className="  rounded
   </span>
 
 </span>
-<button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
+<button className='z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
 </div>
 
 
 
 
-<img className="md:h-[70%] rounded-md" src="/pacth.png" alt="Hero Image" />
+<img className="md:h-[70%] rounded-md" src="/pacth.webp" alt="Hero Image" />
 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
