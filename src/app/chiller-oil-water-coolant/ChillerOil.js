@@ -529,17 +529,17 @@ export default function ChillerOil() {
   <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
 
-
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (5 TR.) </h2>
+      <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Oil Chiller Unit (5 TR.) </h2>
       <p className="text-justify md:text-center">
-        Improve your industrial operations with our 5 TR Oil/Coolant Chiller. This advanced refrigeration system delivers precise temperature control, extending the lifespan and performance of your critical equipment. Designed with durability, energy efficiency, and ease of maintenance in mind, our chiller ensures reliable operation year-round. Featuring microprocessor control and high-efficiency components, our factory-tested chiller guarantees a seamless installation and dependable performance.  </p>
+        Improve your industrial operations with our 5 TR Oil/Coolant Chiller. This advanced refrigeration system delivers precise temperature control, extending the lifespan and performance of your critical equipment. Designed with durability, energy efficiency, and ease of maintenance in mind, our chiller ensures reliable operation year-round. Featuring microprocessor control and high-efficiency components, our factory-tested chiller guarantees a seamless installation and dependable performance.  
+        </p>
       <div className="show_m mt-5">
         <button
           className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
           onClick={() => {
             window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-          }}
+          }} 
         >
           Enquiry Now
         </button>

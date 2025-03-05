@@ -86,9 +86,9 @@ function Navbar() {
         { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
         { label: " Fire suppression system ", href: "/fire-suppression-system" },
         { label: " Fire Alarm System ", href: "/fire-alarm-system " },
-        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
         { label: " Fire tubing system ", href: "/fire-tubing-system " },
         { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
+        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
       ],
     },
     {
@@ -227,9 +227,9 @@ function Navbar() {
         { label: " Fire Sprinkler System ", href: "/fire-sprinkler-system" },
         { label: " Fire suppression system ", href: "/fire-suppression-system" },
         { label: " Fire Alarm System ", href: "/fire-alarm-system" },
-        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
         { label: " Fire tubing system ", href: "/fire-tubing-system " },
         { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
+        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
       ],
     },
     {

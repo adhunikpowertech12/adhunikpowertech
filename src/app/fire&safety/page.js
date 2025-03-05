@@ -682,25 +682,43 @@ various environments where traditional wiring is not feasible.</li>
 
 
         <div className="row">
-          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-           
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+        
+   
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3    ">Glow Signage and Emergency Lights</h2>
-              <p className=' text-center md:text-justify' > Glow signage and emergency lights are critical components of safety management in public spaces,
-commercial buildings, and industrial facilities. They serve to guide and inform occupants during
-emergencies, ensuring a safe and efficient evacuation. </p>
-              <h2 className=' text-2xl text-left py-4 underline'> Types of Glow Signage </h2>
-              <div className="text-start md:text-justify ">
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire VESDA System </h2>
+              <p className=' text-center md:text-justify' >   The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
+detection solution designed to provide early warning of potential fire risks. This system is widely
+recognized for its ability to detect smoke at extremely low concentrations—often well before visible
+signs of smoke or flames appear—making it a critical component in modern fire protection systems,
+especially in environments where rapid response is vital. </p>
+              <h2 className=' text-2xl text-left py-4 underline'> Key Components </h2>
+              <div className="text-left md:text-justify ">
                 <ul className="list-disc ps-4">
-                  <li> <span className=" font-bold font-sans "> Exit Signs:  </span> Indicate the nearest exit routes, guiding occupants to safety.</li>
-                  <li><span className=" font-bold font-sans "> Directional Signs:  </span> Provide information on the location of exits, restrooms, fire
-                  extinguishers, and assembly points.</li>
-                  <li><span className=" font-bold font-sans "> Safety Instructions: </span> Communicate essential safety protocols, such as “Emergency Exit
-Only” or “No Smoking.
+
+
+
+
+
+ 
+                  <li> <span className=" font-bold font-sans "> High Sensitivity : </span>
+                  
+             
+ Detects smoke at low concentrations, often well before visible signs of fire.
+                  </li>
+                  <li><span className=" font-bold font-sans ">  Early Warning :  </span> 
+                  Offers pre-alarms for early intervention, preventing fire spread.
+                  </li>
+                  <li><span className=" font-bold font-sans ">    Multiple Alarm Levels : </span>
+                Alerts vary from pre-alarm to full fire alarms, allowing for appropriate
+                  response.
 ”</li>
-<li><span className=" font-bold font-sans "> Hazard Signs:  </span> Warn of potential hazards, like “Flammable Materials” or “Electrical Hazard.
+<li><span className=" font-bold font-sans "> Wide Coverage:  </span> Suitable for large or complex spaces with its pipe-based air sampling.
+”</li>
+                
+<li><span className=" font-bold font-sans "> Integration :  </span> Can work with other fire safety systems like sprinklers and alarms.
+       
 ”</li>
                 
 
@@ -709,7 +727,7 @@ Only” or “No Smoking.
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                 href='/glow-signage-&-emergency-lights'
+                href='/fire-VESDA-system'
                 >
                   Know More
                 </Link>
@@ -726,17 +744,17 @@ Only” or “No Smoking.
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  md:h-[28rem]  object-center object-fill "
+                          className="    object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
-                          src="firex/10.png"
+                          src="vs2.webp"
                         />
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-2xl font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </h2>
+                      <h2 className="font-dmserif text-2xl font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
                       </p>
@@ -873,44 +891,28 @@ case of activation.
 
         </div>
 
+       
+
         <div className="row">
-          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-        
-   
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+
+           
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire VESDA System </h2>
-              <p className=' text-center md:text-justify' >   The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
-detection solution designed to provide early warning of potential fire risks. This system is widely
-recognized for its ability to detect smoke at extremely low concentrations—often well before visible
-signs of smoke or flames appear—making it a critical component in modern fire protection systems,
-especially in environments where rapid response is vital. </p>
-              <h2 className=' text-2xl text-left py-4 underline'> Key Components </h2>
-              <div className="text-left md:text-justify ">
+              <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3    ">Glow Signage and Emergency Lights</h2>
+              <p className=' text-center md:text-justify' > Glow signage and emergency lights are critical components of safety management in public spaces,
+commercial buildings, and industrial facilities. They serve to guide and inform occupants during
+emergencies, ensuring a safe and efficient evacuation. </p>
+              <h2 className=' text-2xl text-left py-4 underline'> Types of Glow Signage </h2>
+              <div className="text-start md:text-justify ">
                 <ul className="list-disc ps-4">
-
-
-
-
-
- 
-                  <li> <span className=" font-bold font-sans "> High Sensitivity : </span>
-                  
-             
- Detects smoke at low concentrations, often well before visible signs of fire.
-                  </li>
-                  <li><span className=" font-bold font-sans ">  Early Warning :  </span> 
-                  Offers pre-alarms for early intervention, preventing fire spread.
-                  </li>
-                  <li><span className=" font-bold font-sans ">    Multiple Alarm Levels : </span>
-                Alerts vary from pre-alarm to full fire alarms, allowing for appropriate
-                  response.
+                  <li> <span className=" font-bold font-sans "> Exit Signs:  </span> Indicate the nearest exit routes, guiding occupants to safety.</li>
+                  <li><span className=" font-bold font-sans "> Directional Signs:  </span> Provide information on the location of exits, restrooms, fire
+                  extinguishers, and assembly points.</li>
+                  <li><span className=" font-bold font-sans "> Safety Instructions: </span> Communicate essential safety protocols, such as “Emergency Exit
+Only” or “No Smoking.
 ”</li>
-<li><span className=" font-bold font-sans "> Wide Coverage:  </span> Suitable for large or complex spaces with its pipe-based air sampling.
-”</li>
-                
-<li><span className=" font-bold font-sans "> Integration :  </span> Can work with other fire safety systems like sprinklers and alarms.
-       
+<li><span className=" font-bold font-sans "> Hazard Signs:  </span> Warn of potential hazards, like “Flammable Materials” or “Electrical Hazard.
 ”</li>
                 
 
@@ -919,7 +921,7 @@ especially in environments where rapid response is vital. </p>
               <div className="show_m mt-5">
                 <Link
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                href='/fire-VESDA-system'
+                 href='/glow-signage-&-emergency-lights'
                 >
                   Know More
                 </Link>
@@ -936,17 +938,17 @@ especially in environments where rapid response is vital. </p>
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="    object-center object-fill "
+                          className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
-                          src="vs2.webp"
+                          src="firex/10.png"
                         />
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-2xl font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </h2>
+                      <h2 className="font-dmserif text-2xl font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
                       </p>
