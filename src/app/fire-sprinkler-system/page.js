@@ -31,7 +31,7 @@ export default function DuctedAirCooler() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Sprinkler"
-                          src=" https://media.istockphoto.com/id/485980813/photo/sprinklers.jpg?s=612x612&w=0&k=20&c=NiMSUTWlIQLduig8JI7mg1VOL13-LPIN_Mh_Q_AIO9o= "
+                          src=" firex/fss2.webp "
                         />
                       </div>
                     </div>
@@ -419,6 +419,7 @@ window.location.href = 'tel:+919870284753'; // Replace with the actual phone num
     >
 
      Call Us Now
+
 
     </button>
 

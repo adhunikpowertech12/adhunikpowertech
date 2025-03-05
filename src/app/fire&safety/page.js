@@ -459,7 +459,7 @@ export default function FireSafety() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Air washer"
-                          src="https://media.istockphoto.com/id/183351263/photo/fire-sprinkler.jpg?s=612x612&w=0&k=20&c=_VZHbpRW55jCIFxavy0t2MmMN-CwSZN6kkisYwXgU4Y="
+                          src="firex/fss2.webp"
                         />
                       </div>
                     </div>
