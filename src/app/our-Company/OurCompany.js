@@ -243,7 +243,7 @@ export default function OurCompany() {
 
       year: '2016',
 
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/blog/2016.webp',
 
       content: (
 
@@ -280,7 +280,7 @@ export default function OurCompany() {
       id: 5,
       year: '2017',
 
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/blog/2017.webp',
       content: (
 
         <div className="z-10 text-center">

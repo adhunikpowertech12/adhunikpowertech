@@ -35,6 +35,11 @@ export default function page() {
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
+    {
+      src: "/certi/award6.webp",
+      alt: "Ducted Air Coolers",
+      borderColor: "border-yellow-500", // Custom border color
+    },
 
   
 
