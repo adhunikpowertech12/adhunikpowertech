@@ -92,13 +92,8 @@ export default function OurCompany() {
   // Track if myslide is in view
   const pages = [
 
-
-
-
     {
       id: 0,
-
-
       year: 'Overview',
 
       bgImage: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp',

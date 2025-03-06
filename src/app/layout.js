@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
 import { GoogleTagManager } from '@next/third-parties/google'
+import Head from "next/head";
  
 
 
@@ -31,12 +32,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
+  const jsonLd = {
+    
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "adhunik powertech",
+    "url": "https://www.adhunikpowertech.com/",
+    "alternateName": "Adhunik Powertech Private Limited",
   
+  };
 
   return (
     
     <html lang="en">
-  
+   <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    </Head>
       <head>
 <GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
@@ -45,7 +59,7 @@ export default function RootLayout({ children }) {
   
 </Script>
 
-      <Script  id="google-analytics">
+      <Script  id="google-analytics" >
 
  {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -55,9 +69,6 @@ export default function RootLayout({ children }) {
 
 </Script>
       
-
-   
-
 
         <link
           rel="stylesheet"
@@ -70,6 +81,9 @@ export default function RootLayout({ children }) {
 <link rel="icon" href="/favicon.ico" sizes="any" />
 
       </head>
+
+
+
       <body className={inter.className}>
       <Analytics/>
       <SpeedInsights/>
@@ -80,6 +94,7 @@ export default function RootLayout({ children }) {
 height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></noscript>
 
         {children}
+        
         <Footer />
         
       </body>
