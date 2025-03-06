@@ -33,10 +33,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   const jsonLd = {
-    
+
     "@context": "https://schema.org/",
     "@type": "WebSite",
-    "name": "adhunik powertech",
+    "name": "Adhunik Powertech",
     "url": "https://www.adhunikpowertech.com/",
     "alternateName": "Adhunik Powertech Private Limited",
   
