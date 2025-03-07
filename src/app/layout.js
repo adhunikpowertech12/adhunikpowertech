@@ -32,25 +32,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
-  const jsonLd = {
 
-    "@context": "https://schema.org/",
-    "@type": "WebSite",
-    "name": "Adhunik Powertech",
-    "url": "https://www.adhunikpowertech.com/",
-    "alternateName": "Adhunik Powertech Private Limited",
-  
-  };
 
   return (
     
     <html lang="en">
-   <Head>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-    </Head>
+   
       <head>
 <GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />

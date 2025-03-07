@@ -15,7 +15,7 @@ export const metadata = {
     "Gurugram cooling systems"
   ],
   openGraph: {
-    title: "Adhunik Powertech | HVAC & Air Cooling Systems Gurugram",
+    title: "Adhunik Powertech ",
     description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
     url: "https://www.adhunikpowertech.com/",
     siteName: "Adhunik Powertech", 

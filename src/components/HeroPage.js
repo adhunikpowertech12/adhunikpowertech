@@ -423,7 +423,7 @@ export default function HeroPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Website",
-    "name": "Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India",
+    "name": "Adhunik Powertech",
     "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp",
     "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems",
     "url": "https://www.adhunikpowertech.com/"
