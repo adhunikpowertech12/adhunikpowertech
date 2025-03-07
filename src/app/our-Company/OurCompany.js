@@ -267,7 +267,7 @@ export default function OurCompany() {
                   <path className="a3" d="M0 40 L30 72 L60 40"></path>
                 </svg>
               </div>
-              
+
             </div>
           </div>
 
@@ -549,7 +549,7 @@ export default function OurCompany() {
             <SwiperSlide>
 
 
-              <div className="text-center ">
+              <div className="text-center bg-[#00000051]">
 
                 <div className="row">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -574,7 +574,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -603,7 +603,7 @@ export default function OurCompany() {
 
 
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
 
 
@@ -633,7 +633,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]" >
 
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -670,7 +670,7 @@ export default function OurCompany() {
 
 
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -701,7 +701,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -731,7 +731,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
 
 
@@ -764,7 +764,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
 
 
@@ -804,7 +804,7 @@ export default function OurCompany() {
 
             <SwiperSlide>
 
-              <div className="text-center">
+              <div className="text-center bg-[#00000051]">
 
 
 
