@@ -90,7 +90,6 @@ export default function page() {
       ];
 
 
-
     const features4 = [
         {
           title: '  Reliability',
@@ -121,18 +120,20 @@ export default function page() {
     <>
 
       <section className=" py-8 mt-32 lg:px-8">
+
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full">
               <div className="blog-section-content">
                 {/* Title Section */}
+
                 <h1 className="text-4xl text-gray-700 font-bold mb-4 text-center">
-                What is a Panel Air Conditioner?
+                What is a Panel Air Conditioner ?
                 </h1>
 
                 <p className="mb-4 text-gray-700 font-sans font-normal">
                   <Link
-                    href="#"
+                    href="/panel-air-conditioners"
                     className="text-blue-500 hover:underline capitalize"
                   >
                   panel air conditioner
@@ -142,7 +143,7 @@ export default function page() {
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl text-gray-600 font-semibold mb-3">
-                How Does a Panel Air Conditioner Work?
+                How Does a Panel Air Conditioner Work ?
                 </h2>
 
                 <div className="blog-img mb-6 text-center">
@@ -160,60 +161,68 @@ export default function page() {
 
 
 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+<ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
  
                 {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3 text-gray-600">
-                Why Are Panel Air Conditioners Important?
+                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2">
+                Why Are Panel Air Conditioners Important ?
                 </h3>
 
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features2.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features2.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
                 {/* Image 1 */}
              
                 {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3 text-gray-600">
+                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2">
                 Key Features of Panel Air Conditioners
 
                 </h3>
 
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features3.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features3.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
                 {/* Image 1 */}
              
 
                 {/* Manufacturer Section */}
-                <h3 className=" text-center text-xl font-medium mb-3 ">
-                Adhunik Powertech: A Leading Panel Air Conditioner Manufacturer in India
+                <h3 className=" text-center text-xl font-medium mb-3  mt-4">
+                Adhunik Powertech : A Leading Panel Air Conditioner Manufacturer in India
 
                 </h3>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-                Adhunik Powertech is a renowned name in the field of panel air conditioner manufacturing in India. They offer a wide range of high-quality panel air conditioners designed to meet the diverse needs of various industries.
+                 <Link
+                    href="/"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+               Adhunik Powertech
+                  </Link>  is a renowned name in the field of panel air conditioner manufacturing in India. They offer a wide range of high-quality panel air conditioners designed to meet the diverse needs of various industries.
 
 
 
@@ -235,13 +244,15 @@ export default function page() {
                 </h3>
 
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features4.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-6 text-gray-700 space-y-2">
+  {features4.map((feature, index) => (
+    <li key={index} className="font-sans font-normal leading-relaxed">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
+
     </div>
 
         
@@ -257,7 +268,12 @@ export default function page() {
                 </p>
 
                 <p className="text-gray-700 font-sans font-normal pt-5">
-                In conclusion, <b>panel air conditioners</b>   play a crucial role in maintaining the optimal operating conditions for sensitive electronic components. By understanding their benefits and selecting a reputable manufacturer like Adhunik Powertech, you can ensure the longevity and efficiency of your industrial systems.
+                In conclusion, <b><Link
+                    href="/panel-air-conditioners"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+               panel air conditioners
+                  </Link> </b>   play a crucial role in maintaining the optimal operating conditions for sensitive electronic components. By understanding their benefits and selecting a reputable manufacturer like Adhunik Powertech, you can ensure the longevity and efficiency of your industrial systems.
 
             
                 
