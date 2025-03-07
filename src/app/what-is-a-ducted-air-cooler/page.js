@@ -37,7 +37,7 @@ export default function page() {
     const features2 = [
 
         {
-          title: '  Cooling Pads: ',
+          title: '  Cooling Pads',
           description:
             ' These are the core of the cooling process, providing a large surface area for water evaporation.  ',
         },
@@ -73,7 +73,7 @@ export default function page() {
   
     const features3 = [
         {
-          title: '  Energy Efficiency',
+          title: 'Energy Efficiency ',
           description:
             ' They consume significantly less electricity compared to air conditioners, leading to lower energy bills. ',
         },
@@ -138,24 +138,29 @@ export default function page() {
               <div className="blog-section-content">
                 {/* Title Section */}
                 <h1 className="text-4xl text-gray-700 font-bold mb-4 text-center">
-                What is a Ducted Air Cooler? A Comprehensive Guide
+                What is a Ducted Air Cooler ? A Comprehensive Guide
                 </h1>
 
 
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-                  As temperatures rise, finding effective and efficient cooling solutions becomes a priority. While air conditioners are a common choice, ducted air coolers offer a compelling alternative, particularly in dry climates. This article provides a comprehensive overview of what ducted air coolers are, how they work, their advantages, and where they are most effective.   
+                  As temperatures rise, finding effective and efficient cooling solutions becomes a priority. While air conditioners are a common choice, Ducted Air Coolers offer a compelling alternative, particularly in dry climates. This article provides a comprehensive overview of what ducted air coolers are, how they work, their advantages, and where they are most effective.   
 
                 </p>
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl text-gray-600 font-semibold mb-3">
-                What is a Ducted Air Cooler?
+                What is a Ducted Air Cooler ?
                 </h2>
 
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-                A ducted air cooler, also known as an evaporative cooler or swamp cooler, is a cooling system that utilizes the natural process of evaporation to lower air temperature. Unlike air conditioners that use refrigerants, ducted air coolers use water to cool the air. They are called "ducted" because they distribute the cooled air through a network of ducts, similar to central heating systems. 
+                A <Link
+                    href="/ducted-air-cooler"
+                    className="text-blue-500 hover:underline  "
+                  >
+               Ducted Air Cooler
+                  </Link>, also known as an evaporative cooler or swamp cooler, is a cooling system that utilizes the natural process of evaporation to lower air temperature. Unlike air conditioners that use refrigerants, ducted air coolers use water to cool the air. They are called "Ducted" because they distribute the cooled air through a network of ducts, similar to central heating systems. 
 
             </p>
 
@@ -170,64 +175,67 @@ export default function page() {
                 </div>
 
 
-<p className="text-2xl text-gray-600 font-semibold mb-3" > How Does a Ducted Air Cooler Work?</p>
-<p className=" text-gray-600 font-semibold mb-3">The working principle of a ducted air cooler is relatively simple:
+<p className="text-2xl text-gray-600 font-semibold mb-3" > How Does a Ducted Air Cooler Work ?</p>
+<p className=" text-gray-600 font-semibold mb-3">The working principle of a ducted air cooler is relatively simple :
 </p>
 
 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+<ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
  
                 {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3 text-gray-600">
-                Key Components of a Ducted Air Cooler:
+                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-3">
+                Key Components of a Ducted Air Cooler :
                 </h3>
 
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features2.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features2.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
                 {/* Image 1 */}
              
                 {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3 text-gray-600">
+                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2 text-center md:text-left">
                 Advantages of Ducted Air Coolers:
 
                 </h3>
 
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features3.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features3.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
                 {/* Image 1 */}
              
 
                 {/* Manufacturer Section */}
-                <h3 className=" text-left text-xl font-medium mb-3 ">
-                Where are Ducted Air Coolers Most Effective?
+                <h3 className=" text-left text-xl font-medium mb-3  mt-2">
+                Where are Ducted Air Coolers Most Effective ?
                 </h3>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-                Ducted air coolers are most effective in hot, dry climates with low humidity. These conditions maximize the rate of evaporation, resulting in significant cooling. They are commonly used in:  
+                Ducted air coolers are most effective in hot, dry climates with low humidity. These conditions maximize the rate of evaporation, resulting in significant cooling. They are commonly used in :  
 
 
                 </p>
@@ -238,14 +246,14 @@ export default function page() {
       <ul className="list-disc list-inside text-gray-700 mb-4">
         {features4.map((feature, index) => (
           <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
+            <span className="font-bold">{feature.title}</span> {feature.description}
           </li>
         ))}
       </ul>
     </div>
 
     <h3 className=" text-left text-xl font-medium mb-3 ">
-                Leading Provider: Adhunik Powertech
+                Leading Provider : Adhunik Powertech
                 </h3>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
@@ -267,10 +275,15 @@ export default function page() {
                 </div>
 
 
-<p className="text-2xl text-gray-600 font-semibold mb-3" > Conclusion:</p>
+<p className="text-2xl text-gray-600 font-semibold mb-3" > Conclusion :</p>
 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-Ducted air coolers offer an energy-efficient and environmentally friendly cooling solution, particularly in dry climates. While they may not be suitable for all environments, their advantages in terms of cost savings, improved air quality, and sustainability make them a compelling alternative to traditional air conditioning systems in the right conditions. Understanding their working principles, advantages, and limitations is crucial for making an informed decision about your cooling needs. 
+<Link
+                    href="/ducted-air-cooler"
+                    className="text-blue-500 hover:underline  "
+                  >
+               Ducted Air Coolers
+                  </Link> offer an energy-efficient and environmentally friendly cooling solution, particularly in dry climates. While they may not be suitable for all environments, their advantages in terms of cost savings, improved air quality, and sustainability make them a compelling alternative to traditional air conditioning systems in the right conditions. Understanding their working principles, advantages, and limitations is crucial for making an informed decision about your cooling needs. 
 
 
               </p>

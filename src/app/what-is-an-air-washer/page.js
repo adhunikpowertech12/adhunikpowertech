@@ -53,12 +53,12 @@ export default function page() {
                 </h1>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
                   <Link
-                    href="#"
-                    className="text-blue-500 hover:underline"
+                    href="/air-washer"
+                    className="text-blue-500 hover:underline pr-1"
                   >
-                    Air Washer
-                  </Link>{" "}
-                  works on the principle of evaporative air cooling. Inside the air
+                    Air Washer 
+                  </Link>
+                   works on the principle of evaporative air cooling. Inside the air
                   washer, large, specially designed cooling pads are kept
                   constantly wet using a water distribution system. As hot, dry air
                   passes through these wet pads, water molecules absorb heat and
@@ -68,29 +68,30 @@ export default function page() {
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl font-semibold mb-3">
-                  Benefits of Air Washers:
+                  Benefits of Air Washers :
                 </h2>
-                <ul className="list-disc list-inside text-gray-700 mb-4 ">
-                  <li>
-                    Air Cooling: Air Washers are used to cool large industrial
-                    spaces or similar environments.
-                  </li>
-                  <li>
-                    Improved Air Quality: The cooling pads act as natural filters,
-                    trapping dust, pollen, and other airborne irritants that can
-                    trigger allergies and asthma.
-                  </li>
-                  <li>
-                    Maintained Humidity: Unlike air conditioners that can dry out
-                    the air, air washers add a touch of moisture, creating a more
-                    comfortable and breathable environment, especially in dry
-                    climates.
-                  </li>
-                </ul>
+
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  <li>
+    <strong>Air Cooling :</strong> Air Washers are used to cool large industrial
+    spaces or similar environments.
+  </li>
+  <li>
+    <strong>Improved Air Quality :</strong> The cooling pads act as natural filters,
+    trapping dust, pollen, and other airborne irritants that can trigger allergies and asthma.
+  </li>
+  <li>
+    <strong>Maintained Humidity :</strong> Unlike air conditioners that can dry out
+    the air, air washers add a touch of moisture, creating a more comfortable and
+    breathable environment, especially in dry climates.
+  </li>
+</ul>
+
 
                 {/* Question Section */}
+
                 <h3 className="text-xl font-medium mb-3">
-                  Are you thinking about getting an air washer?
+                  Are you thinking about getting an air washer ?
                 </h3>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
                   Air washers offer a natural and effective way to clean and humidify
@@ -117,7 +118,18 @@ export default function page() {
                 </h3>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
               
-Adhunik Powertech takes pride in presenting India's first stainless steel Air Washers, setting a new benchmark in durability and performance. The Hailstorm model, constructed with high-grade SS 304, boasts an impressive 80% extra cooling pad and filter, ensuring optimal air purification. The Storm model, crafted from galvanized steel, doesn't compromise on quality either, offering a 20% extra cooling pad and filter. The entire floor of the Storm model is made with SS 304, emphasizing the commitment to top-notch materials.
+ <Link
+                    href="/"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+               Adhunik Powertech
+                  </Link> 
+                  takes pride in presenting India's first stainless steel     <Link
+                    href="/air-washer"
+                    className="text-blue-500 hover:underline "
+                  >
+                  Air Washers
+                  </Link>, setting a new benchmark in durability and performance. The Hailstorm model, constructed with high-grade SS 304, boasts an impressive 80% extra cooling pad and filter, ensuring optimal air purification. The Storm model, crafted from galvanized steel, doesn't compromise on quality either, offering a 20% extra cooling pad and filter. The entire floor of the Storm model is made with SS 304, emphasizing the commitment to top-notch materials.
 
 
 
@@ -133,13 +145,14 @@ Adhunik Powertech takes pride in presenting India's first stainless steel Air Wa
                   />
                 </div>
                 <div className="features-list">
-      <ul className="list-disc list-inside text-gray-700 mb-4">
-        {features.map((feature, index) => (
-          <li key={index} className="mb-3 font-sans font-normal">
-            <span className="font-bold">{feature.title}:</span> {feature.description}
-          </li>
-        ))}
-      </ul>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+  {features.map((feature, index) => (
+    <li key={index} className="font-sans font-normal">
+      <span className="font-bold">{feature.title} :</span> {feature.description}
+    </li>
+  ))}
+</ul>
+
     </div>
 
                 {/* Image 2 */}
@@ -162,7 +175,12 @@ Adhunik Powertech takes pride in presenting India's first stainless steel Air Wa
 
 
                 <p className="text-gray-700 font-sans font-normal">
-                In conclusion, <b>Adhunik Powertech's</b> Stainless Steel Air Washers with EC Fan technology stand apart as the perfect fit for industrial spaces. The combination of robust construction, cutting-edge technology, and a commitment to customization positions these air cooling and air purification systems as the go-to choice for industries aiming to optimize air quality and enhance the well-being of their workforce. Embrace the future of industrial fresh air with <b>Adhunik Powertech</b> - the leading <b><a href="# " className=' text-blue-500'>air washer manufacturer in India.</a></b>
+                In conclusion, <b><Link
+                    href="/"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+             Adhunik Powertech's
+                  </Link> </b> Stainless Steel Air Washers with EC Fan technology stand apart as the perfect fit for industrial spaces. The combination of robust construction, cutting-edge technology, and a commitment to customization positions these air cooling and air purification systems as the go-to choice for industries aiming to optimize air quality and enhance the well-being of their workforce. Embrace the future of industrial fresh air with <b>Adhunik Powertech</b> - the leading <b><Link href="/air-washer" className=' text-blue-500'>air washer manufacturer in India.</Link></b>
             
                 
                 </p>
