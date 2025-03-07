@@ -8,7 +8,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
 import { GoogleTagManager } from '@next/third-parties/google'
-import Head from "next/head";
  
 
 
@@ -18,7 +17,6 @@ export const metadata = {
     default: " Adhunik Powertech Private Limited | HVAC Solutions & Air Cooling Systems in Gurugram, India ",
     template: " %s "
   },
-  description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs",
  
   twitter:{
     card:"summary_large_image",
@@ -32,13 +30,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 
+  const jsonLd = {
 
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Adhunik Powertech",
+    "url": "https://www.adhunikpowertech.com/",
+    "alternateName": "Adhunik Powertech Private Limited",
+  
+  };
 
   return (
     
     <html lang="en">
-   
+  
       <head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 <GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
 

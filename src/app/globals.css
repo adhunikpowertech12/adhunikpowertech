@@ -915,7 +915,7 @@ input[type="number"] {
 .swiper-slide:nth-child(5n) {
   background-color: rgb(240, 255, 255);
   border-color: cyan;
-  background-image: url('https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('/blog/2016.webp');
   border: 1px #00A0E1 solid;
 }
 
