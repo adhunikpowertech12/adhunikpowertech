@@ -2,7 +2,7 @@ import OurCompany from "./OurCompany";
 
 export const metadata = {
 
-  title: "Adhunik Powertech: About Us | HVAC & Manufacturing Experts in Gurugram",
+  title: "About Us | HVAC & Manufacturing Experts in Gurugram",
 
   description: "Over 19+ Years of HVAC & Manufacturing Excellence in Gurugram. Discover our journey and experience innovative solutions for your comfort & efficiency. Contact us for a free quote.",
   
