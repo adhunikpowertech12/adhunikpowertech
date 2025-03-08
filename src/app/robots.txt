@@ -3,3 +3,4 @@ Allow: /
 Disallow: /private/
 
 Sitemap: https://www.adhunikpowertech.com/sitemap.xml
+Sitemap: https://adhunikpowertech.com/sitemap.xml

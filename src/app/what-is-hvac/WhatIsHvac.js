@@ -39,6 +39,7 @@ export default function WhatIsHvac() {
     
     
       ];
+
       const features2 = [
     
         {
@@ -97,6 +98,7 @@ export default function WhatIsHvac() {
         
          
       ];
+
       const features4 = [
         
     
@@ -119,6 +121,7 @@ export default function WhatIsHvac() {
         
          
       ];
+
       const features5 = [
         
     
@@ -172,8 +175,8 @@ export default function WhatIsHvac() {
                 </h1>
                 <p className="mb-4 text-gray-700 font-sans font-normal">
                   <Link
-                    href="#"
-                    className="text-blue-500 hover:underline"
+                    href="/hvac"
+                    className="text-blue-500 hover:underline pr-1"
                   >
                     HVAC
 
@@ -194,13 +197,13 @@ export default function WhatIsHvac() {
                 <ul className="list-disc list-inside text-gray-700 mb-4">
 
   {features.map((feature, index) => (
-    <li key={index} className="mb-3 font-sans font-normal">
+    <li key={index} className="mb-3 font-sans font-normal ">
       <span className="font-bold">{feature.title} :</span> {feature.description}
-      <ul className="list-disc list-inside ml-6 mt-2 ">
-        <li className='font-sans font-normal'>
+      <ul className="list-disc list-inside ml-6 mt-2  pl-6 text-gray-700 space-y-2">
+        <li className='font-sans font-normal leading-relaxed'>
           <span className="font-bold">{feature.title2} </span> {feature.description2}
         </li>
-        <li className='font-sans font-normal'>
+        <li className='font-sans font-normal leading-relaxed'>
           <span className="font-bold">{feature.title3} </span> {feature.description3}
         </li>
       </ul>
