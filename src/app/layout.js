@@ -8,42 +8,47 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
 import { GoogleTagManager } from '@next/third-parties/google'
- 
-
-
 
 
 
 export const metadata = {
-  title: "Adhunik Powertech",
+  title: "Adhunik Powertech - HVAC & Air Cooling Solutions",
   description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
-  keywords: [
-    "HVAC solutions",
-    "air cooling systems",
-    "industrial cooling",
-    "commercial cooling solutions",
-    "Adhunik Powertech",
-    "energy-efficient cooling",
-    "Gurugram cooling systems"
-  ],
+  keywords: "HVAC solutions, air cooling systems, industrial cooling, commercial cooling solutions, Adhunik Powertech, energy-efficient cooling, Gurugram cooling systems",
+  robots: "index,follow",
+  viewport: "width=device-width, initial-scale=1",
+  appleMobileWebAppCapable: "yes",
+  appleMobileWebAppTitle: "Adhunik Powertech",
+  appleMobileWebAppStatusBarStyle: "default",
+  twitter: {
+    site: "@adhunikpowertech",
+    title: "Adhunik Powertech | Top HVAC & Air Cooling Systems Gurugram",
+    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+    card: "summary",
+    image: "https://adhunikpowertech.com/apple-touch-icon.png",
+    imageAlt: "Adhunik Powertech - HVAC & Air Cooling Solutions"
+  },
   openGraph: {
     title: "Adhunik Powertech",
-    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
-    url: "https://www.adhunikpowertech.com/",
-    siteName: "Adhunik Powertech", 
-    locale: "en_IN",
     type: "website",
+    url: "https://adhunikpowertech.com/",
+    siteName: "Adhunik Powertech - HVAC Experts",
+    locale: "en_IN",
+    image: "https://adhunikpowertech.com/apple-touch-icon.png"
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Adhunik Powertech | HVAC & Air Cooling Systems Gurugram",
-    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
-    creator: "@AdhunikPowertech",
-  },
-  alternates: {
-    canonical: "https://adhunikpowertech.com/",
-  },
+  additionalMeta: [
+    { httpEquiv: "X-UA-Compatible", content: "IE=EmulateIE7" },
+    { httpEquiv: "Accept-CH", content: "DPR, Viewport-Width, Width, Save-Data" }
+  ],
+  link: [
+    { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" },
+    { rel: "preconnect", href: "http://cdn12.lemnisk.co" }
+  ]
 };
+
+
+
+
 
 
 export default function RootLayout({ children }) {
@@ -51,9 +56,10 @@ export default function RootLayout({ children }) {
 
 
   return (
-    
+
     <html lang="en">
   
+
       <head>
       <script
           type="application/ld+json"
