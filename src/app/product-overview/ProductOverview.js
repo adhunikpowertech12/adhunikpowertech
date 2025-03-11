@@ -15,7 +15,7 @@ export default function ProductOverview() {
     {
       id: 1,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738750032/Product_Overview_tyr0uy_ir7wzg.mp4',
-      title: <><h1>A Legacy of Strength  A <br /> Future of Hope</h1>  </>,
+      title: <>A Legacy of Strength  A <br /> Future of Hope  </>,
       description: '',
       buttonText: 'Overview',
     },
@@ -415,9 +415,10 @@ export default function ProductOverview() {
       </div>
 
       <div className=" justify-center items-center flex flex-col " >
-        <p className=' px-10 pt-9 text-2xl  md:text-4xl w-full  md:w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
+        <h1 className=' px-10 pt-9 text-2xl  md:text-4xl w-full  md:w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
 
-        </p>
+        </h1>
+        
         <p className=' px-1 pt-3  text-[15px] w-full  md:w-[70%] text-center font-sans font-thin' >Adhunik Powertech is committed to taking Indian manufacturing to the global stage. Our products are designed and engineered in India, and exported to diverse markets across the globe, from Asia's bustling cities to the Middle East’s skyscrapers. We believe in delivering products that are not only efficient and reliable but also environmentally friendly. Our focus on sustainability drives us to develop innovative solutions that reduce energy consumption and minimize our carbon footprint. </p>
 
 
