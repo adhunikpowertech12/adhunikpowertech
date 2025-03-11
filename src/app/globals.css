@@ -929,7 +929,7 @@ input[type="number"] {
 
 .swiper-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);
-  background-image: url('https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('/blog/2020.webp');
 }
 
 .swiper-slide:nth-child(8n) {
@@ -938,6 +938,9 @@ input[type="number"] {
 
 .swiper-slide:nth-child(9n) {
   background-color: rgb(218, 12, 218);
+
+  background-image: url('/blog/2020.webp');
+
 }
 
 .swiper-slide:nth-child(10n) {

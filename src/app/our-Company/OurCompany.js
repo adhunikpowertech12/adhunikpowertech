@@ -172,7 +172,7 @@ export default function OurCompany() {
       year: '2010',
 
 
-      bgImage: 'https://images.unsplash.com/photo-1577702160540-01e3d86e0be2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D',
+      bgImage: '/blog/2010.webp',
       content: (
 
         <div className="z-10 text-center">
@@ -316,7 +316,7 @@ export default function OurCompany() {
       id: 6,
       year: '2020',
 
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/blog/2020.webp',
 
       content: (
 
