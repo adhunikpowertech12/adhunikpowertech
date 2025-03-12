@@ -206,7 +206,7 @@ export default function OurCompany() {
       id: 3,
       year: '2014',
 
-      bgImage: 'https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      bgImage: '/blog/2014.webp',
       content: (
 
         <div className="z-10 text-center">
@@ -352,7 +352,7 @@ export default function OurCompany() {
       id: 7,
       year: '2021',
 
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+      bgImage: '/blog/2014.webp', // Add the image URL here
       content: (
 
         <div className="z-10 text-center">
@@ -386,7 +386,7 @@ export default function OurCompany() {
       id: 8,
       year: '2024',
 
-      bgImage: 'https://images.unsplash.com/photo-1579618216551-cc514029b1a9?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Add the image URL here
+      bgImage: '/blog/2024.webp', // Add the image URL here
       content: (
 
         <div className="z-10 text-center">
@@ -423,7 +423,7 @@ export default function OurCompany() {
       id: 9,
       year: 'Present',
 
-      bgImage: '/gs.webp', // Add the image URL here
+      bgImage: '/blog/grow.webp', // Add the image URL here
       content: (
 
         <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex    ">
@@ -478,7 +478,7 @@ export default function OurCompany() {
                   }}
                 >
                   {/* Dark Overlay */}
-                  <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+                  <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                   {/* Content */}
                   <div className="z-10 text-center">
                     <h1 className="text-4xl font-bold">{page.title}</h1>
