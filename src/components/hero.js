@@ -38,12 +38,21 @@ export const metadata = {
 
 
 export default function Hero() {
-
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "name": "Adhunik Powertech",
+    "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp",
+    "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems",
+    "url": "https://www.adhunikpowertech.com/"
+  }
 
 
   return (
 
     <>
+ <script   type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
 <HeroPage/>
 
