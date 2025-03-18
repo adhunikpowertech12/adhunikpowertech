@@ -874,10 +874,10 @@ input[type="number"] {
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: rgb(240, 255, 255);
+  background-color: rgba(240, 255, 255, 0.43);
   border-color: cyan;
   border: 1px #00A0E1 solid;
-  background-image: url('/slideabout.webp'); /* Add background image */
+  background-image: url('/slideabout.webp');
   background-size: cover; /* Ensures the image covers the slide area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
@@ -891,7 +891,7 @@ input[type="number"] {
   border-color: cyan;
   border: 1px #00A0E1 solid;
   
-  background-image: url('/au2005.webp'); /* Add background image */
+  background-image: url('/blog/2005.webp'); /* Add background image */
   background-size: cover; /* Ensures the image covers the slide area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
@@ -901,14 +901,14 @@ input[type="number"] {
 .swiper-slide:nth-child(3n) {
   background-color: rgb(240, 255, 255);
   border-color: cyan;
-  background-image: url('https://images.unsplash.com/photo-1577702160540-01e3d86e0be2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D');
+  background-image: url('/blog/2010.webp');
   border: 1px #00A0E1 solid;
 }
 
 .swiper-slide:nth-child(4n) {
   background-color: rgb(240, 255, 255);
   border-color: cyan;
-  background-image: url('https://images.unsplash.com/photo-1732740676396-ece9a9148342?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('/blog/2014.webp');
   border: 1px #00A0E1 solid;
 }
 
@@ -933,18 +933,24 @@ input[type="number"] {
 }
 
 .swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
+  background-color: rgb(240, 255, 255);
+  border-color: cyan;
+  background-image: url('/blog/2014.webp');
+  border: 1px #00A0E1 solid;
 }
 
 .swiper-slide:nth-child(9n) {
   background-color: rgb(218, 12, 218);
 
-  background-image: url('/blog/2020.webp');
+  background-image: url('/blog/grow.webp');
 
 }
 
 .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
+
+  background-image: url('/blog/grow.webp');
+
 }
 
 
