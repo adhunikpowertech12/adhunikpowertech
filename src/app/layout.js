@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react"
-const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
 import WatsapButton from "@/components/watsap";
@@ -16,7 +15,6 @@ export const metadata = {
   description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
   keywords: "HVAC solutions, air cooling systems, industrial cooling, commercial cooling solutions, Adhunik Powertech, energy-efficient cooling, Gurugram cooling systems",
   robots: "index,follow",
-  viewport: "width=device-width, initial-scale=1",
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",
   appleMobileWebAppStatusBarStyle: "default",

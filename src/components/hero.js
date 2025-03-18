@@ -67,7 +67,6 @@ export default function Hero() {
       <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
       <meta name="robots" content="index,follow" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width, Save-Data" />
       <meta property="og:title" content="Adhunik Powertech" />
       <meta name="twitter:title" content="Top HVAC Solutions in Gurugram | Adhunik Powertech" />
