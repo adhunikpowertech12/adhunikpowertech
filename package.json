@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build ",
     "start": "next start",
     "lint": "next lint"
@@ -27,7 +27,7 @@
     "fuse.js": "^7.0.0",
     "git-filter-repo": "^0.0.30",
     "gsap": "^3.12.5",
-    "next": "^15.1.5",
+    "next": "^15.2.3",
     "next-cloudinary": "^6.16.0",
     "preline": "^2.6.0",
     "react": "^18",

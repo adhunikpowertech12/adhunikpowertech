@@ -36,8 +36,6 @@ export const metadata = {
 
 
 
-
-
 export default function Hero() {
   const jsonLd = {
     "@context": "https://schema.org",
