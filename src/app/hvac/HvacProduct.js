@@ -132,7 +132,6 @@ const images5 = [
 ];
 
 
-
 const images6 = [
   {
     original: "/jobs/27.jpg",
@@ -340,7 +339,7 @@ export default function HvacProduct() {
     <>
 
 <div className="row mt-36">
-        <p className=' text-center font-sans font-thin text-3xl'>OUR ACHIEVEMENTS</p>
+        <h1 className=' text-center font-sans font-thin text-3xl'>OUR ACHIEVEMENTS</h1>
         <p className="text-5xl font-sans  py-3 w-full text-center text-cyan-900 capitalize">
           TOTAL PROJECTS DELIVERED
         </p>
@@ -401,14 +400,14 @@ CERTIFICATION
             
             className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            {/* Image Section */}
+            
             <img
               className="object-cover md:w-[50%] p-8 md:h-[50%]"
               src={card.imgSrc}
               alt={`${card.clientName} project`}
             />
 
-            {/* Content Section */}
+            
             <div className="flex flex-col justify-between p-4 leading-normal">
               <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 <p className="font-sans">

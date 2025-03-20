@@ -11,9 +11,8 @@ import { GoogleTagManager } from '@next/third-parties/google'
 
 
 export const metadata = {
-  title: "Adhunik Powertech - HVAC & Air Cooling Solutions",
-  description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
-  keywords: "HVAC solutions, air cooling systems, industrial cooling, commercial cooling solutions, Adhunik Powertech, energy-efficient cooling, Gurugram cooling systems",
+ 
+ keywords: "HVAC solutions, air cooling systems, industrial cooling, commercial cooling solutions, Adhunik Powertech, energy-efficient cooling, Gurugram cooling systems",
   robots: "index,follow",
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",

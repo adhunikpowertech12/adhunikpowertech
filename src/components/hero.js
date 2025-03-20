@@ -42,7 +42,7 @@ export default function Hero() {
     "@type": "Website",
     "name": "Adhunik Powertech",
     "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp",
-    "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems",
+    "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
     "url": "https://www.adhunikpowertech.com/"
   }
 
