@@ -8,36 +8,50 @@ const images3 = [
   {
     original: "/jobs/1.jpg",
     thumbnail: "/jobs/1.jpg",
+    originalAlt: "HVAC System Image",
+    thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/2.jpg",
     thumbnail: "/jobs/2.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/3.jpg",
     thumbnail: "/jobs/3.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/4.jpg",
     thumbnail: "/jobs/4.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/5.jpg",
     thumbnail: "/jobs/5.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/6.jpg",
     thumbnail: "/jobs/6.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/7.jpg",
     thumbnail: "/jobs/7.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
 
@@ -47,31 +61,43 @@ const images4 = [
   {
     original: "/jobs/8.jpg",
     thumbnail: "/jobs/8.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/9.jpg",
     thumbnail: "/jobs/9.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/10.jpg",
     thumbnail: "/jobs/10.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/11.jpg",
     thumbnail: "/jobs/11.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/12.jpg",
     thumbnail: "/jobs/12.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/13.jpg",
     thumbnail: "/jobs/13.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
 
@@ -84,46 +110,64 @@ const images5 = [
   {
     original: "/jobs/14.jpg",
     thumbnail: "/jobs/14.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/15.jpg",
     thumbnail: "/jobs/15.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/16.jpg",
     thumbnail: "/jobs/16.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/17.jpg",
     thumbnail: "/jobs/17.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/18.jpg",
     thumbnail: "/jobs/18.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/19.jpg",
     thumbnail: "/jobs/19.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/20.jpg",
     thumbnail: "/jobs/20.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/21.jpg",
     thumbnail: "/jobs/21.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/22.jpg",
     thumbnail: "/jobs/22.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
 
@@ -136,31 +180,43 @@ const images6 = [
   {
     original: "/jobs/27.jpg",
     thumbnail: "/jobs/27.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/26.jpg",
     thumbnail: "/jobs/26.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/25.jpg",
     thumbnail: "/jobs/25.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/28.jpg",
     thumbnail: "/jobs/28.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/29.jpg",
     thumbnail: "/jobs/29.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/30.jpg",
     thumbnail: "/jobs/30.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
 
@@ -174,26 +230,36 @@ const images7 = [
   {
     original: "/jobs/31.jpg",
     thumbnail: "/jobs/31.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/32.jpg",
     thumbnail: "/jobs/32.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/33.jpg",
     thumbnail: "/jobs/33.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/34.jpg",
     thumbnail: "/jobs/34.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
   {
     original: "/jobs/35.jpg",
     thumbnail: "/jobs/35.jpg",
+      originalAlt: "HVAC System Image",
+      thumbnailAlt: "HVAC System Image",
   },
 
 
