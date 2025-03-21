@@ -47,10 +47,6 @@ export default function OurCompany() {
     }
   };
 
-
-
-
-
   // Smooth scrolling reset
   useEffect(() => {
     const timeout = setTimeout(() => setIsScrolling(false), 800);
@@ -453,15 +449,9 @@ export default function OurCompany() {
         <div className="row">
 
 
-
           <div id="myslide" className="   hidden lg:block  h-screen w-full overflow-hidden relative">
-            {/* Slide Pages */}
-
-
-
-
-
-
+        
+<h1 className=" text-transparent absolute">About Us</h1>
             <div
               className="h-full w-full transition-transform ease-in-out duration-500"
               style={{ transform: `translateY(-${activePage * 100}vh)` }}
@@ -481,7 +471,7 @@ export default function OurCompany() {
                   <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
                   {/* Content */}
                   <div className="z-10 text-center">
-                    <h1 className="text-4xl font-bold">{page.title}</h1>
+                    <p className="text-4xl font-bold">{page.title}</p>
                     <p className="text-lg mt-4">{page.description}</p>
                     {page.content}
                   </div>

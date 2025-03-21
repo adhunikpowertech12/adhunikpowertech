@@ -6,8 +6,6 @@ export const metadata = {
 
   description: "Over 19+ Years of HVAC & Manufacturing Excellence in Gurugram. Discover our journey and experience innovative solutions for your comfort & efficiency. Contact us for a free quote.",
   
-  
-  
 }
 
 
