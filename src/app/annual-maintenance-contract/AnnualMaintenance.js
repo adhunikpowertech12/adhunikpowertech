@@ -152,6 +152,9 @@ export default function AnnualMaintenance() {
 
 <section className="annual-sec py-10">
   <div className="container mx-auto px-4">
+  
+
+  <h1 className="text-4xl text-center font-bold mb-6">Annual Maintenance Contracts</h1>
     {/* Image Cards Row */}
     <div className="flex flex-wrap -mx-4  text-center">
 

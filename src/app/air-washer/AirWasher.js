@@ -252,7 +252,7 @@ export default function AirWasher() {
 
 
 <div className="row  mt-32 font-sans">
-        <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase">Air washer</p>
+        <h1 className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase">Air washer</h1>
 
       
 

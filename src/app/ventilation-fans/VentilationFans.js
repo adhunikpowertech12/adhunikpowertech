@@ -1,5 +1,4 @@
 "use client";
-import React from 'react'
 
 export default function VentilationFans() {
     const Axial_Flow_fans = [
@@ -249,7 +248,7 @@ export default function VentilationFans() {
 
 
 <div className="row">
-<p className=" w-full text-center font-sans  text-4xl md:text-5xl  text-sky-700 uppercase"> Ventilation  Fan </p>
+<h1 className=" w-full text-center font-sans  text-4xl md:text-5xl  text-sky-700 uppercase"> Ventilation  Fan </h1>
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 

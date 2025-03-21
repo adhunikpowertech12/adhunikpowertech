@@ -205,7 +205,7 @@ export default function DuctedAirCoolerPage() {
 
 <div className="row mt-32 font-sans">
 
-<p className=" w-full text-center font-sans  text-5xl  text-sky-700"> DUCTED   AIR COOLER </p>
+<h1 className=" w-full text-center font-sans  text-5xl  text-sky-700"> DUCTED   AIR COOLER </h1>
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 

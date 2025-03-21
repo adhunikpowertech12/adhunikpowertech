@@ -223,7 +223,7 @@ export default function AirShower() {
 
 
 <div className="row">
-<p className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700 uppercase">Air Shower & Pass Box </p>
+<h1 className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700 uppercase">Air Shower & Pass Box </h1>
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 

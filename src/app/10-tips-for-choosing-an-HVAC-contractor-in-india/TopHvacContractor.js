@@ -1,6 +1,7 @@
 "use client"
 import { CldImage } from 'next-cloudinary';
-import React from 'react'
+import Link from 'next/link';
+
 
 export default function TopHvacContractor() {
   return (
@@ -84,7 +85,12 @@ Confirm that the contractor has insurance to cover any potential damage to prope
                 
 
                 <h2 className="text-2xl font-semibold mb-3">
-                6. Inquire About AMC (Annual Maintenance Contracts)
+                6. Inquire About <Link
+                    href="/annual-maintenance-contract"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+               AMC  (Annual Maintenance Contracts)
+                  </Link>  
                                 </h2>
 
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
@@ -146,7 +152,17 @@ Confirm that the contractor has insurance to cover any potential damage to prope
 
 
                 <h2 className="text-2xl font-semibold mb-3">
-                Why Choose Adhunik Powertech for Your HVAC Needs?
+                Why Choose <Link
+                    href="/"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+               Adhunik Powertech
+                  </Link>  for Your  <Link
+                    href="/hvac"
+                    className="text-blue-500 hover:underline pr-1 "
+                  >
+              HVAC
+                  </Link>  Needs?
                 
                 </h2>
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">

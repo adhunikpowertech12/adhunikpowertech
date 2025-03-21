@@ -273,7 +273,7 @@ export default function ChillerOil() {
     <>
     <div className="row mt-36 font-sans">
 
-<p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> OIL/COOLANT CHILLER </p>
+<h1 className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> OIL/COOLANT CHILLER </h1>
 
 
 <div className="row">

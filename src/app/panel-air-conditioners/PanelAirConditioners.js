@@ -232,7 +232,7 @@ export default function PanelAirConditioners() {
   return (
     <>
    <div className="row  mt-32 font-sans">
-<p className=" w-full text-center font-sans  text-4xl  md:text-5xl  text-sky-700 uppercase"> Panel Air Conditioner </p>
+<h1 className=" w-full text-center font-sans  text-4xl  md:text-5xl  text-sky-700 uppercase"> Panel Air Conditioner </h1>
 
 <div>
 

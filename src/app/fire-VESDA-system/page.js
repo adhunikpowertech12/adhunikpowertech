@@ -3,11 +3,6 @@
 
 export default function DuctedAirCooler() {
 
-
-
-
-
-
   return (
 
 
@@ -17,7 +12,7 @@ export default function DuctedAirCooler() {
 
 
         <div className="row">
-          <p className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire VESDA System </p>
+          <h1 className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire VESDA System </h1>
 
           <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
@@ -318,6 +313,7 @@ systems and ensure comprehensive fire protection.
   <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
   <span className="text-transparent  bg-clip-text bg-gradient-to-r to-[#f7b733] from-[#fc4a1a]">    Choosing the Right Fire VESDA System</span> 
   </p>
+
 </div>
 
 
