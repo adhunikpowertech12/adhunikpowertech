@@ -131,18 +131,17 @@ export default function HeroPage() {
       id: 1,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v1_gmslhl.mp4',
       title: 'WELCOME TO ADHUNIK POWERTECH',
-      description: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
+      content: 'We are technically very competent to design any kind of project where conditions are different from nominal.',
       buttonText: 'Request A Quote',
       descriptivetext: "We are technically very competent to design any kind of project where conditions are different from nominal."
 
-    }
-    ,
+    },
     
     {
       id: 2,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647251/Home_Page_v2_suqvdg.mp4',
       title: 'Air Cooling & Air Conditioning System',
-      description: <>
+      content: <>
         Installation, Service, Repair &amp; Maintenance
         <br />
         24x7 Service Available
@@ -156,7 +155,7 @@ export default function HeroPage() {
       id: 3,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647245/Home_Page_v3_zaxdfb.mp4',
       title: 'Add Peace Of Mind',
-      description: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
+      content: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
       descriptivetext: "We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries."
       
@@ -166,7 +165,7 @@ export default function HeroPage() {
       id: 4,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647238/Home_Page_v4_mmlhja.mp4',
       title: 'Commercial, Residential & Office Space',
-      description: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
+      content: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
       descriptivetext: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment."
       
@@ -176,7 +175,7 @@ export default function HeroPage() {
       id: 5,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647233/Home_Page_v5_uxnb0e.mp4',
       title: 'Hospital, Pharma & Food Industry',
-      description: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
+      content: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
        descriptivetext: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions."
 
@@ -333,7 +332,7 @@ export default function HeroPage() {
       src: "awb_y87hai_edmbck",
       alt: "Air Washer",
       title: "Air Washer",
-      description: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
+      content: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
       link: "/air-washer",
       linkText: ">",
 
@@ -342,7 +341,7 @@ export default function HeroPage() {
       src: "DD__mz6hmv",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
-      description: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
+      content: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
       link: "/ducted-air-cooler",
       linkText: ">",
     },
@@ -351,7 +350,7 @@ export default function HeroPage() {
       src: "efss_r3q8fb_dyacni",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
-      description: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
+      content: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
       link: "/ventilation-fans",
       linkText: ">",
     },
@@ -363,7 +362,7 @@ export default function HeroPage() {
       src: "pab_p1r8bt_jhglwg",
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
-      description: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
+      content: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
       link: "/panel-air-conditioners",
       linkText: ">",
     },
@@ -371,7 +370,7 @@ export default function HeroPage() {
       src: "OC__koeafw",
       alt: "OIL AND COOLANT CHILLER UNIT",
       title: "OIL AND COOLANT CHILLER ",
-      description: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
+      content: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
       link: "/chiller-oil-water-coolant",
       linkText: ">",
     },
@@ -379,7 +378,7 @@ export default function HeroPage() {
       src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750082/Air_Shower2__of10ut.webp",
       alt: "AIR SHOWER",
       title: "AIR SHOWER",
-      description: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
+      content: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
       link: "/air-shower",
       linkText: ">",
     },
@@ -387,7 +386,7 @@ export default function HeroPage() {
       src: "AHU1_lab7sl_ccwn9d",
       alt: "Air Handling Unit",
       title: "Air Handling Unit",
-      description: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
+      content: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
       link: "/air-handling-unit",
       linkText: ">",
     },
@@ -507,7 +506,7 @@ export default function HeroPage() {
 
                 <div className=" text-white   text-center md:text-left  lg:px-16">
                   <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
-                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.description} </p>
+                  <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.content} </p>
                   <button
                 className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
                 style={{
@@ -688,7 +687,7 @@ export default function HeroPage() {
                   {item.title}
                 </h2>
                 <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  {item.description}
+                  {item.content}
                 </p>
                 <Link
                   href={item.link}
@@ -733,7 +732,7 @@ export default function HeroPage() {
                   {item.title}
                 </h2>
                 <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  {item.description}
+                  {item.content}
                 </p>
                 <Link
                   href={item.link}
@@ -877,17 +876,17 @@ Product Overview
                     {
                       icon: 'cad__bvhdns',
                       title: 'Consultancy & Design',
-                      description: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
+                      content: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
                     },
                     {
                       icon: 'de__xjfjdj',
                       title: 'Detailed Engineering',
-                      description: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
+                      content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
                       icon: 'Project_Execution_iogkqo_wnsmhr',
                       title: 'Project Execution',
-                      description: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
+                      content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
                     },
                   ].map((service, index) => (
                     <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
@@ -911,7 +910,7 @@ Product Overview
                           </div>
                           <div className="mt-auto ">
                             <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
-                            <p className="text-gray-400 tracking-tight leading-5">{service.description}</p>
+                            <p className="text-gray-400 tracking-tight leading-5">{service.content}</p>
                           </div>
                         </div>
                       </a>
