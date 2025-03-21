@@ -135,7 +135,8 @@ export default function HeroPage() {
       buttonText: 'Request A Quote',
       descriptivetext: "We are technically very competent to design any kind of project where conditions are different from nominal."
 
-    },
+    }
+    ,
     
     {
       id: 2,
@@ -570,20 +571,8 @@ export default function HeroPage() {
 
 
 
-
-
-
-
-
-
-
-
-
         <div className="row mt-7">
-        
-
-
-          <section className="bg-white ">
+        <section className="bg-white ">
 
             <div className="gap-16 items-center pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
 
@@ -615,9 +604,8 @@ export default function HeroPage() {
 
                 </p>
                 <Link 
-
-                    aria-label="Learn more about HVAC solutions and air cooling systems"
-                  title="Learn more about HVAC solutions and air cooling systems"
+                aria-label="Learn more about HVAC solutions and air cooling systems"
+                title="Learn more about HVAC solutions and air cooling systems"
   
                 href='/hvac' 
                 className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
@@ -671,9 +659,9 @@ export default function HeroPage() {
                 <CldImage
   width="960"
   height="600"
-  src={item.src} // Assuming item.src contains the Cloudinary public ID
+  src={item.src} 
   sizes="100vw"
-  alt={item.alt} // Assuming item.alt contains the alt description
+  alt={item.alt} 
   fetchPriority="high"
   decoding="async"
   className="h-96 w-full object-center object-contain"
