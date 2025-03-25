@@ -394,7 +394,7 @@ options.
                   fetchPriority="high"
                   decoding="async"
                   alt="Glow Signage and Emergency Lights"
-                  src=" https://5.imimg.com/data5/SELLER/Default/2023/5/310175698/UO/MQ/AF/12739366/industrial-emergency-exit-light-500x500.jpg "
+                  src=" /firex/iel.webp "
                 />
               </div>
             </div>

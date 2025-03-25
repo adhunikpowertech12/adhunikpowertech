@@ -203,7 +203,7 @@ freezing in colder climates.</li>
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Hydrant"
-                          src=" https://5.imimg.com/data5/NI/JG/MY-1032685/hydrant-system.png"
+                          src="/firex/hsm.png"
                         />
                       </div>
                     </div>
