@@ -586,19 +586,20 @@ export default function HeroPage() {
                 </h1>
 
 
-                <p className="mb-2">
+                <p className="mb-2 text-justify">
                Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
 
-
+               We are proud to receive the India Business Award 2025 for the Best Quality Standards and Services in the HVAC Industry.
 
                 </p>
-                <p className=' mb-2'>
+                
+                <p className=' mb-2 text-justify'>
                 Our extensive range of air cooling and air conditioning products meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive HVAC project services—including design, installation, and maintenance—ensure that our clients receive the best possible support from start to finish.
 
 
                 </p>
 
-                <p className=' pb-8'>
+                <p className=' pb-8 text-justify'>
 
                 Experience the Adhunik Difference and Explore Our Solutions Today!
 
@@ -614,21 +615,16 @@ export default function HeroPage() {
 
               </div>
 
-              <div className="grid grid-cols-2 gap-4 mt-8">
+              <div className="grid grid-cols-1   ">
+
                 <CldImage
-                  className="w-full h-[90%] object-center object-cover rounded-lg"
-                  src="planing2_htfegq_jija0x"
+                  className="w-full h-full object-center   object-cover rounded-3xl"
+                  src="landingpage/ipa8ksf6yz9owezbh7ot"
                   alt="office content 1"
                  width="600"
   height="960"
                 />
-                <CldImage
-                  className="mt-4 w-full lg:mt-10 rounded-lg"
-                width="600"
-  height="960"
-                 src="planing_jnvp46_hqobwv"
-                  alt="office content 2"
-                />
+              
               </div>
             </div>
           </section>
