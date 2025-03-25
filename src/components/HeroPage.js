@@ -574,7 +574,7 @@ export default function HeroPage() {
         <div className="row mt-7">
         <section className="bg-white ">
 
-            <div className="gap-16 items-center pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
+            <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6"> 
 
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
               
@@ -604,22 +604,23 @@ export default function HeroPage() {
                 Experience the Adhunik Difference and Explore Our Solutions Today!
 
                 </p>
+
                 <Link 
                 aria-label="Learn more about HVAC solutions and air cooling systems"
                 title="Learn more about HVAC solutions and air cooling systems"
   
-                href='/hvac' 
+                href='/our-Company' 
                 className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
-                  Our Products
+                  Know More About Us
                 </Link>
 
               </div>
 
-              <div className="grid grid-cols-1   ">
+              <div className="  flex justify-center w-full h-full   ">
 
                 <CldImage
                   className="w-full h-full object-center   object-cover rounded-3xl"
-                  src="landingpage/ipa8ksf6yz9owezbh7ot"
+                  src="landingpage/o2fwlah3mfccad79oeey"
                   alt="office content 1"
                  width="600"
   height="960"
