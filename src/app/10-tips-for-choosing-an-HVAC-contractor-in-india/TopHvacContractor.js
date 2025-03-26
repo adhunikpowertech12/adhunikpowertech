@@ -25,17 +25,22 @@ export default function TopHvacContractor() {
 
 
                 <h1 className="text-4xl font-bold mb-4 text-center">
+
                   10 Tips for Choosing an HVAC Contractor in India
+
                 </h1>
 
 
 
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">
-                  Ensuring your workplace remains comfortable throughout the year is essential, and choosing the right HVAC contractor plays a vital role in this. In the Indian market, where climatic conditions vary greatly and energy efficiency is crucial, selecting a dependable contractor can save you time, money, and stress. Here are 10 tips tailored for the Indian HVAC market to help you make the best choice.  </h2>
+                  Ensuring your workplace remains comfortable throughout the year is essential, and choosing the right HVAC contractor plays a vital role in this. In the Indian market, where climatic conditions vary greatly and energy efficiency is crucial, selecting a dependable contractor can save you time, money, and stress. Here are 10 tips tailored for the Indian HVAC market to help you make the best choice.  
+                  </h2>
 
                 {/* Benefits Section */}
                 <h2 className="text-2xl font-semibold mb-3">
+
                   1. Verify Licensing and Accreditation
+                  
                 </h2>
 
                 <h2 className="mb-4 text-gray-700 font-sans font-normal">

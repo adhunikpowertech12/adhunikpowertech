@@ -40,12 +40,21 @@ export default function Blog() {
         },
         {
           id: 5,
+          title: "Award-Winning Services in the HVAC Industry ",
+          image:
+          "",
+          link: "/india-business-award-2025",
+          img: "/blog/ibaaward2.webp",
+        },
+        {
+          id: 6,
           title: "How to Choose HVAC Contractor in India?",
           image:
           "",
           link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
           img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738837317/top10_ekhsnl.jpg",
         },
+       
       ];
     
   return (

@@ -1,6 +1,7 @@
 
 'use client';
 
+import Head from 'next/head';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -118,7 +119,7 @@ export default function HeroPage() {
     } 
     else {
       console.log('Please chordo');
-      window.location.href = 'tel:+8287885885'; // Initiate a phone call
+      window.location.href = 'tel:08287885885'; // Initiate a phone call
     }
   };
   
@@ -433,6 +434,75 @@ export default function HeroPage() {
 
   return (
     <>
+     <Head>
+      <meta charSet="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/d.svg" />
+      <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Adhunik Powertech" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta httpEquiv="X-UA-Compatible" content="IE=EmulateIE7" />
+      <meta name="twitter:site" content="@adhunikpowertech" />
+      <meta name="twitter:image" content="https://adhunikpowertech.com/img/logo.png" />
+      <meta name="twitter:image:alt" content="Adhunik Powertech" />
+      <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <meta name="robots" content="index,follow" />
+      <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width, Save-Data" />
+      <meta property="og:title" content="Adhunik Powertech" />
+      <meta name="twitter:title" content="Top HVAC Solutions in Gurugram | Adhunik Powertech" />
+      <meta name="twitter:description" content="Adhunik Powertech: Gurugram’s top HVAC solutions provider, specializing in air cooling, industrial ventilation, and energy-efficient systems." />
+      <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Powertech" />
+      <meta property="og:locale" content="en_IN" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://adhunikpowertech.com/" />
+      <meta property="og:site_name" content="Adhunik Powertech - HVAC Experts" />
+      <meta name="twitter:card" content="summary" />
+      <link rel="preconnect" href="http://cdn12.lemnisk.co" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Adhunik Powertech",
+          "image": "https://adhunikpowertech.com/logo.jpg",
+          "description": "Leading HVAC solutions provider in Gurugram, specializing in air cooling and industrial ventilation systems.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Sector 70, Gurugram",
+            "addressLocality": "Gurugram",
+            "addressRegion": "Haryana",
+            "postalCode": "122001",
+            "addressCountry": "India"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "28.3909507",
+            "longitude": "77.0294258"
+          },
+          "telephone": "+91-9289126052",
+          "url": "https://adhunikpowertech.com/",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "09:00",
+            "closes": "21:00"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "7"
+          },
+          "sameAs": [
+            "https://www.facebook.com/adhunikpowertech",
+            "https://www.instagram.com/adhunikpowertech/",
+            "https://www.linkedin.com/company/adhunikpowertech/"
+          ]
+        })
+      }} />
+    </Head>
 
  <script   type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -440,31 +510,7 @@ export default function HeroPage() {
 <Popup />
 
 
-<div>
-
-{/* {showPopup && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="relative bg-yellow-400 p-2 rounded-lg w-6/12 shadow-lg md:max-w-md md:w-full">
-            <button 
-              onClick={() => setShowPopup(false)} 
-              className="absolute md:h-14 md:w-14 text-white hover:text-black md:top-6 right-6 rounded-full hover:bg-gray-200"
-            >
-              ✖
-            </button>
-            <img 
-              src="https://res.cloudinary.com/demvtn6lc/image/upload/v1737114623/CCM_Award_Adhunik_Powertech_hfvmr4.png"
-              alt="Popup Image" 
-              className="  md:w-full rounded-md"
-            />
-          </div>
-        </div>
-      )} */}
-    
-    </div>
-
-
       <div className="row   h-auto w-full relative font-sans" >
-
 
 
         <div
@@ -570,8 +616,8 @@ export default function HeroPage() {
         </div>
 
 
-
         <div className="row mt-7">
+        
         <section className="bg-white ">
 
             <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6"> 
@@ -621,23 +667,24 @@ export default function HeroPage() {
                 <CldImage
                   className="w-full h-full object-center   object-cover rounded-3xl"
                   src="landingpage/o2fwlah3mfccad79oeey"
-                  alt="office content 1"
+                  alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                  width="600"
   height="960"
                 />
               
               </div>
             </div>
+
           </section>
 
         </div>
 
 
         <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " /><span className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >our products </span>
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " /><h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >our products </h2>
         </div>
 
-        <div className="row ">
+        <section className="row ">
           <div className="col">
 
 
@@ -743,12 +790,12 @@ export default function HeroPage() {
 
 
           </div>
-        </div>
+        </section>
 
         <div className="inline-flex items-center justify-center w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <span className="absolute px-2 md:px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving Worldwide
-</span>
+          <h2 className="absolute px-2 md:px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving Worldwide
+</h2>
         </div>
 
     
@@ -800,10 +847,10 @@ export default function HeroPage() {
 
               <div className=" md:p-9 py-8 px-5 ">
                 <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
-                  <h2 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
+                  <h3 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
 
                   From the Heart of India to  the Far <br /> Corners of the World <br /> <span className='  text-[10px] lg:text-[18px] '> </span>
-                  </h2>
+                  </h3>
                   <p className="mb-3 text-[12px]  lg:text-[14px]">
                   At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
 
@@ -894,7 +941,7 @@ Product Overview
 
                           </div>
                           <div className="mt-auto ">
-                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
+                            <h3 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h3>
                             <p className="text-gray-400 tracking-tight leading-5">{service.content}</p>
                           </div>
                         </div>
@@ -914,15 +961,15 @@ Product Overview
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <span className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</span>
+            <h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
           </div>
 
           <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
             <div className=" w-full h-full md:w-5/12 ">
-              <h2
+              <h3
                 className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
 
-                Our Product Range </h2>
+                Our Product Range </h3>
               <p className="font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                 We pride ourselves on offering a diverse and innovative product range designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for performance, durability, and efficiency. Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
               </p>
@@ -939,7 +986,7 @@ Product Overview
 
               <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
                 <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
-                <span className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</span>
+                <h2 className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
               </div>
 
         <div className="row hidden md:block">
@@ -1012,7 +1059,8 @@ Product Overview
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <span className=" absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans  " > Proudly We Serve </span>
+            <h2 className="absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve 
+            </h2>
 
           </div>
 
