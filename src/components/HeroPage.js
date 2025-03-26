@@ -962,11 +962,12 @@ Product Overview
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
+            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
+</h2>
           </div>
 
           <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
-          
+
             <div className=" w-full h-full  ">
             
               <p className="font-normal text-[16px] text-justify leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
@@ -980,6 +981,37 @@ Product Overview
           </div>
 
         </div>
+
+
+
+        <div className="row">
+          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Quality Services
+</h2>
+          </div>
+
+          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+
+            <div className=" w-full h-full  ">
+            
+              <p className="font-normal text-[16px] text-justify leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
+              Consultancy & Design: We offer expert HVAC consulting and design services, handling all aspects of Engineering and Procurement. We cater to various industries and execute turnkey HVAC projects across India.
+Detailed Engineering: With over 19 years of experience, we focus on energy-efficient and cost-effective cooling solutions with minimal maintenance, suitable for large industrial, institutional, commercial, and residential premises.
+Project Execution: We adhere to NBC, CPWD, NABH, ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions during project execution.
+<br />
+Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
+
+              </p>
+
+            </div>
+
+           
+          </div>
+
+        </div>
+
+
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
