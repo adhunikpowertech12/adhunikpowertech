@@ -112,6 +112,7 @@ export default function HeroPage() {
     { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112  },
   ];
   
+  
   const handleButtonClick = (buttonText) => {
     console.log('Button clicked:', buttonText); // Log the button text
     if (buttonText === 'Request A Quote') {
@@ -958,6 +959,27 @@ Product Overview
 
         </div>
 
+        <div className="row">
+          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
+          </div>
+
+          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+          
+            <div className=" w-full h-full  ">
+            
+              <p className="font-normal text-[16px] text-justify leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
+              Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects.
+
+              </p>
+
+            </div>
+
+           
+          </div>
+
+        </div>
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
