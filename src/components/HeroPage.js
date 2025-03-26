@@ -962,7 +962,7 @@ Product Overview
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans"> Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
+            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans"> Top HVAC Services in Delhi NCR & India: <br /> Design, Engineering, Installation
 </h2>
           </div>
 
@@ -970,32 +970,16 @@ Product Overview
 
             <div className=" w-full h-full  ">
             
-              <p className="font-normal text-[16px] text-justify leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
+              <p className="font-normal  text-justify leading-8 text-gray-500 max-lg:text-center max-w-6xl  mx-auto">
               Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects.
-
-              </p>
-
-            </div>
-
-           
-          </div>
-
-        </div>
-
-
-
-        <div className="row">
-          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Quality Services
-</h2>
-          </div>
-
-          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
-
-            <div className=" w-full h-full  ">
             
-              <p className="font-normal text-[16px] text-justify leading-8 text-gray-500 max-lg:text-center max-w-3xl mx-auto">
+          </p>
+
+          <h2 className="  text-gray-900   capitalize font-bold  font-sans max-w-6xl  mx-auto  text-1px">Our Quality Services:
+</h2>
+          <p className="font-normal  text-justify leading-8 text-gray-500 max-lg:text-center max-w-6xl  mx-auto">
+
+
               Consultancy & Design: We offer expert HVAC consulting and design services, handling all aspects of Engineering and Procurement. We cater to various industries and execute turnkey HVAC projects across India.
 Detailed Engineering: With over 19 years of experience, we focus on energy-efficient and cost-effective cooling solutions with minimal maintenance, suitable for large industrial, institutional, commercial, and residential premises.
 Project Execution: We adhere to NBC, CPWD, NABH, ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions during project execution.
@@ -1010,6 +994,9 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
           </div>
 
         </div>
+
+
+
 
 
         <div className="row">
