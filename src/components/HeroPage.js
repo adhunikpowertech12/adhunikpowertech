@@ -46,8 +46,8 @@ export default function HeroPage() {
  
   const images3 = [
     {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841650/AWI_dy3ktv_qoyjzl.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841650/AWI_dy3ktv_qoyjzl.webp",
+      original: "/awi/cooler.webp",
+      thumbnail: "/awi/cooler.webp",
       originalAlt: "HVAC System Image",
       thumbnailAlt: "HVAC System Image",
     },
@@ -300,7 +300,7 @@ export default function HeroPage() {
     { src: '/RL.webp', alt: 'pics', width: 200, height: 100 }, // Custom size
     { src: '/l3.webp', alt: 'pics', width: 120, height: 120 },
     { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/NTIC.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
 
@@ -311,7 +311,7 @@ export default function HeroPage() {
     { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
     { src: '/NHWC.webp', alt: 'pics', width: 119, height: 119 },
-    { src: '/NTIC.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
   
@@ -598,10 +598,10 @@ export default function HeroPage() {
 
           <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
 
-          <CldImage
+          <Image
   width="960"
   height="600"
-  src="nw_pa2sza_ddz65c"
+  src="/hvacsolution.webp"
   className="h-full md:w-[70%]"
   alt="pic"
   fetchPriority="high"
@@ -962,7 +962,7 @@ Product Overview
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
+            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans"> Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
 </h2>
           </div>
 
