@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -17,11 +18,7 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
    
-    {
-      src: "/projects/clients/3.webp",
-      alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
-    },
+  
    
     {
       src: "/projects/clients/4.webp",
@@ -113,15 +110,6 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
    
-  
-   
-    {
-      src: "/projects/11.png",
-      alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
-    },
-   
-  
    
     {
       src: "/projects/clients/23.png",
@@ -156,7 +144,6 @@ export default function page() {
    
     { src: "/projects/clients/28.webp", alt: "Air Purifiers", borderColor: "border-blue-500" },
     { src: "/projects/clients/29.webp", alt: "Air Conditioners", borderColor: "border-green-500" },
-    { src: "/projects/clients/30.webp", alt: "HVAC Solutions", borderColor: "border-red-500" },
 
     { src: "/projects/clients/33.webp", alt: "Smart Climate Control", borderColor: "border-pink-500" },
     { src: "/projects/clients/34.webp", alt: "Eco-friendly Air Conditioning", borderColor: "border-orange-500" },
@@ -192,6 +179,29 @@ export default function page() {
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
+    { src: "/projects/clients/55.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/56.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/57.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/58.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/59.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/60.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/61.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/62.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/63.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/64.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/65.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/66.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/67.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/68.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/69.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/70.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/71.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/72.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/73.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/74.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/75.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
+  { src: "/projects/clients/76.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
+  { src: "/projects/clients/77.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   
   ];
   
@@ -228,12 +238,14 @@ export default function page() {
           <div className=" group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
             <div className="w-auto  items-center flex justify-center">
               <div className={`w-full rounded-xl  bg-white   ${item.borderColor}`}>
-                <img
+                <Image
                   className={`h-[50%]  w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `} // Dynamic border color
                   src={item.src}
                   fetchPriority="high"
                   decoding="async"
                   alt={item.alt}
+                  width={300} // Adjust based on your layout
+            height={200}
                 />
 
               </div>
@@ -256,7 +268,6 @@ export default function page() {
       
     </div>
 </div>
-<p className=' text-center'>And Many More.</p>
       </div>
 
     </div>
