@@ -4,7 +4,7 @@ import HeroPage from './HeroPage';
 
 export const metadata = {
   title: "Top & Best HVAC Companies in India - Adhunik Powertech",
-  description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+  description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
   keywords: [
     "HVAC solutions",
     "air cooling systems",
@@ -15,8 +15,8 @@ export const metadata = {
     "Gurugram cooling systems"
   ],
   openGraph: {
-    title: "Adhunik Powertech",
-    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+    title: "Top & Best HVAC Companies in India - Adhunik Powertech",
+    description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     url: "https://www.adhunikpowertech.com/",
     siteName: "Adhunik Powertech", 
     locale: "en_IN",
@@ -24,8 +24,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adhunik Powertech | HVAC & Air Cooling Systems Gurugram",
-    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+    title: "Top & Best HVAC Companies in India - Adhunik Powertech",
+    description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     creator: "@AdhunikPowertech",
   },
   alternates: {
@@ -41,7 +41,7 @@ export default function Hero() {
     "@type": "Website",
     "name": "Adhunik Powertech",
     "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp",
-    "description": "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+    "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     "url": "https://www.adhunikpowertech.com/"
   }
 

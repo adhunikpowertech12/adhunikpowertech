@@ -14,10 +14,10 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export const metadata = {
   title: {
 
-    default:" Adhunik Powertech - HVAC & Air Cooling Solutions",
+    default:" Top & Best HVAC Companies in India - Adhunik Powertech",
     template: "%s"
   },
-  description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
+  description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
   keywords: [
     "HVAC Solutions",
     "Industrial Air Cooling",
@@ -31,7 +31,7 @@ export const metadata = {
     "Air Shower Systems",
     "Energy-Efficient Cooling Solutions",
     "Industrial Ventilation Systems",
-    "Commercial HVAC Systems"
+    "Commercial HVAC Systems","HVAC contractors","hvac company in noida",
   ],
   robots: "index,follow",
   appleMobileWebAppCapable: "yes",
