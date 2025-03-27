@@ -9,7 +9,7 @@ export default function IndiaBusinessAward() {
      <div className="blog-img mb-6 text-center">
 
 
-<div className="flex  justify-between  flex-col md:flex-row">
+<div className="flex  justify-evenly  flex-col md:flex-row">
 <div className=" flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
    
     <CldImage

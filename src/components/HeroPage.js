@@ -186,6 +186,7 @@ export default function HeroPage() {
 
   ];
 
+
   
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -431,6 +432,15 @@ export default function HeroPage() {
     "url": "https://www.adhunikpowertech.com/"
   }
 
+
+  const paragraphs = [
+    <> 
+     Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
+
+
+Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
+     </>
+  ];
   
 
   return (
@@ -959,42 +969,72 @@ Product Overview
 
         </div>
 
-        <div className="row">
-          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans"> Top HVAC Services in Delhi NCR & India: <br /> Design, Engineering, Installation
-</h2>
-          </div>
+      
 
-          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
+        <section className="pb-24 pt-14 relative">
+    
+    <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+      <div className="w-full  justify-start   items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
+        {/* Left side images */}
+        <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+          <div className="   flex-col gap-5 items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
+            <Image 
+            width={300} 
+            height={200} 
 
-            <div className=" w-full h-full  ">
+              className="rounded-xl  object-cover  "
+               src="/tophvac2.webp"
+              alt="about Us image"
+            />
+
+        
             
-              <p className="font-normal  text-justify leading-8 text-gray-500 max-lg:text-center max-w-6xl  mx-auto">
-              Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects.
-            
-          </p>
-
-          <h2 className="  text-gray-900   capitalize font-bold  font-sans max-w-6xl  mx-auto  text-1px">Our Quality Services:
-</h2>
-          <p className="font-normal  text-justify leading-8 text-gray-500 max-lg:text-center max-w-6xl  mx-auto">
-
-
-              Consultancy & Design: We offer expert HVAC consulting and design services, handling all aspects of Engineering and Procurement. We cater to various industries and execute turnkey HVAC projects across India.
-Detailed Engineering: With over 19 years of experience, we focus on energy-efficient and cost-effective cooling solutions with minimal maintenance, suitable for large industrial, institutional, commercial, and residential premises.
-Project Execution: We adhere to NBC, CPWD, NABH, ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions during project execution.
-<br />
-Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
-
-              </p>
-
-            </div>
-
-           
           </div>
-
+          <div className="flex-col flex gap-5">
+          <Image 
+          width={300} 
+            height={200}
+            className="sm:ml-0 ml-auto rounded-xl object-cover "
+            src="/tophvac2.webp"
+            alt="about Us image"
+          />
+     
+          </div>
+        
         </div>
 
+        {/* Right side content */}
+        <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
+          <div className="w-full flex-col justify-center items-start gap-8 flex">
+            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+              <h2 className="text-gray-900 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
+              Top HVAC Services in Delhi NCR & India: <br /> Design, Engineering, Installation
+              </h2>
+
+         
+
+
+              <div className=" text-base  leading-relaxed   space-y-4">
+    {paragraphs.map((paragraph, index) => (
+      <p className="font-sans font-thin  text-justify " key={index}>{paragraph}</p>
+    ))}
+  </div>
+          
+            
+            </div>
+
+            {/* Stats Section */}
+          
+          </div>
+
+          {/* Button */}
+        
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
 
 
 

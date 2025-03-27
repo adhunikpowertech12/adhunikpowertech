@@ -125,7 +125,7 @@ export default function page() {
 
                   </div>
 
-                  <p className=' text-center'>And Many More.</p>
+                 
                 </div>
 
               </div>

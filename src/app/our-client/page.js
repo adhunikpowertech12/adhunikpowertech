@@ -18,19 +18,11 @@ export default function page() {
       borderColor: "border-yellow-500", // Custom border color
     },
    
-  
-   
     {
       src: "/projects/clients/4.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
-   
-   
-   
-   
-   
-
    
     {
       src: "/projects/clients/8.webp",
@@ -144,10 +136,8 @@ export default function page() {
    
     { src: "/projects/clients/28.webp", alt: "Air Purifiers", borderColor: "border-blue-500" },
     { src: "/projects/clients/29.webp", alt: "Air Conditioners", borderColor: "border-green-500" },
-
     { src: "/projects/clients/33.webp", alt: "Smart Climate Control", borderColor: "border-pink-500" },
     { src: "/projects/clients/34.webp", alt: "Eco-friendly Air Conditioning", borderColor: "border-orange-500" },
-    { src: "/projects/clients/35.webp", alt: "Climate Solutions", borderColor: "border-cyan-500" },
     { src: "/projects/clients/36.webp", alt: "Ventilation Systems", borderColor: "border-teal-500" },
     { src: "/projects/clients/37.webp", alt: "Energy-efficient Coolers", borderColor: "border-yellow-500" },
     { src: "/projects/clients/38.webp", alt: "Heat Recovery Systems", borderColor: "border-blue-500" },
@@ -190,7 +180,6 @@ export default function page() {
   { src: "/projects/clients/63.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   { src: "/projects/clients/64.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
   { src: "/projects/clients/65.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
-  { src: "/projects/clients/66.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
   { src: "/projects/clients/67.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
   { src: "/projects/clients/68.webp", alt: "Modern HVAC Systems", borderColor: "border-indigo-500" },
   { src: "/projects/clients/69.webp", alt: "Climate Control Units", borderColor: "border-red-500" },
@@ -237,6 +226,7 @@ export default function page() {
 
           <div className=" group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow rounded-xl">
             <div className="w-auto  items-center flex justify-center">
+
               <div className={`w-full rounded-xl  bg-white   ${item.borderColor}`}>
                 <Image
                   className={`h-[50%]  w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `} // Dynamic border color
@@ -247,8 +237,9 @@ export default function page() {
                   width={300} // Adjust based on your layout
             height={200}
                 />
-
               </div>
+
+
               <div className="text-center mt-3">
                 <h3 className="text-lg font-semibold">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.description}</p>
