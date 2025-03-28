@@ -680,17 +680,15 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
           <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
 
        
-
-<Image
+          <Image
+  width="960"
+  height="600"
   src="/hvacsolution.webp"
-  alt="HVAC solution"
-  width={960} // Exact width of the image
-  height={600} // Exact height of the image
-  priority // Loads the image with high priority
-  
-  className=" h-full md:w-[70%] "
+  className="h-full md:w-[70%]"
+  alt="hvac solution"
+  fetchPriority="high"
   decoding="async"
-  layout="responsive"
+  effect="blur"
 />
 
             
@@ -1049,10 +1047,10 @@ Product Overview
         <section className="pb-24 pt-14 relative">
     
     <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-      <div className="w-full  justify-start  flex flex-col-reverse  items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
-        {/* Left side images */}
+    <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
+    {/* Left side images */}
         <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
-          <div className="   flex-col gap-5 items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
+          <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
             <Image 
             width={300} 
             height={200} 
