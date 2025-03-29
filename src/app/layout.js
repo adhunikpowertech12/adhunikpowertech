@@ -135,8 +135,6 @@ export default function RootLayout({ children }) {
         />
 
 <link rel="icon" href="/favicon.ico" sizes="any" />
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
-height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></noscript>
 
       </head>
 
@@ -148,6 +146,8 @@ height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></n
         <Header />
         <WatsapButton phoneNumber="+919599050534" />
        
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
+height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></noscript>
 
         {children}
         
