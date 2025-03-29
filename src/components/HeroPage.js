@@ -4,25 +4,17 @@
 import Head from 'next/head';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage, AdvancedVideo } from '@cloudinary/react';
-
-
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
 import Popup from '@/app/popup/page';
 import { CldImage } from 'next-cloudinary';
- 
+
 export default function HeroPage() {
 
-
   const [currentIndex, setCurrentIndex] = useState(0);
-
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -42,9 +34,7 @@ export default function HeroPage() {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
-
- 
-  const images3 = [
+const images3 = [
     {
       original: "/awi/cooler.webp",
       thumbnail: "/awi/cooler.webp",
@@ -94,38 +84,32 @@ export default function HeroPage() {
       thumbnailAlt: "Chiller Oil Water Coolant Image",
     },
   ];
-  
-
 
   const logos = [
-    { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd',width: 176, height: 112  },
-    { src: '/projects/2.webp', alt: 'Bajaj', width: 126, height: 100  },
-    { src: '/projects/3.webp', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/4.webp', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
+    { src: '/projects/2.webp', alt: 'Bajaj', width: 126, height: 100 },
+    { src: '/projects/3.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/4.webp', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/projects/5.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/projects/7.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112  },
-    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112  },
+    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112 },
   ];
-  
-  
+
   const handleButtonClick = (buttonText) => {
     console.log('Button clicked:', buttonText); // Log the button text
     if (buttonText === 'Request A Quote') {
       window.location.href = '/contact-Us'; // Redirect to Contact Us page
-    } 
+    }
     else {
       console.log('Please chordo');
       window.location.href = 'tel:08287885885'; // Initiate a phone call
     }
   };
-  
-  
-  
 
   const slides = [
 
@@ -139,7 +123,7 @@ export default function HeroPage() {
 
     }
     ,
-    
+
     {
       id: 2,
       video: 'https://res.cloudinary.com/ddkyx2jhh/video/upload/q_50/v1738647251/Home_Page_v2_suqvdg.mp4',
@@ -161,7 +145,7 @@ export default function HeroPage() {
       content: <>We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries.</>,
       buttonText: 'CALL US NOW',
       descriptivetext: "We offer a team of Experienced Engineers to take care of your products. Just in case there is  trouble, all you need to call our customer support center and we will take care of your worries."
-      
+
     },
 
     {
@@ -171,7 +155,7 @@ export default function HeroPage() {
       content: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment.",
       buttonText: 'Request A Quote',
       descriptivetext: "With our complete HVAC solutions, you will feel superior comfort while enjoying the perfect air conditioning environment."
-      
+
     },
 
     {
@@ -180,20 +164,18 @@ export default function HeroPage() {
       title: 'Hospital, Pharma & Food Industry',
       content: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions.",
       buttonText: 'Request A Quote',
-       descriptivetext: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions."
+      descriptivetext: "We help your healthcare team maintain a comfortable temperature and a safe environment with our customized heating and cooling solutions."
 
     },
 
   ];
 
-
-  
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startPos, setStartPos] = useState(0);
   const containerRef = useRef(null);
 
-  // Auto-play logic with manual slide control
+
   useEffect(() => {
     const slideInterval = setInterval(() => {
       setCurrentSlide((prevSlide) =>
@@ -204,13 +186,11 @@ export default function HeroPage() {
     return () => clearInterval(slideInterval); // Clean up on unmount
   }, [slides.length]);
 
-  // Start dragging
   const handleMouseDown = (e) => {
     setIsDragging(true);
     setStartPos(e.clientX);
   };
 
-  // Handle dragging
   const handleMouseMove = (e) => {
     if (!isDragging) return;
     const currentPos = e.clientX;
@@ -233,17 +213,14 @@ export default function HeroPage() {
     }
   };
 
-  // End dragging
-  const handleMouseUp = () => {
+   const handleMouseUp = () => {
     setIsDragging(false);
   };
 
-  // End dragging when mouse leaves the slide area
   const handleMouseLeave = () => {
     setIsDragging(false);
   };
 
-  // Manual slide control via dots
   const handleDotClick = (index) => {
     setCurrentSlide(index);
   };
@@ -307,7 +284,7 @@ export default function HeroPage() {
 
   const images7 = [
     { src: '/l1.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/l2.webp', alt: 'pics', width: 50, height: 50 }, 
+    { src: '/l2.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/GEM.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
     { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
@@ -315,9 +292,8 @@ export default function HeroPage() {
     { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
 
   ];
-  
 
-  const images = [
+const images = [
 
     "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
 
@@ -328,7 +304,7 @@ export default function HeroPage() {
     "https://images.unsplash.com/photo-1585155967849-91c736589c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
 
     "https://images.unsplash.com/photo-1527915676329-fd5ec8a12d4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    
+
   ];
 
   const products = [
@@ -338,7 +314,7 @@ export default function HeroPage() {
       title: "Air Washer",
       content: "Elevate your well-being with our air washers for cleaner, cooler, and fresher air!",
       link: "/air-washer",
-      linkText: ">",
+      linkText: " Explore More",
 
     },
     {
@@ -347,20 +323,20 @@ export default function HeroPage() {
       title: "Ducted Air Coolers",
       content: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
       link: "/ducted-air-cooler",
-      linkText: ">",
+      linkText: "Explore More",
     },
-    
+
     {
       src: "efss_r3q8fb_dyacni",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       content: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
       link: "/ventilation-fans",
-      linkText: ">",
+      linkText: "Explore More",
     },
     // Add more items if needed
   ];
- 
+
   const products2 = [
     {
       src: "pab_p1r8bt_jhglwg",
@@ -368,7 +344,7 @@ export default function HeroPage() {
       title: "PANEL AIR CONDITIONER",
       content: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
       link: "/panel-air-conditioners",
-      linkText: ">",
+      linkText: "Explore More",
     },
     {
       src: "OC__koeafw",
@@ -376,7 +352,7 @@ export default function HeroPage() {
       title: "OIL AND COOLANT CHILLER ",
       content: "Maximize the performance of your machinery and enhance its lifespan with our advanced oil chillers.",
       link: "/chiller-oil-water-coolant",
-      linkText: ">",
+      linkText: "Explore More",
     },
     {
       src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750082/Air_Shower2__of10ut.webp",
@@ -384,7 +360,7 @@ export default function HeroPage() {
       title: "AIR SHOWER",
       content: "Ensure the safety of your workspace and personnel from contamination with our efficient air showers.",
       link: "/air-shower",
-      linkText: ">",
+      linkText: "Explore More",
     },
     {
       src: "AHU1_lab7sl_ccwn9d",
@@ -392,20 +368,12 @@ export default function HeroPage() {
       title: "Air Handling Unit",
       content: "Experience unparalleled air quality, precise temperature control, and exceptional energy efficiency with our advanced air handling unit.",
       link: "/air-handling-unit",
-      linkText: ">",
+      linkText: "Explore More",
     },
     // Add more items if needed
   ];
 
-  const [showPopup, setShowPopup] = useState(false);
-
-  const handleClosePopup = () => {
-
-    setShowPopup(false);
-
-  };
-
-
+ 
   useEffect(() => {
     // Show the popup after 5 seconds
     const showTimer = setTimeout(() => {
@@ -423,180 +391,158 @@ export default function HeroPage() {
     }; // Cleanup on unmount
   }, []);
 
+const paragraphs = [
+    <>
+      Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
+
+
+      Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
+    </>
+  ];
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleClosePopup = () => {
+
+    setShowPopup(false);
+
+  };
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Website",
-    "name": "Adhunik Powertech",
-    "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841336/dv_oyivkm.webp",
-    "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
-    "url": "https://www.adhunikpowertech.com/"
-  }
-
-
-  const paragraphs = [
-    <> 
-     Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
-
-
-Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
-     </>
-  ];
-  
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://adhunikpowertech.com",
+        "url": "https://adhunikpowertech.com",
+        "name": "Adhunik Powertech",
+        "headline": "Top & Best HVAC Companies in India - Adhunik Powertech",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "url": "https://adhunikpowertech.com/"
+        },
+        "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/o2fwlah3mfccad79oeey?_a=BAVAZGDX0",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
+          "height": "500",
+          "width": "700"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://adhunikpowertech.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://adhunikpowertech.com",
+          "url": "https://adhunikpowertech.com",
+          "name": "Adhunik Powertech"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://adhunikpowertech.com/",
+          "url": "https://adhunikpowertech.com/",
+          "name": "Adhunik Powertech",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.adhunikpowertech.com/we.svg",
+            "width": "3000",
+            "height": "962",
+            "caption": "Adhunik Powertech"
+          },
+          "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
+          "sameAs": [
+            "https://x.com/AdhunikCooling",
+            "https://www.linkedin.com/company/adhunikpowertech/"
+          ]
+        },
+        "keywords": "HVAC solutions, air cooling systems, industrial ventilation, air handling units, cooling systems provider,HVAC contractors,hvac company in noida"
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "Adhunik Powertech",
+        "image": "https://adhunikpowertech.com/logo.jpg",
+        "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sector 70, Gurugram",
+          "addressLocality": "Gurugram",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "India"
+        },
+        "telephone": "+91-9289126052",
+        "url": "https://adhunikpowertech.com/",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "21:00"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "7"
+        },
+        "sameAs": [
+          "https://www.facebook.com/adhunikpowertech",
+          "https://www.instagram.com/adhunikpowertech/",
+          "https://www.linkedin.com/company/adhunikpowertech/"
+        ]
+      }
+    ]
+  };
 
   return (
     <>
-     <Head>
-     
+      <Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+        <meta charSet="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/d.svg" />
+        <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Adhunik Powertech" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <meta name="twitter:site" content="@adhunikpowertech" />
+        <meta name="twitter:image" content="https://adhunikpowertech.com/img/logo.png" />
+        <meta name="twitter:image:alt" content="Adhunik Powertech" />
+        <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
+        <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
+        <meta name="author" content="Adhunik Powertech"></meta>
+        <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width, Save-Data" />
+        <meta property="og:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
+        <meta name="twitter:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
+        <meta name="twitter:description" content="Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!" />
+        <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Powertech" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://adhunikpowertech.com/" />
+        <meta property="og:site_name" content="Adhunik Powertech - HVAC Experts" />
+        <meta name="twitter:card" content="summary" />
+        <link rel="preconnect" href="http://cdn12.lemnisk.co" />
 
+      </Head>
 
-     <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@graph": [
-                {
-                  "@type": "WebSite",
-                  "@id": "https://adhunikpowertech.com",
-                  "url": "https://adhunikpowertech.com",
-                  "name": "Adhunik Powertech",
-                  "headline":
-                    "Top & Best HVAC Companies in India - Adhunik Powertech",
-                  "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "url": "https://adhunikpowertech.com/"
-                  },
-                  "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/o2fwlah3mfccad79oeey?_a=BAVAZGDX0",
-                
-                  "image": {
-                    "@type": "ImageObject",
-                    "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
-                    "height": "500",
-                    "width": "700"
-                  },
-                  "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": "https://adhunikpowertech.com/?s={search_term_string}",
-                    "query-input": "required name=search_term_string"
-                  },
-                  "author": {
-                    "@type": "Person",
-                    "@id": "https://adhunikpowertech.com",
-                    "url": "https://adhunikpowertech.com",
-                    "name": "Adhunik Powertech"
-                  },
-                  "publisher": {
-                    "@type": "Organization",
-                    "@id": "https://adhunikpowertech.com/",
-                    "url": "https://adhunikpowertech.com/",
-                    "name": "Adhunik Powertech",
-                    "logo": {
-                      "@type": "ImageObject",
-                      "url": "https://www.adhunikpowertech.com/we.svg",
-                      "@id": "https://adhunikpowertech.com/",
-                      "width": "3000",
-                      "height": "962",
-                      "caption": "Adhunik Powertech"
-                    },
-                    "description":
-                      "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
-                    "sameAs": [
-                      "https://x.com/AdhunikCooling",
-                      "https://www.linkedin.com/company/adhunikpowertech/"
-                    ]
-                  },
-                  "keywords":
-                    "HVAC solutions, air cooling systems, industrial ventilation, air handling units, cooling systems provider,HVAC contractors,hvac company in noida"
-                }
-              ]
-            })
-          }}
-        />
- <script type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Adhunik Powertech",
-          "image": "https://adhunikpowertech.com/logo.jpg",
-          "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Sector 70, Gurugram",
-            "addressLocality": "Gurugram",
-            "addressRegion": "Haryana",
-            "postalCode": "122001",
-            "addressCountry": "India"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "28.3909507",
-            "longitude": "77.0294258"
-          },
-          "telephone": "+91-9289126052",
-          "url": "https://adhunikpowertech.com/",
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "09:00",
-            "closes": "21:00"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "7"
-          },
-          "sameAs": [
-            "https://www.facebook.com/adhunikpowertech",
-            "https://www.instagram.com/adhunikpowertech/",
-            "https://www.linkedin.com/company/adhunikpowertech/"
-          ]
-        })
-      }} />
-
-    <meta charSet="UTF-8" />
-      <link rel="icon" type="image/svg+xml" href="/d.svg" />
-      <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Adhunik Powertech" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta httpEquiv="X-UA-Compatible" content="IE=EmulateIE7" />
-      <meta name="twitter:site" content="@adhunikpowertech" />
-      <meta name="twitter:image" content="https://adhunikpowertech.com/img/logo.png" />
-      <meta name="twitter:image:alt" content="Adhunik Powertech" />
-      <meta property="og:image" content="https://adhunikpowertech.com/img/logo.png" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-      <meta name="robots" content="index,follow" />
-      <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
-     <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"></meta>
-     <meta name="author" content="Adhunik Powertech"></meta>
-      <meta httpEquiv="Accept-CH" content="DPR, Viewport-Width, Width, Save-Data" />
-      <meta property="og:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
-      <meta name="twitter:title" content="Top & Best HVAC Companies in India - Adhunik Powertech" />
-      <meta name="twitter:description" content="Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!" />
-      <meta name="keywords" content="HVAC solutions, industrial cooling, air washers, air handling units, ventilation systems, energy-efficient cooling, Adhunik Powertech" />
-      <meta property="og:locale" content="en_IN" />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://adhunikpowertech.com/" />
-      <meta property="og:site_name" content="Adhunik Powertech - HVAC Experts" />
-      <meta name="twitter:card" content="summary" />
-      <link rel="preconnect" href="http://cdn12.lemnisk.co" />
-     
-    </Head>
-
- <script   type="application/ld+json"
+      <script type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-<Popup />
+      <Popup />
 
 
       <div className="row   h-auto w-full relative font-sans" >
 
 
         <div
-        
+
           className="relative w-full h-screen overflow-hidden"
           ref={containerRef}
           onMouseDown={handleMouseDown}
@@ -611,7 +557,7 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
                 }`}
             >
               <video
-              
+
                 autoPlay
                 loop
                 muted
@@ -624,31 +570,29 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
               >
                 <source src={slide.video} type="video/mp4" />
 
-               {slide.descriptivetext}
+                {slide.descriptivetext}
 
               </video>
 
 
-
-
-              <div className="  flex items-center h-screen bg-black bg-opacity-40">
+<div className="  flex items-center h-screen bg-black bg-opacity-40">
 
                 <div className=" text-white   text-center md:text-left  lg:px-16">
                   <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
                   <p className='  text-[12px] md:text-[14px]  md:w-[70%]'>{slide.content} </p>
                   <button
-                className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
-                style={{
-                  background: `
+                    className="cursor-pointer z-10 relative mt-4 text-[12px] px-7 py-4 text-white rounded-lg shadow-lg transition-colors duration-300"
+                    style={{
+                      background: `
                     radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%),
                     linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 93, 134) 56.2%, rgb(15, 155, 217) 89%)
                   `,
-                  backgroundBlendMode: 'multiply',
-                }}
-                onClick={() => handleButtonClick(slide.buttonText)}
-              >
-                {slide.buttonText}
-              </button>
+                      backgroundBlendMode: 'multiply',
+                    }}
+                    onClick={() => handleButtonClick(slide.buttonText)}
+                  >
+                    {slide.buttonText}
+                  </button>
                 </div>
               </div>
 
@@ -656,18 +600,18 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
             </div>
           ))}
 
-          {/* Progress indicators (dots) */}
+         
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-  {slides.map((_, index) => (
-    <button
-      key={index}
-      onClick={() => handleDotClick(index)}
-      className={`w-5 h-1 rounded-sm ${index === currentSlide ? 'bg-[#FC6C1E]' : 'bg-gray-400'}`}
-      aria-label={`Go to slide ${index + 1}`}
-      aria-current={index === currentSlide ? "true" : undefined}
-    />
-  ))}
-</div>
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => handleDotClick(index)}
+                className={`w-5 h-1 rounded-sm ${index === currentSlide ? 'bg-[#FC6C1E]' : 'bg-gray-400'}`}
+                aria-label={`Go to slide ${index + 1}`}
+                aria-current={index === currentSlide ? "true" : undefined}
+              />
+            ))}
+          </div>
 
 
         </div>
@@ -679,68 +623,66 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
 
           <p className=' pt-11 h-full relative w-full justify-center flex  text-9xl font-extrabold font-sans'>
 
-       
-          <Image
-  width="960"
-  height="600"
-  src="/hvacsolution.webp"
-  className="h-full md:w-[70%]"
-  alt="hvac solution"
-  fetchPriority="high"
-  decoding="async"
-  effect="blur"
-/>
 
-            
+            <Image
+              width="960"
+              height="600"
+              src="/hvacsolution.webp"
+              className="h-full md:w-[70%]"
+              alt="hvac solution"
+              fetchPriority="high"
+              decoding="async"
+              effect="blur"
+            />
+
+
           </p>
 
-<p className='  uppercase w-full  h-full text-center   md:text-2xl  lg:text-3xl font-sans'> </p>
-<p className= "  pt-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl"><span className= " bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#80D0C7] uppercase">    under one roof </span></p>
+          <p className='  uppercase w-full  h-full text-center   md:text-2xl  lg:text-3xl font-sans'> </p>
+          <p className="  pt-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl"><span className=" bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#80D0C7] uppercase">    under one roof </span></p>
 
         </div>
 
 
         <div className="row mt-7">
-        
-        <section className="bg-white ">
 
-            <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6"> 
+          <section className="bg-white ">
+
+            <div className=" gap-7 md:gap-16   items-center flex  flex-wrap-reverse pt-0 mt-0 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2  lg:px-6">
 
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
-              
+
                 <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
 
-                Adhunik Powertech: Over 19+ Years of 
-                <br />HVAC Excellence - Contact Us Today!
-
+                Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
                 </h1>
 
 
                 <p className="mb-2 text-justify">
-               Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
+                  Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
 
-               We are proud to receive the India Business Award 2025 for the Best Quality Standards and Services in the HVAC Industry.
+                  We are proud to receive the India Business Award 2025 for the Best Quality Standards and Services in the HVAC Industry.
 
                 </p>
-                
+
                 <p className=' mb-2 text-justify'>
-                Our extensive range of air cooling and air conditioning products meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive HVAC project services—including design, installation, and maintenance—ensure that our clients receive the best possible support from start to finish.
+                  Our extensive range of air cooling and air conditioning products meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive HVAC project services—including design, installation, and maintenance—ensure that our clients receive the best possible support from start to finish.
 
 
                 </p>
 
                 <p className=' pb-8 text-justify'>
 
-                Experience the Adhunik Difference and Explore Our Solutions Today!
+                  Experience the Adhunik Difference and Explore Our Solutions Today!
 
                 </p>
 
-                <Link 
-                aria-label="Learn more about HVAC solutions and air cooling systems"
-                title="Learn more about HVAC solutions and air cooling systems"
-  
-                href='/our-Company' 
-                className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                <Link
+                  aria-label="Learn more about HVAC solutions and air cooling systems"
+                  title="Learn more about HVAC solutions and air cooling systems"
+
+                  href='/our-Company'
+                  className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
                   Know More About Us
                 </Link>
 
@@ -752,10 +694,10 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
                   className="w-full h-full object-center   object-cover rounded-3xl"
                   src="landingpage/o2fwlah3mfccad79oeey"
                   alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
-                 width="600"
-  height="960"
+                  width="600"
+                  height="960"
                 />
-              
+
               </div>
             </div>
 
@@ -765,7 +707,8 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
 
 
         <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " /><h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >our products </h2>
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+          <h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
         </div>
 
         <section className="row ">
@@ -773,103 +716,103 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
 
 
             <div className="  justify-center   ">
-        
+
 
               <div className="row">
-  <div className="col py-4">
-    <div className="items-center justify-center h-full">
-      <div  className=' flex-row flex  flex-wrap justify-center items-center gap-3'>
-        {products.map((item, index) => (
-          <div key={index} className="  md:w-[30%]  w-80">
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-              <div className="w-auto">
-                <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                <CldImage
-  width="960"
-  height="600"
-  src={item.src} 
-  sizes="100vw"
-  alt={item.alt} 
-  fetchPriority="high"
-  decoding="async"
-  className="h-96 w-full object-center object-contain"
-  effect="blur"
-/>
+                <div className="col py-4">
+                  <div className="items-center justify-center h-full">
+                    <div className=' flex-row flex  flex-wrap justify-center items-center gap-3'>
+                      {products.map((item, index) => (
+                        <div key={index} className="  md:w-[30%]  w-80">
+                          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                            <div className="w-auto">
+                              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                                <CldImage
+                                  width="960"
+                                  height="600"
+                                  src={item.src}
+                                  sizes="100vw"
+                                  alt={item.alt}
+                                  fetchPriority="high"
+                                  decoding="async"
+                                  className="h-96 w-full object-center object-contain"
+                                  effect="blur"
+                                />
+                              </div>
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                              <h2 className="font-sans font-normal text-[18px] uppercase text-white">
+                                {item.title}
+                              </h2>
+                              <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                {item.content}
+                              </p>
+                              <Link
+                                href={item.link}
+                                className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                              >
+                                {item.linkText}
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="col py-4">
+                  <div className="items-center justify-center h-full">
+                    <div className=' flex-row flex-wrap flex justify-center items-center gap-3'>
+                      {products2.map((item, index) => (
+                        <div key={index} className="   w-80">
+                          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                            <div className="w-auto">
+                              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+
+                                <CldImage
+                                  width="960"
+                                  height="600"
+                                  src={item.src} // Assuming item.src contains the Cloudinary public ID
+                                  sizes="100vw"
+                                  alt={item.alt} // Assuming item.alt contains the alt description
+                                  fetchPriority="high"
+                                  decoding="async"
+                                  className="h-96 w-full object-center object-fill"
+                                  effect="blur"
+                                />
+                              </div>
+                            </div>
+                            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                            <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                              <h2 className="font-sans  font-normal text-[16px]   uppercase  text-white">
+                                {item.title}
+                              </h2>
+                              <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                {item.content}
+                              </p>
+                              <Link
+                                href={item.link}
+                                className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
+                              >
+                                {item.linkText}
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-              <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h2 className="font-sans font-normal text-[18px] uppercase text-white">
-                  {item.title}
-                </h2>
-                <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  {item.content}
-                </p>
-                <Link
-                  href={item.link}
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
-                >
-                  {item.linkText}
-                </Link>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-
-
-  <div className="col py-4">
-    <div className="items-center justify-center h-full">
-      <div  className=' flex-row flex-wrap flex justify-center items-center gap-3'>
-        {products2.map((item, index) => (
-          <div key={index} className="   w-80">
-            <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-              <div className="w-auto">
-                <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                
-<CldImage
-  width="960"
-  height="600"
-  src={item.src} // Assuming item.src contains the Cloudinary public ID
-  sizes="100vw"
-  alt={item.alt} // Assuming item.alt contains the alt description
-  fetchPriority="high"
-  decoding="async"
-  className="h-96 w-full object-center object-fill"
-  effect="blur"
-/>
-                </div>
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-              <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h2 className="font-sans  font-normal text-[16px]   uppercase  text-white">
-                  {item.title}
-                </h2>
-                <p className="mb-3 pt-2 text-[12px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  {item.content}
-                </p>
-                <Link
-                  href={item.link}
-                  className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
-                >
-                  {item.linkText}
-                </Link>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</div>
 
 
             </div>
 
 
-           
+
 
 
 
@@ -879,10 +822,10 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
         <div className="inline-flex items-center justify-center w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
           <h2 className="absolute px-2 md:px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving Worldwide
-</h2>
+          </h2>
         </div>
 
-    
+
 
 
 
@@ -899,14 +842,14 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
                   <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 ">
                     {images4.map((image, index) => (
 
-                      <a key={index}
-                        href="#"
+                      <div key={index}
+
                         className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg ${index === 0 || index === 3 || index == 4 ? 'md:col-span-2' : ''} md:h-44`}
                       >
                         <CldImage
-                        src={image.src}
-                           width="800"
-  height="600"
+                          src={image.src}
+                          width="800"
+                          height="600"
                           alt={image.alt}
                           loading="lazy"
                           className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -915,8 +858,8 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
                         <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
                           {image.label}
                         </span>
-                      </a>
-                      
+                      </div>
+
                     ))}
                   </div>
                 </div>
@@ -933,29 +876,29 @@ Our commitment extends to meticulous HVAC project execution, adhering to NBC, CP
                 <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
                   <h3 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
 
-                  From the Heart of India to  the Far <br /> Corners of the World <br /> <span className='  text-[10px] lg:text-[18px] '> </span>
+                    From the Heart of India to  the Far <br /> Corners of the World <br /> <span className='  text-[10px] lg:text-[18px] '> </span>
                   </h3>
                   <p className="mb-3 text-[12px]  lg:text-[14px]">
-                  At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
+                    At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
 
 
                   </p>
                   <p className=' mb-4 text-[12px] lg:text-[14px]'>
-                  Our global reach extends far beyond the borders of our home country, India. We've established a strong presence in diverse regions, from the bustling metropolises of Asia to the high-rise buildings of the Middle East. No matter where you are, we're here to provide you with the cooling solutions you need.
+                    Our global reach extends far beyond the borders of our home country, India. We've established a strong presence in diverse regions, from the bustling metropolises of Asia to the high-rise buildings of the Middle East. No matter where you are, we're here to provide you with the cooling solutions you need.
 
 
                   </p>
 
-                <p className=' text-[12px] lg:text-[14px]'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
-               
+                  <p className=' text-[12px] lg:text-[14px]'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
+
 
                 </div>
-<div className="container flex  justify-center pt-3">
-<Link  aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
-Product Overview
+                <div className="container flex  justify-center pt-3">
+                  <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                    Product Overview
                   </Link>
-</div>
-               
+                </div>
+
 
               </div>
             </section>
@@ -1006,22 +949,22 @@ Product Overview
                     },
                   ].map((service, index) => (
                     <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                      <a
-                        className="group block h-auto xl:h-128 p-8 border-2 border-white border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200"
-                        href="#"
+                      <div
+                        className="group block h-auto xl:h-128 p-8 border-2 border-white border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+
                       >
                         <div className="flex h-full flex-col items-start">
                           <div className="flex w-full mb-12 items-center justify-between">
-                          
-<CldImage
-  width="960"
-  height="400"
-  src={service.icon} // Assuming service.icon contains the Cloudinary public ID
-  className="block w-full rounded-lg h-52 object-cover object-center"
-  alt="services"
-  fetchPriority="high"
-  decoding="async"
-/>
+
+                            <CldImage
+                              width="960"
+                              height="400"
+                              src={service.icon}
+                              className="block w-full rounded-lg h-52 object-cover object-center"
+                              alt="services"
+                              fetchPriority="high"
+                              decoding="async"
+                            />
 
                           </div>
                           <div className="mt-auto ">
@@ -1029,7 +972,7 @@ Product Overview
                             <p className="text-gray-400 tracking-tight leading-5">{service.content}</p>
                           </div>
                         </div>
-                      </a>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -1042,77 +985,56 @@ Product Overview
 
         </div>
 
-      
-
         <section className="pb-24 pt-14 relative">
-    
-    <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-    <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
-    {/* Left side images */}
-        <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
-          <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
-            <Image 
-            width={300} 
-            height={200} 
 
-              className="rounded-xl  object-cover  "
-               src="/tophvac1.webp"
-              alt="about Us image"
-            />
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
+       
+              <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
+                  <Image
+                    width={300}
+                    height={200}
+                    className="rounded-xl  object-cover  "
+                    src="/tophvac1.webp"
+                    alt="about Us image"
+                  />
 
-        
-            
-          </div>
-          <div className="flex-col flex gap-5">
-          <Image 
-          width={300} 
-            height={200}
-            className="sm:ml-0 ml-auto rounded-xl object-cover "
-            src="/tophvac2.webp"
-            alt="about Us image"
-          />
-     
-          </div>
-        
-        </div>
+                </div>
+                <div className="flex-col flex gap-5">
+                  <Image
+                    width={300}
+                    height={200}
+                    className="sm:ml-0 ml-auto rounded-xl object-cover "
+                    src="/tophvac2.webp"
+                    alt="about Us image"
+                  />
+                </div>
 
-        {/* Right side content */}
-        <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
-          <div className="w-full flex-col justify-center items-start gap-8 flex">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-              <h2 className="text-gray-900 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
-              Top HVAC Services in Delhi NCR & India: <br /> Design, Engineering, Installation
-              </h2>
-
-         
+              </div>
 
 
-              <div className=" text-base  leading-relaxed   space-y-4">
-    {paragraphs.map((paragraph, index) => (
-      <p className="font-sans font-thin  text-justify " key={index}>{paragraph}</p>
-    ))}
-  </div>
-          
-            
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
+                <div className="w-full flex-col justify-center items-start gap-8 flex">
+                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                    <h2 className="text-gray-900 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
+                      Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
+                    </h2>
+                    <div className=" text-base  leading-relaxed   space-y-4">
+                      {paragraphs.map((paragraph, index) => (
+                        <p className="font-sans font-thin  text-justify " key={index}>{paragraph}</p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
-
-            {/* Stats Section */}
-          
           </div>
+        </section>
 
-          {/* Button */}
-        
-        </div>
-
-        
-      </div>
-    </div>
-  </section>
-
-
-
-
-        <div className="row">
+  <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
             <h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
@@ -1130,18 +1052,17 @@ Product Overview
             </div>
 
             <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3}   className="rounded-lg " />
+              <ImageGallery items={images3} className="rounded-lg " />
             </div>
           </div>
 
         </div>
 
 
-
-              <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
-                <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
-                <h2 className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
-              </div>
+        <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
+          <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
+          <h2 className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
+        </div>
 
         <div className="row hidden md:block">
           <section className=" ">
@@ -1152,9 +1073,9 @@ Product Overview
 
               <div className="  grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">
                 {images6.map((image, index) => (
-                  <a key={index} href="#" className="flex items-center  justify-center">
+                  <div key={index} className="flex items-center  justify-center">
                     <Image src={image.src} width={image.width} height={image.height} alt={image.alt} />
-                  </a>
+                  </div>
                 ))}
               </div>
 
@@ -1164,56 +1085,52 @@ Product Overview
         </div>
 
 
-
-
         <div className="row">
-  <div className="relative w-full max-w-xl mx-auto block md:hidden">
-    <div className="overflow-hidden">
-      <div
-        className="flex transition-transform duration-700 ease-in-out"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {images7.map((image, index) => (
-          <div
-            key={index}
-            className="min-w-full flex justify-center items-center"
-           
-          >
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="w-auto h-auto object-contain  "
-            />
+          <div className="relative w-full max-w-xl mx-auto block md:hidden">
+            <div className="overflow-hidden">
+              <div
+                className="flex transition-transform duration-700 ease-in-out"
+                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+              >
+                {images7.map((image, index) => (
+                  <div
+                    key={index}
+                    className="min-w-full flex justify-center items-center"
+
+                  >
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="w-auto h-auto object-contain  "
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <button
+              onClick={handlePrev}
+              className="absolute top-1/2 left-2 transform -translate-y-1/2  bg-gray-100 text-black px-3 py-2 rounded-lg"
+            >
+              &#8249;
+            </button>
+
+            <button
+              onClick={handleNext}
+              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-transparent text-black px-3 py-2 rounded-lg"
+            >
+              &#8250;
+            </button>
           </div>
-        ))}
-      </div>
-    </div>
-
-    <button
-      onClick={handlePrev}
-      className="absolute top-1/2 left-2 transform -translate-y-1/2  bg-gray-100 text-black px-3 py-2 rounded-lg"
-    >
-      &#8249;
-    </button>
-
-    <button
-      onClick={handleNext}
-      className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-transparent text-black px-3 py-2 rounded-lg"
-    >
-      &#8250;
-    </button>
-  </div>
-</div>
+        </div>
 
 
         <div className="row pb-10">
-
-
-          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <h2 className="absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve 
+            <h2 className="absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
             </h2>
 
           </div>
@@ -1227,28 +1144,15 @@ Product Overview
               >
                 {logos.map((image, index) => (
                   <li key={index}>
-                  <Image src={image.src} width={image.width} height={image.height} alt={image.alt} />
-
-
-
-
-
+                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} />
                   </li>
                 ))}
               </ul>
             ))}
 
-     
-
           </div>
 
         </div>
-
-
-
-
-
-
 
       </div>
 

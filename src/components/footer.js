@@ -176,11 +176,11 @@ function Footer() {
                 Manufacturing unit
               </h2>
               {links3.map((link, idx) => (
-                <p className="mb-2" key={idx}>
-                  <Link href={link.href} className="link link--thebe">
+                <div className="mb-2" key={idx}>
+                  <div  className="link link--thebe">
                     {link.text}
-                  </Link>
-                </p>
+                  </div>
+                </div>
               ))}
             </div>
           ))}
@@ -267,7 +267,7 @@ function Footer() {
 
 
       <div className="bg-black/5 p-6 text-center">
-        <Link className="font-semibold " href="/"> © Copyright 2025 Adhunik Powertech Private Ltd. All Rights Reserved.</Link>
+        <div className="font-semibold cursor-pointer"  > © Copyright 2025 Adhunik Powertech Private Ltd. All Rights Reserved.</div>
       </div>
     </footer>
   );
