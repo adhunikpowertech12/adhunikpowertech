@@ -348,6 +348,17 @@ const images3 = [
 
   ];
 
+  const [imageSizes, setImageSizes] = useState({});
+
+  const handleImageLoad = (index, event) => {
+    const { naturalWidth, naturalHeight } = event.target;
+    setImageSizes((prev) => ({
+      ...prev,
+      [index]: { width: naturalWidth, height: naturalHeight },
+    }));
+  };
+
+
 const images = [
 
     "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
@@ -1145,24 +1156,24 @@ const paragraphs = [
         <div className="row">
           <div className="relative w-full max-w-xl mx-auto block md:hidden">
             <div className="overflow-hidden">
-              <div
-                className="flex transition-transform duration-700 ease-in-out"
-                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-              >
-                {images7.map((image, index) => (
-                  <div
-                    key={index}
-                    className="min-w-full flex justify-center items-center"
 
-                  >
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                      className="w-auto h-auto object-contain  "
-                    />
-                  </div>
-                ))}
-              </div>
+            <div
+      className="flex transition-transform duration-700 ease-in-out"
+      style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+    >
+      {images7.map((image, index) => (
+        <div key={index} className="min-w-full flex justify-center items-center">
+          <img
+            src={image.src}
+            alt={image.alt}
+            onLoad={(e) => handleImageLoad(index, e)}
+            width={imageSizes[index]?.width || "auto"}
+            height={imageSizes[index]?.height || "auto"}
+            className="object-contain"
+          />
+        </div>
+      ))}
+    </div>
             </div>
 
             <button
