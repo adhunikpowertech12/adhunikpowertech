@@ -306,13 +306,13 @@ const images3 = [
 
     },
     {
-      src: 'uae_zoxpfo_ezgnyl',
+      src: 'uae_wtdhma',
       alt: 'UAE',
       label: 'UAE',
 
     },
     {
-      src: 'uae_wtdhma',
+      src: 'saudi_ml8qgc',
       alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
@@ -749,7 +749,7 @@ const paragraphs = [
 
                 <CldImage
                   className="w-full h-full object-center   object-cover rounded-3xl"
-                  src="landingpage/indiaawards_k0es0f"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743500674/indiaawards_k0es0f.webp"
                   alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                   width="600"
                   height="960"

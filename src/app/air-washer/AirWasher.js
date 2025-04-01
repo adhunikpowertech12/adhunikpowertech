@@ -517,9 +517,9 @@ export default function AirWasher() {
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
              
-                <h2 className=" text-center text-3xl  font-sans   uppercase   ">Double Stage Air Washer <br />
+                <div className=" text-center text-3xl  font-sans   uppercase   ">Double Stage Air Washer <br />
                   <span className=' text-[14px]'> (IN-DIRECT  EVAPORATIVE
-                    COOLING SYSTEM)</span> </h2>
+                    COOLING SYSTEM)</span> </div>
                 <p className=" text-[20px] w-full text-center font-serif  pb-5" > (Working Principle)</p>
                 <div className="flex items-center w-full justify-center h-full">
                   <div>
