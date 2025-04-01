@@ -29,7 +29,7 @@ export const metadata = {
     creator: "@AdhunikPowertech",
   },
   alternates: {
-    canonical: "https://adhunikpowertech.com/",
+    canonical: "https://www.adhunikpowertech.com/",
   },
 };
 

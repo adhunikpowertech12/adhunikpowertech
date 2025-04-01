@@ -105,9 +105,9 @@ function Footer() {
 
 
             <h2 className="  mb-4 flex flex-row text-center  font-semibold uppercase justify-center">
-              Adhunik PowerTech Private Limited  <br />
-              provides   latest cooling technology  <br />
-              with sustainable climate control  <br />
+              Adhunik PowerTech Private Limited 
+              provides   latest cooling technology  
+              with sustainable climate control 
               at the   fingertips.
             </h2>
 
