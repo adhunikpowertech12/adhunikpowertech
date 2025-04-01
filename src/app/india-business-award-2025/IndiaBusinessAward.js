@@ -1,5 +1,6 @@
 "use client"
-import { CldImage } from "next-cloudinary";
+
+import Image from "next/image";
 import Link from "next/link";
 
 export default function IndiaBusinessAward() {
@@ -12,12 +13,13 @@ export default function IndiaBusinessAward() {
 <div className="flex  justify-evenly  flex-col md:flex-row">
 <div className=" flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
    
-    <CldImage
+    <Image
                   className="w-full h-full object-center object-cover rounded-3xl"
-                  src="landingpage/indiaawards_k0es0f"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743500674/indiaawards_k0es0f.webp"
                   alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                  width="500"
   height="500"
+  loading="lazy"
                 />
     
 
