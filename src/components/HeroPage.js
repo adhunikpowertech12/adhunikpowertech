@@ -729,19 +729,21 @@ const paragraphs = [
                 <p className="mb-2 text-justify  font-light font-sans  ">
                   Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
 
-                  We are proud to receive the India Business Award 2025 for the Best Quality Standards and Services in the HVAC Industry.
+                  We are proud to receive the <strong>India Business Award 2025</strong>  for the  <strong>  Best Quality Standards and Services in the HVAC Industry.</strong>
 
                 </p>
 
                 <p className=' mb-2 text-justify  font-light font-sans'>
-                  Our extensive range of air cooling and air conditioning products meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive HVAC project services—including design, installation, and maintenance—ensure that our clients receive the best possible support from start to finish.
+                  Our extensive range of <strong>
+                  air cooling and air conditioning products
+                  </strong>  meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive <strong>HVAC project services —including design, installation, and maintenance</strong>—ensure that our clients receive the best possible support from start to finish.
 
 
                 </p>
 
                 <p className=' pb-8 text-justify  font-light font-sans'>
 
-                  Experience the Adhunik Difference and Explore Our Solutions Today!
+                  Experience the  <strong>Adhunik Difference and Explore Our Solutions Today!</strong>
 
                 </p>
 
@@ -952,7 +954,7 @@ const paragraphs = [
 
                   </p>
                   <p className=' mb-4 text-[12px] lg:text-[14px] text-justify font-sans font-light'>
-                    Our global reach extends far beyond the borders of our home country, India. We've established a strong presence in diverse regions, from the bustling metropolises of Asia to the high-rise buildings of the Middle East. No matter where you are, we're here to provide you with the cooling solutions you need.
+                    Our <strong>global reach</strong>  extends far beyond the borders of our home country, <strong>India</strong> . We've established a strong presence in diverse regions, from the bustling metropolises of <strong>Asia</strong> to the high-rise buildings of the  <strong>Middle East</strong>. No matter where you are, we're here to provide you with the cooling solutions you need.
 
 
                   </p>
