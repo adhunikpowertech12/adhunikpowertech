@@ -461,10 +461,10 @@ const images = [
 
 const paragraphs = [
     <>
-      Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
+      Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
 
 
-      Our commitment extends to meticulous HVAC project execution, adhering to NBC, CPWD, NABH guidelines, and following ISHRAE, ASHRAE, and ISO standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
+      Our commitment extends to meticulous HVAC project execution , adhering to  <strong>NBC, CPWD, NABH</strong> guidelines, and following  <strong>ISHRAE, ASHRAE, and ISO</strong> standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
     </>
   ];
   const [showPopup, setShowPopup] = useState(false);
@@ -1117,7 +1117,7 @@ const paragraphs = [
 
                 Our Product Range </h3>
               <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
-                We pride ourselves on offering a diverse and innovative product range designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for performance, durability, and efficiency. Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
+                We pride ourselves on offering a <strong>diverse and innovative product range</strong> designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for  <strong>performance, durability, and efficiency.</strong> Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
               </p>
             </div>
 
@@ -1144,7 +1144,7 @@ const paragraphs = [
               <div className="  grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">
                 {images6.map((image, index) => (
                   <div key={index} className="flex items-center  justify-center">
-                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} loading = 'lazy' />
                   </div>
                 ))}
               </div>
