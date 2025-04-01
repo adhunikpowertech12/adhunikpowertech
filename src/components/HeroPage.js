@@ -51,6 +51,18 @@ const images3 = [
     },
   
     {
+      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
+      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
+      originalAlt: "Cooling Equipment Image",
+      thumbnailAlt: "Cooling Equipment Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
+    },
+    {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       originalAlt: "Cooling Equipment Image",
@@ -272,7 +284,7 @@ const images3 = [
 
     {
 
-      src: '1_sa8yfj_n8td1t',
+      src: 'india_qejhxm',
       alt: 'India',
       label: 'India',
 
@@ -288,7 +300,7 @@ const images3 = [
     },
 
     {
-      src: 'bangladesh__hbpsm0',
+      src: 'bangladesh_rtj40y',
       alt: 'Bangladesh',
       label: 'Bangladesh',
 
@@ -306,7 +318,7 @@ const images3 = [
 
     },
     {
-      src: 'iraq_y7s6ng_xllxjz',
+      src: 'iraq_x29kze',
       alt: 'Iraq',
       label: 'Iraq',
 
@@ -361,7 +373,7 @@ const images = [
 
     },
     {
-      src: "DD__mz6hmv",
+      src: "ductedaircooler_tgibhs",
       alt: "Ducted Air Coolers",
       title: "Ducted Air Coolers",
       content: "Experience the flexibility of our ducted air coolers, which offer optimal cooling solutions tailored to any space.",
@@ -370,7 +382,7 @@ const images = [
     },
 
     {
-      src: "efss_r3q8fb_dyacni",
+      src: "ventilationfan_ey4ush",
       alt: "Ventlilation Exhaust Fan",
       title: "Ventlilation Exhaust Fan",
       content: " Transform your indoor environment with our powerful ventilation fans, ensuring superior air quality and unmatched comfort. ",
@@ -389,6 +401,7 @@ const images = [
       link: "/panel-air-conditioners",
       linkText: "Explore More",
     },
+
     {
       src: "OC__koeafw",
       alt: "OIL AND COOLANT CHILLER UNIT",
@@ -397,6 +410,7 @@ const images = [
       link: "/chiller-oil-water-coolant",
       linkText: "Explore More",
     },
+
     {
       src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738750082/Air_Shower2__of10ut.webp",
       alt: "AIR SHOWER",
@@ -891,11 +905,11 @@ const paragraphs = [
                       >
                         <CldImage
                           src={image.src}
-                          width="800"
-                          height="600"
+                          width={600}
+                          height={600}
                           alt={image.alt}
-                          loading="lazy"
-                          className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                          loading="eager"
+                          className="absolute h-full inset-0  object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
                         <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -1108,7 +1122,7 @@ const paragraphs = [
         </div>
 
         <div className="row hidden md:block">
-          <section className=" ">
+          <section >
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-4 text-center">
                 <h2 className="text-2xl  text-center font-medium"></h2>
