@@ -34,56 +34,97 @@ export default function HeroPage() {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
+
+  
 const images3 = [
     {
       original: "/awi/cooler.webp",
       thumbnail: "/awi/cooler.webp",
       originalAlt: "HVAC System Image",
       thumbnailAlt: "HVAC System Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841650/ductedAirCooler_znfebs_lnbwfn.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841650/ductedAirCooler_znfebs_lnbwfn.webp",
-      originalAlt: "Ducted Air Cooler Image",
-      thumbnailAlt: "Ducted Air Cooler Image",
-    },
+  
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       originalAlt: "Cooling Equipment Image",
       thumbnailAlt: "Cooling Equipment Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
       originalAlt: "Air Handling Unit Image",
       thumbnailAlt: "Air Handling Unit Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
       originalAlt: "Industrial Air Cooling System Image",
       thumbnailAlt: "Industrial Air Cooling System Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
       originalAlt: "Ventilation Fans Image",
       thumbnailAlt: "Ventilation Fans Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
       originalAlt: "Panel Air Conditioners Image",
       thumbnailAlt: "Panel Air Conditioners Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
       originalAlt: "Chiller Oil Water Coolant Image",
       thumbnailAlt: "Chiller Oil Water Coolant Image",
+      originalHeight: 600,  
+      originalWidth: 600,  
+      loading: "lazy",      
+      thumbnailHeight: 150, 
+      thumbnailWidth: 150,   
+      thumbnailLoading: "lazy",
     },
   ];
+
+
 
   const logos = [
     { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
@@ -99,6 +140,8 @@ const images3 = [
     { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112 },
     { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112 },
   ];
+
+
 
   const handleButtonClick = (buttonText) => {
     console.log('Button clicked:', buttonText); // Log the button text
@@ -652,26 +695,26 @@ const paragraphs = [
 
               <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center md:text-left">
 
-                <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
+                <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
 
                 Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
                 </h1>
 
 
-                <p className="mb-2 text-justify">
+                <p className="mb-2 text-justify  font-light font-sans  ">
                   Founded in 2005, Adhunik Powertech has established itself as a leader in the HVAC industry. We deliver innovative and efficient solutions, driven by our strong commitment to quality, reliability, and exceptional customer satisfaction.
 
                   We are proud to receive the India Business Award 2025 for the Best Quality Standards and Services in the HVAC Industry.
 
                 </p>
 
-                <p className=' mb-2 text-justify'>
+                <p className=' mb-2 text-justify  font-light font-sans'>
                   Our extensive range of air cooling and air conditioning products meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive HVAC project services—including design, installation, and maintenance—ensure that our clients receive the best possible support from start to finish.
 
 
                 </p>
 
-                <p className=' pb-8 text-justify'>
+                <p className=' pb-8 text-justify  font-light font-sans'>
 
                   Experience the Adhunik Difference and Explore Our Solutions Today!
 
@@ -682,7 +725,7 @@ const paragraphs = [
                   title="Learn more about HVAC solutions and air cooling systems"
 
                   href='/our-Company'
-                  className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                  className=' bg-[#0177C8] font-normal font-sans relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase'>
                   Know More About Us
                 </Link>
 
@@ -708,7 +751,7 @@ const paragraphs = [
 
         <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
+          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
         </div>
 
         <section className="row ">
@@ -821,7 +864,7 @@ const paragraphs = [
 
         <div className="inline-flex items-center justify-center w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving Worldwide
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving WorldWide
           </h2>
         </div>
 
@@ -874,27 +917,27 @@ const paragraphs = [
 
               <div className=" md:p-9 py-8 px-5 ">
                 <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
-                  <h3 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-900 ">
+                  <h3 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-700 ">
 
-                    From the Heart of India to  the Far <br /> Corners of the World <br /> <span className='  text-[10px] lg:text-[18px] '> </span>
+                    From the Heart of India to  the Far  Corners of the World  <span className='  text-[10px] lg:text-[18px] '> </span>
                   </h3>
-                  <p className="mb-3 text-[12px]  lg:text-[14px]">
+                  <p className="mb-3 text-[12px]  text-justify  lg:text-[14px] font-sans font-light">
                     At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
 
 
                   </p>
-                  <p className=' mb-4 text-[12px] lg:text-[14px]'>
+                  <p className=' mb-4 text-[12px] lg:text-[14px] text-justify font-sans font-light'>
                     Our global reach extends far beyond the borders of our home country, India. We've established a strong presence in diverse regions, from the bustling metropolises of Asia to the high-rise buildings of the Middle East. No matter where you are, we're here to provide you with the cooling solutions you need.
 
 
                   </p>
 
-                  <p className=' text-[12px] lg:text-[14px]'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
+                  <p className=' text-[12px] lg:text-[14px] text-justify  font-sans font-light'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
 
 
                 </div>
                 <div className="container flex  justify-center pt-3">
-                  <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-extrabold'>
+                  <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-normal  font-sans'>
                     Product Overview
                   </Link>
                 </div>
@@ -969,7 +1012,7 @@ const paragraphs = [
                           </div>
                           <div className="mt-auto ">
                             <h3 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h3>
-                            <p className="text-gray-400 tracking-tight leading-5">{service.content}</p>
+                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
                           </div>
                         </div>
                       </div>
@@ -1017,7 +1060,7 @@ const paragraphs = [
               <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
                 <div className="w-full flex-col justify-center items-start gap-8 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-900 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
+                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
                       Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
                     </h2>
                     <div className=" text-base  leading-relaxed   space-y-4">
@@ -1037,16 +1080,16 @@ const paragraphs = [
   <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
+            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
           </div>
 
-          <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
-            <div className=" w-full h-full md:w-5/12 ">
+          <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
+            <div className=" w-full h-full md:w-5/12 px-3  ">
               <h3
                 className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
 
                 Our Product Range </h3>
-              <p className="font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+              <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
                 We pride ourselves on offering a diverse and innovative product range designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for performance, durability, and efficiency. Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
               </p>
             </div>
@@ -1061,7 +1104,7 @@ const paragraphs = [
 
         <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
-          <h2 className="absolute px-5 text-gray-900  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
+          <h2 className="absolute px-5 text-gray-700  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
         </div>
 
         <div className="row hidden md:block">
@@ -1130,7 +1173,7 @@ const paragraphs = [
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <h2 className="absolute text-3xl px-3  text-gray-900 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
+            <h2 className="absolute text-3xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
             </h2>
 
           </div>
