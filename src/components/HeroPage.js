@@ -701,6 +701,7 @@ const paragraphs = [
               fetchPriority="high"
               decoding="async"
               effect="blur"
+              loading = 'lazy'
             />
 
 
@@ -1068,6 +1069,7 @@ const paragraphs = [
                     className="rounded-xl  object-cover  "
                     src="/tophvac1.webp"
                     alt="about Us image"
+                    loading = 'lazy'
                   />
 
                 </div>
@@ -1078,6 +1080,7 @@ const paragraphs = [
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
                     src="/tophvac2.webp"
                     alt="about Us image"
+                    loading = 'lazy'
                   />
                 </div>
 
@@ -1159,23 +1162,29 @@ const paragraphs = [
           <div className="relative w-full max-w-xl mx-auto block md:hidden">
             <div className="overflow-hidden">
 
+        
             <div
-      className="flex transition-transform duration-700 ease-in-out"
-      style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-    >
-      {images7.map((image, index) => (
-        <div key={index} className="min-w-full flex justify-center items-center">
-          <img
-            src={image.src}
-            alt={image.alt}
-            onLoad={(e) => handleImageLoad(index, e)}
-            width={imageSizes[index]?.width || "auto"}
-            height={imageSizes[index]?.height || "auto"}
-            className="object-contain"
-          />
-        </div>
-      ))}
-    </div>
+                className="flex transition-transform duration-700 ease-in-out"
+                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+              >
+                {images7.map((image, index) => (
+                  <div
+                    key={index}
+                    className="min-w-full flex justify-center items-center"
+
+                  >
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      className="w-auto h-auto object-contain"
+                      loading = 'lazy'
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                ))}
+              </div>
+              
             </div>
 
             <button
@@ -1214,7 +1223,7 @@ const paragraphs = [
               >
                 {logos.map((image, index) => (
                   <li key={index}>
-                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                    <Image loading = 'lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
                   </li>
                 ))}
               </ul>
