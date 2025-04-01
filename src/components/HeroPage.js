@@ -5,7 +5,7 @@ import Head from 'next/head';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
+import { lazy, useEffect, useRef, useState } from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Link from 'next/link';
@@ -284,7 +284,7 @@ const images3 = [
 
     {
 
-      src: 'india_qejhxm',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743493133/india_qejhxm.webp',
       alt: 'India',
       label: 'India',
 
@@ -293,32 +293,32 @@ const images3 = [
     ,
 
     {
-      src: 'nepal_mp0pkh',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498724/nepal_mp0pkh.webp',
       alt: 'Nepal',
       label: 'Nepal',
 
     },
 
     {
-      src: 'bangladesh_rtj40y',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494131/bangladesh_rtj40y.webp',
       alt: 'Bangladesh',
       label: 'Bangladesh',
 
     },
     {
-      src: 'uae_wtdhma',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499150/uae_wtdhma.webp',
       alt: 'UAE',
       label: 'UAE',
 
     },
     {
-      src: 'saudi_ml8qgc',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743499081/saudi_ml8qgc.webp',
       alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
     },
     {
-      src: 'iraq_x29kze',
+      src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494762/iraq_x29kze.webp',
       alt: 'Iraq',
       label: 'Iraq',
 
@@ -917,12 +917,12 @@ const paragraphs = [
 
                         className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg ${index === 0 || index === 3 || index == 4 ? 'md:col-span-2' : ''} md:h-44`}
                       >
-                        <CldImage
+                        <Image
                           src={image.src}
                           width={600}
                           height={600}
                           alt={image.alt}
-                          loading="eager"
+                    loading = 'lazy'
                           className="absolute h-full inset-0  object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
