@@ -293,7 +293,7 @@ const images3 = [
     ,
 
     {
-      src: 'nepal__bm11kx',
+      src: 'nepal_mp0pkh',
       alt: 'Nepal',
       label: 'Nepal',
 
@@ -312,7 +312,7 @@ const images3 = [
 
     },
     {
-      src: 'saudi_lvgcvu_fpkzqu',
+      src: 'uae_wtdhma',
       alt: 'Saudi Arab',
       label: 'Saudi Arab',
 
@@ -394,7 +394,7 @@ const images = [
 
   const products2 = [
     {
-      src: "pab_p1r8bt_jhglwg",
+      src: "panel_bgfupm",
       alt: "PANEL AIR CONDITIONER",
       title: "PANEL AIR CONDITIONER",
       content: " Protect your valuable equipment from overheating with our wide range of panel air conditioners. ",
@@ -1000,7 +1000,7 @@ const paragraphs = [
                       content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
-                      icon: 'Project_Execution_iogkqo_wnsmhr',
+                      icon: 'Project_Exe_mptvqx',
                       title: 'Project Execution',
                       content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
                     },
