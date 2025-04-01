@@ -14,7 +14,7 @@ export default function IndiaBusinessAward() {
    
     <CldImage
                   className="w-full h-full object-center object-cover rounded-3xl"
-                  src="landingpage/o2fwlah3mfccad79oeey"
+                  src="landingpage/indiaawards_k0es0f"
                   alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                  width="500"
   height="500"

@@ -476,7 +476,7 @@ const paragraphs = [
           "@type": "WebPage",
           "url": "https://adhunikpowertech.com/"
         },
-        "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/o2fwlah3mfccad79oeey?_a=BAVAZGDX0",
+        "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/indiaawards_k0es0f?_a=BAVAZGDX0",
         "image": {
           "@type": "ImageObject",
           "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
@@ -749,7 +749,7 @@ const paragraphs = [
 
                 <CldImage
                   className="w-full h-full object-center   object-cover rounded-3xl"
-                  src="landingpage/o2fwlah3mfccad79oeey"
+                  src="landingpage/indiaawards_k0es0f"
                   alt="Adhunik Powertech Private Limited has been honored with the India Business Award 2025 Presented by Actress Bipasha Basu"
                   width="600"
                   height="960"
