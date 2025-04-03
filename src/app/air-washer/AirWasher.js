@@ -855,6 +855,22 @@ export default function AirWasher() {
 
         </div>
 
+
+        <div className=" container mx-auto w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                    <h2 className="text-gray-700 text-2xl font-semibold text-center font-manrope w-full leading-normal ">
+                    Contact Us Today :
+                    </h2>
+               
+                    <p className="text-gray-700  py-3 font-sans   text-center ">For reliable and high-quality air washer solutions in Delhi and across India, contact Adhunik Powertech today. Also, if you have any questions about air washers, installation, maintenance, and repair, please reach-out to our toll-free number, and we'll be happy to discuss your needs and provide a customized solution. 
+</p>
+                  </div>
+
+              </div>
+            </div>
+
         <div className="row">
 
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
