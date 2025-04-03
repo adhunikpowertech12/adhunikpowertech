@@ -109,10 +109,9 @@ export default function RootLayout({ children }) {
           }}
         />
      
-     <div itemscope itemtype="https://schema.org/WebSite">
-    <link itemprop="url" href="https://www.adhunikpowertech.com/" />
-    <meta itemprop="name" content="Adhunik Powertech"/>
-  </div>
+     
+   <meta itemProp="name" content="Adhunik Powertech"/>
+ 
 
 <GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
