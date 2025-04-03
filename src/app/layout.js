@@ -93,8 +93,7 @@ export default function RootLayout({ children }) {
   
 
       <head>
-      <title>Adhunik Powertech</title>
-      
+     
       <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
