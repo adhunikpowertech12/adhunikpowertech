@@ -4,7 +4,7 @@ export default function HvacRightContractor() {
     <>
     
     <div className="container mx-auto p-6 mt-32">
-      <h1 className="text-3xl font-bold mb-4">Understanding HVAC and Finding the Right Contractor in India
+      <h1 className="text-3xl font-semibold mb-4 text-gray-700  font-manrope ">Understanding HVAC and Finding the Right Contractor in India
 </h1>
       <p>
       India's climate, characterized by its extremes, demands robust and reliable solutions for maintaining indoor comfort. From the scorching summers of Rajasthan and Delhi to the humid coastal regions of Mumbai and Chennai and the chilly winters experienced in the northern states, a well-functioning HVAC system is no longer a luxury but a fundamental necessity for homes, businesses, and industries alike. However, navigating the complexities of HVAC technology and finding a trustworthy service provider can often feel overwhelming. This guide aims to demystify HVAC for the Indian consumer, providing a comprehensive understanding of its components and offering practical advice on how to find the ideal HVAC contractor near me.
@@ -64,21 +64,28 @@ Modern HVAC systems often incorporate advanced filtration technologies, includin
 
 </h3>
     
-      <ul className="list-disc pl-5">
+    <ul className="list-disc pl-5">
         <li>
         The scorching heat of Indian summers makes air conditioning an indispensable component of daily life. From residential homes to commercial establishments and from industrial facilities to public spaces, reliable and efficient cooling systems are essential for survival and productivity.
+        </li>
+        <li>
+        Several types of air conditioning systems are prevalent in India, each with its own advantages and disadvantages:
+        </li>
+        <ul className="list-disc pl-8">
+          <li>
+            <strong>Split ACs : </strong> These are the most common type of AC units found in Indian homes and offices. They offer efficient cooling, individual room temperature control, and relatively easy installation.
+          </li>
+          <li>
+            <strong>Central ACs : </strong> These systems provide centralized cooling for larger spaces, such as apartments, villas, and commercial buildings. They offer uniform cooling and can be more energy-efficient for larger areas.
+          </li>
+          <li>
+            <strong>Window ACs : </strong> While less common now, window ACs are still used in some older buildings and smaller spaces. They are generally less expensive but can be less energy-efficient and noisier.
+          </li>
+          <li>
+            <strong> Inverter ACs : </strong> These are becoming increasingly popular due to their energy efficiency and ability to handle voltage fluctuations, a common problem in many parts of India. Inverter technology allows the AC unit to adjust its compressor speed, consuming only the necessary amount of power and reducing electricity consumption.
 
-
-</li>
-
-<li>
-Several types of air conditioning systems are prevalent in India, each with its own advantages and disadvantages:
-
-</li>
-
-
-
-      
+          </li>
+        </ul>
       </ul>
       
 
