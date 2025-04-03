@@ -326,10 +326,10 @@ export default function AirWasher() {
 
 
 
-                    <div className="container">
-                      <h3 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
+                    <div className="container  px-3">
+                      <h3 className=" underline text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
 
-                        Direct Evaporative Cooling :
+                       Direct Evaporative Cooling :
 
                       </h3>
 
@@ -343,6 +343,9 @@ export default function AirWasher() {
                             The water absorbs heat from the air, evaporating and significantly lowering the air temperature.
 
                           </li>
+                          <li className='font-sans'>
+                          The cooled, humidified air is then circulated.
+                          </li>
                         </ul>
 
                       </div>
@@ -350,10 +353,10 @@ export default function AirWasher() {
 
 
 
-                    <div className="container">
-                      <h3 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
+                    <div className="container px-3">
+                      <h3 className=" underline text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
 
-                        The cooled, humidified air is then circulated. Indirect Evaporative Cooling :
+                       Indirect Evaporative Cooling :
                       </h3>
 
                       <div className=" text-base  leading-relaxed   space-y-4">
@@ -424,8 +427,9 @@ export default function AirWasher() {
                       <div className=" text-base  leading-relaxed   space-y-4">
 
                         <ul className="list-disc pl-5 text-gray-700">
-                          <li className=' font-sans'><strong>Full SS304 Construction :</strong> Unmatched corrosion resistance and durability for long-lasting performance.</li>
-                          <li className='font-sans'><strong>Robust Build :</strong> Outer skin: Galvanized Iron (GI) or Pre-Coated GI (customizable); Inner skin: GI (customizable); Frame: Extruded aluminium profile.</li>
+                          <li className=' font-sans'><strong>Single-Stage :</strong> Uses either direct or indirect evaporative cooling.</li>
+                          <li className='font-sans'><strong>Two-Stage :</strong> Combines indirect and direct evaporative cooling for maximum cooling efficiency, especially in hot, dry climates.
+</li>
 
                         </ul>
 
@@ -457,7 +461,7 @@ export default function AirWasher() {
         </section>
 
 
-        <section className='  px-8 py-6'>
+        <section className='  text-center px-8 py-6'>
 
 
       
@@ -473,15 +477,24 @@ export default function AirWasher() {
 
         </section>
 
-        <section className=" relative ">
-
-          <div className="w-full max-w-8xl px-4 md:px-5 lg:px-5 mx-auto">
-            <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-8">
+     
 
 
-              <div className="w-full flex-col justify-center lg:items-start items-center gap-10  inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
-                <div className="w-full flex-col justify-center items-start gap-8 flex">
-                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+
+
+
+
+ 
+
+
+        <div className="row">
+          <div className=" h-full gap-5 flex flex-col md:flex-row  p-5  m-4">
+
+            <div className="md:w-[60%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
                     Key Features of Adhunik Powertech Air Washers :
                     </h2>
@@ -501,13 +514,12 @@ export default function AirWasher() {
 
                     </div>
                   </div>
-                </div>
+
               </div>
+            </div>
 
-
-              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
-                <div className="w-full flex-col justify-center items-start gap-8 flex">
-                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+            <div className="md:w-[40%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                     <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
                     Technical Specifications :
 
@@ -540,35 +552,22 @@ export default function AirWasher() {
 </ul>
 
                       </div>
-                      <div className="relative max-w-xl mx-auto  mt-3">
-    <img className="  h-36  w-full object-cover rounded-md" src="https://img.freepik.com/free-photo/3d-rendering-ventilation-system_23-2149281318.jpg?t=st=1743665721~exp=1743669321~hmac=4c830b880bd29c9345a503cef84a478023a0c3bcd7a131c63b788bfb50fece08&w=1800" alt="Random image"/>
-    
-    <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
-    <div className="absolute inset-0 flex items-center justify-center">
-        <h2 className="text-white text-3xl font-bold">Powerful | Customizable  </h2>
-    </div>
-</div>
+                    
                     </div>
 
 
 
                   </div>
-                </div>
-              </div>
-
-
             </div>
+
+
           </div>
-        </section>
 
 
 
 
 
-
-
- 
-
+        </div>
 
         <div className="row">
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
@@ -765,13 +764,6 @@ export default function AirWasher() {
                 <div className=" px-10 py-16" >
                   <p className=' text-4xl capitalize' > The IDECooling Advantage
                   </p>
-
-
-
-
-
-
-
                 </div>
               </div>
             </div>
