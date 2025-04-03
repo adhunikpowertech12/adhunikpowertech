@@ -254,7 +254,7 @@ export default function AirWasher() {
       <div className="row  mt-32 font-sans">
 
 
-        <section className=' p-5 flex'>
+        <section className=' p-5 flex flex-col md:flex-row'>
 <div className="box">
 <div className="w-auto">
                     <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
@@ -268,19 +268,19 @@ export default function AirWasher() {
                     </div>
                   </div>
 </div>
-<div className="box  py-4 px-4 flex justify-center items-start flex-col">
+<div className="box  py-4 px-4 flex justify-center items-start flex-col ">
 <h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">What is an Air Washer?
           </h1>
 
-          <p className="text-gray-700  py-3 font-sans"> An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
+          <p className="text-gray-700  py-3 font-sans  text-justify md:text-left"> An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
 
           </p>
 
-          <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal  ">
+          <h2 className="text-gray-700 text-2xl text-center md:text-left font-sans font-semibold font-manrope w-full leading-normal  ">
             How Air Washers Work: The Science of Evaporative Cooling
           </h2>
 
-          <p className="text-gray-700  pb-3 font-sans">
+          <p className="text-gray-700  pb-3 font-sans text-center md:text-left">
             Air washers utilize the principle of evaporative (adiabatic) cooling to lower air temperatures. <br />
             Here's a detailed breakdown:
 
@@ -298,7 +298,7 @@ export default function AirWasher() {
         <section className=" relative">
 
           <div className="w-full max-w-8xl px-4 md:px-5 lg:px-5 mx-auto">
-            <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-8">
+            <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-8">
 
 
               <div className="w-full flex-col justify-center lg:items-start items-center gap-10  inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
@@ -313,7 +313,7 @@ export default function AirWasher() {
                       <ul className="list-disc pl-5 text-gray-700 font-sans">
                         <li className='font-sans'>Ambient hot air is drawn into the unit.
                         </li>
-                        <li className='font-sans'>This air is passed through a multi-stage filtration system, including pre-filters and high-efficiency synthetic filters (90% efficiency down to 10 microns), removing dust, pollen, and airborne contaminants. This ensures clean, conditioned air delivery.
+                        <li className='font-sans text-justify md:text-left'>This air is passed through a multi-stage filtration system, including pre-filters and high-efficiency synthetic filters (90% efficiency down to 10 microns), removing dust, pollen, and airborne contaminants. This ensures clean, conditioned air delivery.
                         </li>
                       </ul>
 
@@ -336,10 +336,10 @@ export default function AirWasher() {
                       <div className=" text-base  leading-relaxed   space-y-4">
 
                         <ul className="list-disc pl-5 text-gray-700">
-                          <li className='font-sans'>Filtered hot air is forced through cellulose evaporation pads saturated with water or a high-pressure water spray.
+                          <li className='font-sans text-justify md:text-left'>Filtered hot air is forced through cellulose evaporation pads saturated with water or a high-pressure water spray.
 
                           </li>
-                          <li className='font-sans'>
+                          <li className='font-sans text-justify md:text-left'>
                             The water absorbs heat from the air, evaporating and significantly lowering the air temperature.
 
                           </li>
@@ -366,11 +366,11 @@ export default function AirWasher() {
                             Hot air passes through a highly efficient heat exchanger.
 
                           </li>
-                          <li className='font-sans'>
+                          <li className='font-sans text-justify md:text-left'>
                             A separate stream of pre-cooled air (often through direct evaporation) flows on the opposite side of the exchanger.
 
                           </li>
-                          <li className='font-sans'>
+                          <li className='font-sans text-justify md:text-left'>
                             Heat is transferred from the hot air to the pre-cooled air without mixing, resulting in cooler, dehumidified air.
 
                           </li>
@@ -402,11 +402,11 @@ export default function AirWasher() {
                       <div className=" text-base  leading-relaxed   space-y-4">
 
                         <ul className="list-disc pl-5 text-gray-700">
-                          <li className='font-sans'>
+                          <li className='font-sans text-justify md:text-left'>
                             A powerful, energy-efficient fan (SISW/DIDW backward curved or EC fan) forces the cooled air through ductwork, distributing it evenly throughout the space.
 
                           </li>
-                          <li className='font-sans'>
+                          <li className='font-sans text-justify md:text-left'>
                             CFM (Cubic Feet per Minute) ranges from 1,000 to 100,000, with static pressure (mm WG) tailored to specific application requirements.
 
                           </li>
@@ -428,7 +428,7 @@ export default function AirWasher() {
 
                         <ul className="list-disc pl-5 text-gray-700">
                           <li className=' font-sans'><strong>Single-Stage :</strong> Uses either direct or indirect evaporative cooling.</li>
-                          <li className='font-sans'><strong>Two-Stage :</strong> Combines indirect and direct evaporative cooling for maximum cooling efficiency, especially in hot, dry climates.
+                          <li className='font-sans '><strong>Two-Stage :</strong> Combines indirect and direct evaporative cooling for maximum cooling efficiency, especially in hot, dry climates.
 </li>
 
                         </ul>
