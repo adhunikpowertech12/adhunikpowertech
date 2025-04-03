@@ -93,6 +93,8 @@ export default function RootLayout({ children }) {
   
 
       <head>
+      <title>Adhunik Powertech</title>
+      
       <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -101,13 +103,17 @@ export default function RootLayout({ children }) {
               "@type": "WebSite",
               "name": "Adhunik Powertech",
               "url": "https://www.adhunikpowertech.com/",
-              "url": "https://adhunikpowertech.com/",
-              "alternateName": "Adhunik Powertech Private Limited",
+              "alternateName": "Adhunik Powertech",
   
             }),
           }}
         />
      
+     <div itemscope itemtype="https://schema.org/WebSite">
+    <link itemprop="url" href="https://www.adhunikpowertech.com/" />
+    <meta itemprop="name" content="Adhunik Powertech"/>
+  </div>
+
 <GoogleTagManager   gtmId="GTM-W994SKBG"  />
       <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
 

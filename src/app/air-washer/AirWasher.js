@@ -862,7 +862,7 @@ export default function AirWasher() {
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
 
 
-              <div>
+              <section >
                 <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> FAQs
 
                 </p>
@@ -936,7 +936,7 @@ export default function AirWasher() {
 
 
 
-              </div>
+              </section>
 
 
               <div className="relative ms-4 items-center flex justify-center">
