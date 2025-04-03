@@ -54,6 +54,15 @@ export default function Blog() {
           link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
           img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738837317/top10_ekhsnl.jpg",
         },
+
+        {
+          id: 7,
+          title: "Understanding HVAC and Finding the Right Contractor in India",
+          image:
+          "",
+          link: "/HVACRightContractor",
+          img: "https://targetbuilders.com/wp-content/uploads/2022/03/drawing-construction-plan-2021-08-28-18-46-13-utc-scaled.jpg",
+        },
        
       ];
     

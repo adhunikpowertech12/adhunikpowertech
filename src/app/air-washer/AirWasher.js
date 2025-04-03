@@ -161,7 +161,7 @@ export default function AirWasher() {
   const column2 = [
     "Workshops",
     "  Spot Cooling",
-    " DG Ventilation",
+    " DG Rooms",
 
     "Warehouses",
 
