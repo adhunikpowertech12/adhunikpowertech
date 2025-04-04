@@ -6,7 +6,7 @@ export default function Blog() {
 
         {
           id: 1,
-          title: "What is an Air Washer?",
+          title: "What is an Air Washer ?",
           image:
             "",
           link: "/what-is-an-air-washer",
@@ -15,7 +15,7 @@ export default function Blog() {
     
         {
           id: 2,
-          title: "What is a Ducted Air Cooler?",
+          title: "What is a Ducted Air Cooler ?",
           image:
           "",
           link: "/what-is-a-ducted-air-cooler",
@@ -48,7 +48,7 @@ export default function Blog() {
         },
         {
           id: 6,
-          title: "How to Choose HVAC Contractor in India?",
+          title: "How to Choose HVAC Contractor in India ?",
           image:
           "",
           link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
@@ -71,10 +71,8 @@ export default function Blog() {
        <div className="container mt-32 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* Title */}
         <div className="max-w-7xl mx-auto text-center ">
-          <p className="text-2xl font-bold md:text-4xl md:leading-tight">Blogs</p>
-          <h1 className="mt-1 text-gray-600 dark:text-neutral-400 pb-9">
-            Explore thought-provoking insights and stay informed with expert perspectives.
-          </h1>
+          <h1 className="text-2xl font-bold md:text-4xl md:leading-tight">Blogs</h1>
+         
 
           <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {blogData.map((blog) => (

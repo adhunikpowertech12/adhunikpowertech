@@ -1078,7 +1078,7 @@ const paragraphs = [
                     width={300}
                     height={200}
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
-                    src="/tophvac1.jpeg"
+                    src="/tophvac1.webp"
                     alt="about Us image"
                     loading = 'lazy'
                   />
