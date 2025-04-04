@@ -1067,7 +1067,7 @@ const paragraphs = [
                     width={300}
                     height={200}
                     className="rounded-xl  object-cover  "
-                    src="/tophvac1.webp"
+                    src="/tophvac2.webp"
                     alt="about Us image"
                     loading = 'lazy'
                   />
@@ -1078,7 +1078,7 @@ const paragraphs = [
                     width={300}
                     height={200}
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
-                    src="/tophvac2.webp"
+                    src="/tophvac1.jpeg"
                     alt="about Us image"
                     loading = 'lazy'
                   />

@@ -51,8 +51,8 @@ export default function HvacRightContractor() {
 
                 </p>
 
-                <h3 className="text-xl font-bold mt-4 ">Heating Considerations in India:
-                </h3>
+                <h2 className="text-xl font-bold mt-4 ">Heating Considerations in India :
+                </h2>
 
                 <ul className="list-disc pl-5 mt-2">
                     <li className=" font-sans font-normal">While the southern and coastal regions of India primarily focus on cooling solutions, a significant portion of the country, particularly the northern states, experiences harsh winters. Modern HVAC systems offer integrated heating solutions to address these needs.
@@ -70,9 +70,9 @@ export default function HvacRightContractor() {
 
 
 
-                <h3 className="text-xl font-bold mt-4">Ventilation's Vital Role in Maintaining Indoor Air Quality :
+                <h2 className="text-xl font-bold mt-4">Ventilation's Vital Role in Maintaining Indoor Air Quality :
 
-                </h3>
+                </h2>
 
                 <ul className="list-disc pl-5 mt-2">
                     <li className=" font-sans font-normal">
@@ -93,10 +93,10 @@ export default function HvacRightContractor() {
 
                 </ul>
 
-                <h3 className="text-xl font-bold mt-4">Air Conditioning : An Indispensable Component of Indian Living :
+                <h2 className="text-xl font-bold mt-4">Air Conditioning : An Indispensable Component of Indian Living :
 
 
-                </h3>
+                </h2>
 
                 <ul className="list-disc pl-5 mt-2">
                     <li className=" font-sans font-normal">
@@ -123,11 +123,11 @@ export default function HvacRightContractor() {
                 </ul>
 
 
-                <h3 className="text-xl font-bold mt-4">The Growing Importance of HVAC Systems in India
+                <h2 className="text-xl font-bold mt-4">The Growing Importance of HVAC Systems in India
 
 
 
-                </h3>
+                </h2>
 
                 <ul className="list-disc pl-5 mt-2">
 
