@@ -268,6 +268,8 @@ export default function AirWasher() {
                     </div>
                   </div>
 </div>
+
+
 <div className="box  py-4 px-4 flex justify-center items-start flex-col ">
 <h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">What is an Air Washer?
           </h1>

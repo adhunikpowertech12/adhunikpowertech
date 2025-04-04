@@ -4,11 +4,45 @@ export default function HvacRightContractor() {
         <>
 
             <div className="container mx-auto p-6 mt-32">
-                <h1 className="text-3xl font-semibold mb-4 text-gray-700  font-manrope  ">Understanding HVAC and Finding the Right Contractor in India
-                </h1>
-                <p className=" font-sans font-normal">
-                    India's climate, characterized by its extremes, demands robust and reliable solutions for maintaining indoor comfort. From the scorching summers of Rajasthan and Delhi to the humid coastal regions of Mumbai and Chennai and the chilly winters experienced in the northern states, a well-functioning HVAC system is no longer a luxury but a fundamental necessity for homes, businesses, and industries alike. However, navigating the complexities of HVAC technology and finding a trustworthy service provider can often feel overwhelming. This guide aims to demystify HVAC for the Indian consumer, providing a comprehensive understanding of its components and offering practical advice on how to find the ideal HVAC contractor near me.
-                </p>
+
+
+                <section className=' p-5 flex flex-col md:flex-row'>
+                    <div className="box w-6/12">
+                        <div className="   w-full ">
+                            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                                <img
+                                    className="object-center object-fill "
+                                    fetchPriority="high"
+                                    decoding="async"
+                                    alt="Air washer"
+                                    src="/awi/5.webp"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="box w-6/12  py-4 px-4 flex justify-center items-start flex-col ">
+                        <h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">
+                            Understanding HVAC and Finding the Right Contractor in India
+
+                        </h1>
+
+                        <p className="text-gray-700  py-3 font-sans  text-justify md:text-left">
+                            India's climate, characterized by its extremes, demands robust and reliable solutions for maintaining indoor comfort. From the scorching summers of Rajasthan and Delhi to the humid coastal regions of Mumbai and Chennai and the chilly winters experienced in the northern states, a well-functioning HVAC system is no longer a luxury but a fundamental necessity for homes, businesses, and industries alike. However, navigating the complexities of HVAC technology and finding a trustworthy service provider can often feel overwhelming. This guide aims to demystify HVAC for the Indian consumer, providing a comprehensive understanding of its components and offering practical advice on how to find the ideal HVAC contractor near me.
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+                </section>
+
+
+
 
                 <h2 className="text-2xl font-bold mt-6 text-gray-700  font-manrope ">Deciphering HVAC : A Holistic Approach to Indoor Climate Control
                 </h2>
@@ -132,7 +166,7 @@ export default function HvacRightContractor() {
 
                 </p>
 
-            
+
 
 
                 <ul className="list-disc pl-5 mt-2">
@@ -263,7 +297,7 @@ export default function HvacRightContractor() {
                             Ensure that the contractor is familiar with the specific challenges posed by your local climate, such as extreme heat, high humidity, or cold temperatures.
                         </li>
                         <li className=" font-sans font-normal">
-                        Local expertise also includes familiarity with local building codes, regulations, and power grid conditions.
+                            Local expertise also includes familiarity with local building codes, regulations, and power grid conditions.
                         </li>
                     </ul>
                 </ul>
@@ -272,100 +306,100 @@ export default function HvacRightContractor() {
 
                 <ul className="list-disc pl-5">
                     <li className=" underline">
-                    Cultural Sensitivity and Communication :
+                        Cultural Sensitivity and Communication :
                     </li>
                     <ul className="list-disc pl-8">
                         <li className=" font-sans font-normal">
-                        Choose a contractor who is respectful of your home environment, cultural norms, and values.
+                            Choose a contractor who is respectful of your home environment, cultural norms, and values.
                         </li>
                         <li className=" font-sans font-normal">
-                        Clear and transparent communication, punctuality, and professionalism are essential qualities to look for in an HVAC service provider.
+                            Clear and transparent communication, punctuality, and professionalism are essential qualities to look for in an HVAC service provider.
                         </li>
-                     
+
                     </ul>
                 </ul>
 
-            
-
-<h2 className="text-2xl font-bold mt-6 text-gray-700  font-manrope "> 
-Practical Tips for Indian Consumers :
-</h2>
 
 
-<ul className="list-disc pl-5 mt-2">
-
-<li className=" underline">
-Emphasizing Regular Preventive Maintenance :
-</li>
-<ul className="list-disc pl-8">
-    <li className=" font-sans font-normal">
-    Schedule routine preventive maintenance for your HVAC system to ensure optimal performance, energy efficiency, and longevity.
-    </li>
-    <li className=" font-sans font-normal">
-    Regular servicing is particularly crucial in India's dusty and often polluted environments, where dust and debris can accumulate in the system, reducing its efficiency and lifespan.
-    </li>
-
-</ul>
-</ul>
+                <h2 className="text-2xl font-bold mt-6 text-gray-700  font-manrope ">
+                    Practical Tips for Indian Consumers :
+                </h2>
 
 
+                <ul className="list-disc pl-5 mt-2">
 
-<ul className="list-disc pl-5">
+                    <li className=" underline">
+                        Emphasizing Regular Preventive Maintenance :
+                    </li>
+                    <ul className="list-disc pl-8">
+                        <li className=" font-sans font-normal">
+                            Schedule routine preventive maintenance for your HVAC system to ensure optimal performance, energy efficiency, and longevity.
+                        </li>
+                        <li className=" font-sans font-normal">
+                            Regular servicing is particularly crucial in India's dusty and often polluted environments, where dust and debris can accumulate in the system, reducing its efficiency and lifespan.
+                        </li>
 
-<li className=" underline">
-Adopting Energy-Saving Practices :
-</li>
-<ul className="list-disc pl-8">
-    <li className=" font-sans font-normal">
-    Implement energy-saving practices, such as using programmable thermostats, sealing air leaks in ducts and windows, cleaning or replacing air filters regularly, and utilizing energy-efficient settings on your HVAC system.
-    </li>
-    <li className=" font-sans font-normal">
-    Consider investing in smart technology and automation systems to optimize energy consumption and control your HVAC system remotely.
-    </li>
-
-</ul>
-</ul>
+                    </ul>
+                </ul>
 
 
 
-<ul className="list-disc pl-5">
+                <ul className="list-disc pl-5">
 
-<li className=" underline ">
-Investing in Energy-Efficient Technologies :
-</li>
-<ul className="list-disc pl-8">
-    <li className=" font-sans font-normal">
-    Prioritize energy-efficient HVAC systems, such as those with high SEER (Seasonal Energy Efficiency Ratio) ratings for air conditioners and high HSPF (Heating Seasonal Performance Factor) ratings for heat pumps.
-    </li>
-    <li className=" font-sans font-normal">
-    Inverter technology in ACs can significantly reduce electricity consumption and provide more stable and efficient cooling.
-    </li>
+                    <li className=" underline">
+                        Adopting Energy-Saving Practices :
+                    </li>
+                    <ul className="list-disc pl-8">
+                        <li className=" font-sans font-normal">
+                            Implement energy-saving practices, such as using programmable thermostats, sealing air leaks in ducts and windows, cleaning or replacing air filters regularly, and utilizing energy-efficient settings on your HVAC system.
+                        </li>
+                        <li className=" font-sans font-normal">
+                            Consider investing in smart technology and automation systems to optimize energy consumption and control your HVAC system remotely.
+                        </li>
 
-</ul>
-</ul>
-
-
+                    </ul>
+                </ul>
 
 
-<ul className="list-disc pl-5">
 
-<li className=" underline ">
-Selecting the Appropriate System Capacity :
-</li>
-<ul className="list-disc pl-8">
-    <li className=" font-sans font-normal">
-    Choose an HVAC system with the correct capacity for your room size and cooling or heating requirements. An oversized unit will waste energy, while an undersized unit will struggle to maintain the desired temperature and may lead to higher energy bills.
-    </li>
- 
+                <ul className="list-disc pl-5">
 
-</ul>
-</ul>
+                    <li className=" underline ">
+                        Investing in Energy-Efficient Technologies :
+                    </li>
+                    <ul className="list-disc pl-8">
+                        <li className=" font-sans font-normal">
+                            Prioritize energy-efficient HVAC systems, such as those with high SEER (Seasonal Energy Efficiency Ratio) ratings for air conditioners and high HSPF (Heating Seasonal Performance Factor) ratings for heat pumps.
+                        </li>
+                        <li className=" font-sans font-normal">
+                            Inverter technology in ACs can significantly reduce electricity consumption and provide more stable and efficient cooling.
+                        </li>
 
-<p className=" font-sans font-normal pt-3">
+                    </ul>
+                </ul>
 
-By understanding the intricacies of HVAC systems and following these comprehensive guidelines, Indian consumers can make informed decisions, invest wisely, and create comfortable, healthy, and energy-efficient indoor environments for themselves and their families. Remember, proactive research and careful selection of an HVAC contractor near me are key to ensuring long-term satisfaction and maximizing the value of your investment.
 
-</p>
+
+
+                <ul className="list-disc pl-5">
+
+                    <li className=" underline ">
+                        Selecting the Appropriate System Capacity :
+                    </li>
+                    <ul className="list-disc pl-8">
+                        <li className=" font-sans font-normal">
+                            Choose an HVAC system with the correct capacity for your room size and cooling or heating requirements. An oversized unit will waste energy, while an undersized unit will struggle to maintain the desired temperature and may lead to higher energy bills.
+                        </li>
+
+
+                    </ul>
+                </ul>
+
+                <p className=" font-sans font-normal pt-3">
+
+                    By understanding the intricacies of HVAC systems and following these comprehensive guidelines, Indian consumers can make informed decisions, invest wisely, and create comfortable, healthy, and energy-efficient indoor environments for themselves and their families. Remember, proactive research and careful selection of an HVAC contractor near me are key to ensuring long-term satisfaction and maximizing the value of your investment.
+
+                </p>
 
 
 
