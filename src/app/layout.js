@@ -16,6 +16,7 @@ export const metadata = {
 
     default:" Top & Best HVAC Companies in India - Adhunik Powertech",
     template: "%s"
+    
   },
   description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
   keywords: [
@@ -38,9 +39,11 @@ export const metadata = {
   appleMobileWebAppTitle: "Adhunik Powertech",
   appleMobileWebAppStatusBarStyle: "default",
   robots: "index, follow",
+
   alternates: {
     canonical: "https://www.adhunikpowertech.com/"
   },
+  
   twitter: {
     site: "@adhunikpowertech",
     title: "Adhunik Powertech | Top HVAC & Air Cooling Systems Gurugram",
