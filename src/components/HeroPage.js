@@ -1232,13 +1232,12 @@ const paragraphs = [
           </div>
 
 
-<div className="section flex  flex-row-reverse justify-center items-center">
-<div className="box w-6/12">
+<div className="section flex  flex-row-reverse justify-evenly items-center">
+<div className="box w-2/12">
 <a href='https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges'><img src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings' alt="image"/></a>
 </div>
-<div className='box w-6/12'>
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div className="elfsight-app-2aa93cd5-dadb-4bac-b59d-f793f02023f3" data-elfsight-app-lazy></div>
+<div className='box w-2/12'>
+<div className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light"></div><script src="https://grwapi.net/widget.min.js"></script>
 </div>
 </div>
          
