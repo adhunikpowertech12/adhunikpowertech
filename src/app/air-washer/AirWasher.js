@@ -255,7 +255,7 @@ export default function AirWasher() {
 
 
         <section className=' p-5 flex flex-col md:flex-row mb-5'>
-<div className="box w-4/12 justify-center flex items-center mx-auto">
+<div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
                     <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                       <Image
@@ -272,7 +272,7 @@ export default function AirWasher() {
 </div>
 
 
-<div className="box  w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
+<div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
 <h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">What is an Air Washer?
           </h1>
 
