@@ -254,23 +254,25 @@ export default function AirWasher() {
       <div className="row  mt-32 font-sans">
 
 
-        <section className=' p-5 flex flex-col md:flex-row'>
-<div className="box">
-<div className="w-auto">
+        <section className=' p-5 flex flex-col md:flex-row mb-5'>
+<div className="box w-4/12 justify-center flex items-center mx-auto">
+
                     <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                      <img
-                        className="    object-center object-fill "
+                      <Image
+                        className="   h-full w-full  object-center object-fill rounded-2xl "
                         fetchPriority="high"
                         decoding="async"
                         alt="Air washer"
                         src="/awi/5.webp"
+                        width="300"
+                        height="300"
                       />
                     </div>
-                  </div>
+                
 </div>
 
 
-<div className="box  py-4 px-4 flex justify-center items-start flex-col ">
+<div className="box  w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
 <h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">What is an Air Washer?
           </h1>
 
@@ -438,7 +440,7 @@ export default function AirWasher() {
                       </div>
 
                       <div className="relative max-w-xl mx-auto  mt-3">
-    <img className=" h-60  w-full object-cover rounded-md" src="https://img.freepik.com/free-photo/men-working-with-equipment-full-shot_23-2148921408.jpg?t=st=1743665337~exp=1743668937~hmac=b7012bf18564c4a0dd29181acffb253028376f826ca36427ab9d418df8ce7387&w=2000" alt="Random image"/>
+    <img className=" h-60  w-full object-cover rounded-md" src="/awi/dura.png"/>
     
     <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
     <div className="absolute inset-0 flex items-center justify-center">

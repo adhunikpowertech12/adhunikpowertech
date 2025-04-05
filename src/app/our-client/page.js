@@ -1,7 +1,7 @@
-
+"use client"
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react'
+import { useEffect, useRef, useState } from 'react';
 
 export default function page() {
 
@@ -195,6 +195,31 @@ export default function page() {
   ];
   
 
+
+    const [inView, setInView] = useState(false);
+    const containerRef = useRef(null);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) setInView(true);
+        },
+        { threshold: 0.5 }
+      );
+  
+      if (containerRef.current) {
+        observer.observe(containerRef.current);
+      }
+  
+      return () => {
+        if (containerRef.current) observer.unobserve(containerRef.current);
+      };
+    }, []);
+  
+    const text = 'And Many More...';
+  
+  
+
   
   return (
     <>
@@ -260,6 +285,25 @@ export default function page() {
     </div>
 </div>
       </div>
+
+      <div
+      ref={containerRef}
+      className="flex justify-center items-center h-32 text-black font-sans md:text-4xl font-semibold"
+    >
+      <div className="flex gap-1 justify-center items-center">
+        {text.split('').map((char, i) => (
+          <span
+            key={i}
+            className={`opacity-0 transform translate-y-4  transition-all duration-500 ease-out ${
+              inView ? 'opacity-100 translate-y-0' : ''
+            }`}
+            style={{ transitionDelay: `${i * 0.15}s` }}
+          >
+            {char}
+          </span>
+        ))}
+      </div>
+    </div>
 
     </div>
 

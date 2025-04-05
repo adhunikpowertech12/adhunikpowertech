@@ -271,7 +271,7 @@ export default function WhatIsDuctedAirCooler() {
               <section>
                 <div className="blog-img mb-6 text-center">
                   <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
-                    <div className=" w-full md:w-4/12  h-80 h- flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                    <div className=" w-full md:w-4/12   h-96 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
 
 
                       <Image
