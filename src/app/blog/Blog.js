@@ -7,8 +7,7 @@ export default function Blog() {
     {
       id: 1,
       title: "What is an Air Washer ?",
-      tips: "Smart HVAC Tips",
-      read: "4min read",
+      
       date: "April  2025",
       image:
         "",
@@ -19,8 +18,7 @@ export default function Blog() {
     {
       id: 2,
       title: "What is a Ducted Air Cooler ?",
-      tips: "Smart HVAC Tips",
-      read: "5min read",
+     
       date: "March 2025",
       image:
         "",
@@ -31,8 +29,7 @@ export default function Blog() {
     {
       id: 3,
       title: "What is Panel Air Conditioners ?",
-      tips: "Smart HVAC Tips",
-      read: "8min read",
+      
       date: "April  2025",
       image:
         "",
@@ -42,8 +39,7 @@ export default function Blog() {
     {
       id: 4,
       title: "What is HVAC? Guide for Beginners",
-      tips: "Smart HVAC Tips",
-      read: "4min read",
+      
       date: "March 2025",
       image:
         "",
@@ -53,8 +49,7 @@ export default function Blog() {
     {
       id: 5,
       title: "Award-Winning Services in the HVAC Industry ",
-      tips: "About Adhunik Powertech",
-      read: "5min read",
+     
       date: "April  2025",
       image:
         "",
@@ -64,8 +59,7 @@ export default function Blog() {
     {
       id: 6,
       title: "How to Choose HVAC Contractor in India ?",
-      tips: "Smart HVAC Tips",
-      read: "8min read",
+     
       date: "March 2025",
       image:
         "",
@@ -77,8 +71,7 @@ export default function Blog() {
       id: 7,
       title: "Understanding HVAC and Finding the Right Contractor in India",
    
-      tips: "Smart HVAC Tips",
-      read: "4min read",
+     
       date: "April  2025",
       image:
         "",
@@ -121,24 +114,14 @@ export default function Blog() {
     </div>
   </div>
 
-<section className=" flex justify-between mt-3  text-[14px]  items-center">
-
-  <div className="box font-sans uppercase text-cyan-600">
- {blog.tips}
-  </div>
-  <div className="box text-cyan-600">
-  {blog.read}
-  </div>
 
 
-</section>
-
-<div className=" mt-2  text-start flex flex-col">
+<div className=" mt-4  text-start flex flex-col">
 <h2 className="text-cyan-800 group-hover:text-gray-500 font-semibold  font-sans">
   
     {blog.title}
   </h2>
-  <div className="date text-[14px] mt-3 font-sans text-cyan-700">
+  <div className="date text-[14px] mt-1 font-sans text-cyan-700">
 
   {blog.date}
   </div>
