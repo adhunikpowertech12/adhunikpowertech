@@ -35,31 +35,31 @@ export default function HeroPage() {
     );
   };
 
-  
-const images3 = [
+
+  const images3 = [
     {
       original: "/awi/cooler.webp",
       thumbnail: "/awi/cooler.webp",
       originalAlt: "HVAC System Image",
       thumbnailAlt: "HVAC System Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
-  
+
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
       originalAlt: "Cooling Equipment Image",
       thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -67,11 +67,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       originalAlt: "Cooling Equipment Image",
       thumbnailAlt: "Cooling Equipment Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -79,11 +79,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/8_l2toyp_naoo5o.webp",
       originalAlt: "Air Handling Unit Image",
       thumbnailAlt: "Air Handling Unit Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -91,11 +91,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
       originalAlt: "Industrial Air Cooling System Image",
       thumbnailAlt: "Industrial Air Cooling System Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -103,11 +103,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
       originalAlt: "Ventilation Fans Image",
       thumbnailAlt: "Ventilation Fans Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -115,11 +115,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
       originalAlt: "Panel Air Conditioners Image",
       thumbnailAlt: "Panel Air Conditioners Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
     {
@@ -127,11 +127,11 @@ const images3 = [
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
       originalAlt: "Chiller Oil Water Coolant Image",
       thumbnailAlt: "Chiller Oil Water Coolant Image",
-      originalHeight: 600,  
-      originalWidth: 600,  
-      loading: "lazy",      
-      thumbnailHeight: 150, 
-      thumbnailWidth: 150,   
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
   ];
@@ -268,7 +268,7 @@ const images3 = [
     }
   };
 
-   const handleMouseUp = () => {
+  const handleMouseUp = () => {
     setIsDragging(false);
   };
 
@@ -359,7 +359,7 @@ const images3 = [
   };
 
 
-const images = [
+  const images = [
 
     "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
 
@@ -441,7 +441,7 @@ const images = [
     // Add more items if needed
   ];
 
- 
+
   useEffect(() => {
     // Show the popup after 5 seconds
     const showTimer = setTimeout(() => {
@@ -459,7 +459,7 @@ const images = [
     }; // Cleanup on unmount
   }, []);
 
-const paragraphs = [
+  const paragraphs = [
     <>
       Adhunik Powertech Private Limited delivers high-quality, personalized HVAC services  across  <strong>Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Sonipat, Greater Noida, Meerut, Rohtak, Muzaffarnagar, Jaipur, Chandigarh, and the entire NCR </strong> region, as well as executing turnkey HVAC projects pan-India. With over 19 years of industry expertise, we exceed client expectations by providing comprehensive solutions from expert HVAC consulting and design, encompassing Engineering and Procurement, to detailed engineering focusing on energy-efficient and cost-effective cooling systems with minimal maintenance for industrial, institutional, commercial, and residential projects. <br />
 
@@ -563,10 +563,10 @@ const paragraphs = [
   return (
     <>
       <Head>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <meta charSet="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
@@ -643,7 +643,7 @@ const paragraphs = [
               </video>
 
 
-<div className="  flex items-center h-screen bg-black bg-opacity-40">
+              <div className="  flex items-center h-screen bg-black bg-opacity-40">
 
                 <div className=" text-white   text-center md:text-left  lg:px-16">
                   <p className="   text-[22px] md:text-6xl  md:w-[90%]  mb-2 font-thin">{slide.title}</p>
@@ -668,7 +668,7 @@ const paragraphs = [
             </div>
           ))}
 
-         
+
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
             {slides.map((_, index) => (
               <button
@@ -701,7 +701,7 @@ const paragraphs = [
               fetchPriority="high"
               decoding="async"
               effect="blur"
-              loading = 'lazy'
+              loading='lazy'
             />
 
 
@@ -723,7 +723,7 @@ const paragraphs = [
 
                 <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
 
-                Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
+                  Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
                 </h1>
 
 
@@ -736,7 +736,7 @@ const paragraphs = [
 
                 <p className=' mb-2 text-justify  font-light font-sans'>
                   Our extensive range of <strong>
-                  air cooling and air conditioning products
+                    air cooling and air conditioning products
                   </strong>  meets various needs, catering to commercial and industrial environments. We focus on comfort and energy efficiency in every solution. Additionally, our comprehensive <strong>HVAC project services —including design, installation, and maintenance</strong>—ensure that our clients receive the best possible support from start to finish.
 
 
@@ -922,7 +922,7 @@ const paragraphs = [
                           width={600}
                           height={600}
                           alt={image.alt}
-                    loading = 'lazy'
+                          loading='lazy'
                           className="absolute h-full inset-0  object-cover object-center transition duration-200 group-hover:scale-110"
                         />
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
@@ -1060,7 +1060,7 @@ const paragraphs = [
 
           <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
             <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
-       
+
               <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                 <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
                   <Image
@@ -1069,7 +1069,7 @@ const paragraphs = [
                     className="rounded-xl  object-cover  "
                     src="/tophvac2.webp"
                     alt="about Us image"
-                    loading = 'lazy'
+                    loading='lazy'
                   />
 
                 </div>
@@ -1080,7 +1080,7 @@ const paragraphs = [
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
                     src="/tophvac1.webp"
                     alt="about Us image"
-                    loading = 'lazy'
+                    loading='lazy'
                   />
                 </div>
 
@@ -1107,7 +1107,7 @@ const paragraphs = [
           </div>
         </section>
 
-  <div className="row">
+        <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
             <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
@@ -1147,7 +1147,7 @@ const paragraphs = [
               <div className="  grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">
                 {images6.map((image, index) => (
                   <div key={index} className="flex items-center  justify-center">
-                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} loading = 'lazy' />
+                    <Image src={image.src} width={image.width} height={image.height} alt={image.alt} loading='lazy' />
                   </div>
                 ))}
               </div>
@@ -1162,8 +1162,8 @@ const paragraphs = [
           <div className="relative w-full max-w-xl mx-auto block md:hidden">
             <div className="overflow-hidden">
 
-        
-            <div
+
+              <div
                 className="flex transition-transform duration-700 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               >
@@ -1177,14 +1177,14 @@ const paragraphs = [
                       src={image.src}
                       alt={image.alt}
                       className="w-auto h-auto object-contain"
-                      loading = 'lazy'
+                      loading='lazy'
                       width={300}
                       height={300}
                     />
                   </div>
                 ))}
               </div>
-              
+
             </div>
 
             <button
@@ -1205,7 +1205,7 @@ const paragraphs = [
 
 
         <div className="row pb-10">
-    <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
@@ -1223,7 +1223,7 @@ const paragraphs = [
               >
                 {logos.map((image, index) => (
                   <li key={index}>
-                    <Image loading = 'lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
+                    <Image loading='lazy' src={image.src} width={image.width} height={image.height} alt={image.alt} />
                   </li>
                 ))}
               </ul>
@@ -1231,16 +1231,47 @@ const paragraphs = [
 
           </div>
 
+          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
-<div className="section flex  flex-row-reverse justify-evenly items-center">
-<div className="box w-2/12">
-<a href='https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges'><img src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings' alt="image"/></a>
+<hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
+
+<h2 className="absolute text-3xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
+
+</h2>
+
 </div>
-<div className='box w-2/12'>
-<div className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light"></div><script src="https://grwapi.net/widget.min.js"></script>
+
+
+          <section className=" flex  flex-row-reverse justify-evenly items-center">
+            <div className="box w-2/12">
+              <a href='https://www.indiamart.com/adhunik-cooling-system-limited/' rel="nofollow">
+              <Image src='/indiamartreview.webp'      width="500"
+                height="500"
+                loading="lazy" alt="4.5 out of 5 indiamart ratings of adhunik powertech "  />
+              </a>
+            </div>
+
+
+            <div className='box w-2/12'>
+
+<a className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light">
+
+</a>
+<script src="https://grwapi.net/widget.min.js">
+
+</script>
 </div>
-</div>
-         
+
+
+            <div className="box w-2/12">
+              <a href='https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges'>
+              
+              <img src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings' alt="image" />
+              </a>
+            </div>
+          
+          </section>
+
 
         </div>
 

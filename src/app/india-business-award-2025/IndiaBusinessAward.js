@@ -7,6 +7,7 @@ export default function IndiaBusinessAward() {
   return (
     <>
       <div className="container mx-auto px-8 py-8 mt-32">
+      
         <div className="blog-img mb-6 text-center">
 
 

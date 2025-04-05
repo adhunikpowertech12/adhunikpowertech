@@ -3,7 +3,7 @@ export default function HvacRightContractor() {
     return (
         <>
 
-            <div className="container mx-auto p-6 mt-32">
+            <div className="container mx-auto p-6 mt-32 px-5 ">
 
 
                 <section className=' lg:p-5 flex flex-col lg:flex-row'>
