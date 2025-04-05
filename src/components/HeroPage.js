@@ -1242,10 +1242,10 @@ export default function HeroPage() {
           </div>
 
 
-          <section className=" flex flex-col px-4  md:flex-row justify-evenly items-center gap-9 pt-6">
+          <section className=" flex flex-col px-4  flex-wrap md:flex-row justify-evenly items-center gap-9 pt-6">
 
 
-            <div className="box w-fit md:w-2/12  border-2 rounded-xl">
+            <div className="box w-fit md:w-4/12 lg:w-2/12  border-2 rounded-xl">
               <a className='rounded-xl' href='https://www.indiamart.com/adhunik-cooling-system-limited/' rel="nofollow">
                 <Image src='/indiamartreview.webp' width="500"
                   height="500"
@@ -1254,7 +1254,7 @@ export default function HeroPage() {
             </div>
 
 
-            <div className='box w-fit md:w-2/12 '>
+            <div className='box w-fit md:w-4/12 lg:w-2/12 '>
 
               <a className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light">
 
@@ -1264,7 +1264,7 @@ export default function HeroPage() {
               </script>
             </div>
 
-            <div className="box w-fit md:w-2/12 border-2 rounded-xl">
+            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
               <a href='https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges'>
 
                 <img  src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings'   alt="image" />
