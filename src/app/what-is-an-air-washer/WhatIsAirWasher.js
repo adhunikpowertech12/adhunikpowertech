@@ -45,7 +45,7 @@ export default function WhatIsAirWasher() {
     <>
 
 
-      <section className="overview py-8 mt-32">
+      <section className="overview py-8 px-4 mt-32">
 
 
         <div className="container mx-auto px-4">
@@ -150,8 +150,8 @@ export default function WhatIsAirWasher() {
 
                     </div>
 
-                    <header className=" w-full md:w-6/12 text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
-                      <h1 className=" text-[20px] md:text-2xl font-bold">    Best Industrial Air Washer Manufacturer in India</h1>
+                    <div className=" w-full md:w-6/12 text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
+                      <h2 className=" text-[20px] md:text-2xl font-bold">    Best Industrial Air Washer Manufacturer in India</h2>
                       <p className="text-gray-600 text-justify pt-3 text-[15px]  md:text-[14px] ">     <Link
                   href="/"
                   className="text-blue-500 hover:underline pr-1 "
@@ -177,7 +177,7 @@ export default function WhatIsAirWasher() {
 
               </p>
 
-                    </header>
+                    </div>
                   </div>
 
                 </div>
@@ -198,34 +198,48 @@ export default function WhatIsAirWasher() {
               </div>
 
 
-              <div className="blog-img mb-6 text-center">
-                <img
-                  src="/blog/3.jpg"
-                  width={600}
-                  height={400}
-                  alt="Air Washer Manufacturers"
-                  className="w-1/2 mx-auto"
-                />
-              </div>
+
+              <section>
+                <div className="blog-img mb-6 text-center">
+                  <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
+                    <div className=" w-full md:w-4/12 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
 
 
-              <h3 className="text-xl font-medium mb-3 ">
-                <b>Conclusion</b>
-              </h3>
-              <p>
-              </p>
+                      <Image
+                        className="w-full h-full object-center object-cover rounded-3xl"
+                        src="/blog/3.jpg"
+                         alt="Adhunik Powertech air washer "
+                        width="500"
+                        height="500"
+                        loading="lazy"
+                      />
 
 
-              <p className="text-gray-700 font-sans font-normal">
-                In conclusion, <b><Link
+                    </div>
+
+                    <div className=" w-full md:w-6/12  text-gray-800 mb-6 flex justify-start flex-col mt-2">
+                      <h2 className=" text-[20px] md:text-3xl  text-left font-bold"> Conclusion</h2>
+                      <p className="text-gray-600 text-justify text-[15px] pt-3  md:text-[14px] ">  
+                      In conclusion, <b><Link
                   href="/"
                   className="text-blue-500 hover:underline pr-1 "
                 >
                   Adhunik Powertech's
                 </Link> </b> Stainless Steel Air Washers with EC Fan technology stand apart as the perfect fit for industrial spaces. The combination of robust construction, cutting-edge technology, and a commitment to customization positions these air cooling and air purification systems as the go-to choice for industries aiming to optimize air quality and enhance the well-being of their workforce. Embrace the future of industrial fresh air with <b>Adhunik Powertech</b> - the leading <b><Link href="/air-washer" className=' text-blue-500'>air washer manufacturer in India.</Link></b>
 
+                       
+                       
+                       </p>
 
-              </p>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+          
+
+
+         
 
             </div>
           </div>
