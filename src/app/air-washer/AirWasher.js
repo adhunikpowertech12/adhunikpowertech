@@ -440,7 +440,7 @@ export default function AirWasher() {
                       </div>
 
                       <div className="relative max-w-xl mx-auto  mt-3">
-    <img className=" h-60  w-full object-cover rounded-md" src="/awi/dura.png"/>
+    <img className=" h-60  w-full object-cover rounded-md" src="/awi/dura.webp"/>
     
     <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
     <div className="absolute inset-0 flex items-center justify-center">
@@ -863,13 +863,25 @@ export default function AirWasher() {
         <div className=" container mx-auto w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
                     <h2 className="text-gray-700 text-2xl font-semibold text-center font-manrope w-full leading-normal ">
                     Contact Us Today :
                     </h2>
                
                     <p className="text-gray-700  py-3 font-sans   text-center ">For reliable and high-quality air washer solutions in Delhi and across India, contact Adhunik Powertech today. Also, if you have any questions about air washers, installation, maintenance, and repair, please reach-out to our toll-free number, and we'll be happy to discuss your needs and provide a customized solution. 
 </p>
+   <a
+  href="tel:+918287885885"
+  onClick={(e) => {
+    e.preventDefault();
+    window.location.href = "tel:8287885885";
+  }}
+  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+>
+  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+  <span className="relative">Contact sales team</span>
+</a>
+
                   </div>
 
               </div>
@@ -938,17 +950,7 @@ export default function AirWasher() {
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                     <span className="relative">       Know more About Us </span>
                   </Link>
-                  <a
-                    href="tel:+919870248420"
-                    onClick={(e) => {
-                      e.preventDefault(); // Prevent default action
-                      window.location.href = "tel:+919870248420";
-                    }}
-                    className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
-                  >
-                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">Contact sales team</span>
-                  </a>
+              
 
 
 

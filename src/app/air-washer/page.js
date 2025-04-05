@@ -2,9 +2,9 @@ import AirWasher from "./AirWasher";
 
 export const metadata = {
 
-  title: "Industrial Air Washer Manufacturer in India | Adhunik Powertech",
+  title: "Air Washer Manufacturer in Delhi - Best Industrial Air Washers",
 
-  description: "Adhunik Powertech: Leading manufacturer of high-quality industrial air washers in India. Experience superior cooling and improved air quality with our innovative solutions. Contact us for a free quote.",
+  description: "Adhunik Powertech is the leading manufacturer of high-quality air washers in Delhi, with capacities ranging from 1000 CFM to 100000 CFM. Contact us to receive a free quote now.",
   
 }
 

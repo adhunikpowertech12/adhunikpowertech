@@ -6,24 +6,28 @@ export default function HvacRightContractor() {
             <div className="container mx-auto p-6 mt-32 px-5 ">
 
 
-                <section className=' lg:p-5 flex flex-col lg:flex-row'>
-                    <div className="box lg:w-6/12">
-                        <div className="   w-full ">
-                            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                <section className=' lg:p-5 flex gap-4 flex-col lg:flex-row'>
+
+
+                    <div className="box lg:w-5/12 flex justify-center items-center">
+                      
+                            <div className="w-full  object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+
                                 <img
-                                    className="object-center object-fill "
+                                    className="object-center border-2 h-full w-full object-fill  rounded-2xl "
                                     fetchPriority="high"
                                     decoding="async"
                                     alt="Air washer"
-                                    src="/awi/5.webp"
+                                    src="/blog/UnderstandingHVAC2.webp"
                                 />
-                            </div>
+
+                            
                         </div>
                     </div>
 
 
-                    <div className="box lg:w-6/12  py-4 lg:px-4 flex justify-center items-start flex-col ">
-                        <h1 className=" w-full text-center md:text-left font-semibold lg:font-normal font-sans text-2xl  lg:text-5xl  text-sky-700 ">
+                    <div className="box lg:w-7/12  py-4 lg:px-4 flex justify-center items-start flex-col ">
+                        <h1 className=" w-full text-center md:text-left font-semibold lg:font-normal font-sans text-2xl  lg:text-4xl  text-sky-700 ">
                             Understanding HVAC and Finding the Right Contractor in India
 
                         </h1>
