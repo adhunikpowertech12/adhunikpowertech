@@ -815,10 +815,10 @@ export default function DuctedAirCoolerPage() {
     <span className="relative">       Know more About Us </span>
 </Link>
                   <a
-  href="tel:+919870248420"
+  href="tel:8287885885"
   onClick={(e) => {
     e.preventDefault(); // Prevent default navigation
-    window.location.href = "tel:+919870248420";
+    window.location.href = "tel:8287885885";
   }}
   className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
 >
