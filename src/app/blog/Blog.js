@@ -8,7 +8,7 @@ export default function Blog() {
       id: 1,
       title: "What is an Air Washer ?",
       
-      date: "April  2025",
+      date: "January  2025",
       image:
         "",
       link: "/what-is-an-air-washer",
@@ -19,7 +19,7 @@ export default function Blog() {
       id: 2,
       title: "What is a Ducted Air Cooler ?",
      
-      date: "March 2025",
+      date: "January 2025",
       image:
         "",
       link: "/what-is-a-ducted-air-cooler",
@@ -30,7 +30,7 @@ export default function Blog() {
       id: 3,
       title: "What is Panel Air Conditioners ?",
       
-      date: "April  2025",
+      date: "February  2025",
       image:
         "",
       link: "/what-is-panel-air-conditioners",
@@ -40,24 +40,15 @@ export default function Blog() {
       id: 4,
       title: "What is HVAC? Guide for Beginners",
       
-      date: "March 2025",
+      date: "February 2025",
       image:
         "",
       link: "/what-is-hvac?",
       img: "/WhatisHVAC.webp",
     },
+   
     {
       id: 5,
-      title: "Award-Winning Services in the HVAC Industry ",
-     
-      date: "April  2025",
-      image:
-        "",
-      link: "/india-business-award-2025",
-      img: "/blog/ibaaward2.webp",
-    },
-    {
-      id: 6,
       title: "How to Choose HVAC Contractor in India ?",
      
       date: "March 2025",
@@ -66,7 +57,16 @@ export default function Blog() {
       link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
       img: "/tips10.webp",
     },
-
+    {
+      id: 6,
+      title: "Award-Winning Services in the HVAC Industry ",
+     
+      date: "March  2025",
+      image:
+        "",
+      link: "/india-business-award-2025",
+      img: "/blog/ibaaward2.webp",
+    },
     {
       id: 7,
       title: "Understanding HVAC and Finding the Right Contractor in India",
@@ -90,7 +90,7 @@ export default function Blog() {
 
        
           <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {blogData.map((blog) => (
+            {blogData.reverse().map((blog) => (
               <Link
                 key={blog.id}
                 className="group border border-cyan-500 relative flex flex-col w-full  bg-cover bg-center rounded-xl hover:shadow-lg transition"

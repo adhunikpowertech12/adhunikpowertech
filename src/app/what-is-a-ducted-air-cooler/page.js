@@ -2,8 +2,9 @@ import WhatIsDuctedAirCooler from "./WhatIsDuctedAirCooler";
 
 
 export const metadata = {
-  title: "What is a Ducted Air Cooler? A Comprehensive Guide | Adhunik Powertech",
+  title: "What is a Ducted Air Cooler ? A Comprehensive Guide | Adhunik Powertech",
   description: "Learn everything about Ducted Air Coolers, their working, benefits, and applications. Explore Adhunik Powertech’s energy-efficient air cooling solutions for industrial and commercial use.",
+
   keywords: [
     "Ducted Air Cooler",
     "Industrial Air Cooling",
@@ -16,6 +17,7 @@ export const metadata = {
     "Large-Scale Air Cooling",
     "Air Ventilation System",
   ],
+  
   robots: "index, follow",
   canonical: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",
   openGraph: {
