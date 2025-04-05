@@ -1233,43 +1233,44 @@ export default function HeroPage() {
 
           <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
-<hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-<h2 className="absolute text-3xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
+            <h2 className="absolute text-2xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
 
-</h2>
+            </h2>
 
-</div>
+          </div>
 
 
-          <section className=" flex  flex-row-reverse justify-evenly items-center">
-            <div className="box w-2/12">
-              <a href='https://www.indiamart.com/adhunik-cooling-system-limited/' rel="nofollow">
-              <Image src='/indiamartreview.webp'      width="500"
-                height="500"
-                loading="lazy" alt="4.5 out of 5 indiamart ratings of adhunik powertech "  />
+          <section className=" flex flex-col px-4  md:flex-row justify-evenly items-center gap-9 pt-6">
+
+
+            <div className="box w-fit md:w-2/12  border-2 rounded-xl">
+              <a className='rounded-xl' href='https://www.indiamart.com/adhunik-cooling-system-limited/' rel="nofollow">
+                <Image src='/indiamartreview.webp' width="500"
+                  height="500"
+                  loading="lazy" alt="4.5 out of 5 indiamart ratings of adhunik powertech " />
               </a>
             </div>
 
 
-            <div className='box w-2/12'>
+            <div className='box w-fit md:w-2/12 '>
 
-<a className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light">
+              <a className="review-widget_net" data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468" data-template="10" data-lang="en" data-theme="light">
 
-</a>
-<script src="https://grwapi.net/widget.min.js">
+              </a>
+              <script src="https://grwapi.net/widget.min.js">
 
-</script>
-</div>
+              </script>
+            </div>
 
-
-            <div className="box w-2/12">
+            <div className="box w-fit md:w-2/12 border-2 rounded-xl">
               <a href='https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges'>
-              
-              <img src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings' alt="image" />
+
+                <img  src='https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings'   alt="image" />
               </a>
             </div>
-          
+
           </section>
 
 
