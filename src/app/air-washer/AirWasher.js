@@ -606,14 +606,12 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-                        {/* Use the Next.js Image component for optimized image loading */}
-                        <img
+                   <img
                           className=" md:h-full  md:w-full"
                           src="/awi/1.webp"
                           alt="Air washer"
                           fetchPriority="high"
                           decoding="async"
-                        // Set appropriate height
                         />
                       </div>
                     </div>
@@ -733,15 +731,13 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-                        {/* Use the Next.js Image component for optimized image loading */}
-                        <img
+                      <img
                           className=" h-full w-full"
                           src="/awi/3.webp"
                           alt="Air washer"
                           fetchPriority="high"
                           decoding="async"
-                        // Set appropriate height
-                        />
+                       />
                       </div>
                     </div>
                   </div>
@@ -774,12 +770,10 @@ export default function AirWasher() {
 
             <div className="md:w-[80%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
               <div className="flex flex-wrap">
-                {/* Column 1 */}
-                <div className=" w-full md:w-6/12">
+               <div className=" w-full md:w-6/12">
                   {lists.slice(0, 5).map((list, index) => (
                     <div key={index} className="mb-4">
-                      {/* Image with ul heading */}
-                      <div className="flex items-center  mb-2">
+                     <div className="flex items-center  mb-2">
                         <Image
                           src={list.img}
                           alt={`Small image for ${list.heading}`}

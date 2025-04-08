@@ -175,38 +175,38 @@ export default function WhatIsHvac() {
                         width="300"
                         height="300"
                       />
-                      
+
                     </div>
 
                   </div>
 
 
                   <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-                  <h1 className="text-4xl font-bold mb-4 text-center">
-                  What is HVAC?
-                </h1>
+                    <h1 className="text-4xl font-bold mb-4 text-center">
+                      What is HVAC?
+                    </h1>
 
 
-                <p className="mb-4 text-gray-700 font-sans font-normal">
-                  <Link
-                    href="/hvac"
-                    className="text-blue-500 hover:underline pr-1"
-                  >
-                    HVAC
+                    <p className="mb-4 text-gray-700 font-sans font-normal">
+                      <Link
+                        href="/hvac"
+                        className="text-blue-500 hover:underline pr-1"
+                      >
+                        HVAC
 
-                  </Link>
+                      </Link>
 
-                  stands for Heating, Ventilation, and Air Conditioning. It encompasses a comprehensive system designed to regulate the temperature, humidity, and air quality within indoor environments. This crucial technology ensures comfort, improves indoor air quality, and enhances energy efficiency.
+                      stands for Heating, Ventilation, and Air Conditioning. It encompasses a comprehensive system designed to regulate the temperature, humidity, and air quality within indoor environments. This crucial technology ensures comfort, improves indoor air quality, and enhances energy efficiency.
 
-                </p>
-
-             
-
+                    </p>
 
 
 
 
-               
+
+
+
+
 
 
                   </div>
@@ -217,8 +217,8 @@ export default function WhatIsHvac() {
 
 
 
-           
-             
+
+
 
 
                 <h2 className="text-2xl font-semibold mb-3">

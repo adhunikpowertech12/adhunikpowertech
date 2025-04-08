@@ -191,16 +191,16 @@ export default function AirHandling() {
 
 
 <div className="bg-[#283e56] p-4 relative">
-{/* Background Blur Effect */}
+
 <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
 <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
 <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
 </div>
 
-{/* Main Content */}
+ 
 <div className="max-w-7xl mx-auto px-6 py-4 md:px-12 xl:px-6">
 <div className="md:w-2/3 lg:w-1/2 mt-2 text-gray-100 flex items-center">
-  {/* Icon */}
+   
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
@@ -216,7 +216,7 @@ export default function AirHandling() {
   <h2 className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</h2>
 </div>
 
-{/* Grid of Features */}
+ 
 <div className="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
   {features.map((feature) => (
     <div key={feature.id} className="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
@@ -250,15 +250,15 @@ export default function AirHandling() {
 
 
           <div className="flex pt-5 justify-center items-center w-full h-full flex-row">
-            {/* Left line */}
+           
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
-            {/* Center text */}
+            
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white text-3xl md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
 
-            {/* Right line */}
+        
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
           </div>
 

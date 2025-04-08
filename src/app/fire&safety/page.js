@@ -89,7 +89,7 @@ export default function FireSafety() {
     },
     {
       id: 2,
-      imgSrc: 'https://plus.unsplash.com/premium_photo-1661962457945-5c1aabee6df4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imgSrc: 'https://images.unsplash.com/photo-1503714964235-8954a5249c00?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       imgAlt: 'fireman',
       title: 'Professional Services',
       description: 'Our fire protection services are executed with precision by a talented team of fire safety specialists, with years of expertise on how to perform such work accurately.',
