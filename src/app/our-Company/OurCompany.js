@@ -1,6 +1,5 @@
 'use client';
 
-
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -446,9 +445,9 @@ export default function OurCompany() {
                     backgroundPosition: "center",
                   }}
                 >
-                  {/* Dark Overlay */}
+             
                   <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-                  {/* Content */}
+                   
                   <div className="z-10 text-center">
                     <p className="text-4xl font-bold">{page.title}</p>
                     <p className="text-lg mt-4">{page.description}</p>
@@ -458,7 +457,7 @@ export default function OurCompany() {
               ))}
             </div>
 
-            {/* Page Indicators */}
+           
             <div className="absolute top-[60%]  left-[70%] md:left-auto  md:right-4 transform -translate-y-1/2 flex flex-col items-center">
               {pages.map((page) => (
                 <div
@@ -469,21 +468,21 @@ export default function OurCompany() {
                     }`}
                   onClick={() => !isScrolling && setActivePage(page.id)}
                 >
-                  {/* Indicator Circle */}
+                  
                   <div
                     className={`h-8 w-2 rounded-full mr-2 ${page.id === activePage
                       ? "border-2 border-cyan-500"
                       : "bg-gray-400"
                       }`}
                   ></div>
-                  {/* Indicator Line */}
+                  
                   <div
                     className={`h-[2px] w-5 rounded-full relative right-2 mr-2 ${page.id === activePage
                       ? "border-2 border-cyan-500"
                       : "bg-gray-400 "
                       }`}
                   ></div>
-                  {/* Year */}
+                 
                   <span className={` font-sans font-normal  text-[14px]
                   ${page.id === activePage
                       ? "opacity-100 scale-105 bg-white text-black rounded-full text-[12px] p-1"

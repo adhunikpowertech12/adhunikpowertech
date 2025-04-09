@@ -9,36 +9,36 @@ export default function page() {
     {
       src: "/certi/award1.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award2.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award3.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award4.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award5.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     },
     {
       src: "/certi/award6.webp",
       alt: "Ducted Air Coolers",
-      borderColor: "border-yellow-500", // Custom border color
+      borderColor: "border-yellow-500", 
     },
 
   
@@ -54,18 +54,13 @@ export default function page() {
 
         <h1 className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize ">Awards and Recognitions</h1>
 
-
         <div className="col">
-
 
           <div className="  justify-center   ">
 
-
             <div className="row">
 
-
               <div className="col py-4">
-
 
                 <div className="items-center justify-center h-full">
                   <div className="flex-row flex flex-wrap justify-center items-center gap-5 pb-10">
@@ -77,7 +72,7 @@ export default function page() {
                             <div className={`w-full rounded-xl  bg-white  `}>
                               <img
                                 className={`  h-auto border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
-                           rounded-lg  `} // Dynamic border color
+                           rounded-lg  `} 
                                 src={item.src}
                                 fetchPriority="high"
                                 decoding="async"
