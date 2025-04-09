@@ -45,7 +45,7 @@ export default function page() {
 
     <div className="row bg-zinc-50  mt-36">
 
-<p className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize ">Certificate & Accreditation</p>
+<h1 className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize ">Certificate & Accreditation</h1>
 
 
 <div className="col">

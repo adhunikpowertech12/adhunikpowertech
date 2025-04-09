@@ -3,10 +3,10 @@
 
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
- 
+
 import 'swiper/css';
 import 'swiper/css/effect-cards';
- 
+
 import { EffectCards } from 'swiper/modules';
 
 
@@ -17,7 +17,7 @@ export default function OurCompany() {
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMyslideInView, setIsMyslideInView] = useState(false);
   const [isPageScrollingAllowed, setIsPageScrollingAllowed] = useState(true);
- 
+
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
 
@@ -41,17 +41,17 @@ export default function OurCompany() {
       setIsMyslideInView(true);
     }
   };
- 
+
   useEffect(() => {
     const timeout = setTimeout(() => setIsScrolling(false), 800);
     return () => clearTimeout(timeout);
   }, [activePage]);
- 
+
   useEffect(() => {
     document.body.style.overflow = isPageScrollingAllowed ? "auto" : "hidden";
     return () => (document.body.style.overflow = "auto");
   }, [isPageScrollingAllowed]);
- 
+
   useEffect(() => {
     const slideElement = document.getElementById("myslide");
 
@@ -69,12 +69,12 @@ export default function OurCompany() {
       if (slideElement) observer.unobserve(slideElement);
     };
   }, []);
- 
+
   useEffect(() => {
     window.addEventListener("wheel", handleWheel);
     return () => window.removeEventListener("wheel", handleWheel);
   }, [activePage, isMyslideInView, isScrolling]);
- 
+
   const pages = [
 
     {
@@ -337,7 +337,7 @@ export default function OurCompany() {
       id: 7,
       year: '2021',
 
-      bgImage: '/blog/2014.webp',  
+      bgImage: '/blog/2014.webp',
       content: (
 
         <div className="z-10 text-center">
@@ -402,7 +402,7 @@ export default function OurCompany() {
       id: 9,
       year: 'Present',
 
-      bgImage: '/blog/grow.webp', 
+      bgImage: '/blog/grow.webp',
       content: (
 
         <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex    ">
@@ -421,7 +421,10 @@ export default function OurCompany() {
 
   return (
     <>
+
       <div className="container-fluid">
+
+
         <div className="row">
 
 
@@ -520,10 +523,10 @@ export default function OurCompany() {
                 <div className="row">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
                     <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >
-                    About Us
+                      About Us
                     </p>
 
-                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference 
+                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference
                     </h2>
 
                     <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
@@ -680,9 +683,6 @@ export default function OurCompany() {
                     <div className="text-[13px]  text-justify font-sans font-thin pt-7">
                       <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Diversified into Oil Chiller Manufacturing to meet growing market demands. </blockquote>
                     </div>
-
-
-
                   </div>
                 </div>
 
@@ -699,9 +699,6 @@ export default function OurCompany() {
             <SwiperSlide>
 
               <div className="text-center bg-[#00000051]">
-
-
-
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
                     <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2020  </p>
@@ -726,14 +723,9 @@ export default function OurCompany() {
 
 
 
-
-
-
             <SwiperSlide>
 
               <div className="text-center bg-[#00000051]">
-
-
 
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
@@ -742,9 +734,7 @@ export default function OurCompany() {
                     <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
                       <span className=" font-semibold font-sans"> Service Expansion:</span>   Added Fire & Safety Services </p>
 
-
                     <p className=" text-[22px]   font-semibold  lg:text-justify font-sans  lg:text-5xl  " >
-
 
                       <span className=" font-semibold font-sans"> Rebranding:</span>
                       The company name changed to Adhunik Powertech Private Limited </p>
@@ -753,30 +743,16 @@ export default function OurCompany() {
                       <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 lg:pl-7  font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited </blockquote>
                     </div>
 
-
-
                   </div>
                 </div>
 
-
               </div>
 
-
             </SwiperSlide>
-
-
-
-
-
 
             <SwiperSlide>
 
               <div className="text-center bg-[#00000051]">
-
-
-
-
-
 
                 <div className="row ">
 
@@ -790,25 +766,13 @@ export default function OurCompany() {
                     </p>
                     <span> Innovating Always… </span>
 
-
-
                   </div>
-
-
 
                 </div>
 
-
               </div>
 
-
             </SwiperSlide>
-
-
-
-
-
-
 
           </Swiper>
         </div>

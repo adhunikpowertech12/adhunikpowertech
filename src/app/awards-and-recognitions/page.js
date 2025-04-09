@@ -52,7 +52,7 @@ export default function page() {
 
       <div className="row   mt-36">
 
-        <p className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize ">Awards and Recognitions</p>
+        <h1 className=" text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize ">Awards and Recognitions</h1>
 
 
         <div className="col">
