@@ -3,14 +3,10 @@
 
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
+ 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-
-
-
-// import required modules
+ 
 import { EffectCards } from 'swiper/modules';
 
 
@@ -21,8 +17,7 @@ export default function OurCompany() {
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMyslideInView, setIsMyslideInView] = useState(false);
   const [isPageScrollingAllowed, setIsPageScrollingAllowed] = useState(true);
-
-  // Handle wheel event for scrolling
+ 
   const handleWheel = (e) => {
     if (!isMyslideInView || isScrolling) return;
 
@@ -46,21 +41,17 @@ export default function OurCompany() {
       setIsMyslideInView(true);
     }
   };
-
-  // Smooth scrolling reset
+ 
   useEffect(() => {
     const timeout = setTimeout(() => setIsScrolling(false), 800);
     return () => clearTimeout(timeout);
   }, [activePage]);
-
-
-  // Toggle body scroll
+ 
   useEffect(() => {
     document.body.style.overflow = isPageScrollingAllowed ? "auto" : "hidden";
     return () => (document.body.style.overflow = "auto");
   }, [isPageScrollingAllowed]);
-
-  // Intersection Observer for `myslide` visibility
+ 
   useEffect(() => {
     const slideElement = document.getElementById("myslide");
 
@@ -78,14 +69,12 @@ export default function OurCompany() {
       if (slideElement) observer.unobserve(slideElement);
     };
   }, []);
-
-  // Wheel event listener
+ 
   useEffect(() => {
     window.addEventListener("wheel", handleWheel);
     return () => window.removeEventListener("wheel", handleWheel);
   }, [activePage, isMyslideInView, isScrolling]);
-
-  // Track if myslide is in view
+ 
   const pages = [
 
     {
@@ -348,7 +337,7 @@ export default function OurCompany() {
       id: 7,
       year: '2021',
 
-      bgImage: '/blog/2014.webp', // Add the image URL here
+      bgImage: '/blog/2014.webp',  
       content: (
 
         <div className="z-10 text-center">
@@ -360,9 +349,6 @@ export default function OurCompany() {
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
                 <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Launched Air Shower & Pass Box Manufacturing to meet cleanroom demands. </blockquote>
               </div>
-
-
-
 
               <div className="row">
                 <svg className="arrows">
@@ -382,7 +368,7 @@ export default function OurCompany() {
       id: 8,
       year: '2024',
 
-      bgImage: '/blog/2024.webp', // Add the image URL here
+      bgImage: '/blog/2024.webp',
       content: (
 
         <div className="z-10 text-center">
@@ -396,9 +382,6 @@ export default function OurCompany() {
               <div className="text-[12xl] w-[77%] text-justify font-sans font-thin pt-7">
                 <blockquote className="border-l-4 border-[#00A0E1]  my-4 pl-8 md:pl-7 text-2xl font-sans font-thin "> Added Fire & Safety Services and rebranded as Adhunik Powertech Private Limited  </blockquote>
               </div>
-
-
-
 
               <div className="row">
                 <svg className="arrows">
@@ -419,23 +402,16 @@ export default function OurCompany() {
       id: 9,
       year: 'Present',
 
-      bgImage: '/blog/grow.webp', // Add the image URL here
+      bgImage: '/blog/grow.webp', 
       content: (
 
         <div className="z-10  container-fluid  h-screen w-screen justify-center items-center flex    ">
 
           <div className="row text-center  ">
 
-
             <p className=' relative top-8 font-sans  text-4xl'> Growing Stronger, <br />
               <span> Innovating Always…</span></p>
-
-
-
           </div>
-
-
-
         </div>
       ),
     },
@@ -450,8 +426,8 @@ export default function OurCompany() {
 
 
           <div id="myslide" className="   hidden lg:block  h-screen w-full overflow-hidden relative">
-        
-<h1 className=" text-transparent absolute">About Us</h1>
+
+            <h1 className=" text-transparent absolute">About Us</h1>
             <div
               className="h-full w-full transition-transform ease-in-out duration-500"
               style={{ transform: `translateY(-${activePage * 100}vh)` }}
@@ -543,12 +519,16 @@ export default function OurCompany() {
 
                 <div className="row">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
-                    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >About Us</p>
-                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference</p>
+                    <p className="text-4xl   text-justify font-sans font-thin pt-7 italic md:text-3xl  pb-3" >
+                    About Us
+                    </p>
+
+                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference 
+                    </h2>
+
                     <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
                       Our journey began in 2005 with a simple vision: to create an indoor environment that nurtures and enhances the well-being of every individual. We started as a small team of passionate engineers, offering innovative HVAC solutions to our local community.
                       Over the years, we have grown and evolved, expanding our product range and geographic reach. Today, we are proud to be a leading provider of comprehensive HVAC solutions, serving a diverse clientele across various industries.
-
                     </p>
 
                   </div>
@@ -569,7 +549,7 @@ export default function OurCompany() {
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
                     <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2005  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
+                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </h2>
                     <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
 
                     <div className="text-[16px]  text-justify font-sans font-thin pt-7">
@@ -595,14 +575,11 @@ export default function OurCompany() {
 
               <div className="text-center bg-[#00000051]">
 
-
-
-
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
                     <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2010  </p>
-                    <p className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </p>
-                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer               Manufacturing</p>
+                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </h2>
+                    <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Expansion:</span> Launched Air Washer Manufacturing</p>
 
                     <div className="text-[16px]  text-justify font-sans font-thin pt-7">
                       <blockquote className=" border-l-4 border-[#00A0E1]  my-4 pl-3 lg:pl-7 lg:text-2xl font-sans font-thin ">Expanded our product range to include Air Washers for improved air quality.</blockquote>
