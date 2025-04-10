@@ -228,7 +228,7 @@ export default function PanelAirConditioners() {
     <>
       <div className="row  mt-32 font-sans">
 
-        <section className=' p-5 flex flex-col md:flex-row mb-5'>
+        <section className=' p-5 pb-0 mb-0 flex flex-col md:flex-row '>
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
@@ -255,7 +255,7 @@ export default function PanelAirConditioners() {
               Panel Air Conditioner
             </h1>
 
-            <p className="text-gray-700 py-3 font-sans text-justify ">
+            <p className="text-gray-700 py-3 font-sans  text-justify md:text-left ">
               A Panel Air Conditioner is a specialized industrial cooling unit designed specifically to manage heat within sealed electrical panels, control cabinets, and other enclosures housing sensitive electronic components. By actively removing heat generated during operation, these units prevent overheating, ensuring the reliability and longevity of critical equipment like PLCs, VFDs, CNC controls, and servers. They are essential thermal management tools in various applications – from industrial automation and manufacturing floors requiring CNC panel cooling or VFD panel cooling to data centers and telecommunication shelters – providing vital temperature control where standard air conditioning is impractical or insufficient.
 
             </p>
@@ -271,29 +271,35 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col md:flex-row  p-5  m-4">
+          <div className=" h-full gap-5 flex flex-col  p-5 pt-0 mt-0  m-4">
 
-            <div className="md:w-[60%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+            <div className="md:w-12/12 w-auto  md:p-2   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
-                    19+ Years of Trusted Panel Air Conditioning for Government & Private Sector Giants
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex md:p-7">
+         
 
-</h2>
-
-                  <p className=' font-sans text-justify' >Recognizing this critical need, Adhunik Powertech proudly provides cutting-edge panel air conditioner solutions and support to industries in major cities and regions across the nation. We address the crucial thermal management needs of businesses in Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Goa, Vishakhapatnam, Bhopal, Kolkata, Jaipur, and Delhi, as well as in thriving industrial zones throughout Gujarat, Rajasthan, Chhattisgarh, and Odisha. Wherever your operations are based, trust Adhunik Powertech for reliable electrical panel cooling. With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients such as Uflex Limited, Steel Authority of India Ltd. (SAIL), BAAZ Bikes (Elec Torq Technologies Pvt. Ltd.), Nippon Steel Pipe India Pvt. Ltd., TAK Technologies Pvt. Ltd., Hero MotoCorp, Rise Automation, Triveni Renewables Pvt. Ltd., and Zixom Plast, showcasing our commitment across diverse industries.</p>
+                  <p className=' font-sans text-justify ' >Recognizing this critical need, Adhunik Powertech proudly provides cutting-edge panel air conditioner solutions and support to industries in major cities and regions across the nation. We address the crucial thermal management needs of businesses in Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Goa, Vishakhapatnam, Bhopal, Kolkata, Jaipur, and Delhi, as well as in thriving industrial zones throughout Gujarat, Rajasthan, Chhattisgarh, and Odisha. Wherever your operations are based, trust Adhunik Powertech for reliable electrical panel cooling. With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients such as Uflex Limited, Steel Authority of India Ltd. (SAIL), BAAZ Bikes (Elec Torq Technologies Pvt. Ltd.), Nippon Steel Pipe India Pvt. Ltd., TAK Technologies Pvt. Ltd., Hero MotoCorp, Rise Automation, Triveni Renewables Pvt. Ltd., and Zixom Plast, showcasing our commitment across diverse industries.</p>
                   </div>
 
               </div>
             </div>
 
-            <div className="md:w-[40%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+            <div className="md:w-12/12 w-auto  md:p-7 pt-0  rounded-xl">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
-                    Your Trusted Partner for Heavy-Duty Industrial Cooling
-                    </h2>
+
+                  
+
+                    <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                     Your Trusted Partner for Heavy-Duty Industrial Cooling
+
+          </h2>
+        </div>
+
+
+
 
                   <p className=' font-sans text-justify'>
                   Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel air conditioners. We engineer reliable thermal management solutions specifically designed to withstand demanding industrial environments and protect your critical investments. We understand that consistent electrical panel cooling is essential for preventing overheating, ensuring the longevity of sensitive components, and maintaining operational efficiency.
@@ -311,15 +317,20 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col md:flex-row  p-5 pt-0  mt-0 m-4">
+          <div className=" h-full gap-5 flex flex-col md:flex-row   p-5 pt-0  mt-0 m-4">
 
-            <div className=" w-full p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+            <div className=" w-full pt-0 p-7   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
               <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-center text-2xl font-semibold font-manrope w-full leading-normal ">
-                    Certified Quality & Compliance You Can Rely On
-                    </h2>
+              <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                      Certified Quality & Compliance You Can Rely On
+
+          </h2>
+        </div>
+
+                 
                     <p className=' font-sans'>
                     Our unwavering commitment to quality, safety, and manufacturing excellence is demonstrated through our adherence to stringent national and international standards. We believe in transparency and building trust, which is why Adhunik Powertech is proud to hold key certifications and registrations, including:
 
@@ -845,13 +856,21 @@ export default function PanelAirConditioners() {
         <div className="row">
           <div className=" h-full gap-5 flex flex-col md:flex-row  p-5 pt-0  mt-0 m-4">
 
-            <div className=" w-full p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
+            <div className=" w-full p-7   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
               <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-  <h2 className="text-gray-700 text-center text-2xl font-semibold font-manrope w-full leading-normal">
-  Get Expert Advice for Your Cooling Needs
-  </h2>
+
+              <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                       Get Expert Advice for Your Cooling Needs
+
+
+          </h2>
+        </div>
+
+
+
 
   <p className="font-sans">
   Choose Adhunik Powertech for certified, heavy-duty panel air conditioners engineered for performance and reliability in the toughest conditions. Protect your valuable equipment and ensure process continuity with our proven enclosure cooling solutions.
