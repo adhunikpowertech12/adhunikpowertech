@@ -17,15 +17,20 @@
   }
   
 
-  @font-face {
-    font-family: 'Poppons';
-    src: url('/fonts/Poppins/Poppins-Medium.ttf') format('woff2'),;
-  }
+ 
 
-  * {
-  
-    font-family:"Poppons";
-  }
+  @font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
   
   html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */

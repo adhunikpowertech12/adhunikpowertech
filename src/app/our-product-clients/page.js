@@ -1,4 +1,3 @@
-
 "use client"
 import { useEffect, useRef, useState } from 'react';
 
@@ -105,7 +104,7 @@ export default function page() {
 
       <div className="row  mt-36">
 
-        <p className=" text-2xl md:text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </p>
+        <h1 className=" text-2xl md:text-5xl  pt-10 font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PRODUCTS CLIENTS </h1>
 
 
         <div className="col">
@@ -131,7 +130,7 @@ export default function page() {
                           <div className="w-auto  items-center flex justify-center">
                             <div className={`w-full rounded-xl  bg-white   ${item.borderColor}`}>
                               <img
-                                className={`h-[50%] border w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `} // Dynamic border color
+                                className={`h-[50%] border w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `}
                                 src={item.src}
                                 fetchPriority="high"
                                 decoding="async"
@@ -149,7 +148,7 @@ export default function page() {
 
                   </div>
 
-                 
+
                 </div>
 
               </div>
@@ -159,23 +158,22 @@ export default function page() {
 
 
             <div
-      ref={containerRef}
-      className="flex justify-center items-center h-32 text-black font-sans md:text-4xl font-semibold"
-    >
-      <div className="flex gap-1 justify-center items-center">
-        {text.split('').map((char, i) => (
-          <span
-            key={i}
-            className={`opacity-0 transform translate-y-4  transition-all duration-500 ease-out ${
-              inView ? 'opacity-100 translate-y-0' : ''
-            }`}
-            style={{ transitionDelay: `${i * 0.15}s` }}
-          >
-            {char}
-          </span>
-        ))}
-      </div>
-    </div>
+              ref={containerRef}
+              className="flex justify-center items-center h-32 text-black font-sans md:text-4xl font-semibold"
+            >
+              <div className="flex gap-1 justify-center items-center">
+                {text.split('').map((char, i) => (
+                  <span
+                    key={i}
+                    className={`opacity-0 transform translate-y-4  transition-all duration-500 ease-out ${inView ? 'opacity-100 translate-y-0' : ''
+                      }`}
+                    style={{ transitionDelay: `${i * 0.15}s` }}
+                  >
+                    {char}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
 
         </div>

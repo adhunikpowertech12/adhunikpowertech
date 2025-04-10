@@ -143,6 +143,15 @@ export default function RootLayout({ children }) {
 
 <link rel="icon" href="/favicon.ico" sizes="any" />
 
+
+<link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-Medium.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+        
       </head>
 
 

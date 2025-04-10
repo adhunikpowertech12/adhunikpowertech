@@ -272,24 +272,30 @@ export default function AirWasher() {
 </div>
 
 
-<div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-<h1 className=" w-full text-center md:text-left font-sans  text-5xl  text-sky-700 ">What is an Air Washer?
-          </h1>
 
-          <p className="text-gray-700  py-3 font-sans  text-justify md:text-left"> An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
 
-          </p>
 
-          <h2 className="text-gray-700 text-2xl text-center md:text-left font-sans font-semibold font-manrope w-full leading-normal  ">
-            How Air Washers Work: The Science of Evaporative Cooling
-          </h2>
-
-          <p className="text-gray-700  pb-3 font-sans text-center md:text-left">
-            Air washers utilize the principle of evaporative (adiabatic) cooling to lower air temperatures. <br />
-            Here's a detailed breakdown:
-
-          </p>
+<div className="box md:w-6/12 py-4 px-4 flex justify-center items-start flex-col">
+  <h1 className="w-full text-center md:text-left font-sans text-5xl text-sky-700 leading-tight">
+    What is an Air Washer?
+  </h1>
+  
+  <p className="text-gray-700 py-3 font-sans text-justify md:text-left">
+    An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
+  </p>
+  
+  <h2 className="text-gray-700 text-2xl text-center md:text-left font-sans font-semibold w-full leading-normal">
+    How Air Washers Work: The Science of Evaporative Cooling
+  </h2>
+  
+  <p className="text-gray-700 pb-3 font-sans text-center md:text-left">
+    Air washers utilize the principle of evaporative (adiabatic) cooling to lower air temperatures.
+    <br />
+    Here's a detailed breakdown:
+  </p>
 </div>
+
+
 
      
 
@@ -440,8 +446,17 @@ export default function AirWasher() {
                       </div>
 
                       <div className="relative max-w-xl mx-auto  mt-3">
-    <img className=" h-60  w-full object-cover rounded-md" src="/awi/dura.webp"/>
+                      
     
+    <Image
+  src="/awi/dura.webp"
+  alt="Dura image"  
+  width={1200}      
+  height={240}     
+  className="h-60 w-full object-cover rounded-md"
+  loading="lazy"
+  decoding="async"
+/>
     <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
     <div className="absolute inset-0 flex items-center justify-center">
         <h2 className="text-white text-3xl font-bold">Efficient | Durable  </h2>
@@ -606,13 +621,18 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-                   <img
-                          className=" md:h-full  md:w-full"
-                          src="/awi/1.webp"
-                          alt="Air washer"
-                          fetchPriority="high"
-                          decoding="async"
-                        />
+             
+
+<Image
+  src="/awi/1.webp"
+  alt="Air washer"
+  width={500} 
+  height={500}
+  className="md:h-full md:w-full object-cover"
+   
+  decoding="async"
+  loading='lazy'
+/>
                       </div>
                     </div>
                   </div>
@@ -639,13 +659,18 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                        <img
-                          className="  md:h-[28rem]  object-center object-fill "
-                          fetchPriority="high"
-                          decoding="async"
-                          alt="Air washer"
-                          src="/awi/2.webp"
-                        />
+                      
+                      
+                      <Image
+  src="/awi/2.webp"
+  alt="Air washer"
+  width={800} 
+  height={448}
+  className="md:h-[28rem] object-center object-fill"
+  loading='lazy'
+  decoding="async"
+/>
+
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -731,13 +756,18 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-                      <img
-                          className=" h-full w-full"
-                          src="/awi/3.webp"
-                          alt="Air washer"
-                          fetchPriority="high"
-                          decoding="async"
-                       />
+
+                       
+
+<Image
+    src="/awi/3.webp"
+    alt="Air washer"
+    width={500} 
+    height={500}
+       className=" h-full w-full"
+    loading="lazy"
+    decoding="async"
+  />
                       </div>
                     </div>
                   </div>
@@ -784,7 +814,7 @@ export default function AirWasher() {
                         <h3 className=' text-left text-[18px]'>{list.heading}</h3>
                       </div>
 
-                      {/* Unordered list */}
+                     
                       <ul className='list-disc list-inside'>
                         {list.items.map((item, idx) => (
                           <li key={idx} className="mb-1 text-left font-thin text-gray-500">
@@ -796,11 +826,11 @@ export default function AirWasher() {
                   ))}
                 </div>
 
-                {/* Column 2 */}
+                
                 <div className=" w-full md:w-6/12">
                   {lists.slice(5).map((list, index) => (
                     <div key={index} className="mb-4  ">
-                      {/* Image with ul heading */}
+                      
                       <div className="flex items-center mb-2">
                         <Image
                           src={list.img}
@@ -812,7 +842,7 @@ export default function AirWasher() {
                         <h3 className=' text-left'>{list.heading}</h3>
                       </div>
 
-                      {/* Unordered list */}
+                      
                       <ul className='list-disc list-inside'>
                         {list.items.map((item, idx) => (
                           <li key={idx} className="mb-1 text-left font-thin text-gray-500">
@@ -976,7 +1006,18 @@ export default function AirWasher() {
 
 
 
-                <img className="md:h-[70%] rounded-md" src="/awth.webp" alt="Hero Image" />
+        
+
+                <Image
+  src="/awth.webp"
+  alt="What are the benefits of using an air washer?"
+  width={800} 
+  height={400}
+  className="md:h-auto rounded-md "
+  loading="lazy"
+  decoding="async"
+/>
+                
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -989,22 +1030,22 @@ export default function AirWasher() {
                 <>
                   <div
                     className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                    onClick={closeModal} // Close modal when clicking outside
+                    onClick={closeModal} 
                   >
                     <div
                       className="relative  my-6    container-fluid "
-                      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
+                      onClick={(e) => e.stopPropagation()} 
                     >
-                      {/*content*/}
+                   
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                        {/*header*/}
+                         
 
-                        {/*body*/}
+                         
                         <div className="relative  flex-auto">
 
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/maCpVe_3Y2M?si=a1rz8p00L814B6xo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
-                        {/*footer*/}
+                       
 
                       </div>
                     </div>
@@ -1025,16 +1066,13 @@ export default function AirWasher() {
 
 
           <div className="flex justify-center items-center w-full h-full flex-row">
-            {/* Left line */}
-            <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
-            {/* Center text */}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
+             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
 
-            {/* Right line */}
-            <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
           </div>
 
           <div className="row  w-full h-full">
@@ -1080,11 +1118,16 @@ export default function AirWasher() {
               >
                 {logos.map((logo, idx) => (
                   <li key={idx}>
-                    <img
-                      className="  w-32 h-32 md:w-48 md:h-48 object-center object-cover    rounded-full"
-                      src={logo.src}
-                      alt={logo.alt}
-                    />
+
+<Image
+  src={logo.src}
+  alt={logo.alt}
+  width={500} 
+  height={500}
+  className="w-32 h-32 md:w-48 md:h-48 object-center object-cover rounded-full"
+  loading="lazy"
+/>
+
                   </li>
                 ))}
               </ul>
