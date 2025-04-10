@@ -260,12 +260,13 @@ export default function AirWasher() {
                     <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                       <Image
                         className="   h-full w-full  object-center object-fill rounded-2xl "
-                        fetchPriority="high"
+                       priority
                         decoding="async"
                         alt="Air washer"
                         src="/awi/5.webp"
                         width="300"
-                        height="300"
+                        height="250"
+                       
                       />
                     </div>
                 
