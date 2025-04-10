@@ -21,15 +21,15 @@ export const metadata = {
   openGraph: {
     title: "What is an Air Washer? | Adhunik Powertech",
     description: "Understand the function and benefits of Air Washers for air cooling and purification. Explore Adhunik Powertech's innovative solutions for industrial and commercial spaces.",
-    url: "https://www.adhunikpowertech.com/air-https://www.adhunikpowertech.com/what-is-an-air-washer",
+    url: "https://www.adhunikpowertech.com/what-is-an-air-washer",
     type: "article",
-    image: "http://localhost:3000/blog/1.jpeg",
+    image: "https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75",
   },
   twitter: {
     card: "summary_large_image",
     title: "What is an Air Washer? | Adhunik Powertech",
     description: "Get insights into Air Washers and how they enhance cooling and air quality. Learn more with Adhunik Powertech.",
-    image: "http://localhost:3000/blog/1.jpeg",
+    image: "https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75",
   },
 };
 
