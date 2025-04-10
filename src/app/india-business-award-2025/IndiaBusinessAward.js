@@ -131,11 +131,7 @@ export default function IndiaBusinessAward() {
             </strong>
             </li>
 
-            <li className="text-gray-600 font-sans font-normal "><strong>
-              Pharmaceutical & Healthcare : Johnson & Johnson, Sitaram Bhartia – Critical HVAC Solutions.
-
-            </strong>
-            </li>
+       
             <li className="text-gray-600 font-sans font-normal "><strong>
               Pharmaceutical & Healthcare : Johnson & Johnson, Sitaram Bhartia – Critical HVAC Solutions.
 
