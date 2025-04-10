@@ -63,13 +63,13 @@ export default function PanelAirConditioners() {
     },
   ], []);
 
-  // State for active accordion index
+  
   const [activeIndex, setActiveIndex] = useState(null);
 
-  // Refs for dynamic content heights
+   
   const refs = useRef([]);
 
-  // Calculate heights dynamically and ensure they are set after component mounts
+   
   useEffect(() => {
     if (typeof window !== "undefined") {
       refs.current = refs.current.slice(0, accordionData.length);
@@ -94,10 +94,10 @@ export default function PanelAirConditioners() {
       description:
         "It is designed to prevent excessive heat that may occur inside electrical panels. These systems are used to control the indoor temperature and ensure the safety of electrical panels.",
 
-      imageSrc: "/panelac.png",
+      imageSrc: "/awi/panelac.webp",
       altText: "Panel Air Conditioner ",
     },
-    // Add more product objects if needed
+     
   ];
 
   const products3 = [
@@ -107,7 +107,7 @@ export default function PanelAirConditioners() {
       imageSrc: "/pac.jpg",
       altText: "Panel Air Conditioner ",
     },
-    // Add more product objects if needed
+     
   ];
 
   const wall_mount = [
@@ -237,7 +237,8 @@ export default function PanelAirConditioners() {
                 priority
                 decoding="async"
                 alt="Air washer"
-                src="/awi/5.webp"
+                src="/panelac.png"
+               
                 width="300"
                 height="250"
 
