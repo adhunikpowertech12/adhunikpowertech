@@ -1187,19 +1187,20 @@ export default function HeroPage() {
         </div>
 
 
-        <div className="inline-flex  items-center justify-center w-full mx-auto my-4 mt-8">
+        <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
           <h2 className="absolute px-5 text-gray-700  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
         </div>
 
-        <div className="row hidden md:block">
-          <section >
+        <div className="row  hidden md:block">
+
+          <section  className=' '>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-4 text-center">
                 <h2 className="text-2xl  text-center font-medium"></h2>
               </div>
 
-              <div className="  grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">
+              <div className="   grid justify-center gap-14  sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 xl:flex">
                 {images6.map((image, index) => (
                   <div key={index} className="flex items-center  justify-center">
                     <Image src={image.src} width={image.width} height={image.height} alt={image.alt} loading='lazy' />
@@ -1259,7 +1260,7 @@ export default function HeroPage() {
         </div>
 
 
-        <div className="row pb-10">
+        <div className="row  py-6">
           <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
