@@ -63,13 +63,11 @@ export default function PanelAirConditioners() {
     },
   ], []);
 
-  
+
   const [activeIndex, setActiveIndex] = useState(null);
 
-   
   const refs = useRef([]);
 
-   
   useEffect(() => {
     if (typeof window !== "undefined") {
       refs.current = refs.current.slice(0, accordionData.length);
@@ -97,7 +95,7 @@ export default function PanelAirConditioners() {
       imageSrc: "/awi/panelac.webp",
       altText: "Panel Air Conditioner ",
     },
-     
+
   ];
 
   const products3 = [
@@ -107,7 +105,7 @@ export default function PanelAirConditioners() {
       imageSrc: "/pac.jpg",
       altText: "Panel Air Conditioner ",
     },
-     
+
   ];
 
   const wall_mount = [
@@ -228,7 +226,7 @@ export default function PanelAirConditioners() {
     <>
       <div className="row  mt-32 font-sans">
 
-        <section className=' p-5 pb-0 mb-0 flex flex-col md:flex-row '>
+        <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
@@ -238,7 +236,7 @@ export default function PanelAirConditioners() {
                 decoding="async"
                 alt="Air washer"
                 src="/panelac.png"
-               
+
                 width="300"
                 height="250"
 
@@ -251,12 +249,12 @@ export default function PanelAirConditioners() {
 
 
 
-          <div className="box md:w-6/12 py-4 px-4 flex justify-center items-start flex-col">
+          <div className="box md:w-6/12 pb-0 py-4 px-4 flex justify-center items-start flex-col">
             <h1 className="w-full text-center md:text-left font-sans text-5xl text-sky-700 leading-tight">
               Panel Air Conditioner
             </h1>
 
-            <p className="text-gray-700 py-3 font-sans  text-justify md:text-left ">
+            <p className="text-gray-700  py-3 font-sans  text-justify md:text-left ">
               A Panel Air Conditioner is a specialized industrial cooling unit designed specifically to manage heat within sealed electrical panels, control cabinets, and other enclosures housing sensitive electronic components. By actively removing heat generated during operation, these units prevent overheating, ensuring the reliability and longevity of critical equipment like PLCs, VFDs, CNC controls, and servers. They are essential thermal management tools in various applications – from industrial automation and manufacturing floors requiring CNC panel cooling or VFD panel cooling to data centers and telecommunication shelters – providing vital temperature control where standard air conditioning is impractical or insufficient.
 
             </p>
@@ -272,43 +270,43 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col  p-5 pt-0 mt-0  m-4">
+          <div className=" h-full gap-5 flex flex-col  md:p-5 md:pt-0 mt-0  m-4">
 
-            <div className="md:w-12/12 w-auto  md:p-2   rounded-xl">
+            <div className="md:w-12/12 w-auto  md:p-2  md:pt-0  rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex md:p-7">
-         
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex md:pt-0 md:p-7">
+
 
                   <p className=' font-sans text-justify ' >Recognizing this critical need, Adhunik Powertech proudly provides cutting-edge panel air conditioner solutions and support to industries in major cities and regions across the nation. We address the crucial thermal management needs of businesses in Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Goa, Vishakhapatnam, Bhopal, Kolkata, Jaipur, and Delhi, as well as in thriving industrial zones throughout Gujarat, Rajasthan, Chhattisgarh, and Odisha. Wherever your operations are based, trust Adhunik Powertech for reliable electrical panel cooling. With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients such as Uflex Limited, Steel Authority of India Ltd. (SAIL), BAAZ Bikes (Elec Torq Technologies Pvt. Ltd.), Nippon Steel Pipe India Pvt. Ltd., TAK Technologies Pvt. Ltd., Hero MotoCorp, Rise Automation, Triveni Renewables Pvt. Ltd., and Zixom Plast, showcasing our commitment across diverse industries.</p>
-                  </div>
+                </div>
 
               </div>
             </div>
 
             <div className="md:w-12/12 w-auto  md:p-7 pt-0  rounded-xl">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
 
-                  
 
-                    <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                     Your Trusted Partner for Heavy-Duty Industrial Cooling
 
-          </h2>
-        </div>
+                  <div className="inline-flex items-center justify-center w-full mx-auto  my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                     Your Trusted Partner for Heavy-Duty Industrial Cooling
+
+                    </h2>
+                  </div>
 
 
 
 
                   <p className=' font-sans text-justify'>
-                  Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel air conditioners. We engineer reliable thermal management solutions specifically designed to withstand demanding industrial environments and protect your critical investments. We understand that consistent electrical panel cooling is essential for preventing overheating, ensuring the longevity of sensitive components, and maintaining operational efficiency.
+                    Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel air conditioners. We engineer reliable thermal management solutions specifically designed to withstand demanding industrial environments and protect your critical investments. We understand that consistent electrical panel cooling is essential for preventing overheating, ensuring the longevity of sensitive components, and maintaining operational efficiency.
                   </p>
-                  </div>
+                </div>
 
 
-                  </div>
+              </div>
             </div>
 
 
@@ -318,52 +316,57 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col md:flex-row   p-5 pt-0  mt-0 m-4">
+          <div className=" h-full gap-5 flex flex-col md:flex-row   md:p-5 pt-0  mt-0 m-4">
 
-            <div className=" w-full pt-0 p-7   rounded-xl">
+            <div className=" w-full pt-0 md:p-7   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-              <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                      Certified Quality & Compliance You Can Rely On
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
 
-          </h2>
-        </div>
 
-                 
-                    <p className=' font-sans'>
-                    Our unwavering commitment to quality, safety, and manufacturing excellence is demonstrated through our adherence to stringent national and international standards. We believe in transparency and building trust, which is why Adhunik Powertech is proud to hold key certifications and registrations, including:
 
-                    </p>
+                  <div className="inline-flex items-center justify-center w-full mx-auto  my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                      Certified Quality & Compliance You Can Rely On
 
-                    <div className=" text-base  leading-relaxed   space-y-4">
+                    </h2>
+                  </div>
+
+
+
+
+                  <p className=' font-sans text-justify'>
+                    Our unwavering commitment to quality, safety, and manufacturing excellence is demonstrated through our adherence to stringent national and international standards. We believe in transparency and building trust, which is why Adhunik Powertech is proud to hold key certifications and registrations, including :
+
+                  </p>
+
+                  <div className=" text-base  leading-relaxed   space-y-4">
 
                     <ul className="list-disc pl-5 text-gray-700">
-  <li className='font-sans'><strong>ISO 9001:2015 Certified (Q-20592/0820/005) :</strong>  Validating our robust quality management system ensures consistent product performance and reliability in every unit. </li>
+                      <li className='font-sans '><strong>ISO 9001:2015 Certified (Q-20592/0820/005) :</strong>  Validating our robust quality management system ensures consistent product performance and reliability in every unit. </li>
 
-  <li className='font-sans'><strong>CE Marked (CE/060219033) :</strong> Signifying compliance with European standards for health, safety, and environmental protection, making our products suitable for diverse markets.</li>
+                      <li className='font-sans'><strong>CE Marked (CE/060219033) :</strong> Signifying compliance with European standards for health, safety, and environmental protection, making our products suitable for diverse markets.</li>
 
-  <li className='font-sans'><strong>ZED Bronze Certified :</strong> Recognizing our commitment to the Indian government's 'Zero Defect Zero Effect' initiative, focusing on quality and sustainable manufacturing practices.</li>
+                      <li className='font-sans'><strong>ZED Bronze Certified :</strong> Recognizing our commitment to the Indian government's 'Zero Defect Zero Effect' initiative, focusing on quality and sustainable manufacturing practices.</li>
 
-  <li className='font-sans'><strong>MSME Registered :</strong> Officially recognized as a Micro, Small & Medium Enterprise by the Government of India.</li>
+                      <li className='font-sans'><strong>MSME Registered :</strong> Officially recognized as a Micro, Small & Medium Enterprise by the Government of India.</li>
 
-  <li className='font-sans'><strong>GeM Registered :</strong> Authorized supplier on the Government e Marketplace, facilitating procurement for government entities.</li>
-  
-  <li className='font-sans'><strong>IEC Licence Holder :</strong> Fully licensed for import and export activities, ensuring smooth international trade compliance.</li>
+                      <li className='font-sans'><strong>GeM Registered :</strong> Authorized supplier on the Government e Marketplace, facilitating procurement for government entities.</li>
+
+                      <li className='font-sans'><strong>IEC Licence Holder :</strong> Fully licensed for import and export activities, ensuring smooth international trade compliance.</li>
 
 
-</ul>
+                    </ul>
 
-                    </div>
-                    <p className=' font-sans'>These credentials are not just badges; they are your assurance that Adhunik Powertech delivers dependable, high-quality industrial cooling solutions built to perform.
-</p>
                   </div>
+                  <p className=' font-sans  text-justify  md:text-left'>These credentials are not just badges; they are your assurance that Adhunik Powertech delivers dependable, high-quality industrial cooling solutions built to perform.
+                  </p>
+                </div>
 
               </div>
             </div>
 
-          
+
 
 
           </div>
@@ -380,7 +383,7 @@ export default function PanelAirConditioners() {
 
 
           <div className="row">
-            <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+            <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
               <div className="md:w-[40%] w-auto">
@@ -474,13 +477,7 @@ export default function PanelAirConditioners() {
 
 
           <div className="row">
-            <div className=" h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-
-
-
-
-
-
+            <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
@@ -572,7 +569,7 @@ export default function PanelAirConditioners() {
 
 
           <div className="row">
-            <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+            <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
 
@@ -669,25 +666,28 @@ export default function PanelAirConditioners() {
             </div>
           </div>
 
-          {products2.map((product) => (
-            <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+
+          <div className="row">
+            <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+            {products2.map((product) => (
+            <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
-                <span className=' relative right-6'>
+                <span >
 
-                  <h2 className="text-[6vw] md:text-4xl text-left mb-3 ">{product.title}</h2>
-                  <p className=' text-justify'>Industrial Panel air conditioners are used in a variety of application areas. <br /> Here are some examples:</p>
+                  <h2 className="text-[6vw] md:text-4xl md:text-left mb-3 ">{product.title}</h2>
+                  <p className=' md:text-justify  text-center'>Industrial Panel air conditioners are used in a variety of application areas. <br /> Here are some examples:</p>
                 </span>
 
                 <div className=" text-justify">
 
-                  <ul className="list-disc">
-                    <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                  <ul className="list-disc ">
+                    <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                     </svg>
-                      Manufacturing Facilities</span>
+                      Manufacturing Facilities :</span>
 
                     <li>Cool precision machinery (CNC, robotics, automation).
 
@@ -701,10 +701,10 @@ export default function PanelAirConditioners() {
 
 
                   <ul className="list-disc">
-                    <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                    <span className='pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                     </svg>
-                      Food and Beverage Industry:
+                      Food and Beverage Industry :
                     </span>
 
                     <li>Cool processing equipment, control labs, and storage areas.
@@ -720,10 +720,10 @@ export default function PanelAirConditioners() {
 
 
                   <ul className="list-disc">
-                    <span className=' font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                    <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                     </svg>
-                      Data Centers
+                      Data Centers :
                     </span>
 
                     <li>Protect servers and network equipment from overheating.
@@ -739,7 +739,7 @@ export default function PanelAirConditioners() {
                 </div>
 
               </div>
-               
+
 
 
               <div className="md:w-[40%] w-auto">
@@ -748,42 +748,7 @@ export default function PanelAirConditioners() {
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
                       <div className="w-auto">
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                          
-                          <Image
-                            className="h-[30rem] object-center object-fill"
-                            priority
-                            alt={product.altText}
-                            src={product.imageSrc}
-                            width={500}  
-                            height={700}  
-                            layout="responsive"  
-                          />
-                        </div>
-                      </div>
 
-                    
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          ))}
-
-
-          {products3.map((product) => (
-
-
-            <div key={product.id} className="h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-              
-              <div className="md:w-[40%] w-auto">
-                <div className="flex items-center justify-center h-full">
-                  <div>
-                    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-                      <div className="w-auto">
-                        <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                         
                           <Image
                             className="h-[30rem] object-center object-fill"
                             priority
@@ -796,18 +761,56 @@ export default function PanelAirConditioners() {
                         </div>
                       </div>
 
-                      
+
 
                     </div>
                   </div>
                 </div>
               </div>
 
-              
+            </div>
+          ))}
+</div>
+</div>
+      
+
+
+          {products3.map((product) => (
+
+
+            <div key={product.id} className="h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+
+              <div className="md:w-[40%] w-auto">
+                <div className="flex items-center justify-center h-full">
+                  <div>
+                    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                      <div className="w-auto">
+                        <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+
+                          <Image
+                            className="h-[30rem] object-center object-fill"
+                            priority
+                            alt={product.altText}
+                            src={product.imageSrc}
+                            width={500}
+                            height={700}
+                            layout="responsive"
+                          />
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
-                <span className=' relative right-6'>
+                <span className=' '>
 
                   <h2 className="text-[6vw] md:text-4xl px-8  py-4 rounded-full text-left mb-3 bg-black text-white  ">{product.title}</h2>
 
@@ -855,48 +858,48 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col md:flex-row  p-5 pt-0  mt-0 m-4">
+          <div className=" h-full gap-5 flex flex-col md:flex-row  md:p-5 pt-0  mt-0 m-4">
 
-            <div className=" w-full p-7   rounded-xl">
+            <div className=" w-full md:p-7   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
 
-              <div className="inline-flex items-center justify-center w-full mx-auto  mb-7 md:mb-0">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                       Get Expert Advice for Your Cooling Needs
-
-
-          </h2>
-        </div>
+                  <div className="inline-flex items-center justify-center w-full mx-auto  my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                       Get Expert Advice for Your Cooling Needs
 
 
+                    </h2>
+                  </div>
 
 
-  <p className="font-sans">
-  Choose Adhunik Powertech for certified, heavy-duty panel air conditioners engineered for performance and reliability in the toughest conditions. Protect your valuable equipment and ensure process continuity with our proven enclosure cooling solutions.
-  </p>
 
-  <p className="font-sans">
-  Contact us today to leverage our expertise. We offer a free consultation to help you assess your specific cooling requirements and select the ideal panel air conditioner solution for your application. Let's keep your operations running cool!
-  </p>
 
-  <div className="w-full flex justify-center">
-    <a
-      href="tel:8287885885"
-      className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
-    >
-      <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-      <span className="relative">Contact sales team</span>
-    </a>
-  </div>
-</div>
+                  <p className="font-sans text-justify">
+                    Choose Adhunik Powertech for certified, heavy-duty panel air conditioners engineered for performance and reliability in the toughest conditions. Protect your valuable equipment and ensure process continuity with our proven enclosure cooling solutions.
+                  </p>
+
+                  <p className="font-sans text-justify">
+                    Contact us today to leverage our expertise. We offer a free consultation to help you assess your specific cooling requirements and select the ideal panel air conditioner solution for your application. Let's keep your operations running cool!
+                  </p>
+
+                  <div className="w-full flex justify-center">
+                    <a
+                      href="tel:8287885885"
+                      className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                    >
+                      <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                      <span className="relative">Contact sales team</span>
+                    </a>
+                  </div>
+                </div>
 
 
               </div>
             </div>
 
-          
+
 
 
           </div>
@@ -922,8 +925,6 @@ export default function PanelAirConditioners() {
         </div>
 
 
-
-
         <div className="row">
 
 
@@ -933,7 +934,7 @@ export default function PanelAirConditioners() {
 
 
               <div>
-                <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> FAQs
+                <p className="mt-3 text-3xl text-center md:text-left font-sans font-bold text-gray-800 dark:text-neutral-400"> FAQs
 
                 </p>
                 <div className="container mx-auto mt-8 mb-10">
@@ -983,7 +984,7 @@ export default function PanelAirConditioners() {
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                     <span className="relative">       Know more About Us </span>
                   </Link>
-               
+
                 </div>
 
 
@@ -1025,23 +1026,23 @@ export default function PanelAirConditioners() {
                 <>
                   <div
                     className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none "
-                    onClick={closeModal}  
+                    onClick={closeModal}
                   >
                     <div
                       className="relative  my-6    container-fluid "
-                      onClick={(e) => e.stopPropagation()}  
+                      onClick={(e) => e.stopPropagation()}
                     >
-                      
-                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                        
 
-                         
+                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+
+
+
                         <div className="relative  flex-auto">
 
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/jtizPl_Y744?si=oWwFcUq_IwXZgvjD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                         </div>
-                         
+
 
                       </div>
                     </div>
@@ -1057,22 +1058,19 @@ export default function PanelAirConditioners() {
 
         </div>
 
-
-
-
         <div className="row pb-16 flex justify-center items-center flex-col">
 
 
           <div className="flex justify-center items-center w-full h-full flex-row">
-            
+
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
-             
+
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
 
-            
+
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
           </div>
 
