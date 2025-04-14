@@ -190,12 +190,12 @@ export default function WhatIsHvac() {
                     <p className="mb-4 text-gray-700 font-sans font-normal">
                       <Link
                         href="/hvac"
-                        className="text-blue-500 hover:underline pr-1"
+                        className="text-blue-500 hover:underline "
                       >
                         HVAC
 
                       </Link>
-
+                      {' '}
                       stands for Heating, Ventilation, and Air Conditioning. It encompasses a comprehensive system designed to regulate the temperature, humidity, and air quality within indoor environments. This crucial technology ensures comfort, improves indoor air quality, and enhances energy efficiency.
 
                     </p>
