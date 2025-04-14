@@ -628,6 +628,7 @@ export default function HeroPage() {
         />
         <meta charSet="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
+        <meta name="application-name" content="Adhunik Powertech" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -653,7 +654,7 @@ export default function HeroPage() {
         <meta property="og:locale" content="en_IN" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://adhunikpowertech.com/" />
-        <meta property="og:site_name" content="Adhunik Powertech - HVAC Experts" />
+        <meta property="og:site_name" content="Adhunik Powertech" />
         <meta name="twitter:card" content="summary" />
         <link rel="preconnect" href="http://cdn12.lemnisk.co" />
 
