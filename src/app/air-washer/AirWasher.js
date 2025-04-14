@@ -484,15 +484,12 @@ export default function AirWasher() {
         <section className='  text-center px-8 py-6'>
 
 
-      
-
           <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal  ">
           Air Washer Manufacturer in Delhi & India
           </h2>
 
           <p className="text-gray-700  pb-3 font-sans">
-          Adhunik Powertech is a leading manufacturer of high-quality air washers in Delhi and across India. <br /> We specialize in designing and manufacturing a wide range of air washer units to meet various industrial and commercial needs.
-
+          Adhunik Powertech is a leading manufacturer of high-quality air washers, proudly serving Delhi NCR, including key industrial hubs like Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our expertise extends across India, providing reliable air washer units to meet diverse industrial and commercial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. Contact Adhunik Powertech for your air washer solutions, no matter your location in Delhi NCR or across India.
           </p>
 
         </section>
