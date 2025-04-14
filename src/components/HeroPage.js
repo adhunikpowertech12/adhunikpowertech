@@ -337,7 +337,7 @@ export default function HeroPage() {
 
   ];
 
-  
+
   const reviewBoxes = [
     {
       id: "indiamart",
@@ -358,24 +358,28 @@ export default function HeroPage() {
       ),
       classes: "border-2 rounded-xl",
     },
-  
+
     {
       id: "google-widget",
       content: (
-        <>
-          <a
-            className="review-widget_net"
-            data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468"
-            data-template="10"
-            data-lang="en"
-            data-theme="light"
-          ></a>
-          <script src="https://grwapi.net/widget.min.js"></script>
-        </>
+        <a
+          className="rounded-xl"
+          href="https://www.indiamart.com/adhunik-cooling-system-limited/"
+          rel="nofollow"
+        >
+          <Image
+            src="/googlereview.webp"
+            width={500}
+            height={500}
+            loading="lazy"
+            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+          />
+        </a>
       ),
-      classes: "", // no border or rounding needed
+      classes: "border-2 rounded-xl",
+
     },
-  
+
     {
       id: "ambitionbox",
       content: (
@@ -389,19 +393,19 @@ export default function HeroPage() {
       classes: "border-2 rounded-xl",
     },
   ];
-  
+
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === reviewBoxes.length - 1 ? 0 : prevIndex + 1
     );
   };
-  
+
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? reviewBoxes.length - 1 : prevIndex - 1
     );
   };
-  
+
 
   const [imageSizes, setImageSizes] = useState({});
 
@@ -1194,7 +1198,7 @@ export default function HeroPage() {
 
         <div className="row  hidden md:block">
 
-          <section  className=' '>
+          <section className=' '>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-4 text-center">
                 <h2 className="text-2xl  text-center font-medium"></h2>
@@ -1304,80 +1308,83 @@ export default function HeroPage() {
 
 
           <section className="hidden md:flex flex-col px-4 flex-wrap md:flex-row justify-evenly items-center gap-9 pt-6">
-  <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
-    <a
-      className="rounded-xl"
-      href="https://www.indiamart.com/adhunik-cooling-system-limited/"
-      rel="nofollow"
-    >
-      <Image
-        src="/indiamartreview.webp"
-        width="500"
-        height="500"
-        loading="lazy"
-        alt="4.5 out of 5 indiamart ratings of adhunik powertech"
-      />
-    </a>
-  </div>
+            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
+              <a
+                className="rounded-xl"
+                href="https://www.indiamart.com/adhunik-cooling-system-limited/"
+                rel="nofollow"
+              >
+                <Image
+                  src="/indiamartreview.webp"
+                  width="500"
+                  height="500"
+                  loading="lazy"
+                  alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+                />
+              </a>
+            </div>
 
-  <div className="box w-fit md:w-4/12 lg:w-2/12">
-    <a
-      className="review-widget_net"
-      data-uuid="9e99c993-2a97-48e2-a2fb-1f44a74cc468"
-      data-template="10"
-      data-lang="en"
-      data-theme="light"
-    ></a>
-    <script src="https://grwapi.net/widget.min.js"></script>
-  </div>
+            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
 
-  <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
-    <a href="https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges">
-      <img
-        src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
-        alt="image"
-      />
-    </a>
-  </div>
-</section>
+            <Link href="https://www.google.com/search?hl=en-IN&gl=in&q=DCG1-0102,+Adhunik+Powertech+Private+Limited,+Tower-1,+DLF+CORPORATE+GREENS,+Sector+74A,+Gurugram,+Haryana+122004&ludocid=2770951929986358489&lsig=AB86z5UI85uc8ZxJQ8GU5u-6A6xf#lrd=0x390d1820517a67c3:0x2674661964851cd9,1">
+            <Image
+            src="/googlereview.webp"
+            width={500}
+            height={500}
+            loading="lazy"
+            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+          />
+            </Link>
+          
+            </div>
+
+            <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
+              <a href="https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges">
+                <img
+                  src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
+                  alt="image"
+                />
+              </a>
+            </div>
+          </section>
 
 
 
           <div className="row">
-  <div className="relative w-full max-w-xl mx-auto block md:hidden">
-    <div className="overflow-hidden">
-      <div
-        className="flex transition-transform duration-700 ease-in-out"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {reviewBoxes.map((item) => (
-          <div
-            key={item.id}
-            className="min-w-full flex justify-center px-4 mt-4 items-center"
-          >
-            <div className={`box w-fit md:w-4/12 lg:w-2/12 ${item.classes}`}>
-              {item.content}
+            <div className="relative w-full max-w-xl mx-auto block md:hidden">
+              <div className="overflow-hidden">
+                <div
+                  className="flex transition-transform duration-700 ease-in-out"
+                  style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                >
+                  {reviewBoxes.map((item) => (
+                    <div
+                      key={item.id}
+                      className="min-w-full flex justify-center px-4 mt-4 items-center"
+                    >
+                      <div className={`box w-fit md:w-4/12 lg:w-2/12 ${item.classes}`}>
+                        {item.content}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <button
+                onClick={handlePrev}
+                className="absolute top-1/2 left-2 transform -translate-y-1/2  text-black px-3 py-2 rounded-lg"
+              >
+                &#8249;
+              </button>
+
+              <button
+                onClick={handleNext}
+                className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-transparent text-black px-3 py-2 rounded-lg"
+              >
+                &#8250;
+              </button>
             </div>
           </div>
-        ))}
-      </div>
-    </div>
-
-    <button
-      onClick={handlePrev}
-      className="absolute top-1/2 left-2 transform -translate-y-1/2  text-black px-3 py-2 rounded-lg"
-    >
-      &#8249;
-    </button>
-
-    <button
-      onClick={handleNext}
-      className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-transparent text-black px-3 py-2 rounded-lg"
-    >
-      &#8250;
-    </button>
-  </div>
-</div>
 
 
 
