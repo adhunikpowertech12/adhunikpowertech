@@ -467,10 +467,6 @@ export default function AirWasher() {
 
 
 
-
-
-
-
                   </div>
                 </div>
               </div>

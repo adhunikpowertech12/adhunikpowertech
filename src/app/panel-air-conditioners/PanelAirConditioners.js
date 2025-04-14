@@ -290,7 +290,7 @@ export default function PanelAirConditioners() {
 
 
 
-                  <div className="inline-flex items-center justify-center w-full mx-auto  my-7 md:mb-0">
+                  <div className="inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">
                     <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
                     <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                     Your Trusted Partner for Heavy-Duty Industrial Cooling
 
@@ -301,7 +301,8 @@ export default function PanelAirConditioners() {
 
 
                   <p className=' font-sans text-justify'>
-                    Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel air conditioners. We engineer reliable thermal management solutions specifically designed to withstand demanding industrial environments and protect your critical investments. We understand that consistent electrical panel cooling is essential for preventing overheating, ensuring the longevity of sensitive components, and maintaining operational efficiency.
+                  Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel AC units suitable for various industries. We engineer reliable thermal management solutions, including our best-in-class panel AC, specifically designed to withstand demanding industrial environments and protect your critical investments. Our panel ACs have a great reach and are very popular across pharmaceutical, food processing, engineering, and manufacturing industries. Experience the benefits of low maintenance costs and high durability with our panel AC systems. Contact us today for the best panel AC at an affordable price.
+                    
                   </p>
                 </div>
 
@@ -316,16 +317,16 @@ export default function PanelAirConditioners() {
 
 
         <div className="row">
-          <div className=" h-full gap-5 flex flex-col md:flex-row   md:p-5 pt-0  mt-0 m-4">
+          <div className=" h-full gap-5 flex flex-col md:flex-row   md:p-5 md:pt-0  md:mt-0 m-4">
 
-            <div className=" w-full pt-0 md:p-7   rounded-xl">
+            <div className=" w-full pt-0 md:p-7 md:pt-0   rounded-xl">
               <div className="flex items-center justify-center h-full">
 
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
 
 
 
-                  <div className="inline-flex items-center justify-center w-full mx-auto  my-7 md:mb-0">
+                  <div className="inline-flex items-center justify-center w-full mx-auto md:mt-0  my-7 md:mb-0">
                     <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
                     <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">                      Certified Quality & Compliance You Can Rely On
 
