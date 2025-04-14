@@ -3,9 +3,9 @@ import PanelAirConditioners from "./PanelAirConditioners"
 
 export const metadata = {
 
-  title: "Best Panel Air Conditioner in India | Adhunik Powertech",
+  title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
 
-  description: "Adhunik Powertech, a leading manufacturer of industrial panel air conditioners in Gurugram, India, offers advanced cooling solutions for PLCs, Electric panels, CNC machines, etc. Contact us for a free quote!",
+  description: "Looking for a reliable panel air conditioner? Adhunik Powertech is a top manufacturer and authorized government supplier of high-quality panel AC units for various industrial needs",
   
 }
 
