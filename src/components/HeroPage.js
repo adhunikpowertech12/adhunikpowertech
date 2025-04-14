@@ -1333,7 +1333,7 @@ export default function HeroPage() {
             width={500}
             height={500}
             loading="lazy"
-            alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+            alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
           />
             </Link>
           
