@@ -2,7 +2,7 @@ import WhatIsAirWasher from "./WhatIsAirWasher";
 
 
 export const metadata = {
-  title: "What is an Air Washer? | Adhunik Powertech",
+  title: "What is an Air Washer ? - Adhunik Powertech",
   description: "Learn about Air Washers, their working, benefits, and applications. Discover how Adhunik Powertech provides efficient air cooling and purification solutions for industrial and commercial use.",
   keywords: [
     "Air Washer",
