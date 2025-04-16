@@ -40,7 +40,7 @@ export const metadata = {
   appleMobileWebAppStatusBarStyle: "default",
   robots: "index, follow",
 
- 
+  
   
   twitter: {
     site: "@adhunikpowertech",
