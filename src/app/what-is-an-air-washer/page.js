@@ -17,7 +17,7 @@ export const metadata = {
     "Energy-Efficient Cooling",
   ],
   robots: "index, follow",
-  canonical: "https://www.adhunikpowertech.com/what-is-an-air-washer",
+  canonical: "/what-is-an-air-washer",
   openGraph: {
     title: "What is an Air Washer? | Adhunik Powertech",
     description: "Understand the function and benefits of Air Washers for air cooling and purification. Explore Adhunik Powertech's innovative solutions for industrial and commercial spaces.",
