@@ -224,6 +224,9 @@ export default function PanelAirConditioners() {
 
   return (
     <>
+    <head>
+    <link rel="canonical" href="https://websiteonlinedemo.com/infipi-up/"/>
+    </head>
       <div className="row  mt-32 font-sans">
 
         <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>

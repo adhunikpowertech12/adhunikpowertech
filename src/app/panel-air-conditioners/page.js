@@ -54,7 +54,7 @@ export const metadata = {
     "Thermal management for PLC cabinets",
   ],
   robots: "index, follow",
-  canonical: "https://www.adhunikpowertech.com/panel-air-conditioners",
+  
   openGraph: {
     title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
     description: "Looking for a reliable panel air conditioner? Adhunik Powertech is a top manufacturer and authorized government supplier of high-quality panel AC units for various industrial needs.",
@@ -68,6 +68,9 @@ export const metadata = {
         alt: "Adhunik Powertech Panel AC Units",
       },
     ],
+  },
+  alternates: {
+    canonical: "https://www.adhunikpowertech.com/panel-air-conditioners",
   },
   twitter: {
     card: "summary_large_image",
