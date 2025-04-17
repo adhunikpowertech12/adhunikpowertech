@@ -75,7 +75,6 @@ export const metadata = {
   ],
   link: [
     { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" },
-    { rel: "preconnect", href: "http://cdn12.lemnisk.co" }
   ]
 };
 

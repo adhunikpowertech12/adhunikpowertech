@@ -418,19 +418,7 @@ export default function HeroPage() {
   };
 
 
-  const images = [
 
-    "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-
-    "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1096&q=80",
-
-    "https://images.unsplash.com/photo-1581473483413-313a5afffb08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=714&q=80",
-
-    "https://images.unsplash.com/photo-1585155967849-91c736589c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
-
-    "https://images.unsplash.com/photo-1527915676329-fd5ec8a12d4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-
-  ];
 
   const products = [
     {
@@ -502,20 +490,20 @@ export default function HeroPage() {
 
 
   useEffect(() => {
-    // Show the popup after 5 seconds
+    
     const showTimer = setTimeout(() => {
       setShowPopup(true);
-    }, 5000); // 5 seconds after page load
+    }, 5000);  
 
-    // Hide the popup 5 seconds after it's shown
+     
     const hideTimer = setTimeout(() => {
       setShowPopup(false);
-    }, 15000); // 5 seconds after popup is shown (total of 10 seconds after page load)
+    }, 15000);  
 
     return () => {
       clearTimeout(showTimer);
       clearTimeout(hideTimer);
-    }; // Cleanup on unmount
+    }; 
   }, []);
 
   const paragraphs = [
@@ -656,7 +644,6 @@ export default function HeroPage() {
         <meta property="og:url" content="https://adhunikpowertech.com/" />
         <meta property="og:site_name" content="Adhunik Powertech" />
         <meta name="twitter:card" content="summary" />
-        <link rel="preconnect" href="http://cdn12.lemnisk.co" />
 
       </Head>
 
