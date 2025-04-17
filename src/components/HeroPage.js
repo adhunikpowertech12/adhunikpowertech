@@ -531,37 +531,37 @@ export default function HeroPage() {
         "name": "Adhunik Powertech",
         "headline": "Top & Best HVAC Companies in India - Adhunik Powertech",
         "mainEntityOfPage": {
-          "@type": "WebPage",
+          "@type": "WebSite",
           "url": "https://adhunikpowertech.com/"
         },
         "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/indiaawards_k0es0f?_a=BAVAZGDX0",
         "image": {
-          "@type": "ImageObject",
+          "@type": "WebSite",
           "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
-          "height": "500",
-          "width": "700"
+          "height": "50",
+          "width": "50"
         },
         "potentialAction": {
-          "@type": "SearchAction",
+          "@type": "WebSite",
           "target": "https://adhunikpowertech.com/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         },
         "author": {
-          "@type": "Person",
+          "@type": "WebSite",
           "@id": "https://adhunikpowertech.com",
           "url": "https://adhunikpowertech.com",
           "name": "Adhunik Powertech"
         },
         "publisher": {
-          "@type": "Organization",
+          "@type": "WebSite",
           "@id": "https://adhunikpowertech.com/",
           "url": "https://adhunikpowertech.com/",
           "name": "Adhunik Powertech",
           "logo": {
-            "@type": "ImageObject",
+            "@type": "WebSite",
             "url": "https://www.adhunikpowertech.com/we.svg",
-            "width": "3000",
-            "height": "962",
+            "width": "30",
+            "height": "40",
             "caption": "Adhunik Powertech"
           },
           "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
@@ -573,12 +573,12 @@ export default function HeroPage() {
         "keywords": "HVAC solutions, air cooling systems, industrial ventilation, air handling units, cooling systems provider,HVAC contractors,hvac company in noida"
       },
       {
-        "@type": "LocalBusiness",
+        "@type": "WebSite",
         "name": "Adhunik Powertech",
         "image": "https://adhunikpowertech.com/logo.jpg",
         "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
         "address": {
-          "@type": "PostalAddress",
+          "@type": "WebSite",
           "streetAddress": "Sector 70, Gurugram",
           "addressLocality": "Gurugram",
           "addressRegion": "Haryana",
@@ -588,13 +588,13 @@ export default function HeroPage() {
         "telephone": "+91-9289126052",
         "url": "https://adhunikpowertech.com/",
         "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "@type": "WebSite",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           "opens": "09:00",
           "closes": "21:00"
         },
         "aggregateRating": {
-          "@type": "AggregateRating",
+          "@type": "WebSite",
           "ratingValue": "5.0",
           "reviewCount": "7"
         },
