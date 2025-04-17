@@ -531,37 +531,37 @@ export default function HeroPage() {
         "name": "Adhunik Powertech",
         "headline": "Top & Best HVAC Companies in India - Adhunik Powertech",
         "mainEntityOfPage": {
-          "@type": "WebSite",
+          "@type": "WebPage",
           "url": "https://adhunikpowertech.com/"
         },
         "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/indiaawards_k0es0f?_a=BAVAZGDX0",
         "image": {
-          "@type": "WebSite",
+          "@type": "ImageObject",
           "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
-          "height": "50",
-          "width": "50"
+          "height": "500",
+          "width": "700"
         },
         "potentialAction": {
-          "@type": "WebSite",
+          "@type": "SearchAction",
           "target": "https://adhunikpowertech.com/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         },
         "author": {
-          "@type": "WebSite",
+          "@type": "Person",
           "@id": "https://adhunikpowertech.com",
           "url": "https://adhunikpowertech.com",
           "name": "Adhunik Powertech"
         },
         "publisher": {
-          "@type": "WebSite",
+          "@type": "Organization",
           "@id": "https://adhunikpowertech.com/",
           "url": "https://adhunikpowertech.com/",
           "name": "Adhunik Powertech",
           "logo": {
-            "@type": "WebSite",
+            "@type": "ImageObject",
             "url": "https://www.adhunikpowertech.com/we.svg",
-            "width": "30",
-            "height": "40",
+            "width": "3000",
+            "height": "962",
             "caption": "Adhunik Powertech"
           },
           "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
@@ -573,12 +573,12 @@ export default function HeroPage() {
         "keywords": "HVAC solutions, air cooling systems, industrial ventilation, air handling units, cooling systems provider,HVAC contractors,hvac company in noida"
       },
       {
-        "@type": "WebSite",
+        "@type": "LocalBusiness",
         "name": "Adhunik Powertech",
         "image": "https://adhunikpowertech.com/logo.jpg",
         "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
         "address": {
-          "@type": "WebSite",
+          "@type": "PostalAddress",
           "streetAddress": "Sector 70, Gurugram",
           "addressLocality": "Gurugram",
           "addressRegion": "Haryana",
@@ -588,13 +588,13 @@ export default function HeroPage() {
         "telephone": "+91-9289126052",
         "url": "https://adhunikpowertech.com/",
         "openingHoursSpecification": {
-          "@type": "WebSite",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "09:00",
           "closes": "21:00"
         },
         "aggregateRating": {
-          "@type": "WebSite",
+          "@type": "AggregateRating",
           "ratingValue": "5.0",
           "reviewCount": "7"
         },
@@ -615,7 +615,7 @@ export default function HeroPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <meta charSet="UTF-8" />
-        <link rel="canonical" href="https://www.adhunikpowertech.com/"></link>
+        
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
         <meta name="application-name" content="Adhunik Powertech" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
