@@ -615,6 +615,7 @@ export default function HeroPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <meta charSet="UTF-8" />
+        <link rel="canonical" href="https://www.adhunikpowertech.com/"></link>
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
         <meta name="application-name" content="Adhunik Powertech" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
