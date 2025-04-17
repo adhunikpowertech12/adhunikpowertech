@@ -35,8 +35,11 @@ export const metadata = {
   openGraph: {
     title: "Top Air Washer Manufacturer in Delhi NCR & India | Adhunik Powertech",
     description: "Adhunik Powertech: Leading air washer supplier in Delhi NCR (Gurugram, Noida, Faridabad) & India (Jaipur, Chandigarh). Industrial & commercial air washers for efficient cooling.",
-    url: "https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75",  
-    type: "product",  
+    url: "https://www.adhunikpowertech.com/air-washer",  
+   siteName: 'adhunik powertech',  
+   locale: 'en_US',
+   type: 'website',
+   
     images: [
       {
         url: "https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75", 
@@ -50,7 +53,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Adhunik Powertech - Air Washer Supplier in Delhi NCR & India",  
     description: "Reliable industrial & commercial air washers from Adhunik Powertech. Serving Delhi NCR (Gurugram, Noida) & India (Jaipur, Chandigarh).",  
-    image: "https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75", 
+    image: ["https://www.adhunikpowertech.com/_next/image?url=%2Fawi%2F5.webp&w=640&q=75"], 
   },
 };
 
