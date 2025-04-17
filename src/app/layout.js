@@ -40,7 +40,9 @@ export const metadata = {
   appleMobileWebAppStatusBarStyle: "default",
   robots: "index, follow",
 
-  
+  alternates: {
+    canonical: "https://www.adhunikpowertech.com/",
+  },
   
   twitter: {
     site: "@adhunikpowertech",
