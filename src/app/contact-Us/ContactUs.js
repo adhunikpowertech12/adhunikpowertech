@@ -84,9 +84,7 @@ export default function ContactUs() {
         e.preventDefault();
 
         if (validateForm()) {
-            // Proceed with form submission
-            // Your existing code for sending email goes here
-
+           
             emailjs
                 .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
                     publicKey: "MhRQ4EQ146BN6g6VJ",

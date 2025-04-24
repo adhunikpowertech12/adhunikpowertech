@@ -18,7 +18,7 @@ export const metadata = {
     title: "Top & Best HVAC Companies in India - Adhunik Powertech",
     description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     url: "https://www.adhunikpowertech.com/",
-    siteName: "Adhunik Powertech", 
+    siteName: "Adhunik Powertech",
     locale: "en_IN",
     type: "website",
   },
@@ -49,14 +49,14 @@ export default function Hero() {
   return (
 
     <>
-   
- <script   type="application/ld+json"
+
+      <script type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-<HeroPage/>
+      <HeroPage />
 
     </>
 
   )
-  
+
 }

@@ -40,7 +40,7 @@ function Footer() {
 
 
   const links4 = [
-    
+
     { href: "/hvac", text: "HVAC" },
     { href: "/fire&safety", text: <>Fire &amp; Safety</> },
 
@@ -105,9 +105,9 @@ function Footer() {
 
 
             <h2 className="  mb-4 flex flex-row text-center  font-semibold uppercase justify-center">
-              Adhunik PowerTech Private Limited 
-              provides   latest cooling technology  
-              with sustainable climate control 
+              Adhunik PowerTech Private Limited
+              provides   latest cooling technology
+              with sustainable climate control
               at the   fingertips.
             </h2>
 
@@ -131,7 +131,7 @@ function Footer() {
               </h2>
               {links.map((link, idx) => (
                 <p className="mb-2" key={idx}>
-                  <Link  href={link.href} className="link link--thebe ">
+                  <Link href={link.href} className="link link--thebe ">
                     {link.text}
                   </Link>
                 </p>
@@ -177,7 +177,7 @@ function Footer() {
               </h2>
               {links3.map((link, idx) => (
                 <div className="mb-2" key={idx}>
-                  <div  className="link link--thebe">
+                  <div className="link link--thebe">
                     {link.text}
                   </div>
                 </div>
@@ -185,32 +185,32 @@ function Footer() {
             </div>
           ))}
 
-   
+
           <div className=' '>
 
             <h2 className="mb-2 text-[15px] flex justify-center  font-sans font-semibold uppercase ">
               Branch office
             </h2>
-            <div className="pb-2 font-sans">  
-           <span className=' font-bold'> Haridwar</span>  : Ashoka Marg, <br /> Lane No.13, Ramnagar, <br /> Roorkee, Uttarakhand 247667
-            
-            
-            
-           
-            </div>
-            <div className="pb-2 font-sans">  
-            
+            <div className="pb-2 font-sans">
+              <span className=' font-bold'> Haridwar</span>  : Ashoka Marg, <br /> Lane No.13, Ramnagar, <br /> Roorkee, Uttarakhand 247667
 
-           <span className=' font-bold'> Hyderabad</span>  :  Unit No. 21-024, TSIIC Colony, <br /> Opp. Adarsh Bank, Jeedimelta, <br /> Hyderabad, Telangana 500055
-            
-            
-            
-           
+
+
+
+            </div>
+            <div className="pb-2 font-sans">
+
+
+              <span className=' font-bold'> Hyderabad</span>  :  Unit No. 21-024, TSIIC Colony, <br /> Opp. Adarsh Bank, Jeedimelta, <br /> Hyderabad, Telangana 500055
+
+
+
+
             </div>
 
 
             <h2 className="mb-2  text-[15px] flex justify-center  font-sans font-semibold uppercase ">
-            Explore with Us
+              Explore with Us
             </h2>
 
 

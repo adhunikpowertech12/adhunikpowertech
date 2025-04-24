@@ -19,7 +19,7 @@ export default function HeroPage() {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 3000); // Change slide every 3 seconds
+    }, 3000);  
     return () => clearInterval(interval);
   }, [currentIndex]);
 
@@ -145,13 +145,13 @@ export default function HeroPage() {
 
 
   const handleButtonClick = (buttonText) => {
-    console.log('Button clicked:', buttonText); // Log the button text
+    console.log('Button clicked:', buttonText);  
     if (buttonText === 'Request A Quote') {
-      window.location.href = '/contact-Us'; // Redirect to Contact Us page
+      window.location.href = '/contact-Us';  
     }
     else {
       console.log('Please chordo');
-      window.location.href = 'tel:08287885885'; // Initiate a phone call
+      window.location.href = 'tel:08287885885';  
     }
   };
 
@@ -490,20 +490,20 @@ export default function HeroPage() {
 
 
   useEffect(() => {
-    
+
     const showTimer = setTimeout(() => {
       setShowPopup(true);
-    }, 5000);  
+    }, 5000);
 
-     
+
     const hideTimer = setTimeout(() => {
       setShowPopup(false);
-    }, 15000);  
+    }, 15000);
 
     return () => {
       clearTimeout(showTimer);
       clearTimeout(hideTimer);
-    }; 
+    };
   }, []);
 
   const paragraphs = [
@@ -514,6 +514,7 @@ export default function HeroPage() {
       Our commitment extends to meticulous HVAC project execution , adhering to  <strong>NBC, CPWD, NABH</strong> guidelines, and following  <strong>ISHRAE, ASHRAE, and ISO</strong> standards, ensuring safety, precise measurements, and stringent precautions throughout the project. We specialize in turnkey HVAC projects, offering tailored solutions that prioritize efficiency and client satisfaction, both regionally and nationally.
     </>
   ];
+
   const [showPopup, setShowPopup] = useState(false);
 
   const handleClosePopup = () => {
@@ -521,6 +522,8 @@ export default function HeroPage() {
     setShowPopup(false);
 
   };
+
+  
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -615,7 +618,7 @@ export default function HeroPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <meta charSet="UTF-8" />
-        
+
         <link rel="icon" type="image/svg+xml" href="/d.svg" />
         <meta name="application-name" content="Adhunik Powertech" />
         <meta name="google-site-verification" content="ZZcgUmCTYjVHPEYAV2XPTWfgp_PXc7M2GOEgeg6kYW0" />
@@ -1315,16 +1318,16 @@ export default function HeroPage() {
 
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
 
-            <Link href="https://www.google.com/search?hl=en-IN&gl=in&q=DCG1-0102,+Adhunik+Powertech+Private+Limited,+Tower-1,+DLF+CORPORATE+GREENS,+Sector+74A,+Gurugram,+Haryana+122004&ludocid=2770951929986358489&lsig=AB86z5UI85uc8ZxJQ8GU5u-6A6xf#lrd=0x390d1820517a67c3:0x2674661964851cd9,1">
-            <Image
-            src="/googlereview.webp"
-            width={500}
-            height={500}
-            loading="lazy"
-            alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
-          />
-            </Link>
-          
+              <Link href="https://www.google.com/search?hl=en-IN&gl=in&q=DCG1-0102,+Adhunik+Powertech+Private+Limited,+Tower-1,+DLF+CORPORATE+GREENS,+Sector+74A,+Gurugram,+Haryana+122004&ludocid=2770951929986358489&lsig=AB86z5UI85uc8ZxJQ8GU5u-6A6xf#lrd=0x390d1820517a67c3:0x2674661964851cd9,1">
+                <Image
+                  src="/googlereview.webp"
+                  width={500}
+                  height={500}
+                  loading="lazy"
+                  alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
+                />
+              </Link>
+
             </div>
 
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">

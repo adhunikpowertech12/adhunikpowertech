@@ -132,12 +132,12 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Memoize the toggleMobileMenu function to prevent unnecessary re-renders
+
   const toggleMobileMenu = useCallback(() => {
     setIsMobileMenuOpen((prev) => !prev);
   }, []);
 
-  // Memoize the closeMobileMenu function
+
   const closeMobileMenu = useCallback(() => {
     setIsMobileMenuOpen(false);
   }, []);
@@ -151,7 +151,7 @@ function Navbar() {
       }
     };
 
-    // Check scroll position on mount
+
     handleScroll();
 
     window.addEventListener("scroll", handleScroll);
@@ -161,17 +161,17 @@ function Navbar() {
 
 
   const pathname = usePathname();
-  const [logoSrc, setLogoSrc] = useState('/we.svg'); // Default logo
-  const [logoSize, setLogoSize] = useState({ width: '150', height: '60' }); // Default size
+  const [logoSrc, setLogoSrc] = useState('/we.svg');
+  const [logoSize, setLogoSize] = useState({ width: '150', height: '60' });
 
   useEffect(() => {
     if (pathname) {
       if (pathname === '/fire&safety' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
         setLogoSrc('/next2.webp');
-        setLogoSize({ width: '180', height: '44' }); // Custom size for vercel.svg
+        setLogoSize({ width: '180', height: '44' });
       } else {
         setLogoSrc('/we.svg');
-        setLogoSize({ width: '150', height: '60' }); // Default size for we.svg
+        setLogoSize({ width: '150', height: '60' });
       }
     }
   }, [pathname]);
@@ -572,33 +572,32 @@ function Navbar() {
           </div>
 
 
-          {/* Mobile menu button */}
+       
           <div className="xl:hidden flex items-center">
-  <button
-    className="mobile-menu-button"
-    onClick={toggleMobileMenu}
-    aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
-  >
-    {isMobileMenuOpen ? (
-      // Close icon
-      <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-    ) : (
-      // Hamburger icon
-      <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    )}
-  </button>
-</div>
+            <button
+              className="mobile-menu-button"
+              onClick={toggleMobileMenu}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+            >
+              {isMobileMenuOpen ? (
+               
+                <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+              
+                <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          </div>
 
 
         </div>
       </div>
 
-      {/* Mobile menu */}
-
+     
 
 
 
@@ -615,9 +614,9 @@ function Navbar() {
                   onClick={() => toggleDropdown(index)}
                 >
                   <Link
-                    href={link.to || '/'} // Use a fallback if link.to is undefined
+                    href={link.to || '/'} 
                     className="block py-2 px-4 text-sm hover:bg-gray-200"
-                  // Call handleLinkClick
+                  
                   >
                     {link.text}
                   </Link>
@@ -650,10 +649,9 @@ function Navbar() {
                               onClick={() => toggleNestedDropdown(i)}
                             >
                               <Link
-                                href={dropdownItem.href || '/'} // Use a fallback if dropdownItem.href is undefined
+                                href={dropdownItem.href || '/'}  
                                 className="block py-2 px-4 text-sm hover:bg-gray-200"
-                              // Call handleLinkClick
-                              >
+                               >
                                 {dropdownItem.label}
                               </Link>
                               <div className="transition-transform duration-300 transform">
@@ -664,7 +662,7 @@ function Navbar() {
                                   viewBox="0 0 24 24"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
-                                
+
                                   <path
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
@@ -680,7 +678,7 @@ function Navbar() {
                                 {dropdownItem.dropdownItems.map((subItem, j) => (
                                   <Link
                                     key={j}
-                                    href={subItem.href || '/'} // Use a fallback if subItem.href is undefined
+                                    href={subItem.href || '/'} 
                                     className="block py-2 px-4 text-sm hover:bg-gray-200"
                                     onClick={() => handleLinkClick(subItem.href)} // Call handleLinkClick
                                   >
@@ -692,9 +690,9 @@ function Navbar() {
                           </div>
                         ) : (
                           <Link
-                            href={dropdownItem.href || '/'} // Use a fallback if dropdownItem.href is undefined
+                            href={dropdownItem.href || '/'} 
                             className="block py-2 px-4 text-sm hover:bg-gray-200"
-                            onClick={() => handleLinkClick(dropdownItem.href)} // Call handleLinkClick
+                            onClick={() => handleLinkClick(dropdownItem.href)} 
                           >
                             {dropdownItem.label}
                           </Link>
@@ -720,13 +718,13 @@ function Navbar() {
       </div>
 
       <div className="search-bar-container">
-        {/* Logo Section */}
+      
 
         <div className="logo-section">
 
         </div>
 
-        {/* Input Section */}
+        
 
         {showSearch && (
           <div className="search-bar p-5" ref={searchBarRef}>

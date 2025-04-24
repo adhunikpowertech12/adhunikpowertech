@@ -14,9 +14,9 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export const metadata = {
   title: {
 
-    default:" Top & Best HVAC Companies in India - Adhunik Powertech",
+    default: " Top & Best HVAC Companies in India - Adhunik Powertech",
     template: "%s"
-    
+
   },
   description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
     "Air Shower Systems",
     "Energy-Efficient Cooling Solutions",
     "Industrial Ventilation Systems",
-    "Commercial HVAC Systems","HVAC contractors","hvac company in noida",
+    "Commercial HVAC Systems", "HVAC contractors", "hvac company in noida",
   ],
   robots: "index,follow",
   appleMobileWebAppCapable: "yes",
@@ -43,7 +43,7 @@ export const metadata = {
   alternates: {
     canonical: "https://www.adhunikpowertech.com/",
   },
-  
+
   twitter: {
     site: "@adhunikpowertech",
     title: "Adhunik Powertech | Top HVAC & Air Cooling Systems Gurugram",
@@ -59,8 +59,8 @@ export const metadata = {
     siteName: "Adhunik Powertech - HVAC Experts",
     image: "https://adhunikpowertech.com/apple-touch-icon.png",
     locale: "en_IN",
-    creator:"Adhunik Powertech",
-    
+    creator: "Adhunik Powertech",
+
 
     images: [
       {
@@ -81,10 +81,6 @@ export const metadata = {
 };
 
 
-
-
-
-
 export default function RootLayout({ children }) {
 
 
@@ -92,11 +88,11 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-  
+
 
       <head>
-     
-      <script
+
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -105,32 +101,32 @@ export default function RootLayout({ children }) {
               "name": "Adhunik Powertech",
               "url": "https://www.adhunikpowertech.com/",
               "alternateName": "Adhunik Powertech",
-  
+
             }),
           }}
         />
-     
-     
-   <meta itemProp="name" content="Adhunik Powertech"/>
- 
 
-<GoogleTagManager   gtmId="GTM-W994SKBG"  />
-      <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
 
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">
-  
-</Script>
+        <meta itemProp="name" content="Adhunik Powertech" />
 
-      <Script  id="google-analytics" >
 
- {` window.dataLayer = window.dataLayer || [];
+        <GoogleTagManager gtmId="GTM-W994SKBG" />
+        <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">
+
+        </Script>
+
+        <Script id="google-analytics" >
+
+          {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-5MBSC4RFX3');`}
 
-</Script>
-      
+        </Script>
+
 
         <link
           rel="stylesheet"
@@ -140,34 +136,34 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
 
-<link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
 
 
-<link
+        <link
           rel="preload"
           href="/fonts/Poppins/Poppins-Medium.ttf"
           as="font"
           type="font/ttf"
           crossOrigin="anonymous"
         />
-        
+
       </head>
 
 
 
       <body>
-      <Analytics/>
-      <SpeedInsights/>
+        <Analytics />
+        <SpeedInsights />
         <Header />
         <WatsapButton phoneNumber="+919599050534" />
-       
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
-height="0" width="0" style={{display:"none" , visibility:"hidden"}}></iframe></noscript>
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
+          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
 
         {children}
-        
+
         <Footer />
-        
+
       </body>
     </html>
   );

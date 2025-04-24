@@ -224,9 +224,7 @@ export default function PanelAirConditioners() {
 
   return (
     <>
-    <head>
-    <link rel="canonical" href="https://websiteonlinedemo.com/infipi-up/"/>
-    </head>
+   
       <div className="row  mt-32 font-sans">
 
         <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
@@ -447,7 +445,7 @@ export default function PanelAirConditioners() {
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
@@ -466,7 +464,7 @@ export default function PanelAirConditioners() {
                   <tbody>
                     {wall_mount.map((row, index) => (
                       <tr key={index} className="bg-white text-center border-b border-gray-300">
-                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#1379a1] text-white sticky left-0 z-10">{row.heading}</td>
                         {row.values.map((value, i) => (
                           <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
                         ))}
@@ -542,7 +540,7 @@ export default function PanelAirConditioners() {
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
 
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
@@ -558,7 +556,7 @@ export default function PanelAirConditioners() {
                   <tbody>
                     {top_mount.map((row, index) => (
                       <tr key={index} className="bg-white text-center border-b border-gray-300">
-                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#1379a1] text-white sticky left-0 z-10">{row.heading}</td>
                         {row.values.map((value, i) => (
                           <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
                         ))}
@@ -641,7 +639,7 @@ export default function PanelAirConditioners() {
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
+                  <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
@@ -658,7 +656,7 @@ export default function PanelAirConditioners() {
                   <tbody>
                     {stand_alone.map((row, index) => (
                       <tr key={index} className="bg-white text-center border-b border-gray-300">
-                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#00A0E1] text-white sticky left-0 z-10">{row.heading}</td>
+                        <td className="px-1 py-1 text-[12px] font-bold border-r border-gray-300 bg-[#1379a1] text-white sticky left-0 z-10">{row.heading}</td>
                         {row.values.map((value, i) => (
                           <td key={i} className="px-1 py-1 text-[12px] border-r border-gray-300">{value}</td>
                         ))}
