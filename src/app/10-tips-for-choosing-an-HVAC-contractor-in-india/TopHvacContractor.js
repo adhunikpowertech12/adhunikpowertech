@@ -40,6 +40,7 @@ export default function TopHvacContractor() {
 
 
                   <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
+                  
                     <h1 className=" text-2xl lg:text-4xl font-bold mb-4 text-center">
                       10 Tips for Choosing an HVAC Contractor in India
 

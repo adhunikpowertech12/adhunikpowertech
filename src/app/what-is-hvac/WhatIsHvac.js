@@ -156,13 +156,16 @@ export default function WhatIsHvac() {
     <>
 
       <section className="overview py-8 mt-32 lg:px-8">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6">
           <div className="flex flex-wrap">
             <div className="w-full">
               <div >
 
-                <section className=' p-5 flex flex-col md:flex-row mb-5'>
-                  <div className="box md:w-4/12 justify-center flex items-center mx-auto">
+             
+
+
+       <section className=' md:p-5 flex flex-col md:flex-row mb-5 gap-4'>
+                  <div className="box md:w-6/12 justify-center flex items-center mx-auto">
 
                     <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
 
@@ -182,7 +185,8 @@ export default function WhatIsHvac() {
 
 
                   <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-                    <h1 className="text-4xl font-bold mb-4 text-center">
+                  
+                  <h1 className="text-4xl font-bold mb-4 text-center">
                       What is HVAC?
                     </h1>
 
@@ -204,17 +208,8 @@ export default function WhatIsHvac() {
 
 
 
-
-
-
-
-
                   </div>
-
-
-
                 </section>
-
 
 
 
@@ -224,9 +219,9 @@ export default function WhatIsHvac() {
                 <h2 className="text-2xl font-semibold mb-3">
                   Key Components of an HVAC System
                 </h2>
-                <h2 className="text-2xl font-thin font-sans mb-3">
+                <p className="text-2xl font-thin font-sans mb-3">
                   An HVAC system typically comprises several key components:
-                </h2>
+                </p>
                 <div className="features-list">
                   <ul className="list-disc list-inside text-gray-700 mb-4">
 
