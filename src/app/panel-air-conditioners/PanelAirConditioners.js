@@ -447,7 +447,7 @@ export default function PanelAirConditioners() {
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
-                      <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
+                      <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt </th>
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 bg-white"></th>
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">250 Watt</th>
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">500 Watt</th>
