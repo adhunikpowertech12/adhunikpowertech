@@ -324,26 +324,14 @@ export default function OurQualityService() {
                 <div className="inline-flex items-center justify-center w-full mx-auto my-7 md:mb-0 relative">
                   <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                   <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[20px] md:text-2xl capitalize font-semibold font-sans">
-                    Contact Us Today :
+                  Our Quality Services
                   </h2>
                 </div>
 
 
 
-                <p className="text-gray-700 text-justify font-normal font-sans">
-                  <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
-                </p>
-                <a
-                  href="tel:8287885885"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = "tel:8287885885";
-                  }}
-                  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
-                >
-                  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                  <span className="relative">Contact Our team</span>
-                </a>
+            
+      
 
               </div>
 
@@ -538,32 +526,6 @@ export default function OurQualityService() {
           <div className=" container mx-auto w-auto  p-7   rounded-xl">
             <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
-                <div className="inline-flex items-center justify-center w-full mx-auto my-7 md:mb-0 relative">
-                  <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
-                  <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[20px] md:text-2xl capitalize font-semibold font-sans">
-                    Contact Us Today :
-                  </h2>
-                </div>
-
-
-
-                <p className="text-gray-700 text-justify font-normal font-sans">
-                  <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
-                </p>
-                <a
-                  href="tel:8287885885"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = "tel:8287885885";
-                  }}
-                  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
-                >
-                  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                  <span className="relative">Contact Our team</span>
-                </a>
-
-              </div>
 
             </div>
           </div>
@@ -635,13 +597,37 @@ export default function OurQualityService() {
 
 
                       We at <strong>Adhunik Powertech</strong> are committed to achieving customer satisfaction by timely delivery of <strong>HVAC solutions</strong> and
-                      services at the most competitive prices, conforming to high standards through continuous improvement with an eye on <strong>Safety, Wastage, and Environmental Care</strong>.
+                      services at the most competitive prices, conforming to high standards through continuous improvement with an eye on <strong>Safety, Wastage, and Environmental Care</strong>. Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
                     </p>
                   </div>
                 </div>
 
 
+                <div className=" container mx-auto w-auto  p-7   rounded-xl">
+            <div className="flex items-center justify-center h-full">
 
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
+             
+
+
+
+              
+                <a
+                  href="tel:8287885885"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = "tel:8287885885";
+                  }}
+                  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                  <span className="relative">Contact Our team</span>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
 
 
 
