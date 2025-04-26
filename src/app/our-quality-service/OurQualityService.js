@@ -179,20 +179,23 @@ export default function OurQualityService() {
   return (
     <>
 
-      <section>
+      <section className=' px-9'>
         <div className="px-4 py-12 max-w-7xl mx-auto pt-32 ">
-          <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
+        <div className="container  shadow-none p-2">
+        <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
             Your Trusted HVAC Contractor in Delhi NCR & Across India – Adhunik Powertech
           </h1>
+        </div>
+      
 
-          <p className="text-gray-700 text-justify mb-6">
+          <p className="text-gray-700 text-justify mb-6 font-sans">
             Welcome to Adhunik Powertech, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
           </p>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">
             Comprehensive HVAC Services Tailored to Your Needs
           </h2>
-          <p className="text-gray-700 text-justify mb-4">
+          <p className="text-gray-700 text-justify mb-4  font-sans">
             At Adhunik Powertech, we understand that every project has unique requirements. Our skilled team of engineers and technicians provides a complete spectrum of HVAC services, ensuring optimal comfort, efficiency, and air quality for your specific environment.
           </p>
 
@@ -239,16 +242,16 @@ export default function OurQualityService() {
                   'Proper ventilation is crucial for air quality and comfort. We design and install effective ventilation systems for various applications, ensuring optimal airflow and the removal of pollutants.'
               }
             ].map((item, index) => (
-              <li key={index} className="text-justify">
+              <li key={index} className="text-justify font-sans">
                 <span className="font-semibold">{item.title}</span>&nbsp;{item.description}
               </li>
             ))}
           </ul>
 
           <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">
-            Why Choose Adhunik Powertech as Your HVAC Contractor?
+            Why Choose Adhunik Powertech as Your HVAC Contractor ?
           </h2>
-          <p className="text-gray-700 text-justify mb-4">Selecting the right HVAC contractor is a critical decision. Here's why Adhunik Powertech is the preferred choice for clients across Delhi NCR and India:
+          <p className="text-gray-700 text-justify mb-4 font-sans">Selecting the right HVAC contractor is a critical decision. Here's why Adhunik Powertech is the preferred choice for clients across Delhi NCR and India:
           </p>
 
 
@@ -291,27 +294,25 @@ export default function OurQualityService() {
                 description: 'We are your dedicated HVAC partner from initial consultation to post-installation support.',
               },
             ].map((item, index) => (
-              <li key={index} className="text-justify">
-                <span className="font-bold font-sans">{item.title}</span> {item.description}
+              <li key={index} className="text-justify font-sans">
+                <span className="font-semibold  ">{item.title}</span> {item.description}
               </li>
             ))}
           </ul>
 
 
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">
+          <h2 className="text-2xl font-semibold  text-gray-800 mt-10 mb-4">
             Serving Delhi NCR and Beyond
           </h2>
 
 
-          <p className="text-gray-700 text-justify mb-6">
+          <p className="text-gray-700 text-justify mb-6 font-sans">
             Our primary service areas in Delhi NCR include Noida, Gurugram, Faridabad, and Ghaziabad. We also serve Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. However, our commitment to providing quality HVAC solutions extends across India. Contact us to discuss your project, regardless of your location.
           </p>
 
 
-          <p className="text-gray-700 text-justify font-medium font-sans">
-            <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
-          </p>
+        
 
         </div>
       </section>
@@ -320,13 +321,13 @@ export default function OurQualityService() {
         <div className="row  ">
           <section className="about-area md:py-16 ">
             <div className="container mx-auto px-10">
-              <div className="flex  flex-wrap-reverse ">
+              <div className="flex  flex-col-reverse  justify-around gap-5  lg:flex-row ">
 
                 <div className="   lg:w-1/2 w-full mb-8 lg:mb-0">
                   <div className="about-content">
                     <div className="section-title text-center  md:text-justify ">
-                      <h2 className="text-3xl font-semibold mb-4 font-sans ">Consultancy &amp; Design</h2>
-                      <p className="mb-4 font-sans font-normal">
+                      <h2 className="text-3xl text-gray-800 font-semibold mb-4  ">Consultancy & Design</h2>
+                      <p className="mb-4 font-sans font-normal ">
                         <strong> Adhunik Powertech </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
                       </p>
                       <p className="mb-4 font-sans font-normal">
@@ -565,6 +566,10 @@ export default function OurQualityService() {
                     </p>
                   </div>
                 </div>
+
+                <p className="text-gray-700 text-justify font-normal font-sans">
+            <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
+          </p>
 
               </div>
             </div>
