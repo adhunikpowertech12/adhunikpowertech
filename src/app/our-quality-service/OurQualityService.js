@@ -179,20 +179,20 @@ export default function OurQualityService() {
   return (
     <>
 
-      <section className=' px-9'>
-        <div className="px-4 py-12 max-w-7xl mx-auto pt-32 ">
-        <div className="container  shadow-none p-2">
-        <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
-            Your Trusted HVAC Contractor in Delhi NCR & Across India – Adhunik Powertech
-          </h1>
-        </div>
-      
+      <section className=' md:px-9'>
+        <div className="px-4 pb-0 py-12 max-w-7xl mx-auto pt-32 ">
+          <div className="container  shadow-none p-2">
+            <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
+              Your Trusted HVAC Contractor in Delhi NCR & Across India – Adhunik Powertech
+            </h1>
+          </div>
+
 
           <p className="text-gray-700 text-justify mb-6 font-sans">
             Welcome to Adhunik Powertech, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
           </p>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
             Comprehensive HVAC Services Tailored to Your Needs
           </h2>
           <p className="text-gray-700 text-justify mb-4  font-sans">
@@ -248,7 +248,7 @@ export default function OurQualityService() {
             ))}
           </ul>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">
+          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
             Why Choose Adhunik Powertech as Your HVAC Contractor ?
           </h2>
           <p className="text-gray-700 text-justify mb-4 font-sans">Selecting the right HVAC contractor is a critical decision. Here's why Adhunik Powertech is the preferred choice for clients across Delhi NCR and India:
@@ -302,7 +302,7 @@ export default function OurQualityService() {
 
 
 
-          <h2 className="text-2xl font-semibold  text-gray-800 mt-10 mb-4">
+          <h2 className="text-2xl font-semibold text-center md:text-left  text-gray-800 mt-10 mb-4">
             Serving Delhi NCR and Beyond
           </h2>
 
@@ -312,31 +312,65 @@ export default function OurQualityService() {
           </p>
 
 
-        
+
 
         </div>
       </section>
 
+      <div className=" container mx-auto w-auto   p-7   rounded-xl">
+            <div className="flex items-center justify-center h-full">
+
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
+                <div className="inline-flex items-center justify-center w-full mx-auto my-7 md:mb-0 relative">
+                  <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
+                  <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[20px] md:text-2xl capitalize font-semibold font-sans">
+                    Contact Us Today :
+                  </h2>
+                </div>
+
+
+
+                <p className="text-gray-700 text-justify font-normal font-sans">
+                  <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
+                </p>
+                <a
+                  href="tel:8287885885"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = "tel:8287885885";
+                  }}
+                  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                  <span className="relative">Contact Our team</span>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
       <section>
         <div className="row  ">
           <section className="about-area md:py-16 ">
-            <div className="container mx-auto px-10">
+            <div className="container mx-auto md:px-10">
               <div className="flex  flex-col-reverse  justify-around gap-5  lg:flex-row ">
 
                 <div className="   lg:w-1/2 w-full mb-8 lg:mb-0">
                   <div className="about-content">
-                    <div className="section-title text-center  md:text-justify ">
-                      <h2 className="text-3xl text-gray-800 font-semibold mb-4  ">Consultancy & Design</h2>
-                      <p className="mb-4 font-sans font-normal ">
+                    <div className="section-title px-4 text-justify ">
+                      <h2 className="text-3xl text-gray-800 font-semibold mb-4  text-center md:text-left ">Consultancy & Design</h2>
+                      <p className="mb-4 font-sans font-normal text-gray-700 ">
                         <strong> Adhunik Powertech </strong>  provides HVAC solutions (Engineering, procurement, and execution) to clients of various industries, executing turnkey HVAC projects all over India.
                       </p>
-                      <p className="mb-4 font-sans font-normal">
+                      <p className="mb-4 font-sans font-normal text-gray-700">
                         Our team of professional engineers collects the necessary data through deep interaction with the owners and users to crystallize the thinking of all concerned. A Design concept report is prepared to summarize requirements, proposed scheme, basis of design, and budgetary cost estimate, for approval of owners and users.
 
                       </p>
-                      <p className="mb-4 font-sans font-normal">
+                      <p className="mb-4 font-sans font-normal text-gray-700">
                         At <strong>Adhunik Powertech</strong>  our HVAC engineer takes the core responsibility to prepare the design/layout of the heating and cooling systems along with the control systems while keeping in mind the respective standards to be followed.
                       </p>
+
                       <button
                         className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
                         onClick={() => {
@@ -345,6 +379,7 @@ export default function OurQualityService() {
                       >
                         Enquiry Now
                       </button>
+
                     </div>
 
 
@@ -373,7 +408,7 @@ export default function OurQualityService() {
                 <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
                 <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
               </div>
-              <div className="max-w-7xl mx-auto px-6 py-4 md:px-12 xl:px-6">
+              <div className="max-w-7xl mx-auto  py-4 md:px-12 xl:px-6">
                 <div className="  w-full mt-2 text-gray-100 flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-secondary">
                     {/* SVG content */}
@@ -387,13 +422,15 @@ export default function OurQualityService() {
                         <div className="space-y-1 text-[#eff0f4] ">
                           <ul className="list-none flex flex-row">
                             <div className="h-full w-fit pe-3 ">{feature.icon}</div>
-                            <li className="text-[#F1F2FD] text-4px font-sans font-normal">{feature.description}</li>
+                            <li className="text-[#F1F2FD]   font-sans font-normal  ">{feature.description}</li>
 
                           </ul>
                         </div>
-                        <div className=" pt-0 mt-0  text-[12px] font-sans font-thin ">
+
+                        <div className=" pt-0 mt-0    font-sans font-thin ">
                           {feature.item2}
                         </div>
+
                       </div>
                     </div>
                   ))}
@@ -402,7 +439,7 @@ export default function OurQualityService() {
             </div>
           </section>
 
-          <section className="about-area py-16 ">
+          <section className="about-area pt-16 ">
             <div className="container mx-auto md:px-10">
               <div className="flex flex-wrap ">
 
@@ -415,17 +452,20 @@ export default function OurQualityService() {
                 <div className="   lg:w-1/2 w-full mb-8 lg:mb-0 mt-4">
                   <div className="about-content">
 
-                    <div className="section-title px-2">
+                    <div className="section-title px-4">
                       <h2 className="text-3xl font-semibold mb-4  text-center md:text-start"> Detailed Engineering </h2>
-                      <p className="mb-4 text-center md:text-left font-normal font-sans " >
+                      <p className="mb-4  text-justify font-normal font-sans " >
 
-                        We have over    <span className=' font-extrabold'> 19+ years</span> of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with minimum maintenance that is for large <strong> industrial, institutional, commercial </strong>  as well as residential premises.
+                        We have over    <strong> 19+ years</strong> of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with minimum maintenance that is for large <strong> industrial, institutional, commercial </strong>  as well as residential premises.
+
                       </p>
-                      <p className="mb-4 text-center md:text-left font-sans font-normal">
+
+                      <p className="mb-4   text-justify font-sans font-normal">
                         In <strong>  Detailed Engineering</strong> , we consider creating a comfortable indoor environment along with improved air quality. By considering this process of work we create a balanced environment that is convenient and comfortable to work, live, and play in and out. Not only this but we also consider safety as well as the energy efficiency of the building.
                       </p>
-                      <p className="mb-4 text-center md:text-left font-sans font-normal">
-                        Our engineers are Highly skilled and experienced with in-depth knowledge of <strong> HVAC systems</strong>    having a detailed understanding of building standards and regulations.
+
+                      <p className="mb-4  text-justify font-sans font-normal">
+                        Our engineers are Highly skilled and experienced with in-depth knowledge of <strong> HVAC systems </strong>    having a detailed understanding of building standards and regulations.
                       </p>
                     </div>
 
@@ -444,26 +484,26 @@ export default function OurQualityService() {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="about-content text-gray-800 md:pt-5">
-                      <p className="mb-4 text-center md:text-left font-sans font-normal ">
+                      <p className="mb-4  text-justify font-sans font-normal ">
                         In the <strong>detailed engineering</strong> phase, we ensure that the design is developed to a point where
                         the technical input for all procurement and construction tendering is defined in sufficient
                         detail.
                       </p>
 
-                      <p className="mb-4 text-center md:text-left font-sans font-normal">
+                      <p className="mb-4  text-justify font-sans font-normal">
                         We offer services of basic and extended engineering like the development of <strong>PFD, P&amp;ID, Line
                           sizing, Energy mass balance, Utility consumption summary, Electrical load list, PDS, IPDS,</strong>
                         and more.
                       </p>
 
-                      <p className="mb-4 text-center md:text-left font-sans font-normal">
+                      <p className="mb-4  text-justify font-sans font-normal">
                         Our <strong>Front End engineering design services (FEED)</strong> and basic engineering cover all aspects of
                         the engineering process, including plot <strong>plans, 2D/3D models, isometrics, material take-off
                           (MTO),</strong> and more required to move from the initial planning stage to procurement and
                         construction.
                       </p>
 
-                      <p className='font-sans font-normal text-center md:text-left'>
+                      <p className='font-sans font-normal  text-justify'>
                         Our team carries out design and analysis to suggest improvements for various types
                         of equipment, such as <strong>storage tanks, pressure vessels, towers, shell and tube heat
                           exchangers, amount of budget, type of material, etc.</strong>
@@ -495,6 +535,39 @@ export default function OurQualityService() {
 
           </section>
 
+          <div className=" container mx-auto w-auto  p-7   rounded-xl">
+            <div className="flex items-center justify-center h-full">
+
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
+                <div className="inline-flex items-center justify-center w-full mx-auto my-7 md:mb-0 relative">
+                  <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
+                  <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[20px] md:text-2xl capitalize font-semibold font-sans">
+                    Contact Us Today :
+                  </h2>
+                </div>
+
+
+
+                <p className="text-gray-700 text-justify font-normal font-sans">
+                  <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
+                </p>
+                <a
+                  href="tel:8287885885"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = "tel:8287885885";
+                  }}
+                  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                >
+                  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                  <span className="relative">Contact Our team</span>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
 
           <section className="about-area pt-10 pb-10 bg-gray-100 relative">
             <div className="container mx-auto px-4">
@@ -502,7 +575,7 @@ export default function OurQualityService() {
                 {/* Left Column */}
                 <div className="col-lg-7 md:w-7/12 pt-10 ">
                   <div className="about-content space-y-6">
-                    <div className="section-title text-center md:text-left  md:px-10">
+                    <div className="section-title  text-justify  md:px-10">
                       <h2 className="text-2xl font-bold mb-4 ">Project Execution</h2>
                       <p className=' font-normal font-sans '>
                         We execute all the projects under <strong>NBC, CPWD &amp; NABH guidelines . We also follow ISHRAE, ASHRAE &amp; ISO Standards. </strong>
@@ -557,7 +630,7 @@ export default function OurQualityService() {
 
                 <div className="col-lg-12">
                   <div className="about-content">
-                    <p className=' font-normal  text-center md:text-left font-sans'>
+                    <p className=' font-normal   text-justify font-sans'>
 
 
 
@@ -567,9 +640,11 @@ export default function OurQualityService() {
                   </div>
                 </div>
 
-                <p className="text-gray-700 text-justify font-normal font-sans">
-            <span className=' font-sans font-bold'>Ready to experience the Adhunik Powertech difference for your HVAC needs ?</span> Whether you have a project in Delhi NCR or anywhere in India, our team is ready to assist you. Contact us today for a consultation, a quote, or to discuss your specific requirements.
-          </p>
+
+
+
+
+
 
               </div>
             </div>
@@ -577,9 +652,11 @@ export default function OurQualityService() {
 
 
           </section>
+
+
         </div>
       </section>
- 
+
     </>
   )
 }
