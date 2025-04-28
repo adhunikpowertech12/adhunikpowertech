@@ -224,10 +224,12 @@ export default function PanelAirConditioners() {
 
   return (
     <>
-   
+
       <div className="row  mt-32 font-sans">
 
         <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
+
+
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
@@ -302,8 +304,8 @@ export default function PanelAirConditioners() {
 
 
                   <p className=' font-sans text-justify'>
-                  Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel AC units suitable for various industries. We engineer reliable thermal management solutions, including our best-in-class panel AC, specifically designed to withstand demanding industrial environments and protect your critical investments. Our panel ACs have a great reach and are very popular across pharmaceutical, food processing, engineering, and manufacturing industries. Experience the benefits of low maintenance costs and high durability with our panel AC systems. Contact us today for the best panel AC at an affordable price.
-                    
+                    Adhunik Powertech has established itself as a leading manufacturer specializing in robust, heavy-duty panel AC units suitable for various industries. We engineer reliable thermal management solutions, including our best-in-class panel AC, specifically designed to withstand demanding industrial environments and protect your critical investments. Our panel ACs have a great reach and are very popular across pharmaceutical, food processing, engineering, and manufacturing industries. Experience the benefits of low maintenance costs and high durability with our panel AC systems. Contact us today for the best panel AC at an affordable price.
+
                   </p>
                 </div>
 
@@ -671,110 +673,110 @@ export default function PanelAirConditioners() {
 
           <div className="row">
             <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-            {products2.map((product) => (
-            <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+              {products2.map((product) => (
+                <div key={product.id} className="h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
-              <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+                  <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
-                <span >
+                    <span >
 
-                  <h2 className="text-[6vw] md:text-4xl md:text-left mb-3 ">{product.title}</h2>
-                  <p className=' md:text-justify  text-center'>Industrial Panel air conditioners are used in a variety of application areas. <br /> Here are some examples:</p>
-                </span>
-
-                <div className=" text-justify">
-
-                  <ul className="list-disc ">
-                    <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-                    </svg>
-                      Manufacturing Facilities :</span>
-
-                    <li>Cool precision machinery (CNC, robotics, automation).
-
-                    </li>
-                    <li>
-                      Prevent overheating in electrical control panels (drives, PLCs).</li>
-                    <li>Maintain product quality and efficiency on production lines.</li>
-                    <li>Create comfortable assembly environments.</li>
-
-                  </ul>
-
-
-                  <ul className="list-disc">
-                    <span className='pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-                    </svg>
-                      Food and Beverage Industry :
+                      <h2 className="text-[6vw] md:text-4xl md:text-left mb-3 ">{product.title}</h2>
+                      <p className=' md:text-justify  text-center'>Industrial Panel air conditioners are used in a variety of application areas. <br /> Here are some examples:</p>
                     </span>
 
-                    <li>Cool processing equipment, control labs, and storage areas.
+                    <div className=" text-justify">
+
+                      <ul className="list-disc ">
+                        <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                          Manufacturing Facilities :</span>
+
+                        <li>Cool precision machinery (CNC, robotics, automation).
+
+                        </li>
+                        <li>
+                          Prevent overheating in electrical control panels (drives, PLCs).</li>
+                        <li>Maintain product quality and efficiency on production lines.</li>
+                        <li>Create comfortable assembly environments.</li>
+
+                      </ul>
 
 
-                    </li>
-                    <li>
-                      Prevent spoilage and maintain product freshness           .
-                    </li>
+                      <ul className="list-disc">
+                        <span className='pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                          Food and Beverage Industry :
+                        </span>
+
+                        <li>Cool processing equipment, control labs, and storage areas.
 
 
-                  </ul>
+                        </li>
+                        <li>
+                          Prevent spoilage and maintain product freshness           .
+                        </li>
 
 
-                  <ul className="list-disc">
-                    <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-                    </svg>
-                      Data Centers :
-                    </span>
-
-                    <li>Protect servers and network equipment from overheating.
+                      </ul>
 
 
-                    </li>
-                    <li>
-                      Ensure data integrity and energy efficiency.
-                    </li>
+                      <ul className="list-disc">
+                        <span className=' pb-2 font-bold relative right-7 pt-4 text-2xl  justify-center items-center inline-flex'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mx-1"  >
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                          Data Centers :
+                        </span>
+
+                        <li>Protect servers and network equipment from overheating.
 
 
-                  </ul>
-                </div>
+                        </li>
+                        <li>
+                          Ensure data integrity and energy efficiency.
+                        </li>
 
-              </div>
+
+                      </ul>
+                    </div>
+
+                  </div>
 
 
 
-              <div className="md:w-[40%] w-auto">
-                <div className="flex items-center justify-center h-full">
-                  <div>
-                    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-                      <div className="w-auto">
-                        <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                  <div className="md:w-[40%] w-auto">
+                    <div className="flex items-center justify-center h-full">
+                      <div>
+                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
+                          <div className="w-auto">
+                            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
 
-                          <Image
-                            className="h-[30rem] object-center object-fill"
-                            priority
-                            alt={product.altText}
-                            src={product.imageSrc}
-                            width={500}
-                            height={700}
-                            layout="responsive"
-                          />
+                              <Image
+                                className="h-[30rem] object-center object-fill"
+                                priority
+                                alt={product.altText}
+                                src={product.imageSrc}
+                                width={500}
+                                height={700}
+                                layout="responsive"
+                              />
+                            </div>
+                          </div>
+
+
+
                         </div>
                       </div>
-
-
-
                     </div>
                   </div>
-                </div>
-              </div>
 
+                </div>
+              ))}
             </div>
-          ))}
-</div>
-</div>
-      
+          </div>
+
 
 
           {products3.map((product) => (
