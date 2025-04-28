@@ -18,7 +18,7 @@ export default function TopHvacContractor() {
         },
         {
           title: "Reliable HVAC Repair and Maintenance",
-          description: " Our dedicated repair and maintenance teams are readily available to address any HVAC malfunctions promptly and efficiently, minimizing downtime and ensuring the continued optimal performance of your systems. We also offer comprehensive maintenance contracts to prevent breakdowns and extend the lifespan of your equipment",
+          description: " Our dedicated repair and maintenance teams are readily available to address any HVAC malfunctions promptly and efficiently, minimizing downtime and ensuring the continued optimal performance of your systems. We also offer comprehensive maintenance contracts to prevent breakdowns and extend the lifespan of your equipment.",
         },
         {
           title: "Commercial HVAC Solutions",
