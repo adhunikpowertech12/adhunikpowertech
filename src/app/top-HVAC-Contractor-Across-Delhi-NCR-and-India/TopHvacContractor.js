@@ -4,7 +4,6 @@ import React from 'react'
 
 export default function TopHvacContractor() {
 
-
    
 
     const services = [
@@ -191,7 +190,7 @@ export default function TopHvacContractor() {
                             </h2>
                             <p className="  text-gray-700 mb-4 text-justify font-sans   mx-auto">
                             Choosing the righ   
-                            <Link href='https://www.adhunikpowertech.com/our-quality-service' className=' text-cyan-600 hover:text-cyan-500'> HVAC contractor </Link> 
+                            <Link href='https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India' className=' text-cyan-600 hover:text-cyan-500'> HVAC contractor </Link> 
                             
                               is a critical decision that impacts the comfort, efficiency, and long-term value of your property or business. Adhunik Powertech stands ready to be your trusted partner, providing unparalleled expertise, reliable service, and a commitment to exceeding your expectations across Delhi NCR and throughout India. Experience the difference that our dedication to quality, energy efficiency, and customer satisfaction can make.
 
@@ -205,6 +204,72 @@ export default function TopHvacContractor() {
 
 
                     </div>
+                </section>
+
+                <section>
+                
+                <div className="row">
+          <div className=" h-full gap-5 flex flex-col md:flex-row  md:p-5 pt-0  mt-0 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                                       Get Expert Advice for Your Cooling Needs
+
+
+                    </h2>
+                  </div>
+
+
+
+
+                   
+
+                  <p className="font-sans text-justify">
+                    Contact us today to leverage our expertise. We offer a free consultation to help you assess your specific cooling requirements . Let's keep your operations running cool!
+                  </p>
+
+                  <div className="w-full flex justify-center">
+                    <a
+                      href="tel:8287885885"
+                      className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                    >
+                      <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                      <span className="relative">Contact sales team</span>
+                    </a>
+
+
+                    <a
+  href="mailto:info@adhunikpowertech.com"
+  className="rounded relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+>
+  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+  <span className="relative">Enquiry Now</span>
+</a>
+
+
+
+
+                   
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
                 </section>
 
             </div>

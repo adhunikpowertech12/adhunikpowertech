@@ -70,7 +70,7 @@ function Navbar() {
       dropdownItems: [
 
         { label: 'Overview', href: '/hvac' },
-        { label: 'Our Quality Service', href: '/our-quality-service' },
+        { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
@@ -211,7 +211,7 @@ function Navbar() {
       dropdown: [
 
         { label: "Overview", href: "/hvac" },
-        { label: 'Our Quality Service', href: '/our-quality-service' },
+        { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 

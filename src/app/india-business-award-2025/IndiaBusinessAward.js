@@ -161,7 +161,7 @@ export default function IndiaBusinessAward() {
 
           <p className="text-gray-600 font-sans font-normal text-justify md:text-start mt-2">
             Whether you require a reliable <strong><Link
-              href="/our-quality-service"
+              href="/top-HVAC-Contractor-in-Delhi-NCR-&-India"
               className="text-cyan-600 hover:underline pr-1 "
             >
               HVAC contractor
