@@ -42,7 +42,7 @@ import TopHvacContractor from "./TopHvacContractor";
       title: "Top HVAC Contractor in Delhi NCR & India – Adhunik Powertech",
       description: "Adhunik Powertech, your trusted HVAC contractor in Delhi NCR & India, delivers expert, energy-efficient HVAC solutions from design to execution for commercial, industrial, and residential projects.",
       url: "https://www.adhunikpowertech.com/top-HVAC-Contractor-Across-Delhi-NCR-and-India",
-      type: "service",
+      type: "article",
       images: [
         {
           url: "https://www.adhunikpowertech.com/_next/image?url=%2Fhvac-contractor2.webp&w=1080&q=75",
@@ -52,7 +52,7 @@ import TopHvacContractor from "./TopHvacContractor";
         },
       ],
     },
-    
+
     twitter: {
       card: "summary_large_image",
       title: "Adhunik Powertech - Top HVAC Contractor in Delhi NCR & India",
