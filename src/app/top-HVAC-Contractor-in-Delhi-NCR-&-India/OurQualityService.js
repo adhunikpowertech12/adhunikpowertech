@@ -1,5 +1,6 @@
 
 'use client'
+import Image from 'next/image';
 import React from 'react'
 
 export default function OurQualityService() {
@@ -179,20 +180,42 @@ export default function OurQualityService() {
   return (
     <>
 
-      <section className=' md:px-9'>
-        <div className="px-4 pb-0 py-12 max-w-7xl mx-auto pt-32 ">
-          <div className="container  shadow-none p-2">
+    <section className=' pt-32 px-5 md:px-9'>
+      <div className="row w-full flex  flex-col md:flex-row gap-9">
+        <div className="md:w-6/12">
+        <div className="">
+                   <Image
+                     width={500}
+                     height={500}
+                     src="/HVAC Contractor.webp"
+                      alt="Consultancy Design"
+                      className=" object-center w-full h-full   px-5  rounded-3xl" />
+                  
+                </div>
+        </div>
+        <div className="md:w-6/12 flex flex-col justify-center item-center">
+        <div className="container mx-auto    shadow-none p-2">
             <h1 className="text-3xl  md:text-4xl font-bold text-center mb-8 text-gray-800">
               Your Trusted HVAC Contractor in Delhi NCR & Across India – Adhunik Powertech
             </h1>
           </div>
-
-
-          <p className="text-gray-700 text-justify mb-6 font-sans">
+        <p className="text-gray-700 text-justify mb-6 font-sans">
             Welcome to Adhunik Powertech, your reliable partner for comprehensive HVAC (Heating, Ventilation, and Air Conditioning) solutions. We serve the diverse needs of clients across Delhi NCR (including Noida, Gurugram, Faridabad, and Ghaziabad) and extend our expertise throughout India. With a strong foundation built on years of experience and a commitment to excellence, we deliver expert, energy-efficient HVAC services tailored to commercial, industrial, and residential projects of all scales.
           </p>
+        </div>
 
-          <h2 className="text-2xl font-semibold text-gray-800 mt-10 mb-4 text-center md:text-left">
+
+      </div>
+    </section>
+
+      <section className=' md:px-9'>
+        <div className="px-4 pb-0 md:py-12 max-w-7xl mx-auto  ">
+       
+
+
+       
+
+          <h2 className="text-2xl font-semibold text-gray-800 md:mt-10 mb-4 text-center md:text-left">
             Comprehensive HVAC Services Tailored to Your Needs
           </h2>
           <p className="text-gray-700 text-justify mb-4  font-sans">
