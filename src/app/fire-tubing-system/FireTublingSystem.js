@@ -151,7 +151,7 @@ providing real-time data and alerts.
         <button
           className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
           onClick={() => {
-            window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+            window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
           }}
         >
           Enquiry Now
@@ -338,7 +338,7 @@ maximize the benefits of fire tubing systems in safeguarding lives and assets.
 <button
 className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
 onClick={() => {
-window.location.href = 'tel:+919870284753'; // Replace with the actual phone number
+window.location.href = 'tel:+8287885885'; // Replace with the actual phone number
 }}
 >
 

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function FireExtinguishers() {
   return (
     <>
@@ -9,7 +11,7 @@ export default function FireExtinguishers() {
 
 
 <div className="row">
-  <h1 className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700  capitalize"> Fire Extinguishers: Your First Line of Defense </h1>
+  <h1 className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700  capitalize"> Fire Extinguishers : Your First Line of Defense </h1>
 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
@@ -19,12 +21,14 @@ export default function FireExtinguishers() {
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                <img
-                  className="  md:h-[28rem]  object-center object-cover  "
+                <Image
+                  className="   object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src=" /firex/4.png"
+                  src="/firex/4.png"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -64,7 +68,7 @@ export default function FireExtinguishers() {
         <button
           className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
           onClick={() => {
-            window.location.href = 'mailto:sales@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
+            window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
           }}
         >
           Enquiry Now
@@ -896,7 +900,7 @@ export default function FireExtinguishers() {
       <button
         className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
         onClick={() => {
-          window.location.href = 'tel:+919870284753'; // Replace with the actual phone number
+          window.location.href = 'tel:8287885885'; // Replace with the actual phone number
         }}
       >
 
