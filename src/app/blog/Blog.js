@@ -76,7 +76,7 @@ export default function Blog() {
       date: "April  2025",
       image:
         "",
-      link: "/HVACRightContractor",
+      link: "/hire-The-Right-HVAC-Contractor-in-India",
       img: "/UnderstandingHVAC.webp",
     },
     

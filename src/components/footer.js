@@ -42,7 +42,7 @@ function Footer() {
   const links4 = [
 
     { href: "/hvac", text: "HVAC" },
-    { href: "/fire&safety", text: <>Fire &amp; Safety</> },
+    { href: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India", text: <>Fire &amp; Safety</> },
 
   ];
 
