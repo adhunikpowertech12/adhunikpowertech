@@ -325,7 +325,7 @@ systems and ensure comprehensive fire protection.
     <button
       className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
       onClick={() => {
-window.location.href = 'tel:+8287885885'; // Replace with the actual phone number
+window.location.href = 'tel:8287885885'; // Replace with the actual phone number
 }}
     >
 
