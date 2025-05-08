@@ -219,7 +219,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
           <div className="w-full lg:w-7/12 ss">
             <div className="text-primary">
               <h1 className="text-2xl lg:text-[34px] font-sans text-center md:text-left font-extrabold p-9">
-                Adhunik FIREXPERT Services Is A Leading Fire Protection Equipment Supplier in Delhi and NCR, India
+                Adhunik FireXpert Services Is A Leading Fire Protection Equipment Supplier in Delhi  NCR and India
               </h1>
             </div>
             <p className="mt-3 uk21"></p>
