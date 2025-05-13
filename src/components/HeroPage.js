@@ -1318,7 +1318,7 @@ export default function HeroPage() {
 
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
 
-              <Link href="https://www.google.com/search?hl=en-IN&gl=in&q=DCG1-0102,+Adhunik+Powertech+Private+Limited,+Tower-1,+DLF+CORPORATE+GREENS,+Sector+74A,+Gurugram,+Haryana+122004&ludocid=2770951929986358489&lsig=AB86z5UI85uc8ZxJQ8GU5u-6A6xf#lrd=0x390d1820517a67c3:0x2674661964851cd9,1">
+              <Link href="https://g.page/r/CdkchWQZZnQmEBE/review">
                 <Image
                   src="/googlereview.webp"
                   width={500}

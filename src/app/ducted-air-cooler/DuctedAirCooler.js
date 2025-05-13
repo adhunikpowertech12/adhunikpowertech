@@ -198,12 +198,162 @@ export default function DuctedAirCoolerPage() {
     "Gymnasium"
   ];
 
+const whyChoose = [
+  {
+    title: "Expertise in Ducted Cooling Systems –",
+    description:
+      "We specialize in manufacturing ducted air coolers, ensuring seamless integration with your existing or planned ductwork for whole-space or multi-zone cooling.",
+  },
+  
+  {
+    title: "Engineered for Indian Climate –",
+    description:
+      "Our ducted air coolers are specifically designed to combat the hot and dry conditions prevalent in Delhi NCR and various regions of India, providing effective relief from the scorching heat.",
+  },
+  
+  {
+    title: "Energy Efficiency –",
+    description:
+      "Reduce your electricity bills significantly compared to traditional air conditioning systems. Our ducted air coolers utilize the natural process of evaporative cooling, consuming considerably less energy.",
+  },
+  
+  {
+    title: "Eco-Friendly Cooling –",
+    description:
+      "Embrace a greener way to cool your space. Our ducted air coolers use water as the primary cooling medium, without relying on harmful refrigerant gases.",
+  },
+  
+  {
+    title: "Improved Air Quality –",
+    description:
+      " Unlike air conditioners that recirculate dry air, our ducted air coolers introduce fresh, cooled, and slightly humidified air, contributing to a healthier and more comfortable indoor environment.",
+  },
+  
+  {
+    title: "Customized Cooling Solutions –",
+    description:
+      "We offer a variety of ducted air cooler models with different capacities and features to cater to your specific cooling requirements and the size of your space.",
+  },
+  
+  {
+    title: "Robust Construction and Durability –",
+    description:
+      " Built with high-quality materials and stringent manufacturing processes, our ducted air coolers are designed for long-lasting performance and minimal maintenance.",
+  },
+  
+  {
+    title: "Stainless Steel 304 Options –",
+    description:
+      "  As a versatile duct air cooler manufacturer, we also offer ducted air coolers manufactured in high-grade Stainless Steel 304. These models provide enhanced corrosion resistance, durability, and hygiene, making them ideal for demanding environments and applications where longevity and cleanliness are paramount.",
+  },
+  
+  {
+    title: "ISO 9001 : 2015 Certified Quality –",
+    description:
+      "As an ISO 9001:2015 certified duct air cooler manufacturer, we adhere to the highest standards of quality management, ensuring that every product meets stringent performance and reliability benchmarks.",
+  },
+  
+  {
+    title: "CE Certified Safety and Compliance –",
+    description:
+      "Our ducted air coolers bear the CE marking, signifying compliance with essential European safety, health, and environmental protection standards, assuring you of a safe and dependable product.",
+  },
+  
+  {
+    title: "Comprehensive Product Range –",
+    description:
+      "Explore our diverse selection of ducted air coolers, featuring various airflow capacities, water tank sizes, and advanced features to meet the unique needs of homes, offices, factories, and more across India.",
+  },
+  
+
+  {
+    title: "Dedicated Customer Support –",
+    description:
+      "Our team of experienced professionals is committed to providing exceptional customer support, from initial consultation to after-sales service, ensuring a smooth and  satisfactory experience, wherever you are located in Delhi NCR or India.",
+  },
+  
+  {
+    title: "Pan-India Reach –",
+    description:
+      "As a prominent duct air cooler manufacturer in India, we have a well-established network to serve your cooling needs across the country.",
+  },
+  
+
+
+];
+const Benefits = [
+  {
+    title: "Whole-Area Cooling –",
+    description:
+      "Enjoy consistent cooling throughout your space or area by integrating the cooler with your ductwork.",
+  },
+  
+  
+  
+  {
+    title: "Energy Savings –",
+    description:
+      "Significantly reduce your energy consumption compared to traditional air conditioners.",
+  },
+  
+  
+  
+  {
+    title: "Fresh and Healthy Air –",
+    description:
+      "Experience naturally cooled and slightly humidified air, improving indoor air quality.",
+  },
+  
+  
+  
+  {
+    title: "Cost-Effective Solution –",
+    description:
+      "Lower initial investment and significantly reduced running costs compared to ACs.",
+  },
+  
+  
+  
+  
+  {
+    title: "Environmentally Friendly –",
+    description:
+      "Operates without harmful refrigerants, making it a sustainable cooling choice.",
+  },
+  
+  
+  {
+    title: "Low Maintenance –",
+    description:
+      "Requires less maintenance compared to refrigerated air conditioning systems.",
+  },
+  
+  
+  {
+    title: "Enhanced Durability with Stainless Steel 304 –",
+    description:
+      "Our Stainless Steel 304 models offer superior resistance to corrosion and wear, ensuring a longer lifespan, especially in humid or industrial environments.",
+  },
+  
+  
+  
+  {
+    title: "Enhanced Durability with Stainless Steel 304 –",
+    description:
+      "Requires less maintenance compared to refrigerated air conditioning systems.",
+  },
+  
+  
+  
+
+
+];
 
 
   return (
     <>
 
-      <div className="row mt-32 font-sans">
+      <div className="row mt-32 font-sans ">
 <div className="box flex justify-center text-center w-full">
    <h1 className=" max-w-7xl    font-sans  text-3xl   text-sky-700"> Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
  </h1>
@@ -736,23 +886,139 @@ export default function DuctedAirCoolerPage() {
           </div>
 
 <section className=" px-4   md:px-14 text-gray-700">
-  <h2 className=" text-2xl  font-semibold py-4">
-    Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers
+  <h2 className=" text-2xl  font-semibold my-9 mb-5">
+    Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers :
   </h2>
  
   <p className=" py-3">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
 </p>
 
- <h2 className=" text-2xl  font-semibold py-4">
-   Serving Delhi NCR and Beyond :
-  </h2>
+<div className=" h-full gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 pt-0  mt-5 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                                    Serving Delhi NCR and Beyond 
+
+
+                    </h2>
+                  </div>
+
+ 
+ 
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+ 
 
   <p className=" py-3">
  We proudly serve the entire Delhi NCR region, including key industrial hubs such as Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our commitment to providing reliable cooling solutions extends across India, meeting the diverse industrial and commercial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. No matter your location in Delhi NCR or across India, Adhunik Powertech is your trusted partner for efficient duct air cooler solutions.
 
 </p>
+ 
+       <div className="row  ">
+          <div className=" h-full gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 pt-0  mt-5 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                                       Our Wide Range of Ducted Air Coolers
+
+
+                    </h2>
+                  </div>
+
+ 
+ 
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+<h2 className=" text-2xl pb-3">
+  Why Choose Adhunik Powertech as Your Duct Air Cooler Manufacturer?
+
+</h2>
+    <ul className=" py-3  list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
+      {whyChoose.map((item, index) => (
+        <li key={index} className="font-sans">
+          <span className="font-semibold">{item.title}</span> {item.description}
+        </li>
+      ))}
+    </ul>
+
+
+ 
+  <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                                    Benefits of Choosing a Ducted Air Cooler:
+
+                    </h2>
+                  </div>
+
+ 
+ 
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+    <ul className=" py-3  list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
+      {Benefits.map((item, index) => (
+        <li key={index} className="font-sans">
+          <span className="font-semibold">{item.title}</span> {item.description}
+        </li>
+      ))}
+    </ul>
+
+        </div>
 </section>
 
+
+ 
 
           <div className="row">
 
