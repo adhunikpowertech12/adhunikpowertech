@@ -281,6 +281,7 @@ const whyChoose = [
 
 
 ];
+
 const Benefits = [
   {
     title: "Whole-Area Cooling –",
@@ -337,15 +338,65 @@ const Benefits = [
   
   
   
-  {
-    title: "Enhanced Durability with Stainless Steel 304 –",
-    description:
-      "Requires less maintenance compared to refrigerated air conditioning systems.",
-  },
+  
   
   
   
 
+
+];
+
+const Applications = [
+  {
+    
+    description:
+      "Residential Homes across Delhi NCR and India",
+  },
+  
+  
+  {
+    
+    description:
+      "Offices and Commercial Spaces in Gurugram, Noida, and beyond",
+  },
+  
+  
+  {
+    
+    description:
+      "Schools and Educational Institutions throughout India",
+  },
+  
+  
+  {
+    
+    description:
+      "Hospitals and Healthcare Facilities (Stainless Steel 304 options ideal for hygienic environments)",
+  },
+  
+  
+  {
+    
+    description:
+      "Factories and Industrial Units in key hubs like Faridabad, Greater Noida, Sonipat, and Manesar (Stainless Steel 304 for robust performance and longevity)",
+  },
+  
+  
+  {
+    
+    description:
+      "Restaurants and Hospitality Sector in Jaipur, Chandigarh, and other cities",
+  },
+  
+  
+  {
+    
+    description:
+      "Warehouses and Storage Facilities across India",
+  },
+  
+  
+   
 
 ];
 
@@ -355,12 +406,12 @@ const Benefits = [
 
       <div className="row mt-32 font-sans ">
 <div className="box flex justify-center text-center w-full">
-   <h1 className=" max-w-7xl    font-sans  text-3xl   text-sky-700"> Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
+   <h1 className=" max-w-7xl  px-4   font-sans  text-3xl   text-sky-700 "> Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
  </h1>
 </div>
      
 
-        <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+        <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
           <div className="md:w-[40%] w-auto">
             <div className="flex items-center justify-center h-full">
@@ -473,7 +524,7 @@ const Benefits = [
 
 
         <div className="row">
-          <div className=" h-full flex flex-col-reverse  md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col-reverse  md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
@@ -589,7 +640,7 @@ const Benefits = [
 
 
         <div className="row">
-          <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
@@ -703,7 +754,7 @@ const Benefits = [
         </div>
 
         <div className="row">
-          <div className=" h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
+          <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
@@ -831,27 +882,23 @@ const Benefits = [
 
 
 
-          <div className="row">
-            <div className="container">
-
-            </div>
-          </div>
+        
 
 
           <div className="row  p-5 justify-center  flex-col flex items-center " style={{ backgroundImage: "url('/lcbg.png')" }} >
             <p className=" w-fit text-center px-5 py-4  bg-[#1D4355] text-white relative  top-10 rounded-full ">Air Cooling in Industrial Space with Ducted Air Cooler</p>
 
-            <div className=" h-full w-fit flex justify-center items-center flex-col md:flex-row text-center p-5  bg-[#FCFCFC] m-4 rounded-xl">
+            <div className=" h-full w-fit flex justify-center items-center flex-col md:flex-row text-center py-5 md:p-5  bg-[#FCFCFC] md:m-4 my-5 rounded-xl">
 
               <div className="md:w-[50%] w-auto h-full p-2 m-2 md:p-5 md:m-5  ">
 
-                <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" ">  Outdoor Air Intake:</span>     The ducted air cooler  draws in warm,  dry air from outside the industrial space.
+                <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" ">  Outdoor Air Intake :</span>     The ducted air cooler  draws in warm,  dry air from outside the industrial space.
                 </p>
 
-                <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" "> Evaporative Cooling Process:</span> This hot air passes through wetted pads inside the cooler. As the air moves through the pads, water evaporates into the air stream, absorbing heat in the process. This cool, moist air is then distributed throughout the industrial space via ducts.
+                <p className=" text-[20px] font-sans font-thin  text-left">  <span className=" "> Evaporative Cooling Process :</span> This hot air passes through wetted pads inside the cooler. As the air moves through the pads, water evaporates into the air stream, absorbing heat in the process. This cool, moist air is then distributed throughout the industrial space via ducts.
                 </p>
 
-                <p className=" text-[20px] font-sans font-thin  text-left">  <span>Temperature Reduction:</span>  The cooler lowers the temperature of the air by several degrees Celsius, depending on the outdoor humidity. This cool air helps to improve worker comfort and productivity in hot environments.
+                <p className=" text-[20px] font-sans font-thin  text-left">  <span>Temperature Reduction :</span>  The cooler lowers the temperature of the air by several degrees Celsius, depending on the outdoor humidity. This cool air helps to improve worker comfort and productivity in hot environments.
                 </p>
 
 
@@ -886,12 +933,14 @@ const Benefits = [
           </div>
 
 <section className=" px-4   md:px-14 text-gray-700">
-  <h2 className=" text-2xl  font-semibold my-9 mb-5">
+  <h2 className=" text-center md:text-left text-2xl   font-semibold my-9 mb-5">
     Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers :
   </h2>
  
-  <p className=" py-3">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
+  <p className=" py-3 text-justify">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
 </p>
+
+
 
 <div className=" h-full gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 pt-0  mt-5 m-4">
 
@@ -905,27 +954,18 @@ const Benefits = [
                     <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
                                     Serving Delhi NCR and Beyond 
 
-
                     </h2>
                   </div>
-
- 
- 
-
-
                 </div>
 
 
               </div>
             </div>
 
-
-
-
           </div>
  
 
-  <p className=" py-3">
+  <p className=" py-3 text-justify">
  We proudly serve the entire Delhi NCR region, including key industrial hubs such as Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our commitment to providing reliable cooling solutions extends across India, meeting the diverse industrial and commercial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. No matter your location in Delhi NCR or across India, Adhunik Powertech is your trusted partner for efficient duct air cooler solutions.
 
 </p>
@@ -962,8 +1002,8 @@ const Benefits = [
 
           </div>
 
-<h2 className=" text-2xl pb-3">
-  Why Choose Adhunik Powertech as Your Duct Air Cooler Manufacturer?
+<h2 className=" text-2xl pb-3 text-center md:text-left">
+  Why Choose Adhunik Powertech as Your Duct Air Cooler Manufacturer ?
 
 </h2>
     <ul className=" py-3  list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
@@ -985,8 +1025,10 @@ const Benefits = [
 
                   <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
                     <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">  
+
                                     Benefits of Choosing a Ducted Air Cooler:
+
 
                     </h2>
                   </div>
@@ -1013,6 +1055,52 @@ const Benefits = [
         </li>
       ))}
     </ul>
+
+      <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">  
+
+                                    Ideal Applications for Our Ducted Air Coolers
+                                    
+
+                    </h2>
+                  </div>
+
+ 
+ 
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+
+<div className="box md:px-3">
+   <ul className=" py-3    list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
+      {Applications.map((item, index) => (
+        <li key={index} className="font-sans">
+           {item.description}
+        </li>
+      ))}
+    </ul>
+</div>
+
+
+
 
         </div>
 </section>
