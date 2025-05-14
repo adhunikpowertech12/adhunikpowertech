@@ -14,11 +14,12 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export const metadata = {
   title: {
 
-    default: " Top & Best HVAC Companies in India - Adhunik Powertech",
+    default: " Top & Best HVAC company in India - Adhunik Powertech",
     template: "%s"
 
   },
-  description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
+  description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi. Expert installations, repairs, and maintenance for a comfortable indoor environment. Contact us now!",
+
   keywords: [
     "HVAC Solutions",
     "Industrial Air Cooling",
@@ -32,8 +33,12 @@ export const metadata = {
     "Air Shower Systems",
     "Energy-Efficient Cooling Solutions",
     "Industrial Ventilation Systems",
-    "Commercial HVAC Systems", "HVAC contractors", "hvac company in noida",
+    "Commercial HVAC Systems",
+    "HVAC contractors",
+    "hvac company in delhi NCR",
+    "hvac company India"
   ],
+
   robots: "index,follow",
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",
@@ -71,10 +76,12 @@ export const metadata = {
       }
     ]
   },
+
   additionalMeta: [
     { httpEquiv: "X-UA-Compatible", content: "IE=EmulateIE7" },
     { httpEquiv: "Accept-CH", content: "DPR, Viewport-Width, Width, Save-Data" }
   ],
+
   link: [
     { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" },
   ]
@@ -89,8 +96,8 @@ export default function RootLayout({ children }) {
 
     <html lang="en">
 
-
       <head>
+
 
         <script
           type="application/ld+json"
@@ -158,15 +165,16 @@ export default function RootLayout({ children }) {
         <WatsapButton phoneNumber="+919599050534" />
 
         <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
-          height="0"
-           width="0" 
-           style={{ 
-            display: "none", 
-            visibility: "hidden" }}>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
+            height="0"
+            width="0"
+            style={{
+              display: "none",
+              visibility: "hidden"
+            }}>
 
-            </iframe>
-            </noscript>
+          </iframe>
+        </noscript>
 
         {children}
 

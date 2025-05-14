@@ -405,10 +405,83 @@ const Applications = [
     <>
 
       <div className="row mt-32 font-sans ">
-<div className="box flex justify-center text-center w-full">
-   <h1 className=" max-w-7xl  px-4   font-sans  text-3xl   text-sky-700 "> Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
+
+       <div className="row">
+          <div className=" h-full flex  flex-col-reverse md:flex-row-reverse text-center md:p-5   m-4">
+
+
+            <div className=" text-gray-600 md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
+
+              <h1 className="    text-2xl text-center    md:text-3xl  font-bold   md:text-left     text-sky-700 "> Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
  </h1>
-</div>
+               <h2 className=" text-center md:text-left text-[17px]  font-semibold mt-7 mb-2">
+    Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers 
+  </h2>
+ 
+  <p className=" py-3 text-justify">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
+</p>
+            
+            </div>
+
+            <div className="md:w-[40%] w-auto">
+              <div className="flex items-center justify-center h-full">
+                <div>
+                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden      rounded-xl">
+                    <div className="w-auto">
+                      <div className="w-full object-cover  rounded-xl">
+                        <img
+                          className=" md:h-96"
+                          fetchPriority="high"
+                          decoding="async"
+                          alt="DUCTED   AIR COOLER "
+                          src="/ac4.webp"
+                        />
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+         
+        </div>
+ 
+
+ <div className=" h-full gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 pt-0  mt-5 m-4">
+
+            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
+              <div className="flex items-center justify-center h-full">
+
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+
+                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
+                                       Our Wide Range of Ducted Air Coolers
+
+
+                    </h2>
+                  </div>
+
+ 
+ 
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+          </div>
      
 
         <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
@@ -933,12 +1006,7 @@ const Applications = [
           </div>
 
 <section className=" px-4   md:px-14 text-gray-700">
-  <h2 className=" text-center md:text-left text-2xl   font-semibold my-9 mb-5">
-    Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers :
-  </h2>
- 
-  <p className=" py-3 text-justify">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
-</p>
+
 
 
 
@@ -971,38 +1039,9 @@ const Applications = [
 </p>
  
        <div className="row  ">
-          <div className=" h-full gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 pt-0  mt-5 m-4">
+         
 
-            <div className=" w-full md:p-7 md:pt-0   rounded-xl">
-              <div className="flex items-center justify-center h-full">
-
-                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-
-                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
-                    <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-                    <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
-                                       Our Wide Range of Ducted Air Coolers
-
-
-                    </h2>
-                  </div>
-
- 
- 
-
-
-                </div>
-
-
-              </div>
-            </div>
-
-
-
-
-          </div>
-
-<h2 className=" text-2xl pb-3 text-center md:text-left">
+<h2 className=" text-2xl py-8 pb-3 text-center md:text-left">
   Why Choose Adhunik Powertech as Your Duct Air Cooler Manufacturer ?
 
 </h2>
@@ -1123,7 +1162,7 @@ const Applications = [
                 <div>
                   <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">FAQs
                   </p>
-                  {/* <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">We have 19+ years of Professional Experience</h1> */}
+                
                   <div className="container mx-auto mt-8 mb-10">
                     {accordionData.map((item, index) => (
                       <div
