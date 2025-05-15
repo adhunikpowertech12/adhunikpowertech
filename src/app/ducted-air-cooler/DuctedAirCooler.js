@@ -418,7 +418,8 @@ const Applications = [
     Experience Unmatched Cooling Efficiency and Comfort with Adhunik Powertech's Ducted Air Coolers 
   </h2>
  
-  <p className=" py-3 text-justify">As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
+  <p className=" py-3 text-justify">
+  As a leading duct air cooler manufacturer in Delhi NCR and India, Adhunik Powertech brings you a comprehensive range of high-performance ducted air coolers designed to provide efficient, cost-effective, and eco-friendly cooling solutions for your residential, commercial, and industrial spaces. With years of expertise and a commitment to innovation, we engineer ducted air coolers that deliver superior cooling performance, energy savings, and long-lasting reliability, perfectly suited for the diverse climate of Delhi NCR and across India.
 </p>
             
             </div>

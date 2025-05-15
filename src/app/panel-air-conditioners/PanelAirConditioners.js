@@ -238,7 +238,7 @@ export default function PanelAirConditioners() {
                 priority
                 decoding="async"
                 alt="Air washer"
-                src="/panelac.png"
+                src="/panelac.webp"
 
                 width="300"
                 height="250"
@@ -281,7 +281,7 @@ export default function PanelAirConditioners() {
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex md:pt-0 md:p-7">
 
 
-                  <p className=' font-sans text-justify ' >Recognizing this critical need, Adhunik Powertech proudly provides cutting-edge panel air conditioner solutions and support to industries in major cities and regions across the nation. We address the crucial thermal management needs of businesses in Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Goa, Vishakhapatnam, Bhopal, Kolkata, Jaipur, and Delhi, as well as in thriving industrial zones throughout Gujarat, Rajasthan, Chhattisgarh, and Odisha. Wherever your operations are based, trust Adhunik Powertech for reliable electrical panel cooling. With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients such as Uflex Limited, Steel Authority of India Ltd. (SAIL), BAAZ Bikes (Elec Torq Technologies Pvt. Ltd.), Nippon Steel Pipe India Pvt. Ltd., TAK Technologies Pvt. Ltd., Hero MotoCorp, Rise Automation, Triveni Renewables Pvt. Ltd., and Zixom Plast, showcasing our commitment across diverse industries.</p>
+                  <p className=' font-sans text-justify ' >Recognizing this critical need, Adhunik Powertech proudly provides cutting-edge panel air conditioner solutions and support to industries in major cities and regions across the nation. We address the crucial thermal management needs of businesses in Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Goa, Vishakhapatnam, Bhopal, Kolkata, Jaipur, Faridabad, Bangalore, Noida and Delhi NCR, as well as in thriving industrial zones throughout Gujarat, Rajasthan, Chhattisgarh, and Odisha. Wherever your operations are based, trust Adhunik Powertech for reliable electrical panel cooling. With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients such as Uflex Limited, Steel Authority of India Ltd. (SAIL), BAAZ Bikes (Elec Torq Technologies Pvt. Ltd.), Nippon Steel Pipe India Pvt. Ltd., TAK Technologies Pvt. Ltd., Hero MotoCorp, Rise Automation, Triveni Renewables Pvt. Ltd., and Zixom Plast, showcasing our commitment across diverse industries.</p>
                 </div>
 
               </div>
