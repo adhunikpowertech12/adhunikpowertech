@@ -14,12 +14,13 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export const metadata = {
   title: {
 
-    default: " Top & Best HVAC company in India - Adhunik Powertech",
+    default: " Top & Best HVAC Company In India - Adhunik Powertech",
     template: "%s"
 
   },
   description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi. Expert installations, repairs, and maintenance for a comfortable indoor environment. Contact us now!",
 
+  
   keywords: [
     "HVAC Solutions",
     "Industrial Air Cooling",
