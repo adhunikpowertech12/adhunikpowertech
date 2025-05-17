@@ -23,7 +23,7 @@ export default function Blog() {
       image:
         "",
       link: "/what-is-a-ducted-air-cooler",
-      img: "/ac4.webp",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp",
     },
 
     {

@@ -140,7 +140,7 @@ export default function WhatIsDuctedAirCooler() {
 
                       <Image
                         className="w-full h-full object-center object-cover rounded-3xl"
-                        src="/ac4.webp"
+                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         alt="Adhunik Powertech Ducted Air Cooler "
                         width="500"
                         height="500"
@@ -276,7 +276,7 @@ export default function WhatIsDuctedAirCooler() {
 
                       <Image
                         className="w-full h-full object-center object-cover rounded-3xl"
-                         src="/DCI.webp"
+                         src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476597/DCI_g3yjdr.webp"
                          alt="Adhunik Powertech Ducted Air Cooler "
                         width="500"
                         height="500"

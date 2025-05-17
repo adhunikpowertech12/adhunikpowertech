@@ -414,7 +414,7 @@ export default function AirShower() {
                           fetchPriority="high"
                           decoding="async"
                           alt="Air Conditioning & Clean Room Jobs"
-                          src="pb.png"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476599/pb_xtdwhq.webp"
                         />
                       </div>
                     </div>

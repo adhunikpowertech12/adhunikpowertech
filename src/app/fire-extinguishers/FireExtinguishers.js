@@ -721,7 +721,7 @@ export default function FireExtinguishers() {
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src=" wfe.jpeg "
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/wfe_nhafyh.webp"
                 />
               </div>
             </div>

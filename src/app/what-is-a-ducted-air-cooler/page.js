@@ -25,13 +25,13 @@ export const metadata = {
     description: "Understand how Ducted Air Coolers work, their benefits, and how they improve air circulation. Discover Adhunik Powertech's advanced cooling solutions.",
     url: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",
     type: "article",
-    image: "https://www.adhunikpowertech.com/ac4.webp",
+    image: "https://www.adhunikpowertech.com/https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp",
   },
   twitter: {
     card: "summary_large_image",
     title: "What is a Ducted Air Cooler? A Comprehensive Guide | Adhunik Powertech",
     description: "Get insights into Ducted Air Coolers and their role in industrial and commercial cooling. Learn more with Adhunik Powertech.",
-    image: "https://www.adhunikpowertech.com/ac4.webp",
+    image: "https://www.adhunikpowertech.com/https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp",
   },
 };
 

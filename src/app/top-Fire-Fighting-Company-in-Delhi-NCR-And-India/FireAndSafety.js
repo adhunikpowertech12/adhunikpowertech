@@ -415,7 +415,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   fetchPriority="high"
                   decoding="async"
                   alt="Air washer"
-                  src="whs.jpeg"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477708/whs_xxw3s3.webp"
                 />
               </div>
             </div>

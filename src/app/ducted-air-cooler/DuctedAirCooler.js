@@ -435,7 +435,7 @@ const Applications = [
                           fetchPriority="high"
                           decoding="async"
                           alt="DUCTED   AIR COOLER "
-                          src="/ac4.webp"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         />
                       </div>
                     </div>
@@ -635,7 +635,7 @@ const Applications = [
                           fetchPriority="high"
                           decoding="async"
                           alt="DUCTED   AIR COOLER "
-                          src="/ac2.webp"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476595/ac2_hn8qzz.webp"
                         />
                       </div>
                     </div>
@@ -727,7 +727,7 @@ const Applications = [
                           fetchPriority="high"
                           decoding="async"
                           alt="DUCTED   AIR COOLER "
-                          src="/ac3.webp"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476597/ac3_qjgqx4.webp"
                         />
                       </div>
                     </div>
@@ -865,7 +865,7 @@ const Applications = [
                           fetchPriority="high"
                           decoding="async"
                           alt="DUCTED   AIR COOLER "
-                          src="/ac4.webp"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         />
                       </div>
                     </div>
@@ -959,7 +959,7 @@ const Applications = [
         
 
 
-          <div className="row  p-5 justify-center  flex-col flex items-center " style={{ backgroundImage: "url('/lcbg.png')" }} >
+          <div className="row  p-5 justify-center  flex-col flex items-center " style={{ backgroundImage: "url('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/lcbg_vfmbkj.webp')" }} >
             <p className=" w-fit text-center px-5 py-4  bg-[#1D4355] text-white relative  top-10 rounded-full ">Air Cooling in Industrial Space with Ducted Air Cooler</p>
 
             <div className=" h-full w-fit flex justify-center items-center flex-col md:flex-row text-center py-5 md:p-5  bg-[#FCFCFC] md:m-4 my-5 rounded-xl">
@@ -990,7 +990,7 @@ const Applications = [
                             fetchPriority="high"
                             decoding="async"
                             alt=""
-                            src="/is.png"
+                            src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476599/is_wqfm6b.webp"
                           />
                         </div>
                       </div>

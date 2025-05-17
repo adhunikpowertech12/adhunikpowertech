@@ -230,23 +230,17 @@ export default function PanelAirConditioners() {
         <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
 
 
-          <div className="box md:w-4/12 justify-center flex items-center mx-auto">
-
-            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-              <Image
-                className="   h-full w-full  object-center object-fill rounded-2xl "
-                priority
-                decoding="async"
-                alt="Air washer"
-                src="/panelac.webp"
-
-                width="300"
-                height="250"
-
-              />
-            </div>
-
-          </div>
+        <div className="flex justify-center items-center mx-auto">
+  <div className="w-1/2 md:w-1/3 transition-transform duration-500 group-hover:scale-105 rounded-xl">
+    <img
+      className="w-full h-auto rounded-2xl"
+      decoding="async"
+      alt="Air washer"
+      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
+      loading="lazy"
+    />
+  </div>
+</div>
 
 
 
