@@ -63,6 +63,7 @@ function Navbar() {
         { href: '/chiller-oil-water-coolant', label: 'Oil/Coolant Chiller' },
         { href: '/air-handling-unit', label: 'Air Handling Unit' },
         { href: '/air-shower', label: 'Air Shower & Pass Box' },
+        { href: '/industrial-cooler', label: 'Industrial Cooler' },
       ],
     },
     {
@@ -202,6 +203,7 @@ function Navbar() {
         { label: "Oil/Coolant Chiller", href: "/chiller-oil-water-coolant" },
         { label: "Air Handling Unit", href: "/air-handling-unit" },
         { label: "Air Shower & Pass Box ", href: "/air-shower" },
+        {  label: 'Industrial Cooler',href: '/industrial-cooler'},
 
       ],
     },
