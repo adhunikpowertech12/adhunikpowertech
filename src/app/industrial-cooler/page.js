@@ -19,10 +19,13 @@ export default function IndustrialCoolerPage() {
     { name: "Maximium RPM", value: "950 RPM" },
     { name: "Maximium Wattage", value: "550W" },
     { name: "Blade Type", value: "3-Leaf High-Performance Plastic Blades" },
-    { name: "Best Suited For", value: "Large Industrial & Commercial Cooling Applications" }
-  ];
+    { name:<> <span> <div className=' font-extrabold inline-flex  text-cyan-600 border-2 border-cyan-500 p-1 rounded-lg text-cyan-600'>190</div> Litre Best Suited For</span> </>, value: "Large Industrial & Commercial Cooling Applications" },
+    { name:<> <span> <div className=' font-extrabold inline-flex text-cyan-600 border-2 border-cyan-500 p-1 rounded-lg'> 100  </div> Litre Best Suited For</span> </>  , value: "Medium-scale Industrial Cooling & Outdoor Applications" },
 
+        { name: "Fan Type ", value: "Axle Fan 30' " },
+  ];
   const pricing = {
+
     "100": { current: "₹ 24,000", old: "₹ 28,000", discount: "14%" },
     "190": { current: "₹ 20,000", old: "₹ 24,000", discount: "17%" }
   };
