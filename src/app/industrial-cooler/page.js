@@ -1,32 +1,34 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 
 export default function IndustrialCoolerPage() {
+  const [selectedCapacity, setSelectedCapacity] = useState('100');
+
   const features = [
-    "Heavy-duty BLDC motor: Highly efficient, saves up to 50% energy consumption",
-    "Industrial-grade thermal auto-clean system",
-    "Powerful 1400 m3/hr airflow capacity",
-    "Reinforced metallic oil collector for extended durability",
-    "Industrial touch control panel with motion sensors",
-    "High-performance metallic blower wheel",
-    "Energy efficient LED work lights",
-    "Turbo speed option for peak demand periods",
-    "Rugged steel construction with protective coating",
-    "Wall-mounted or ceiling-mounted installation options",
-    "IP54 rated for dust and moisture resistance",
-    "Corrosion-resistant components for harsh environments"
+    "High Cooling Efficiency",
+    "Eco-Friendly Operation",
+    "Durable Plastic Body",
+    "Low Maintenance",
+    "Eco-Friendly Operation",
+    "6 Month Warranty Coverage (MOTOR & PUMP)"
   ];
 
   const specifications = [
-    { name: "Motor Type", value: "Industrial BLDC" },
-    { name: "Power Consumption", value: "0.5 kW" },
-    { name: "Airflow Capacity", value: "1400 m³/hr" },
-    { name: "Noise Level", value: "<65 dB" },
-    { name: "Weight", value: "28 kg" },
-    { name: "Warranty", value: "3 years on motor, 1 year comprehensive" }
+    { name: "Tank Capacity", value: "100 liters , 190 liters" },
+    { name: "Motor Type", value: "3 Speed" },
+    { name: "Maximium RPM", value: "950 RPM" },
+    { name: "Maximium Wattage", value: "550W" },
+    { name: "Blade Type", value: "3-Leaf High-Performance Plastic Blades" },
+    { name: "Best Suited For", value: "Large Industrial & Commercial Cooling Applications" }
   ];
 
+  const pricing = {
+    "100": { current: "₹ 24,000", old: "₹ 28,000", discount: "14%" },
+    "190": { current: "₹ 20,000", old: "₹ 24,000", discount: "17%" }
+  };
+
   return (
-    <div className="container mx-auto px-4 py-12  mt-24 ">
+    <div className="container mx-auto px-4 py-12 mt-24">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center text-blue-900 mb-12">
           Industrial Grade Cooling System
@@ -49,47 +51,63 @@ export default function IndustrialCoolerPage() {
                 Heavy-Duty Industrial Air Cooler | Model IC-1400HD
               </h2>
 
-              <div className="mb-8">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="text-2xl font-bold text-red-600">₹14,500.00</span>
-                  <span className="text-lg text-gray-500 line-through">₹18,000.00</span>
-                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">
-                    Save 19%
-                  </span>
-                </div>
-
-                <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <h3 className="text-xl font-semibold text-blue-800 mb-3">Key Features</h3>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {features.map((feature, index) => (
-                      <li key={index} className="flex items-start gap-2">
-                        <span className="text-blue-600 font-bold mt-1">✓</span>
-                        <span className="text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">Technical Specifications</h3>
-                  <div className="grid grid-cols-2 gap-4">
-                    {specifications.map((spec, index) => (
-                      <div key={index} className="border-b border-gray-100 pb-2">
-                        <p className="text-gray-600 font-medium">{spec.name}</p>
-                        <p className="text-gray-800">{spec.value}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-4 mt-8">
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
-                    Request Quote
+              {/* Sliding Effect Buttons */}
+              <div className="relative bg-gray-100 p-1 rounded-full mb-6 flex w-fit">
+                {["100", "190"].map((capacity) => (
+                  <button
+                    key={capacity}
+                    onClick={() => setSelectedCapacity(capacity)}
+                    className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                      selectedCapacity === capacity
+                        ? "bg-blue-600 text-white"
+                        : "text-gray-700 hover:bg-gray-200"
+                    }`}
+                  >
+                    {capacity} Liters
                   </button>
-                  <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
-                    Technical Brochure
-                  </button>
+                ))}
+              </div>
+
+              {/* Dynamic Pricing */}
+              <div className="flex items-center gap-4 mb-4 transition-all duration-300">
+                <span className="text-2xl font-bold text-red-600">{pricing[selectedCapacity].current}</span>
+                <span className="text-lg text-gray-500 line-through">{pricing[selectedCapacity].old}</span>
+                <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">
+                  Save {pricing[selectedCapacity].discount}
+                </span>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg mb-6">
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Key Features</h3>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {features.map((feature, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="text-blue-600 font-bold mt-1">✓</span>
+                      <span className="text-gray-700">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Technical Specifications :</h3>
+                <div className="grid grid-cols-2 gap-4">
+                  {specifications.map((spec, index) => (
+                    <div key={index} className="border-b border-gray-100 pb-2">
+                      <p className="text-gray-600 font-medium">{spec.name}</p>
+                      <p className="text-gray-800">{spec.value}</p>
+                    </div>
+                  ))}
                 </div>
+              </div>
+
+              <div className="flex flex-wrap gap-4 mt-8">
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
+                  Request Quote
+                </button>
+                <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
+                 Call Us Now
+                </button>
               </div>
             </div>
 
