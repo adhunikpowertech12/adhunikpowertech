@@ -109,7 +109,6 @@ export default function RootLayout({ children }) {
               "name": "Adhunik Powertech",
               "url": "https://www.adhunikpowertech.com/",
               "alternateName": "Adhunik Powertech",
-
             }),
           }}
         />

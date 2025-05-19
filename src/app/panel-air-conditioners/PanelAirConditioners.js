@@ -115,25 +115,28 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119", "6825 ", "8525", "10352", "11945", "17064", "24000"],
+      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119", "6825 ", "8532", "10238", "11794", "17064", "23890"],
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "570x285x285", "570x285x285", "780x285x307", "780x285x307", "1220x257x400", "1220x257x400", "420x330x730", "420x330x730", "420x330x730", "420x330x730"],
+      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "570x285x285", "570x285x285", "285x310x785", "285x310x785", "275x400x1000", "275x400x1000", "270x400x1400", "270x400x1400", "425x550x1570", "425x550x1570"],
     },
     {
       heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "475/2.2", "689/3.2", " 754/ 3.5", " 906/4.2", " 1010/4.4", "1290/5.8", "1405/6.5", "1470/6.8", "2115/9.2", "2594/12"],
+      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "484/2.2", "704/3.2", " 770/ 3.5", " 924/ 4.2", " 990/4.5", "1364/ 6.2", "1430/ 6.5", "1496/ 6.8", "2024/ 9.2", "2640/ 12"],
     },
     {
       heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "85", "85", "314", "314", "320", "485", "680", "731", "1076", "1326"],
+      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "102", "221", "238", "320", "485", "544", "595", "1076", "1326"],
     },
     {
       heading: "Gross Weight",
-      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "25", "25", "32", "34", "52", "54", "56", "58", "100", "105"],
+      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "24", "27", "38", "42", "52", "55", "70", "73", "100", "105"],
     },
   ];
+
+
+
 
   const top_mount = [
     {
@@ -142,19 +145,19 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1707", "3413", "5120"],
+      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119"],
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "555x438x465", "555x438x465", "345x395x655", "345x395x655"],
+      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "405x455x555", "405x455x555", "345x395x655", "345x395x655"],
     },
     {
       heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "475/2.2", "689/3.2", " 754/ 3.5", " 906/4.2",],
+      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "484/2.2", "704/3.2", " 770/ 3.5", " 924/4.2",],
     },
     {
       heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "68", "221", "221"],
+      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "102", "221", "238"],
     },
     {
       heading: "Gross Weight",
@@ -169,23 +172,23 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "3413", "5121", "10230", "17064", "24000 ",],
+      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "3412", "5119", "10238", "17064", "23890",],
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "710x390x420", "710x390x420", "1150x550x550", "1150x550x550", "1500x545x425"],
+      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "285x310x785", "285x310x785", "1150x550x550", "1150x550x550", "425x550x1570"],
     },
     {
       heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, " 454/ 3.5", " 906/4.2", " 1729/6.5", " 2053/9.5", " 2594/12",],
+      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, " 770/ 3.5", " 924/ 4.2", " 1430/ 6.5", " 2024/ 9.2", " 2640/12",],
     },
     {
       heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "221", "221", "714", "883", "1326",],
+      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "221", "238", "544", "1076", "1326",],
     },
     {
       heading: "Gross Weight",
-      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "38", "38", "72", "82", "105"],
+      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "38", "42", "72", "82", "105"],
     },
   ];
 
@@ -230,17 +233,17 @@ export default function PanelAirConditioners() {
         <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
 
 
-        <div className="flex justify-center items-center mx-auto">
-  <div className="w-1/2 md:w-1/3 transition-transform duration-500 group-hover:scale-105 rounded-xl">
-    <img
-      className="w-full h-auto rounded-2xl"
-      decoding="async"
-      alt="Air washer"
-      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
-      loading="lazy"
-    />
-  </div>
-</div>
+          <div className="flex justify-center items-center mx-auto">
+            <div className="w-1/2 md:w-1/3 transition-transform duration-500 group-hover:scale-105 rounded-xl">
+              <img
+                className="w-full h-auto rounded-2xl"
+                decoding="async"
+                alt="Air washer"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
+                loading="lazy"
+              />
+            </div>
+          </div>
 
 
 
