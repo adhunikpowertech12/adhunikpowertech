@@ -622,18 +622,11 @@ export default function PanelAirConditioners() {
                   >
                     Enquiry Now
                   </button>
-
-
-
                 </div>
               </div>
-
-
-
-
-
-
             </div>
+
+
             <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
