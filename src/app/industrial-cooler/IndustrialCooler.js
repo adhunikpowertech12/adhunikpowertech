@@ -13,7 +13,7 @@ export default function IndustrialCooler() {
     "Durable Plastic Body",
     "Low Maintenance",
     "Eco-Friendly Operation",
-    "6 Month Warranty Coverage (MOTOR & PUMP)"
+    "1 Year Warranty Coverage (MOTOR & PUMP)"
 
   ];
 
@@ -306,12 +306,13 @@ const Why = [
             <div className="w-full lg:w-1/2">
               <div className="bg-white p-6 rounded-xl shadow-md">
 
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Heavy-Duty Industrial Air Cooler | {pricing[selectedCapacity].name}
+                <h2 className="  text-center md:text-left  text-2xl md:text-3xl font-bold text-gray-800 mb-6">
+                  Heavy-Duty Industrial Air Cooler  {pricing[selectedCapacity].name}
                 </h2>
 
                 {/* Sliding Effect Buttons */}
-                <div className="relative bg-gray-100 p-1 rounded-full mb-6 flex w-fit">
+                <div className="box justify-center md:justify-start flex items-center w-full relative">
+    <div className="relative   bg-gray-100 p-1 rounded-full mb-6 flex w-fit">
                   {["190", "100"].map((capacity) => (
                     <button
                       key={capacity}
@@ -325,18 +326,20 @@ const Why = [
                     </button>
                   ))}
                 </div>
+                </div>
+            
 
                 {/* Dynamic Pricing */}
-                <div className="flex items-center gap-4 mb-4 transition-all duration-300">
-                  <span className="text-2xl font-bold text-red-600">{pricing[selectedCapacity].current}</span>
+                <div className="flex items-center justify-center md:justify-start gap-4 mb-4 transition-all duration-300"> 
+                  <span className="text-2xl font-bold text-red-600">  {pricing[selectedCapacity].current}</span>
                   <span className="text-lg text-gray-500 line-through">{pricing[selectedCapacity].old}</span>
                   <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">
                     Save {pricing[selectedCapacity].discount}
                   </span>
                 </div>
 
-                <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <h3 className="text-xl font-semibold text-blue-800 mb-3">Key Features</h3>
+                <div className="bg-blue-50 p-4  rounded-lg mb-6">
+                  <h3 className="text-xl font-semibold text-blue-800 mb-3">Key Features :</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-2">
@@ -372,30 +375,32 @@ const Why = [
                 </div>
               </div>
 
-              <div className="mt-6 bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+              <div className="mt-6 text-center md:text-left bg-yellow-50 p-4 rounded-lg border border-yellow-200">
                 <h3 className="text-lg font-semibold text-yellow-800 mb-2">Industrial Applications</h3>
                 <p className="text-gray-700">
                   Ideal for factories, warehouses, workshops, and manufacturing plants where
                   reliable cooling is required for worker comfort and equipment protection.
                 </p>
               </div>
+
+
             </div>
           </div>
 
           <div className="row">
-            <h2 className='  text-2xl font-semibold py-5 '>
+            <h2 className='  text-center md:text-left text-2xl font-semibold mt-24 py-5 '>
               Beat the Heat with Powerful and Efficient Industrial Coolers, Proudly Made in India.
 
             </h2>
-            <p className=' font-sans font-normal py-3'>
+            <p className=' font-sans font-normal py-3 text-justify'>
               Adhunik Powertech, a certified manufacturer (ISO, CE, MSME, IEC, ZED), brings you a comprehensive range of robust and high-performance industrial coolers designed to tackle the demanding cooling needs of businesses across Gurugram, Delhi NCR, and surrounding areas. As a trusted name in industrial cooling solutions, we understand the critical role a comfortable and productive environment plays in your operations. Our locally manufactured coolers are engineered for efficiency, durability, and reliable performance, making us your ideal partner for all your industrial cooling requirements.
             </p>
-            <p className=' font-sans font-normal py-3'>
+            <p className=' font-sans font-normal py-3 text-justify'>
               <strong> Looking for a powerful alternative to traditional air conditioning ?</strong> Our industrial coolers, also known as <strong>heavy-duty coolers</strong> or <strong>tent coolers</strong> (ideal for large open spaces and temporary structures), offer an energy-efficient and cost-effective solution to combat the intense heat, especially during the peak summer months in the Delhi NCR region.
 
             </p>
 
-            <div className="row mt-5">
+            <div className="row mt-10">
               <div className=" h-full gap-5 flex flex-col md:flex-row  md:p-5 pt-0  mt-0 m-4">
 
                 <div className=" w-full md:p-7 md:pt-0   rounded-xl">
@@ -439,13 +444,13 @@ const Why = [
               </div>
 
 
-              <div className="box md:w-8/12 pb-0 py-4 px-4 flex justify-center items-start flex-col">
-                <h2 className="w-full text-center md:text-left font-sans text-3xl text-sky-700 leading-tight">
+              <div className="  box md:w-8/12 pb-0 py-4 px-4 flex justify-center items-start flex-col">
+                <h2 className="w-full text-center md:text-left font-sans text-2xl md:text-3xl text-sky-700 leading-tight">
                   Thunder Max : High-Performance Cooling for Large Industrial & Commercial Applications
 
                 </h2>
 
-                <p className="text-gray-700  py-3 font-sans  text-justify md:text-left ">
+                <p className="text-gray-700  py-4 font-sans  text-justify md:text-left ">
                   The Thunder Max is our flagship <strong>heavy-duty cooler</strong>, engineered to deliver exceptional cooling for expansive industrial units, large commercial spaces, and even as an effective tent cooler for events and temporary setups in and around Gurugram and Delhi NCR. Built with a robust design and high-capacity components, the Thunder Max ensures consistent and powerful airflow to maintain a comfortable working environment, boosting productivity even in the harshest conditions.
 
                 </p>
@@ -528,15 +533,15 @@ const Why = [
 
                 </div>
 
-            <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row '>
+            <section className=' md:p-5 pb-0 mb-0 flex flex-col-reverse pt-12 md:flex-row '>
  
               <div className="box md:w-8/12 pb-0 py-4 px-4 flex justify-center items-start flex-col">
-                <h2 className="w-full text-center md:text-left font-sans text-3xl text-sky-700 leading-tight">
+                <h2 className="w-full text-center md:text-left font-sans text-2xl py-3 md:text-3xl text-sky-700 leading-tight">
                   Thunder : Versatile Cooling for Medium-Scale Industrial & Outdoor Applications
 
                 </h2>
 
-                <p className="text-gray-700  py-3 font-sans  text-justify md:text-left ">
+                <p className="text-gray-700  py-4 font-sans  text-justify md:text-left ">
                   The Thunder offers a balanced combination of power and portability, making it an excellent cooling solution for medium-sized industrial units, commercial spaces, and outdoor applications across the Delhi NCR region. Its efficient design provides reliable cooling, contributing to a more comfortable and productive workspace or event space. This model also serves as a practical industrial portable cooler option for areas requiring flexible cooling solutions.
  
                 </p>
@@ -630,7 +635,8 @@ const Why = [
                 </div>
 
 
-                  <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+<div className="box hidden md:block">
+ <div className="  h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
               <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                 <div className="flex items-center justify-center h-full">
 
@@ -647,6 +653,15 @@ const Why = [
               </div>
             </div>
 
+</div>
+
+<p className=' md:hidden text-2xl text-center py-5 '>
+    Why Choose Adhunik Powertech for Your Industrial Cooling Needs in Delhi NCR ?
+</p>
+                 
+
+
+
 
              <ul className=" py-3  list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
               {Why.map((item, index) => (
@@ -656,7 +671,7 @@ const Why = [
               ))}
             </ul>
 
-                 <div className="row mt-5">
+                 <div className="row mt-9">
           <div className=" h-full gap-5 flex flex-col md:flex-row  md:p-5 pt-0  mt-0 m-4">
 
             <div className=" w-full md:p-7 md:pt-0   rounded-xl">
@@ -664,26 +679,28 @@ const Why = [
 
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
 
-                  <div className="inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
+
+
+<div className="box hidden md:block">
+ <div className="  inline-flex items-center justify-center w-full mx-auto  mt-0 my-7 md:mb-0">
                     <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
                     <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-2xl text-1xl capitalize font-semibold font-sans">    
                                    Contact Us for Your Industrial Cooling Requirements in Gurugram, Delhi NCR
 
-
-
                     </h2>
                   </div>
+</div>
+                 
+                  <p className=' md:hidden text-2xl text-center py-5 '>
+    Why Choose Adhunik Powertech for Your Industrial Cooling Needs in Delhi NCR ?
+</p>
 
 
-
-
-                   
-
-                  <p className="font-sans text-justify w-full md:text-center" >
+                  <p className="font-sans py-3 font-thin text-justify w-full md:text-center" >
                    Ready to experience the Adhunik Powertech difference? Whether you need a heavy-duty cooler for your factory in Gurugram, a reliable cooling solution for your commercial space in Delhi, or a powerful tent cooler for an event in the NCR, our team is here to assist you.
                   </p>
 
-                  <p className=' font-sans text-center w-full'>
+                  <p className=' font-sans text-center w-full py-4'>
                     Adhunik Powertech - Your Partner in Efficient Industrial Cooling for Gurugram, Delhi NCR, and Beyond.
                   </p>
 
