@@ -99,6 +99,7 @@ export default function RootLayout({ children }) {
 
       <head>
 
+   <meta itemProp="name" content="Adhunik Powertech" />
 
         <script
           type="application/ld+json"
@@ -114,8 +115,7 @@ export default function RootLayout({ children }) {
         />
 
 
-        <meta itemProp="name" content="Adhunik Powertech" />
-
+     
 
         <GoogleTagManager gtmId="GTM-W994SKBG" />
         <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
