@@ -258,8 +258,9 @@ function Footer() {
 
 
 
-      <div className="bg-black/5 p-6 text-center">
+      <div className="bg-black/5 p-6 text-center flex  flex-row justify-center items-center gap-6">
         <div className="font-semibold cursor-pointer"  > © Copyright 2025 Adhunik Powertech Private Ltd. All Rights Reserved.</div>
+        <Link href='/sitemap' className="font-semibold cursor-pointer hover:text-cyan-500"  > Sitemap</Link>
       </div>
     </footer>
   );
