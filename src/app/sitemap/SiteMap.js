@@ -9,7 +9,7 @@ export default function SiteMap() {
     { href: '/certificate-&-accreditation', text: 'Certificate & Accreditation', title: 'Certificate & Accreditation about our company' },
     { href: '/awards-and-recognitions', text: 'Awards and Recognitions', title: 'Company awards and recognitions' },
     { href: '/product-overview', text: 'Product Overview', title: 'View our full product overview' },
-    { href: '/our-product-clients', text: 'SOME OF OUR PRODUCTS CLIENTS', title: 'Clients who use our products' },
+    { href: '/our-product-clients', text: 'OUR PRODUCTS CLIENTS', title: 'Clients who use our products' },
     { href: '/air-washer', text: ' Air Washer', title: 'Understand the purpose and function of air washers' },
     { href: '/ducted-air-cooler', text: 'Ducted Air Coolers', title: 'Find ducted air coolers from a reliable manufacturer' },
     { href: '/ventilation-fans', text: 'Ventilation Fan', title: 'Explore Ventilation Fan, axial flow fans and their applications' },
