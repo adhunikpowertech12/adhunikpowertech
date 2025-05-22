@@ -437,7 +437,7 @@ const Why = [
                     className="w-full h-auto rounded-2xl"
                     decoding="async"
                     alt="Air washer"
-                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747655000/Cooler_3_xavleu.webp"
+                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747654999/Cooler_2_a8qycx.webp"
                     loading="lazy"
                   />
                 </div>
