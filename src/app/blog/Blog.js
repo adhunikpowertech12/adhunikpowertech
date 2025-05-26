@@ -91,6 +91,17 @@ export default function Blog() {
       link: "/top-HVAC-Contractor-Across-Delhi-NCR-and-India",
       img: "/hvac-contractor.webp",
     },
+    {
+      id: 9,
+      title: "Choosing the Best HVAC Contractor for Your Commercial and Industrial Space ",
+
+
+      date: "May  2025",
+      image:
+        "",
+      link: "/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac_x2sop2.webp",
+    },
 
 
   ];
