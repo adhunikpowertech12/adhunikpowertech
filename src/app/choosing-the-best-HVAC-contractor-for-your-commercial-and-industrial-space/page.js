@@ -193,8 +193,39 @@ export default function page() {
               <p className="text-gray-700 mt-6">
                Additionally, ask for case studies of past projects. These can provide detailed insights into their problem-solving approach, technical capabilities, and the tangible results they've delivered for other businesses.
               </p>
+
             </div>
           </section>
+
+
+
+          <section className="bg-white p-8 rounded-xl shadow-md">
+            <h2 className="text-3xl font-bold text-cyan-800 mb-6 flex items-center">
+              <span className="bg-cyan-100 p-2 rounded-lg mr-3">
+                <svg className="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </span>
+Industry Recognition and Safety Records
+            </h2>
+            
+            <p className="text-gray-700 leading-relaxed mb-6">
+          Look for industry recognition such as awards for excellence, specialized certifications (e.g., for specific equipment manufacturers), or memberships in professional organizations like ASHRAE, ACCA (Air Conditioning Contractors of America), or local business associations. Furthermore, a stellar safety record is critical for commercial and industrial contractors. Inquire about their safety protocols, training programs, and EMR (Experience Modification Rate), which indicates their workplace safety performance. A low EMR is a strong sign of a contractor who prioritizes safety on job sites, minimizing risks to your personnel and property.
+
+            </p>
+
+            <p className="text-gray-700 leading-relaxed mb-6">
+Choosing an HVAC contractor for your business is a strategic decision. Companies like Adhunik Powertech Private Limited, with a strong background in large-scale infrastructure and power solutions, would be a strong candidate in this area, demonstrating the kind of extensive experience, robust reputation, and technical depth essential for complex industrial and commercial HVAC projects. Their commitment to delivering tangible impact aligns with the need for a contractor who can truly optimize your operational efficiency.
+
+            </p>
+
+            
+
+            
+         
+          </section>
+
+
 
           {/* CTA Section */}
           <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
@@ -225,6 +256,8 @@ export default function page() {
               </div>
             </div>
           </section>
+
+
         </div>
       </div>
     </div>
