@@ -536,8 +536,6 @@ Assess Energy Efficiency Expertise
 
     
 
-
-
        <section className="py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100 text-gray-800">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Title */}
@@ -598,9 +596,6 @@ Assess Energy Efficiency Expertise
         </div>
       </div>
     </section>
-
-
-
 
 
 
@@ -676,6 +671,92 @@ Assess Energy Efficiency Expertise
         </div>
       </div>
     </section>
+
+
+    <section className="py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100 text-gray-800">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-cyan-700 mb-12">
+          Evaluating Service Packages & Avoiding Low-Value Estimates
+        </h2>
+
+        {/* Comprehensive Service Packages */}
+        <div className="mb-16">
+        
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            Comprehensive Service Package Options
+          </h3>
+
+          <p className="text-lg text-gray-700 mb-6">
+            Post-installation support is crucial. Choose a partner offering proactive service to ensure long-term reliability and efficiency.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {servicePackages.map(({ title, description, icon: Icon }, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200 flex items-start gap-4"
+              >
+                <Icon className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
+                <div>
+                  <h4 className="text-xl font-semibold text-cyan-900 mb-1">
+                    {title}
+                  </h4>
+                  <p className="text-gray-700">{description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Avoiding Low-Ball Estimates */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            Avoiding Low-Ball Estimates & Ensuring True Value
+          </h3>
+          <p className="text-lg text-gray-700 mb-6">
+            A surprisingly low bid is often a red flag. Examine where corners may be cut, and focus on total cost of ownership (TCO), not just upfront savings.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {redFlags.map(({ title, description, icon: Icon }, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200 flex items-start gap-4"
+              >
+                <Icon className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
+                <div>
+                  <h4 className="text-xl font-semibold text-cyan-900 mb-1">
+                    {title}
+                  </h4>
+                  <p className="text-gray-700">{description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-6 text-lg text-gray-700">
+            Always obtain multiple detailed proposals. Scrutinize discrepancies and prioritize contractors offering transparency, quality, and efficiency.
+          </p>
+        </div>
+
+        {/* Facility Evaluation */}
+        <div>
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            Conduct a Thorough Facility Evaluation
+          </h3>
+          <p className="text-lg text-gray-700 mb-6">
+            Before receiving any formal proposal, a reliable contractor must perform a detailed, on-site evaluation of your facility—assessing operational needs, infrastructure, and performance goals.
+          </p>
+          <div className="flex items-start gap-4 bg-white rounded-2xl border border-cyan-200 shadow-md p-6">
+            <Building2 className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
+            <p className="text-gray-700">
+              This deep-dive lays the groundwork for correct sizing, accurate system design, and ultimately a solution tailored to your business objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
           {/* CTA Section */}
           <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
