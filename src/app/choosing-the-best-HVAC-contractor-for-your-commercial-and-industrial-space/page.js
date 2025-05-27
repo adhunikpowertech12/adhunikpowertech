@@ -1,6 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import {
+  ShieldCheck,
+  GaugeCircle,
+  Thermometer,
+  Clock,
+  BadgeDollarSign,
+  Hammer,
+  Boxes,
+  FileCheck2,
+  Ruler,
+  AlertTriangle,
+  Trash2
+} from "lucide-react";
+
 
 export default function page() {
       
@@ -144,6 +158,71 @@ export default function page() {
         }
         
     ];
+
+      const performanceGuarantees = [
+    {
+      title: "Energy Consumption Guarantees",
+      description:
+        "A promise that the new system will achieve a certain level of energy savings or consumption, with penalties if not met.",
+      icon: GaugeCircle,
+    },
+    {
+      title: "Temperature or Humidity Guarantees",
+      description:
+        "Ensuring the system can maintain specified environmental conditions within your facility.",
+      icon: Thermometer,
+    },
+    {
+      title: "Uptime Guarantees",
+      description:
+        "Particularly for mission-critical systems, a contractor might guarantee a certain percentage of operational uptime, with compensation for failures.",
+      icon: Clock,
+    },
+  ];
+
+  const pricingBreakdown = [
+    {
+      title: "Equipment Costs",
+      description:
+        "Itemized list of all major components (chillers, boilers, air handling units, controls, etc.) and their specific models/specifications.",
+      icon: Boxes,
+    },
+    {
+      title: "Labor Costs",
+      description:
+        "Broken down by type of labor (e.g., skilled technicians, sheet metal workers, electricians) and estimated hours.",
+      icon: Hammer,
+    },
+    {
+      title: "Materials and Consumables",
+      description:
+        "Detailed list of piping, insulation, ductwork, wiring, refrigerants, etc.",
+      icon: Ruler,
+    },
+    {
+      title: "Permit Fees and Inspection Costs",
+      description: "All necessary regulatory fees.",
+      icon: FileCheck2,
+    },
+    {
+      title: "Engineering and Design Fees",
+      description:
+        "For complex installations, this might include detailed load calculations, system design, and blueprint creation.",
+      icon: ShieldCheck,
+    },
+    {
+      title: "Contingency Fees",
+      description:
+        "A reasonable contingency (e.g., 5-10%) for unforeseen issues, clearly outlined.",
+      icon: AlertTriangle,
+    },
+    {
+      title: "Disposal/Recycling Costs",
+      description: "For old equipment, especially refrigerants.",
+      icon: Trash2,
+    },
+  ];
+
       
   return (
     <div className="bg-gradient-to-b mt-24 from-cyan-50 to-white">
@@ -520,6 +599,83 @@ Assess Energy Efficiency Expertise
       </div>
     </section>
 
+
+
+
+
+
+
+  <section className="py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100 text-gray-800">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Section Title */}
+        <h2 className="text-4xl md:text-4xl font-bold text-center text-cyan-700 mb-12">
+          SLAs, Performance Guarantees & Pricing Breakdown
+        </h2>
+
+        {/* SLAs & Guarantees */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            Importance of Service Level Agreements (SLAs) and Performance Guarantees
+          </h3>
+          <p className="text-lg text-gray-700 mb-6">
+          Beyond standard warranties, ask about Service Level Agreements (SLAs) and specific performance guarantees, especially for critical industrial or commercial facilities. An SLA outlines the contractor's commitment to response times, repair times, and system uptime. This is critical for businesses where HVAC downtime translates directly to lost revenue or compromised operations (e.g., data centers, manufacturing, healthcare).
+
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {performanceGuarantees.map(({ title, description, icon: Icon }, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200 flex items-start gap-4"
+              >
+                <Icon className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
+                <div>
+                  <h4 className="text-xl font-semibold text-cyan-900 mb-1">
+                    {title}
+                  </h4>
+                  <p className="text-gray-700">{description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-lg text-gray-700 my-6">A contractor willing to stand by their work with robust SLAs and performance guarantees demonstrates confidence in their capabilities and a commitment to your business's success.
+</p>
+        </div>
+
+        {/* Pricing Breakdown */}
+        <div>
+          <h3 className="text-3xl  pb-4 font-semibold text-cyan-800 mb-4 text-center ">
+            Compare Pricing and Services Offered
+          </h3>
+          <p className="text-lg  font-semibold text-cyan-800 mb-4" >Understanding Commercial Cost Structures</p>
+          <p className="text-md text-gray-700 mb-6">
+        For industrial and commercial HVAC projects, understanding the cost structure is far more complex than for residential systems. A detailed, transparent breakdown is essential. Demand to see:
+  </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {pricingBreakdown.map(({ title, description, icon: Icon }, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200 flex items-start gap-4"
+              >
+                <Icon className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
+                <div>
+                  <h4 className="text-xl font-semibold text-cyan-900 mb-1">
+                    {title}
+                  </h4>
+                  <p className="text-gray-700">{description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-6 text-lg text-gray-700">
+            Beware of vague "lump sum" bids. A reputable contractor will provide granular detail and explain each line item. The lowest bid often signals cut corners, potentially leading to higher long-term operational costs and premature system failure.
+          </p>
+        </div>
+      </div>
+    </section>
 
           {/* CTA Section */}
           <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
