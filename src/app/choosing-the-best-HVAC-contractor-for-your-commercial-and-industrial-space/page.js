@@ -15,6 +15,20 @@ import {
   Trash2
 } from "lucide-react";
 
+import {
+  CalendarCheck2,
+  
+  Radar,
+  Repeat2,
+  LineChart,
+  ThumbsDown,
+  
+  ShieldX,
+  
+  ClipboardCheck,
+  Building2
+} from "lucide-react";
+
 
 export default function page() {
       
@@ -223,6 +237,66 @@ export default function page() {
     },
   ];
 
+
+  const servicePackages = [
+    {
+      title: "Preventative Maintenance Contracts",
+      description:
+        " Essential for maximizing system lifespan and efficiency. These should include regular inspections, cleaning, filter changes, lubrication, and system diagnostics. They may offer tiered levels (e.g., quarterly, semi-annual, annual)",
+      icon: CalendarCheck2,
+    },
+    {
+      title: "Emergency Service Contracts",
+      description:
+        "Crucial for minimizing downtime. Ask about guaranteed response times (e.g., within 2-4 hours for critical failures), 24/7 availability, and whether emergency labor rates are included or discounted.",
+      icon: AlertTriangle,
+    },
+    {
+      title: "Predictive Maintenance (PdM) / Condition-Based Monitoring",
+      description:
+        "Utilizing sensors and data analytics to anticipate failures before they occur, allowing for proactive maintenance and reducing unplanned downtime. This is particularly valuable for mission-critical systems.",
+      icon: Radar,
+    },
+    {
+      title: "Retro-Commissioning Services",
+      description:
+        "Optimizing existing systems to improve performance and energy efficiency without major equipment replacement.",
+      icon: Repeat2,
+    },
+    {
+      title: "HVAC System Audits and Optimization Plans",
+      description:
+        "Regular assessments to identify opportunities for efficiency improvements and cost reductions.",
+      icon: LineChart,
+    },
+  ];
+
+  const redFlags = [
+    {
+      title: "Substandard Equipment",
+      description:
+        "Use of cheaper, less efficient, or lower durability components.",
+      icon: ThumbsDown,
+    },
+    {
+      title: "Inadequate Labor",
+      description:
+        "Employing less experienced technicians or insufficient staffing for the project timeline.",
+      icon: Hammer,
+    },
+    {
+      title: "Missing Scope",
+      description:
+        "Omitting crucial aspects of the project (e.g., permits, complex ductwork, specialized controls) that will later be added as costly change orders.",
+      icon: ClipboardCheck,
+    },
+    {
+      title: "Lack of Insurance/Bonding",
+      description:
+        "Operating without adequate protection for your business.",
+      icon: ShieldX,
+    },
+  ];
       
   return (
     <div className="bg-gradient-to-b mt-24 from-cyan-50 to-white">
@@ -668,6 +742,7 @@ Assess Energy Efficiency Expertise
           <p className="mt-6 text-lg text-gray-700">
             Beware of vague "lump sum" bids. A reputable contractor will provide granular detail and explain each line item. The lowest bid often signals cut corners, potentially leading to higher long-term operational costs and premature system failure.
           </p>
+
         </div>
       </div>
     </section>
@@ -675,19 +750,19 @@ Assess Energy Efficiency Expertise
 
     <section className="py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100 text-gray-800">
       <div className="max-w-7xl mx-auto px-6">
+
         <h2 className="text-4xl md:text-5xl font-bold text-center text-cyan-700 mb-12">
-          Evaluating Service Packages & Avoiding Low-Value Estimates
+Evaluating Comprehensive Service Packages
         </h2>
 
         {/* Comprehensive Service Packages */}
         <div className="mb-16">
-        
-          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
-            Comprehensive Service Package Options
-          </h3>
+
+          
 
           <p className="text-lg text-gray-700 mb-6">
-            Post-installation support is crucial. Choose a partner offering proactive service to ensure long-term reliability and efficiency.
+         For commercial and industrial clients, ongoing support is paramount. Inquire about a range of service packages beyond the initial installation or repair:
+
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -706,15 +781,18 @@ Assess Energy Efficiency Expertise
               </div>
             ))}
           </div>
+          <p className="text-lg text-gray-700 my-6">
+            Choosing a contractor who offers comprehensive post-installation support ensures continuity and optimizes your operational expenditures.
+          </p>
         </div>
 
         {/* Avoiding Low-Ball Estimates */}
         <div className="mb-16">
           <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
-            Avoiding Low-Ball Estimates & Ensuring True Value
+           Avoiding Low-Ball Estimates and Ensuring Value
           </h3>
           <p className="text-lg text-gray-700 mb-6">
-            A surprisingly low bid is often a red flag. Examine where corners may be cut, and focus on total cost of ownership (TCO), not just upfront savings.
+In the commercial sector, a significantly low bid is a major red flag. It often indicates:
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -735,17 +813,18 @@ Assess Energy Efficiency Expertise
           </div>
 
           <p className="mt-6 text-lg text-gray-700">
-            Always obtain multiple detailed proposals. Scrutinize discrepancies and prioritize contractors offering transparency, quality, and efficiency.
-          </p>
+         Always obtain at least three detailed proposals. If one is substantially lower, demand a line-by-line explanation of the discrepancies. Focus on the total cost of ownership (TCO), which includes initial investment, energy consumption, maintenance, and projected lifespan, rather than just the upfront price. A higher initial investment in a quality system and contractor can lead to significant long-term savings and fewer headaches.
+ </p>
         </div>
 
         {/* Facility Evaluation */}
         <div>
           <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
-            Conduct a Thorough Facility Evaluation
+Conduct a Thorough Facility Evaluation
           </h3>
           <p className="text-lg text-gray-700 mb-6">
-            Before receiving any formal proposal, a reliable contractor must perform a detailed, on-site evaluation of your facility—assessing operational needs, infrastructure, and performance goals.
+           Before any proposals are finalized, a reputable HVAC contractor for industrial and commercial spaces must conduct an extensive, on-site facility evaluation. This isn't a quick walk-through; it's a deep dive into your operational needs, building characteristics, and existing infrastructure. This comprehensive assessment is the foundation for an accurate design, proper sizing, and ultimately, a system that meets your specific business objectives.
+
           </p>
           <div className="flex items-start gap-4 bg-white rounded-2xl border border-cyan-200 shadow-md p-6">
             <Building2 className="w-8 h-8 text-cyan-600 shrink-0 mt-1" />
