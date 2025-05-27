@@ -18,8 +18,10 @@
     "@next/third-parties": "^15.1.5",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.5.1",
     "cloudinary-react": "^1.8.1",
+    "clsx": "^2.1.1",
     "d3-geo": "^3.1.1",
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
@@ -39,7 +41,9 @@
     "react-toastify": "^11.0.2",
     "sass": "^1.77.8",
     "splitting": "^1.1.0",
-    "swiper": "^11.1.14"
+    "swiper": "^11.1.14",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "daisyui": "^4.12.10",

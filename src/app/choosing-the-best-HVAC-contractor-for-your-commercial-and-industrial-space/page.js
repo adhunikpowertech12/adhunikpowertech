@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -43,9 +44,22 @@ import {
   Building2
 } from "lucide-react";
 
+import { useState } from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
+
+
+import { PhoneCall, AlarmClockCheck, MapPin, PackageCheck } from 'lucide-react';
+
+import {  RefreshCw,  } from 'lucide-react';
+
 
 export default function page() {
       
+ const [openIndex, setOpenIndex] = useState(null);
+
+  const toggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
   const energySystems = [
   {
@@ -404,7 +418,144 @@ export default function page() {
       icon: Building2,
     },
   ];
+
+    const benefits = [
+    {
+      icon: <ShieldCheck className="text-cyan-600 w-12 h-12" />,
+      title: "Maximized Uptime",
+      description:
+        "Reduces the likelihood of unexpected breakdowns, which can halt production, damage sensitive equipment, or compromise environmental conditions."
+    },
+    {
+      icon: <RefreshCw className="text-cyan-600 w-12 h-12" />,
+      title: "Optimized Energy Efficiency",
+      description:
+        "Regular tune-ups, cleaning, and calibration ensure components operate at their intended efficiency, leading to significant energy cost savings."
+    },
+    {
+      icon: <Clock className="text-cyan-600 w-12 h-12" />,
+      title: "Extended Equipment Lifespan",
+      description:
+        "Proactive identification and resolution of minor issues prevent them from escalating into major, costly repairs, thereby prolonging the life of expensive equipment."
+    },
+    {
+      icon: <ShieldCheck className="text-cyan-600 w-12 h-12" />,
+      title: "Compliance and Safety",
+      description:
+        "Ensures systems meet regulatory standards for indoor air quality, safety, and environmental impact."
+    },
+    {
+      icon: <CalendarCheck2 className="text-cyan-600 w-12 h-12" />,
+      title: "Preserved Warranties",
+      description:
+        "Most manufacturer warranties for commercial equipment mandate regular professional maintenance."
+    }
+  ];
+
+  const maintenancePlans = [
+    {
+      title: "Basic Inspection/Tune-up Plans",
+      description:
+        "Annual or semi-annual checks, filter changes, coil cleaning, and basic operational checks."
+    },
+    {
+      title: "Comprehensive PM Contracts",
+      description:
+        "Include all basic services plus more in-depth diagnostics, specific component checks, lubrication, belt replacements, and potential discounts on parts and labor for covered repairs."
+    },
+    {
+      title: "Full-Service Contracts",
+      description:
+        "The most inclusive, often covering all parts and labor for repairs (excluding major equipment replacement), with prioritized service. This offers the highest level of budget predictability."
+    },
+    {
+      title: "Predictive Maintenance (PdM) Plans",
+      description:
+        "Utilizing advanced technologies like vibration analysis, thermography, and oil analysis to monitor equipment health and predict failures, allowing for maintenance to be scheduled proactively before a breakdown occurs."
+    },
+    {
+      title: "Seasonal Commissioning",
+      description:
+        "Optimizing systems specifically for heating or cooling seasons to ensure peak performance."
+    }
+  ];
+
+   const supportItems = [
+    {
+      icon: <PhoneCall className="text-cyan-600 w-14 h-14" />,
+      title: "24/7/365 Availability",
+      description:
+        "Do they offer round-the-clock emergency service, including holidays?"
+    },
+    {
+      icon: <AlarmClockCheck className="text-cyan-600 w-14 h-14" />,
+      title: "Guaranteed Response Times",
+      description:
+        "What is their promised response time for critical failures (e.g., within 2-4 hours)? Are these legally binding in the contract?"
+    },
+    {
+      icon: <PhoneCall className="text-cyan-600 w-14 h-14" />,
+      title: "Dedicated Emergency Line/Dispatch",
+      description:
+        "Do they have a clear, easy-to-access system for emergency calls?"
+    },
+    {
+      icon: <MapPin className="text-cyan-600 w-14 h-14" />,
+      title: "Geographic Coverage",
+      description:
+        "Ensure their emergency service extends to your facility's location."
+    },
+    {
+      icon: <AlertTriangle className="text-cyan-600 w-14 h-14" />,
+      title: "After-Hours Rates",
+      description:
+        "Understand any premium charges for emergency or after-hours service."
+    },
+    {
+      icon: <PackageCheck className="text-cyan-600 w-14 h-14" />,
+      title: "Parts Availability",
+      description:
+        "Do they stock common commercial/industrial parts or have rapid access to suppliers to minimize downtime?"
+    }
+  ];
       
+
+  const faqItems = [
+  {
+    question:
+      "Why is it important to hire a licensed HVAC contractor with commercial specialization?",
+    answer:
+      "Hiring a contractor with commercial-specific licenses ensures they possess the necessary expertise for complex systems, adhere to stringent building codes, and carry appropriate insurance, protecting your business from operational and legal risks."
+  },
+  {
+    question:
+      "How can I verify a commercial HVAC contractor's experience and reputation?",
+    answer:
+      "Request detailed client references from similar commercial projects, ask for case studies, and inquire about their safety record (e.g., EMR). While online reviews are helpful, direct commercial client feedback is more valuable."
+  },
+  {
+    question:
+      "Why are energy efficiency services crucial for commercial spaces?",
+    answer:
+      "Energy efficiency services for commercial HVAC systems can lead to significant reductions in operational costs, lower carbon emissions, and improved compliance with environmental regulations, directly impacting your business's profitability and sustainability."
+  },
+  {
+    question:
+      "What specific types of warranties and guarantees should I inquire about for commercial HVAC?",
+    answer:
+      "Ask about comprehensive manufacturer equipment warranties, detailed contractor workmanship warranties, and, most importantly, Service Level Agreements (SLAs) that outline guaranteed response times and potential performance guarantees for system uptime and energy consumption."
+  },
+  {
+    question:
+      "How do commercial maintenance plans benefit businesses?",
+    answer:
+      "Regular, tailored maintenance plans for commercial HVAC systems prevent costly breakdowns, extend equipment lifespan, optimize energy efficiency, ensure compliance, and provide budget predictability, minimizing operational disruptions and maximizing ROI."
+  }
+];
+
+ 
+ 
+
   return (
     <div className="bg-gradient-to-b mt-24 from-cyan-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -1008,6 +1159,101 @@ Conduct a Thorough Facility Evaluation
     </section>
 
 
+
+ <div className="space-y-12 px-4 lg:px-16 py-10 bg-white rounded-xl shadow-lg">
+      <section className="space-y-4">
+        <h2 className="text-4xl font-extrabold text-cyan-700">
+          Ask About Maintenance Plans and Support
+        </h2>
+        <p className="text-gray-700 text-lg">
+          The commissioning and installation of an HVAC system for an industrial or commercial
+          space are just the beginning. Ongoing maintenance and support are absolutely critical
+          to ensuring system longevity, peak performance, and maximum energy efficiency. Neglecting
+          these aspects can lead to costly breakdowns, operational disruptions, and significantly
+          higher utility bills.
+        </p>
+      </section>
+
+      <section className="space-y-4">
+        <h3 className="text-3xl font-bold text-cyan-600">
+          Benefits of Regular Preventive Maintenance (PM)
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {benefits.map((item, index) => (
+            <div key={index} className="bg-cyan-50 border border-cyan-100 rounded-2xl p-6 hover:shadow-xl transition-shadow">
+              <div className="flex items-start space-x-4">
+                <div className="shrink-0">{item.icon}</div>
+                <div>
+                  <h4 className="text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
+                  <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="space-y-4">
+        <h3 className="text-3xl font-bold text-cyan-600">
+          Types of Commercial/Industrial Maintenance Plans
+        </h3>
+        <p>Maintenance plans for commercial and industrial facilities are typically much more detailed and tailored than residential ones. Ask about:
+</p>
+        <ul className="space-y-4 text-gray-800 text-base">
+          {maintenancePlans.map((plan, index) => (
+            <li key={index} className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-cyan-600 before:rounded-full">
+              <span className="font-semibold text-cyan-700">{plan.title}:</span> {plan.description}
+            </li>
+          ))}
+        </ul>
+        <p className="text-gray-700 text-base">
+          Ensure the plan clearly defines the scope of work, frequency of visits, included parts,
+          and any excluded services. Compare plans to find one that aligns with your operational
+          criticality and budget.
+        </p>
+      </section>
+    </div>
+
+
+      <div className="px-6 lg:px-24 py-12 bg-white rounded-3xl shadow-2xl space-y-16">
+      <div className="space-y-6">
+        <h2 className="text-4xl font-extrabold text-cyan-700">Emergency Support Availability and Service Level Agreements (SLAs)</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          For commercial and industrial operations, HVAC emergencies can be catastrophic. Therefore, understanding the contractor's emergency support capabilities is paramount:
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {supportItems.map((item, index) => (
+          <div key={index} className="bg-cyan-50 border border-cyan-100 rounded-2xl p-6 flex items-start space-x-5 hover:shadow-xl transition-shadow">
+            <div className="shrink-0">{item.icon}</div>
+            <div>
+              <h4 className="text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
+              <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="space-y-6">
+        <p className="text-gray-700 text-base">
+          A strong Service Level Agreement (SLA) for emergency support is a critical component of any commercial HVAC contract. It provides peace of mind knowing that when your critical systems fail, your chosen contractor will respond swiftly and effectively.
+        </p>
+      </div>
+
+      <div className="space-y-6 pt-10 border-t border-cyan-200">
+        <h2 className="text-4xl font-bold text-cyan-700">Wrapping It Up</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Selecting the right HVAC contractor for your industrial or commercial space is a critical business decision. It directly impacts your operational efficiency, energy consumption, indoor environment quality, and ultimately, your bottom line. Take the time to meticulously verify their licenses, assess their commercial experience and reputation, delve into their energy efficiency expertise, scrutinize warranties and service guarantees, and compare detailed proposals.
+        </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Don’t rush this process; a well-chosen contractor will help you avoid costly downtime, extend asset life, and ensure your business stays comfortable and productive for years to come. Start your search today, and make sure you partner with a leader who understands the unique demands of commercial and industrial HVAC. Your business deserves it!
+        </p>
+      </div>
+    </div>
+
+
+
           {/* CTA Section */}
           <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
             <div className="text-center max-w-3xl mx-auto">
@@ -1037,6 +1283,39 @@ Conduct a Thorough Facility Evaluation
               </div>
             </div>
           </section>
+
+
+ <div className="px-6 lg:px-24 py-12 bg-white rounded-3xl shadow-2xl">
+      <h2 className="text-5xl font-extrabold text-cyan-700 mb-10">Frequently Asked Questions</h2>
+      <div className="space-y-4">
+        {faqItems.map((item, index) => (
+          <div
+            key={index}
+            className="border border-cyan-100 rounded-2xl bg-cyan-50 overflow-hidden"
+          >
+            <button
+              onClick={() => toggle(index)}
+              className="w-full flex justify-between items-center p-5 text-left hover:bg-cyan-100 transition-colors"
+            >
+              <span className="text-lg font-semibold text-cyan-800">
+                {item.question}
+              </span>
+              {openIndex === index ? (
+                <ChevronUp className="w-6 h-6 text-cyan-600" />
+              ) : (
+                <ChevronDown className="w-6 h-6 text-cyan-600" />
+              )}
+            </button>
+            {openIndex === index && (
+              <div className="p-5 pt-0 text-gray-700 text-base leading-relaxed">
+                {item.answer}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+
 
 
         </div>
