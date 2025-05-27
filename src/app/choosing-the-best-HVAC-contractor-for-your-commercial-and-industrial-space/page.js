@@ -4,6 +4,41 @@ import React from 'react'
 
 export default function page() {
       
+
+  const energySystems = [
+  {
+    title: 'Variable Refrigerant Flow (VRF) Systems',
+    desc: 'Highly efficient for zones with varying heating/cooling needs.',
+    icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4'
+  },
+  {
+    title: 'Geothermal HVAC',
+    desc: 'Leverages ground temperature for significant energy savings in suitable locations.',
+    icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4'
+  },
+  {
+    title: 'High-Efficiency Chillers & Boilers',
+    desc: 'Optimized for your specific load requirements.',
+    icon: 'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4'
+  },
+  {
+    title: 'Advanced Building Management Systems (BMS) / HVAC Controls',
+    desc: 'Smart systems that automate and optimize HVAC operation based on occupancy, weather, and operational schedules',
+    icon: 'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z'
+  },
+  {
+    title: 'Heat Recovery Ventilation (HRV) / Energy Recovery Ventilation (ERV) Systems',
+    desc: 'Reclaiming energy from exhaust air to temper incoming fresh air.',
+    icon: 'M12 6v6m0 0v6m0-6h6m-6 0H6'
+  },
+  {
+    title: 'Dedicated Outside Air Systems (DOAS)',
+    desc: 'Separating ventilation from space conditioning for better efficiency and indoor air quality.',
+    icon: 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z'
+  }
+];
+
+
     const ClientReferences = [
         {
          description: "The contractor's responsiveness and professionalism.",
@@ -22,6 +57,55 @@ export default function page() {
         },
     ];
       
+     const warrantyTypes = [
+    {
+      title: "Manufacturer Equipment Warranties",
+      description:
+        "These cover the major components (compressors, heat exchangers, motors) and often vary in length (e.g., 5, 10, or even 15 years) and coverage based on the specific equipment. Some manufacturers offer extended warranties or performance guarantees for critical components.",
+    },
+    {
+      title: "Contractor Workmanship Warranties",
+      description:
+        "These cover the labor and installation quality provided by the contractor. The duration can range from 1 to 5 years, but for complex commercial installations, aim for a longer period. This warranty is vital as proper installation is key to system longevity and efficiency.",
+    },
+    {
+      title: "Parts Replacement Warranties",
+      description:
+        "Beyond major components, inquire about warranties for smaller, frequently replaced parts that can impact uptime.",
+    },
+  ];
+
+  const warrantyDocumentation = [
+    {
+      title: "Coverage Scope",
+      description:
+        "Clearly delineate what is covered (parts, labor, specific components) and what is excluded (e.g., routine maintenance, acts of God, damage from improper operation by facility staff).",
+    },
+    {
+      title: "Duration",
+      description:
+        "Note the start and end dates for all warranty types.",
+    },
+    {
+      title: "Transferability",
+      description:
+        "If you plan to sell the property, can the warranty be transferred to the new owner?",
+    },
+    {
+      title: "Claim Process",
+      description:
+        "Understand the exact procedure for making a warranty claim, including required documentation, response times, and authorized service providers.",
+    },
+    {
+      title: "Maintenance Requirements",
+      description:
+        "Many warranties are contingent on adhering to a strict schedule of preventative maintenance performed by qualified technicians. Failure to do so can void your warranty.",
+    },
+  ];
+
+
+     
+
     const KeyTakeaways = [
         {
           description: "Always verify the HVAC contractor possesses the necessary commercial/industrial licenses, certifications, and comprehensive insurance.",
@@ -40,24 +124,48 @@ export default function page() {
         }
     ];
       
+    const Understanding = [
+        {
+          title:"ASHRAE 90.1",
+          description: "A widely adopted standard for energy efficiency in commercial buildings.",
+        },
+        
+        {
+          title:" Local and State Energy Codes",
+          description: " Specific regulations that dictate minimum efficiency requirements for new installations and retrofits.",
+        },
+        {
+          title:"Utility Rebate Programs",
+          description:"Opportunities for your business to receive financial incentives for installing high-efficiency equipment."
+        },
+        {
+          title:"Carbon Emission Reduction Targets",
+          description:"For businesses committed to sustainability, the contractor should understand how to contribute to these goals."
+        }
+        
+    ];
+      
   return (
     <div className="bg-gradient-to-b mt-24 from-cyan-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         
         {/* Hero Section */}
         <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
-          <div className="md:w-6/12">
-            <img
-              className="w-full h-auto rounded-xl shadow-xl border-4 border-cyan-100"
-              src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac2_v4rz2t.webp"
-              alt="Commercial HVAC System"
+          <div className=" w-full md:w-6/12">
             
-              loading="lazy"
-            />
+        <Image
+          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac2_v4rz2t.webp"
+          alt="Commercial HVAC System"
+          width={700}
+          height={500}
+          className="w-full h-auto rounded-xl shadow-xl border-4 border-cyan-100"
+          priority
+        />
+      
           </div>
 
 
-          <div className="md:w-6/12">
+          <div className=" w-full md:w-6/12">
             <h1 className="text-3xl font-bold text-cyan-800 mb-6 leading-tight">
               Choosing the Best HVAC Contractor for Your Commercial and Industrial Space
             </h1>
@@ -225,6 +333,192 @@ Choosing an HVAC contractor for your business is a strategic decision. Companies
          
           </section>
 
+
+          <section className="bg-white p-8 rounded-xl shadow-md">
+            <h2 className="text-3xl font-bold text-cyan-800 mb-6 flex items-center">
+              <span className="bg-cyan-100 p-2 rounded-lg mr-3">
+                <svg className="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </span>
+
+Assess Energy Efficiency Expertise
+
+            </h2>
+            
+            <p className="text-gray-700 leading-relaxed mb-6">
+        In 2025, energy costs are a major operational expenditure for industrial and commercial entities. Therefore, selecting an HVAC contractor with deep expertise in energy efficiency is not just a preference, but a strategic imperative. You need a partner who can optimize your systems to reduce your carbon footprint and, more importantly, deliver significant savings on your utility bills.
+            </p>
+
+          </section>
+
+
+
+ <section className="mb-16 bg-white p-8 rounded-xl shadow-md border border-cyan-100">
+          <div className="text-3xl font-bold text-cyan-800 mb-6 pb-2 border-b-2 border-cyan-200">
+            <span className="bg-cyan-600 text-white px-2 py-1 rounded-md">Understanding Commercial Energy Standards and Regulations
+</span>
+          </div>
+               <p className="text-gray-700 leading-relaxed mb-6">
+       The contractor must be thoroughly versed in the latest commercial energy standards, regulations, and incentive programs. This includes understanding metrics like EER (Energy Efficiency Ratio) and IPLV (Integrated Part Load Value) for commercial cooling systems, and efficiency standards for boilers, furnaces, and industrial process heating. They should be knowledgeable about:
+
+            </p>
+          <ul className="space-y-4 list-disc ">
+            {Understanding.map((item, index) => (
+
+              <li key={index} className="flex items-start   font-sans">
+             <span className=' font-bold pr-2'>{item.title} :</span> {item.description}
+              </li>
+
+
+            ))}
+          </ul>
+
+          <p className="text-gray-700 leading-relaxed py-6">
+            A contractor who can articulate how these standards apply to your facility and how they can leverage them for your benefit is invaluable.
+
+          </p>
+        </section>
+
+
+  <section className="bg-white p-8 rounded-xl shadow-md border border-cyan-100 mb-16">
+      <div className="flex items-center mb-8">
+        <div className="bg-cyan-100 p-3 rounded-lg mr-4">
+          <svg className="w-8 h-8 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+        </div>
+        <h2 className="text-3xl font-bold text-cyan-800">Assess Energy Efficiency Expertise</h2>
+      </div>
+
+      <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg mb-8">
+        <p className="text-cyan-800 font-medium text-lg">
+          In 2025, energy costs are a major operational expenditure for industrial and commercial entities. Selecting an HVAC contractor with deep expertise in energy efficiency is not just a preference, but a <span className="font-bold">strategic imperative</span> for reducing both carbon footprint and utility bills.
+        </p>
+      </div>
+
+      <div className="bg-gradient-to-br from-cyan-50 to-white p-6 rounded-xl border border-cyan-200 shadow-sm mb-8">
+        <h3 className="text-2xl font-semibold text-cyan-700 mb-4 flex items-center">
+          <svg className="w-6 h-6 mr-2 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4" />
+          </svg>
+          Understanding Commercial Energy Standards
+        </h3>
+        <ul className="space-y-3 text-gray-700">
+          <li><strong>ASHRAE 90.1:</strong> Standard for energy efficiency in commercial buildings.</li>
+          <li><strong>Local and State Energy Codes:</strong> Minimum efficiency requirements for HVAC systems.</li>
+          <li><strong>Utility Rebate Programs:</strong> Financial incentives for high-efficiency equipment.</li>
+          <li><strong>Carbon Emission Reduction Targets:</strong> Align systems to meet sustainability goals.</li>
+        </ul>
+      </div>
+
+      <div className="mb-12">
+        <h3 className="text-2xl font-semibold text-cyan-700 mb-4">Recommendations for Optimized Energy-Saving Systems</h3>
+        <p className="text-gray-700 mb-6">
+         A truly expert contractor won't just replace like-for-like. They will conduct a thorough analysis of your facility's energy consumption patterns and propose tailored, energy-saving solutions. This might include:
+
+        </p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {energySystems.map((system, index) => (
+            <div key={index} className="bg-white p-5 rounded-lg border border-cyan-100 hover:border-cyan-300 transition-all shadow-sm hover:shadow-md">
+              <div className="bg-cyan-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={system.icon} />
+                </svg>
+              </div>
+              <h4 className="font-bold text-cyan-700 text-lg mb-2">{system.title}</h4>
+              <p className="text-gray-600">{system.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-gray-700 mb-6 py-5">They should provide clear ROI calculations for proposed upgrades, demonstrating how initial investments translate into long-term operational savings.
+</p>
+      </div>
+
+      <div className="bg-cyan-50 p-6 rounded-lg border-l-4 border-cyan-500">
+        <h3 className="text-xl font-semibold text-cyan-700 mb-4">Importance of Comprehensive Energy Audits and Analysis
+</h3>
+<p className="text-gray-700 mb-6">A crucial service for industrial and commercial spaces is a comprehensive energy audit. The contractor should utilize advanced tools and methodologies, such as:
+</p>
+        <ul className="space-y-2 text-gray-700 list-disc list-inside">
+          <li className=' font-sans' ><strong>Load Calculations : </strong> Precise determination of heating and cooling loads based on building envelope, occupancy, equipment, and processes</li>
+          <li className=' font-sans'><strong>Blower Door Tests (for smaller commercial spaces) / Thermal Imaging : </strong> Identifying air leakage and insulation deficiencies.
+</li>
+          <li className=' font-sans'><strong>Ductwork Integrity Testing : </strong> Assessing leaks and blockages in large-scale duct systems.
+</li>
+          <li className=' font-sans'><strong>System Performance Baselines : </strong> Establishing current energy usage and identifying areas for improvement.
+</li>
+        </ul>
+       
+      </div>
+    </section>
+
+
+    
+
+
+
+       <section className="py-20 bg-gradient-to-br from-cyan-50 via-white to-cyan-100 text-gray-800">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Section Title */}
+        <h2 className="text-4xl md:text-4xl font-bold text-center text-cyan-700 mb-12">
+          Inquire About Warranties and Service Guarantees
+        </h2>
+
+        {/* Warranty Types */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            Types of Warranties for Commercial Systems
+          </h3>
+          <p className="mb-6 text-gray-700 text-lg">
+            For commercial and industrial HVAC systems, warranties are far more complex and crucial due to the significant investment involved. Typically, you'll encounter:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {warrantyTypes.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200"
+              >
+                <h4 className="text-xl font-semibold text-cyan-900 mb-2">
+                  {item.title}
+                </h4>
+                <p className="text-gray-700">{item.description}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-6 text-gray-700 text-lg">
+            Thoroughly understand what each warranty covers, its duration, and any conditions that might void it (e.g., neglecting scheduled maintenance).
+          </p>
+        </div>
+
+        {/* Warranty Documentation */}
+        <div>
+          <h3 className="text-2xl font-semibold text-cyan-800 mb-4">
+            What to Look For in Warranty Documentation
+          </h3>
+          <p className="mb-6 text-gray-700 text-lg">
+            When reviewing warranty agreements, pay meticulous attention to the fine print:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {warrantyDocumentation.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl border border-cyan-200 shadow-md p-6 hover:shadow-lg transition-all duration-200"
+              >
+                <h4 className="text-xl font-semibold text-cyan-900 mb-2">
+                  {item.title}
+                </h4>
+                <p className="text-gray-700">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
 
 
           {/* CTA Section */}
