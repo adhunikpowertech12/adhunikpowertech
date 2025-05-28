@@ -540,15 +540,15 @@ const processSteps = [
   return (
     <>
 
-  <div className="bg-white text-gray-900">
+  <div className="bg-white text-gray-800">
   {/* Header Hero */}
-  <section className="bg-gradient-to-r from-cyan-500 to-cyan-800 pt-36 pb-24 px-6">
+  <section className="bg-gradient-to-r from-cyan-500 to-cyan-800 pt-40  pb-24 px-6">
     <div className="max-w-5xl mx-auto text-center">
-      <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-md">
+      <h1 className="text-2xl md:text-4xl font-extrabold text-cyan-50 leading-tight mb-6 drop-shadow-md">
         Adhunik Powertech: Your Trusted HVAC Contractor for Turnkey Solutions
       </h1>
         
-      <p className="text-lg md:text-2xl max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
+      <p className="text-lg   max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
         Leading HVAC Contractor in Gurugram & Delhi NCR | Turnkey Heating, Ventilation & Air Conditioning Solutions
       </p>
     </div>
@@ -645,7 +645,7 @@ const processSteps = [
 
       <section className="bg-cyan-800 text-white py-16 text-center px-6">
         <h3 className="text-2xl md:text-3xl font-bold mb-4">Looking for Custom HVAC Solutions?</h3>
-        <p className="mb-6 text-lg max-w-2xl mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
+        <p className="mb-6 text-lg  mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
         <a href="/contact" className="inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
 
 </a>
@@ -804,10 +804,10 @@ CERTIFICATION
           <div className="row flex flex-row flex-wrap-reverse  justify-evenly items-center">
             <div className=" w-full h-full md:w-5/12 ">
               <h2
-                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 md:text-left text-center text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
 
                 Air Cooling Jobs</h2>
-              <p className="  text-center font-normal text-[16px] leading-8 px-3 text-gray-500  max-w-2xl mx-auto">
+              <p className="  md:text-left text-center font-normal  text-sm text-cyan-800 leading-8 px-3     mx-auto">
               At Adhunik Powertech, we take pride in delivering a wide range of cooling methods that effectively lower air temperatures according to your specific needs. Our selection of Air Cooling Products—such as Air Washers, Ventilation Fans, and both Ducted and Non-Ducted Air Coolers—ensures increased airflow and reduced temperatures, helping you create the ideal environment.
 
                 <br />
@@ -837,7 +837,7 @@ CERTIFICATION
                 Air Conditioning Jobs</h2>
 
 
-              <p className=" text-justify px-3 font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+              <p className=" text-sm text-cyan-800 text-justify px-3 font-normal text-[16px] leading-8  max-lg:text-center  mx-auto">
               We specialize in enhancing air quality and comfort in every environment. Our mission is to efficiently deliver conditioned air to all spaces, ensuring that everyone enjoys optimal conditions.
 
                 <br />
@@ -868,12 +868,12 @@ With years of experience in air conditioning projects, we have a proven track re
                 Clean Room & OT Jobs
 
               </h2>
-              <div className=" text-justify font-normal text-[16px] leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+              <div className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto">
               Our team of professional engineers specializes in designing HVAC layouts for clean rooms and operating theatres, which require a high level of precision with strict zero tolerance for the entry of foreign particles. We create controlled, isolated environments for handling contamination-sensitive substances while also protecting the exterior environment from hazardous materials within these controlled areas. 
 
                 <br />
                 To maintain these standards, we manage the density of sub-micron and larger airborne particles by introducing clean, filtered air into the cleanroom. 
-<p className=' text-2xl '>Our services include:
+<p className=' text-2xl py-4 '>Our services include:
 </p>
                 <div className="card px-4  md:px-0 ">
       <ul className="list-disc py-3 space-y-1 ps-4   ">
@@ -962,16 +962,16 @@ With years of experience in air conditioning projects, we have a proven track re
 <div className="about-content pb-8">
 <div className="section-title ">
 
-<p className=" text-gray-500 font-sans">
+<p className="  text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto ">
 Do you notice stale, stuffy, or moldy air lingering in your space? At Adhunik Powertech, we offer an effective Basement Ventilation System designed to improve your air quality by addressing the natural “stack effect” found in industrial, institutional, commercial, and residential settings.
 
 </p>
 
-<p className=" text-gray-500 font-sans mt-4">
+<p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto">
 Our innovative Ventilation System provides a crucial escape route for trapped, unhealthy air in your basement while bringing in clean, dry air from above to replace the damp, polluted atmosphere.
 </p>
 
-<p className=" text-gray-500 font-sans mt-4">
+<p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto">
 The best part? No extra heating or cooling ducts are required! Our system enhances air circulation, resulting in more frequent air exchanges. Enjoy a cleaner and healthier living environment that you can truly appreciate.
 </p>
 
@@ -1007,35 +1007,35 @@ The best part? No extra heating or cooling ducts are required! Our system enhanc
 Ducting Jobs
 
     </h2>
-    <div className=" text-justify font-normal text-[16px] leading-8 text-gray-500 font-sans  max-lg:text-center max-w-2xl mx-auto">
+    <div className=" text-justify font-normal text-[16px] leading-8 text-gray-500 font-sans  max-lg:text-center  mx-auto">
     
     <div className="about-content pb-8">
   <div className="section-title  ">
    
-    <p className=" text-gray-500 font-sans ">
+    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto ">
     At Adhunik Powertech, we understand the importance of expertly installed ductwork in creating a comfortable indoor environment. Our commitment ensures that your space remains at the ideal temperature, enhancing your overall comfort.
 
     </p>
 
-    <p className=" text-gray-500 font-sans  mt-4">
+    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto  mt-4">
     Neglecting proper ductwork installation can lead to significant problems, including air leakage, inefficient systems, compromised air quality, and expedited wear and tear on your heating and air conditioning systems. Don’t let improper installation jeopardize your comfort and investment!
 
     </p>
 
-    <p className=" text-gray-500 font-sans  mt-4">
+    <p className=" text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto  mt-4">
     Correct duct sizing is also vital—duct dimensions must perfectly match your heater or air conditioner for optimal performance. Our team of expert technicians specializes in precisely aligning your duct system to your existing equipment. Through meticulous adjustments, we maximize efficiency, comfort, and system longevity, guaranteeing effective airflow wherever you need it.
 
     </p>
 
   
 
-    <p className=" text-gray-700 font-sans  mt-4">
+    <p className=" text-cyan-900 font-sans text-2xl mt-4  ">
       <strong>Our comprehensive Ducting Jobs process includes:
       </strong>
     </p>
 
    <div className="card px-4 md:px-0">
-   <ul className="list-disc py-3 space-y-1 ps-4 ">
+   <ul className="list-disc py-3 space-y-1 ps-4 text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto">
       <li> Carrying out seamless installation and operation of all ducting activities.
       </li>
       <li>  ⁠Efficiently scheduling, assigning, planning, and monitoring duct work on your project sites.
@@ -1050,7 +1050,7 @@ Ducting Jobs
     </ul>
    </div>
 
-   <p>Choose Adhunik Powertech for professional ductwork that you can trust, ensuring comfort and efficiency for years to come!</p>
+   <p className='text-sm text-cyan-800 text-justify font-normal text-[16px] leading-8   max-lg:text-center  mx-auto'>Choose Adhunik Powertech for professional ductwork that you can trust, ensuring comfort and efficiency for years to come!</p>
   </div>
 </div>
 
@@ -1074,13 +1074,13 @@ Ducting Jobs
     </p>
   </div>
 
-  <div className="container text-center py-5 md:px-10 px-3">
+  <div className="container text-center py-5 md:px-10 px-3  text-cyan-800">
     <p>The right HVAC system ensures optimal comfort and energy efficiency in your working space. Factors like climate, room size, and insulation are critical in determining the best HVAC solution. Consult with an HVAC professional to find a system that fits your specific needs and enhances indoor air quality.
     </p>
 
     <div className="show_m mt-5">
       <button
-        className="rounded-md bg-blue-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
+        className="rounded-md bg-cyan-700 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
         onClick={() => {
           window.location.href = 'tel:8287885885'; // Replace with the actual phone number
         }}
