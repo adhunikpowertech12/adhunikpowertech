@@ -4,6 +4,39 @@ import React, { useEffect, useState } from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import {
+  BadgeCheck,
+  Wrench,
+  ShieldCheck,
+  Award,
+  Handshake,
+} from "lucide-react";
+
+
+import {
+  Settings,  
+  RotateCcw,
+  Building2,
+  Factory,
+  Hospital,
+  Hotel,
+  GraduationCap,
+  Server,
+  FlaskConical,
+  ShoppingBag,
+} from "lucide-react";
+
+
+import {
+  ClipboardCheck,
+  PencilRuler,
+  Hammer,
+  CheckCircle2,
+  UserCheck,
+  Leaf, 
+} from "lucide-react";
+
+
 const images3 = [
   {
     original: "/jobs/1.jpg",
@@ -339,7 +372,6 @@ export default function HvacProduct() {
       }
     
     
-    
       const cardData = [
     
         {
@@ -400,9 +432,279 @@ export default function HvacProduct() {
         },
       ];
     
+
+      const highlights = [
+  {
+    icon: <BadgeCheck className="w-6 h-6 text-cyan-600" />,
+    title: "19+ Years of Proven Expertise",
+    description:
+      "With nearly two decades in the HVAC industry, our seasoned team possesses the profound knowledge and practical experience to handle projects of any scale and complexity. We've mastered the art of designing and implementing robust HVAC systems.",
+  },
+  {
+    icon: <Wrench className="w-6 h-6 text-cyan-600" />,
+    title: "Seamless Turnkey HVAC Solutions",
+    description:
+      "As a leading HVAC contractor, we offer a complete suite of services from initial consultation and meticulous design to expert installation, rigorous commissioning, and dependable after-sales support. We manage every aspect, ensuring a hassle-free experience and a perfectly integrated system.",
+  },
+  {
+    icon: <ShieldCheck className="w-6 h-6 text-cyan-600" />,
+    title: "Adherence to Global Standards",
+    description:
+      "Your peace of mind is our priority. We strictly adhere to national and international standards, including NBC, CPWD, NABH guidelines, ISHRAE, ASHRAE, and ISO certifications, guaranteeing systems that are safe, efficient, and compliant.",
+  },
+  {
+    icon: <Award className="w-6 h-6 text-cyan-600" />,
+    title: "Award-Winning Excellence",
+    description:
+      "Our commitment to quality and service has been recognized with the prestigious India Business Award 2025 for Best Quality Standards and Services in the HVAC Industry. This award is a testament to our relentless pursuit of perfection.",
+  },
+  {
+    icon: <Handshake className="w-6 h-6 text-cyan-600" />,
+    title: " Client-Centric Approach",
+    description:
+      " We believe in forging lasting partnerships. Our team works closely with you to understand your unique needs, delivering customized HVAC contractor services that align perfectly with your operational goals and budget.",
+  },
+];
     
+
+const services = [
+  {
+    title: "HVAC System Design & Engineering",
+    icon: Settings,
+    description:
+      "Our expert engineers utilize advanced software and their extensive knowledge to design bespoke HVAC systems that are energy-efficient, cost-effective, and perfectly suited to your building's specific demands. This includes load calculations, ducting design, and equipment selection.",
+  },
+  {
+    title: "HVAC System Installation & Commissioning",
+    icon: Wrench,
+    description:
+      "From industrial chillers and large-scale air washers to precision panel ACs and ducted/non-ducted air coolers, our certified HVAC contractors ensure flawless installation. We meticulously commission every system to guarantee peak performance from day one.",
+  },
+  {
+    title: "Specialized HVAC Solutions",
+    icon: ShieldCheck,
+    description:
+      "We excel in delivering HVAC solutions for highly sensitive and critical environments:",
+    bullets: [
+      "Clean Room & OT HVAC Contractor: Designing and installing sterile, contaminant-free air systems crucial for healthcare, pharmaceutical, and research facilities.",
+      "Basement Ventilation & Lift Pressurization: Implementing robust systems for safety and comfort in underground spaces and ensuring smoke-free escape routes in high-rise buildings.",
+    ],
+  },
+  {
+    title: "HVAC Maintenance & After-Sales Support",
+    icon: RotateCcw,
+    description:
+      "Extend the lifespan and efficiency of your HVAC systems with our comprehensive maintenance services. Our dedicated team provides prompt support, preventive maintenance, and emergency repairs, offering tailored HVAC annual maintenance contracts (AMCs) to keep your systems running smoothly.",
+  },
+];
+
+const industries = [
+  { name: "Commercial Complexes & Office Buildings", icon: Building2 },
+  { name: "Industrial Facilities & Manufacturing Plants", icon: Factory },
+  { name: "Hospitals & Healthcare Centers", icon: Hospital },
+  { name: "Hotels & Hospitality Sector", icon: Hotel },
+  { name: " Educational Institutions", icon: GraduationCap },
+  { name: "Data Centers & IT Parks", icon: Server },
+  { name: " Pharmaceutical & Research Laboratories", icon: FlaskConical },
+  { name: " Retail Spaces", icon: ShoppingBag },
+];
+
+const processSteps = [
+  {
+    title: "Consultation & Assessment",
+    description: "We begin by understanding your specific HVAC needs and conducting a thorough site assessment.",
+    icon: ClipboardCheck,
+  },
+  {
+    title: "Custom Design & Proposal",
+    description: "Our engineers develop a tailored HVAC system design and provide a detailed proposal outlining the scope, timeline, and cost.",
+    icon: PencilRuler,
+  },
+  {
+    title: "Expert Installation",
+    description: "Our skilled HVAC contractors execute the installation with precision, adhering to the highest safety and quality standards.",
+    icon: Hammer,
+  },
+  {
+    title: "Testing & Commissioning",
+    description: "Rigorous testing ensures your system performs optimally and meets all design specifications.",
+    icon: CheckCircle2,
+  },
+  {
+    title: "Handover & Support",
+    description: "We provide comprehensive training on your new system and remain available for ongoing maintenance and support.",
+    icon: UserCheck,
+  },
+];
+
   return (
     <>
+
+  <div className="bg-white text-gray-900">
+  {/* Header Hero */}
+  <section className="bg-gradient-to-r from-cyan-500 to-cyan-800 pt-36 pb-24 px-6">
+    <div className="max-w-5xl mx-auto text-center">
+      <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-md">
+        Adhunik Powertech: Your Trusted HVAC Contractor for Turnkey Solutions
+      </h1>
+        
+      <p className="text-lg md:text-2xl max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
+        Leading HVAC Contractor in Gurugram & Delhi NCR | Turnkey Heating, Ventilation & Air Conditioning Solutions
+      </p>
+    </div>
+  </section>
+
+  {/* Introduction */}
+  <section className="py-16 px-6 max-w-4xl mx-auto">
+    <p className="text-lg leading-relaxed text-justify text-gray-700 ">
+      Welcome to <span className="font-semibold text-cyan-700">Adhunik Powertech</span>, your premier HVAC contractor specializing in comprehensive, energy-efficient, and sustainable heating, ventilation, and air conditioning solutions. With over <span className="font-semibold">19+ years</span> of unparalleled experience, we pride ourselves on delivering end-to-end turnkey HVAC solutions for commercial, industrial, and specialized applications across Gurugram, Delhi NCR, and Haryana. As a trusted HVAC company, our dedication to precision engineering, timely execution, and unwavering quality ensures optimal indoor environments and long-term operational efficiency for your facility.
+    </p>
+  </section>
+
+  {/* Highlighted Services */}
+  <section className="bg-gray-50 py-20 px-6">
+    <div className="max-w-6xl mx-auto">
+      <h2 className="text-3xl font-bold text-cyan-800 text-center mb-12 tracking-tight">
+        Why Choose Adhunik Powertech as Your HVAC Contractor?
+      </h2>
+      <p className="text-center max-w-3xl mx-auto mb-10 text-gray-600 text-lg">
+        At Adhunik Powertech, we understand that selecting the right HVAC contractor is crucial for the success and longevity of your building's climate control system. Here’s why we stand out:
+      </p>
+
+      <div className="grid md:grid-cols-2 gap-10">
+        {highlights.map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start space-x-5 bg-white p-7 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300"
+          >
+            <div className="text-cyan-600 text-4xl">{item.icon}</div>
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
+              <p className="text-gray-700 text-base leading-relaxed">{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+ 
+</div>
+
+
+
+    <div className="bg-white text-gray-800">
+      <section className="relative isolate overflow-hidden bg-gradient-to-r from-cyan-800 to-cyan-600 py-24 text-white text-center shadow-xl">
+        <div className="max-w-4xl mx-auto px-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4"> Our Comprehensive HVAC Contractor Services
+</h1>
+          <p className="text-lg md:text-xl"> Adhunik Powertech offers a full spectrum of HVAC contractor services designed to meet diverse client requirements, ensuring optimal performance and environmental comfort.
+</p>
+        </div>
+      </section>
+
+      <section className="py-20 px-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {services.map((service, idx) => (
+            <div key={idx} className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-cyan-600">
+              <div className="flex items-center gap-4 mb-4">
+                <service.icon className="w-8 h-8 text-cyan-700" />
+                <h2 className="text-xl font-semibold text-cyan-800">{service.title}</h2>
+              </div>
+              <p className="text-gray-700 text-sm leading-relaxed">{service.description}</p>
+              {service.bullets && (
+                <ul className="mt-4 list-disc list-inside text-sm text-gray-600 space-y-2">
+                  {service.bullets.map((point, i) => (
+                    <li key={i}><strong>{point.split(":")[0]}:</strong>{point.split(":")[1]}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+       <section className="py-20 bg-gradient-to-br from-cyan-50 to-white px-6">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-cyan-800 mb-6">Industries We Serve</h2>
+          <p className="text-gray-600 mb-12 max-w-3xl mx-auto"> As a versatile HVAC contractor, Adhunik Powertech has successfully executed projects across a wide array of sectors, including:
+</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+            {industries.map((industry, idx) => (
+              <div
+                key={idx}
+                className="flex flex-col items-center bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-all border border-gray-100"
+              >
+                <industry.icon className="w-10 h-10 text-cyan-600 mb-3" />
+                <p className="text-base font-medium text-gray-700 text-center">{industry.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-cyan-800 text-white py-16 text-center px-6">
+        <h3 className="text-2xl md:text-3xl font-bold mb-4">Looking for Custom HVAC Solutions?</h3>
+        <p className="mb-6 text-lg max-w-2xl mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
+        <a href="/contact" className="inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
+
+</a>
+      </section>
+    </div>
+
+
+
+ <section className="bg-white py-20 px-6 max-w-6xl mx-auto">
+      <h2 className="text-3xl font-bold text-cyan-800 mb-12 text-center">
+        Our Streamlined HVAC Contractor Process
+      </h2>
+
+      <p className=' py-4 text-center  text-cyan-800'>
+        We ensure a smooth and efficient project execution from start to finish:
+
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {processSteps.map(({ title, description, icon: Icon }, idx) => (
+          <div
+            key={idx}
+            className="flex items-start space-x-5 p-6 border-l-4 border-cyan-600 bg-cyan-50 rounded-lg shadow-sm hover:shadow-md transition"
+          >
+            <Icon className="w-10 h-10 text-cyan-700 flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-xl font-semibold text-cyan-800 mb-2">{title}</h3>
+              <p className="text-gray-700 leading-relaxed">{description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <section className="mt-20 text-center max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold text-cyan-800 mb-6">
+          Commitment to Sustainable & Efficient HVAC Solutions
+        </h2>
+        <div className="flex justify-center mb-8">
+          <Leaf className="w-12 h-12 text-green-500" />
+        </div>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          At Adhunik Powertech, we are committed to engineering HVAC solutions that are not only powerful but also environmentally responsible. We focus on integrating the latest energy-saving technologies and sustainable practices to deliver systems that reduce operational costs and minimize your carbon footprint.
+        </p>
+      </section>
+
+      <section className="mt-20 bg-cyan-700 rounded-lg p-12 text-white text-center shadow-lg">
+        <Award className="w-12 h-12 mx-auto mb-4" />
+        <h2 className="text-3xl font-bold mb-4">Partner with an Award-Winning HVAC Contractor Today!</h2>
+        <p className="text-lg max-w-3xl mx-auto mb-6">
+          Ready to experience the Adhunik Powertech difference? Whether you need a new industrial HVAC installation in Haryana, a commercial HVAC contractor in Gurugram, or specialized clean room HVAC solutions in Delhi NCR, our team is prepared to exceed your expectations.
+        </p>
+        <a
+          href="/contact"
+          className="inline-block bg-white text-cyan-700 font-semibold px-8 py-3 rounded-full hover:bg-cyan-100 transition"
+        >
+         Claim Your Free Consultation!
+        </a>
+      </section>
+    </section>
 
 <div className="row mt-36">
         <h1 className=' text-center font-sans font-thin text-3xl'>OUR ACHIEVEMENTS</h1>
