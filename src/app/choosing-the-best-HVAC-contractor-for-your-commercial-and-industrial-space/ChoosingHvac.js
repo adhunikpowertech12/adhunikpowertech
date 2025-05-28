@@ -1204,7 +1204,7 @@ const items = [
                 <h2 className=" text-2xl text-center md:text-left md:text-4xl font-extrabold text-cyan-700">
                   Ask About Maintenance Plans and Support
                 </h2>
-                <p className="text-gray-700 text-lg">
+                <p className="text-gray-700  text-sm text-justify md:text-left md:text-lg">
                   The commissioning and installation of an HVAC system for an industrial or commercial
                   space are just the beginning. Ongoing maintenance and support are absolutely critical
                   to ensuring system longevity, peak performance, and maximum energy efficiency. Neglecting
@@ -1214,7 +1214,7 @@ const items = [
               </section>
 
               <section className="space-y-4">
-                <h3 className="text-3xl font-bold text-cyan-600">
+                <h3 className=" text-lg text-center md:text-left md:text-3xl font-bold text-cyan-600">
                   Benefits of Regular Preventive Maintenance (PM)
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1223,8 +1223,8 @@ const items = [
                       <div className="flex items-start space-x-4">
                         <div className="shrink-0">{item.icon}</div>
                         <div>
-                          <h4 className="text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
-                          <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
+                          <h4 className="  text-md md:text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
+                          <p className="text-gray-700 text-sm   pt-2 leading-relaxed">{item.description}</p>
                         </div>
                       </div>
                     </div>
@@ -1233,19 +1233,19 @@ const items = [
               </section>
 
               <section className="space-y-4">
-                <h3 className="text-3xl font-bold text-cyan-600">
+                <h3 className=" text-xl  text-center md:text-left md:text-3xl font-bold text-cyan-600">
                   Types of Commercial/Industrial Maintenance Plans
                 </h3>
-                <p>Maintenance plans for commercial and industrial facilities are typically much more detailed and tailored than residential ones. Ask about:
+                <p className=' text-sm md:text-md text-justify'>Maintenance plans for commercial and industrial facilities are typically much more detailed and tailored than residential ones. Ask about:
                 </p>
                 <ul className="space-y-4 text-gray-800 text-base">
                   {maintenancePlans.map((plan, index) => (
-                    <li key={index} className="relative pl-6 before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-cyan-600 before:rounded-full">
-                      <span className="font-semibold text-cyan-700">{plan.title}:</span> {plan.description}
+                    <li key={index} className="relative  text-justify text-sm md:text-md pl-6 before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-cyan-600 before:rounded-full">
+                      <span className=" text-md md:text-lg font-semibold text-cyan-700">{plan.title} : </span> {plan.description}
                     </li>
                   ))}
                 </ul>
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700  text-justify  mx-2 text-sm pt-2 md:text-md">
                   Ensure the plan clearly defines the scope of work, frequency of visits, included parts,
                   and any excluded services. Compare plans to find one that aligns with your operational
                   criticality and budget.
@@ -1256,8 +1256,8 @@ const items = [
 
             <div className="px-6 lg:px-24 py-12 bg-white rounded-3xl shadow-2xl space-y-16">
               <div className="space-y-6">
-                <h2 className="text-4xl font-extrabold text-cyan-700">Emergency Support Availability and Service Level Agreements (SLAs)</h2>
-                <p className="text-gray-700 text-lg leading-relaxed">
+                <h2 className=" text-xl text-center md:text-left md:text-4xl font-extrabold text-cyan-700">Emergency Support Availability and Service Level Agreements (SLAs)</h2>
+                <p className="text-gray-700 md:text-lg text-sm text-justify mx-2 leading-relaxed ">
                   For commercial and industrial operations, HVAC emergencies can be catastrophic. Therefore, understanding the contractor's emergency support capabilities is paramount:
                 </p>
               </div>
@@ -1267,25 +1267,25 @@ const items = [
                   <div key={index} className="bg-cyan-50 border border-cyan-100 rounded-2xl p-6 flex items-start space-x-5 hover:shadow-xl transition-shadow">
                     <div className="shrink-0">{item.icon}</div>
                     <div>
-                      <h4 className="text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">{item.description}</p>
+                      <h4 className=" text-md md:text-xl font-semibold text-cyan-800 mb-1">{item.title}</h4>
+                      <p className="text-gray-700 pt-2  text-sm leading-relaxed">{item.description}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
               <div className="space-y-6">
-                <p className="text-gray-700 text-base">
+                <p className="text-gray-700 text-sm md:text-md text-justify">
                   A strong Service Level Agreement (SLA) for emergency support is a critical component of any commercial HVAC contract. It provides peace of mind knowing that when your critical systems fail, your chosen contractor will respond swiftly and effectively.
                 </p>
               </div>
 
               <div className="space-y-6 pt-10 border-t border-cyan-200">
-                <h2 className="text-4xl font-bold text-cyan-700">Wrapping It Up</h2>
-                <p className="text-gray-700 text-lg leading-relaxed">
+                <h2 className=" text-2xl text-center md:text-left md:text-4xl font-bold text-cyan-700">Wrapping It Up</h2>
+                <p className="text-gray-700 text-sm text-justify md:text-lg leading-relaxed">
                   Selecting the right HVAC contractor for your industrial or commercial space is a critical business decision. It directly impacts your operational efficiency, energy consumption, indoor environment quality, and ultimately, your bottom line. Take the time to meticulously verify their licenses, assess their commercial experience and reputation, delve into their energy efficiency expertise, scrutinize warranties and service guarantees, and compare detailed proposals.
                 </p>
-                <p className="text-gray-700 text-lg leading-relaxed">
+                <p className="text-gray-700 text-justify text-sm md:text-lg leading-relaxed">
                   Don’t rush this process; a well-chosen contractor will help you avoid costly downtime, extend asset life, and ensure your business stays comfortable and productive for years to come. Start your search today, and make sure you partner with a leader who understands the unique demands of commercial and industrial HVAC. Your business deserves it!
                 </p>
               </div>
@@ -1296,14 +1296,14 @@ const items = [
             {/* CTA Section */}
             <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
               <div className="text-center max-w-3xl mx-auto">
-                <h2 className="text-3xl font-bold mb-4">Get Expert Advice for Your Cooling Needs</h2>
-                <p className="text-cyan-100 mb-8 text-lg">
+                <h2 className="  text-xl md:text-3xl font-bold mb-4">Get Expert Advice for Your Cooling Needs</h2>
+                <p className="text-cyan-100 mb-8 text-sm md:text-lg">
                   Contact us today to leverage our expertise. We offer a free consultation to help you assess your specific cooling requirements. Let's keep your operations running cool!
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <a
                     href="tel:8287885885"
-                    className="bg-white text-cyan-800 hover:bg-cyan-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+                    className="bg-white text-sm md:text-md font-bold text-cyan-800 hover:bg-cyan-100  py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
                   >
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -1312,7 +1312,7 @@ const items = [
                   </a>
                   <Link
                     href="/contact-Us"
-                    className="bg-cyan-900 hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center border border-cyan-700"
+                    className="bg-cyan-900 text-sm md:text-md hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center border border-cyan-700"
                   >
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -1324,8 +1324,8 @@ const items = [
             </section>
 
 
-            <div className="px-6 lg:px-24 py-12 bg-white rounded-3xl shadow-2xl">
-              <h2 className="text-5xl font-extrabold text-cyan-700 mb-10">Frequently Asked Questions</h2>
+            <div className=" p-3 md:px-6 lg:px-24 py-12 bg-white rounded-3xl shadow-2xl">
+              <h2 className=" text-2xl text-center md:text-5xl font-extrabold text-cyan-700 mb-10">Frequently Asked Questions</h2>
               <div className="space-y-4">
                 {faqItems.map((item, index) => (
                   <div
@@ -1336,17 +1336,17 @@ const items = [
                       onClick={() => toggle(index)}
                       className="w-full flex justify-between items-center p-5 text-left hover:bg-cyan-100 transition-colors"
                     >
-                      <span className="text-lg font-semibold text-cyan-800">
+                      <span className=" text-sm md:text-lg font-semibold text-cyan-800">
                         {item.question}
                       </span>
                       {openIndex === index ? (
-                        <ChevronUp className="w-6 h-6 text-cyan-600" />
+                        <ChevronUp className=" ps-2 md:w-8 md:h-8 w-16 h-16 text-cyan-600" />
                       ) : (
-                        <ChevronDown className="w-6 h-6 text-cyan-600" />
+                        <ChevronDown className=" ps-2 md:w-8 md:h- w-16 h-16 text-cyan-600" />
                       )}
                     </button>
                     {openIndex === index && (
-                      <div className="p-5 pt-0 text-gray-700 text-base leading-relaxed">
+                      <div className=" m-3 md:p-5 pt-0 text-gray-700  text-sm md:text-md  text-justify mx-2 leading-relaxed">
                         {item.answer}
                       </div>
                     )}
