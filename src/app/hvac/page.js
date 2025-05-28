@@ -3,9 +3,9 @@ import HvacProduct from "./HvacProduct";
 
 export const metadata = {
 
-  title: "Adhunik Powertech: Top Industrial & Commercial HVAC in Delhi NCR",
+  title: "HVAC Contractor Gurugram | Turnkey HVAC Solutions - Adhunik Powertech",
 
-  description: "Leading provider of high-quality HVAC solutions in Delhi NCR. Adhunik Powertech specializes in industrial and commercial systems, ensuring optimal performance, energy efficiency, and customer satisfaction.",
+  description: "Adhunik Powertech: Your trusted HVAC contractor in Gurugram & Delhi NCR. We deliver turnkey HVAC solutions for commercial & industrial needs. 19+ years experience, award-winning service.",
   
   
   
