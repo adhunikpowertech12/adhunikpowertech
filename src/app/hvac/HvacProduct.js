@@ -541,173 +541,11 @@ const processSteps = [
   return (
     <>
 
-  <div className="bg-white text-gray-800">
-  {/* Header Hero */}
-  <section className="bg-gradient-to-r from-cyan-500 to-cyan-800 pt-40  pb-24 px-6">
-    <div className="max-w-5xl mx-auto text-center">
-      <h1 className="text-2xl md:text-4xl font-extrabold text-cyan-50 leading-tight mb-6 drop-shadow-md">
-        Adhunik Powertech: Your Trusted HVAC Contractor for Turnkey Solutions
-      </h1>
-        
-      <p className="  text-sm md:text-lg   max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
-        Leading HVAC Contractor in Gurugram & Delhi NCR | Turnkey Heating, Ventilation & Air Conditioning Solutions
-      </p>
-    </div>
-  </section>
+<div className="container   mt-40">
 
-  {/* Introduction */}
-  <section className="py-16 px-5 max-w-4xl mx-auto">
-    <p className=" text-sm md:text-lg leading-relaxed  text-justify text-gray-700 ">
-      Welcome to <Link href='/' className="font-semibold text-cyan-700">Adhunik Powertech</Link>, your premier HVAC contractor specializing in comprehensive, energy-efficient, and sustainable heating, ventilation, and air conditioning solutions. With over <span className="font-semibold">19+ years</span> of unparalleled experience, we pride ourselves on delivering end-to-end turnkey HVAC solutions for commercial, industrial, and specialized applications across Gurugram, Delhi NCR, and Haryana. As a trusted HVAC company, our dedication to precision engineering, timely execution, and unwavering quality ensures optimal indoor environments and long-term operational efficiency for your facility.
-    </p>
-  </section>
-
-  {/* Highlighted Services */}
-  <section className="bg-gray-50 py-10 px-6">
-    <div className="max-w-6xl mx-auto">
-      <h2 className=" md:text-3xl font-bold text-cyan-800 text-center mb-12 tracking-tight">
-        Why Choose Adhunik Powertech as Your HVAC Contractor?
-      </h2>
-      <p className="  text-center max-w-3xl mx-auto mb-10 text-gray-600 text-sm md:text-lg">
-        At Adhunik Powertech, we understand that selecting the right HVAC contractor is crucial for the success and longevity of your building's climate control system. Here’s why we stand out:
-      </p>
-
-      <div className="grid md:grid-cols-2 gap-10">
-        {highlights.map((item, index) => (
-          <div
-            key={index}
-            className="flex items-start space-x-5 bg-white p-7 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300"
-          >
-            <div className="text-cyan-600 text-4xl">{item.icon}</div>
-            <div>
-              <h3 className="   md:text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
-              <p className="text-gray-700 text-sm pt-2 md:text-base leading-relaxed">{item.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
- 
 </div>
 
-
-
-    <div className="bg-white text-gray-800">
-      <section className="relative isolate overflow-hidden bg-gradient-to-r from-cyan-800 to-cyan-600 py-24 text-white text-center shadow-xl">
-        <div className="max-w-4xl mx-auto px-6">
-          <h1 className=" text-2xl  md:text-4xl  font-bold mb-4"> Our Comprehensive HVAC Contractor Services
-</h1>
-          <p className="md:text-lg  text-sm text-justify md:text-center "> Adhunik Powertech offers a full spectrum of HVAC contractor services designed to meet diverse client requirements, ensuring optimal performance and environmental comfort.
-</p>
-        </div>
-      </section>
-
-      <section className="py-20 px-6 max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {services.map((service, idx) => (
-            <div key={idx} className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-cyan-600">
-              <div className="flex items-center gap-4 mb-4">
-                <service.icon className="w-8 h-8 text-cyan-700" />
-                <h2 className="md:text-xl font-semibold text-cyan-800">{service.title}</h2>
-              </div>
-              <p className="text-gray-700 text-sm leading-relaxed">{service.description}</p>
-              {service.bullets && (
-                <ul className="mt-4 list-disc list-outside ms-4  text-sm text-gray-600 space-y-2">
-                  {service.bullets.map((point, i) => (
-                    <li  className=' text-justify' key={i}><strong>{point.split(":")[0]}:</strong>{point.split(":")[1]}</li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
-
-       <section className="py-20 bg-gradient-to-br from-cyan-50 to-white px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6">Industries We Serve</h2>
-          <p className="text-gray-600 text-sm md:text-md mb-12 max-w-3xl mx-auto"> As a versatile HVAC contractor, Adhunik Powertech has successfully executed projects across a wide array of sectors, including:
-</p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
-            {industries.map((industry, idx) => (
-              <div
-                key={idx}
-                className="flex flex-col items-center bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-all border border-gray-100"
-              >
-                <industry.icon className="w-10 h-10 text-cyan-600 mb-3" />
-                <p className="md:text-base text-sm font-medium text-cyan-800 text-center">{industry.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-cyan-800 text-white py-16 text-center px-6">
-        <h3 className="text-2xl md:text-3xl font-bold mb-4">Looking for Custom HVAC Solutions?</h3>
-        <p className="mb-6 text-sm md:text-lg   mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
-        <a href="/contact" className=" text-sm md:text-base inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
-
-</a>
-      </section>
-    </div>
-
-
-
- <section className="bg-white py-20 px-6 max-w-6xl mx-auto">
-      <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-8 text-center">
-        Our Streamlined HVAC Contractor Process
-      </h2>
-
-      <p className=' py-4 text-center  text-cyan-800'>
-        We ensure a smooth and efficient project execution from start to finish:
-
-      </p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {processSteps.map(({ title, description, icon: Icon }, idx) => (
-          <div
-            key={idx}
-            className="flex items-start space-x-5 p-6 border-l-4 border-cyan-600 bg-cyan-50 rounded-lg shadow-sm hover:shadow-md transition"
-          >
-            <Icon className="w-10 h-10 text-cyan-700 flex-shrink-0 mt-1" />
-            <div>
-              <h3 className="  text-xl font-semibold text-cyan-800 mb-2">{title}</h3>
-              <p className="  text-sm md:text-base text-gray-700 leading-relaxed">{description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <section className="mt-20 text-center max-w-4xl mx-auto">
-        <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6">
-          Commitment to Sustainable & Efficient HVAC Solutions
-        </h2>
-        <div className="flex justify-center mb-8">
-          <Leaf className="w-12 h-12 text-green-500" />
-        </div>
-        <p className="text-gray-700  text-sm text-justify md:text-center md:text-lg leading-relaxed">
-          At Adhunik Powertech, we are committed to engineering HVAC solutions that are not only powerful but also environmentally responsible. We focus on integrating the latest energy-saving technologies and sustainable practices to deliver systems that reduce operational costs and minimize your carbon footprint.
-        </p>
-      </section>
-
-      <section className="mt-20 bg-cyan-700 rounded-lg  p-5 md:p-12 text-white text-center shadow-lg">
-        <Award className="w-12 h-12 mx-auto mb-4" />
-        <h2 className=" text-lg md:text-3xl font-bold mb-4">Partner with an Award-Winning HVAC Contractor Today!</h2>
-        <p className=" text-sm md:text-lg max-w-3xl mx-auto mb-6">
-          Ready to experience the Adhunik Powertech difference? Whether you need a new industrial HVAC installation in Haryana, a commercial HVAC contractor in Gurugram, or specialized clean room HVAC solutions in Delhi NCR, our team is prepared to exceed your expectations.
-        </p>
-        <a
-          href="/contact"
-          className="inline-block bg-white text-cyan-700 font-semibold px-8 py-3 rounded-full hover:bg-cyan-100 transition"
-        >
-         Claim Your Free Consultation!
-        </a>
-      </section>
-    </section>
-
-<div className="row mt-8">
+<div className="row  ">
         <h1 className=' text-center font-sans font-thin text-2xl'>OUR ACHIEVEMENTS</h1>
         <p className="text-4xl font-sans  py-3 w-full text-center text-cyan-900 capitalize">
           TOTAL PROJECTS DELIVERED
@@ -1093,6 +931,173 @@ Ducting Jobs
     </div>
   </div>
 </div>
+
+  <div className="bg-white text-gray-800">
+  {/* Header Hero */}
+  <section className="bg-gradient-to-r from-cyan-500 to-cyan-800 pt-40  pb-24 px-6">
+    <div className="max-w-5xl mx-auto text-center">
+      <h1 className="text-2xl md:text-4xl font-extrabold text-cyan-50 leading-tight mb-6 drop-shadow-md">
+        Adhunik Powertech: Your Trusted HVAC Contractor for Turnkey Solutions
+      </h1>
+        
+      <p className="  text-sm md:text-lg   max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
+        Leading HVAC Contractor in Gurugram & Delhi NCR | Turnkey Heating, Ventilation & Air Conditioning Solutions
+      </p>
+    </div>
+  </section>
+
+  {/* Introduction */}
+  <section className="py-16 px-5 max-w-4xl mx-auto">
+    <p className=" text-sm md:text-lg leading-relaxed  text-justify text-gray-700 ">
+      Welcome to <Link href='/' className="font-semibold text-cyan-700">Adhunik Powertech</Link>, your premier HVAC contractor specializing in comprehensive, energy-efficient, and sustainable heating, ventilation, and air conditioning solutions. With over <span className="font-semibold">19+ years</span> of unparalleled experience, we pride ourselves on delivering end-to-end turnkey HVAC solutions for commercial, industrial, and specialized applications across Gurugram, Delhi NCR, and Haryana. As a trusted HVAC company, our dedication to precision engineering, timely execution, and unwavering quality ensures optimal indoor environments and long-term operational efficiency for your facility.
+    </p>
+  </section>
+
+  {/* Highlighted Services */}
+  <section className="bg-gray-50 py-10 px-6">
+    <div className="max-w-6xl mx-auto">
+      <h2 className=" md:text-3xl font-bold text-cyan-800 text-center mb-12 tracking-tight">
+        Why Choose Adhunik Powertech as Your HVAC Contractor?
+      </h2>
+      <p className="  text-center max-w-3xl mx-auto mb-10 text-gray-600 text-sm md:text-lg">
+        At Adhunik Powertech, we understand that selecting the right HVAC contractor is crucial for the success and longevity of your building's climate control system. Here’s why we stand out:
+      </p>
+
+      <div className="grid md:grid-cols-2 gap-10">
+        {highlights.map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start space-x-5 bg-white p-7 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300"
+          >
+            <div className="text-cyan-600 text-4xl">{item.icon}</div>
+            <div>
+              <h3 className="   md:text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
+              <p className="text-gray-700 text-sm pt-2 md:text-base leading-relaxed">{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+ 
+</div>
+
+
+
+    <div className="bg-white text-gray-800">
+      <section className="relative isolate overflow-hidden bg-gradient-to-r from-cyan-800 to-cyan-600 py-24 text-white text-center shadow-xl">
+        <div className="max-w-4xl mx-auto px-6">
+          <h1 className=" text-2xl  md:text-4xl  font-bold mb-4"> Our Comprehensive HVAC Contractor Services
+</h1>
+          <p className="md:text-lg  text-sm text-justify md:text-center "> Adhunik Powertech offers a full spectrum of HVAC contractor services designed to meet diverse client requirements, ensuring optimal performance and environmental comfort.
+</p>
+        </div>
+      </section>
+
+      <section className="py-20 px-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {services.map((service, idx) => (
+            <div key={idx} className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-cyan-600">
+              <div className="flex items-center gap-4 mb-4">
+                <service.icon className="w-8 h-8 text-cyan-700" />
+                <h2 className="md:text-xl font-semibold text-cyan-800">{service.title}</h2>
+              </div>
+              <p className="text-gray-700 text-sm leading-relaxed">{service.description}</p>
+              {service.bullets && (
+                <ul className="mt-4 list-disc list-outside ms-4  text-sm text-gray-600 space-y-2">
+                  {service.bullets.map((point, i) => (
+                    <li  className=' text-justify' key={i}><strong>{point.split(":")[0]}:</strong>{point.split(":")[1]}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+       <section className="py-20 bg-gradient-to-br from-cyan-50 to-white px-6">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6">Industries We Serve</h2>
+          <p className="text-gray-600 text-sm md:text-md mb-12 max-w-3xl mx-auto"> As a versatile HVAC contractor, Adhunik Powertech has successfully executed projects across a wide array of sectors, including:
+</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+            {industries.map((industry, idx) => (
+              <div
+                key={idx}
+                className="flex flex-col items-center bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-all border border-gray-100"
+              >
+                <industry.icon className="w-10 h-10 text-cyan-600 mb-3" />
+                <p className="md:text-base text-sm font-medium text-cyan-800 text-center">{industry.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-cyan-800 text-white py-16 text-center px-6">
+        <h3 className="text-2xl md:text-3xl font-bold mb-4">Looking for Custom HVAC Solutions?</h3>
+        <p className="mb-6 text-sm md:text-lg   mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
+        <a href="/contact" className=" text-sm md:text-base inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
+
+</a>
+      </section>
+    </div>
+
+
+
+ <section className="bg-white py-20 px-6 max-w-6xl mx-auto">
+      <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-8 text-center">
+        Our Streamlined HVAC Contractor Process
+      </h2>
+
+      <p className=' py-4 text-center  text-cyan-800'>
+        We ensure a smooth and efficient project execution from start to finish:
+
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {processSteps.map(({ title, description, icon: Icon }, idx) => (
+          <div
+            key={idx}
+            className="flex items-start space-x-5 p-6 border-l-4 border-cyan-600 bg-cyan-50 rounded-lg shadow-sm hover:shadow-md transition"
+          >
+            <Icon className="w-10 h-10 text-cyan-700 flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="  text-xl font-semibold text-cyan-800 mb-2">{title}</h3>
+              <p className="  text-sm md:text-base text-gray-700 leading-relaxed">{description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <section className="mt-20 text-center max-w-4xl mx-auto">
+        <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6">
+          Commitment to Sustainable & Efficient HVAC Solutions
+        </h2>
+        <div className="flex justify-center mb-8">
+          <Leaf className="w-12 h-12 text-green-500" />
+        </div>
+        <p className="text-gray-700  text-sm text-justify md:text-center md:text-lg leading-relaxed">
+          At Adhunik Powertech, we are committed to engineering HVAC solutions that are not only powerful but also environmentally responsible. We focus on integrating the latest energy-saving technologies and sustainable practices to deliver systems that reduce operational costs and minimize your carbon footprint.
+        </p>
+      </section>
+
+      <section className="mt-20 bg-cyan-700 rounded-lg  p-5 md:p-12 text-white text-center shadow-lg">
+        <Award className="w-12 h-12 mx-auto mb-4" />
+        <h2 className=" text-lg md:text-3xl font-bold mb-4">Partner with an Award-Winning HVAC Contractor Today!</h2>
+        <p className=" text-sm md:text-lg max-w-3xl mx-auto mb-6">
+          Ready to experience the Adhunik Powertech difference? Whether you need a new industrial HVAC installation in Haryana, a commercial HVAC contractor in Gurugram, or specialized clean room HVAC solutions in Delhi NCR, our team is prepared to exceed your expectations.
+        </p>
+        <a
+          href="/contact"
+          className="inline-block bg-white text-cyan-700 font-semibold px-8 py-3 rounded-full hover:bg-cyan-100 transition"
+        >
+         Claim Your Free Consultation!
+        </a>
+      </section>
+    </section>
+
 
 
       </div>
