@@ -156,9 +156,8 @@ export default function WhatIsPanelAir() {
 
             </p>
 
-            <h2 className="text-[20px] text-gray-600 font-semibold mb-3">
-                  How Does a Panel Air Conditioner Work ?
-                </h2>
+         
+
 
           </div>
 
@@ -170,8 +169,12 @@ export default function WhatIsPanelAir() {
           <div className="flex flex-wrap">
             <div className="w-full">
               <div >
+   <h2 className=" text-2xl  md:text-3xl py-4 text-center  text-gray-600 font-semibold mb-3">
+                  How Does a Panel Air Conditioner Work ?
+                </h2>
 
-                <p className="text-2xl text-gray-600 font-semibold mb-3" >Panel air conditioner cooling a control cabinet </p>
+
+                <p className="  md:text-2xl text-gray-600 font-semibold mb-3" >Panel air conditioner cooling a control cabinet </p>
 
 
                 <div className="features-list">

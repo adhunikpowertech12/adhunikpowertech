@@ -8,36 +8,64 @@ export default function page() {
 
     {
       src: "/certi/award1.webp",
-      alt: "Ducted Air Coolers",
+      alt: "AWARDED AS MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
       borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award2.webp",
-      alt: "Ducted Air Coolers",
+      alt: "AWARDED FOR PARTICIPATION GURUGRAM INDUSTRIAL EXPO 2023",
       borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award3.webp",
-      alt: "Ducted Air Coolers",
+      alt: "RECOGNIZED BY NATIONAL TRADE & INDUSTRY COUNCIL",
       borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award4.webp",
-      alt: "Ducted Air Coolers",
+      alt: "AWARDED FOR PARTICIPATION SUSTAINABLE HVAC AND ARCHITECTURE",
       borderColor: "border-yellow-500", 
     }
     ,
     {
       src: "/certi/award5.webp",
-      alt: "Ducted Air Coolers",
+      alt: "CERTIFICATE OF APPRECIATION MOST INNOVATIVE BRAND FOR HVAC PROJECTS 2024-25",
       borderColor: "border-yellow-500", 
     },
     {
       src: "/certi/award6.webp",
-      alt: "Ducted Air Coolers",
+      alt: "AWARDED FOR OVERALL PERFORMANCE IN 2023",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+    {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_1_rjplf1.webp",
+      alt: "AWARDED AS INDIA BUSINESS AWARD 2025",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+    {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R__2_qup0rl.webp",
+      alt: "AWARDED AS NATIONAL GROWTH PARTNER AWARD",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+    {
+      src: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_3_fkcvcv.webp",
+      alt: " AWARDED FOR BEST QUALITY STANDARDS & SERVICES IN HVAC INDUSTRY",
+      borderColor: "border-yellow-500", 
+    },
+
+  
+    {
+      src: " https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748602146/A_R_bxpnpn.webp",
+      alt: "MEMBERSHIP CERTIFICATE MEMBER OF NATIONAL TRADE AND INDUSTRY COUNCIL, GURUGRAM",
       borderColor: "border-yellow-500", 
     },
 
