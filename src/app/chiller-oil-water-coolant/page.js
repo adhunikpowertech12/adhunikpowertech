@@ -59,6 +59,7 @@ export const metadata = {
     "Precision Oil Temperature Control",
     "Oil Chiller for Automation",
   ],
+  
   robots: "index, follow",
 
   openGraph: {

@@ -1,7 +1,6 @@
 "use client";
 import {
   AlertTriangle,
-  
   Zap,
   ShieldCheck,
   Thermometer,
@@ -48,6 +47,7 @@ import Image from "next/image";
 import { CheckCircle } from 'lucide-react';
 
 export default function ChillerOil() {
+
   const accordionData = useMemo(() => [
 
     {
@@ -125,23 +125,23 @@ export default function ChillerOil() {
   ];
 
   const column1 = [
-    "Warehouses",
-    "Automotive Industry",
-    "Banquet Halls",
+    "Machine Tools",
+    "Hydraulic Power Units",
+    " Lubrication Systems ",
     "Food Industry",
-    "Medical / Healthcare",
-    "Offices",
-    "Restaurants"
+    " Process Cooling",
+    "Automotive Industry",
+    "Steel & Metal Processing"
   ];
 
   const column2 = [
-    "Educational Institutions",
-    "Textile Industry",
-    "Multiplex/Theatres",
-    "Retail stores/Showrooms",
-    "Print & Packaging Industry",
-    "Religious Places",
-    "Gymnasium"
+    "Power Generation",
+    "General Industrial Applications",
+    "CNC machines",
+    "VMC machines",
+    "cutting oil cooling",
+    " Laser Cutting Machines",
+    "Welding Equipment"
   ];
 
   const features2 = [
@@ -481,7 +481,11 @@ const applications = [
       icon: UsersIcon,
       title: "Comprehensive After-Sales Support",
       detail:
-        "Our commitment extends far beyond the sale. We offer dedicated technical support, prompt on-site service, and readily available genuine spare parts to ensure maximum uptime and complete peace of mind for your critical operations.",
+        <>
+  Our commitment extends far beyond the sale. We offer dedicated  <Link href='/contact-Us'  className="text-cyan-600 hover:text-cyan-900" >  technical support </Link> 
+   , prompt on-site service, and readily available genuine spare parts to ensure maximum uptime and complete peace of mind for your critical operations.
+        </>
+    
     },
     {
       icon: Settings2Icon,
@@ -499,7 +503,11 @@ const applications = [
       icon: Award,
       title: "Uncompromising Quality Standards & Esteemed Certifications",
       detail:
-        "Our dedication to quality is not just a promise; it's validated by our esteemed certifications and accreditations. Adhunik Powertech is an MSME (Micro, Small & Medium Enterprises) registered entity, proudly CE certified (CE/060219033), and ISO 9001:2015 certified (IAF & IAS Accredited). Furthermore, we are a ZED (Zero Defect Zero Effect) Bronze certified company and registered on GeM (Government e-Marketplace), ensuring transparent and efficient dealings. Our IEC (Import Export Code Licence) further underscores our capability for seamless trade and international quality adherence. These certifications assure you of our unwavering commitment to global quality benchmarks and ethical business practices.",
+
+      <>
+ Our dedication to quality is not just a promise; it's validated by our esteemed <Link href="/certificate-&-accreditation" className=" text-cyan-600 hover:text-cyan-900 " >certifications</Link> and accreditations. Adhunik Powertech is an MSME (Micro, Small & Medium Enterprises) registered entity, proudly CE certified (CE/060219033), and ISO 9001:2015 certified (IAF & IAS Accredited). Furthermore, we are a ZED (Zero Defect Zero Effect) Bronze certified company and registered on GeM (Government e-Marketplace), ensuring transparent and efficient dealings. Our IEC (Import Export Code Licence) further underscores our capability for seamless trade and international quality adherence. These certifications assure you of our unwavering commitment to global quality benchmarks and ethical business practices.
+      </>
+       ,
     },
   ];
 
@@ -535,7 +543,7 @@ const applications = [
              
               <p className="text-gray-700 text-sm mb-6">
                 Ensure the longevity and optimal efficiency of your critical hydraulic machinery.
-                Adhunik Powertech delivers advanced, energy-efficient hydraulic oil chillers,
+              <Link href='/'  className="text-cyan-600 hover:text-cyan-900" >  Adhunik Powertech </Link> delivers advanced, energy-efficient hydraulic oil chillers,
                 meticulously engineered to maintain stable fluid temperatures and maximize your
                 operational output across diverse industries.
               </p>
@@ -1117,231 +1125,7 @@ const applications = [
         </div>
 
 
-        <div className="row">
-
-
-
-
-
-
-          <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-
-            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
-
-
-              <div className=" mt-5">
-                <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">  FAQs
-
-                </p>
-                <div className="container mx-auto mt-8 mb-10">
-                  {accordionData.map((item, index) => (
-                    <div
-                      className="border-[#F6F6F8] mb-4 rounded border"
-                      key={index}
-                    >
-                      <div
-                        className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
-                        onClick={() => handleClick(index)}
-                      >
-                        {item.title}
-                        <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="size-6"
-                          >
-                            {activeIndex === index ? (
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
-                            ) : (
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-                            )}
-                          </svg>
-                        </span>
-                      </div>
-                      <div
-                        ref={(el) => (refs.current[index] = el)}
-                        className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${activeIndex === index ? 'max-h-screen' : 'max-h-0'
-                          }`}
-                        style={{
-                          height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
-                        }}
-                      >
-                        <div className="px-4 pb-4 pt-2">{item.content}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-
-
-
-
-
-                <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                  <Link href="/our-Company" className="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
-                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">       Know more About Us </span>
-                  </Link>
-                  <a href="tel:8287885885"
-                    onclick="location.href='tel:8287885885'; return false;" className="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
-                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative"> Contact Us</span>
-                  </a>
-                </div>
-
-
-
-              </div>
-
-
-              <div className="relative ms-4 items-center flex justify-center">
-
-                <div className="flex justify-center  absolute " >
-                  <span className="relative flex h-16 w-16">
-                    <span
-                      className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
-                    ></span>
-
-                    <span
-                      className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
-                    >
-                      <FaPlay />
-                    </span>
-
-                  </span>
-                  <button className='z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
-                </div>
-
-
-
-
-                <img className="md:h-[70%] rounded-md" src="/pacth.webp" alt="Hero Image 3" />
-                <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
-
-
-
-
-              </div>
-
-
-              {showModal ? (
-                <>
-                  <div
-                    className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                    onClick={closeModal} // Close modal when clicking outside
-                  >
-                    <div
-                      className="relative  my-6    container-fluid "
-                      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
-                    >
-                      {/*content*/}
-                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                        {/*header*/}
-
-                        {/*body*/}
-                        <div className="relative  flex-auto">
-                          <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/jtizPl_Y744?si=oWwFcUq_IwXZgvjD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-
-                        </div>
-                        {/*footer*/}
-
-                      </div>
-                    </div>
-                  </div>
-                  <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                </>
-              ) : null}
-
-
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-
-
-        <div className="flex justify-center items-center w-full h-full flex-row">
-          {/* Left line */}
-          <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
-
-          {/* Center text */}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white text-3xl md:text-4xl font-sans font-bold capitalize text-center">
-            APPLICATIONS
-          </span>
-
-          {/* Right line */}
-          <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
-        </div>
-
-
-        <div className="row pb-16 flex justify-center items-center flex-col">
-
-
-
-
-
-
-          <div className="row  w-full h-full">
-
-
-            <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
-
-
-              <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
-                <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
-
-                </thead>
-                <tbody>
-                  <tr className="bg-white text-[15px] flex flex-col md:flex-row justify-center">
-                    <td className="px-6 py-4  text-left">
-                      <ul className="list-disc list-inside">
-                        {column1.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))}
-                      </ul>
-                    </td>
-                    <td className="px-6 py-4 text-left">
-                      <ul className="list-disc list-inside">
-                        {column2.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))}
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-
-
-          <div className="w-[85%] py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-            {[...Array(2)].map((_, index) => (
-              <ul
-                key={index}
-                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
-                aria-hidden={index === 1 ? 'true' : 'false'}
-              >
-                {logos.map((logo, idx) => (
-                  <li key={idx}>
-                    <img
-                      className=" w-32 h-32 md:w-48 md:h-48  object-center object-cover    rounded-full"
-                      src={logo.src}
-                      alt={logo.alt}
-                    />
-                  </li>
-                ))}
-              </ul>
-            ))}
-          </div>
-
-        </div>
+      
 
 
 
@@ -1356,9 +1140,10 @@ const applications = [
 In the demanding world of industrial operations, hydraulic systems are the undisputed powerhouses, driving everything from complex CNC machines to heavy-duty presses and injection molding equipment. However, the continuous and intensive operation of these systems generates significant heat. This excess heat directly impacts the performance, efficiency, and crucial lifespan of your hydraulic oil and, consequently, your expensive machinery.
         </p>
 
-       <p className="text-2xl text-center w-full pt-6 font-semibold text-cyan-700 flex items-center gap-2">
-          <AlertTriangle className="w-6 h-6 text-orange-500" /> The Risks of Overheating :
+       <p className="text-3xl text-center w-full pt-9 font-semibold text-cyan-700 flex justify-center items-center gap-2">
+          <AlertTriangle className="w-6 h-6 text-orange-500" /> The Risks of Overheating 
         </p>
+
       </div>
 
 
@@ -1398,7 +1183,7 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
     <section className="max-w-7xl mx-auto p-8 md:p-16 bg-white rounded-lg shadow-lg">
       <h2 className="text-cyan-800 text-4xl md:text-5xl font-extrabold mb-7">
-        Adhunik Powertech Hydraulic Oil Chillers: Engineered for Unmatched Performance
+        Adhunik Powertech Hydraulic Oil Chillers : Engineered for Unmatched Performance
       </h2>
       <h3 className=" text-sm py-3 text-cyan-800">
         Unmatched Features & Advantages: The Adhunik Powertech Difference
@@ -1484,8 +1269,11 @@ In the demanding world of industrial operations, hydraulic systems are the undis
       </div>
     </section>
 
-      <section className="max-w-7xl m-4 md:m-12  mx-auto px-8 text-center py-12 bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900 rounded-3xl shadow-2xl text-white relative overflow-hidden">
-      {/* Decorative blurred circle */}
+
+
+<div className="container  mx-auto">
+  <section className="max-w-7xl m-4 md:m-12  mx-auto px-8 text-center py-12 bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900 rounded-3xl shadow-2xl text-white relative overflow-hidden">
+     
       <div className="absolute top-[-60px] right-[-60px] w-48 h-48 bg-cyan-400 opacity-20 rounded-full filter blur-3xl"></div>
 
       <h2 className="text-3xl font-extrabold tracking-tight mb-6  leading-tight drop-shadow-md">
@@ -1506,12 +1294,234 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
       <Link
         href="/contact-Us"
-        className="inline-flex items-center justify-center gap-3 bg-white text-cyan-900 font-semibold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 text-lg drop-shadow-md"
+        className="inline-flex items-center justify-center gap-3 bg-white text-cyan-900 font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 text-sm drop-shadow-md"
         aria-label="Get a Free Quote"
       >
         GET A FREE QUOTE <ArrowRightIcon className="w-6 h-6" />
       </Link>
     </section>
+</div>
+    
+
+
+      <div className="row">
+
+
+
+
+
+
+          <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
+
+
+              <div className=" mt-5">
+                <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400">  FAQs
+
+                </p>
+                <div className="container mx-auto mt-8 mb-10">
+                  {accordionData.map((item, index) => (
+                    <div
+                      className="border-[#F6F6F8] mb-4 rounded border"
+                      key={index}
+                    >
+                      <div
+                        className="font-sans font-medium text-[14px] accordion-header bg-[#F6F6F8] cursor-pointer px-4 py-2 flex justify-between items-center"
+                        onClick={() => handleClick(index)}
+                      >
+                        {item.title}
+                        <span className={`arrow ${activeIndex === index ? 'down' : 'right'}`}>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={1.5}
+                            stroke="currentColor"
+                            className="size-6"
+                          >
+                            {activeIndex === index ? (
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M18 12H6" />
+                            ) : (
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                            )}
+                          </svg>
+                        </span>
+                      </div>
+                      <div
+                        ref={(el) => (refs.current[index] = el)}
+                        className={`font-sans font-medium text-[13px] text-justify accordion-content overflow-hidden transition-all duration-300 ${activeIndex === index ? 'max-h-screen' : 'max-h-0'
+                          }`}
+                        style={{
+                          height: activeIndex === index ? `${refs.current[index]?.scrollHeight}px` : '0px',
+                        }}
+                      >
+                        <div className="px-4 pb-4 pt-2">{item.content}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+
+
+
+
+
+                <div className="mt-7 grid gap-3 w-full sm:inline-flex">
+                  <Link href="/our-Company" className="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
+                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                    <span className="relative">       Know more About Us </span>
+                  </Link>
+                  <a href="tel:8287885885"
+                    onclick="location.href='tel:8287885885'; return false;" className=" overflow-hidden  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
+                    <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                    <span className="relative"> Contact Us</span>
+                  </a>
+                </div>
+
+
+
+              </div>
+
+
+              <div className="relative ms-4 items-center flex justify-center">
+
+                <div className="flex justify-center  absolute " >
+                  <span className="relative flex h-16 w-16">
+                    <span
+                      className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
+                    ></span>
+
+                    <span
+                      className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
+                    >
+                      <FaPlay />
+                    </span>
+
+                  </span>
+                  <button className='z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
+                </div>
+
+
+
+
+                <img className="md:h-[70%] rounded-md" src="/pacth.webp" alt="Hero Image 3" />
+                <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
+
+
+
+
+              </div>
+
+
+              {showModal ? (
+                <>
+                  <div
+                    className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                    onClick={closeModal} // Close modal when clicking outside
+                  >
+                    <div
+                      className="relative  my-6    container-fluid "
+                      onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
+                    >
+                       
+                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                   
+                        <div className="relative  flex-auto">
+                          <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/jtizPl_Y744?si=oWwFcUq_IwXZgvjD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+                        </div>
+                   
+
+                      </div>
+                    </div>
+                  </div>
+                  <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                </>
+              ) : null}
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+        <div className="flex justify-center items-center w-full h-full flex-row">
+    
+          <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+
+      
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white text-3xl md:text-4xl font-sans font-bold capitalize text-center">
+            APPLICATIONS
+          </span>
+
+          
+          <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+        </div>
+
+
+        <div className="row pb-16 flex justify-center items-center flex-col">
+
+          <div className="row  w-full h-full">
+
+
+            <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
+
+
+              <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
+                <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
+
+                </thead>
+                <tbody>
+                  <tr className="bg-white text-[15px] flex flex-col md:flex-row justify-center">
+                    <td className="px-6 py-4  text-left">
+                      <ul className="list-disc list-inside">
+                        {column1.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    </td>
+                    <td className="px-6 py-4 text-left">
+                      <ul className="list-disc list-inside">
+                        {column2.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+
+          <div className="w-[85%] py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+            {[...Array(2)].map((_, index) => (
+              <ul
+                key={index}
+                className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                aria-hidden={index === 1 ? 'true' : 'false'}
+              >
+                {logos.map((logo, idx) => (
+                  <li key={idx}>
+                    <img
+                      className=" w-32 h-32 md:w-48 md:h-48  object-center object-cover    rounded-full"
+                      src={logo.src}
+                      alt={logo.alt}
+                    />
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
+
+        </div>
 
       </div>
     </>
