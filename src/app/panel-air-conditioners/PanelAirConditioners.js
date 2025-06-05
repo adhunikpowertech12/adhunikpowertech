@@ -582,6 +582,7 @@ export default function PanelAirConditioners() {
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
                       <div className="w-auto">
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                        
                           <img
                             className=" md:h-96"
                             fetchPriority="high"
@@ -589,6 +590,7 @@ export default function PanelAirConditioners() {
                             alt="Panel Air Conditioner "
                             src="/sa.png"
                           />
+                          
                         </div>
                       </div>
                       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
