@@ -17,6 +17,9 @@ export const metadata = {
     "fire emergency solutions",
     "Adhunik Firexpert",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/glow-signage-&-emergency-lights",  
+  },
 };
 
 export default function DuctedAirCooler() {

@@ -7,7 +7,9 @@ export const metadata = {
 
   description: "Looking for the best firefighting company in Delhi NCR? Adhunik Firexpert is ISO 9001:2008 certified, offering top-quality systems & equipment. Contact us today!",
   
-  
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India",  
+  },
   
 }
 export default function FireSafety() {

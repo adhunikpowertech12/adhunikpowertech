@@ -18,6 +18,9 @@ export const metadata = {
     "fire prevention equipment",
     "Adhunik Firexpert",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/fire-sprinkler-system",  
+  },
 };
 
 

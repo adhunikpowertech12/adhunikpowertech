@@ -17,6 +17,9 @@ export const metadata = {
     "fire sprinkler systems",
     "fire extinguishers",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/fire-hydrant-system",  
+  },
 };
 
 

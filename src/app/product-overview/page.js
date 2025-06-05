@@ -20,6 +20,9 @@ export const metadata = {
     "air purification systems",
     "Adhunik Powertech",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/product-overview",  
+  },
 };
 
 export default function page2() {

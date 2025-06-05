@@ -17,6 +17,9 @@ export const metadata = {
     "industrial ventilation research",
     "product development in HVAC",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/manufacturing-and-r-&-d",  
+  },
 };
 
 

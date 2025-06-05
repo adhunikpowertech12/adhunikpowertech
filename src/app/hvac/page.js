@@ -65,7 +65,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/hvac-contractor",
+    canonical: "https://www.adhunikpowertech.com/hvac",
   },
 
   twitter: {

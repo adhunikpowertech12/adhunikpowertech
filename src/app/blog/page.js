@@ -17,6 +17,9 @@ export const metadata = {
     "fire safety and HVAC insights",
     "air handling unit discussions",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/blog",  
+  },
 };
 
 

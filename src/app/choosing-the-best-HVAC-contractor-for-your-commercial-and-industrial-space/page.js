@@ -1,8 +1,6 @@
 import ChoosingHvac from "./ChoosingHvac";
 
  
-
-
   export const metadata = {
 
     title: "Industrial & Commercial HVAC Contractor",
@@ -53,7 +51,9 @@ import ChoosingHvac from "./ChoosingHvac";
     title: "Industrial & Commercial HVAC Contractor | 2025 Selection Guide",
     description: "Finding the top HVAC contractor for your industrial or commercial facility in 2025 is key. This guide helps you choose a partner for efficiency, reliability, and long-term cost savings.",
     url: "https://www.adhunikpowertech.com/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space", 
+
     type: "article",
+
     images: [
       {
         url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac2_v4rz2t.webp",  

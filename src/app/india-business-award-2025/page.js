@@ -19,7 +19,7 @@ export const metadata = {
     openGraph: {
       title: "Adhunik Powertech",
       description: "Award-winning HVAC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on",
-      url: "https://www.adhunikpowertech.com/",
+      url: "https://www.adhunikpowertech.com/india-business-award-2025",
       siteName: "Adhunik Powertech", 
       locale: "en_IN",
       type: "website",
@@ -31,7 +31,7 @@ export const metadata = {
       creator: "@AdhunikPowertech",
     },
     alternates: {
-      canonical: "https://adhunikpowertech.com/",
+      canonical: "https://www.adhunikpowertech.com/india-business-award-2025",
     },
   };
 

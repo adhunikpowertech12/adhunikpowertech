@@ -6,6 +6,10 @@ export const metadata = {
 
   description: "Leading provider of cleanroom air showers and pass boxes. Adhunik Powertech offers customized solutions, expert installation, and exceptional customer service. Contact us for a free quote today.",
   
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/air-shower",  
+  },
+  
 }
 
 

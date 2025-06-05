@@ -19,6 +19,9 @@ export const metadata = {
     "Adhunik Firexpert",
     
   ],
+    alternates: {
+    canonical: " https://www.adhunikpowertech.com/fire-alarm-system",  
+  },
 };
 
 

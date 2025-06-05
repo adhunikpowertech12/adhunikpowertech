@@ -19,6 +19,9 @@ export const metadata = {
     "fire emergency solutions",
     "Adhunik Firexpert",
   ],
+    alternates: {
+    canonical: "https://www.adhunikpowertech.com/fire-extinguishers",  
+  },
 };
 
 export default function FireEx() {
