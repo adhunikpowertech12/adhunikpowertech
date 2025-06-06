@@ -19,7 +19,9 @@ export const metadata = {
   ],
   
   robots: "index, follow",
-  canonical: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",
+   alternates: {
+    canonical: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",  
+  },
   openGraph: {
     title: "What is a Ducted Air Cooler? A Comprehensive Guide | Adhunik Powertech",
     description: "Understand how Ducted Air Coolers work, their benefits, and how they improve air circulation. Discover Adhunik Powertech's advanced cooling solutions.",
