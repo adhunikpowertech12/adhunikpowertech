@@ -19,8 +19,8 @@ export const metadata = {
     "localized fire suppression",
     "fire suppression for electrical panels",
   ],
-    alternates: {
-    canonical: "https://www.adhunikpowertech.com/fire-tubing-system",  
+  alternates: {
+    canonical: "https://www.adhunikpowertech.com/fire-tubing-system",
   },
 };
 
@@ -32,8 +32,8 @@ export default function DuctedAirCooler() {
 
     <>
 
-     
-<FireTublingSystem/>
+
+      <FireTublingSystem />
 
     </>
 

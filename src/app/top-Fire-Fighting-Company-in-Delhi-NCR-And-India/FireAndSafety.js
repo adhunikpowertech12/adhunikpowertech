@@ -308,7 +308,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">Fire Extinguishers <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl font-bold text-white">Fire Extinguishers <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -320,7 +320,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
     <div className=" md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">Fire Extinguishers </h2>
+      <p className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">Fire Extinguishers </p>
       <p className=' text-center md:text-justify' >Fire extinguishers are crucial devices designed to
         suppress small fires and prevent them from spreading.
         Understanding the different types of fire extinguishers
@@ -421,7 +421,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">Fire Hydrant System <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl font-bold text-white">Fire Hydrant System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -461,7 +461,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl  font-bold text-white"> Fire Sprinkler System <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl  font-bold text-white"> Fire Sprinkler System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -532,7 +532,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
         types, each tailored to specific environments and fire risks. Fire suppression systems are critical
         components in fire protection strategies, designed to detect and control fires quickly, minimizing
         damage and protecting lives. </p>
-      <h2 className=' text-2xl text-left py-4 underline '> Key Components</h2>
+      <p className=' text-2xl text-left py-4 underline '> Key Components</p>
       <div className=" text-start md:text-justify ">
         <ul className="list-disc ps-4">
           <li> <span className=" font-bold font-sans "> Detection Devices:  </span>  Smoke detectors, heat sensors, and flame detectors identify the
@@ -578,7 +578,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">Fire suppression system <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl font-bold text-white">Fire suppression system <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -619,7 +619,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">Fire Alarm System <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl font-bold text-white">Fire Alarm System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -631,7 +631,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire Alarm System </h2>
+      <p className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   "> Fire Alarm System </p>
       <p className=' text-center md:text-justify' > Fire alarm systems are essential safety mechanisms designed to detect fires early and alert occupants,
 enabling swift evacuation and response. They play a crucial role in protecting lives and property by
 providing early warning signals when a fire is detected. By providing timely warnings, these systems help
@@ -689,7 +689,7 @@ detection solution designed to provide early warning of potential fire risks. Th
 recognized for its ability to detect smoke at extremely low concentrations—often well before visible
 signs of smoke or flames appear—making it a critical component in modern fire protection systems,
 especially in environments where rapid response is vital. </p>
-      <h2 className=' text-2xl text-left py-4 underline'> Key Components </h2>
+      <p className=' text-2xl text-left py-4 underline'> Key Components </p>
       <div className="text-left md:text-justify ">
         <ul className="list-disc ps-4">
 
@@ -750,7 +750,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-2xl font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-2xl font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -789,7 +789,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">     Fire Tubing System  <span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-3xl font-bold text-white">     Fire Tubing System  <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -806,14 +806,14 @@ Detects smoke at low concentrations, often well before visible signs of fire.
 
 
 
-      <h2 className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">      Fire Tubing System</h2>
+      <p className="text-[6vw] md:text-4xl md:text-left font-sans mb-3   ">      Fire Tubing System</p>
       <p className=' text-center md:text-justify' >
       A fire tubing system typically consists of a network of flexible, heat-sensitive tubes filled with a special
 agent, such as water, foam, or dry chemicals, designed to activate when exposed to heat or flames. The
 tubing is strategically placed throughout a protected area, often in vulnerable or high-risk locations,
 such as machinery rooms, electrical panels, or large storage areas.
 </p>
-      <h2 className=' text-2xl text-left py-4 underline'>  Key Components </h2>
+      <p className=' text-2xl text-left py-4 underline'>  Key Components </p>
       <div className="text-start md:text-justify ">
         <ul className="list-disc ps-4">
 
@@ -944,7 +944,7 @@ Only” or “No Smoking.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-2xl font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </h2>
+              <p className="font-dmserif text-2xl font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>

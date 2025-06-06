@@ -553,25 +553,25 @@ export default function ChoosingHvac() {
     }
   ];
 
-const items = [
-  {
-    title: "Load Calculations",
-    description:
-      "Precise determination of heating and cooling loads based on building envelope, occupancy, equipment, and processes.",
-  },
-  {
-    title: "Blower Door Tests (for smaller commercial spaces) / Thermal Imaging",
-    description: "Identifying air leakage and insulation deficiencies.",
-  },
-  {
-    title: "Ductwork Integrity Testing",
-    description: "Assessing leaks and blockages in large-scale duct systems.",
-  },
-  {
-    title: "System Performance Baselines",
-    description: "Establishing current energy usage and identifying areas for improvement.",
-  },
-];
+  const items = [
+    {
+      title: "Load Calculations",
+      description:
+        "Precise determination of heating and cooling loads based on building envelope, occupancy, equipment, and processes.",
+    },
+    {
+      title: "Blower Door Tests (for smaller commercial spaces) / Thermal Imaging",
+      description: "Identifying air leakage and insulation deficiencies.",
+    },
+    {
+      title: "Ductwork Integrity Testing",
+      description: "Assessing leaks and blockages in large-scale duct systems.",
+    },
+    {
+      title: "System Performance Baselines",
+      description: "Establishing current energy usage and identifying areas for improvement.",
+    },
+  ];
   return (
     <>
 
@@ -611,9 +611,9 @@ const items = [
 
           {/* Key Takeaways */}
           <section className="mb-16 bg-white p-3 md:p-8 rounded-xl shadow-md border border-cyan-100">
-            <h2 className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6 pb-2 border-b-2 border-cyan-200">
+            <p className=" text-2xl md:text-3xl font-bold text-cyan-800 mb-6 pb-2 border-b-2 border-cyan-200">
               <span className="bg-cyan-600 text-white px-2 py-1 rounded-md">Key Takeaways</span>
-            </h2>
+            </p>
             <ul className="space-y-4">
               {KeyTakeaways.map((item, index) => (
                 <li key={index} className="flex items-start ">
@@ -701,7 +701,7 @@ const items = [
                 </div>
 
                 <div className="bg-cyan-50 p-6 rounded-lg border border-cyan-200">
-                  <h3 className="text-xl font-semibold text-cyan-700 mb-3 text-center md:text-left">Industry Recognition and Safety Records</h3>
+                  <p className="text-xl font-semibold text-cyan-700 mb-3 text-center md:text-left">Industry Recognition and Safety Records</p>
                   <p className="text-gray-700 text-center md:text-left">
                     They should have a track record of successfully managing projects of similar scale and complexity to yours, from large office buildings and retail centers to data centers, manufacturing plants, or cold storage facilities. Experience with diverse system types (e.g., VRF, chillers, cooling towers, industrial ventilation, process cooling) is also a strong indicator of capability.
 
@@ -755,11 +755,7 @@ const items = [
                 Choosing an HVAC contractor for your business is a strategic decision. Companies like Adhunik Powertech Private Limited, with a strong background in large-scale infrastructure and power solutions, would be a strong candidate in this area, demonstrating the kind of extensive experience, robust reputation, and technical depth essential for complex industrial and commercial HVAC projects. Their commitment to delivering tangible impact aligns with the need for a contractor who can truly optimize your operational efficiency.
 
               </p>
-
-
-
-
-
+ 
             </section>
 
 
@@ -771,10 +767,10 @@ const items = [
                   </svg>
                 </span>
 
-                <h2>
+                <p>
                   Assess Energy Efficiency Expertise
 
-                </h2>
+                </p>
 
               </div>
 
@@ -831,11 +827,7 @@ const items = [
                 </p>
               </div>
 
-
-
-
-
-
+ 
               <div className="bg-gradient-to-br from-cyan-50 to-white p-4 md:p-6 rounded-xl border border-cyan-200 shadow-sm mb-8">
                 <div className="flex items-center mb-8">
                   <div className="bg-cyan-100 p-3 rounded-lg mr-4">
@@ -893,15 +885,15 @@ const items = [
                 </p>
 
 
-        <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700">
-  {items.map((item, index) => (
-    <li key={index} className="font-sans">
-      <p className=' font-sans'>
-        <strong>{item.title} : </strong> {item.description}
-      </p>
-    </li>
-  ))}
-</ul>
+                <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700">
+                  {items.map((item, index) => (
+                    <li key={index} className="font-sans">
+                      <p className=' font-sans'>
+                        <strong>{item.title} : </strong> {item.description}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
 
               </div>
             </section>

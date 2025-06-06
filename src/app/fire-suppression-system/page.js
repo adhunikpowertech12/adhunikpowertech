@@ -52,7 +52,7 @@ export default function DuctedAirCooler() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire suppression system</h2>
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire suppression system</p>
               <p className="md:text-justify  py-2">
               A Fire suppression system is a critical safety  mechanism designed to control or extinguish fires in
 various environments, protecting lives, property, and
@@ -282,7 +282,7 @@ regulations.
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">Fire suppression system</h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">Fire suppression system</p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
                       </p>
@@ -329,7 +329,7 @@ regulations.
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">  Fire suppression system  </h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">  Fire suppression system  </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
                       </p>
@@ -343,14 +343,7 @@ regulations.
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Maintenance and Inspection</h2>
-            
-            
-
-
-
-
-
-
+             
               <div className="card   text-left">
            
 

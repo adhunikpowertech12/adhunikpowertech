@@ -255,7 +255,7 @@ export default function AirShower() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Air Shower</h2>
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Air Shower</p>
               <p className="text-justify md:text-center">
                 Adhunik Powertech's Air Shower is the perfect solution for maintaining a clean and contaminant-free environment. Designed to remove dust, debris, and particles from personnel entering controlled areas, it ensures excellent cleanliness and safety. With its powerful airflow system and user-friendly design, this Air Shower offers effective contaminant removal and easy maintenance. Choose Adhunik Powertech's Air Shower for a healthier workspace and experience the benefits today!
               </p>
@@ -420,7 +420,7 @@ export default function AirShower() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-2xl font-bold text-white">  Pass Box </h2>
+                      <p className="font-dmserif text-2xl font-bold text-white">  Pass Box </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Protect your cleanroom investment with our essential Pass Box. Designed for the safe transfer of materials between areas with different cleanliness levels, it minimizes contamination and ensures the integrity of your controlled settings.  </p>
 
@@ -504,7 +504,7 @@ export default function AirShower() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <h2 className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</h2>
+                <p className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</p>
               </div>
 
 
