@@ -127,7 +127,7 @@ export default function OurCompany() {
 
           <div className="row">
             <div className="col relative md:static  right-5 md:right-0 py-12 justify-center items-center flex flex-col">
-              <p className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7 italic md:text-3xl   " > Our Journey  </p>
+              <p className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7 italic md:text-3xl   " > Our Growth Story  </p>
               <p className="text-[12xl] w-[70%] text-justify font-sans font-semibold   md:text-3xl  pb-3" >2005  </p>
               <p className="text-[12xl] w-[60%] relative md:static   right-5 md:right-0  md:w-[70%]  font-thin text-left   font-sans  md:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.  </p>
               <div className="text-[12xl] w-[70%] text-justify font-sans font-thin pt-7">
@@ -525,7 +525,7 @@ export default function OurCompany() {
                       About Us
                     </p>
 
-                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech: Experts Who Make a Difference
+                    <h2 className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " >We are Adhunik Powertech : Experts Who Make a Difference
                     </h2>
 
                     <p className=" text-[14px] md:text-[12xl]  lg:text-justify font-sans font-thin pt-7">
@@ -551,7 +551,7 @@ export default function OurCompany() {
                 <div className="row h-[30rem]">
                   <div className="col py-5 px-5  relative md:static    justify-center items-center flex flex-col">
                     <p className="text-3xl   text-justify font-sans font-semibold   lg:text-3xl py-5  " >2005  </p>
-                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Journey </h2>
+                    <h2 className="text-3xl   text-justify font-sans font-thin  italic lg:text-3xl  px-4 py-3 " >Our Growth Story </h2>
                     <p className="text-2xl   font-semibold  lg:text-justify font-sans  lg:text-5xl " ><span className=" font-semibold font-sans">Foundation:</span> Established as Adhunik Cooling Systems Pvt. Ltd.</p>
 
                     <div className="text-[16px]  text-justify font-sans font-thin pt-7">

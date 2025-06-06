@@ -516,7 +516,7 @@ const Applications = [
           </div>
 
           <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-            <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">AIROSTA ECO</h2>
+            <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">AIROSTA ECO</p>
             <p className="text-justify md:text-center">
               Our AIROSTA ECO is a high-performance ducted air cooler engineered to cool large spaces efficiently. Its durable polypropylene plastic body ensures long-lasting performance and easy maintenance. With powerful cooling capabilities and energy efficiency, the AIROSTA ECO is an excellent choice for various commercial and industrial environments, including warehouses, factories, offices, and restaurants. Its robust construction and user-friendly features make it ideal for maintaining optimal comfort in large areas.
             </p>
@@ -641,7 +641,7 @@ const Applications = [
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">AIROSTA PLUS</h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">AIROSTA PLUS</p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Invest in the AIROSTA PLUS, the ducted air cooler that combines performance with practicality. Its robust construction and stainless steel tank make it a low-maintenance solution for large spaces.  </p>
 
@@ -745,9 +745,9 @@ const Applications = [
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">
                 CYCLON
-              </h2>
+              </p>
               <p className="text-justify md:text-center">
                 Experience unmatched cooling with the CYCLON, a high-performance ducted air cooler designed to cool large spaces efficiently. Made from durable stainless steel (SS 304), this unit ensures long-lasting performance and easy maintenance. With its powerful cooling capabilities and energy-efficient design, the CYCLON is the ideal solution for various commercial and industrial environments. Choose the CYCLON for an exceptional combination of reliability and efficiency, providing optimal comfort even in the largest areas.
               </p>
@@ -871,7 +871,7 @@ const Applications = [
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">CYCLON PLUS</h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">CYCLON PLUS</p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Transform your cooling experience with CYCLONE PLUS! Enjoy powerful cooling, enhanced energy efficiency, and a larger tank that ensures optimal comfort and productivity.
                       </p>

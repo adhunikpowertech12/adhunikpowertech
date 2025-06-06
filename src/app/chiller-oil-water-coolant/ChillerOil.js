@@ -625,8 +625,8 @@ const applications = [
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (1.5 TR.)
-                      </h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (1.5 TR.)
+                      </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Our powerful 1.5 TR Oil Chiller protects your equipment and boosts productivity with precise temperature control.
                       </p>
@@ -741,7 +741,7 @@ const applications = [
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (3 TR.) </h2>
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (3 TR.) </p>
               <p className="text-justify md:text-center font-normal font-sans">
                 Introducing our 3 TR Oil/Coolant Chiller—an efficient cooling solution for industrial applications that ensures precise temperature control for your oil and fluids, optimizing equipment performance and extending lifespan. With exceptional cooling capacity, durable construction, improved energy efficiency, and easy maintenance, this factory-tested system guarantees a seamless installation process. Trust our 3 TR Oil Chiller for reliable cooling and enhanced operational efficiency in your critical processes. </p>
               <div className="show_m mt-5">
@@ -873,8 +873,8 @@ const applications = [
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (5 TR.)
-                      </h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">  Oil Chiller Unit (5 TR.)
+                      </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Invest in a reliable and efficient cooling solution for your industrial needs. Our 5 TR Oil Chiller delivers precise temperature control, extending the lifespan and performance of your critical equipment.
                       </p>
@@ -992,7 +992,7 @@ const applications = [
 
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (8 TR.) </h2>
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Oil Chiller Unit (8 TR.) </p>
               <p className="text-justify md:text-center font-normal font-sans">
 
                 Introducing our powerful 8 TR Oil/Coolant Chiller, specifically designed for heavy industrial applications. This chiller provides excellent temperature control for oil and industrial fluids, enhancing equipment performance and lifespan. With a factory-tested design, it ensures easy installation and reliable cooling for critical processes. Choose Adhunik Powertech for effective industrial cooling solutions tailored to your needs.

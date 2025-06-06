@@ -280,11 +280,12 @@ export default function VentilationFans() {
   </div>
 
   <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-    <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Axial Flow Fan</h2>
+    <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Axial Flow Fan</p>
     <p className="text-justify md:text-center">
     We offers a range of high-performance axial flow fans engineered to deliver optimal airflow solutions. These fans are characterized by their robust construction, low noise operation, and energy efficiency. With a wide range of sizes and capacities, they are suitable for diverse applications, including industrial ventilation, commercial HVAC systems, etc. We ensures durability and reliability through advanced manufacturing techniques and stringent quality control measures.
     </p>
     <div className="show_m mt-5">
+
       <button
         className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
         onClick={() => {
@@ -292,9 +293,8 @@ export default function VentilationFans() {
         }}
       >
         Enquiry Now
+
       </button>
-
-
 
     </div>
   </div>
@@ -443,8 +443,8 @@ export default function VentilationFans() {
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h2 className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (PP)
-            </h2>
+            <p className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (PP)
+            </p>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             Constructed with high-quality Poly polypropylene plastic, our Exhaust Fans are corrosion-resistant and offer long-lasting performance.  </p>
 
@@ -532,7 +532,7 @@ export default function VentilationFans() {
       clipRule="evenodd"
     />
   </svg>
-  <h2 className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</h2>
+  <p className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</p>
 </div>
 
 {/* Grid of Features */}
@@ -589,7 +589,7 @@ export default function VentilationFans() {
   </div>
 
 <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-    <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Exhaust  Fan (SS)</h2>
+    <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Exhaust  Fan (SS)</p>
     <p className="text-justify md:text-center">
     We offers a range of durable and efficient Stainless Steel Exhaust Fans. These fans are engineered to provide optimal ventilation solutions for various commercial and industrial applications. Constructed with high-quality stainless steel, these fans are resistant to corrosion and ensure long-lasting performance. Their powerful motors and aerodynamic blade design deliver efficient airflow and low noise operation, while their energy-efficient design minimizes energy consumption. With easy installation and reliable performance, these fans are an excellent choice for maintaining a healthy and comfortable indoor environment.
     </p>
@@ -688,7 +688,7 @@ export default function VentilationFans() {
       clipRule="evenodd"
     />
   </svg>
-  <h2 className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</h2>
+  <p className="text-2xl font-bold text-white md:text-4xl ps-3">Product Features</p>
 </div>
 
 {/* Grid of Features */}

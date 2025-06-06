@@ -416,7 +416,7 @@ export default function PanelAirConditioners() {
               </div>
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-                <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Wall Mount </h2>
+                <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Wall Mount </p>
                 <p className="text-justify md:text-center">
                   Our wall-mounted panel air conditioner is a compact and efficient cooling solution designed to protect your critical electrical equipment. We offer a range of cooling capacities from 250W to 7000W, ensuring an ideal fit for your needs. Whether you require cooling for a small electrical panel or a large industrial control cabinet, we have the right unit to keep your equipment cool and operating optimally. With its quiet operation, easy installation, and reliable performance, you can ensure your equipment functions effectively and lasts longer.
                 </p>
@@ -519,7 +519,7 @@ export default function PanelAirConditioners() {
                       </div>
                       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                       <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                        <h2 className="font-dmserif text-3xl font-bold text-white">Top Mount </h2>
+                        <p className="font-dmserif text-3xl font-bold text-white">Top Mount </p>
                         <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                           Experience powerful cooling in your panels with our compact Top-Mount Panel Air Conditioners. Designed for optimal cooling in limited spaces, they're the ideal solution for installations where space is a constraint.
                         </p>
@@ -608,9 +608,9 @@ export default function PanelAirConditioners() {
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
-                <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">
+                <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">
                   Stand Alone
-                </h2>
+                </p>
                 <p className="text-justify md:text-center">
                   Enhance your cooling experience with our Stand-Alone Panel Air Conditioners—flexible and efficient solutions that fit seamlessly into any area of your facility. These units are ideal for situations where wall or top-mounted installations are not feasible. Our panel air conditioners provide powerful cooling capacities ranging from 1,000W to 7,000W.
                   Now enjoy the advantages of a compact design, whisper-quiet operation, and reliable performance, ensuring that your critical equipment receives the optimal cooling it needs to thrive.
