@@ -363,7 +363,7 @@ export default function IndustrialCooler() {
                 </div>
 
                 <div className="flex flex-wrap gap-4 mt-8">
-                  <Link href="/contact-us" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
+                  <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
                     Request Quote
                   </Link>
                   <a href="tel:8287885885" className="flex-1 min-w-[200px]">
@@ -510,7 +510,7 @@ export default function IndustrialCooler() {
 
 
             <div className=" justify-center items-center   flex flex-wrap gap-4 mt-8">
-              <Link href="/contact-us" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
+              <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
                 Request Quote
               </Link>
               <a href="tel:8287885885" className=" ">
@@ -608,7 +608,7 @@ export default function IndustrialCooler() {
             </ul>
  
             <div className=" justify-center items-center   flex flex-wrap gap-4 mt-8">
-              <Link href="/contact-us" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
+              <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
                 Request Quote
               </Link>
               <a href="tel:8287885885" className=" ">

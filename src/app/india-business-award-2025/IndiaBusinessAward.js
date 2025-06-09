@@ -212,7 +212,7 @@ export default function IndiaBusinessAward() {
           </p>
 
           <h2 className=" text-gray-600 text-2xl font-semibold mt-6 text-center md:text-start"><Link
-            href="/contact-us"
+            href="/support-form"
             className="text-cyan-600 hover:underline pr-1 "
           >
             Contact Adhunik Powertech Today

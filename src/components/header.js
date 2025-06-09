@@ -110,7 +110,7 @@ function Navbar() {
     },
 
     { text: 'BLOG', href: '/blog' },
-    { text: 'CONTACT US', href: '/contact-us' },
+    { text: 'CONTACT US', href: '/support-form' },
   ];
 
 
@@ -251,7 +251,7 @@ function Navbar() {
     },
 
     { label: "BLOG", href: "/blog" },
-    { label: "CONTACT US", href: "/contact-us" },
+    { label: "CONTACT US", href: "/support-form" },
   ];
 
 
