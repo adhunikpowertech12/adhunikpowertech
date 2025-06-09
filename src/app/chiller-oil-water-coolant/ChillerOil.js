@@ -482,7 +482,7 @@ const applications = [
       title: "Comprehensive After-Sales Support",
       detail:
         <>
-  Our commitment extends far beyond the sale. We offer dedicated  <Link href='/contact-Us'  className="text-cyan-600 hover:text-cyan-900" >  technical support </Link> 
+  Our commitment extends far beyond the sale. We offer dedicated  <Link href='/contact-us'  className="text-cyan-600 hover:text-cyan-900" >  technical support </Link> 
    , prompt on-site service, and readily available genuine spare parts to ensure maximum uptime and complete peace of mind for your critical operations.
         </>
     
@@ -1293,7 +1293,7 @@ In the demanding world of industrial operations, hydraulic systems are the undis
       </p>
 
       <Link
-        href="/contact-Us"
+        href="/contact-us"
         className="inline-flex items-center justify-center gap-3 bg-white text-cyan-900 font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 text-sm drop-shadow-md"
         aria-label="Get a Free Quote"
       >

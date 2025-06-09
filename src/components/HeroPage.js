@@ -147,7 +147,7 @@ export default function HeroPage() {
   const handleButtonClick = (buttonText) => {
     console.log('Button clicked:', buttonText);  
     if (buttonText === 'Request A Quote') {
-      window.location.href = '/contact-Us';  
+      window.location.href = '/contact-us';  
     }
     else {
       console.log('Please chordo');

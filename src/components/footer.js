@@ -55,7 +55,7 @@ function Footer() {
     { href: "/manufacturing-and-r-&-d", text: <>Manufacturing and  R&amp;D </> },
     { href: "/annual-maintenance-contract", text: "Maintenance" },
     { href: "/blog", text: "Blog" },
-    { href: "/contact-Us", text: "Contact Us" },
+    { href: "/contact-us", text: "Contact Us" },
   ];
 
 
