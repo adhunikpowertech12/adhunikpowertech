@@ -701,7 +701,7 @@ export default function HvacProduct() {
           <section className="bg-cyan-800 text-white py-16 text-center px-6">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">Looking for Custom HVAC Solutions?</h3>
             <p className="mb-6 text-sm md:text-lg   mx-auto">Let Adhunik Powertech tailor the ideal HVAC design, installation, and maintenance plan to suit your needs.</p>
-            <a href="/contact" className=" text-sm md:text-base inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
+            <a href="/contact-Us" className=" text-sm md:text-base inline-block bg-white text-cyan-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"> Boost Your Comfort—Contact Us!
 
             </a>
           </section>
@@ -753,7 +753,7 @@ export default function HvacProduct() {
               Ready to experience the Adhunik Powertech difference? Whether you need a new industrial HVAC installation in Haryana, a commercial HVAC contractor in Gurugram, or specialized clean room HVAC solutions in Delhi NCR, our team is prepared to exceed your expectations.
             </p>
             <a
-              href="/contact"
+              href="/contact-Us"
               className="inline-block bg-white text-cyan-700 font-semibold px-8 py-3 rounded-full hover:bg-cyan-100 transition"
             >
               Claim Your Free Consultation!

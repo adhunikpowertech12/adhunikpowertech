@@ -120,6 +120,7 @@ export default function RootLayout({ children }) {
         src="https://www.googletagmanager.com/gtag/js?id=AW-16494041391"
         strategy="afterInteractive"
       />
+
       <Script id="gtag-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -131,6 +132,7 @@ export default function RootLayout({ children }) {
 
 
         <GoogleTagManager gtmId="GTM-W994SKBG" />
+        
         <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
 
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">

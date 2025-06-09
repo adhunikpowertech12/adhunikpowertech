@@ -20,7 +20,7 @@ export const metadata = {
     
   ],
     alternates: {
-    canonical: " https://www.adhunikpowertech.com/fire-alarm-system",  
+    canonical: "https://www.adhunikpowertech.com/fire-alarm-system",  
   },
 };
 

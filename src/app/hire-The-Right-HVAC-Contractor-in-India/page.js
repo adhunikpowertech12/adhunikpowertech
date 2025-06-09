@@ -7,7 +7,7 @@ export const metadata =
   description:"Looking to hire an HVAC contractor in India? Adhunik Powertech's guide provides essential tips for finding the best HVAC contractor for your installation, repair, or maintenance needs."
   ,
     alternates: {
-    canonical: " https://www.adhunikpowertech.com/hire-The-Right-HVAC-Contractor-in-India",  
+    canonical:"https://www.adhunikpowertech.com/hire-The-Right-HVAC-Contractor-in-India",  
   },
 }
 

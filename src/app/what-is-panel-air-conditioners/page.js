@@ -17,7 +17,7 @@ export const metadata = {
   ],
   robots: "index, follow",
    alternates: {
-    canonical: " https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",  
+    canonical: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler",  
   }, openGraph: {
     title: "What is a Panel Air Conditioner? | Adhunik Powertech",
     description: "Understand the importance of Panel Air Conditioners for industrial and commercial applications. Explore Adhunik Powertech's advanced cooling solutions.",
