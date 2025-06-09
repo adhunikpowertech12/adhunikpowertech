@@ -3,7 +3,7 @@ import TopHvacContractor from "./TopHvacContractor";
  
   export const metadata = {
     title: "Top HVAC Contractor in Delhi NCR & India – Adhunik Powertech",
-    description: "Adhunik Powertech, your trusted HVAC contractor in Delhi NCR & India, delivers expert, energy-efficient HVAC solutions from design to execution for commercial, industrial, and residential projects.",
+    description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi NCR & India. We provide complete design, installation, repair & maintenance for all sectors",
 
     keywords: [
       "HVAC Contractor",
@@ -42,7 +42,7 @@ import TopHvacContractor from "./TopHvacContractor";
     
     openGraph: {
       title: "Top HVAC Contractor in Delhi NCR & India – Adhunik Powertech",
-      description: "Adhunik Powertech, your trusted HVAC contractor in Delhi NCR & India, delivers expert, energy-efficient HVAC solutions from design to execution for commercial, industrial, and residential projects.",
+      description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi NCR & India. We provide complete design, installation, repair & maintenance for all sectors",
       url: "https://www.adhunikpowertech.com/top-HVAC-Contractor-Across-Delhi-NCR-and-India",
       type: "article",
       images: [
