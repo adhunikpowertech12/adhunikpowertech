@@ -171,7 +171,7 @@ export default function TopHvacContractor() {
                             <p className=" pb-5 font-sans text-gray-600 text-justify  "> 
                            
                      
-                       <Link href='https://www.adhunikpowertech.com/ ' className=' text-cyan-600 hover:text-cyan-500'> Adhunik Powertech</Link> offers a wide array of HVAC services, meticulously tailored to meet the diverse needs of our residential, commercial, and industrial clients across Delhi NCR and India:  
+                       <Link href='https://www.adhunikpowertech.com/' className='text-cyan-600 hover:text-cyan-500'> Adhunik Powertech</Link> offers a wide array of HVAC services, meticulously tailored to meet the diverse needs of our residential, commercial, and industrial clients across Delhi NCR and India:  
                            </p>
 
                             <ul className="list-disc pl-6 text-gray-700 space-y-4 ">
