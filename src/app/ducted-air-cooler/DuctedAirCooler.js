@@ -989,7 +989,7 @@ const Applications = [
                             className=" "
                             fetchPriority="high"
                             decoding="async"
-                            alt=""
+                            alt="Air Cooling in Industrial Space with Ducted Air Cooler"
                             src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476599/is_wqfm6b.webp"
                           />
                         </div>
