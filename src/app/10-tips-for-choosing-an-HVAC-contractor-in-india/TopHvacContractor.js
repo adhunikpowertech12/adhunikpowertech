@@ -16,9 +16,6 @@ export default function TopHvacContractor() {
           <div className="flex flex-wrap">
             <div className="w-full">
               <div>
-
-
-
                 <section className=' md:p-5 flex flex-col md:flex-row mb-5 gap-4'>
                   <div className="box md:w-6/12 justify-center flex items-center mx-auto">
 
@@ -40,7 +37,7 @@ export default function TopHvacContractor() {
 
 
                   <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-                  
+
                     <h1 className=" text-2xl lg:text-4xl font-bold mb-4 text-center">
                       10 Tips for Choosing an HVAC Contractor in India
 
@@ -99,7 +96,7 @@ export default function TopHvacContractor() {
                 <p className="mb-4 text-gray-700 font-sans font-normal text-justify md:text-start">
 
 
-                Obtain written estimates from multiple contractors. The quote should outline labor costs, equipment specifications, and additional expenses. Avoid contractors offering significantly lower prices, as this could indicate compromised quality or hidden charges.
+                  Obtain written estimates from multiple contractors. The quote should outline labor costs, equipment specifications, and additional expenses. Avoid contractors offering significantly lower prices, as this could indicate compromised quality or hidden charges.
                 </p>
 
 
