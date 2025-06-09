@@ -1,7 +1,7 @@
 "use client";
 
 export default function AirHandling() {
- 
+
   const logos = [
     { src: '/dc1.webp', alt: 'Asahi-India-Glass-Ltd' },
     { src: '/dc2.webp', alt: 'Asahi-India-Glass-Ltd' },
@@ -127,7 +127,7 @@ export default function AirHandling() {
 
 
         <div className="row">
-          <h1 className=" w-full text-center font-sans text-4xl  md:text-5xl  text-sky-700 uppercase">Air Handling Unit </h1>
+          <h1 className=" w-full text-center font-sans text-4xl  md:text-5xl  text-sky-700 uppercase"> Air Handling Unit </h1>
 
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -148,7 +148,7 @@ export default function AirHandling() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">  Air Handling Unit  </h2>
+                      <p className="font-dmserif text-3xl font-bold text-white">  Air Handling Unit  </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Experience the perfect blend of style and performance that elevates your environment. Contact us today for a free consultation and discover how to create a cooler, more comfortable space.    </p>
 
@@ -181,7 +181,7 @@ export default function AirHandling() {
 
           </div>
 
- 
+
           <div className="bg-[#283e56] p-4 relative">
 
             <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
@@ -227,7 +227,7 @@ export default function AirHandling() {
           </div>
         </div>
 
- 
+
 
         <div className="flex pt-5 justify-center items-center w-full h-full flex-row">
 

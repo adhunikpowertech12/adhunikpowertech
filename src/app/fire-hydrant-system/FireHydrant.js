@@ -43,7 +43,7 @@ export default function FireHydrant() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire Hydrant System </h2>
+              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire Hydrant System </p>
               <p className="md:text-justify  py-2">
                 A fire hydrant system is a crucial part of fire protection
                 infrastructure, providing firefighters with quick access
