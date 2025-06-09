@@ -70,7 +70,7 @@ export default function WhatIsAirWasher() {
                     </div>
 
                     <header className=" w-full md:w-6/12 text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
-                      <h1 className=" text-[20px] md:text-3xl font-bold"> What is an Air Washer?</h1>
+                      <h1 className=" text-[20px] md:text-3xl font-bold">What is an Air Washer?</h1>
                       <p className="text-gray-600 text-justify text-[15px] pt-3  md:text-[14px] ">  <Link
                         href="/air-washer"
                         className="text-blue-500 hover:underline pr-1"
