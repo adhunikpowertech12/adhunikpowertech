@@ -100,10 +100,11 @@ export default function page() {
                           <div className="w-auto">
                             <div className={`w-full rounded-xl  bg-white  `}>
                               <img
-                                className={`  h-auto border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
-                           rounded-lg  `} 
+                                className={`h-auto border-[1px]  ${item.borderColor} p-2 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
+                           rounded-lg`} 
                                 src={item.src}
                                 fetchPriority="high"
+                                loading="lazy"
                                 decoding="async"
                                 alt={item.alt}
                               />

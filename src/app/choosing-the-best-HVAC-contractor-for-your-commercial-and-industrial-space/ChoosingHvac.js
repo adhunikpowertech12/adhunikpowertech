@@ -586,6 +586,7 @@ export default function ChoosingHvac() {
                 src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac2_v4rz2t.webp"
                 alt="Commercial HVAC System"
                 width={700}
+                loading="lazy"
                 height={500}
                 className="w-full h-auto rounded-xl shadow-xl border-4 border-cyan-100"
                 priority

@@ -69,7 +69,8 @@ export default function page() {
               <div className={`w-full rounded-xl  bg-white  border-[1px]  ${item.borderColor}`}>
                 <img
                   className={`h-40 w-auto mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90 
-                           rounded-lg `} // Dynamic border color
+                           rounded-lg `}  
+                           loading="lazy"
                   src={item.src}
                   fetchPriority="high"
                   decoding="async"
