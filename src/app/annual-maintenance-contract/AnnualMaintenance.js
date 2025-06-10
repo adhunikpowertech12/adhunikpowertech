@@ -218,6 +218,9 @@ export default function AnnualMaintenance() {
               <h2 className="text-4xl text-center font-bold mb-6">Types of Annual Maintenance Contracts</h2>
               <div className="overflow-x-auto">
                 <table className="table-auto w-full border-collapse border border-gray-300 text-left">
+                        <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+ Annual Maintenance Contracts
+  </caption>
                   <tbody>
                     {/* Labour Only */}
                     <tr className="border-b border-gray-300">
