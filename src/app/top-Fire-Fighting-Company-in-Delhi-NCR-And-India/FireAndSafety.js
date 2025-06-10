@@ -214,23 +214,23 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
               <div className="flex flex-col items-center">
                 {/* Image Wrapper */}
                 <div className="h-80 w-96">
-                  <a href="#">
+                  <div  >
                     <img
                       src={item.imgSrc}
                       alt={item.imgAlt}
                       loading="lazy"
                       className="h-full w-full object-contain object-center"
                     />
-                  </a>
+                  </div>
                 </div>
 
                 {/* Body Content */}
                 <div className="body-content m-4 shadow-lg p-4 border-l-[#DD1403] border-l-8 border-t-0 border-r-0 border-b-0 transition transform bg-white font-sans group-hover:-translate-y-14 group-hover:shadow-xl">
-                  <h3 className="text-black mb-3 text-[26px] group-hover:text-red-600 transition-colors duration-300">
-                    <a href="#" className="font-sans font-extrabold">
+                  <span className="text-black mb-3 text-[26px] group-hover:text-red-600 transition-colors duration-300">
+                    <span   className="font-sans font-extrabold">
                       {item.title}
-                    </a>
-                  </h3>
+                    </span>
+                  </span>
                   <p className="jsticnt">{item.description}</p>
                 </div>
               </div>
