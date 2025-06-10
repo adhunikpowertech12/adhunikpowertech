@@ -103,44 +103,7 @@ export default function FireAndSafety() {
     },
   ];
 
-  const services = [
-    {
-      icon: "fa-fire-extinguisher",
-      title: "Fire Extinguisher Refilling",
-      description:
-        "Fire extinguishers need regular refills. We use the latest technology to execute the refilling process flawlessly, dealing with all types of fire extinguishers.",
-    },
-    {
-      icon: "fa-fire-extinguisher",
-      title: "Fire Extinguisher Installation",
-      description:
-        "Installation of fire extinguishers is crucial for fire safety. We ensure proper placement so that you can access the extinguisher quickly in an emergency.",
-    },
-    {
-      icon: "fa-fire-extinguisher",
-      title: "Fire Extinguisher Maintenance",
-      description:
-        "Proper maintenance is key for smooth operation. Our experts use the latest technology to ensure top-notch service.",
-    },
-    {
-      icon: "fa-fire",
-      title: "Fire Alarm Installation System",
-      description:
-        "We provide all types of fire safety services. Our specialists ensure precise fire alarm panel installation for optimal safety.",
-    },
-    {
-      icon: "fa-fire",
-      title: "Smoke Detector Installation",
-      description:
-        "Smoke detectors are a crucial part of the fire alarm system. Our team executes the installation with precision.",
-    },
-    {
-      icon: "fa-fire",
-      title: "Warning Siren Installation",
-      description:
-        "Sirens are vital for alerting during fire emergencies. We install warning sirens at strategic points for maximum efficiency.",
-    },
-  ];
+  
   return (
     <>
         <div className="row   h-auto w-full relative">
@@ -255,6 +218,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                     <img
                       src={item.imgSrc}
                       alt={item.imgAlt}
+                      loading="lazy"
                       className="h-full w-full object-contain object-center"
                     />
                   </a>
@@ -300,6 +264,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 <img
                   className="  md:h-[22rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="/firex/13.webp"
@@ -413,6 +378,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 <img
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477708/whs_xxw3s3.webp"
@@ -453,6 +419,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 <img
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="firex/fss2.webp"
@@ -570,6 +537,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 <img
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="https://media.istockphoto.com/id/1178819648/photo/automatic-gas-fire-extinguishing-system-safety-of-premises-from-conflagration-red-compressed.jpg?s=612x612&w=0&k=20&c=64d5ykqzttrQlXWdSVIyHsgzb_luXXlM0jgwLJ5qGbE="
@@ -611,6 +579,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 <img
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="fire alarm system"
                   src=" firex/fire-alarm-system.webp"
@@ -742,6 +711,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                 <img
                   className="    object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="vs2.webp"
@@ -781,6 +751,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                 <img
                   className="  md:h-[30rem]  object-center object-fill "
                   fetchPriority="high"
+                  loading="lazy"
                   decoding="async"
                   alt="Air washer"
                   src="ft2.jpg "
@@ -938,6 +909,7 @@ Only” or “No Smoking.
                   fetchPriority="high"
                   decoding="async"
                   alt="Air washer"
+                  loading="lazy"
                   src="firex/10.png"
                 />
               </div>

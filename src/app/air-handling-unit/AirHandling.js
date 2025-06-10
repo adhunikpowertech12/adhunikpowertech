@@ -140,6 +140,7 @@ export default function AirHandling() {
                         <img
                           className="  md:h-[28rem]  object-center object-fill "
                           fetchPriority="high"
+                          loading="lazy"
                           decoding="async"
                           alt="Air Handling Unit"
                           src="ahu2.jpeg"
@@ -297,6 +298,7 @@ export default function AirHandling() {
                       className=" w-32 h-32 md:w-48 md:h-48  object-center object-cover    rounded-full"
                       src={logo.src}
                       alt={logo.alt}
+                      loading="lazy"
                     />
                   </li>
                 ))}
