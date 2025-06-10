@@ -440,10 +440,13 @@ export default function PanelAirConditioners() {
 
 
 
-            <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
+           
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Wall Mount TECHNICAL SPECIFICATION
+  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt </th>
@@ -535,10 +538,12 @@ export default function PanelAirConditioners() {
 
 
             </div>
-            <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
-            <div className="flex justify-center">
+           <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+                        <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Top Mount TECHNICAL SPECIFICATION
+  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
 
@@ -629,10 +634,13 @@ export default function PanelAirConditioners() {
             </div>
 
 
-            <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
-            <div className="flex justify-center">
+           <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
+              
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Stand Alone TECHNICAL SPECIFICATION
+  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
@@ -1077,6 +1085,10 @@ export default function PanelAirConditioners() {
 
 
               <table className="md:w-[50%] text-sm text-center text-gray-500 ">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+Typical Applications of Our Panel Air Conditioner
+ Solutions
+  </caption>
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>

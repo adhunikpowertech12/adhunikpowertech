@@ -544,10 +544,13 @@ const Applications = [
 
 
 
-        <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
-        <div className="flex justify-center">
+       <div className="flex justify-center">
           <div className="rounded-lg relative py-7 overflow-x-auto  w-full xl:w-full  max-w-[85rem] ">
+
             <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                    <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   AIROSTA ECO TECHNICAL SPECIFICATION
+  </caption>
               <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                 <tr className=" text-center">
                   <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">Air Volume</th>
@@ -659,10 +662,13 @@ const Applications = [
 
           </div>
 
-          <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
           <div className="flex justify-center">
             <div className="rounded-lg relative py-7 overflow-x-auto  w-full xl:w-full  max-w-[85rem] ">
+
               <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   AIROSTA PLUS TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className=" text-center">
                     <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">Air Volume</th>
@@ -776,10 +782,13 @@ const Applications = [
 
 
           </div>
-          <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
-          <div className="flex justify-center">
+           <div className="flex justify-center">
             <div className="rounded-lg relative py-7 overflow-x-auto  w-full xl:w-full  max-w-[85rem] ">
               <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   CYCLON TECHNICAL SPECIFICATION
+  </caption>
+
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className=" text-center">
                     <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">Air Volume</th>
@@ -891,10 +900,12 @@ const Applications = [
 
 
           </div>
-          <p className=" w-full text-center  text-2xl font-sans"> TECHNICAL SPECIFICATION</p>
           <div className="flex justify-center">
             <div className="rounded-lg py-7 relative overflow-x-auto  w-full xl:w-full  max-w-[85rem] ">
               <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   CYCLON PLUS TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className=" text-center">
                     <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100">Air Volume</th>
@@ -1346,6 +1357,10 @@ const Applications = [
 
 
                   <table className="md:w-[50%] text-sm text-center text-gray-500 ">
+                          <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Typical Applications of Our Duct Air Cooler Solutions
+
+  </caption>
                     <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                     </thead>
