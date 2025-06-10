@@ -297,6 +297,7 @@ export default function IndustrialCooler() {
             <div className="w-full lg:w-1/2 bg-white p-6 rounded-xl shadow-md border border-gray-200">
               <img
                 src={pricing[selectedCapacity].image}
+                loading="lazy"
                 alt={`Industrial Cooler ${selectedCapacity} Liters`}
                 className="w-full h-auto rounded-lg object-cover"
               />
@@ -432,8 +433,9 @@ export default function IndustrialCooler() {
                     className="w-full h-auto rounded-2xl"
                     decoding="async"
                     alt="Air washer"
-                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747654999/Cooler_2_a8qycx.webp"
                     loading="lazy"
+                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747654999/Cooler_2_a8qycx.webp"
+                    
                   />
                 </div>
               </div>
