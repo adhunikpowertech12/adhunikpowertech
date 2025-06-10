@@ -307,12 +307,14 @@ export default function VentilationFans() {
 
 
 
-<p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
+ 
 
 <div className="flex justify-center items-center w-full px-4 mb-4">
   <div className="overflow-x-auto w-full max-w-6xl">
     <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+            <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Axial Flow Fan TECHNICAL SPECIFICATION
+  </caption>
       <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
         <tr className="text-center">
           <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Fan Diameter</th>
@@ -464,13 +466,17 @@ export default function VentilationFans() {
 
 
 
-
-<p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
+ 
 
 <div className="flex justify-center items-center w-full px-4 mb-4">
   <div className="overflow-x-auto w-full max-w-6xl">
   <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+
+          <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+  Exhaust Fan (PP)
+ TECHNICAL SPECIFICATION
+  </caption>
+
   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
     <tr className="text-center">
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model No.</th>
@@ -622,12 +628,15 @@ export default function VentilationFans() {
 
 
 
-<p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
+ 
 
 <div className="flex justify-center items-center w-full px-4 mb-4">
   <div className="overflow-x-auto w-full max-w-6xl">
   <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+          <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+  Exhaust Fan (SS) TECHNICAL SPECIFICATION
+  </caption>
+
   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
     <tr className="text-center">
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model No.</th>
@@ -745,6 +754,10 @@ export default function VentilationFans() {
 
 
                 <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
+                        <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+Typical Applications of Our Ventilation Fan
+ Solutions
+  </caption>
                   <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                   </thead>

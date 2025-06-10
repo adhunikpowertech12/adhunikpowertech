@@ -643,17 +643,14 @@ const applications = [
 
 
           </div>
-
-
-
-
-
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
-
+ 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Oil Chiller Unit (1.5 TR.)
+ TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -772,12 +769,15 @@ const applications = [
 
 
 
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
-
+       
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Oil Chiller Unit (3 TR.) TECHNICAL SPECIFICATION
+  </caption>
+
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -897,13 +897,14 @@ const applications = [
 
 
 
-
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
-
+ 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Oil Chiller Unit (5 TR.)
+ TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -1022,12 +1023,14 @@ const applications = [
 
 
 
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
+         
 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Oil Chiller Unit (8 TR.) TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -1478,6 +1481,10 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
 
               <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
+
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+Typical Applications of Our Hydraulic Oil Chiller Solutions
+  </caption>
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
