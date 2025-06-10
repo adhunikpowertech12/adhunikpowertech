@@ -264,6 +264,7 @@ export default function VentilationFans() {
                 decoding="async"
                 alt="Axial Flow Fan"
                 src="/aff.png"
+                loading="lazy"
               />
             </div>
           </div>
@@ -433,6 +434,7 @@ export default function VentilationFans() {
               <img
                 className="  md:h-[28rem]  object-center object-cover "
                 fetchPriority="high"
+                loading="lazy"
                 decoding="async"
                 alt="Exhaust Fan (PP)"
                 src="
@@ -569,6 +571,7 @@ export default function VentilationFans() {
               <img
                 className="  md:h-[32rem]  object-center object-cover "
                 fetchPriority="high"
+                loading="lazy"
                 decoding="async"
                 alt="Exhaust Fan (SS)"
                 src="/ef.jpeg"
@@ -781,6 +784,7 @@ export default function VentilationFans() {
                       <img
                         className="  object-center object-cover  w-32 h-32 md:w-48 md:h-48  rounded-full"
                         src={logo.src}
+                        loading="lazy"
                         alt={logo.alt}
                       />
                     </li>
