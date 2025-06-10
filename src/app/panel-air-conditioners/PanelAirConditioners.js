@@ -1009,7 +1009,7 @@ export default function PanelAirConditioners() {
 
 
 
-                <img className="md:h-[70%] rounded-md" src="/pacth.webp" alt="Hero Image" />
+                <img className="md:h-[70%] rounded-md" src="/pacth.webp" loading="lazy" alt="Hero Image" />
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -1117,6 +1117,7 @@ export default function PanelAirConditioners() {
                       className=" w-32 h-32 md:w-48 md:h-48 object-center object-cover   rounded-full "
                       src={logo.src}
                       alt={logo.alt}
+                      loading="lazy"
                     />
                   </li>
                 ))}

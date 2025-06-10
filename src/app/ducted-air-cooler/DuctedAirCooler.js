@@ -434,6 +434,7 @@ const Applications = [
                           className=" md:h-96"
                           fetchPriority="high"
                           decoding="async"
+                          loading="lazy"
                           alt="DUCTED   AIR COOLER "
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         />
@@ -497,6 +498,7 @@ const Applications = [
                         className="  md:h-[28rem]  object-center object-fill "
                         fetchPriority="high"
                         decoding="async"
+                        loading="lazy"
                         alt="Adhunik Powertech: Your Trusted Duct Air Cooler Manufacturer in Delhi NCR & India
  "
                         src="/ac.webp"
@@ -634,6 +636,7 @@ const Applications = [
                           className=" md:h-96"
                           fetchPriority="high"
                           decoding="async"
+                          loading="lazy"
                           alt="DUCTED   AIR COOLER "
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476595/ac2_hn8qzz.webp"
                         />
@@ -726,6 +729,7 @@ const Applications = [
                           className=" md:h-96"
                           fetchPriority="high"
                           decoding="async"
+                          loading="lazy"
                           alt="DUCTED   AIR COOLER "
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476597/ac3_qjgqx4.webp"
                         />
@@ -864,6 +868,7 @@ const Applications = [
                           className=" md:h-96"
                           fetchPriority="high"
                           decoding="async"
+                          loading="lazy"
                           alt="DUCTED   AIR COOLER "
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         />
@@ -989,6 +994,7 @@ const Applications = [
                             className=" "
                             fetchPriority="high"
                             decoding="async"
+                            loading="lazy"
                             alt="Air Cooling in Industrial Space with Ducted Air Cooler"
                             src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476599/is_wqfm6b.webp"
                           />
@@ -1261,7 +1267,7 @@ const Applications = [
 
 
 
-                  <img className=" rounded-md" src="/dacth.webp" alt="Hero Image" />
+                  <img className=" rounded-md" loading="lazy" src="/dacth.webp" alt="Hero Image" />
                   <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -1383,6 +1389,7 @@ const Applications = [
                           className="  w-32 h-32 md:w-48 md:h-48 object-center object-cover    rounded-full"
                           src={logo.src}
                           alt={logo.alt}
+                          loading="lazy"
                         />
                       </li>
                     ))}
