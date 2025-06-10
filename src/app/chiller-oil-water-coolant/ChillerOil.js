@@ -620,6 +620,7 @@ const applications = [
                           decoding="async"
                           alt="Exhaust Fan (SS)"
                           src="awi/1.jpeg"
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -723,6 +724,7 @@ const applications = [
                           decoding="async"
                           alt="Exhaust Fan (SS)"
                           src="awi/15.jpeg"
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -868,6 +870,7 @@ const applications = [
                           decoding="async"
                           alt="Exhaust Fan (SS)"
                           src="awi/16.jpeg"
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -971,6 +974,7 @@ const applications = [
                           className="  md:h-[28rem]  object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
+                          loading="lazy"
                           alt="Exhaust Fan (SS)"
                           src="awi/14.jpeg"
                         />
@@ -1405,7 +1409,7 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
 
 
-                <img className="md:h-[70%] rounded-md" src="/pacth.webp" alt="Hero Image 3" />
+                <img className="md:h-[70%] rounded-md" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -1513,6 +1517,7 @@ In the demanding world of industrial operations, hydraulic systems are the undis
                     <img
                       className=" w-32 h-32 md:w-48 md:h-48  object-center object-cover    rounded-full"
                       src={logo.src}
+                      loading="lazy"
                       alt={logo.alt}
                     />
                   </li>
