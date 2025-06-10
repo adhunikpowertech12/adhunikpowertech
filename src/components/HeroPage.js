@@ -387,6 +387,7 @@ export default function HeroPage() {
           <img
             src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
             alt="AmbitionBox rating badge"
+            loading='lazy'
           />
         </a>
       ),
@@ -1335,6 +1336,7 @@ export default function HeroPage() {
                 <img
                   src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
                   alt="image"
+                  loading='lazy'
                 />
               </a>
             </div>

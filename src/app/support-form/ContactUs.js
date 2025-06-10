@@ -56,11 +56,11 @@ export default function ContactUs() {
         }
         if (formData.phoneNumber.trim() === "") {
             newErrors.phoneNumber = "Phone Number is required";
-            
+
         }
-     else if (!/^\d{10}$/.test(formData.phoneNumber)) {
-        newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
-    }
+        else if (!/^\d{10}$/.test(formData.phoneNumber)) {
+            newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
+        }
         if (formData.email.trim() === "") {
             newErrors.email = "Email is required";
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -84,7 +84,7 @@ export default function ContactUs() {
         e.preventDefault();
 
         if (validateForm()) {
-           
+
             emailjs
                 .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
                     publicKey: "MhRQ4EQ146BN6g6VJ",
@@ -92,7 +92,7 @@ export default function ContactUs() {
                 .then(() => {
                     notifys();
                     console.log("SUCCESS!");
-                   
+
                     setTimeout(() => {
                         router.push("/");
                     }, 5000);
@@ -184,21 +184,21 @@ export default function ContactUs() {
 
     return (
         <>
-           <ToastContainer />
+            <ToastContainer />
+
             <div className="w-full  ">
                 <div className=" w-full p-7   items-center justify-center ">
-                    <h1 className="text-5xl pt-4 text-center h-full mt-16">Contact Us</h1>
+
+                    <h1 className="text-5xl pt-4 text-center h-full mt-16"> Contact Us </h1>
+
                 </div>
+
                 <div className=" w-full ">
                     <div className="text-center">
 
                         <div className="justify-around grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 group p-5">
                             {contactDetails.map((detail) => (
-
-
-                                <div
-                                    key={detail.id}
-                                    className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
+  <div key={detail.id}   className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
                                 >
                                     <div className="w-auto h-auto">{detail.icon}</div>
                                     <h4 className="uppercase text-[18px] font-sans py-3 font-bold">{detail.title}</h4>
@@ -226,6 +226,7 @@ export default function ContactUs() {
                                 src="/contactus.webp" // Replace this with your desired image URL
                                 alt="Description of the image"
                                 className="w-full h-auto object-cover"
+                                loading='lazy'
                             />
                         </div>
 
