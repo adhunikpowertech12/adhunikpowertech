@@ -215,6 +215,7 @@ export default function page() {
                     <img
                       className="lg:w-auto h-72 lg:h-96 mx-auto"
                       src={sector.mainImageSrc}
+                      loading="lazy"
                       alt="can_help_banner"
                     />
 
@@ -232,6 +233,7 @@ export default function page() {
                         <div className="h-full rounded-br-xl">
                           <img
                             src={feature.imgSrc}
+                            loading="lazy"
                             className="h-32 rounded-tl-lg rounded-br-lg object-center object-fill"
                             alt={feature.title}
                           />

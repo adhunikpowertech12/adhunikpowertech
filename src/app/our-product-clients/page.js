@@ -133,6 +133,7 @@ export default function page() {
                                 className={`h-[50%] border w-[80%] mx-auto object-center object-cover transition-transform duration-500 group-hover:scale-90  rounded-lg `}
                                 src={item.src}
                                 fetchPriority="high"
+                                loading="lazy"
                                 decoding="async"
                                 alt={item.alt}
                               />
