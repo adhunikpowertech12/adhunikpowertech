@@ -277,13 +277,14 @@ export default function AirShower() {
 
           </div>
 
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
-
-
+        
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+  Air Shower
+ TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Dimension in mm</th>
@@ -322,13 +323,7 @@ export default function AirShower() {
             </div>
           </div>
 
-
-
-
-
-
-
-
+ 
           <div className="bg-[#283e56] p-4 relative">
 
             <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
@@ -373,15 +368,11 @@ export default function AirShower() {
             </div>
           </div>
         </div>
-
-
-
+ 
         <div className="row">
 
           <div className=" h-full flex  flex-col-reverse md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-
-
-
+ 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Pass Box</h2>
               <p className="text-justify md:text-center">
@@ -396,9 +387,7 @@ export default function AirShower() {
                 >
                   Enquiry Now
                 </button>
-
-
-
+ 
               </div>
             </div>
 
@@ -432,12 +421,14 @@ export default function AirShower() {
 
           </div>
 
-          <p className=" w-full text-center  text-2xl font-sans py-3"> TECHNICAL SPECIFICATION</p>
-
+        
 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Pass Box TECHNICAL SPECIFICATION
+  </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Fan Diameter</th>
@@ -567,6 +558,11 @@ export default function AirShower() {
 
 
               <table className=" md:w-[50%] text-sm text-center text-gray-500 ">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Typical Applications of Our Air Shower & Pass Box
+ Solutions
+
+  </caption>
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>

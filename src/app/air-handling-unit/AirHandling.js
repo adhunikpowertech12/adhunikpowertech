@@ -258,6 +258,10 @@ export default function AirHandling() {
 
 
               <table className="md:w-[50%] text-sm text-center text-gray-500 ">
+                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+   Typical Applications of Our Air Handling Unit Solutions
+
+  </caption>
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
