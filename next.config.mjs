@@ -1,29 +1,38 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      remotePatterns: [{
+  images: {
+    remotePatterns: [
+      {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
         pathname: '**',
       },
-      
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
         pathname: '**',
-      },],
-    },
-    eslint: {
-      ignoreDuringBuilds: true, 
-    },
- 
-   env: {
+      },
+    ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  env: {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
   },
+  async headers() {
+    return [
+      {
+        source: "/:path*\\.pdf",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow",
+          },
+        ],
+      },
+    ];
+  },
+};
 
-  };
-  
-  export default nextConfig;
-  
+export default nextConfig;
