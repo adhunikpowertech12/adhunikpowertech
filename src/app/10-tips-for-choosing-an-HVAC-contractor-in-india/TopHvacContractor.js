@@ -112,14 +112,14 @@ export default function TopHvacContractor() {
 
 
 
-                <h2 className="text-2xl font-semibold mb-3">
+                <p className="text-2xl font-semibold mb-3">
                   6. Inquire About <Link
                     href="/annual-maintenance-contract"
                     className="text-blue-500 hover:underline pr-1 "
                   >
                     AMC  (Annual Maintenance Contracts)
                   </Link>
-                </h2>
+                </p>
 
                 <h2 className="mb-4 text-gray-700 font-sans font-normal text-justify md:text-start">
                   A reliable contractor should offer Annual Maintenance Contracts to ensure the efficient operation of your HVAC system. In India, AMCs are vital due to frequent power fluctuations and dusty conditions that can impact HVAC performance.

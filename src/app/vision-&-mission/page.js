@@ -19,11 +19,15 @@ export default function page() {
 
       <div className="row">
         <div className="row  pt-36 text-center">
-          <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+
+        <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+           Vision & Mission
+        </h1>
+          <p className="mb-4 px-4 text-lg font-extrabold text-gray-900 dark:text-white    ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          Vision & Mission
+          Delivering innovative, high-quality Products to lead the industry and exceed customer expectations.
           </span> 
-          </h1>
+          </p>
 
         </div>
 

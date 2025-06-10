@@ -26,8 +26,8 @@ export default function IndiaBusinessAward() {
 
             </div>
 
-            <header className="text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
-              <h1 className=" text-[20px] md:text-3xl font-bold">Adhunik Powertech: Leading HVAC Solutions <br /> in Delhi NCR & Northern India</h1>
+            <header className=" w-[50%] text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
+              <h1 className="  text-[20px] md:text-3xl font-bold">Adhunik Powertech: Leading HVAC Solutions   in Delhi NCR & Northern India</h1>
               <p className="text-gray-600 text-[15px]  md:text-[14px] ">Trusted by Top Brands | Award-Winning HVAC Services</p>
             </header>
           </div>
@@ -211,14 +211,14 @@ export default function IndiaBusinessAward() {
 
           </p>
 
-          <h2 className=" text-gray-600 text-2xl font-semibold mt-6 text-center md:text-start"><Link
+          <p className=" text-gray-600 text-2xl font-semibold mt-6 text-center md:text-start"><Link
             href="/support-form"
             className="text-cyan-600 hover:underline pr-1 "
           >
             Contact Adhunik Powertech Today
           </Link>
             : Your Trusted HVAC Partner in Delhi NCR & Northern India
-          </h2>
+          </p>
           <p className="text-gray-600 font-sans font-normal text-justify md:text-start mt-2">
             For reliable, efficient, and award-winning HVAC solutions in Delhi, Noida, Gurugram, and across Northern India, contact Adhunik Powertech Private Limited today. Experience the quality, service, and innovation that sets us apart.
 

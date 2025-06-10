@@ -8,7 +8,7 @@ export const metadata = {
   
     description: "Need reliable HVAC systems in Gurugram? Contact Adhunik Powertech for expert industrial & commercial HVAC installation, maintenance, and solutions. Get a free quote!",
       alternates: {
-    canonical:"https://www.adhunikpowertech.com/contact-us",  
+    canonical:"https://www.adhunikpowertech.com/support-form",  
   },
   }
 
