@@ -135,6 +135,7 @@ export default function Blog() {
                         src={blog.img}
                         alt={blog.title}
                         className="w-full h-full object-contain rounded-md"
+                           loading='lazy'
                       />
                     </div>
                   </div>

@@ -255,50 +255,50 @@ export default function AirWasher() {
 
 
         <section className=' p-5 flex flex-col md:flex-row mb-5'>
-<div className="box md:w-4/12 justify-center flex items-center mx-auto">
+          <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
-                    <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                      <Image
-                        className="   h-full w-full  object-center object-fill rounded-2xl "
-                       priority
-                        decoding="async"
-                        alt="Air washer"
-                        src="/awi/5.webp"
-                        width="300"
-                        height="250"
-                       
-                      />
-                    </div>
-                
-</div>
+            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+              <Image
+                className="   h-full w-full  object-center object-fill rounded-2xl "
+                priority
+                decoding="async"
+                alt="Air washer"
+                src="/awi/5.webp"
+                width="300"
+                height="250"
 
+              />
+            </div>
 
+          </div>
 
 
 
-<div className="box md:w-6/12 py-4 px-4 flex justify-center items-start flex-col">
-  <h1 className="w-full text-center md:text-left font-sans text-4xl text-sky-700 leading-tight">
-    Air Washers Explained : Dual-Purpose Air Cleaning & Humidity Control
-  </h1>
-  
-  <p className="text-gray-700 py-3 font-sans text-justify md:text-left">
-    An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
-  </p>
-  
-  <h2 className="text-gray-700 text-2xl text-center md:text-left font-sans font-semibold w-full leading-normal">
-    How Air Washers Work: The Science of Evaporative Cooling
-  </h2>
-  
-  <p className="text-gray-700 pb-3 font-sans text-center md:text-left">
-    Air washers utilize the principle of evaporative (adiabatic) cooling to lower air temperatures.
-    <br />
-    Here's a detailed breakdown:
-  </p>
-</div>
+
+
+          <div className="box md:w-6/12 py-4 px-4 flex justify-center items-start flex-col">
+            <h1 className="w-full text-center md:text-left font-sans text-4xl text-sky-700 leading-tight">
+              Air Washers Explained : Dual-Purpose Air Cleaning & Humidity Control
+            </h1>
+
+            <p className="text-gray-700 py-3 font-sans text-justify md:text-left">
+              An air washer is a highly efficient evaporative cooling system designed to condition air in large industrial and commercial spaces. Ideal for factories, commercial kitchens, basements, etc., air washers offer a cost-effective and energy-efficient alternative to traditional cooling methods like chillers and VRF systems.
+            </p>
+
+            <h2 className="text-gray-700 text-2xl text-center md:text-left font-sans font-semibold w-full leading-normal">
+              How Air Washers Work: The Science of Evaporative Cooling
+            </h2>
+
+            <p className="text-gray-700 pb-3 font-sans text-center md:text-left">
+              Air washers utilize the principle of evaporative (adiabatic) cooling to lower air temperatures.
+              <br />
+              Here's a detailed breakdown:
+            </p>
+          </div>
 
 
 
-     
+
 
         </section>
 
@@ -340,7 +340,7 @@ export default function AirWasher() {
                     <div className="container  px-3">
                       <h3 className=" underline text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
 
-                       Direct Evaporative Cooling :
+                        Direct Evaporative Cooling :
 
                       </h3>
 
@@ -355,7 +355,7 @@ export default function AirWasher() {
 
                           </li>
                           <li className='font-sans'>
-                          The cooled, humidified air is then circulated.
+                            The cooled, humidified air is then circulated.
                           </li>
                         </ul>
 
@@ -367,7 +367,7 @@ export default function AirWasher() {
                     <div className="container px-3">
                       <h3 className=" underline text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
 
-                       Indirect Evaporative Cooling :
+                        Indirect Evaporative Cooling :
                       </h3>
 
                       <div className=" text-base  leading-relaxed   space-y-4">
@@ -440,29 +440,29 @@ export default function AirWasher() {
                         <ul className="list-disc pl-5 text-gray-700">
                           <li className=' font-sans'><strong>Single-Stage :</strong> Uses either direct or indirect evaporative cooling.</li>
                           <li className='font-sans '><strong>Two-Stage :</strong> Combines indirect and direct evaporative cooling for maximum cooling efficiency, especially in hot, dry climates.
-</li>
+                          </li>
 
                         </ul>
 
                       </div>
 
                       <div className="relative max-w-xl mx-auto  mt-3">
-                      
-    
-    <Image
-  src="/awi/dura.webp"
-  alt="Dura image"  
-  width={1200}      
-  height={240}     
-  className="h-60 w-full object-cover rounded-md"
-  loading="lazy"
-  decoding="async"
-/>
-    <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
-    <div className="absolute inset-0 flex items-center justify-center">
-        <h2 className="text-white text-3xl font-bold">Efficient | Durable  </h2>
-    </div>
-</div>
+
+
+                        <Image
+                          src="/awi/dura.webp"
+                          alt="Dura image"
+                          width={1200}
+                          height={240}
+                          className="h-60 w-full object-cover rounded-md"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                        <div className="absolute inset-0 bg-gray-800 opacity-60 rounded-md"></div>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <h2 className="text-white text-3xl font-bold">Efficient | Durable  </h2>
+                        </div>
+                      </div>
                     </div>
 
 
@@ -481,16 +481,15 @@ export default function AirWasher() {
 
 
           <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal  ">
-          Air Washer Manufacturer in Delhi & India
+            Air Washer Manufacturer in Delhi & India
           </h2>
 
           <p className="text-gray-700  pb-3 font-sans">
-          Adhunik Powertech is a leading manufacturer of high-quality air washers, proudly serving Delhi NCR, including key industrial hubs like Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our expertise extends across India, providing reliable air washer units to meet diverse industrial and commercial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. Contact Adhunik Powertech for your air washer solutions, no matter your location in Delhi NCR or across India.
+            Adhunik Powertech is a leading manufacturer of high-quality air washers, proudly serving Delhi NCR, including key industrial hubs like Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our expertise extends across India, providing reliable air washer units to meet diverse industrial and commercial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh. Contact Adhunik Powertech for your air washer solutions, no matter your location in Delhi NCR or across India.
           </p>
 
         </section>
 
-     
 
 
 
@@ -498,7 +497,8 @@ export default function AirWasher() {
 
 
 
- 
+
+
 
 
         <div className="row">
@@ -507,70 +507,70 @@ export default function AirWasher() {
             <div className="md:w-[60%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
               <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                  <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
                     Key Features of Adhunik Powertech Air Washers :
-                    </h2>
+                  </h2>
 
-                    <div className=" text-base  leading-relaxed   space-y-4">
+                  <div className=" text-base  leading-relaxed   space-y-4">
 
                     <ul className="list-disc pl-5 text-gray-700">
-  <li className='font-sans'><strong>Full SS304 Construction :</strong> Unmatched corrosion resistance and durability for long-lasting performance.</li>
-  <li className='font-sans'><strong>Robust Build :</strong> Outer skin: Galvanized Iron (GI) or Pre-Coated GI (customizable); Inner skin: GI (customizable); Frame: Extruded aluminium profile.</li>
-  <li className='font-sans'><strong>High-Efficiency Filtration :</strong> Multi-stage filtration with synthetic filters (90% efficiency down to 10 microns).</li>
-  <li className='font-sans'><strong>Optimal Cooling :</strong> Cellulose evaporation pads and PVC eliminators for efficient heat transfer.</li>
-  <li className='font-sans'><strong>Powerful Airflow :</strong> SISW/DIDW backward curved or EC fans for efficient air circulation (1,000 – 100,000 CFM).</li>
-  <li className='font-sans'><strong>Reliable Water Management :</strong> SS304 sump and high-performance water pumps.</li>
-  <li className='font-sans'><strong>Customizable Solutions :</strong> Tailored designs to meet specific application requirements.</li>
-  <li className='font-sans'><strong>Easy Installation & Maintenance :</strong> Designed for straightforward setup and long-term reliability.</li>
-</ul>
+                      <li className='font-sans'><strong>Full SS304 Construction :</strong> Unmatched corrosion resistance and durability for long-lasting performance.</li>
+                      <li className='font-sans'><strong>Robust Build :</strong> Outer skin: Galvanized Iron (GI) or Pre-Coated GI (customizable); Inner skin: GI (customizable); Frame: Extruded aluminium profile.</li>
+                      <li className='font-sans'><strong>High-Efficiency Filtration :</strong> Multi-stage filtration with synthetic filters (90% efficiency down to 10 microns).</li>
+                      <li className='font-sans'><strong>Optimal Cooling :</strong> Cellulose evaporation pads and PVC eliminators for efficient heat transfer.</li>
+                      <li className='font-sans'><strong>Powerful Airflow :</strong> SISW/DIDW backward curved or EC fans for efficient air circulation (1,000 – 100,000 CFM).</li>
+                      <li className='font-sans'><strong>Reliable Water Management :</strong> SS304 sump and high-performance water pumps.</li>
+                      <li className='font-sans'><strong>Customizable Solutions :</strong> Tailored designs to meet specific application requirements.</li>
+                      <li className='font-sans'><strong>Easy Installation & Maintenance :</strong> Designed for straightforward setup and long-term reliability.</li>
+                    </ul>
 
-                    </div>
                   </div>
+                </div>
 
               </div>
             </div>
 
             <div className="md:w-[40%] w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
-                    Technical Specifications :
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
+                  Technical Specifications :
 
-                    </h2>
+                </h2>
 
-                    <div className="container">
-                 
-
-                      <div className=" text-base  leading-relaxed   space-y-4">
-
-                      <ul className="list-disc pl-5 text-gray-700">
-  <li className='font-sans'>CFM Range: 1,000 – 100,000
-</li>
-  <li className='font-sans'>Static Pressure: Customizable (mm WG)
-</li>
-  <li className='font-sans'>Filter Efficiency: 90% down to 10 microns
-</li>
-  <li className='font-sans'>Sump Material: SS304
-</li>
-  <li className='font-sans'>Outer Skin Material: Galvanized Iron (GI) or Pre-Coated GI (customizable thickness)
-</li>
-  <li className='font-sans'>Inner Skin Material: Galvanized Iron (GI) (customizable thickness)
-</li>
-  <li className='font-sans'>Frame Material: Extruded Aluminium Profile
-</li>
-  <li className='font-sans'>Fan Type: SISW/DIDW Backward Curved or EC Fan
-</li>
-  <li className='font-sans'>Evaporation Pad Type: Cellulose
-</li>
-</ul>
-
-                      </div>
-                    
-                    </div>
+                <div className="container">
 
 
+                  <div className=" text-base  leading-relaxed   space-y-4">
+
+                    <ul className="list-disc pl-5 text-gray-700">
+                      <li className='font-sans'>CFM Range: 1,000 – 100,000
+                      </li>
+                      <li className='font-sans'>Static Pressure: Customizable (mm WG)
+                      </li>
+                      <li className='font-sans'>Filter Efficiency: 90% down to 10 microns
+                      </li>
+                      <li className='font-sans'>Sump Material: SS304
+                      </li>
+                      <li className='font-sans'>Outer Skin Material: Galvanized Iron (GI) or Pre-Coated GI (customizable thickness)
+                      </li>
+                      <li className='font-sans'>Inner Skin Material: Galvanized Iron (GI) (customizable thickness)
+                      </li>
+                      <li className='font-sans'>Frame Material: Extruded Aluminium Profile
+                      </li>
+                      <li className='font-sans'>Fan Type: SISW/DIDW Backward Curved or EC Fan
+                      </li>
+                      <li className='font-sans'>Evaporation Pad Type: Cellulose
+                      </li>
+                    </ul>
 
                   </div>
+
+                </div>
+
+
+
+              </div>
             </div>
 
 
@@ -597,10 +597,6 @@ export default function AirWasher() {
                     </div>
                   </div>
 
-
-
-
-
                 </div>
               </div>
             </div>
@@ -615,18 +611,18 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-             
 
-<Image
-  src="/awi/1.webp"
-  alt="Air washer"
-  width={500} 
-  height={500}
-  className="md:h-full md:w-full object-cover"
-   
-  decoding="async"
-  loading='lazy'
-/>
+
+                        <Image
+                          src="/awi/1.webp"
+                          alt="Air washer"
+                          width={500}
+                          height={500}
+                          className="md:h-full md:w-full object-cover"
+
+                          decoding="async"
+                          loading='lazy'
+                        />
                       </div>
                     </div>
                   </div>
@@ -653,17 +649,17 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                      
-                      
-                      <Image
-  src="/awi/2.webp"
-  alt="Air washer"
-  width={800} 
-  height={448}
-  className="md:h-[28rem] object-center object-fill"
-  loading='lazy'
-  decoding="async"
-/>
+
+
+                        <Image
+                          src="/awi/2.webp"
+                          alt="Air washer"
+                          width={800}
+                          height={448}
+                          className="md:h-[28rem] object-center object-fill"
+                          loading='lazy'
+                          decoding="async"
+                        />
 
                       </div>
                     </div>
@@ -751,17 +747,17 @@ export default function AirWasher() {
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
 
-                       
 
-<Image
-    src="/awi/3.webp"
-    alt="Air washer"
-    width={500} 
-    height={500}
-       className=" h-full w-full"
-    loading="lazy"
-    decoding="async"
-  />
+
+                        <Image
+                          src="/awi/3.webp"
+                          alt="Air washer"
+                          width={500}
+                          height={500}
+                          className=" h-full w-full"
+                          loading="lazy"
+                          decoding="async"
+                        />
                       </div>
                     </div>
                   </div>
@@ -794,21 +790,22 @@ export default function AirWasher() {
 
             <div className="md:w-[80%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
               <div className="flex flex-wrap">
-               <div className=" w-full md:w-6/12">
+                <div className=" w-full md:w-6/12">
                   {lists.slice(0, 5).map((list, index) => (
                     <div key={index} className="mb-4">
-                     <div className="flex items-center  mb-2">
+                      <div className="flex items-center  mb-2">
                         <Image
                           src={list.img}
                           alt={`Small image for ${list.heading}`}
                           width={30}
                           height={30}
                           className="mr-2"
+                          loading="lazy"
                         />
                         <h3 className=' text-left text-[18px]'>{list.heading}</h3>
                       </div>
 
-                     
+
                       <ul className='list-disc list-inside'>
                         {list.items.map((item, idx) => (
                           <li key={idx} className="mb-1 text-left font-thin text-gray-500">
@@ -820,11 +817,11 @@ export default function AirWasher() {
                   ))}
                 </div>
 
-                
+
                 <div className=" w-full md:w-6/12">
                   {lists.slice(5).map((list, index) => (
                     <div key={index} className="mb-4  ">
-                      
+
                       <div className="flex items-center mb-2">
                         <Image
                           src={list.img}
@@ -832,11 +829,12 @@ export default function AirWasher() {
                           width={30}
                           height={30}
                           className="mr-2"
+                          loading="lazy"
                         />
                         <h3 className=' text-left'>{list.heading}</h3>
                       </div>
 
-                      
+
                       <ul className='list-disc list-inside'>
                         {list.items.map((item, idx) => (
                           <li key={idx} className="mb-1 text-left font-thin text-gray-500">
@@ -879,33 +877,33 @@ export default function AirWasher() {
 
 
         <div className=" container mx-auto w-auto  p-7  transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl">
-              <div className="flex items-center justify-center h-full">
+          <div className="flex items-center justify-center h-full">
 
-              <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold text-center font-manrope w-full leading-normal ">
-                    Contact Us Today :
-                    </h2>
-               
-                    <p className="text-gray-700  py-3 font-sans   text-center ">For reliable and high-quality air washer solutions in Delhi and across India, contact Adhunik Powertech today. Also, if you have any questions about air washers, installation, maintenance, and repair, please reach-out to our toll-free number, and we'll be happy to discuss your needs and provide a customized solution. 
-</p>
-   <a
-  href="tel:8287885885"
-  onClick={(e) => {
-    e.preventDefault();
-    window.location.href = "tel:8287885885";
-  }}
-  className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
->
-  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-  <span className="relative">Contact Us</span>
-</a>
+            <div className="w-full flex-col justify-center lg:items-start items-center gap-3 flex">
+              <h2 className="text-gray-700 text-2xl font-semibold text-center font-manrope w-full leading-normal ">
+                Contact Us Today :
+              </h2>
 
-                  </div>
+              <p className="text-gray-700  py-3 font-sans   text-center ">For reliable and high-quality air washer solutions in Delhi and across India, contact Adhunik Powertech today. Also, if you have any questions about air washers, installation, maintenance, and repair, please reach-out to our toll-free number, and we'll be happy to discuss your needs and provide a customized solution.
+              </p>
+              <a
+                href="tel:8287885885"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "tel:8287885885";
+                }}
+                className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+              >
+                <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+                <span className="relative">Contact Us</span>
+              </a>
 
-              </div>
             </div>
 
-            
+          </div>
+        </div>
+
+
 
         <div className="row">
 
@@ -970,14 +968,9 @@ export default function AirWasher() {
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                     <span className="relative">       Know more About Us </span>
                   </Link>
-              
-
-
-
+ 
                 </div>
-
-
-
+ 
               </section>
 
 
@@ -999,26 +992,19 @@ export default function AirWasher() {
                   <button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
                 </div>
 
-
-
-
-        
-
+ 
                 <Image
-  src="/awth.webp"
-  alt="What are the benefits of using an air washer?"
-  width={800} 
-  height={400}
-  className="md:h-auto rounded-md "
-  loading="lazy"
-  decoding="async"
-/>
-                
+                  src="/awth.webp"
+                  alt="What are the benefits of using an air washer?"
+                  width={800}
+                  height={400}
+                  className="md:h-auto rounded-md "
+                  loading="lazy"
+                  decoding="async"
+                />
+
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
-
-
-
-
+ 
               </div>
 
 
@@ -1026,22 +1012,22 @@ export default function AirWasher() {
                 <>
                   <div
                     className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                    onClick={closeModal} 
+                    onClick={closeModal}
                   >
                     <div
                       className="relative  my-6    container-fluid "
-                      onClick={(e) => e.stopPropagation()} 
+                      onClick={(e) => e.stopPropagation()}
                     >
-                   
-                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                         
 
-                         
+                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+
+
+
                         <div className="relative  flex-auto">
 
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/maCpVe_3Y2M?si=a1rz8p00L814B6xo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
-                       
+
 
                       </div>
                     </div>
@@ -1062,13 +1048,13 @@ export default function AirWasher() {
 
 
           <div className="flex justify-center items-center w-full h-full flex-row">
-             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+            <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
-             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
 
-             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
+            <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
           </div>
 
           <div className="row  w-full h-full">
@@ -1115,14 +1101,14 @@ export default function AirWasher() {
                 {logos.map((logo, idx) => (
                   <li key={idx}>
 
-<Image
-  src={logo.src}
-  alt={logo.alt}
-  width={500} 
-  height={500}
-  className="w-32 h-32 md:w-48 md:h-48 object-center object-cover rounded-full"
-  loading="lazy"
-/>
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt}
+                      width={500}
+                      height={500}
+                      className="w-32 h-32 md:w-48 md:h-48 object-center object-cover rounded-full"
+                      loading="lazy"
+                    />
 
                   </li>
                 ))}
@@ -1131,10 +1117,7 @@ export default function AirWasher() {
           </div>
 
         </div>
-
-
-
-
+ 
       </div>
     </>
   )
