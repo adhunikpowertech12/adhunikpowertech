@@ -1064,6 +1064,11 @@ export default function AirWasher() {
 
 
               <table className="md:w-[50%] text-sm text-center text-gray-500 ">
+
+               <caption className=" text-base font-semibold text-gray-700 mb-2">
+    Typical Applications of Our Air Washer Solutions
+  </caption>
+
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
