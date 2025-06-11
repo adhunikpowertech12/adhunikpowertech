@@ -347,10 +347,10 @@ export default function HeroPage() {
           href="https://www.indiamart.com/adhunik-cooling-system-limited/"
           rel="nofollow"
         >
-          <Image
+          <img
             src="/indiamartreview.webp"
-            width={500}
-            height={500}
+            width="150"
+  height="150"
             loading="lazy"
             alt="4.5 out of 5 indiamart ratings of adhunik powertech"
           />
@@ -367,10 +367,10 @@ export default function HeroPage() {
           href="https://www.indiamart.com/adhunik-cooling-system-limited/"
           rel="nofollow"
         >
-          <Image
+          <img
             src="/googlereview.webp"
-            width={500}
-            height={500}
+            width="150"
+  height="150"
             loading="lazy"
             alt="4.5 out of 5 indiamart ratings of adhunik powertech"
           />
@@ -388,6 +388,8 @@ export default function HeroPage() {
             src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
             alt="AmbitionBox rating badge"
             loading='lazy'
+             width="150"
+  height="150"
           />
         </a>
       ),
@@ -831,7 +833,7 @@ export default function HeroPage() {
 
         <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2 text-[26px]  text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
+          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-lg   text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
         </div>
 
         <section className="row ">
@@ -1142,12 +1144,12 @@ export default function HeroPage() {
               <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
                 <div className="w-full flex-col justify-center items-start gap-8 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal  text-center">
-                      Top HVAC Services in Delhi NCR & India: Design, Engineering, Installation
+                    <h2 className="text-gray-700 text-xl font-semibold font-manrope w-full leading-normal  text-center">
+                      Top HVAC Services in Delhi NCR & India : Design, Engineering, Installation
                     </h2>
                     <div className=" text-base  leading-relaxed   space-y-4">
                       {paragraphs.map((paragraph, index) => (
-                        <p className="font-sans font-thin  text-justify " key={index}>{paragraph}</p>
+                        <p className="font-sans  text-sm font-thin  text-justify " key={index}>{paragraph}</p>
                       ))}
                     </div>
                   </div>
@@ -1162,13 +1164,13 @@ export default function HeroPage() {
         <div className="row">
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
+            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl   capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
           </div>
 
           <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
             <div className=" w-full h-full md:w-5/12 px-3  ">
               <h3
-                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-4xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
 
                 Our Product Range </h3>
               <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
@@ -1186,7 +1188,7 @@ export default function HeroPage() {
 
         <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
-          <h2 className="absolute px-5 text-gray-700  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold text-3xl text-center font-sans">Member of</h2>
+          <h2 className="absolute px-5 text-gray-700  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold   text-center font-sans">Member of</h2>
         </div>
 
         <div className="row  hidden md:block">
@@ -1262,7 +1264,7 @@ export default function HeroPage() {
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <h2 className="absolute text-3xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
+            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Proudly We Serve
             </h2>
 
           </div>
@@ -1288,7 +1290,7 @@ export default function HeroPage() {
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
-            <h2 className="absolute text-2xl px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
+            <h2 className="absolute   px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  md:text-3xl text-1xl capitalize font-extrabold text-center font-sans" > Ratings from Leading Platforms
 
             </h2>
 
@@ -1307,10 +1309,10 @@ export default function HeroPage() {
                 href="https://www.indiamart.com/adhunik-cooling-system-limited/"
                 rel="nofollow"
               >
-                <Image
+                <img
                   src="/indiamartreview.webp"
-                  width="500"
-                  height="500"
+                        width="300"
+  height="300"
                   loading="lazy"
                   alt="4.5 out of 5 indiamart ratings of adhunik powertech"
                 />
@@ -1320,10 +1322,10 @@ export default function HeroPage() {
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
 
               <Link href="https://g.page/r/CdkchWQZZnQmEBE/review">
-                <Image
+                <img
                   src="/googlereview.webp"
-                  width={500}
-                  height={500}
+                        width="300"
+  height="300"
                   loading="lazy"
                   alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
                 />
@@ -1337,6 +1339,8 @@ export default function HeroPage() {
                   src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
                   alt="image"
                   loading='lazy'
+                     width="300"
+  height="300"
                 />
               </a>
             </div>
