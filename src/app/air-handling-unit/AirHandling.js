@@ -138,12 +138,14 @@ export default function AirHandling() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  md:h-[28rem]  object-center object-fill "
+                          className="    object-center object-fill "
                           fetchPriority="high"
                           loading="lazy"
                           decoding="async"
                           alt="Air Handling Unit"
-                          src="ahu2.jpeg"
+                          src="/ahu2.jpeg"
+                          height="200"
+                          width="400"
                         />
                       </div>
                     </div>
@@ -245,12 +247,7 @@ export default function AirHandling() {
 
 
         <div className="row pb-16 flex justify-center items-center flex-col">
-
-
-
-
-
-
+ 
           <div className="row  w-full h-full">
 
 
@@ -302,6 +299,8 @@ export default function AirHandling() {
                       className=" w-32 h-32 md:w-48 md:h-48  object-center object-cover    rounded-full"
                       src={logo.src}
                       alt={logo.alt}
+                       height="300"
+                          width="300"
                       loading="lazy"
                     />
                   </li>

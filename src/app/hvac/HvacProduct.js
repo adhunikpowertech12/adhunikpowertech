@@ -779,6 +779,8 @@ export default function HvacProduct() {
                 <img
                   className="object-cover md:w-[50%] p-8 md:h-[50%]"
                   src={card.imgSrc}
+                    height="300"
+                          width="300"
                   loading="lazy"
                   alt={`${card.clientName} project`}
                 />

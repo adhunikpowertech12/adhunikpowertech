@@ -234,17 +234,19 @@ export default function AirShower() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  md:h-[28rem]  object-center object-cover "
+                          className="     object-center object-cover "
                           fetchPriority="high"
                           decoding="async"
-                          alt="Air Handling Unit"
+                          alt=" adhunik powertech Air Shower"
+                           height="300"
+                          width="300"
                           src="as.png"
                         />
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-3xl font-bold text-white">  Air Shower </h2>
+                      <h2 className="font-dmserif text-3xl font-bold text-white">   </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Ensure a clean and contaminant-free environment with our high-performance Air Showers. Our powerful units effectively remove dust, debris, and particles, enhancing workplace safety.     </p>
 
@@ -399,9 +401,11 @@ export default function AirShower() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  md:h-[28rem]  object-center object-fill "
+                          className="     object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
+                           height="300"
+                          width="300"
                           alt="Air Conditioning & Clean Room Jobs"
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476599/pb_xtdwhq.webp"
                         />
@@ -548,9 +552,6 @@ export default function AirShower() {
 
 
 
-
-
-
           <div className="row  w-full h-full">
 
 
@@ -606,6 +607,8 @@ export default function AirShower() {
                       className=" w-32 h-32 md:w-48 md:h-48 object-center object-cover    rounded-full"
                       src={logo.src}
                       alt={logo.alt}
+                        height="300"
+                          width="300"
                     />
                   </li>
                 ))}
