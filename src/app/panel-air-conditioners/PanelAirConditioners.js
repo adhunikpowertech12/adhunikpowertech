@@ -1142,6 +1142,8 @@ Typical Applications of Our Panel Air Conditioner
                       src={logo.src}
                       alt={logo.alt}
                       loading="lazy"
+                       height="300"
+width="300"
                     />
                   </li>
                 ))}
