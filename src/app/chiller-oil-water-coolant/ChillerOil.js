@@ -621,6 +621,8 @@ const applications = [
                           alt="Exhaust Fan (SS)"
                           src="awi/1.jpeg"
                           loading="lazy"
+                           height="300"
+width="300"
                         />
                       </div>
                     </div>
@@ -722,6 +724,8 @@ const applications = [
                           alt="Exhaust Fan (SS)"
                           src="awi/15.jpeg"
                           loading="lazy"
+                           height="300"
+width="300"
                         />
                       </div>
                     </div>
@@ -871,6 +875,8 @@ const applications = [
                           alt="Exhaust Fan (SS)"
                           src="awi/16.jpeg"
                           loading="lazy"
+                           height="300"
+width="300"
                         />
                       </div>
                     </div>
@@ -978,6 +984,8 @@ const applications = [
                           loading="lazy"
                           alt="Exhaust Fan (SS)"
                           src="awi/14.jpeg"
+                           height="300"
+width="300"
                         />
                       </div>
                     </div>
@@ -1412,7 +1420,8 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
 
 
-                <img className="md:h-[70%] rounded-md" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
+                <img className="md:h-[70%] rounded-md"  height="700"
+width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
 
@@ -1482,9 +1491,10 @@ In the demanding world of industrial operations, hydraulic systems are the undis
 
               <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
 
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                      <caption className="uppercase text-base font-semibold text-gray-700 mb-2">
 Typical Applications of Our Hydraulic Oil Chiller Solutions
   </caption>
+
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
@@ -1526,6 +1536,8 @@ Typical Applications of Our Hydraulic Oil Chiller Solutions
                       src={logo.src}
                       loading="lazy"
                       alt={logo.alt}
+                       height="300"
+width="300"
                     />
                   </li>
                 ))}
