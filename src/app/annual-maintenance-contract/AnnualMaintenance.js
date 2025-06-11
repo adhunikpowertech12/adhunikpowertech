@@ -160,13 +160,16 @@ export default function AnnualMaintenance() {
 
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="annual-1 justify-center items-center flex flex-col">
+
                   <img
                     src="amc1.png" 
                     alt="Happiness by Smart Savings"
                     loading="lazy"
-
-                    className="  w-32 h-auto"
+                    height="300"
+                    width="300"
+                    className="w-32 h-auto"
                   />
+
                   <div className="annual-img-1 mt-4">
                     <h3 className="text-xl font-semibold">Happiness by Smart Savings</h3>
                     <p className="mt-2">
@@ -179,11 +182,14 @@ export default function AnnualMaintenance() {
 
               <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                 <div className="annual-1 justify-center items-center flex flex-col" >
+
                   <img
                     src="amc2.png"  
                     loading="lazy"
                     alt="Happiness by Smart Assistance"
                     className=" w-32 h-auto"
+                      height="300"
+                          width="300"
                   />
 
                   <div className="annual-img-1 mt-4">
@@ -202,6 +208,8 @@ export default function AnnualMaintenance() {
                     loading="lazy"
                     alt="Happiness by Smart Assistance"
                     className=" w-32 h-auto"
+                      height="300"
+                          width="300"
                   />
                   <div className="annual-img-1 mt-4">
                     <h3 className="text-xl font-semibold">Happiness by Smart Summon</h3>
@@ -391,6 +399,8 @@ export default function AnnualMaintenance() {
                   alt="Annual Maintenance Contract"
                   loading="lazy"
                   className=" md:w-6/12 md:h-6/12"
+                  height="300"
+                  width="300"
                 />
               </div>
               <div className="content-maintanance">
