@@ -241,6 +241,8 @@ export default function PanelAirConditioners() {
                 alt="Air washer"
                 src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
                 loading="lazy"
+                height="300"
+width="300"
               />
             </div>
           </div>
@@ -399,6 +401,8 @@ export default function PanelAirConditioners() {
                             decoding="async"
                             alt="Panel Air Conditioner "
                             src="/wm.png"
+                             height="300"
+width="300"
                           />
                         </div>
                       </div>
@@ -517,6 +521,8 @@ export default function PanelAirConditioners() {
                             decoding="async"
                             alt="Panel Air Conditioner "
                             src="/tm.png"
+                             height="300"
+width="300"
                           />
                         </div>
                       </div>
@@ -594,6 +600,8 @@ export default function PanelAirConditioners() {
                             decoding="async"
                             alt="Panel Air Conditioner "
                             src="/sa.png"
+                             height="300"
+width="300"
                           />
                           
                         </div>
@@ -1017,8 +1025,12 @@ export default function PanelAirConditioners() {
 
 
 
-                <img className="md:h-[70%] rounded-md" src="/pacth.webp" loading="lazy" alt="Hero Image" />
-                <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
+                <img className="md:h-[70%] rounded-md"  height="700"
+width="700" src="/pacth.webp" loading="lazy" alt="Hero Image" />
+
+                <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
+
+                </div>
 
 
 

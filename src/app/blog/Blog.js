@@ -79,7 +79,7 @@ export default function Blog() {
       link: "/hire-The-Right-HVAC-Contractor-in-India",
       img: "/UnderstandingHVAC.webp",
     },
-    
+
     {
       id: 8,
       title: "Top HVAC Contractor Across Delhi NCR and India ",
@@ -135,7 +135,9 @@ export default function Blog() {
                         src={blog.img}
                         alt={blog.title}
                         className="w-full h-full object-contain rounded-md"
-                           loading='lazy'
+                        loading='lazy'
+                        height="300"
+                        width="300"
                       />
                     </div>
                   </div>
@@ -165,7 +167,7 @@ export default function Blog() {
         </div>
         {/* End Title */}
 
-       
+
       </div>
     </>
   )
