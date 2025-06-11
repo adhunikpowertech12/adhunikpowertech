@@ -522,7 +522,7 @@ width="300"
                             alt="Panel Air Conditioner "
                             src="/tm.png"
                              height="300"
-width="300"
+width="400"
                           />
                         </div>
                       </div>
@@ -804,7 +804,7 @@ width="300"
                             priority
                             alt={product.altText}
                             src={product.imageSrc}
-                            width={500}
+                            width={600}
                             height={700}
                             layout="responsive"
                           />
