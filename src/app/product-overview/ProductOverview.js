@@ -489,10 +489,9 @@ export default function ProductOverview() {
                     className=" object-contain h-full w-full  "
                     src={article.imgSrc}
                     alt={article.title}
-                    style={{
-                      height: article.imgHeight,
-                      width: article.imgWidth,
-                    }}
+
+                    height="20"
+                    width="20"
                     loading='lazy'
 
                   />
@@ -553,11 +552,10 @@ export default function ProductOverview() {
                     className=" object-contain h-full w-full  "
                     src={article.imgSrc}
                     alt={article.title}
-                    style={{
-                      height: article.imgHeight,
-                      width: article.imgWidth,
-                    }}
-                       loading='lazy'
+
+                    height="20"
+                    width="20"
+                    loading='lazy'
 
                   />
                 </a>
@@ -624,7 +622,7 @@ export default function ProductOverview() {
                   {data.map((item) => (
                     <div
                       key={item.id}
-                      
+
                       className=" cursor-pointer flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
                     >
 
@@ -691,7 +689,12 @@ export default function ProductOverview() {
 
 
 
-              <img className="rounded-md" src="/po.webp"  loading='lazy' alt="Hero Image" />
+              <img className="rounded-md" src="/po.webp"   
+                
+                    height="700"
+                    width="700"
+
+                     loading='lazy' alt="Hero Image" />
 
               <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
 

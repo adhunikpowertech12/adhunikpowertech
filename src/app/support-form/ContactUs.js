@@ -227,6 +227,8 @@ export default function ContactUs() {
                                 alt="Description of the image"
                                 className="w-full h-auto object-cover"
                                 loading='lazy'
+                                height="300"
+                                width='300'
                             />
                         </div>
 
