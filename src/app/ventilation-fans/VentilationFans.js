@@ -265,6 +265,8 @@ export default function VentilationFans() {
                 alt="Axial Flow Fan"
                 src="/aff.png"
                 loading="lazy"
+                 height="300"
+width="400"
               />
             </div>
           </div>
@@ -439,9 +441,9 @@ export default function VentilationFans() {
                 loading="lazy"
                 decoding="async"
                 alt="Exhaust Fan (PP)"
-                src="
-                efss.jpeg
-              "
+                src="/efss.jpeg"
+                 height="300"
+width="600"
               />
             </div>
           </div>
@@ -581,6 +583,8 @@ export default function VentilationFans() {
                 decoding="async"
                 alt="Exhaust Fan (SS)"
                 src="/ef.jpeg"
+                 height="300"
+width="400"
               />
             </div>
           </div>
@@ -799,6 +803,8 @@ Typical Applications of Our Ventilation Fan
                         src={logo.src}
                         loading="lazy"
                         alt={logo.alt}
+                         height="300"
+width="300"
                       />
                     </li>
                   ))}
