@@ -13,6 +13,10 @@ export default function ManufactureRnD() {
           thumbnail: "/awi/rd2.png",
           originalAlt: "HVAC System Image",
           thumbnailAlt: "HVAC System Image",
+           originalHeight:"300",
+    originalWidth:"300",
+    thumbnailHeight:"300",
+    thumbnailWidth:"300",
         },
       
         {
@@ -20,6 +24,10 @@ export default function ManufactureRnD() {
           thumbnail: "/awi/rd1.png",
           originalAlt: "HVAC System Image",
           thumbnailAlt: "HVAC System Image",
+           originalHeight:"300",
+    originalWidth:"300",
+    thumbnailHeight:"300",
+    thumbnailWidth:"300",
         },
       
         {
@@ -27,6 +35,10 @@ export default function ManufactureRnD() {
           thumbnail: "/awi/rd3.png",
           originalAlt: "HVAC System Image",
           thumbnailAlt: "HVAC System Image",
+           originalHeight:"300",
+    originalWidth:"300",
+    thumbnailHeight:"300",
+    thumbnailWidth:"300",
         },
       
         {
@@ -34,6 +46,10 @@ export default function ManufactureRnD() {
           thumbnail: "/awi/rd4.png",
           originalAlt: "HVAC System Image",
           thumbnailAlt: "HVAC System Image",
+           originalHeight:"300",
+    originalWidth:"300",
+    thumbnailHeight:"300",
+    thumbnailWidth:"300",
         },
       
     
@@ -304,6 +320,8 @@ Shaping the Future of HVAC</h1>
               decoding="async"
               alt="Fire Extinguishers"
              src="/awi/rd.png"
+             height={300}
+             width={500}
             />
           </div>
         </div>

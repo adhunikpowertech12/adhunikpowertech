@@ -436,8 +436,8 @@ const Applications = [
                           decoding="async"
                           loading="lazy"
                           height={300}
-                           width={400}
-                          alt="DUCTED   AIR COOLER "
+                          width={400}
+                          alt="DUCTED  AIR COOLER "
                           src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
                         />
                       </div>
