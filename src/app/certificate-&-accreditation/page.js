@@ -72,6 +72,8 @@ export default function page() {
                            rounded-lg `}  
                            loading="lazy"
                   src={item.src}
+                   height={300}
+                  width={500}
                   fetchPriority="high"
                   decoding="async"
                   alt={item.alt}

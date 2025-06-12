@@ -219,6 +219,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                       src={item.imgSrc}
                       alt={item.imgAlt}
                       loading="lazy"
+                       height={300}
+                  width={500}
                       className="h-full w-full object-contain object-center"
                     />
                   </div>
@@ -267,6 +269,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   loading="lazy"
                   decoding="async"
                   alt="Air washer"
+                  height={300}
+                  width={500}
                   src="/firex/13.webp"
                 />
               </div>
@@ -379,6 +383,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
                   loading="lazy"
+                   height={300}
+                  width={500}
                   decoding="async"
                   alt="Air washer"
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477708/whs_xxw3s3.webp"
@@ -421,6 +427,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
+                   height={300}
+                  width={500}
                   alt="Air washer"
                   src="firex/fss2.webp"
                 />
@@ -540,6 +548,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   loading="lazy"
                   decoding="async"
                   alt="Air washer"
+                   height={300}
+                  width={500}
                   src="https://media.istockphoto.com/id/1178819648/photo/automatic-gas-fire-extinguishing-system-safety-of-premises-from-conflagration-red-compressed.jpg?s=612x612&w=0&k=20&c=64d5ykqzttrQlXWdSVIyHsgzb_luXXlM0jgwLJ5qGbE="
                 />
               </div>
@@ -580,6 +590,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   className="  md:h-[28rem]  object-center object-fill "
                   fetchPriority="high"
                   loading="lazy"
+                   height={300}
+                  width={500}
                   decoding="async"
                   alt="fire alarm system"
                   src=" firex/fire-alarm-system.webp"
@@ -712,6 +724,8 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                   className="    object-center object-fill "
                   fetchPriority="high"
                   loading="lazy"
+                   height={300}
+                  width={500}
                   decoding="async"
                   alt="Air washer"
                   src="vs2.webp"
@@ -752,6 +766,8 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                   className="  md:h-[30rem]  object-center object-fill "
                   fetchPriority="high"
                   loading="lazy"
+                   height={300}
+                  width={500}
                   decoding="async"
                   alt="Air washer"
                   src="ft2.jpg "
@@ -910,6 +926,8 @@ Only” or “No Smoking.
                   decoding="async"
                   alt="Air washer"
                   loading="lazy"
+                   height={300}
+                  width={500}
                   src="firex/10.png"
                 />
               </div>

@@ -105,6 +105,8 @@ export default function page() {
                                 src={item.src}
                                 fetchPriority="high"
                                 loading="lazy"
+                                 height={300}
+                  width={500}
                                 decoding="async"
                                 alt={item.alt}
                               />

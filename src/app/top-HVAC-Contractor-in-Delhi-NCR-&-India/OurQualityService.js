@@ -401,7 +401,8 @@ export default function OurQualityService() {
 
                 <div className="lg:w-1/2 w-full pb-5">
                   <div className="about-company-1 rounded-xl  ">
-                    <img src="/cd.jpg " loading="lazy" alt="Consultancy Design"
+                    <img src="/cd.jpg " loading="lazy" alt="Consultancy Design" height={300}
+                  width={500}
                       className=" object-center   px-5 " />
                   </div>
                 </div>
@@ -457,7 +458,9 @@ export default function OurQualityService() {
 
                 <div className="lg:w-1/2 w-full">
                   <div className="about-company-1">
-                    <img src=" dd.jpg " loading="lazy" alt="Consultancy Design" className="w-full h-auto rounded-lg px-5" />
+                    <img src=" dd.jpg "  height={300}
+                  width={500}
+                  loading="lazy" alt="Consultancy Design" className="w-full h-auto rounded-lg px-5" />
                   </div>
                 </div>
 
@@ -604,7 +607,8 @@ export default function OurQualityService() {
                 {/* Right Column */}
                 <div className="col-lg-5 md:w-5/12 col-md-12 mt-6 lg:mt-0">
                   <div className="about-company-1">
-                    <img src="pe.jpg" loading="lazy" alt="Project Execution" className="rounded-lg shadow-lg" />
+                    <img src="/pe.jpg" loading="lazy"  height={300}
+                  width={500} alt="Project Execution" className="rounded-lg shadow-lg" />
                   </div>
                 </div>
 

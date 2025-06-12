@@ -19,6 +19,8 @@ export default function HvacRightContractor() {
                                 decoding="async"
                                 loading="lazy"
                                 alt="Air washer"
+                                 height={300}
+                  width={500}
                                 src="/blog/UnderstandingHVAC2.webp"
                             />
 
