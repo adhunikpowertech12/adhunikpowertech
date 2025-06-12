@@ -213,6 +213,8 @@ export default function OurProjects() {
                       className="lg:w-auto h-72 lg:h-96 mx-auto"
                       src={sector.mainImageSrc}
                       loading="lazy"
+                       height={300}
+                  width={500}
                       alt="can_help_banner"
                     />
 
@@ -231,6 +233,8 @@ export default function OurProjects() {
                           <img
                             src={feature.imgSrc}
                             loading="lazy"
+                             height={300}
+                  width={500}
                             className="h-32 rounded-tl-lg rounded-br-lg object-center object-fill"
                             alt={feature.title}
                           />

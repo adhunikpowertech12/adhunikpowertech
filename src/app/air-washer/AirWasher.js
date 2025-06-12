@@ -266,6 +266,7 @@ export default function AirWasher() {
                 src="/awi/5.webp"
                 width="300"
                 height="250"
+                loading="lazy"
 
               />
             </div>

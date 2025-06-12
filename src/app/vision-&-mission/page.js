@@ -43,6 +43,8 @@ export default function page() {
                     className="rounded-xl object-cover"
                     src="https://pagedone.io/asset/uploads/1717741205.png"
                     alt="about Us image"
+                     height={300}
+                  width={500}
                     loading="lazy"
                   />
                 </div>
@@ -50,6 +52,8 @@ export default function page() {
                   className="sm:ml-0 ml-auto rounded-xl object-cover"
                   src="https://pagedone.io/asset/uploads/1717741215.png"
                   alt="about Us image"
+                   height={300}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -112,6 +116,8 @@ export default function page() {
                 src="m2.webp"
                 alt="about Us image"
                 loading="lazy"
+                 height={300}
+                  width={500}
               />
             </div>
           </div>

@@ -298,6 +298,8 @@ export default function IndustrialCooler() {
               <img
                 src={pricing[selectedCapacity].image}
                 loading="lazy"
+                 height={300}
+                  width={500}
                 alt={`Industrial Cooler ${selectedCapacity} Liters`}
                 className="w-full h-auto rounded-lg object-cover"
               />
@@ -433,6 +435,8 @@ export default function IndustrialCooler() {
                     className="w-full h-auto rounded-2xl"
                     decoding="async"
                     alt="Air washer"
+                     height={300}
+                  width={500}
                     loading="lazy"
                     src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747654999/Cooler_2_a8qycx.webp"
                     
@@ -544,6 +548,8 @@ export default function IndustrialCooler() {
                   <img
                     className="w-full h-auto rounded-2xl"
                     decoding="async"
+                     height={300}
+                  width={500}
                     alt="Air washer"
                     src=" https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747655000/Cooler_3_xavleu.webp"
                     loading="lazy"

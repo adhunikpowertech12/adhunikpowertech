@@ -832,15 +832,8 @@ width="300"
                 <div className=" text-justify">
 
                   <ul className="list-disc">
-
-
-
-
-
-
-
-
-
+ 
+ 
                     <li>   A wide range of products starts from 250 watts to 7000 watts.
 
                     </li>
