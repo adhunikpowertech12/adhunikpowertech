@@ -61,7 +61,7 @@ export const metadata = {
   openGraph: {
     title: "Adhunik Powertech",
     type: "website",
-    url: "https://adhunikpowertech.com/",
+    url: "https://www.adhunikpowertech.com/",
     siteName: "Adhunik Powertech - HVAC Experts",
     image: "https://adhunikpowertech.com/apple-touch-icon.png",
     locale: "en_IN",
