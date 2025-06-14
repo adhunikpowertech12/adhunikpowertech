@@ -778,6 +778,7 @@ export default function HeroPage() {
                 <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
 
                   Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
+
                 </h1>
 
 
@@ -838,11 +839,7 @@ export default function HeroPage() {
 
         <section className="row ">
           <div className="col">
-
-
-            <div className="  justify-center   ">
-
-
+            <div className="  justify-center">
               <div className="row">
                 <div className="col py-4">
                   <div className="items-center justify-center h-full">
@@ -999,10 +996,10 @@ export default function HeroPage() {
 
               <div className=" md:p-9 py-8 px-5 ">
                 <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
-                  <h3 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-700 ">
+                  <h2 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-700 ">
 
                     From the Heart of India to  the Far  Corners of the World  <span className='  text-[10px] lg:text-[18px] '> </span>
-                  </h3>
+                  </h2>
                   <p className="mb-3 text-[12px]  text-justify  lg:text-[14px] font-sans font-light">
                     At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
 
@@ -1093,7 +1090,7 @@ export default function HeroPage() {
 
                           </div>
                           <div className="mt-auto ">
-                            <h3 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h3>
+                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
                             <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
                           </div>
                         </div>
@@ -1168,11 +1165,12 @@ export default function HeroPage() {
           </div>
 
           <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
-            <div className=" w-full h-full md:w-5/12 px-3  ">
-              <h3
-                className="font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative">
+            <div className=" w-full h-full md:w-5/12 px-3">
 
-                Our Product Range </h3>
+              <h2 className=" font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative ">
+Our Product Range 
+                </h2>
+
               <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
                 We pride ourselves on offering a <strong>diverse and innovative product range</strong> designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for  <strong>performance, durability, and efficiency.</strong> Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
               </p>

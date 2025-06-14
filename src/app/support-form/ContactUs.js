@@ -189,7 +189,7 @@ export default function ContactUs() {
             <div className="w-full  ">
                 <div className=" w-full p-7   items-center justify-center ">
 
-                    <h1 className="text-5xl pt-4 text-center h-full mt-16"> Contact Us </h1>
+                    <p className="text-5xl pt-4 text-center h-full mt-16"> Contact Us </p>
 
                 </div>
 
@@ -241,7 +241,7 @@ export default function ContactUs() {
                                 onSubmit={sendEmail}
                                 ref={form}
                             >
-                                <h2 className="text-4xl mb-7 capitalize">Talk to our expert.</h2>
+                                <h1 className="text-4xl mb-7 capitalize">Talk to our expert.</h1>
                                 <div className="flex flex-wrap -mx-3 mb-6">
                                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                         <label
