@@ -37,8 +37,8 @@ import {
   LucideRefreshCw,
 
 } from "lucide-react";
- 
- 
+
+
 
 import { FaCertificate, FaPlay } from "react-icons/fa";
 import React, { useEffect, useMemo, useRef, useState } from 'react';
@@ -62,7 +62,7 @@ export default function ChillerOil() {
     },
     {
       title: " What are the main advantages of an Adhunik Powertech hydraulic oil chiller over passive cooling methods? ",
-      content:"Our chillers offer active and precise temperature control, which passive methods cannot. This prevents oil degradation, significantly extends component lifespan, ensures consistent machine precision, and leads to substantial energy savings compared to inefficient natural cooling or less advanced systems.",
+      content: "Our chillers offer active and precise temperature control, which passive methods cannot. This prevents oil degradation, significantly extends component lifespan, ensures consistent machine precision, and leads to substantial energy savings compared to inefficient natural cooling or less advanced systems.",
 
     },
 
@@ -323,191 +323,197 @@ export default function ChillerOil() {
     },
   ];
 
-const overheatingIssues = [
-  {
-    icon: Thermometer,
-    title: "Accelerated Oil Degradation",
-    detail:
-      "High temperatures drastically accelerate the oxidation of hydraulic oil, leading to sludge formation, reduced lubrication properties, compromised fluid viscosity, and an increase in acidity. This necessitates more frequent oil changes, resulting in higher operational costs and environmental impact.",
-  },
-  {
-    icon: Wrench,
-    title: "Premature Component Wear & Failure",
-    detail:
-      "Excessive heat puts immense stress on critical hydraulic components such as pumps, valves, cylinders, seals, and hoses. This leads to accelerated wear, costly breakdowns, unpredictable downtime, and expensive repairs or replacements.",
-  },
-  {
-    icon: GaugeCircle,
-    title: "Loss of Precision & Quality",
-    detail:
-      "Fluctuating oil viscosity due to uncontrolled temperature swings directly affects the accuracy, repeatability, and responsiveness of hydraulic movements. This compromises product quality, increases rejection rates, and impacts your bottom line.",
-  },
-  {
-    icon: Zap,
-    title: "Increased Energy Consumption",
-    detail:
-      "Overheated hydraulic systems operate inefficiently, forcing them to work harder to achieve desired outputs. This directly translates to higher energy consumption and inflated utility bills.",
-  },
-];
+  const overheatingIssues = [
+    {
+      icon: Thermometer,
+      title: "Accelerated Oil Degradation",
+      detail:
+        "High temperatures drastically accelerate the oxidation of hydraulic oil, leading to sludge formation, reduced lubrication properties, compromised fluid viscosity, and an increase in acidity. This necessitates more frequent oil changes, resulting in higher operational costs and environmental impact.",
+    },
+    {
+      icon: Wrench,
+      title: "Premature Component Wear & Failure",
+      detail:
+        "Excessive heat puts immense stress on critical hydraulic components such as pumps, valves, cylinders, seals, and hoses. This leads to accelerated wear, costly breakdowns, unpredictable downtime, and expensive repairs or replacements.",
+    },
+    {
+      icon: GaugeCircle,
+      title: "Loss of Precision & Quality",
+      detail:
+        "Fluctuating oil viscosity due to uncontrolled temperature swings directly affects the accuracy, repeatability, and responsiveness of hydraulic movements. This compromises product quality, increases rejection rates, and impacts your bottom line.",
+    },
+    {
+      icon: Zap,
+      title: "Increased Energy Consumption",
+      detail:
+        "Overheated hydraulic systems operate inefficiently, forcing them to work harder to achieve desired outputs. This directly translates to higher energy consumption and inflated utility bills.",
+    },
+  ];
 
-const chillerFeatures = [
-  {
-    icon: LucideFan,
-    label: "High-Efficiency Compressors",
-    detail:
-      "These units are equipped with energy-efficient, industrial-grade hermetic or semi-hermetic compressors from reputable global brands, ensuring robust performance, optimal energy consumption, and an extended operational lifespan.",
-  },
-  {
-    icon: LucideDroplet,
-    label: "Eco-Friendly Refrigerants",
-    detail:
-      "Utilizes environmentally responsible refrigerants like R-407C, R-134a, or R-410A, minimizing ecological impact while delivering superior and efficient cooling.",
-  },
-  {
-    icon: LucideGauge,
-    label: "Advanced Heat Exchange Technology",
-    detail:
-      "Features specially designed, high-efficiency evaporators (e.g., Brazed Plate Heat Exchangers, Shell & Tube, or Tube-in-Tube) engineered specifically for direct oil cooling. These are built with high fouling factors, increased tube thickness, and robust pressure resistance for superior heat transfer, anti-fouling capabilities, and enhanced durability.",
-  },
-  {
-    icon: LucideCpu,
-    label: "Intelligent PLC-Based Control Systems",
-    detail:
-      "Integrated with state-of-the-art microprocessor or Fully Automatic PLC-based control systems providing ultra-precise temperature regulation (e.g., ±0.5°C). These advanced systems offer real-time performance tracking, comprehensive diagnostics, and automatic fault alarms for proactive maintenance and rapid troubleshooting.",
-  },
-  {
-    icon: LucideBolt,
-    label: "Energy-Saving Automation",
-    detail:
-      "Options for Electronic Expansion Valves (EEV) for precise refrigerant flow and Variable Speed Drives (VSDs) for compressors, enabling automatic capacity control that dynamically matches cooling demand, leading to substantial energy savings and lower operating costs.",
-  },
-  {
-    icon: LucideShield,
-    label: "Robust & Durable Construction",
-    detail:
-      "Our chillers are built to excel in the harshest industrial environments. Featuring heavy-duty, powder-coated Mild Steel cabinets and crucial components like stainless steel tanks and pumps where fluid contact is critical, ensuring maximum corrosion resistance and unparalleled longevity.",
-  },
-  {
-    icon: LucidePackagePlus,
-    label: "Compact, Skid-Mounted Design",
-    detail:
-      "Each unit is compact, completely factory-made and rigorously tested, and delivered skid-mounted with an integrated oil pump and bypass mechanism. This ensures easy, plug-and-play installation and requires minimal floor space.",
-  },
-  {
-    icon: LucideThermometerSun,
-    label: "Designed for Extreme Conditions",
-    detail:
-      "Engineered to perform flawlessly even in extreme tropicalized weather conditions, our chillers are capable of efficiently handling high fluid entry temperatures and very high oil pressures typical of demanding industrial applications.",
-  },
-  {
-    icon: LucideSettings,
-    label: "User-Friendly Operation & Simplified Maintenance",
-    detail:
-      "Designed for simplicity, our chillers feature intuitive digital interfaces for easy monitoring and operation. Accessible components and a robust design facilitate routine checks and simplified maintenance, significantly minimizing downtime.",
-  },
-  {
-    icon: LucideRefreshCw,
-    label: "Versatile Cooling Types",
-    detail:
-      "Available in both Air-Cooled and Water-Cooled configurations, and specialized Stand-alone or Immersion Type models to perfectly suit your specific application and infrastructure.",
-  },
-];
+  const chillerFeatures = [
+    {
+      icon: LucideFan,
+      label: "High-Efficiency Compressors",
+      detail:
+        "These units are equipped with energy-efficient, industrial-grade hermetic or semi-hermetic compressors from reputable global brands, ensuring robust performance, optimal energy consumption, and an extended operational lifespan.",
+    },
+    {
+      icon: LucideDroplet,
+      label: "Eco-Friendly Refrigerants",
+      detail:
+        "Utilizes environmentally responsible refrigerants like R-407C, R-134a, or R-410A, minimizing ecological impact while delivering superior and efficient cooling.",
+    },
+    {
+      icon: LucideGauge,
+      label: "Advanced Heat Exchange Technology",
+      detail:
+        "Features specially designed, high-efficiency evaporators (e.g., Brazed Plate Heat Exchangers, Shell & Tube, or Tube-in-Tube) engineered specifically for direct oil cooling. These are built with high fouling factors, increased tube thickness, and robust pressure resistance for superior heat transfer, anti-fouling capabilities, and enhanced durability.",
+    },
+    {
+      icon: LucideCpu,
+      label: "Intelligent PLC-Based Control Systems",
+      detail:
+        "Integrated with state-of-the-art microprocessor or Fully Automatic PLC-based control systems providing ultra-precise temperature regulation (e.g., ±0.5°C). These advanced systems offer real-time performance tracking, comprehensive diagnostics, and automatic fault alarms for proactive maintenance and rapid troubleshooting.",
+    },
+    {
+      icon: LucideBolt,
+      label: "Energy-Saving Automation",
+      detail:
+        "Options for Electronic Expansion Valves (EEV) for precise refrigerant flow and Variable Speed Drives (VSDs) for compressors, enabling automatic capacity control that dynamically matches cooling demand, leading to substantial energy savings and lower operating costs.",
+    },
+    {
+      icon: LucideShield,
+      label: "Robust & Durable Construction",
+      detail:
+        "Our chillers are built to excel in the harshest industrial environments. Featuring heavy-duty, powder-coated Mild Steel cabinets and crucial components like stainless steel tanks and pumps where fluid contact is critical, ensuring maximum corrosion resistance and unparalleled longevity.",
+    },
+    {
+      icon: LucidePackagePlus,
+      label: "Compact, Skid-Mounted Design",
+      detail:
+        "Each unit is compact, completely factory-made and rigorously tested, and delivered skid-mounted with an integrated oil pump and bypass mechanism. This ensures easy, plug-and-play installation and requires minimal floor space.",
+    },
+    {
+      icon: LucideThermometerSun,
+      label: "Designed for Extreme Conditions",
+      detail:
+        "Engineered to perform flawlessly even in extreme tropicalized weather conditions, our chillers are capable of efficiently handling high fluid entry temperatures and very high oil pressures typical of demanding industrial applications.",
+    },
+    {
+      icon: LucideSettings,
+      label: "User-Friendly Operation & Simplified Maintenance",
+      detail:
+        "Designed for simplicity, our chillers feature intuitive digital interfaces for easy monitoring and operation. Accessible components and a robust design facilitate routine checks and simplified maintenance, significantly minimizing downtime.",
+    },
+    {
+      icon: LucideRefreshCw,
+      label: "Versatile Cooling Types",
+      detail:
+        "Available in both Air-Cooled and Water-Cooled configurations, and specialized Stand-alone or Immersion Type models to perfectly suit your specific application and infrastructure.",
+    },
+  ];
 
 
-const applications = [
-  {
-    icon: CpuIcon,
-    label: "Machine Tools",
-    detail:
-      "Essential for CNC machines, VMC machines, Grinding, Honing, Broaching, Drilling, Milling machines, and EDM (Electrical Discharge Machining) for precise spindle cooling, cutting oil cooling, and hydraulic power pack cooling.",
-  },
-  {
-    icon: Settings2,
-    label: "Hydraulic Power Units",
-    detail:
-      "Critical for Industrial Presses, Injection Molding Machines, Die Casting Machines, and Bending Machines, ensuring the stability and integrity of hydraulic fluid properties.",
-  },
-  {
-    icon: DropletIcon,
-    label: "Lubrication Systems",
-    detail:
-      "Ideal for cooling lubricating oil in large gearboxes, bearings, and high-speed spindles, significantly extending component life and reducing friction.",
-  },
-  {
-    icon: ZapIcon,
-    label: "Process Cooling",
-    detail:
-      "Used in various industrial processes including Heat Treatment applications, Induction Furnaces, Laser Cutting Machines, and Welding Equipment.",
-  },
-  {
-    icon: TruckElectric,
-    label: "Automotive Industry",
-    detail:
-      "Supports a wide range of manufacturing processes and rigorous component testing.",
-  },
-  {
-    icon: HardDriveDownload,
-    label: "Steel & Metal Processing",
-    detail: "Crucial for applications such as quenching oil cooling.",
-  },
-  {
-    icon: FactoryIcon,
-    label: "Power Generation",
-    detail:
-      "Essential for the cooling of transformer oil and various other auxiliary systems.",
-  },
-  {
-    icon: ActivityIcon,
-    label: "General Industrial Applications",
-    detail:
-      "Any industrial setup where precise temperature control of hydraulic oil, lubricating oil, or cutting fluids is paramount for optimal performance, equipment longevity, and consistent output.",
-  },
-];
+  const applications = [
+    {
+      icon: CpuIcon,
+      label: "Machine Tools",
+      detail:
+        "Essential for CNC machines, VMC machines, Grinding, Honing, Broaching, Drilling, Milling machines, and EDM (Electrical Discharge Machining) for precise spindle cooling, cutting oil cooling, and hydraulic power pack cooling.",
+    },
+    {
+      icon: Settings2,
+      label: "Hydraulic Power Units",
+      detail:
+        "Critical for Industrial Presses, Injection Molding Machines, Die Casting Machines, and Bending Machines, ensuring the stability and integrity of hydraulic fluid properties.",
+    },
+    {
+      icon: DropletIcon,
+      label: "Lubrication Systems",
+      detail:
+        "Ideal for cooling lubricating oil in large gearboxes, bearings, and high-speed spindles, significantly extending component life and reducing friction.",
+    },
+    {
+      icon: ZapIcon,
+      label: "Process Cooling",
+      detail:
+        "Used in various industrial processes including Heat Treatment applications, Induction Furnaces, Laser Cutting Machines, and Welding Equipment.",
+    },
+    {
+      icon: TruckElectric,
+      label: "Automotive Industry",
+      detail:
+        "Supports a wide range of manufacturing processes and rigorous component testing.",
+    },
+    {
+      icon: HardDriveDownload,
+      label: "Steel & Metal Processing",
+      detail: "Crucial for applications such as quenching oil cooling.",
+    },
+    {
+      icon: FactoryIcon,
+      label: "Power Generation",
+      detail:
+        "Essential for the cooling of transformer oil and various other auxiliary systems.",
+    },
+    {
+      icon: ActivityIcon,
+      label: "General Industrial Applications",
+      detail:
+        "Any industrial setup where precise temperature control of hydraulic oil, lubricating oil, or cutting fluids is paramount for optimal performance, equipment longevity, and consistent output.",
+    },
+  ];
 
- const points = [
+  const points = [
+
     {
       icon: ShieldCheckIcon,
       title: "Decades of Proven Reliability",
       detail:
         "We boast a strong track record of designing, manufacturing, and supplying high-performance, durable chillers that consistently exceed expectations in the most challenging and demanding industrial environments.",
     },
+
     {
       icon: Computer,
       title: "Expert Engineering & Strategic Vision",
       detail:
         "Our in-house R&D and advanced manufacturing capabilities ensure every chiller is built to the highest quality standards. Leveraging extensive industry experience and data-driven insights – a core passion of our team and a strategic approach – we engineer chiller solutions that are not just products, but strategic assets designed to optimize your operations and maximize your Return on Investment.",
     },
+
     {
       icon: UsersIcon,
       title: "Comprehensive After-Sales Support",
       detail:
         <>
-  Our commitment extends far beyond the sale. We offer dedicated  <Link href='/support-form'  className="text-cyan-600 hover:text-cyan-900" >  technical support </Link> 
-   , prompt on-site service, and readily available genuine spare parts to ensure maximum uptime and complete peace of mind for your critical operations.
+          Our commitment extends far beyond the sale. We offer dedicated  <Link href='/support-form' className="text-cyan-600 hover:text-cyan-900" >  technical support </Link>
+          , prompt on-site service, and readily available genuine spare parts to ensure maximum uptime and complete peace of mind for your critical operations.
         </>
-    
+
     },
+
     {
       icon: Settings2Icon,
       title: "Tailored Custom Solutions",
       detail:
         "We understand that every industry and application presents unique requirements. We specialize in providing custom-engineered hydraulic oil chillers to perfectly match your specific flow rates, cooling capacities, and environmental conditions, ensuring seamless integration and optimal performance.",
     },
+
     {
       icon: MapPinCheck,
       title: "A Leading Manufacturer in Delhi NCR & Across India",
       detail:
         "Our robust presence and service network mean quicker response times, easier access to support, and a deep understanding of the diverse industrial landscapes. Adhunik Powertech proudly serves Delhi NCR, including key industrial hubs like Gurugram, Faridabad, Noida, Greater Noida, and Ghaziabad. Our expertise extends across India, providing reliable hydraulic oil chiller solutions to meet diverse industrial needs in locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, Muzaffarnagar, Jaipur, and Chandigarh.",
     },
+
     {
       icon: Award,
       title: "Uncompromising Quality Standards & Esteemed Certifications",
       detail:
 
-      <>
- Our dedication to quality is not just a promise; it's validated by our esteemed <Link href="/certificate-&-accreditation" className=" text-cyan-600 hover:text-cyan-900 " >certifications</Link> and accreditations. Adhunik Powertech is an MSME (Micro, Small & Medium Enterprises) registered entity, proudly CE certified (CE/060219033), and ISO 9001:2015 certified (IAF & IAS Accredited). Furthermore, we are a ZED (Zero Defect Zero Effect) Bronze certified company and registered on GeM (Government e-Marketplace), ensuring transparent and efficient dealings. Our IEC (Import Export Code Licence) further underscores our capability for seamless trade and international quality adherence. These certifications assure you of our unwavering commitment to global quality benchmarks and ethical business practices.
-      </>
-       ,
+        <>
+          Our dedication to quality is not just a promise; it's validated by our esteemed <Link href="/certificate-&-accreditation" className=" text-cyan-600 hover:text-cyan-900 " >certifications</Link> and accreditations. Adhunik Powertech is an MSME (Micro, Small & Medium Enterprises) registered entity, proudly CE certified (CE/060219033), and ISO 9001:2015 certified (IAF & IAS Accredited). Furthermore, we are a ZED (Zero Defect Zero Effect) Bronze certified company and registered on GeM (Government e-Marketplace), ensuring transparent and efficient dealings. Our IEC (Import Export Code Licence) further underscores our capability for seamless trade and international quality adherence. These certifications assure you of our unwavering commitment to global quality benchmarks and ethical business practices.
+        </>
+      ,
     },
   ];
 
@@ -517,16 +523,16 @@ const applications = [
 
         <section className="  py-16 px-4 md:px-10 pt-40  ">
 
-<div className="container-fluid justify-center flex mx-auto">
- <h1 className="text-2xl md:text-3xl text-center max-w-5xl  font-bold text-cyan-800 mb-6 leading-snug">
-                Adhunik Powertech : Leading Hydraulic Oil Chiller Manufacturer in Delhi NCR & Across India
-              </h1>
-</div>
-        
+          <div className="container-fluid justify-center flex mx-auto">
+            <h1 className="text-2xl md:text-3xl text-center max-w-5xl  font-bold text-cyan-800 mb-6 leading-snug">
+              Adhunik Powertech : Leading Hydraulic Oil Chiller Manufacturer in Delhi NCR & Across India
+            </h1>
+          </div>
+
 
           <div className="max-w-7xl pt-9  mx-auto grid md:grid-cols-2 gap-12 items-start">
             {/* Image */}
-            
+
             <div className="w-full   flex justify-center">
               <Image
                 src="/awi/16.jpeg"
@@ -534,16 +540,17 @@ const applications = [
                 className="rounded-2xl   object-center object-contain"
                 width={350}
                 height={350}
+                loading="lazy"
                 priority
               />
             </div>
 
             {/* Content */}
             <div className="">
-             
+
               <p className="text-gray-700 text-sm mb-6">
                 Ensure the longevity and optimal efficiency of your critical hydraulic machinery.
-              <Link href='/'  className="text-cyan-600 hover:text-cyan-900" >  Adhunik Powertech </Link> delivers advanced, energy-efficient hydraulic oil chillers,
+                <Link href='/' className="text-cyan-600 hover:text-cyan-900" >  Adhunik Powertech </Link> delivers advanced, energy-efficient hydraulic oil chillers,
                 meticulously engineered to maintain stable fluid temperatures and maximize your
                 operational output across diverse industries.
               </p>
@@ -621,8 +628,8 @@ const applications = [
                           alt="Exhaust Fan (SS)"
                           src="awi/1.jpeg"
                           loading="lazy"
-                           height="300"
-width="300"
+                          height="300"
+                          width="300"
                         />
                       </div>
                     </div>
@@ -645,14 +652,14 @@ width="300"
 
 
           </div>
- 
+
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Oil Chiller Unit (1.5 TR.)
- TECHNICAL SPECIFICATION
-  </caption>
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                  Oil Chiller Unit (1.5 TR.)
+                  TECHNICAL SPECIFICATION
+                </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -724,8 +731,8 @@ width="300"
                           alt="Exhaust Fan (SS)"
                           src="awi/15.jpeg"
                           loading="lazy"
-                           height="300"
-width="300"
+                          height="300"
+                          width="300"
                         />
                       </div>
                     </div>
@@ -756,31 +763,22 @@ width="300"
                 >
                   Enquiry Now
                 </button>
-
-
-
               </div>
             </div>
-
-
-
-
-
-
           </div>
 
 
 
 
 
-       
+
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
 
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Oil Chiller Unit (3 TR.) TECHNICAL SPECIFICATION
-  </caption>
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                  Oil Chiller Unit (3 TR.) TECHNICAL SPECIFICATION
+                </caption>
 
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
@@ -822,8 +820,6 @@ width="300"
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">28 TO 36</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
-
-
                 </tbody>
               </table>
             </div>
@@ -838,10 +834,7 @@ width="300"
 
 
         <div className="row">
-
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-
-
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
               <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Oil Chiller Unit (5 TR.) </h2>
               <p className="text-justify md:text-center font-normal font-sans">
@@ -856,9 +849,6 @@ width="300"
                 >
                   Enquiry Now
                 </button>
-
-
-
               </div>
             </div>
 
@@ -875,8 +865,8 @@ width="300"
                           alt="Exhaust Fan (SS)"
                           src="awi/16.jpeg"
                           loading="lazy"
-                           height="300"
-width="300"
+                          height="300"
+                          width="300"
                         />
                       </div>
                     </div>
@@ -899,18 +889,13 @@ width="300"
 
 
           </div>
-
-
-
-
- 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Oil Chiller Unit (5 TR.)
- TECHNICAL SPECIFICATION
-  </caption>
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                  Oil Chiller Unit (5 TR.)
+                  TECHNICAL SPECIFICATION
+                </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -950,27 +935,14 @@ width="300"
                   </tr>
                 </tbody>
               </table>
-
-
             </div>
           </div>
-
-
-
-
-
         </div>
 
 
 
         <div className="row">
-
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
-
-
-
-
-
             <div className="md:w-[40%] w-auto">
               <div className="flex items-center justify-center h-full">
                 <div>
@@ -984,8 +956,8 @@ width="300"
                           loading="lazy"
                           alt="Exhaust Fan (SS)"
                           src="awi/14.jpeg"
-                           height="300"
-width="300"
+                          height="300"
+                          width="300"
                         />
                       </div>
                     </div>
@@ -996,7 +968,6 @@ width="300"
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Boost your industrial productivity with our reliable 8 TR Oil Chiller. Designed for heavy-duty applications, it delivers precise temperature control, ensuring optimal equipment performance and a longer service life.
                       </p>
-
                     </div>
                   </div>
                 </div>
@@ -1019,26 +990,22 @@ width="300"
                 >
                   Enquiry Now
                 </button>
-
-
-
               </div>
             </div>
-
           </div>
 
 
 
 
 
-         
+
 
           <div className="flex justify-center items-center w-full px-4 mb-4">
             <div className="overflow-x-auto w-full max-w-6xl">
               <table className="min-w-full text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200">
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Oil Chiller Unit (8 TR.) TECHNICAL SPECIFICATION
-  </caption>
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                  Oil Chiller Unit (8 TR.) TECHNICAL SPECIFICATION
+                </caption>
                 <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#00A0E1] border-b-2 border-gray-200">
                   <tr className="text-center">
                     <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Model</th>
@@ -1081,12 +1048,6 @@ width="300"
               </table>
             </div>
           </div>
-
-
-
-
-
-
         </div>
 
 
@@ -1140,191 +1101,183 @@ width="300"
         </div>
 
 
-      
 
 
+        <section className=" py-16 px-4 md:px-10 lg:px-20">
+          {/* Section Heading */}
+          <div className="text-center max-w-6xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl  font-bold text-cyan-800">
+              Why Stable Oil Temperature is Crucial for Your Hydraulic Systems & Operations
+            </h2>
+            <p className="mt-4 text-gray-600 font-normal font-sans">
+              In the demanding world of industrial operations, hydraulic systems are the undisputed powerhouses, driving everything from complex CNC machines to heavy-duty presses and injection molding equipment. However, the continuous and intensive operation of these systems generates significant heat. This excess heat directly impacts the performance, efficiency, and crucial lifespan of your hydraulic oil and, consequently, your expensive machinery.
+            </p>
+
+            <p className="text-3xl text-center w-full pt-9 font-semibold text-cyan-700 flex justify-center items-center gap-2">
+              <AlertTriangle className="w-6 h-6 text-orange-500" /> The Risks of Overheating
+            </p>
+
+          </div>
 
 
-  <section className=" py-16 px-4 md:px-10 lg:px-20">
-      {/* Section Heading */}
-      <div className="text-center max-w-6xl mx-auto mb-12">
-        <h2 className="text-3xl md:text-4xl  font-bold text-cyan-800">
-          Why Stable Oil Temperature is Crucial for Your Hydraulic Systems & Operations
-        </h2>
-        <p className="mt-4 text-gray-600 font-normal font-sans">
-In the demanding world of industrial operations, hydraulic systems are the undisputed powerhouses, driving everything from complex CNC machines to heavy-duty presses and injection molding equipment. However, the continuous and intensive operation of these systems generates significant heat. This excess heat directly impacts the performance, efficiency, and crucial lifespan of your hydraulic oil and, consequently, your expensive machinery.
-        </p>
+          {/* Risk Cards */}
+          <ul className="grid gap-8 md:grid-cols-2">
+            {overheatingIssues.map(({ icon: Icon, title, detail }, idx) => (
+              <li key={idx} className="flex gap-4 items-start border-l-4 border-cyan-600 pl-5 bg-gray-50 p-5 rounded-lg shadow-sm">
+                <div className="bg-cyan-100 p-2 rounded-full">
+                  <Icon className="w-6 h-6 text-cyan-800" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">{title}</h4>
+                  <p className="text-gray-700 text-sm">{detail}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
 
-       <p className="text-3xl text-center w-full pt-9 font-semibold text-cyan-700 flex justify-center items-center gap-2">
-          <AlertTriangle className="w-6 h-6 text-orange-500" /> The Risks of Overheating 
-        </p>
-
-      </div>
-
-
-      {/* Risk Cards */}
-  <ul className="grid gap-8 md:grid-cols-2">
-          {overheatingIssues.map(({ icon: Icon, title, detail }, idx) => (
-            <li key={idx} className="flex gap-4 items-start border-l-4 border-cyan-600 pl-5 bg-gray-50 p-5 rounded-lg shadow-sm">
-              <div className="bg-cyan-100 p-2 rounded-full">
-                <Icon className="w-6 h-6 text-cyan-800" />
+          {/* Solution Section */}
+          <div className="mt-16 bg-cyan-50 p-8 rounded-2xl border-l-8 border-cyan-700">
+            <div className="flex items-start gap-5">
+              <div className="bg-white p-3 rounded-full shadow">
+                <ShieldCheck className="w-6 h-6 text-cyan-700" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold text-gray-900">{title}</h4>
-                <p className="text-gray-700 text-sm">{detail}</p>
+                <h3 className="text-2xl font-bold text-cyan-800 mb-2">
+                  Adhunik Powertech’s Solution
+                </h3>
+                <p className="text-gray-800 leading-relaxed font-normal font-sans">
+                  Our advanced Hydraulic Oil Chillers (also commonly known as Oil Coolant Chillers or Industrial Oil Chillers) are specifically designed to counteract these critical challenges. By actively and precisely removing excess heat, our chillers maintain your hydraulic oil at its optimal operating temperature, safeguarding your valuable machinery, ensuring uninterrupted, high-precision operations, and significantly extending equipment life.
+                </p>
               </div>
-            </li>
-          ))}
-        </ul>
-
-      {/* Solution Section */}
-      <div className="mt-16 bg-cyan-50 p-8 rounded-2xl border-l-8 border-cyan-700">
-        <div className="flex items-start gap-5">
-          <div className="bg-white p-3 rounded-full shadow">
-            <ShieldCheck className="w-6 h-6 text-cyan-700" />
+            </div>
           </div>
-          <div>
-            <h3 className="text-2xl font-bold text-cyan-800 mb-2">
-              Adhunik Powertech’s Solution
-            </h3>
-            <p className="text-gray-800 leading-relaxed font-normal font-sans">
-             Our advanced Hydraulic Oil Chillers (also commonly known as Oil Coolant Chillers or Industrial Oil Chillers) are specifically designed to counteract these critical challenges. By actively and precisely removing excess heat, our chillers maintain your hydraulic oil at its optimal operating temperature, safeguarding your valuable machinery, ensuring uninterrupted, high-precision operations, and significantly extending equipment life.
+        </section>
+
+
+        <section className="max-w-7xl mx-auto p-8 md:p-16 bg-white rounded-lg shadow-lg">
+          <h2 className="text-cyan-800 text-4xl md:text-5xl font-extrabold mb-7">
+            Adhunik Powertech Hydraulic Oil Chillers : Engineered for Unmatched Performance
+          </h2>
+          <h3 className=" text-sm py-3 text-cyan-800">
+            Unmatched Features & Advantages: The Adhunik Powertech Difference
+
+          </h3>
+          <p className="text-gray-700 text-lg mb-12 max-w-3xl">
+            At Adhunik Powertech, we don't just build chillers; we engineer meticulously crafted cooling solutions that redefine industrial reliability and efficiency. Our hydraulic oil chillers are the culmination of cutting-edge technology, robust design, and a deep understanding of the most demanding industrial cooling requirements.
+          </p>
+
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+            {chillerFeatures.map(({ icon: Icon, label, detail }, idx) => (
+              <div
+                key={idx}
+                className="border-l-4 border-cyan-600 pl-6 py-4 bg-cyan-50 rounded-lg shadow-sm hover:shadow-md transition cursor-default"
+              >
+                <div className="flex items-start gap-4 mb-2">
+                  <div className="bg-cyan-100 text-cyan-700 rounded-full p-3 flex-shrink-0">
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-cyan-800 text-xl font-semibold">{label}</h3>
+                </div>
+                <p className="text-gray-800 text-sm leading-relaxed">{detail}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+
+        <section className="max-w-7xl mx-auto p-8 md:p-16 bg-white rounded-lg shadow-lg">
+          <h2 className="text-cyan-800 text-4xl md:text-5xl font-extrabold mb-10">
+            Versatile Applications of Adhunik Powertech Hydraulic Oil Chillers
+          </h2>
+          <p className="text-gray-700 text-lg mb-12 max-w-3xl">
+            Powering Industries: Where Our Hydraulic Oil Chillers Make a Difference
+            <br />
+            Adhunik Powertech's Hydraulic Oil Chillers are an indispensable asset across a broad spectrum of industries, safeguarding crucial equipment, enhancing operational efficiency, and ensuring product quality.
+          </p>
+
+          <ul className="grid gap-8 md:grid-cols-2">
+            {applications.map(({ icon: Icon, label, detail }, idx) => (
+              <li
+                key={idx}
+                className="flex gap-5 border-l-4 border-cyan-600 pl-5 bg-cyan-50 p-4 rounded-lg shadow-sm hover:shadow-md transition"
+              >
+                <div className="bg-cyan-100 flex justify-center items-center text-cyan-700 rounded-full p-3 flex-shrink-0">
+                  <Icon className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-cyan-800 font-semibold text-xl mb-1">{label}</h3>
+                  <p className="text-gray-800 text-sm leading-relaxed">{detail}</p>
+                </div>
+              </li>
+            ))}
+
+          </ul>
+        </section>
+
+
+        <section className="max-w-7xl mx-auto px-6 py-16 bg-cyan-50 rounded-lg shadow-lg">
+          <h2 className="text-4xl font-extrabold text-cyan-800 mb-12 text-center">
+            Why Choose Adhunik Powertech for Your Hydraulic Oil Chiller Needs?
+          </h2>
+
+          <p className="text-lg text-cyan-700 font-semibold mb-10 text-center max-w-4xl mx-auto">
+            The Adhunik Powertech Advantage: Unrivalled Quality, Expertise & Unwavering Support
+          </p>
+
+          <div className="space-y-10">
+            {points.map(({ icon: Icon, title, detail }, idx) => (
+              <div
+                key={idx}
+                className="flex gap-6 items-start bg-white rounded-xl p-6 shadow-md border border-cyan-300 hover:shadow-xl transition-shadow"
+              >
+                <div className="flex-shrink-0 bg-cyan-100 p-4 rounded-lg">
+                  <Icon className="w-8 h-8 text-cyan-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-cyan-900 mb-2">{title}</h3>
+                  <p className="text-cyan-800 leading-relaxed">{detail}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+
+
+        <div className="container  mx-auto">
+          <section className="max-w-7xl m-4 md:m-12  mx-auto px-8 text-center py-12 bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900 rounded-3xl shadow-2xl text-white relative overflow-hidden">
+
+            <div className="absolute top-[-60px] right-[-60px] w-48 h-48 bg-cyan-400 opacity-20 rounded-full filter blur-3xl"></div>
+
+            <h2 className="text-3xl font-extrabold tracking-tight mb-6  leading-tight drop-shadow-md">
+              Ready to Optimize Your Hydraulic Systems?
+            </h2>
+
+            <p className="text-md font-semibold  mb-6 text-cyan-200 drop-shadow-sm">
+              Connect with Adhunik Powertech Today for Your Hydraulic Oil Chiller Solution
             </p>
-          </div>
+
+            <p className=" text-sm text-cyan-300 leading-relaxed mb-10   drop-shadow-sm">
+              Don’t let overheating compromise your productivity, machine lifespan, or product quality. Invest in a reliable, high-performance hydraulic oil chiller from Adhunik Powertech – your trusted partner for industrial cooling solutions in Delhi NCR and across India.
+            </p>
+
+            <p className=" text-sm text-cyan-300 leading-relaxed mb-14   drop-shadow-sm">
+              Contact Us Today for a Customized Solution: Our experts are ready to discuss your specific cooling needs, offer technical guidance, and provide a tailor-made, no-obligation quote.
+            </p>
+
+            <Link
+              href="/support-form"
+              className="inline-flex items-center justify-center gap-3 bg-white text-cyan-900 font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 text-sm drop-shadow-md"
+              aria-label="Get a Free Quote"
+            >
+              GET A FREE QUOTE <ArrowRightIcon className="w-6 h-6" />
+            </Link>
+          </section>
         </div>
-      </div>
-    </section>
-
-
-    <section className="max-w-7xl mx-auto p-8 md:p-16 bg-white rounded-lg shadow-lg">
-      <h2 className="text-cyan-800 text-4xl md:text-5xl font-extrabold mb-7">
-        Adhunik Powertech Hydraulic Oil Chillers : Engineered for Unmatched Performance
-      </h2>
-      <h3 className=" text-sm py-3 text-cyan-800">
-        Unmatched Features & Advantages: The Adhunik Powertech Difference
-
-      </h3>
-      <p className="text-gray-700 text-lg mb-12 max-w-3xl">
-        At Adhunik Powertech, we don't just build chillers; we engineer meticulously crafted cooling solutions that redefine industrial reliability and efficiency. Our hydraulic oil chillers are the culmination of cutting-edge technology, robust design, and a deep understanding of the most demanding industrial cooling requirements.
-      </p>
-
-      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-        {chillerFeatures.map(({ icon: Icon, label, detail }, idx) => (
-          <div
-            key={idx}
-            className="border-l-4 border-cyan-600 pl-6 py-4 bg-cyan-50 rounded-lg shadow-sm hover:shadow-md transition cursor-default"
-          >
-            <div className="flex items-start gap-4 mb-2">
-              <div className="bg-cyan-100 text-cyan-700 rounded-full p-3 flex-shrink-0">
-                <Icon className="w-6 h-6" />
-              </div>
-              <h3 className="text-cyan-800 text-xl font-semibold">{label}</h3>
-            </div>
-            <p className="text-gray-800 text-sm leading-relaxed">{detail}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-
-
-      <section className="max-w-7xl mx-auto p-8 md:p-16 bg-white rounded-lg shadow-lg">
-      <h2 className="text-cyan-800 text-4xl md:text-5xl font-extrabold mb-10">
-        Versatile Applications of Adhunik Powertech Hydraulic Oil Chillers
-      </h2>
-      <p className="text-gray-700 text-lg mb-12 max-w-3xl">
-        Powering Industries: Where Our Hydraulic Oil Chillers Make a Difference
-        <br />
-        Adhunik Powertech's Hydraulic Oil Chillers are an indispensable asset across a broad spectrum of industries, safeguarding crucial equipment, enhancing operational efficiency, and ensuring product quality.
-      </p>
-
-      <ul className="grid gap-8 md:grid-cols-2">
-        {applications.map(({ icon: Icon, label, detail }, idx) => (
-          <li
-            key={idx}
-            className="flex gap-5 border-l-4 border-cyan-600 pl-5 bg-cyan-50 p-4 rounded-lg shadow-sm hover:shadow-md transition"
-          >
-            <div className="bg-cyan-100 flex justify-center items-center text-cyan-700 rounded-full p-3 flex-shrink-0">
-              <Icon className="w-6 h-6" />
-            </div>
-            <div>
-              <h3 className="text-cyan-800 font-semibold text-xl mb-1">{label}</h3>
-              <p className="text-gray-800 text-sm leading-relaxed">{detail}</p>
-            </div>
-          </li>
-        ))}
-
-      </ul>
-    </section>
-
-   
-     <section className="max-w-7xl mx-auto px-6 py-16 bg-cyan-50 rounded-lg shadow-lg">
-      <h2 className="text-4xl font-extrabold text-cyan-800 mb-12 text-center">
-        Why Choose Adhunik Powertech for Your Hydraulic Oil Chiller Needs?
-      </h2>
-
-      <p className="text-lg text-cyan-700 font-semibold mb-10 text-center max-w-4xl mx-auto">
-        The Adhunik Powertech Advantage: Unrivalled Quality, Expertise & Unwavering Support
-      </p>
-
-      <div className="space-y-10">
-        {points.map(({ icon: Icon, title, detail }, idx) => (
-          <div
-            key={idx}
-            className="flex gap-6 items-start bg-white rounded-xl p-6 shadow-md border border-cyan-300 hover:shadow-xl transition-shadow"
-          >
-            <div className="flex-shrink-0 bg-cyan-100 p-4 rounded-lg">
-              <Icon className="w-8 h-8 text-cyan-600" />
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold text-cyan-900 mb-2">{title}</h3>
-              <p className="text-cyan-800 leading-relaxed">{detail}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
 
 
 
-<div className="container  mx-auto">
-  <section className="max-w-7xl m-4 md:m-12  mx-auto px-8 text-center py-12 bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900 rounded-3xl shadow-2xl text-white relative overflow-hidden">
-     
-      <div className="absolute top-[-60px] right-[-60px] w-48 h-48 bg-cyan-400 opacity-20 rounded-full filter blur-3xl"></div>
-
-      <h2 className="text-3xl font-extrabold tracking-tight mb-6  leading-tight drop-shadow-md">
-        Ready to Optimize Your Hydraulic Systems?
-      </h2>
-
-      <p className="text-md font-semibold  mb-6 text-cyan-200 drop-shadow-sm">
-        Connect with Adhunik Powertech Today for Your Hydraulic Oil Chiller Solution
-      </p>
-
-      <p className=" text-sm text-cyan-300 leading-relaxed mb-10   drop-shadow-sm">
-        Don’t let overheating compromise your productivity, machine lifespan, or product quality. Invest in a reliable, high-performance hydraulic oil chiller from Adhunik Powertech – your trusted partner for industrial cooling solutions in Delhi NCR and across India.
-      </p>
-
-      <p className=" text-sm text-cyan-300 leading-relaxed mb-14   drop-shadow-sm">
-        Contact Us Today for a Customized Solution: Our experts are ready to discuss your specific cooling needs, offer technical guidance, and provide a tailor-made, no-obligation quote.
-      </p>
-
-      <Link
-        href="/support-form"
-        className="inline-flex items-center justify-center gap-3 bg-white text-cyan-900 font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 text-sm drop-shadow-md"
-        aria-label="Get a Free Quote"
-      >
-        GET A FREE QUOTE <ArrowRightIcon className="w-6 h-6" />
-      </Link>
-    </section>
-</div>
-    
-
-
-      <div className="row">
-
-
-
-
-
+        <div className="row">
 
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -1393,14 +1346,10 @@ In the demanding world of industrial operations, hydraulic systems are the undis
                     <span className="relative"> Contact Us</span>
                   </a>
                 </div>
-
-
-
               </div>
 
 
               <div className="relative ms-4 items-center flex justify-center">
-
                 <div className="flex justify-center  absolute " >
                   <span className="relative flex h-16 w-16">
                     <span
@@ -1417,15 +1366,9 @@ In the demanding world of industrial operations, hydraulic systems are the undis
                   <button className='z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
                 </div>
 
-
-
-
-                <img className="md:h-[70%] rounded-md"  height="700"
-width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
+                <img className="md:h-[70%] rounded-md" height="700"
+                  width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
-
-
-
 
               </div>
 
@@ -1440,15 +1383,13 @@ width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
                       className="relative  my-6    container-fluid "
                       onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on modal content
                     >
-                       
+
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                   
+
                         <div className="relative  flex-auto">
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/jtizPl_Y744?si=oWwFcUq_IwXZgvjD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
                         </div>
-                   
-
                       </div>
                     </div>
                   </div>
@@ -1468,15 +1409,15 @@ width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
 
 
         <div className="flex justify-center items-center w-full h-full flex-row">
-    
+
           <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
 
-      
+
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white text-3xl md:text-4xl font-sans font-bold capitalize text-center">
             APPLICATIONS
           </span>
 
-          
+
           <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
         </div>
 
@@ -1491,9 +1432,9 @@ width="700" src="/pacth.webp" loading="lazy" alt="Hero Image 3" />
 
               <table className="  md:w-[50%] text-sm text-center text-gray-500 ">
 
-                      <caption className="uppercase text-base font-semibold text-gray-700 mb-2">
-Typical Applications of Our Hydraulic Oil Chiller Solutions
-  </caption>
+                <caption className="uppercase text-base font-semibold text-gray-700 mb-2">
+                  Typical Applications of Our Hydraulic Oil Chiller Solutions
+                </caption>
 
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
@@ -1536,8 +1477,8 @@ Typical Applications of Our Hydraulic Oil Chiller Solutions
                       src={logo.src}
                       loading="lazy"
                       alt={logo.alt}
-                       height="300"
-width="300"
+                      height="300"
+                      width="300"
                     />
                   </li>
                 ))}

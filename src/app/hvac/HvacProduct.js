@@ -45,23 +45,27 @@ const images3 = [
     thumbnail: "/jobs/1.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-    originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
-    thumbnailLoading:"lazy",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+    thumbnailLoading: "lazy",
+    loading:"lazy"
 
   },
+
 
   {
     original: "/jobs/2.jpg",
     thumbnail: "/jobs/2.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -69,10 +73,12 @@ const images3 = [
     thumbnail: "/jobs/3.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -80,10 +86,12 @@ const images3 = [
     thumbnail: "/jobs/4.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -91,10 +99,12 @@ const images3 = [
     thumbnail: "/jobs/5.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -102,10 +112,12 @@ const images3 = [
     thumbnail: "/jobs/6.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -113,10 +125,12 @@ const images3 = [
     thumbnail: "/jobs/7.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
 
@@ -128,10 +142,12 @@ const images4 = [
     thumbnail: "/jobs/8.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -139,10 +155,12 @@ const images4 = [
     thumbnail: "/jobs/9.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -150,10 +168,12 @@ const images4 = [
     thumbnail: "/jobs/10.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -161,10 +181,12 @@ const images4 = [
     thumbnail: "/jobs/11.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -172,10 +194,12 @@ const images4 = [
     thumbnail: "/jobs/12.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -183,10 +207,12 @@ const images4 = [
     thumbnail: "/jobs/13.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
 
@@ -201,10 +227,12 @@ const images5 = [
     thumbnail: "/jobs/14.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -212,10 +240,12 @@ const images5 = [
     thumbnail: "/jobs/15.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -223,10 +253,12 @@ const images5 = [
     thumbnail: "/jobs/16.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -234,10 +266,12 @@ const images5 = [
     thumbnail: "/jobs/17.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -245,10 +279,12 @@ const images5 = [
     thumbnail: "/jobs/18.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy"
   },
 
   {
@@ -256,10 +292,12 @@ const images5 = [
     thumbnail: "/jobs/19.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -267,10 +305,12 @@ const images5 = [
     thumbnail: "/jobs/20.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -278,10 +318,12 @@ const images5 = [
     thumbnail: "/jobs/21.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -289,10 +331,12 @@ const images5 = [
     thumbnail: "/jobs/22.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
 
@@ -307,10 +351,12 @@ const images6 = [
     thumbnail: "/jobs/27.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -318,10 +364,12 @@ const images6 = [
     thumbnail: "/jobs/26.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -329,10 +377,12 @@ const images6 = [
     thumbnail: "/jobs/25.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -340,10 +390,12 @@ const images6 = [
     thumbnail: "/jobs/28.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -351,10 +403,12 @@ const images6 = [
     thumbnail: "/jobs/29.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -362,10 +416,12 @@ const images6 = [
     thumbnail: "/jobs/30.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
 
@@ -381,10 +437,12 @@ const images7 = [
     thumbnail: "/jobs/31.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -392,10 +450,12 @@ const images7 = [
     thumbnail: "/jobs/32.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -403,10 +463,12 @@ const images7 = [
     thumbnail: "/jobs/33.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -414,10 +476,12 @@ const images7 = [
     thumbnail: "/jobs/34.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
   {
@@ -425,18 +489,17 @@ const images7 = [
     thumbnail: "/jobs/35.jpg",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
-     originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
   },
 
-
-
-
-
-
 ];
+
+
 
 export default function HvacProduct() {
 
@@ -485,6 +548,7 @@ export default function HvacProduct() {
 
 
     return (
+
       <article>
         <span className="inline-flex font-semibold text-[14px] bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
           {label}
@@ -504,6 +568,7 @@ export default function HvacProduct() {
           </span>
         </p>
       </article>
+
     );
   }
 
@@ -521,7 +586,6 @@ export default function HvacProduct() {
 
 
     {
-
       id: 2,
       imgSrc: "certi/2.webp",
       clientName: "Suncity Parikrama",
@@ -603,7 +667,6 @@ export default function HvacProduct() {
         " We believe in forging lasting partnerships. Our team works closely with you to understand your unique needs, delivering customized HVAC contractor services that align perfectly with your operational goals and budget.",
     },
   ];
-
 
   const services = [
     {
@@ -688,10 +751,11 @@ export default function HvacProduct() {
           <p className="  text-sm md:text-lg   max-w-3xl mx-auto text-cyan-100 font-medium tracking-wide">
             Leading HVAC Contractor in Gurugram & Delhi NCR | Turnkey Heating, Ventilation & Air Conditioning Solutions
           </p>
+          
         </div>
       </section>
       <div className="row  pt-24 ">
-        <h1 className=' text-center font-sans font-thin text-2xl'>OUR ACHIEVEMENTS</h1>
+        <h1 className=' text-center font-sans font-thin text-2xl'> OUR ACHIEVEMENTS </h1>
         <p className="text-4xl font-sans  py-3 w-full text-center text-cyan-900 capitalize">
           TOTAL PROJECTS DELIVERED
         </p>
@@ -914,8 +978,8 @@ export default function HvacProduct() {
                 <img
                   className="object-cover md:w-[50%] p-8 md:h-[50%]"
                   src={card.imgSrc}
-                    height="300"
-                          width="300"
+                  height="300"
+                  width="300"
                   loading="lazy"
                   alt={`${card.clientName} project`}
                 />

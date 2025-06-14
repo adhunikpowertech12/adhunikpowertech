@@ -242,7 +242,7 @@ export default function PanelAirConditioners() {
                 src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
                 loading="lazy"
                 height="300"
-width="300"
+                width="300"
               />
             </div>
           </div>
@@ -399,10 +399,11 @@ width="300"
                             className="  md:h-[28rem]  object-center object-fill "
                             fetchPriority="high"
                             decoding="async"
+                            loading="lazy"
                             alt="Panel Air Conditioner "
                             src="/wm.png"
-                             height="300"
-width="300"
+                            height="300"
+                            width="300"
                           />
                         </div>
                       </div>
@@ -444,13 +445,13 @@ width="300"
 
 
 
-           
+
             <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Wall Mount TECHNICAL SPECIFICATION
-  </caption>
+                  <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                    Wall Mount TECHNICAL SPECIFICATION
+                  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt </th>
@@ -521,8 +522,9 @@ width="300"
                             decoding="async"
                             alt="Panel Air Conditioner "
                             src="/tm.png"
-                             height="300"
-width="400"
+                            loading="lazy"
+                            height="300"
+                            width="400"
                           />
                         </div>
                       </div>
@@ -544,12 +546,12 @@ width="400"
 
 
             </div>
-           <div className="flex justify-center">
+            <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                        <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Top Mount TECHNICAL SPECIFICATION
-  </caption>
+                  <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                    Top Mount TECHNICAL SPECIFICATION
+                  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
 
@@ -593,17 +595,18 @@ width="400"
                     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
                       <div className="w-auto">
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                        
+
                           <img
                             className=" md:h-96"
                             fetchPriority="high"
                             decoding="async"
                             alt="Panel Air Conditioner "
                             src="/sa.png"
-                             height="300"
-width="300"
+                            loading="lazy"
+                            height="300"
+                            width="300"
                           />
-                          
+
                         </div>
                       </div>
                       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -642,13 +645,13 @@ width="300"
             </div>
 
 
-           <div className="flex justify-center">
+            <div className="flex justify-center">
               <div className="rounded-lg relative py-7 overflow-x-auto w-full max-w-[85rem] mx-auto">
-              
+
                 <table className="text-sm text-left rtl:text-right text-gray-500 border-collapse border border-gray-200 min-w-[600px] sm:min-w-[85rem]">
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-   Stand Alone TECHNICAL SPECIFICATION
-  </caption>
+                  <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                    Stand Alone TECHNICAL SPECIFICATION
+                  </caption>
                   <thead className="text-xs text-white font-sans font-extrabold uppercase bg-[#1379a1] border-b-2 border-gray-200">
                     <tr className="text-center">
                       <th scope="col" className="py-1 px-1 text-[10px] border-r border-gray-100 text-black font-sans font-extrabold bg-white sticky left-0 z-10">Capacity in Watt</th>
@@ -763,11 +766,12 @@ width="300"
 
                               <Image
                                 className="h-[30rem] object-center object-fill"
-                                priority
+                           
                                 alt={product.altText}
                                 src={product.imageSrc}
                                 width={500}
                                 height={700}
+                                    loading="lazy"
                                 layout="responsive"
                               />
                             </div>
@@ -801,7 +805,8 @@ width="300"
 
                           <Image
                             className="h-[30rem] object-center object-fill"
-                            priority
+                             
+                                loading="lazy"
                             alt={product.altText}
                             src={product.imageSrc}
                             width={600}
@@ -832,8 +837,8 @@ width="300"
                 <div className=" text-justify">
 
                   <ul className="list-disc">
- 
- 
+
+
                     <li>   A wide range of products starts from 250 watts to 7000 watts.
 
                     </li>
@@ -1018,8 +1023,8 @@ width="300"
 
 
 
-                <img className="md:h-[70%] rounded-md"  height="700"
-width="700" src="/pacth.webp" loading="lazy" alt="Hero Image" />
+                <img className="md:h-[70%] rounded-md" height="700"
+                  width="700" src="/pacth.webp" loading="lazy" alt="Hero Image" />
 
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
 
@@ -1090,10 +1095,10 @@ width="700" src="/pacth.webp" loading="lazy" alt="Hero Image" />
 
 
               <table className="md:w-[50%] text-sm text-center text-gray-500 ">
-                      <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
-Typical Applications of Our Panel Air Conditioner
- Solutions
-  </caption>
+                <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
+                  Typical Applications of Our Panel Air Conditioner
+                  Solutions
+                </caption>
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
 
                 </thead>
@@ -1135,8 +1140,8 @@ Typical Applications of Our Panel Air Conditioner
                       src={logo.src}
                       alt={logo.alt}
                       loading="lazy"
-                       height="300"
-width="300"
+                      height="300"
+                      width="300"
                     />
                   </li>
                 ))}

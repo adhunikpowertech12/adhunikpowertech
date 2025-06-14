@@ -241,6 +241,7 @@ export default function AirShower() {
                            height="300"
                           width="300"
                           src="as.png"
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -404,6 +405,7 @@ export default function AirShower() {
                           className="     object-center object-fill "
                           fetchPriority="high"
                           decoding="async"
+                           loading="lazy"
                            height="300"
                           width="300"
                           alt="Air Conditioning & Clean Room Jobs"
@@ -609,6 +611,7 @@ export default function AirShower() {
                       alt={logo.alt}
                         height="300"
                           width="300"
+                           loading="lazy"
                     />
                   </li>
                 ))}

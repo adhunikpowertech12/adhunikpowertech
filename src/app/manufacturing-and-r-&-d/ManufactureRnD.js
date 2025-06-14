@@ -17,6 +17,9 @@ export default function ManufactureRnD() {
     originalWidth:"300",
     thumbnailHeight:"300",
     thumbnailWidth:"300",
+       thumbnailLoading: "lazy",
+    loading:"lazy",
+
         },
       
         {
@@ -28,6 +31,8 @@ export default function ManufactureRnD() {
     originalWidth:"300",
     thumbnailHeight:"300",
     thumbnailWidth:"300",
+       thumbnailLoading: "lazy",
+    loading:"lazy",
         },
       
         {
@@ -39,6 +44,8 @@ export default function ManufactureRnD() {
     originalWidth:"300",
     thumbnailHeight:"300",
     thumbnailWidth:"300",
+       thumbnailLoading: "lazy",
+    loading:"lazy",
         },
       
         {
@@ -50,6 +57,8 @@ export default function ManufactureRnD() {
     originalWidth:"300",
     thumbnailHeight:"300",
     thumbnailWidth:"300",
+       thumbnailLoading: "lazy",
+    loading:"lazy",
         },
       
     
