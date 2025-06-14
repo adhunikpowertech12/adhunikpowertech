@@ -223,7 +223,7 @@ export default function ContactUs() {
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
-                                src="/contactus.webp" // Replace this with your desired image URL
+                                src="/contactus.webp" 
                                 alt="Description of the image"
                                 className="w-full h-auto object-cover"
                                 loading='lazy'
@@ -241,7 +241,7 @@ export default function ContactUs() {
                                 onSubmit={sendEmail}
                                 ref={form}
                             >
-                                <h2 className="text-4xl mb-7 capitalize">Talk to our  expert.</h2>
+                                <h2 className="text-4xl mb-7 capitalize">Talk to our expert.</h2>
                                 <div className="flex flex-wrap -mx-3 mb-6">
                                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                         <label
