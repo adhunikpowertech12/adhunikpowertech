@@ -119,7 +119,7 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "570x285x285", "570x285x285", "285x310x785", "285x310x785", "275x400x1000", "275x400x1000", "270x400x1400", "270x400x1400", "425x550x1570", "425x550x1570"],
+      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH</div></>, "285x285x570", "285x285x570", "285x310x785", "285x310x785", "275x400x1000", "275x400x1000", "270x400x1400", "270x400x1400", "425x550x1570", "425x550x1570"],
     },
     {
       heading: "Power Input",
@@ -149,7 +149,7 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "405x455x555", "405x455x555", "345x395x655", "345x395x655"],
+      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH </div></>, "405x455x555", "405x455x555", "395x655x345", "395x655x345"],
     },
     {
       heading: "Power Input",
@@ -176,7 +176,7 @@ export default function PanelAirConditioners() {
     },
     {
       heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">HxDxW</div></>, "285x310x785", "285x310x785", "1150x550x550", "1150x550x550", "425x550x1570"],
+      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH</div></>, "285x310x785", "285x310x785", "550x550x1150", "550x550x1150", "425x550x1570"],
     },
     {
       heading: "Power Input",
