@@ -36,6 +36,8 @@ function Footer() {
     { href: "/chiller-oil-water-coolant", text: "Oil Chiller" },
     { href: "/air-handling-unit", text: "Air Handling Unit" },
     { href: "/air-shower", text: "Air Shower & Pass Box" },
+    { href: "/industrial-cooler", text: "Industrial Cooler" },
+    { href: "/bldc-fans", text: "BLDC Fans" },
   ];
 
 

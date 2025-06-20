@@ -42,13 +42,20 @@ export default function SiteMap() {
     { href: '/what-is-a-ducted-air-cooler', text: 'What is a Ducted Air Cooler?', title: 'Guide to ducted air cooler systems' },
     { href: '/blog', text: 'Blog Page', title: 'Read our blog articles and updates' },
     { href: '/what-is-an-air-washer', text: 'What is an Air Washer?', title: 'Learn about Air Washer and their uses' },
+    
+    { href: '/industrial-cooler', text: 'Industrial Cooling Solutions', title: 'Industrial Cooling Solutions' },
+
+    { href: '/bldc-fans', text: 'Ceiling Fans', title: 'Ceiling Fans' },
+
     { href: '/support-form', text: 'Contact Us', title: 'Contact us for expert HVAC advice' },
      
 ];
 
   return (
     <>
-    
+ 
+
+
     <main className="  mx-auto px-4 py-8 mt-24">
                 <h1 className=" px-4 text-2xl md:text-5xl font-bold mb-6">Sitemap</h1>
                 <p className=' text-3xl py-4 underline px-4'> Pages </p>
