@@ -1,12 +1,12 @@
 "use client"
 import { useState } from 'react';
 import Image from 'next/image';
-import { 
-  ShoppingCart, Phone, Check, Star, Download, MessageSquare,
-  ChevronRight, Zap, Lightbulb, Smartphone, Clock, Shield,
-  AirVent, Gauge, Wifi, Bluetooth, Settings, FileText,
-  HelpCircle, ArrowRight, RotateCw, BatteryFull, Volume2,
-  MessageSquareQuote
+import {
+    ShoppingCart, Phone, Check, Star, Download, MessageSquare,
+    ChevronRight, Zap, Lightbulb, Smartphone, Clock, Shield,
+    AirVent, Gauge, Wifi, Bluetooth, Settings, FileText,
+    HelpCircle, ArrowRight, RotateCw, BatteryFull, Volume2,
+    MessageSquareQuote
 } from 'lucide-react';
 import { ChevronLeft } from 'lucide-react';
 
@@ -14,7 +14,7 @@ import { ChevronLeft } from 'lucide-react';
 const FanProductPage = () => {
     const [selectedFan, setSelectedFan] = useState(0);
     const [activeTab, setActiveTab] = useState('features');
-    
+
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const fanTypes = [
@@ -63,7 +63,7 @@ const FanProductPage = () => {
                         { name: 'Motor Type', value: 'BLDC' }
                     ]
                 },
-               
+
                 {
                     category: 'Performance', items: [
                         { name: 'Airflow', value: '220 CMM' },
@@ -79,12 +79,13 @@ const FanProductPage = () => {
             tagline: 'Smart BLDC Fan with Air Purification',
             price: 3249,
             regularPrice: 3999,
-            image: '/power-pro.jpg',
-            thumbnail: '/power-pro-thumb.jpg',
-            gallery: [
-                '/power-pro-gallery-1.jpg',
-                '/power-pro-gallery-2.jpg',
-                '/power-pro-gallery-3.jpg'
+        image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+            thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+                   gallery: [
+                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_e8ab824484cf46b49d491650267277c9_mv2_oqown6.avif',
+                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_ce380a33380d4973a5fd3f545429ee94_mv2_f6uxuf.avif',
+                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403326/91f360_dff11e4e49b545cc9be75a8c69df5ad9_mv2_zmtmam.avif'
+          
             ],
             highlights: [
                 { icon: <AirVent className="w-6 h-6" />, title: 'Airflow', value: '240 CMM' },
@@ -138,18 +139,18 @@ const FanProductPage = () => {
 
     const currentFan = fanTypes[selectedFan];
 
-     
+
     const galleryImages = [currentFan.image, ...currentFan.gallery];
 
     // Image navigation functions
     const nextImage = () => {
-        setCurrentImageIndex((prevIndex) => 
+        setCurrentImageIndex((prevIndex) =>
             prevIndex === galleryImages.length - 1 ? 0 : prevIndex + 1
         );
     };
 
     const prevImage = () => {
-        setCurrentImageIndex((prevIndex) => 
+        setCurrentImageIndex((prevIndex) =>
             prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1
         );
     };
@@ -162,45 +163,47 @@ const FanProductPage = () => {
 
     return (
         <div className="min-h-screen bg-gray-50">
-            <main className="container mx-auto px-4 py-12 mt-24">
+            <main className="container mx-auto px-4 md:px-14 py-12 mt-24">
                 {/* Product Showcase */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
                     {/* Gallery */}
-                      <div className="space-y-6">
+                    <div className="space-y-6">
                         {/* Main Image with Navigation */}
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden relative group">
                             <div className="relative h-[100%] w-full">
                                 <img
                                     src={galleryImages[currentImageIndex]}
                                     alt={`${currentFan.name} - View ${currentImageIndex + 1}`}
-                                    
+
                                     className="transition-opacity duration-300 object-center object-fill"
-                                     
+
                                 />
                             </div>
-                            
+
                             {/* Navigation Arrows */}
-                            <button 
+                            <button
                                 onClick={prevImage}
                                 className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
                                 aria-label="Previous image"
                             >
                                 <ChevronLeft className="w-6 h-6" />
                             </button>
-                            <button 
+
+                            <button
                                 onClick={nextImage}
                                 className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
                                 aria-label="Next image"
                             >
                                 <ChevronRight className="w-6 h-6" />
                             </button>
+
                         </div>
 
                         {/* Thumbnail Gallery */}
                         <div className="grid grid-cols-3 gap-4">
                             {galleryImages.map((img, index) => (
-                                <div 
-                                    key={index} 
+                                <div
+                                    key={index}
                                     onClick={() => setCurrentImageIndex(index)}
                                     className={`relative bg-white rounded-xl overflow-hidden cursor-pointer transition-all border-2 ${currentImageIndex === index ? 'border-cyan-500 shadow-lg' : 'border-transparent hover:border-gray-200'}`}
                                 >
@@ -208,7 +211,7 @@ const FanProductPage = () => {
                                         <img
                                             src={img}
                                             alt={`${currentFan.name} thumbnail ${index + 1}`}
-                                      className=' object-center object-contain'
+                                            className=' object-center object-contain'
                                         />
                                     </div>
                                     <div className={`absolute bottom-0 left-0 right-0 h-1 ${currentImageIndex === index ? 'bg-cyan-500' : 'bg-transparent'}`}></div>
@@ -222,7 +225,8 @@ const FanProductPage = () => {
                         {/* Fan Selector */}
                         <div className="flex space-x-4">
                             {fanTypes.map((fan, index) => (
-                                  <button
+
+                                <button
                                     key={fan.id}
                                     onClick={() => handleFanChange(index)}
                                     className={`px-6 py-3 rounded-full font-medium transition-all ${selectedFan === index
@@ -231,6 +235,7 @@ const FanProductPage = () => {
                                 >
                                     {fan.name}
                                 </button>
+
                             ))}
                         </div>
 
@@ -268,7 +273,7 @@ const FanProductPage = () => {
                         {/* Action Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 pt-4">
                             <button className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
-                               <MessageSquareQuote className='mr-2' />
+                                <MessageSquareQuote className='mr-2' />
                                 Request Quote
                             </button>
                             <button className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
@@ -276,13 +281,15 @@ const FanProductPage = () => {
                                 Call Us Now
                             </button>
                         </div>
+
+                        
                     </div>
                 </div>
 
                 {/* Product Details Tabs */}
                 <div className="mb-20">
                     <div className="border-b border-gray-200">
-                        <nav className="flex space-x-8">
+                        <nav className="flex  flex-col md:flex-row md:space-x-8">
                             <button
                                 onClick={() => setActiveTab('features')}
                                 className={`py-4 px-1 font-medium text-sm border-b-2 ${activeTab === 'features' ? 'border-cyan-600 text-cyan-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
@@ -457,6 +464,9 @@ const FanProductPage = () => {
                         ))}
                     </div>
                 </div>
+
+
+
             </main>
         </div>
     );

@@ -166,19 +166,33 @@ function Navbar() {
   const [logoSrc, setLogoSrc] = useState('/we.svg');
   const [logoSize, setLogoSize] = useState({ width: '150', height: '60' });
 
+
   useEffect(() => {
-    if (pathname) {
-      if (pathname === '/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' || pathname === '/fire-extinguishers' || pathname === '/fire-hydrant-system' || pathname === '/fire-sprinkler-system' || pathname === '/fire-suppression-system' || pathname === '/glow-signage-&-emergency-lights' || pathname === '/fire-tubing-system' || pathname === '/fire-VESDA-system' || pathname === '/fire-alarm-system') {
-        setLogoSrc('/next2.webp');
-        setLogoSize({ width: '180', height: '44' });
-      } else {
-        setLogoSrc('/we.svg');
-        setLogoSize({ width: '150', height: '60' });
-      }
+    if (!pathname) return;
+
+    const firePages = [
+      '/top-Fire-Fighting-Company-in-Delhi-NCR-And-India',
+      '/fire-extinguishers',
+      '/fire-hydrant-system',
+      '/fire-sprinkler-system',
+      '/fire-suppression-system',
+      '/glow-signage-&-emergency-lights',
+      '/fire-tubing-system',
+      '/fire-VESDA-system',
+      '/fire-alarm-system',
+    ];
+
+    if (firePages.includes(pathname)) {
+      setLogoSrc('/next2.webp');
+      setLogoSize({ width: '180', height: '44' });
+    } else if (pathname === '/bldc-fans') {
+      setLogoSrc('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750406676/aircare_vn2m2p.webp');
+      setLogoSize({ width: '150', height: '60' });
+    } else {
+      setLogoSrc('/we.svg');
+      setLogoSize({ width: '150', height: '60' });
     }
   }, [pathname]);
-
-
 
 
   const menuItems = [
