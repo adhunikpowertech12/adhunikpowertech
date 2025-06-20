@@ -9,6 +9,7 @@ import {
     MessageSquareQuote
 } from 'lucide-react';
 import { ChevronLeft } from 'lucide-react';
+import Link from 'next/link';
 
 
 const FanProductPage = () => {
@@ -20,7 +21,7 @@ const FanProductPage = () => {
     const fanTypes = [
         {
             id: 1,
-            name: 'Ecruz Vaiyu Star',
+            name: 'Venessa Lumo',
             tagline: 'Luxury BLDC Ceiling Fan with Smart Lighting',
             price: 2942,
             regularPrice: 3749,
@@ -46,95 +47,120 @@ const FanProductPage = () => {
                 'Inverter compatible with 3x longer backup time'
             ],
             specifications: [
-                { name: 'Model', value: 'Vaiyu Star' },
-                { name: 'Finish', value: 'Wooden' },
+                { name: 'Model', value: 'Venessa Lumo' },
+                { name: 'Power Source Type', value: 'Corded Electric' },
+                { name: 'Finish', value: 'Smoke Brown' },
+                { name: 'Mounting Type', value: 'Ceiling Mount' },
+                { name: 'Controller Type', value: 'Remote Control' },
+                { name: 'Recommended Uses For Product', value: 'Cooling' },
+                { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
+                { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
                 { name: 'Power Consumption', value: '28W' },
-                { name: 'Air Delivery', value: '220 CMM' },
-                { name: 'RPM', value: '350' },
+                { name: 'Wattage', value: '32 Watts' },
+                { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
+                { name: 'Speed', value: '350 RPM' },
+                { name: 'Number of Blades', value: '3' },
+                { name: 'Voltage', value: '220 Volts' },
                 { name: 'Warranty', value: '2+1 Years' },
                 { name: 'Blade Material', value: 'Aircraft-grade Aluminum' },
                 { name: 'Remote Type', value: 'RF (15ft range)' }
             ],
             techSpecs: [
                 {
-                    category: 'Electrical', items: [
-                        { name: 'Voltage', value: '130V-290V' },
-                        { name: 'Power', value: '28W' },
-                        { name: 'Motor Type', value: 'BLDC' }
+                    category: 'Brand Name : Adhunik Air Care', items: [
+                        { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
+                        { name: 'Model Number', value: 'Venessa Lumo' },
+                        { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+                        { name: 'Item Type Name', value: 'Ceiling Fan' },
+                        { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004,' },
+
                     ]
                 },
 
-                {
-                    category: 'Performance', items: [
-                        { name: 'Airflow', value: '220 CMM' },
-                        { name: 'Noise Level', value: '<35dB' },
-                        { name: 'Speed Settings', value: '6' }
-                    ]
-                }
+            
             ]
         },
+
+
+       {
+    id: 2,
+    name: 'Venessa Lumo',
+    tagline: 'BLDC Ceiling Fan with 9W LED Light',
+    price: 2761,
+    regularPrice: 3499,
+    image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+    thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+    gallery: [
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_e8ab824484cf46b49d491650267277c9_mv2_oqown6.avif',
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_ce380a33380d4973a5fd3f545429ee94_mv2_f6uxuf.avif',
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403326/91f360_dff11e4e49b545cc9be75a8c69df5ad9_mv2_zmtmam.avif'
+    ],
+    highlights: [
+        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: '50% Less Power' },
+        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Light', value: '9W Dimmable' },
+        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2+1 Years' }
+    ],
+    features: [
+        'BLDC technology saves up to ₹6500 annually on electricity bills',
+        'Smart RF Remote with 15 feet range (boost mode, timer, sleep mode)',
+        '350 RPM motor speed with 220 CMM air delivery',
+        'Double ball bearing for smooth operation and durability',
+        'Consistent speed during voltage fluctuations (130V-290V)',
+        '9W LED light with 5-step dimmable feature',
+        'Runs 3x longer on inverter battery compared to ordinary fans',
+        'Instant drive with no startup delay',
+        'Made in India with quality craftsmanship'
+    ],
+    specifications: [
+        { name: 'Model', value: 'Vaiyu Chill Pro' },
+        { name: 'Finish', value: 'Smoke Brown' },
+        { name: 'Power Consumption', value: '28W (fan) + 9W (light)' },
+        { name: 'Air Delivery', value: '220 CMM' },
+        { name: 'RPM', value: '350' },
+        { name: 'Warranty', value: '2+1 Years' },
+        { name: 'Blade Material', value: 'Premium CNC Winding' },
+        { name: 'Remote Type', value: 'RF (15ft range)' },
+        { name: 'Number of Blades', value: '3' },
+        { name: 'Voltage Range', value: '130V-290V' }
+    ],
+    techSpecs: [
         {
-            id: 2,
-            name: 'Ecruz Vaiyu Chill Pro',
-            tagline: 'Smart BLDC Fan with Air Purification',
-            price: 3249,
-            regularPrice: 3999,
-        image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
-            thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
-                   gallery: [
-                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_e8ab824484cf46b49d491650267277c9_mv2_oqown6.avif',
-                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_ce380a33380d4973a5fd3f545429ee94_mv2_f6uxuf.avif',
-                'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403326/91f360_dff11e4e49b545cc9be75a8c69df5ad9_mv2_zmtmam.avif'
-          
-            ],
-            highlights: [
-                { icon: <AirVent className="w-6 h-6" />, title: 'Airflow', value: '240 CMM' },
-                { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'App + Remote' },
-                { icon: <RotateCw className="w-6 h-6" />, title: 'Purifier', value: 'Built-in' },
-                { icon: <Volume2 className="w-6 h-6" />, title: 'Noise', value: '<30dB' }
-            ],
-            features: [
-                'Brushed steel finish with premium metallic coating',
-                'Smart app control with scheduling and automation',
-                'Built-in HEPA air purifier with PM2.5 filtration',
-                'Triple ball bearing system for ultra-smooth operation',
-                'IoT enabled for smart home integration',
-                'Sleep mode with gradual speed reduction'
-            ],
-            specifications: [
-                { name: 'Model', value: 'Power Pro' },
-                { name: 'Finish', value: 'Brushed Steel' },
-                { name: 'Power Consumption', value: '35W' },
-                { name: 'Air Delivery', value: '240 CMM' },
-                { name: 'RPM', value: '400' },
-                { name: 'Warranty', value: '3 Years' },
-                { name: 'Blade Material', value: 'Carbon Fiber Composite' },
-                { name: 'Control', value: 'App + RF Remote' }
-            ],
-            techSpecs: [
-                {
-                    category: 'Electrical', items: [
-                        { name: 'Voltage', value: '110V-300V' },
-                        { name: 'Power', value: '35W' },
-                        { name: 'Connectivity', value: 'Wi-Fi + Bluetooth' }
-                    ]
-                },
-                {
-                    category: 'Physical', items: [
-                        { name: 'Blade Span', value: '52"' },
-                        { name: 'Weight', value: '6.1kg' },
-                        { name: 'Purifier', value: 'HEPA Filter' }
-                    ]
-                },
-                {
-                    category: 'Performance', items: [
-                        { name: 'Airflow', value: '240 CMM' },
-                        { name: 'Noise Level', value: '<30dB' },
-                        { name: 'Speed Settings', value: '8' }
-                    ]
-                }
+            category: 'Electrical', 
+            items: [
+                { name: 'Voltage', value: '130V-290V' },
+                { name: 'Total Power', value: '37W (28W fan + 9W light)' },
+                { name: 'Motor Type', value: 'BLDC' },
+                { name: 'Inverter Compatibility', value: 'Yes (3x longer backup)' }
+            ]
+        },
+        
+        {
+            category: 'Performance', 
+            items: [
+                { name: 'Airflow', value: '220 CMM' },
+                { name: 'Noise Level', value: '<35dB' },
+                { name: 'Speed Settings', value: '6' },
+                { name: 'Light Features', value: '5-step dimmable' }
             ]
         }
+    ],
+    productDetails: {
+        brand: 'Ecruz',
+        modelNumber: 'Vaiyu Chill Pro',
+        manufacturer: 'Ecruz India Private Limited',
+        packerInfo: 'Ecruz India Private Limited, 109, Udhyog kendra Extn. -1, Ecotech -3, Greater Noida, India',
+        contact: '+919717279078, ecruzindia@gmail.com',
+        itemType: 'Ceiling Fan',
+        recommendedRooms: ['Living Room', 'Bedroom', 'Dining Room'],
+        specialFeatures: [
+            '9W LED light',
+            '4-Step Dimmable Light',
+            '3-blade Design',
+            'RF Remote Control'
+        ]
+    }
+}
     ];
 
     const currentFan = fanTypes[selectedFan];
@@ -163,19 +189,19 @@ const FanProductPage = () => {
 
     return (
         <div className="min-h-screen bg-gray-50">
-            <main className="container mx-auto px-4 md:px-14 py-12 mt-24">
+            <main className="container mx-auto px-4 md:px-14 py-12    mt-32">
                 {/* Product Showcase */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
                     {/* Gallery */}
                     <div className="space-y-6">
                         {/* Main Image with Navigation */}
-                        <div className="bg-white rounded-2xl shadow-xl overflow-hidden relative group">
-                            <div className="relative h-[100%] w-full">
+                        <div className="bg-white rounded-2xl   overflow-hidden relative group">
+                            <div className="relative  h-96 w-full">
                                 <img
                                     src={galleryImages[currentImageIndex]}
                                     alt={`${currentFan.name} - View ${currentImageIndex + 1}`}
 
-                                    className="transition-opacity duration-300 object-center object-fill"
+                                    className=" w-full h-full   transition-opacity duration-300 object-center object-contain"
 
                                 />
                             </div>
@@ -207,11 +233,11 @@ const FanProductPage = () => {
                                     onClick={() => setCurrentImageIndex(index)}
                                     className={`relative bg-white rounded-xl overflow-hidden cursor-pointer transition-all border-2 ${currentImageIndex === index ? 'border-cyan-500 shadow-lg' : 'border-transparent hover:border-gray-200'}`}
                                 >
-                                    <div className="relative h-28">
+                                    <div className="relative   h-28 w-full">
                                         <img
                                             src={img}
                                             alt={`${currentFan.name} thumbnail ${index + 1}`}
-                                            className=' object-center object-contain'
+                                            className=' h-full w-full object-center object-contain'
                                         />
                                     </div>
                                     <div className={`absolute bottom-0 left-0 right-0 h-1 ${currentImageIndex === index ? 'bg-cyan-500' : 'bg-transparent'}`}></div>
@@ -306,7 +332,8 @@ const FanProductPage = () => {
                                 onClick={() => setActiveTab('tech')}
                                 className={`py-4 px-1 font-medium text-sm border-b-2 ${activeTab === 'tech' ? 'border-cyan-600 text-cyan-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
                             >
-                                Technical Details
+                                Item Details
+
                             </button>
                             <button
                                 onClick={() => setActiveTab('support')}
@@ -356,15 +383,15 @@ const FanProductPage = () => {
                         )}
 
                         {activeTab === 'tech' && (
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div className=" w-full text-wrap gap-6">
                                 {currentFan.techSpecs.map((section, index) => (
                                     <div key={index} className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
                                         <h4 className="font-bold text-lg text-gray-900 mb-4">{section.category}</h4>
                                         <ul className="space-y-3">
                                             {section.items.map((item, i) => (
-                                                <li key={i} className="flex justify-between">
-                                                    <span className="text-gray-600">{item.name}</span>
-                                                    <span className="text-gray-900 font-medium">{item.value}</span>
+                                                <li key={i} className="flex  flex-col">
+                                                    <span className="text-gray-600 ">{item.name} </span> 
+                                                    <span className="text-gray-400 font-medium text-left">{item.value}</span>
                                                 </li>
                                             ))}
                                         </ul>
@@ -382,20 +409,17 @@ const FanProductPage = () => {
                                         <p className="text-gray-600 mb-4">
                                             Our products come with a comprehensive {currentFan.id === 1 ? '2+1 year' : '3 year'} warranty covering all manufacturing defects.
                                         </p>
-                                        <button className="text-cyan-600 font-medium hover:text-cyan-700 flex items-center">
-                                            <FileText className="w-4 h-4 mr-2" />
-                                            Download Warranty PDF
-                                        </button>
+                                      
                                     </div>
                                     <div>
                                         <h4 className="font-medium text-gray-900 mb-3">Installation & Support</h4>
                                         <p className="text-gray-600 mb-4">
                                             Free professional installation available. Our support team is available 7 days a week.
                                         </p>
-                                        <button className="bg-cyan-600 text-white px-5 py-2 rounded-lg hover:bg-cyan-700 transition flex items-center">
+                                        <Link href="support-form" className="bg-cyan-600   w-56 text-white px-5 py-2 rounded-lg hover:bg-cyan-700 transition flex items-center">
                                             <MessageSquare className="w-4 h-4 mr-2" />
                                             Contact Support
-                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

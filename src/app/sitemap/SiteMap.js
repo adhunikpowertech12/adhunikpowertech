@@ -42,11 +42,8 @@ export default function SiteMap() {
     { href: '/what-is-a-ducted-air-cooler', text: 'What is a Ducted Air Cooler?', title: 'Guide to ducted air cooler systems' },
     { href: '/blog', text: 'Blog Page', title: 'Read our blog articles and updates' },
     { href: '/what-is-an-air-washer', text: 'What is an Air Washer?', title: 'Learn about Air Washer and their uses' },
-    
     { href: '/industrial-cooler', text: 'Industrial Cooling Solutions', title: 'Industrial Cooling Solutions' },
-
     { href: '/bldc-fans', text: 'Ceiling Fans', title: 'Ceiling Fans' },
-
     { href: '/support-form', text: 'Contact Us', title: 'Contact us for expert HVAC advice' },
      
 ];
