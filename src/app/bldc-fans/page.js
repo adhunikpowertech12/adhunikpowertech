@@ -19,12 +19,99 @@ const FanProductPage = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const fanTypes = [
-        {
-            id: 1,
+       
+
+
+       {
+    id: 1,
+    name: 'Venessa Blink',
+    tagline: 'BLDC Ceiling Fan with 9W LED Light',
+    price: 2999,
+    regularPrice: 5499,
+    image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+    thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
+    gallery: [
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_e8ab824484cf46b49d491650267277c9_mv2_oqown6.avif',
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_ce380a33380d4973a5fd3f545429ee94_mv2_f6uxuf.avif',
+        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403326/91f360_dff11e4e49b545cc9be75a8c69df5ad9_mv2_zmtmam.avif'
+    ],
+    highlights: [
+        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: '50% Less Power' },
+        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Light', value: '9W Dimmable' },
+        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2 Years' }
+    ],
+    features: [
+        'BLDC technology saves up to ₹6500 annually on electricity bills',
+        'Smart RF Remote with 15 feet range (boost mode, timer, sleep mode)',
+        '350 RPM motor speed with 220 CMM air delivery',
+        'Double ball bearing for smooth operation and durability',
+        'Consistent speed during voltage fluctuations (130V-290V)',
+        '9W LED light with 5-step dimmable feature',
+        'Runs 3x longer on inverter battery compared to ordinary fans',
+        'Instant drive with no startup delay',
+        'Made in India with quality craftsmanship'
+    ],
+    specifications: [
+        { name: 'Model', value: 'Venessa Blink' },
+        { name: 'Power Source Type', value: 'Corded Electric' },
+        { name: 'Finish', value: 'Smoke Brown' },
+        { name: 'Controller Type', value: 'Remote Control' },
+        { name: 'Mounting Type', value: 'Ceiling Mount' },
+        { name: 'Recommended Uses For Product', value: 'Cooling' },
+        { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
+        { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
+        { name: 'Power Consumption', value: '28W (fan) + 9W (light)' },
+        { name: 'Air Delivery', value: '220 CMM' },
+        { name: 'Speed', value: '350 RPM' },
+        { name: 'Number Of Speeds', value: '6' },
+        { name: 'Warranty', value: '2 Years' },
+        { name: 'Wattage', value: '32 Watts' },
+        { name: 'Blade Material', value: 'Premium CNC Winding' },
+        { name: 'Remote Type', value: 'RF (15ft range)' },
+        { name: 'Number of Blades', value: '3' },
+        { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
+        { name: 'Voltage ', value: '220 Volts' }
+    ],
+
+     techSpecs: [
+                {
+                    category: 'Brand Name : Adhunik Air Care', items: [
+                        { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
+                        { name: 'Model Number', value: 'Venessa Blink' },
+                        { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+                        { name: 'Item Type Name', value: 'Ceiling Fan' },
+                        { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004,' },
+
+                    ]
+                },
+
+            
+            ],
+
+    productDetails: {
+        brand: 'Ecruz',
+        modelNumber: 'Vaiyu Chill Pro',
+        manufacturer: 'Ecruz India Private Limited',
+        packerInfo: 'Ecruz India Private Limited, 109, Udhyog kendra Extn. -1, Ecotech -3, Greater Noida, India',
+        contact: '+919717279078, ecruzindia@gmail.com',
+        itemType: 'Ceiling Fan',
+        recommendedRooms: ['Living Room', 'Bedroom', 'Dining Room'],
+        specialFeatures: [
+            '9W LED light',
+            '4-Step Dimmable Light',
+            '3-blade Design',
+            'RF Remote Control'
+        ]
+    }
+}
+,
+ {
+            id: 2,
             name: 'Venessa Lumo',
             tagline: 'Luxury BLDC Ceiling Fan with Smart Lighting',
-            price: 2942,
-            regularPrice: 3749,
+            price: 3299,
+            regularPrice: 5999,
             image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
             thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
             gallery: [
@@ -61,7 +148,7 @@ const FanProductPage = () => {
                 { name: 'Speed', value: '350 RPM' },
                 { name: 'Number of Blades', value: '3' },
                 { name: 'Voltage', value: '220 Volts' },
-                { name: 'Warranty', value: '2+1 Years' },
+                { name: 'Warranty', value: '2 Years' },
                 { name: 'Blade Material', value: 'Aircraft-grade Aluminum' },
                 { name: 'Remote Type', value: 'RF (15ft range)' }
             ],
@@ -80,87 +167,6 @@ const FanProductPage = () => {
             
             ]
         },
-
-
-       {
-    id: 2,
-    name: 'Venessa Lumo',
-    tagline: 'BLDC Ceiling Fan with 9W LED Light',
-    price: 2761,
-    regularPrice: 3499,
-    image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
-    thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_c42d1b5523ba4a0cbd0a6981327cadcc_mv2_gwplkj.avif',
-    gallery: [
-        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_e8ab824484cf46b49d491650267277c9_mv2_oqown6.avif',
-        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403325/91f360_ce380a33380d4973a5fd3f545429ee94_mv2_f6uxuf.avif',
-        'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750403326/91f360_dff11e4e49b545cc9be75a8c69df5ad9_mv2_zmtmam.avif'
-    ],
-    highlights: [
-        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: '50% Less Power' },
-        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Light', value: '9W Dimmable' },
-        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
-        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2+1 Years' }
-    ],
-    features: [
-        'BLDC technology saves up to ₹6500 annually on electricity bills',
-        'Smart RF Remote with 15 feet range (boost mode, timer, sleep mode)',
-        '350 RPM motor speed with 220 CMM air delivery',
-        'Double ball bearing for smooth operation and durability',
-        'Consistent speed during voltage fluctuations (130V-290V)',
-        '9W LED light with 5-step dimmable feature',
-        'Runs 3x longer on inverter battery compared to ordinary fans',
-        'Instant drive with no startup delay',
-        'Made in India with quality craftsmanship'
-    ],
-    specifications: [
-        { name: 'Model', value: 'Vaiyu Chill Pro' },
-        { name: 'Finish', value: 'Smoke Brown' },
-        { name: 'Power Consumption', value: '28W (fan) + 9W (light)' },
-        { name: 'Air Delivery', value: '220 CMM' },
-        { name: 'RPM', value: '350' },
-        { name: 'Warranty', value: '2+1 Years' },
-        { name: 'Blade Material', value: 'Premium CNC Winding' },
-        { name: 'Remote Type', value: 'RF (15ft range)' },
-        { name: 'Number of Blades', value: '3' },
-        { name: 'Voltage Range', value: '130V-290V' }
-    ],
-    techSpecs: [
-        {
-            category: 'Electrical', 
-            items: [
-                { name: 'Voltage', value: '130V-290V' },
-                { name: 'Total Power', value: '37W (28W fan + 9W light)' },
-                { name: 'Motor Type', value: 'BLDC' },
-                { name: 'Inverter Compatibility', value: 'Yes (3x longer backup)' }
-            ]
-        },
-        
-        {
-            category: 'Performance', 
-            items: [
-                { name: 'Airflow', value: '220 CMM' },
-                { name: 'Noise Level', value: '<35dB' },
-                { name: 'Speed Settings', value: '6' },
-                { name: 'Light Features', value: '5-step dimmable' }
-            ]
-        }
-    ],
-    productDetails: {
-        brand: 'Ecruz',
-        modelNumber: 'Vaiyu Chill Pro',
-        manufacturer: 'Ecruz India Private Limited',
-        packerInfo: 'Ecruz India Private Limited, 109, Udhyog kendra Extn. -1, Ecotech -3, Greater Noida, India',
-        contact: '+919717279078, ecruzindia@gmail.com',
-        itemType: 'Ceiling Fan',
-        recommendedRooms: ['Living Room', 'Bedroom', 'Dining Room'],
-        specialFeatures: [
-            '9W LED light',
-            '4-Step Dimmable Light',
-            '3-blade Design',
-            'RF Remote Control'
-        ]
-    }
-}
     ];
 
     const currentFan = fanTypes[selectedFan];
@@ -407,7 +413,7 @@ const FanProductPage = () => {
                                     <div>
                                         <h4 className="font-medium text-gray-900 mb-3">Warranty Information</h4>
                                         <p className="text-gray-600 mb-4">
-                                            Our products come with a comprehensive {currentFan.id === 1 ? '2+1 year' : '3 year'} warranty covering all manufacturing defects.
+                                            Our products come with a comprehensive {currentFan.id === 1 ? '2 year' : '3 year'} warranty covering all manufacturing defects.
                                         </p>
                                       
                                     </div>
