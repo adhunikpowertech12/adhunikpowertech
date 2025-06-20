@@ -64,6 +64,7 @@ function Navbar() {
         { href: '/air-handling-unit', label: 'Air Handling Unit' },
         { href: '/air-shower', label: 'Air Shower & Pass Box' },
         { href: '/industrial-cooler', label: 'Industrial Cooler' },
+          {  href: '/bldc-fans',label: 'BLDC Fans'},
       ],
     },
     {
@@ -204,6 +205,7 @@ function Navbar() {
         { label: "Air Handling Unit", href: "/air-handling-unit" },
         { label: "Air Shower & Pass Box ", href: "/air-shower" },
         {  label: 'Industrial Cooler',href: '/industrial-cooler'},
+        {  label: 'BLDC Fans',href: '/bldc-fans'},
 
       ],
     },
