@@ -640,14 +640,14 @@ const FanProductPage = () => {
 
                         {/* Action Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                            <button className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+                            <Link  href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
                                 <MessageSquareQuote className="mr-2" />
                                 Request Quote
-                            </button>
-                            <button className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+                            </Link>
+                            <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
                                 <Phone className="w-6 h-6 mr-2" />
                                 Call Us Now
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -899,10 +899,10 @@ const FanProductPage = () => {
                                             <Calculator className="mr-2" />
                                             Calculate Your Savings
                                         </button>
-                                        <button className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-white/10 transition">
+                                        <div className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold flex items-center justify-center ">
                                             Explore Models
                                             <ChevronRight className="ml-2" />
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="flex justify-center">
@@ -1179,9 +1179,9 @@ const FanProductPage = () => {
                   </div>
 
                   {/* CTA */}
-                  <button className="mt-6 w-fit bg-cyan-600 hover:bg-cyan-700 text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center transition">
+                  <Link href='/support-form' className="mt-6 w-fit bg-cyan-600 hover:bg-cyan-700 text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center transition">
                     Request Quote for {product.name.split(' ')[1]}
-                  </button>
+                  </Link>
                 </div>
               </div>
 
@@ -1232,12 +1232,12 @@ const FanProductPage = () => {
                         </li>
                       </ul>
 
-                      <div className="mt-6 flex space-x-4">
+                      <div className="mt-6 w-fit flex space-x-4">
                        
-                        <button className="flex-1 bg-gray-900 text-white font-medium py-2 px-4 rounded-lg flex items-center justify-center hover:bg-black transition">
+                        <a href='tel:8287885885' className="flex-1 w-fit bg-gray-900 text-white font-medium py-2 px-4 rounded-lg flex items-center justify-center hover:bg-black transition">
                           <Phone className="mr-2" />
                           Call for Details
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
