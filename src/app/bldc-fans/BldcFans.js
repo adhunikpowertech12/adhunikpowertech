@@ -41,7 +41,7 @@ export const BldcFans = () => {
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
@@ -112,7 +112,7 @@ export const BldcFans = () => {
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp'
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp'
             ,
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
@@ -179,7 +179,7 @@ export const BldcFans = () => {
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
@@ -193,7 +193,7 @@ export const BldcFans = () => {
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
