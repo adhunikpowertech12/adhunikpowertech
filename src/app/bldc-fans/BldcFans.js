@@ -342,7 +342,7 @@ export const BldcFans = () => {
     {
       icon: <Shield className="w-8 h-8 text-emerald-500" />,
       title: "Durable & Long-Lasting",
-      description: " Reliable Performance : With a 3-Year Warranty and 100% Copper Winding (Venessa Blink model ), Adhunik Air Care fans are built for years of trouble-free service. Plus, they are proudly Made In India.",
+      description: " Reliable Performance : With a 2-Year Warranty and 100% Copper Winding (Venessa Blink model ), Adhunik Air Care fans are built for years of trouble-free service. Plus, they are proudly Made In India.",
       details: "Proudly made in India"
     },
     {
