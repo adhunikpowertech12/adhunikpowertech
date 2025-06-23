@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
 import {
   ShoppingCart, Phone, Check, Star, Download, MessageSquare,
@@ -16,6 +16,7 @@ import {
 
 import Link from 'next/link';
 import CalculatorCode from '@/components/CalculatorCode';
+import EnergyCalculator from '@/components/CalculatorCode';
 
 
  
@@ -24,149 +25,16 @@ export const BldcFans = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selectedVariant, setSelectedVariant] = useState(0);
 
+    const calculatorRef = useRef(null);
+
+  const scrollToCalculator = () => {
+    calculatorRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
 
   const fanTypes = [
-
-    {
+  {
       id: 1,
-      name: 'Venessa Blink',
-      tagline: 'BLDC Ceiling Fan with 9W LED Light',
-      variants: [
-        {
-          color: 'Smoke Brown',
-          price: 2999,
-          regularPrice: 5499,
-          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          gallery: [
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
-          ]
-        }
-      ],
-      highlights: [
-        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: '50% Less Power' },
-        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Light', value: '9W Dimmable' },
-        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
-        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2 Years' }
-      ],
-      features: [
-        'BLDC technology saves up to ₹6500 annually on electricity bills',
-        'Smart RF Remote with 15 feet range (boost mode, timer, sleep mode)',
-        '350 RPM motor speed with 220 CMM air delivery',
-        'Double ball bearing for smooth operation and durability',
-        'Consistent speed during voltage fluctuations (130V-290V)',
-        '9W LED light with 5-step dimmable feature',
-        'Runs 3x longer on inverter battery compared to ordinary fans',
-        'Instant drive with no startup delay',
-        'Made in India with quality craftsmanship'
-      ],
-      specifications: [
-        { name: 'Model', value: 'Venessa Blink' },
-        { name: 'Power Source Type', value: 'Corded Electric' },
-        { name: 'Finish', value: 'Smoke Brown' },
-        { name: 'Controller Type', value: 'Remote Control' },
-        { name: 'Mounting Type', value: 'Ceiling Mount' },
-        { name: 'Recommended Uses For Product', value: 'Cooling' },
-        { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
-        { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
-        { name: 'Power Consumption', value: '28W (fan) + 9W (light)' },
-        { name: 'Air Delivery', value: '220 CMM' },
-        { name: 'Speed', value: '350 RPM' },
-        { name: 'Number Of Speeds', value: '6' },
-        { name: 'Warranty', value: '2 Years' },
-        { name: 'Wattage', value: '32 Watts' },
-        { name: 'Blade Material', value: 'Premium CNC Winding' },
-        { name: 'Remote Type', value: 'RF (15ft range)' },
-        { name: 'Number of Blades', value: '3' },
-        { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
-        { name: 'Voltage', value: '220 Volts' }
-      ],
-      techSpecs: [
-        {
-          category: 'Brand Name : Adhunik Air Care',
-          items: [
-            { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
-            { name: 'Model Number', value: 'Venessa Blink' },
-            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
-            { name: 'Item Type Name', value: 'Ceiling Fan' },
-            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
-          ]
-        }
-      ]
-    },
-    {
-      id: 2,
-      name: 'Venessa Lumo',
-      tagline: 'Luxury BLDC Ceiling Fan with Smart Lighting',
-      variants: [
-        {
-          color: 'Smoke Brown',
-          price: 3299,
-          regularPrice: 5999,
-          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          gallery: [
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp'
-            ,
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
-          ]
-        }
-      ],
-      highlights: [
-        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: 'Bldc Motor Fan (28 W)' },
-        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Lights', value: '7 Smart LEDs' },
-        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
-        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
-      ],
-      features: [
-        'Premium wooden finish blades with aircraft-grade aluminum core',
-        'BLDC motor with 50% energy savings compared to conventional fans',
-        'Smart RF remote with 15ft range and speed-based LED indicators',
-        'Double ball bearing system for whisper-quiet operation (under 35dB)',
-        'Voltage fluctuation protection (130V-290V)',
-        'Inverter compatible with 3x longer backup time'
-      ],
-      specifications: [
-        { name: 'Model', value: 'Venessa Lumo' },
-        { name: 'Power Source Type', value: 'Corded Electric' },
-        { name: 'Finish', value: 'Smoke Brown' },
-        { name: 'Mounting Type', value: 'Ceiling Mount' },
-        { name: 'Controller Type', value: 'Remote Control' },
-        { name: 'Recommended Uses For Product', value: 'Cooling' },
-        { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
-        { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
-        { name: 'Power Consumption', value: '28W' },
-        { name: 'Wattage', value: '32 Watts' },
-        { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
-        { name: 'Speed', value: '350 RPM' },
-        { name: 'Number of Blades', value: '3' },
-        { name: 'Voltage', value: '220 Volts' },
-        { name: 'Warranty', value: '2 Years' },
-        { name: 'Blade Material', value: 'Aircraft-grade Aluminum' },
-        { name: 'Remote Type', value: 'RF (15ft range)' }
-      ],
-      techSpecs: [
-        {
-          category: 'Brand Name : Adhunik Air Care',
-          items: [
-            { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
-            { name: 'Model Number', value: 'Venessa Lumo' },
-            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
-            { name: 'Item Type Name', value: 'Ceiling Fan' },
-            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
-          ]
-        }
-      ]
-    },
-    {
-      id: 3,
       name: 'SimpleX',
       tagline: 'BLDC Ceiling Fan',
       variants: [
@@ -250,7 +118,148 @@ export const BldcFans = () => {
           'Low Noise Operation'
         ]
       }
-    }
+    },
+
+    {
+      id: 2,
+      name: 'Venessa Blink',
+      tagline: 'BLDC Ceiling Fan with 9W LED Light',
+      variants: [
+        {
+          color: 'Smoke Brown',
+          price: 2999,
+          regularPrice: 5499,
+          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          gallery: [
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
+          ]
+        }
+      ],
+      highlights: [
+        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: '50% Less Power' },
+        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Light', value: '9W Dimmable' },
+        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2 Years' }
+      ],
+      features: [
+        'BLDC technology saves up to ₹6500 annually on electricity bills',
+        'Smart RF Remote with 15 feet range (boost mode, timer, sleep mode)',
+        '350 RPM motor speed with 220 CMM air delivery',
+        'Double ball bearing for smooth operation and durability',
+        'Consistent speed during voltage fluctuations (130V-290V)',
+        '9W LED light with 5-step dimmable feature',
+        'Runs 3x longer on inverter battery compared to ordinary fans',
+        'Instant drive with no startup delay',
+        'Made in India with quality craftsmanship'
+      ],
+      specifications: [
+        { name: 'Model', value: 'Venessa Blink' },
+        { name: 'Power Source Type', value: 'Corded Electric' },
+        { name: 'Finish', value: 'Smoke Brown' },
+        { name: 'Controller Type', value: 'Remote Control' },
+        { name: 'Mounting Type', value: 'Ceiling Mount' },
+        { name: 'Recommended Uses For Product', value: 'Cooling' },
+        { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
+        { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
+        { name: 'Power Consumption', value: '28W (fan) + 9W (light)' },
+        { name: 'Air Delivery', value: '220 CMM' },
+        { name: 'Speed', value: '350 RPM' },
+        { name: 'Number Of Speeds', value: '6' },
+        { name: 'Warranty', value: '2 Years' },
+        { name: 'Wattage', value: '32 Watts' },
+        { name: 'Blade Material', value: 'Premium CNC Winding' },
+        { name: 'Remote Type', value: 'RF (15ft range)' },
+        { name: 'Number of Blades', value: '3' },
+        { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
+        { name: 'Voltage', value: '220 Volts' }
+      ],
+      techSpecs: [
+        {
+          category: 'Brand Name : Adhunik Air Care',
+          items: [
+            { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
+            { name: 'Model Number', value: 'Venessa Blink' },
+            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+            { name: 'Item Type Name', value: 'Ceiling Fan' },
+            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
+          ]
+        }
+      ]
+    },
+
+    {
+      id: 3,
+      name: 'Venessa Lumo',
+      tagline: 'Luxury BLDC Ceiling Fan with Smart Lighting',
+      variants: [
+        {
+          color: 'Smoke Brown',
+          price: 3299,
+          regularPrice: 5999,
+          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          gallery: [
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp'
+            ,
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
+          ]
+        }
+      ],
+      highlights: [
+        { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: 'Bldc Motor Fan (28 W)' },
+        { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Lights', value: '7 Smart LEDs' },
+        { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
+      ],
+      features: [
+        'Premium wooden finish blades with aircraft-grade aluminum core',
+        'BLDC motor with 50% energy savings compared to conventional fans',
+        'Smart RF remote with 15ft range and speed-based LED indicators',
+        'Double ball bearing system for whisper-quiet operation (under 35dB)',
+        'Voltage fluctuation protection (130V-290V)',
+        'Inverter compatible with 3x longer backup time'
+      ],
+      specifications: [
+        { name: 'Model', value: 'Venessa Lumo' },
+        { name: 'Power Source Type', value: 'Corded Electric' },
+        { name: 'Finish', value: 'Smoke Brown' },
+        { name: 'Mounting Type', value: 'Ceiling Mount' },
+        { name: 'Controller Type', value: 'Remote Control' },
+        { name: 'Recommended Uses For Product', value: 'Cooling' },
+        { name: 'Special Features', value: '9 Watt LED light, 4-Step Dimmable Light, 3-blade Design, RF Remote Control' },
+        { name: 'Room Type', value: 'Living Room, Bedroom, Dining Room' },
+        { name: 'Power Consumption', value: '28W' },
+        { name: 'Wattage', value: '32 Watts' },
+        { name: 'Air Flow Capacity', value: '220 Cubic Feet Per Minute' },
+        { name: 'Speed', value: '350 RPM' },
+        { name: 'Number of Blades', value: '3' },
+        { name: 'Voltage', value: '220 Volts' },
+        { name: 'Warranty', value: '2 Years' },
+        { name: 'Blade Material', value: 'Aircraft-grade Aluminum' },
+        { name: 'Remote Type', value: 'RF (15ft range)' }
+      ],
+      techSpecs: [
+        {
+          category: 'Brand Name : Adhunik Air Care',
+          items: [
+            { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
+            { name: 'Model Number', value: 'Venessa Lumo' },
+            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+            { name: 'Item Type Name', value: 'Ceiling Fan' },
+            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
+          ]
+        }
+      ]
+    },
+  
   ];
 
   const currentFan = fanTypes[selectedFan];
@@ -379,9 +388,38 @@ export const BldcFans = () => {
       image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
     },
 
+ {
+      id: 2,
+      name: 'Adhunik Air Care Venessa Blink BLDC Ceiling Fan',
+      tagline: '(with 7-Speed LED Indicator) Intuitive Control, Intelligent Cooling.',
+      colors: ['Smoke Brown'],
+      features: [
+        { icon: <RotateCw className="w-5 h-5" />, text: 'Reverse Rotation' },
+        { icon: <Clock className="w-5 h-5" />, text: 'Timer (2H/4H/8H)' },
+        { icon: <Zap className="w-5 h-5" />, text: 'Boost Speed' },
+        { icon: <Lightbulb className="w-5 h-5" />, text: '7-Speed LED Indicator' },
+        { icon: <Power className="w-5 h-5" />, text: 'Dedicated On/Off' },
+        { icon: <Moon className="w-5 h-5" />, text: 'Sleep Mode' },
+        { icon: <Smartphone className="w-5 h-5" />, text: 'RF Remote' },
+        { icon: <Check className="w-5 h-5" />, text: '100% Copper Winding' }
+      ],
+      specs: {
+        motorSpeed: '380 RPM',
+        power: '32W Max',
+        sweepSize: '1200 mm',
+        airDelivery: '220 CMM',
+        speeds: '6 speed',
+        thd: '<10%'
+      },
+      pricing: {
+        mrp: 5499,
+        selling: 2999
+      },
+      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
+    },
 
     {
-      id: 2,
+      id: 3,
       name: 'Adhunik Air Care Venessa Lumo BLDC Ceiling Fan',
       tagline: 'Illuminate (with 9W LED Light) Illuminate Your Savings with Smart Style.',
       colors: ['Smoke Brown'],
@@ -411,35 +449,7 @@ export const BldcFans = () => {
     },
 
 
-    {
-      id: 3,
-      name: 'Adhunik Air Care Venessa Blink BLDC Ceiling Fan',
-      tagline: '(with 7-Speed LED Indicator) Intuitive Control, Intelligent Cooling.',
-      colors: ['Smoke Brown'],
-      features: [
-        { icon: <RotateCw className="w-5 h-5" />, text: 'Reverse Rotation' },
-        { icon: <Clock className="w-5 h-5" />, text: 'Timer (2H/4H/8H)' },
-        { icon: <Zap className="w-5 h-5" />, text: 'Boost Speed' },
-        { icon: <Lightbulb className="w-5 h-5" />, text: '7-Speed LED Indicator' },
-        { icon: <Power className="w-5 h-5" />, text: 'Dedicated On/Off' },
-        { icon: <Moon className="w-5 h-5" />, text: 'Sleep Mode' },
-        { icon: <Smartphone className="w-5 h-5" />, text: 'RF Remote' },
-        { icon: <Check className="w-5 h-5" />, text: '100% Copper Winding' }
-      ],
-      specs: {
-        motorSpeed: '380 RPM',
-        power: '32W Max',
-        sweepSize: '1200 mm',
-        airDelivery: '220 CMM',
-        speeds: '6 speed',
-        thd: '<10%'
-      },
-      pricing: {
-        mrp: 5499,
-        selling: 2999
-      },
-      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
-    }
+   
   ];
 
 
@@ -749,121 +759,9 @@ export const BldcFans = () => {
           </div>
         </div>
 
-        {/* Comparison Banner */}
-        <div className="bg-gradient-to-r from-cyan-800 to-cyan-600 rounded-2xl shadow-xl overflow-hidden mb-20">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="p-10 text-white">
-              <h3 className="text-2xl font-bold mb-4">Still Deciding?</h3>
-              <p className="text-cyan-100 mb-6">
-                Compare our BLDC fans with conventional ceiling fans to see the savings.
-              </p>
-              <button className="bg-white text-cyan-700 px-6 py-3 rounded-lg font-medium hover:bg-cyan-50 transition flex items-center">
-                Compare Products
-                <ChevronRight className="w-5 h-5 ml-2" />
-              </button>
-            </div>
-            <div className="bg-white p-10">
-              <div className="flex items-center justify-between mb-4">
-                <span className="font-medium">Energy Savings</span>
-                <span className="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm font-medium">
-                  Up to 60%
-                </span>
-              </div>
-              <div className="flex items-center justify-between mb-4">
-                <span className="font-medium">Annual Cost</span>
-                <span className="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm font-medium">
-                  ₹6500 saved
-                </span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="font-medium">Noise Level</span>
-                <span className="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm font-medium">
-                  50% quieter
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
+    
 
-        {/* Testimonials */}
-        <div className="mb-20">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Trusted by Thousands of Homes</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                id: 1,
-                rating: 5,
-                comment: "The energy savings are incredible! My electricity bill reduced by 40% after replacing all fans with these BLDC models.",
-                name: "Rahul Sharma",
-                location: "Mumbai",
-                date: "3 months ago",
-                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                purchase: "Venessa Blink"
-              },
-              {
-                id: 2,
-                rating: 4,
-                comment: "Super quiet operation and the remote control is very convenient. The LED light is bright enough for my bedroom.",
-                name: "Priya Patel",
-                location: "Bangalore",
-                date: "2 months ago",
-                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                purchase: "Venessa Lumo"
-              },
-              {
-                id: 3,
-                rating: 5,
-                comment: "The white color option matches perfectly with my modern decor. Installation was quick and the airflow is excellent.",
-                name: "Arjun Mehta",
-                location: "Delhi",
-                date: "1 month ago",
-                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                purchase: "SimpleX (White)"
-              },
-
-            ].slice(0, 3).map((review) => (
-              <div key={review.id} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className={`w-5 h-5 ${i < review.rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300 fill-gray-300'}`}
-                    />
-                  ))}
-                  <span className="ml-2 text-sm text-gray-500">{review.rating}.0</span>
-                </div>
-                <p className="text-gray-600 mb-4 italic">"{review.comment}"</p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center">
-                    <div className="h-10 w-10 rounded-full  mr-3 overflow-hidden">
-                      {review.avatar && (
-                        <img
-                          src={review.avatar}
-                          alt={review.name}
-                          className="h-full w-full object-cover"
-                        />
-                      )}
-                    </div>
-                    <div>
-                      <h4 className="font-medium text-gray-900">{review.name}</h4>
-                      <p className="text-sm text-gray-500">{review.location} • {review.date}</p>
-                    </div>
-                  </div>
-                  <span className="text-xs bg-cyan-50 text-cyan-600 px-2 py-1 rounded">
-                    {review.purchase}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-          {/* <div className="mt-8 text-center">
-        <button className="inline-flex items-center text-cyan-600 hover:text-cyan-700 font-medium">
-            View all testimonials
-            <ChevronRight className="w-4 h-4 ml-1" />
-        </button>
-    </div> */}
-        </div>
-
+   
 
 
         <div className="bg-gray-50">
@@ -871,6 +769,7 @@ export const BldcFans = () => {
           <section className="bg-gradient-to-r from-cyan-800 to-cyan-600 rounded-2xl text-white py-10 px-4">
             <div className="container px-5 mx-auto max-w-6xl">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
                 <div>
                   <h1 className="text-4xl md:text-5xl font-bold mb-6">
                     Adhunik Air Care BLDC Ceiling Fans
@@ -881,21 +780,19 @@ export const BldcFans = () => {
                   <p className=' text-sm pb-5'>Experience unmatched comfort and significant energy savings with Adhunik Air Care BLDC Ceiling Fans – Smart Air Solutions for Stylish Living from Adhunik Powertech.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <button className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-cyan-50 transition">
+                    <button  onClick={scrollToCalculator} className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-cyan-50 transition">
                       <Calculator className="mr-2" />
                       Calculate Your Savings
                     </button>
-                    <div className="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold flex items-center justify-center ">
-                      Explore Models
-                      <ChevronRight className="ml-2" />
-                    </div>
+                    
                   </div>
                 </div>
                 <div className="flex justify-center">
                   <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-sm border border-white/20">
 
-
-                 <CalculatorCode/>
+ <div ref={calculatorRef} className=" ">
+                 <EnergyCalculator />
+        </div>
 
                   </div>
                 </div>
@@ -908,7 +805,7 @@ export const BldcFans = () => {
             <div className="container mx-auto max-w-6xl">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  About Adhunik Air Care: Innovation, Quality, and Trusted Performance
+                  About Adhunik Air Care : Innovation, Quality, and Trusted Performance
 
                 </h2>
                 <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
@@ -918,11 +815,13 @@ export const BldcFans = () => {
                 </p>
               </div>
 
+
+
               <div className="grid   grid-cols-1 md:grid-cols-2   gap-8 items-center">
 
 
                 <img
-                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp"
+                  src="https://img.freepik.com/free-psd/modern-brushed-nickel-ceiling-fan-with-five-blades_191095-86240.jpg?ga=GA1.1.906942717.1750671945&semt=ais_hybrid&w=740"
                   alt="Adhunik Air Care Fan"
                   className="rounded-xl shadow-lg h-96 w-fit"
                 />
@@ -1023,7 +922,7 @@ export const BldcFans = () => {
                         </p>
                       </div>
                     </div>
-                    <button className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-lg font-medium flex items-center mt-6">
+                    <button onClick={scrollToCalculator} className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-lg font-medium flex items-center mt-6">
                       <Calculator className="mr-2" />
                       Calculate Your Savings
                     </button>
@@ -1441,7 +1340,85 @@ export const BldcFans = () => {
           </section>
         </div>
 
-       
+            {/* Testimonials */}
+        <div className="mb-20">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Trusted by Thousands of Homes</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                id: 1,
+                rating: 5,
+                comment: "The energy savings are incredible! My electricity bill reduced by 40% after replacing all fans with these BLDC models.",
+                name: "Rahul Sharma",
+                location: "Mumbai",
+                date: "3 months ago",
+                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                purchase: "Venessa Blink"
+              },
+              {
+                id: 2,
+                rating: 4,
+                comment: "Super quiet operation and the remote control is very convenient. The LED light is bright enough for my bedroom.",
+                name: "Priya Patel",
+                location: "Bangalore",
+                date: "2 months ago",
+                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                purchase: "Venessa Lumo"
+              },
+              {
+                id: 3,
+                rating: 5,
+                comment: "The white color option matches perfectly with my modern decor. Installation was quick and the airflow is excellent.",
+                name: "Arjun Mehta",
+                location: "Delhi",
+                date: "1 month ago",
+                avatar: "https://images.unsplash.com/photo-1743448748313-80eb7f9eb2b7?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                purchase: "SimpleX (White)"
+              },
+
+            ].slice(0, 3).map((review) => (
+              <div key={review.id} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`w-5 h-5 ${i < review.rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300 fill-gray-300'}`}
+                    />
+                  ))}
+                  <span className="ml-2 text-sm text-gray-500">{review.rating}.0</span>
+                </div>
+                <p className="text-gray-600 mb-4 italic">"{review.comment}"</p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <div className="h-10 w-10 rounded-full  mr-3 overflow-hidden">
+                      {review.avatar && (
+                        <img
+                          src={review.avatar}
+                          alt={review.name}
+                          className="h-full w-full object-cover"
+                        />
+                      )}
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900">{review.name}</h4>
+                      <p className="text-sm text-gray-500">{review.location} • {review.date}</p>
+                    </div>
+                  </div>
+                  <span className="text-xs bg-cyan-50 text-cyan-600 px-2 py-1 rounded">
+                    {review.purchase}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+          {/* <div className="mt-8 text-center">
+        <button className="inline-flex items-center text-cyan-600 hover:text-cyan-700 font-medium">
+            View all testimonials
+            <ChevronRight className="w-4 h-4 ml-1" />
+        </button>
+    </div> */}
+        </div>
+
       </main>
     </div>
   );

@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 
-export default function CalculatorCode() {
+export default function EnergyCalculator() {
   // Constants
   const conventionalFanConsumption = 75; // 75W for conventional fan
   const yourFanConsumption = 28;        // 28W for energy-efficient fan
@@ -94,7 +94,7 @@ export default function CalculatorCode() {
 
         {/* Results */}
         {results && (
-          <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200 animate-fade-in">
+          <div className="mt-6 p-6 bg-gray-50 text-black rounded-lg border border-gray-200 animate-fade-in">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Your Potential Savings</h3>
             
             <div className="space-y-3">
