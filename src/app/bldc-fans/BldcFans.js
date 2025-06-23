@@ -123,7 +123,7 @@ export const BldcFans = () => {
         { icon: <Zap className="w-6 h-6" />, title: 'Energy Saving', value: 'Bldc Motor Fan (28 W)' },
         { icon: <Lightbulb className="w-6 h-6" />, title: 'LED Lights', value: '7 Smart LEDs' },
         { icon: <Smartphone className="w-6 h-6" />, title: 'Control', value: 'RF Remote' },
-        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '3 Years' }
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
       ],
       features: [
         'Premium wooden finish blades with aircraft-grade aluminum core',
@@ -203,7 +203,7 @@ export const BldcFans = () => {
         { icon: <Zap className="w-6 h-6" />, title: 'Power Consumption', value: '32W Max' },
         { icon: <Volume2 className="w-6 h-6" />, title: 'Noise Level', value: 'Low Noise' },
         { icon: <RotateCw className="w-6 h-6" />, title: 'Reverse Rotation', value: 'Yes' },
-        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '3 Years' }
+        { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
       ],
       features: [
         'Reverse Rotation for all-season comfort',
@@ -220,36 +220,18 @@ export const BldcFans = () => {
         { name: 'Air Delivery', value: '220 CMM' },
         { name: 'Speed Settings', value: '6 speed' },
         { name: 'THD', value: '<10%' },
-        { name: 'Warranty', value: '3 Years' },
+        { name: 'Warranty', value: '2-Years' },
         { name: 'Origin', value: 'Made in India' }
       ],
       techSpecs: [
         {
-          category: 'Performance',
+          category: 'Brand Name : Adhunik Air Care',
           items: [
-            { name: 'Speed 1', value: '115 RPM | 3W' },
-            { name: 'Speed 2', value: '185 RPM | 5W' },
-            { name: 'Speed 3', value: '218 RPM | 12W' },
-            { name: 'Speed 4', value: '284 RPM | 18W' },
-            { name: 'Speed 5', value: '346 RPM | 25W' },
-            { name: 'Speed 6', value: '380 RPM | 28W' }
-          ]
-        },
-        {
-          category: 'Features',
-          items: [
-            { name: 'Remote Control', value: 'RF Remote' },
-            { name: 'Special Modes', value: 'Sleep, Boost' },
-            { name: 'Timer', value: '2H/4H/8H' },
-            { name: 'Energy Saving', value: 'BLDC Technology' }
-          ]
-        },
-        {
-          category: 'Dimensions',
-          items: [
-            { name: 'Blade Span', value: '48 inches' },
-            { name: 'Weight', value: '5.5 kg' },
-            { name: 'Mounting', value: 'Ceiling' }
+            { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
+            { name: 'Model Number', value: 'SimpleX' },
+            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+            { name: 'Item Type Name', value: 'Ceiling Fan' },
+            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
           ]
         }
       ],
@@ -264,7 +246,7 @@ export const BldcFans = () => {
         specialFeatures: [
           'Energy Efficient BLDC Motor',
           'RF Remote Control',
-          '3 Year Warranty',
+          '2-Year Warranty',
           'Low Noise Operation'
         ]
       }
@@ -462,17 +444,7 @@ export const BldcFans = () => {
 
 
 
-
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    location: '',
-    requirement: 'Residential',
-    quantity: '',
-    model: 'Not Sure Yet',
-    source: ''
-  });
+ 
 
   const faqs = [
     {
@@ -511,22 +483,8 @@ export const BldcFans = () => {
 
   const [activeFaq, setActiveFaq] = useState(null);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Form submission logic here
-    console.log(formData);
-  };
-
-   const [showForm, setShowForm] = useState(false);
-
+  
+ 
   const powerData = [
     { speed: "SPEED 1", rpm: 115, watts: 3 },
     { speed: "SPEED 2", rpm: 185, watts: 5 },
@@ -772,7 +730,7 @@ export const BldcFans = () => {
                   <div>
                     <h4 className="font-medium text-gray-900 mb-3">Warranty Information</h4>
                     <p className="text-gray-600 mb-4">
-                      Our products come with a comprehensive {currentFan.id === 1 ? '2 year' : '3 year'} warranty covering all manufacturing defects.
+                      Our products come with a comprehensive {currentFan.id === 1 ? '2 year' : '2-Year'} warranty covering all manufacturing defects.
                     </p>
                   </div>
                   <div>
