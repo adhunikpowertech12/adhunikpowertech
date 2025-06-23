@@ -821,9 +821,10 @@ export const BldcFans = () => {
 
 
                 <img
-                  src="https://img.freepik.com/free-psd/modern-brushed-nickel-ceiling-fan-with-five-blades_191095-86240.jpg?ga=GA1.1.906942717.1750671945&semt=ais_hybrid&w=740"
+                  src="https://static.wixstatic.com/media/91f360_e50ded74ab174f8cb0d237b9a812eb49~mv2.png/v1/fill/w_928,h_965,al_c,q_90,enc_avif,quality_auto/6B%20Seno%20Wood_edited.png"
                   alt="Adhunik Air Care Fan"
-                  className="rounded-xl shadow-lg h-96 w-fit"
+                  className="rounded-xl      animate-spin-slow"
+                  
                 />
 
 

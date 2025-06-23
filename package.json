@@ -43,7 +43,8 @@
     "splitting": "^1.1.0",
     "swiper": "^11.1.14",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.177.0"
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
