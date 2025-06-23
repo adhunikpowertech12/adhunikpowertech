@@ -1406,101 +1406,15 @@ export const BldcFans = () => {
             Join thousands of satisfied customers in Gurugram, Delhi, and Across India who are enjoying unparalleled comfort and saving on electricity bills. Whether for your home, office, or commercial project, our experts are ready to help you choose the perfect Adhunik Air Care BLDC fan.
           </p>
           
-          {!showForm ? (
-            <button
-              onClick={() => setShowForm(true)}
+          
+            <Link href="/support-form"
+         
               className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 transition inline-flex items-center"
             >
               Get a Personalized Energy Savings Report & Free Quote Today!
               <ChevronRight className="ml-2" />
-            </button>
-          ) : (
-            <div className="bg-white rounded-xl shadow-xl p-8 text-gray-800 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-6 text-center">
-                Get Your Free Quote
-              </h3>
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="email"
-                      placeholder="Your Email"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <input
-                      type="tel"
-                      placeholder="Your Phone Number"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="City/Pincode"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                      required
-                    />
-                  </div>
-                </div>
-                <div>
-                  <select className="w-full px-4 py-3 rounded-lg border border-gray-300">
-                    <option>Type of Requirement (Residential/Commercial/Bulk Order)</option>
-                    <option>Residential</option>
-                    <option>Commercial</option>
-                    <option>Bulk Order</option>
-                  </select>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <input
-                      type="number"
-                      placeholder="Approx. Number of Fans Needed"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                    />
-                  </div>
-                  <div>
-                    <select className="w-full px-4 py-3 rounded-lg border border-gray-300">
-                      <option>Specific Model of Interest (Optional)</option>
-                      <option>SimpleX</option>
-                      <option>Venessa Lumo</option>
-                      <option>Venessa Blink</option>
-                      <option>Not Sure Yet</option>
-                    </select>
-                  </div>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="How did you hear about us?"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-lg transition"
-                >
-                  GET MY FREE QUOTE & ENERGY SAVINGS REPORT!
-                </button>
-                <p className="text-xs text-gray-500 text-center">
-                  Your information is safe with us. We respect your privacy and will only use your details to provide you with a personalized solution.
-                </p>
-              </form>
-            </div>
-          )}
+            </Link>
+         
         </div>
       </section>
     </div>
