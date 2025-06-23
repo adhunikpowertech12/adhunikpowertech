@@ -15,9 +15,8 @@ import {
  
 
 import Link from 'next/link';
-import { CalculatorCode } from '@/components/CalculatorCode';
- 
- 
+import CalculatorCode from '@/components/CalculatorCode';
+
 
  
 export const BldcFans = () => {
@@ -894,13 +893,10 @@ export const BldcFans = () => {
                 </div>
                 <div className="flex justify-center">
                   <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-sm border border-white/20">
-                    <div className="bg-white rounded-xl p-6 shadow-2xl">
-                      <img
-                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp"
-                        alt="Adhunik BLDC Fan"
-                        className="w-full h-96 object-contain"
-                      />
-                    </div>
+
+
+                 <CalculatorCode/>
+
                   </div>
                 </div>
               </div>
@@ -1445,7 +1441,7 @@ export const BldcFans = () => {
           </section>
         </div>
 
-        <CalculatorCode/>
+       
       </main>
     </div>
   );

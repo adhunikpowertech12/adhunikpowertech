@@ -1,193 +1,136 @@
-import React, { useState } from 'react';
+// components/EnergyCalculator.js
+"use client";
 
-// EnergySavingCalculator component for Adhunik Air Care BLDC Fans
-   export const CalculatorCode = () => {
-  // State variables for user inputs
-  const [currentWattage, setCurrentWattage] = useState(75); // Default to a common conventional fan wattage
+import { useState } from 'react';
+
+export default function CalculatorCode() {
+  // Constants
+  const conventionalFanConsumption = 75; // 75W for conventional fan
+  const yourFanConsumption = 28;        // 28W for energy-efficient fan
+  const costPerUnit = 6;                // Cost per unit in INR (1 unit = 1000 watt-hours)
+  const co2PerKwh = 0.9;                // CO2 emissions in kg per kWh
+  const co2AbsorptionPerTree = 22;      // CO2 absorption by a single tree per year (kg)
+
+  // State
   const [numFans, setNumFans] = useState(1);
-  const [dailyUsage, setDailyUsage] = useState(10); // Default to 10 hours/day
-  const [electricityCost, setElectricityCost] = useState(7.5); // Default to a common electricity cost in India (₹/kWh)
+  const [hours, setHours] = useState(1);
+  const [results, setResults] = useState(null);
 
-  // State variables for calculation results
-  const [annualSavings, setAnnualSavings] = useState(null);
-  const [annualKwhSaved, setAnnualKwhSaved] = useState(null);
-  const [showResult, setShowResult] = useState(false);
-
-  // Define Adhunik Air Care BLDC fan average wattage for calculation
-  // From e-catalogue, max is 32W, using an average of 30W for calculation for illustrative purposes
-  const adhunikBldcWattage = 30;
-
-  /**
-   * Calculates the estimated energy savings and cost reduction.
-   * This function is triggered when the "Calculate Savings!" button is clicked.
-   */
+  // Calculate savings
   const calculateSavings = () => {
-    // Input validation
-    if (
-      isNaN(currentWattage) || currentWattage <= 0 ||
-      isNaN(numFans) || numFans <= 0 ||
-      isNaN(dailyUsage) || dailyUsage <= 0 ||
-      isNaN(electricityCost) || electricityCost <= 0
-    ) {
-      alert('Please enter valid positive numbers for all fields.');
-      return;
-    }
+    const daysInYear = 365;
+    const conventionalEnergy = numFans * hours * conventionalFanConsumption * daysInYear / 1000; // kWh
+    const efficientEnergy = numFans * hours * yourFanConsumption * daysInYear / 1000; // kWh
+    const savingsInEnergy = conventionalEnergy - efficientEnergy;
+    const savingsInCost = savingsInEnergy * costPerUnit;
+    const co2Savings = savingsInEnergy * co2PerKwh;
+    const treesEquivalent = co2Savings / co2AbsorptionPerTree;
 
-    if (currentWattage <= adhunikBldcWattage) {
-      alert(`Your current fan wattage (${currentWattage}W) is not higher than or equal to our BLDC fan wattage (${adhunikBldcWattage}W). Please enter a higher value for comparison.`);
-      return;
-    }
-
-    // Convert inputs to numbers
-    const currentWatt = parseFloat(currentWattage);
-    const numF = parseInt(numFans, 10);
-    const dailyUse = parseFloat(dailyUsage);
-    const elecCost = parseFloat(electricityCost);
-
-    // --- Calculations for Conventional Fan ---
-    // Daily kWh for conventional fans
-    const conventionalKWhPerDay = (currentWatt * dailyUse * numF) / 1000;
-    // Annual kWh for conventional fans
-    const conventionalKWhPerYear = conventionalKWhPerDay * 365;
-    // Annual cost for conventional fans
-    const conventionalCostPerYear = conventionalKWhPerYear * elecCost;
-
-    // --- Calculations for Adhunik Air Care BLDC Fan ---
-    // Daily kWh for BLDC fans
-    const bldcKWhPerDay = (adhunikBldcWattage * dailyUse * numF) / 1000;
-    // Annual kWh for BLDC fans
-    const bldcKWhPerYear = bldcKWhPerDay * 365;
-    // Annual cost for BLDC fans
-    const bldcCostPerYear = bldcKWhPerYear * elecCost;
-
-    // --- Calculate Savings ---
-    const calculatedAnnualSavings = conventionalCostPerYear - bldcCostPerYear;
-    const calculatedAnnualKwhSaved = conventionalKWhPerYear - bldcKWhPerYear;
-
-    // Update state to display results
-    setAnnualSavings(calculatedAnnualSavings.toFixed(2));
-    setAnnualKwhSaved(calculatedAnnualKwhSaved.toFixed(2));
-    setShowResult(true);
-  };
-
-  /**
-   * Function to simulate showing a lead form or navigating to a contact page.
-   * In a real application, this would trigger a modal or redirect.
-   */
-  const handleGetReportClick = () => {
-    alert('Thank you for your interest! A detailed savings report and quote will be sent to your email. Our team will contact you shortly.');
-    // In a production environment, you would integrate with a lead form submission or CRM here.
-    // e.g., router.push('/contact-us?interest=savings-report');
+    setResults({
+      conventionalEnergy,
+      efficientEnergy,
+      savingsInEnergy,
+      savingsInCost,
+      co2Savings,
+      treesEquivalent
+    });
   };
 
   return (
-    <section id="savings-calculator" className="py-12 px-4 md:px-8 bg-gray-50 font-inter rounded-xl shadow-lg">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-xl  font-extrabold text-blue-800 mb-6 leading-tight">
-          Unlock Your Savings : Calculate Your Adhunik Air Care Advantage!
-        </h2>
-        <p className="text-sm text-gray-700 mb-10">
-          See just how much you can save on your electricity bills by switching to energy-efficient Adhunik Air Care BLDC fans.
-        </p>
+    <div className="max-w-2xl mx-auto p-6 bg-white rounded-xl shadow-lg">
+      <div className="text-center mb-8">
+        <h2 className="text-2xl font-bold text-gray-800">Energy Saving Calculator</h2>
+        <p className="text-gray-600 mt-2">Calculate your potential savings with energy-efficient fans</p>
+      </div>
 
-        <div className="bg-white p-6 md:p-10 rounded-xl shadow-2xl border border-blue-100">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left mb-8">
-            {/* Current Fan Wattage Input */}
-            <div>
-              <label htmlFor="currentWattage" className="block text-sm  text-gray-800 font-semibold mb-2">
-                Your Current Fan's Wattage (e.g., 75W for a conventional fan)
-              </label>
-              <input
-                type="number"
-                id="currentWattage"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                value={currentWattage}
-                onChange={(e) => setCurrentWattage(e.target.value)}
-                placeholder="Enter Watts (e.g., 75)"
-                min="1"
-              />
-            </div>
-            {/* Number of Fans Input */}
-            <div>
-              <label htmlFor="numFans" className=" text-sm block text-gray-800 font-semibold mb-2">
-                Number of Fans
-              </label>
-              <input
-                type="number"
-                id="numFans"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                value={numFans}
-                onChange={(e) => setNumFans(e.target.value)}
-                placeholder="How many fans?"
-                min="1"
-              />
-            </div>
-            {/* Daily Usage Hours Input */}
-            <div>
-              <label htmlFor="dailyUsage" className="block text-sm text-gray-800 font-semibold mb-2">
-                Average Daily Usage (Hours)
-              </label>
-              <input
-                type="number"
-                id="dailyUsage"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                value={dailyUsage}
-                onChange={(e) => setDailyUsage(e.target.value)}
-                placeholder="Hours per day (e.g., 10)"
-                min="1"
-              />
-            </div>
-            {/* Electricity Cost per Unit Input */}
-            <div>
-              <label htmlFor="electricityCost" className="text-sm block text-gray-800 font-semibold mb-2">
-                Electricity Cost per Unit (₹/kWh)
-              </label>
-              <input
-                type="number"
-                step="0.1"
-                id="electricityCost"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                value={electricityCost}
-                onChange={(e) => setElectricityCost(e.target.value)}
-                placeholder="e.g., 7.5"
-                min="0.1"
-              />
+      <div className="space-y-6">
+        {/* Number of Fans Slider */}
+        <div>
+          <label htmlFor="numFans" className="block text-sm font-medium text-gray-700 mb-2">
+            Number of Fans: <span className="font-semibold text-blue-600">{numFans}</span>
+          </label>
+          <input
+            id="numFans"
+            type="range"
+            min="1"
+            max="100"
+            value={numFans}
+            onChange={(e) => setNumFans(parseInt(e.target.value))}
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+          />
+          <div className="flex justify-between text-xs text-gray-500 mt-1">
+            <span>1</span>
+            <span>100</span>
+          </div>
+        </div>
+
+        {/* Running Hours Slider */}
+        <div>
+          <label htmlFor="hours" className="block text-sm font-medium text-gray-700 mb-2">
+            Running Hours Per Day: <span className="font-semibold text-blue-600">{hours}</span>
+          </label>
+          <input
+            id="hours"
+            type="range"
+            min="1"
+            max="24"
+            value={hours}
+            onChange={(e) => setHours(parseInt(e.target.value))}
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+          />
+          <div className="flex justify-between text-xs text-gray-500 mt-1">
+            <span>1</span>
+            <span>24</span>
+          </div>
+        </div>
+
+        {/* Calculate Button */}
+        <button
+          onClick={calculateSavings}
+          className="w-full py-3 px-4 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition duration-200 shadow-md"
+        >
+          Calculate Savings
+        </button>
+
+        {/* Results */}
+        {results && (
+          <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200 animate-fade-in">
+            <h3 className="text-lg font-semibold text-gray-800 mb-4">Your Potential Savings</h3>
+            
+            <div className="space-y-3">
+              <div className="flex justify-between">
+                <span className="text-gray-600">Conventional Fans Energy Use (Yearly):</span>
+                <span className="font-medium">{results.conventionalEnergy.toFixed(2)} kWh</span>
+              </div>
+              
+              <div className="flex justify-between">
+                <span className="text-gray-600">Your Fans Energy Use (Yearly):</span>
+                <span className="font-medium">{results.efficientEnergy.toFixed(2)} kWh</span>
+              </div>
+              
+              <div className="flex justify-between pt-3 border-t border-gray-200">
+                <span className="text-green-600 font-medium">Energy Saved (Yearly):</span>
+                <span className="text-green-600 font-medium">{results.savingsInEnergy.toFixed(2)} kWh</span>
+              </div>
+              
+              <div className="flex justify-between">
+                <span className="text-green-600 font-medium">Amount Saved (Yearly):</span>
+                <span className="text-green-600 font-medium">₹{results.savingsInCost.toFixed(2)} INR</span>
+              </div>
+              
+              <div className="flex justify-between pt-3 border-t border-gray-200">
+                <span className="text-gray-600">CO₂ Saved (Yearly):</span>
+                <span className="font-medium">{results.co2Savings.toFixed(2)} kg</span>
+              </div>
+              
+              <div className="flex justify-between">
+                <span className="text-gray-600">Equivalent to Planting:</span>
+                <span className="font-medium">{Math.ceil(results.treesEquivalent)} Trees</span>
+              </div>
             </div>
           </div>
-
-          {/* Calculate Button */}
-          <button
-            onClick={calculateSavings}
-            className="w-full   bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-bold py-3 px-8 rounded-lg text-md shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
-          >
-            Calculate My Savings!
-          </button>
-
-          {/* Results Display */}
-          {showResult && annualSavings !== null && (
-            <div className="mt-10 p-6 md:p-8 bg-green-50 border border-green-300 rounded-lg text-left shadow-inner animate-fade-in-up">
-              <h3 className="text-xl  font-bold text-green-800 mb-4">
-                Your Estimated Savings with Adhunik Air Care BLDC Fans:
-              </h3>
-              <p className="text-xl text-gray-800 mb-2">
-                <span className="font-bold text-green-700">₹ {annualSavings}</span> Annual Electricity Bill Reduction
-              </p>
-              <p className="text-xl text-gray-800 mb-4">
-                <span className="font-bold text-green-700">{annualKwhSaved} kWh</span> Reduced Annual Electricity Consumption
-              </p>
-
-              <p className="text-lg text-gray-700 mb-6">
-                Ready to make the switch and experience these savings yourself?
-                Get a personalized report and quote for your specific needs!
-              </p>
-              {/* Lead Generation Button */}
-             
-            </div>
-          )}
-        </div>
+        )}
       </div>
-    </section>
+    </div>
   );
-};
-
- 
+}
