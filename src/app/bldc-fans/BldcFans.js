@@ -40,10 +40,10 @@ export const BldcFans = () => {
           thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf1_b8n4yq.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf2_qcdojy.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481342/cf_tmj6q0.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
         }
       ],
@@ -111,11 +111,11 @@ export const BldcFans = () => {
           thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf1_b8n4yq.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp'
             ,
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf2_qcdojy.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481342/cf_tmj6q0.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
         }
       ],
@@ -178,10 +178,10 @@ export const BldcFans = () => {
           thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf1_b8n4yq.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf2_qcdojy.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481342/cf_tmj6q0.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
         },
         {
@@ -192,10 +192,10 @@ export const BldcFans = () => {
           thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf1_b8n4yq.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf3_qiao2f.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf2_qcdojy.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481342/cf_tmj6q0.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
           ]
         }
       ],
@@ -937,7 +937,7 @@ export const BldcFans = () => {
                   <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-sm border border-white/20">
                     <div className="bg-white rounded-xl p-6 shadow-2xl">
                       <img
-                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf2_qcdojy.webp"
+                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp"
                         alt="Adhunik BLDC Fan"
                         className="w-full h-96 object-contain"
                       />
