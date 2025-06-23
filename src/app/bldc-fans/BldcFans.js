@@ -6,23 +6,19 @@ import {
   ChevronRight, Zap, Lightbulb, Smartphone, Clock, Shield,
   AirVent, Gauge, Wifi, Bluetooth, Settings, FileText,
   HelpCircle, ArrowRight, RotateCw, BatteryFull, Volume2,
-  MessageSquareQuote,
+  MessageSquareQuote,BarChart2,
   Mail,
-  MapPin
-} from 'lucide-react';
-import { ChevronLeft } from 'lucide-react';
-import Link from 'next/link';
-import {
-  Leaf,
+  MapPin, Leaf,
   ChevronDown, Calculator, BadgeCheck,
-  Heart,
+  Heart, Moon, Power,ChevronLeft
 } from 'lucide-react';
+ 
 
+import Link from 'next/link';
+ 
+ 
 
-import {
-  Moon, Power,
-} from 'lucide-react';
-
+ 
 export const BldcFans = () => {
   const [selectedFan, setSelectedFan] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -528,6 +524,17 @@ export const BldcFans = () => {
     // Form submission logic here
     console.log(formData);
   };
+
+   const [showForm, setShowForm] = useState(false);
+
+  const powerData = [
+    { speed: "SPEED 1", rpm: 115, watts: 3 },
+    { speed: "SPEED 2", rpm: 185, watts: 5 },
+    { speed: "SPEED 3", rpm: 218, watts: 12 },
+    { speed: "SPEED 4", rpm: 284, watts: 18 },
+    { speed: "SPEED 5", rpm: 346, watts: 25 },
+    { speed: "SPEED 6", rpm: 380, watts: 28 }
+  ];
 
 
 
@@ -1279,156 +1286,227 @@ export const BldcFans = () => {
         </section>
 
 
-
-        <div className="bg-gray-50">
-          {/* CTA Section */}
-          {/* <section className="py-16 px-4 bg-gradient-to-r from-cyan-800 to-cyan-600 text-white">
+ <div className="bg-gray-50">
+      {/* Performance Section */}
+      <section className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Precise Performance : Adhunik Air Care BLDC Fan Power Consumption
+            </h2>
+            <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
+            <p className="text-sm text-gray-600 max-w-3xl mx-auto">
+              Understand the remarkable efficiency of Adhunik Air Care BLDC fans at every speed setting
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Power Consumption Table */}
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">
+                Power Consumption at Different Speeds
+              </h3>
+              <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                        FAN SPEED
+                      </th>
+                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                        FAN RPMs
+                      </th>
+                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                        POWER CONSUMPTION
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {powerData.map((data, index) => (
+                      <tr key={index}>
+                        <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                          {data.speed}
+                        </td>
+                        <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
+                          {data.rpm}
+                        </td>
+                        <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
+                          {data.watts} WATTS
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="mt-4 text-center text-sm text-gray-500">
+                Maximum Consumption: 32W
+              </div>
+            </div>
+
+            {/* Energy Efficiency Info */}
             <div>
-              <h2 className="text-3xl font-bold mb-6">
-                Ready to Transform Your Space with Adhunik Air Care BLDC Fans?
-              </h2>
-              <p className="text-xl mb-8 text-cyan-100">
-                Join thousands of satisfied customers in Gurugram, Delhi, and Across India who are enjoying unparalleled comfort and saving on electricity bills.
-              </p>
-              <div className="flex items-center space-x-4 mb-6">
-                <div className="flex items-center">
-                  <Check className="w-5 h-5 mr-2 text-green-300" />
-                  <span>2-Year Warranty</span>
+              <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <Star className="h-5 w-5 text-blue-400" />
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm text-blue-700">
+                      <span className="font-bold">More Star, More Saving:</span> Look for BEE Star Ratings on our products for certified energy efficiency!
+                    </p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <Check className="w-5 h-5 mr-2 text-green-300" />
-                  <span>Made in India</span>
+              </div>
+
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <Zap className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Energy Efficient BLDC Motor</h3>
+                    <p className="text-gray-600">32W Consumption at maximum speed - up to 65% less than conventional fans</p>
+                  </div>
                 </div>
-                <div className="flex items-center">
-                  <Check className="w-5 h-5 mr-2 text-green-300" />
-                  <span>65% Energy Saving</span>
+
+                <div className="flex items-start">
+                  <Volume2 className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Low Noise Operation</h3>
+                    <p className="text-gray-600">Engineered for whisper-quiet performance in any environment</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <RotateCw className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Inverter Compatibility</h3>
+                    <p className="text-gray-600">Runs 3 times longer on inverter during power cuts</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <Shield className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">2-Year Warranty</h3>
+                    <p className="text-gray-600">Comprehensive coverage for peace of mind</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-xl shadow-xl p-8 text-gray-800">
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 px-4 rounded-2xl bg-gradient-to-r from-cyan-800 to-cyan-600 text-white">
+        <div className="container mx-auto max-w-6xl text-center">
+          <h2 className="text-2xl font-bold mb-6">
+            Ready to Transform Your Space with Adhunik Air Care BLDC Fans ?
+          </h2>
+          <p className="text-sm mb-8 text-justify text-cyan-100 max-w-3xl mx-auto">
+            Join thousands of satisfied customers in Gurugram, Delhi, and Across India who are enjoying unparalleled comfort and saving on electricity bills. Whether for your home, office, or commercial project, our experts are ready to help you choose the perfect Adhunik Air Care BLDC fan.
+          </p>
+          
+          {!showForm ? (
+            <button
+              onClick={() => setShowForm(true)}
+              className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 transition inline-flex items-center"
+            >
+              Get a Personalized Energy Savings Report & Free Quote Today!
+              <ChevronRight className="ml-2" />
+            </button>
+          ) : (
+            <div className="bg-white rounded-xl shadow-xl p-8 text-gray-800 max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold mb-6 text-center">
-                Get a Personalized Energy Savings Report & Free Quote Today!
+                Get Your Free Quote
               </h3>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium mb-1">Your Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
-                    required
-                  />
-                </div>
-                
+              <form className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium mb-1">Your Email</label>
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
+                      required
+                    />
+                  </div>
+                  <div>
                     <input
                       type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium mb-1">Your Phone Number</label>
-                    <input
-                      type="tel"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
+                      placeholder="Your Email"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
                       required
                     />
                   </div>
                 </div>
-
-                <div>
-                  <label className="block text-sm font-medium mb-1">City/Pincode</label>
-                  <input
-                    type="text"
-                    name="location"
-                    value={formData.location}
-                    onChange={handleChange}
-                    placeholder="e.g., Gurugram, Delhi, or specify other Indian city"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
-                    required
-                  />
-                </div>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium mb-1">Type of Requirement</label>
-                    <select
-                      name="requirement"
-                      value={formData.requirement}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
-                    >
-                      <option value="Residential">Residential</option>
-                      <option value="Commercial">Commercial</option>
-                      <option value="Bulk Order">Bulk Order</option>
-                    </select>
+                    <input
+                      type="tel"
+                      placeholder="Your Phone Number"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
+                      required
+                    />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-1">Approx. Number of Fans Needed</label>
                     <input
-                      type="number"
-                      name="quantity"
-                      value={formData.quantity}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
+                      type="text"
+                      placeholder="City/Pincode"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
+                      required
                     />
                   </div>
                 </div>
-
                 <div>
-                  <label className="block text-sm font-medium mb-1">Specific Model of Interest (Optional)</label>
-                  <select
-                    name="model"
-                    value={formData.model}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
-                  >
-                    <option value="Not Sure Yet">Not Sure Yet</option>
-                    <option value="SimpleX">SimpleX</option>
-                    <option value="Venessa Lumo">Venessa Lumo</option>
-                    <option value="Venessa Blink">Venessa Blink</option>
+                  <select className="w-full px-4 py-3 rounded-lg border border-gray-300">
+                    <option>Type of Requirement (Residential/Commercial/Bulk Order)</option>
+                    <option>Residential</option>
+                    <option>Commercial</option>
+                    <option>Bulk Order</option>
                   </select>
                 </div>
-
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <input
+                      type="number"
+                      placeholder="Approx. Number of Fans Needed"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300"
+                    />
+                  </div>
+                  <div>
+                    <select className="w-full px-4 py-3 rounded-lg border border-gray-300">
+                      <option>Specific Model of Interest (Optional)</option>
+                      <option>SimpleX</option>
+                      <option>Venessa Lumo</option>
+                      <option>Venessa Blink</option>
+                      <option>Not Sure Yet</option>
+                    </select>
+                  </div>
+                </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">How did you hear about us?</label>
                   <input
                     type="text"
-                    name="source"
-                    value={formData.source}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
+                    placeholder="How did you hear about us?"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300"
                   />
                 </div>
-
                 <button
                   type="submit"
-                  className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
+                  className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-lg transition"
                 >
                   GET MY FREE QUOTE & ENERGY SAVINGS REPORT!
                 </button>
-
                 <p className="text-xs text-gray-500 text-center">
                   Your information is safe with us. We respect your privacy and will only use your details to provide you with a personalized solution.
                 </p>
               </form>
             </div>
-          </div>
+          )}
         </div>
-      </section> */}
+      </section>
+    </div>
+
+        <div className="bg-gray-50">
+      
 
           {/* FAQ Section */}
           <section className="py-16 px-4 bg-white">
@@ -1450,11 +1528,11 @@ export const BldcFans = () => {
                       className="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition"
                       onClick={() => setActiveFaq(activeFaq === index ? null : index)}
                     >
-                      <h3 className="text-lg font-medium text-gray-900">{faq.question}</h3>
+                      <h3 className="text-md font-medium text-gray-900">{faq.question}</h3>
                       <ChevronRight className={`w-5 h-5 text-gray-500 transition-transform ${activeFaq === index ? 'rotate-90' : ''}`} />
                     </button>
                     {activeFaq === index && (
-                      <div className="p-6 pt-0 text-gray-600">
+                      <div className=" text-sm p-6 pt-0 text-gray-600">
                         <p>{faq.answer}</p>
                       </div>
                     )}
