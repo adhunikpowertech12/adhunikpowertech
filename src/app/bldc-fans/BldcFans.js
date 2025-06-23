@@ -15,6 +15,7 @@ import {
  
 
 import Link from 'next/link';
+import { CalculatorCode } from '@/components/CalculatorCode';
  
  
 
@@ -1443,6 +1444,8 @@ export const BldcFans = () => {
             </div>
           </section>
         </div>
+
+        <CalculatorCode/>
       </main>
     </div>
   );
