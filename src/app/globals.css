@@ -296,7 +296,7 @@ section .card__img span {
 }
 
 .bg-image-class {
-  background-image: url('/madein.png');
+  /* background-image: url('/madein.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

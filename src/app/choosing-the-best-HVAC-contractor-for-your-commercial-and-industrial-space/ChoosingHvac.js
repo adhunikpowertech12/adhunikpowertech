@@ -589,7 +589,7 @@ export default function ChoosingHvac() {
                 loading="lazy"
                 height={500}
                 className="w-full h-auto rounded-xl shadow-xl border-4 border-cyan-100"
-                priority
+                
               />
 
             </div>

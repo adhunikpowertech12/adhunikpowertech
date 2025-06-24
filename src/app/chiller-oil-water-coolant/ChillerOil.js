@@ -541,7 +541,7 @@ export default function ChillerOil() {
                 width={350}
                 height={350}
                 loading="lazy"
-                priority
+              
               />
             </div>
 
