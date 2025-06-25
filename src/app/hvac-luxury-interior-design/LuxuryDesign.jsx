@@ -35,6 +35,7 @@ import {
 
   Briefcase
 } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function LuxuryDesign() {
@@ -139,45 +140,76 @@ export default function LuxuryDesign() {
       description: "Collaborate with our network of interior specialists"
     }
   ];
-  const gridPattern = "data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm20 20h20v20H20V20z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E";
-const dotPattern = "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='1' fill='%23ffffff' fill-opacity='0.1'/%3E%3C/svg%3E";
 
   return (
     <>
       <div className="bg-white  ">
         {/* ===== Luxury Hero Section ===== */}
-        <section className="relative h-screen min-h-[800px] flex items-center justify-center bg-gradient-to-br from-cyan-50/20 to-white">
+        <section className="   mt-28 md:mt-0 px-4 relative h-auto md:h-screen min-h-[800px] flex items-center justify-center bg-gradient-to-br from-cyan-50/20 to-white">
           <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-cyan-400/5 rounded-full filter blur-[100px]"></div>
-            <div className="absolute bottom-0 left-0 w-[30vw] h-[30vw] bg-orange-400/5 rounded-full filter blur-[80px]"></div>
+            <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-cyan-400/5 rounded-full filter blur-[100px] "></div>
+            <div className="absolute bottom-0 left-0 w-[30vw] h-[30vw] bg-orange-400/5 rounded-full filter blur-[80px] "></div>
           </div>
 
-          <div className="relative z-10 px-6 max-w-6xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-gray-200 mb-8">
-              <Sparkles className="w-4 h-4 text-cyan-600" />
-              <span className="text-sm font-medium text-cyan-800">Architectural Climate Systems</span>
-            </div>
+          <div className="relative z-10  max-w-7xl mx-auto text-center ">
 
-            <p className="text-5xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
-              <span className="bg-gradient-to-r from-cyan-600 to-cyan-800 bg-clip-text text-transparent">
-                How Smart HVAC
-              </span><br />
-              <span className="font-light text-gray-700">   <span className="bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                Design Integrates
-              </span> Seamlessly with Modern Interior Aesthetics
-              </span>
-            </p>
+            <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row  '>
+              <div className="blog-img mb-6 text-center">
+                <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
+                  <div className=" w-full md:w-6/12 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
 
-            <div className="max-w-3xl mx-auto space-y-6 text-lg text-gray-600">
-              <p>
-                In today's fast-paced world, the concept of a truly comfortable and functional space has evolved far beyond mere aesthetics. While a beautifully designed interior can undoubtedly inspire and delight, its true potential is only unlocked when it's seamlessly integrated with advanced comfort systems. At Adhunik Powertech, we deeply understand that optimal climate control isn't just about maintaining a specific temperature – it's about curating an environment that feels just right, operating with quiet efficiency, and enhancing the overall well-being of its occupants.
-              </p>
-            </div>
+
+                    <img
+                      className="w-full h-full object-center object-cover rounded-3xl"
+                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750830723/2_fvctyi.webp"
+                      alt="Adhunik Powertech air washer "
+
+                      loading="lazy"
+                    />
+
+
+                  </div>
+
+                  <div className=" w-full md:w-6/12 md:text-center text-left text-gray-800 mb-6 flex justify-center md:items-center flex-col mt-2">
+                    <div className="md:text-center text-left     ">
+
+
+                      <span className="text-sm font-medium  flex justify-start mb-3 pt-6 items-center  text-cyan-800">
+                      <Sparkles className="w-4 h-4 text-cyan-600 mr-4" /> Architectural Climate Systems</span>
+
+
+                      <p className="text-4xl text-left md:text-4xl font-bold text-gray-900  mb-2 leading-tight">
+                        <span className="bg-gradient-to-r from-cyan-600 to-cyan-800 bg-clip-text text-transparent">
+                          How Smart HVAC
+                        </span><br />
+                        <span className="font-light text-gray-700">   <span className="bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+                          Design Integrates
+                        </span> Seamlessly with Modern Interior Aesthetics
+                        </span>
+                      </p>
+                    </div>
+                    <p className=" font-sans text-gray-600 text-justify  md:text-left pt-3   ">
+
+
+                      In today's fast-paced world, the concept of a truly comfortable and functional space has evolved far beyond mere aesthetics. While a beautifully designed interior can undoubtedly inspire and delight, its true potential is only unlocked when it's seamlessly integrated with advanced comfort systems. At Adhunik Powertech, we deeply understand that optimal climate control isn't just about maintaining a specific temperature – it's about curating an environment that feels just right, operating with quiet efficiency, and enhancing the overall well-being of its occupants.
+
+                    </p>
+
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+
+
+
+
           </div>
         </section>
 
         {/* ===== Architectural Divider ===== */}
-        <div className="relative h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent max-w-7xl mx-auto my-20">
+        <div className="relative h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent max-w-7xl mx-auto mb-20">
           <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-3xl">
             Design Integration Philosophy
           </div>
@@ -188,16 +220,16 @@ const dotPattern = "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             {/* Left sticky column */}
             <div className="lg:sticky lg:top-32 h-fit">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                The Invisible Comfort:<br />
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                The Invisible Comfort :<br />
                 <span className="text-cyan-600">HVAC as Design Element</span>
               </h2>
-              <p className="text-gray-600 mb-8">
+              <p className="text-gray-600 text-sm mb-8">
                 However, a common challenge arises when the very systems designed to provide this comfort appear to clash with the clean lines, minimalist approaches, and elegant finishes that define modern interior design. This is precisely where the synergy between intelligent HVAC solutions and thoughtful interior aesthetics becomes not just beneficial, but absolutely paramount. The goal is to make the technology disappear, leaving behind only the comfort and beauty.
               </p>
               <div className="hidden lg:block">
                 <img
-                  src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg"
+                  src="https://images.unsplash.com/photo-1738168246881-40f35f8aba0a?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="HVAC integrated into modern architecture"
                   className="rounded-xl shadow-xl border border-gray-100 w-full"
                 />
@@ -342,11 +374,11 @@ const dotPattern = "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 
 
             {/* Full-width content block */}
             <div className="relative bg-white rounded-2xl overflow-hidden mb-24">
-              <div      style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
-          className="absolute inset-0   opacity-5"></div>
+              <div style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
+                className="absolute inset-0   opacity-5"></div>
               <div className="relative">
                 <p className="text-xl text-gray-700 max-w-4xl mx-auto text-center">
-                  To truly explore how these advanced, discreet climate control systems can be seamlessly woven into the fabric of your dream home or commercial venture, we highly recommend consulting with interior design professionals who specialize in creating harmonious, functional, and aesthetically captivating environments.
+                  To truly explore how these advanced, discreet climate control systems can be seamlessly woven into the fabric of your dream home or commercial venture, we highly recommend consulting with interior design professionals who specialize in creating harmonious, functional, and aesthetically captivating environments .
                 </p>
               </div>
             </div>
@@ -381,15 +413,15 @@ const dotPattern = "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 
 
             {/* Closing CTA */}
             <div className="bg-gradient-to-r from-cyan-900 to-cyan-800 rounded-2xl p-12 mb-24 text-white relative overflow-hidden">
-              <div      style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
-         className="absolute inset-0   bg-[length:20px_20px] opacity-10"></div>
+              <div style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
+                className="absolute inset-0   bg-[length:20px_20px] opacity-10"></div>
               <div className="relative max-w-4xl mx-auto text-center">
                 <CheckCircle className="w-12 h-12 mx-auto mb-6 text-cyan-300" />
                 <h3 className="text-3xl font-bold mb-6">Partner with Experts</h3>
                 <p className="text-xl text-cyan-100 mb-8">
                   Partnering with experts like Adhunik Decodive can unlock the full potential of your space, delivering comfort that is felt, not seen.
                 </p>
-                <Link href='/support-form' className="bg-white w-fit text-cyan-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors mx-auto shadow-xl">
+                <Link href='https://adhunikdecodive.com/support-form' className="bg-white w-fit text-cyan-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors mx-auto shadow-xl">
                   Schedule Consultation <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
