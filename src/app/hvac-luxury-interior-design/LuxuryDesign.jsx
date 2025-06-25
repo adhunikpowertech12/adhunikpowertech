@@ -43,7 +43,9 @@ export default function LuxuryDesign() {
   const features = [
     {
       icon: <PanelLeft className="w-6 h-6" />,
-      title: "Concealed Ducting and Grilles",
+      title: 
+      <><Link  href='/ducted-air-cooler' className=' text-cyan-700'>Concealed Ducting and Grilles</Link></>
+    ,
       content: "The days of exposed, industrial-looking ducts are largely behind us for residential and high-end commercial applications. Modern design prioritizes expertly planned ductwork that is entirely hidden within walls, ceilings, or even floors. Only the subtle, architecturally complementary grilles are visible, blending harmoniously with the surrounding surfaces. Our solutions at Adhunik Powertech are meticulously planned to ensure maximum airflow efficiency while respecting and enhancing your chosen design aesthetic. This also includes the use of linear diffusers or slot diffusers that virtually disappear into the ceiling or wall lines."
     },
     {
@@ -66,17 +68,29 @@ export default function LuxuryDesign() {
   const integrationExamples = [
     {
       icon: <Utensils className="w-6 h-6" />,
-      title: "Modular Kitchen Integration",
+      title:
+      <>
+        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-orange-700 hover:text-orange-500'>Modular Kitchen Integration</Link>
+      </> 
+      ,
       content: "When conceptualizing a modern modular kitchen, the strategic placement of high-efficiency exhaust systems, discreet air conditioning units, and subtle ventilation grilles must be meticulously considered alongside the integration of appliances, the flow of counter space, and the overall cabinet layouts. A truly well-designed kitchen is not merely visually stunning; it is also a comfortable, healthy, and highly functional space for culinary activities and social gatherings. The right ventilation can even extend the life of your kitchen finishes by managing humidity and grease effectively."
     },
     {
       icon: <Home className="w-6 h-6" />,
-      title: "Residential Spaces",
+      title: 
+       <>
+        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-orange-700 hover:text-orange-500'> Residential Spaces</Link>
+      </> 
+,
       content: "In crafting truly sleek interior designs for an entire home, the thoughtful selection and integration of HVAC solutions can dramatically impact the overall aesthetic and perceived luxury. Our team at Adhunik Powertech is committed to providing units that are not only high-performing but also compact, aesthetically pleasing, or specifically engineered to be easily concealed."
     },
     {
       icon: <Building className="w-6 h-6" />,
-      title: "Commercial Applications",
+      title: 
+        <>
+        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-orange-700 hover:text-orange-500'> Commercial Applications</Link>
+      </> 
+      ,
       content: "For sophisticated commercial spaces, our design philosophy empowers interior designers to unleash their full creative potential, knowing that comfort systems will complement their vision rather than compromise it. We work with architects and designers to ensure that our systems fit perfectly within the structural and aesthetic parameters."
     }
   ];
@@ -180,10 +194,14 @@ export default function LuxuryDesign() {
 
                       <p className="  text-2xl text-center md:text-left md:text-4xl font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-cyan-600 to-cyan-800 bg-clip-text text-transparent">
-                          How Smart HVAC
+                          <Link href='https://www.adhunikpowertech.com/hvac' className='  '>
+                            How Smart HVAC
+                          </Link>
                         </span><br />
                         <span className="font-light text-gray-700">   <span className="bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                          Design Integrates
+                           <Link href='https://adhunikdecodive.com/' className='  '>
+                         Design Integrates
+                          </Link> 
                         </span> Seamlessly with Modern Interior Aesthetics
                         </span>
                       </p>
@@ -191,7 +209,7 @@ export default function LuxuryDesign() {
                     <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 
-                      In today's fast-paced world, the concept of a truly comfortable and functional space has evolved far beyond mere aesthetics. While a beautifully designed interior can undoubtedly inspire and delight, its true potential is only unlocked when it's seamlessly integrated with advanced comfort systems. At Adhunik Powertech, we deeply understand that optimal climate control isn't just about maintaining a specific temperature – it's about curating an environment that feels just right, operating with quiet efficiency, and enhancing the overall well-being of its occupants.
+                      In today's fast-paced world, the concept of a truly comfortable and functional space has evolved far beyond mere aesthetics. While a beautifully designed interior can undoubtedly inspire and delight, its true potential is only unlocked when it's seamlessly integrated with advanced comfort systems. <Link  href='/' className=' text-cyan-600 hover:text-cyan-700'>At Adhunik Powertech</Link>, we deeply understand that optimal climate control isn't just about maintaining a specific temperature – it's about curating an environment that feels just right, operating with quiet efficiency, and enhancing the overall well-being of its occupants.
 
                     </p>
 
@@ -220,8 +238,8 @@ export default function LuxuryDesign() {
           <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-16">
             {/* Left sticky column */}
             <div className="lg:sticky lg:top-32 h-fit">
-              <h2 className=" text-center md:text-left text-md md:text-3xl font-bold text-gray-900 mb-6">
-                The Invisible Comfort :<br />
+              <h2 className=" text-center md:text-left text-md md:text-2xl font-bold text-gray-900 mb-6">
+                The Invisible Comfort<br />
                 <span className="text-cyan-600">HVAC as Design Element</span>
               </h2>
               <p className="text-gray-600 text-justify text-sm mb-8">
@@ -241,7 +259,7 @@ export default function LuxuryDesign() {
               {/* Intro paragraph */}
               <div className="prose text-sm md:text-md text-justify md:text-left prose-lg text-gray-600">
                 <p>
-                  Traditional HVAC systems, often characterized by their conspicuous ducts, bulky outdoor units, and sometimes noisy operation, can indeed become an unwelcome visual intrusion in a meticulously designed space. They can disrupt the flow, compromise the aesthetic integrity, and even limit design possibilities. Fortunately, significant advancements in climate control technology have ushered in an era of solutions that are as discreet as they are remarkably effective.
+                  Traditional <Link  href='/top-HVAC-Contractor-in-Delhi-NCR-&-India' className=' text-cyan-600 hover:text-cyan-700'>HVAC systems</Link>, often characterized by their conspicuous ducts, bulky outdoor units, and sometimes noisy operation, can indeed become an unwelcome visual intrusion in a meticulously designed space. They can disrupt the flow, compromise the aesthetic integrity, and even limit design possibilities. Fortunately, significant advancements in climate control technology have ushered in an era of solutions that are as discreet as they are remarkably effective.
                 </p>
                 <p>
                   Imagine stepping into a living room where cool, fresh, and perfectly filtered air circulates evenly throughout the space, all without the distracting hum of machinery or the presence of unsightly vents. Picture a serene bedroom where the temperature is precisely regulated to your preference, ensuring a perfect night's sleep, while simultaneously maintaining a minimalist, uncluttered, and tranquil atmosphere. This elevated level of comfort and seamless integration is achievable through several innovative approaches:
@@ -278,7 +296,7 @@ export default function LuxuryDesign() {
             <div className="text-center mb-20">
               <h2 className="text-xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 When HVAC Meets High Design : <br />
-                <span className="text-cyan-600">A Partnership for Perfection</span>
+                <span className="text-orange-600">A Partnership for Perfection</span>
               </h2>
 
               <div className="max-w-4xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
@@ -291,8 +309,8 @@ export default function LuxuryDesign() {
             {/* Integration Examples */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
               {integrationExamples.map((example, index) => (
-                <div key={index} className="bg-gray-50 flex flex-col items-center md:items-start  rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-colors">
-                  <div className="w-12 h-12  bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
+                <div key={index} className="bg-gray-50 flex flex-col items-center md:items-start  rounded-xl p-8 border border-gray-200 hover:border-orange-300 transition-colors">
+                  <div className="w-12 h-12  bg-orange-100 rounded-lg flex items-center justify-center text-orange-600 mb-6">
                     {example.icon}
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center md:text-left">{example.title}</h3>
@@ -413,7 +431,7 @@ export default function LuxuryDesign() {
                       </div>
                       <h3 className=" text-lg md:text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
                       <p className="text-gray-600 mb-6  text-md text-center md:text-left md:text-sm">{item.description}</p>
-                      <Link href='https://adhunikdecodive.com/' className="text-cyan-600 font-medium flex items-center gap-2 group-hover:text-cyan-700 transition-colors">
+                      <Link href='https://adhunikdecodive.com/furniture-categories' className="text-cyan-600 font-medium flex items-center gap-2 group-hover:text-cyan-700 transition-colors">
                         Learn more <ArrowRight className="w-4 h-4" />
                       </Link>
                     </div>
