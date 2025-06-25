@@ -955,7 +955,7 @@ export default function ProductOverview() {
         
                 <a     href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
                       download="Adhunik-Powertech-Product-Catalogue-2024" className="bg-white text-cyan-800 px-8 py-4 rounded-xl font-bold flex items-center gap-3 border border-gray-300 hover:border-cyan-400 shadow-sm hover:shadow-md transition-all">
-                  Download Catalog
+                  Download Catalogue
                 </a>
               </div>
             </div>
@@ -973,7 +973,7 @@ export default function ProductOverview() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Comprehensive Product Categories
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-sm text-justify text-gray-600 max-w-3xl mx-auto">
               Discover the Adhunik Powertech advantage through our specialized product lines, each engineered for superior performance and longevity.
             </p>
           </div>
@@ -982,19 +982,22 @@ export default function ProductOverview() {
 
           {productCategories.map((category, index) => (
             <div key={index} className="mb-5">
-              <div className="flex items-start gap-6 mb-12">
-                <div className="bg-cyan-100 p-4 rounded-xl text-cyan-700">
-                  {category.icon}
-                </div>
-                <div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-                    {category.title}
-                  </h3>
-                  <p className="text-lg text-gray-600 max-w-4xl">
-                    {category.description}
-                  </p>
-                </div>
-              </div>
+             
+
+               <section className="relative  pb-16 px-6 max-w-7xl mx-auto">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500/5 rounded-full filter blur-[100px]"></div>
+        </div>
+        
+        <div className="text-center  ">
+          <div className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+            <span className="text-cyan-700"> {category.title}</span>  
+          </div>
+          <p className="text-sm text-justify  text-gray-600 max-w-4xl mx-auto">
+         {category.description} </p>
+        </div>
+      </section>
+
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {category.products.map((product, pIndex) => (
