@@ -6,6 +6,17 @@ import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
 import am4geodata_worldLow from "@amcharts/amcharts4-geodata/worldLow";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
+import {
+  Factory,
+  Thermometer,
+  Droplet,
+  Shield,
+  AirVent,
+  Fan,
+  Warehouse,
+  ArrowRight,
+  CheckCircle
+} from 'lucide-react';
 
 export default function ProductOverview() {
 
@@ -297,6 +308,82 @@ export default function ProductOverview() {
     };
   }, []);
 
+
+  const heroContent = {
+    title: "Adhunik Powertech: Leading HVAC & Industrial Cooling Products in India",
+    description: [
+      "Welcome to Adhunik Powertech, your trusted partner for cutting-edge Heating, Ventilation, and Air Conditioning (HVAC) and industrial cooling solutions. With over 19 years of expertise, we design, engineer, and manufacture a comprehensive range of high-performance products right here in India, catering to diverse sectors from manufacturing and pharmaceuticals to commercial establishments and cleanroom facilities.",
+      "Our commitment is to deliver sustainable, energy-efficient, and reliable systems that optimize your environment and protect your critical assets."
+    ]
+  };
+
+  // Product categories
+  const productCategories = [
+    {
+      icon: <Thermometer className="w-7 h-7" />,
+      title: "Advanced Air Cooling & Ventilation Systems",
+      description: "Adhunik Powertech's air cooling and ventilation products are designed for optimal airflow and indoor air quality. Whether you need to cool large industrial spaces or enhance air circulation, our solutions are built for efficiency and durability.",
+      products: [
+        {
+          name: "Ducted Air Coolers",
+          description: "Experience powerful, uniform cooling for large areas like factories, warehouses, and workshops. Our industrial ducted air coolers deliver high airflow and operate with exceptional energy efficiency, significantly reducing operational costs.",
+          icon: <AirVent className="w-7 h-7" />,
+          specs: [
+            "20,000-50,000 CFM",
+            "GI/SS Construction",
+            "3-Phase Operation"
+          ]
+        },
+        {
+          name: "Air Washer Units",
+          description: "Improve indoor air quality and achieve effective cooling simultaneously. Our air washer units are crucial for environments requiring pollutant removal and precise humidity control, available in GI and SS constructions.",
+          icon: <Droplet className="w-7 h-7" />,
+          specs: [
+            "MERV 13 Filtration",
+            "Stainless Steel Options",
+            "Auto Flushing"
+          ]
+        },
+        {
+          name: "Ventilation & Exhaust Fans",
+          description: "Ensure a healthy and productive environment by effectively removing heat, fumes, and stale air. Our robust industrial exhaust fans and ventilation systems are engineered for continuous, heavy-duty operation.",
+          icon: <Fan className="w-7 h-7" />,
+          specs: [
+            "1,000-10,000 RPM",
+            "Belt/Direct Drive",
+            "Explosion-proof Options"
+          ]
+        }
+      ]
+    }
+    // Additional categories can be added here
+  ];
+
+  // Industries served
+  const industries = [
+    {
+      name: "Manufacturing",
+      description: "Cooling solutions for factories and production facilities",
+      icon: <Factory className="w-6 h-6" />
+    },
+    {
+      name: "Pharmaceuticals",
+      description: "Precision climate control for cleanrooms",
+      icon: <Droplet className="w-6 h-6" />
+    },
+    {
+      name: "Commercial",
+      description: "HVAC systems for offices and retail spaces",
+      icon: <Warehouse className="w-6 h-6" />
+    },
+    {
+      name: "Cleanrooms",
+      description: "Specialized ventilation for controlled environments",
+      icon: <Shield className="w-6 h-6" />
+    }
+  ];
+
+
   const data = [
 
     {
@@ -329,8 +416,6 @@ export default function ProductOverview() {
 
   return (
     <>
-
-
       <div
         className="relative w-full h-screen overflow-hidden"
         ref={containerRef}
@@ -410,7 +495,6 @@ export default function ProductOverview() {
 
 
       </div>
-
       <div className=" justify-center items-center flex flex-col " >
         <h1 className=' px-10 pt-9 text-2xl  md:text-4xl w-full  md:w-[70%] text-center font-sans font-thin'  > A Global Commitment, Rooted in India
 
@@ -421,328 +505,472 @@ export default function ProductOverview() {
 
       </div>
 
+      <section className='  px-14'>
 
 
-      <div className="row  flex flex-col-reverse lg:flex-col-reverse  pb-8 ">
-
-
-
-        <div className=' flex w-full justify-center items-center'>
-
-
-          <div className="col w-full md:w-[80%]   justify-center flex flex-col px-2 md:px-10 ">
-
-            <br />
-
-            <p className=' px-2 md:px-11 text-center   text-[15px] text-gray-500' >
-
-              Adhunik Powertech is more than just a company; it's a movement. We are dedicated to empowering India's manufacturing sector and contributing to the nation's economic growth. By choosing Adhunik Powertech, you are not just selecting a product; you are supporting Indian manufacturing and investing in a sustainable future.
-
-
-            </p>
-
-            <h2 className=' text-center text-2xl md:ps-10 pt-3'>
-
-              Choose From Our Wide Range Of Products
-
-            </h2>
-
-
-            <br />
+        <div className="row  flex flex-col-reverse lg:flex-col-reverse  pb-8 ">
 
 
 
-            <br />
-
-          </div>
-        </div>
+          <div className=' flex w-full justify-center items-center'>
 
 
-        <div className="col w-full px-4">
-          <div className=' justify-center items-center flex'>
-            <div id="chartdiv" ></div>
+            <div className="col w-full md:w-[80%]   justify-center flex flex-col px-2 md:px-10 ">
+
+              <br />
+
+              <p className=' px-2 md:px-11 text-center   text-[15px] text-gray-500' >
+
+                Adhunik Powertech is more than just a company; it's a movement. We are dedicated to empowering India's manufacturing sector and contributing to the nation's economic growth. By choosing Adhunik Powertech, you are not just selecting a product; you are supporting Indian manufacturing and investing in a sustainable future.
+
+
+              </p>
+
+              <h2 className=' text-center text-2xl md:ps-10 pt-3'>
+
+                Choose From Our Wide Range Of Products
+
+              </h2>
+
+
+              <br />
+
+
+
+              <br />
+
+            </div>
           </div>
 
 
+          <div className="col w-full px-4">
+            <div className=' justify-center items-center flex'>
+              <div id="chartdiv" ></div>
+            </div>
+
+
+          </div>
+
+
         </div>
 
-
-      </div>
-
-      <div className="row pb-12">
+        <div className="row pb-12">
 
 
 
 
 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-7 justify-center w-full">
-          {articles.map((article) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-7 justify-center w-full">
+            {articles.map((article) => (
 
-            <div
-              key={article.id}
-              className="border-2 border-sky-200 bg-white rounded-lg justify-center flex-col w-full px-5 mb-5 pt-3"
-            >
-              <div className="  2xl:h-auto  flex items-center justify-center overflow-hidden bg-gray-100 rounded-t-lg">
-                <a href={article.link} >
-                  <img
-                    className=" object-contain h-full w-full  "
-                    src={article.imgSrc}
-                    alt={article.title}
+              <div
+                key={article.id}
+                className="border-2 border-sky-200 bg-white rounded-lg justify-center flex-col w-full px-5 mb-5 pt-3"
+              >
+                <div className="  2xl:h-auto  flex items-center justify-center overflow-hidden bg-gray-100 rounded-t-lg">
+                  <a href={article.link} >
+                    <img
+                      className=" object-contain h-full w-full  "
+                      src={article.imgSrc}
+                      alt={article.title}
 
-                    height="20"
-                    width="20"
-                    loading='lazy'
+                      height="20"
+                      width="20"
+                      loading='lazy'
 
-                  />
-
-                </a>
-              </div>
-
-
-              <div className="pt-5">
-
-                <a href={article.link}>
-                  <h2 className="border-l-4 ps-4 text-[#00A0E1] border-[#00A0E1] mb-2 text-2xl font-bold">
-                    {article.title}
-                  </h2>
-                </a>
-                <p className="mb-3 ps-4 font-normal font-sans text-gray-700">
-                  {article.description}
-                </p>
-                <a
-                  href={article.link}
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-black"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="size-6 text-[#00A0E1] h-14 w-20"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
                     />
-                  </svg>
-                </a>
+
+                  </a>
+                </div>
+
+
+                <div className="pt-5">
+
+                  <a href={article.link}>
+                    <h2 className="border-l-4 ps-4 text-[#00A0E1] border-[#00A0E1] mb-2 text-2xl font-bold">
+                      {article.title}
+                    </h2>
+                  </a>
+                  <p className="mb-3 ps-4 font-normal font-sans text-gray-700">
+                    {article.description}
+                  </p>
+                  <a
+                    href={article.link}
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-black"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-6 text-[#00A0E1] h-14 w-20"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+
+
+
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-6 px-7  justify-center w-full  ">
+
+            {articles2.map((article) => (
+              <div
+                key={article.id}
+                className=" bg-white border-2 border-sky-200  rounded-lg justify-center flex-col w-full px-2 pt-2"
+              >
+                <div className="h-64  2xl:h-auto  flex items-center justify-center overflow-hidden bg-gray-100 rounded-t-lg ">
+
+                  <a href={article.link} className=' '>
+
+                    <img
+                      className=" object-contain h-full w-full  "
+                      src={article.imgSrc}
+                      alt={article.title}
+
+                      height="20"
+                      width="20"
+                      loading='lazy'
+
+                    />
+                  </a>
+                </div>
+
+
+
+
+                <div className=" pt-5 ">
+                  <a href={article.link}>
+                    <h5 className=" border-l-4 ps-4 text-[#00A0E1] border-[#00A0E1]  mb-2 text-[19px] font-bold ">
+                      {article.title}
+                    </h5>
+                  </a>
+
+
+                  <p className="mb-3 ps-4 font-normal font-sans text-gray-700  ">
+                    {article.description}
+                  </p>
+
+
+                  <a href={article.link}
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-black "
+                  >
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#00A0E1]  h-14 w-20">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+
+
+                  </a>
+
+
+                </div>
+              </div>
+            ))}
+
+          </div>
+
+
+
+
         </div>
 
+        <div className="row">
+
+
+          <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
+
+
+              <div>
+
+
+                <div className="block text-2xl md:text-3xl font-bold text-center md:text-left  text-gray-600 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">What Makes Us <br /> the Right Choice</div>
+
+
+                <ul className="space-y-2 sm:space-y-4 pt-3">
 
 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-6 px-7  justify-center w-full  ">
+                  <div>
+                    {data.map((item) => (
+                      <div
+                        key={item.id}
 
-          {articles2.map((article) => (
-            <div
-              key={article.id}
-              className=" bg-white border-2 border-sky-200  rounded-lg justify-center flex-col w-full px-2 pt-2"
-            >
-              <div className="h-64  2xl:h-auto  flex items-center justify-center overflow-hidden bg-gray-100 rounded-t-lg ">
+                        className=" cursor-pointer flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
+                      >
 
-                <a href={article.link} className=' '>
+                        <div className="flex flex-col justify-between py-2 px-4 leading-normal">
+                          <h5 className="mb-2 text-[15px] font-bold tracking-tight    dark:text-white">
+                            {item.title}
+                          </h5>
+                          <p className="mb-3 font-normal  text-[12px]     dark:text-gray-400">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
 
-                  <img
-                    className=" object-contain h-full w-full  "
-                    src={article.imgSrc}
-                    alt={article.title}
+                </ul>
 
-                    height="20"
-                    width="20"
-                    loading='lazy'
 
-                  />
-                </a>
+
+
+
+
+                <div className="mt-7 grid gap-3 w-full sm:inline-flex">
+                  <a href='/our-Company' className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" >
+                    Know more About Us
+                    <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                  </a>
+                  <a
+                    href="tel:8287885885"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = "tel:+919870248420";
+                    }}
+                    className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                  >
+                    Contact Us
+                  </a>
+
+                </div>
+
+
+
               </div>
 
 
+              <div className="relative ms-4 items-center flex justify-center">
+
+                <div className="flex justify-center  absolute " >
+                  <span className="relative flex h-16 w-16">
+                    <span
+                      className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
+                    ></span>
+
+                    <span
+                      className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
+                    >
+                      <FaPlay />
+                    </span>
+
+                  </span>
+                  <button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
+                </div>
 
 
-              <div className=" pt-5 ">
-                <a href={article.link}>
-                  <h5 className=" border-l-4 ps-4 text-[#00A0E1] border-[#00A0E1]  mb-2 text-[19px] font-bold ">
-                    {article.title}
-                  </h5>
-                </a>
 
 
-                <p className="mb-3 ps-4 font-normal font-sans text-gray-700  ">
-                  {article.description}
-                </p>
+                <img className="rounded-md" src="/po.webp"
 
+                  height="700"
+                  width="700"
 
-                <a href={article.link}
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-black "
-                >
+                  loading='lazy' alt="Hero Image" />
 
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#00A0E1]  h-14 w-20">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                  </svg>
+                <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
 
+                </div>
 
-                </a>
 
 
               </div>
-            </div>
-          ))}
-
-        </div>
 
 
-
-
-      </div>
-
-      <div className="row">
-
-
-        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-
-          <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
-
-
-            <div>
-
-
-              <div className="block text-2xl md:text-3xl font-bold text-center md:text-left  text-gray-600 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">What Makes Us <br /> the Right Choice</div>
-
-
-              <ul className="space-y-2 sm:space-y-4 pt-3">
-
-
-
-                <div>
-                  {data.map((item) => (
+              {showModal ? (
+                <>
+                  <div
+                    className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                    onClick={closeModal}
+                  >
                     <div
-                      key={item.id}
-
-                      className=" cursor-pointer flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 m-2 dark:bg-gray-800 hover:text-cyan-500 text-gray-400  dark:hover:bg-gray-700 ps-2 "
+                      className="relative  my-6    container-fluid "
+                      onClick={(e) => e.stopPropagation()}
                     >
 
-                      <div className="flex flex-col justify-between py-2 px-4 leading-normal">
-                        <h5 className="mb-2 text-[15px] font-bold tracking-tight    dark:text-white">
-                          {item.title}
-                        </h5>
-                        <p className="mb-3 font-normal  text-[12px]     dark:text-gray-400">
-                          {item.description}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-              </ul>
+                      <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
 
 
 
+                        <div className="relative  flex-auto">
 
 
+                          <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/lrCuiQKhzpg?si=9YXv4snGgFg7rXA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
-              <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                <a href='/our-Company' className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" >
-                  Know more About Us
-                  <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
-                </a>
-                <a
-                  href="tel:8287885885"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = "tel:+919870248420";
-                  }}
-                  className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                >
-                  Contact Us
-                </a>
+                        </div>
 
-              </div>
-
-
-
-            </div>
-
-
-            <div className="relative ms-4 items-center flex justify-center">
-
-              <div className="flex justify-center  absolute " >
-                <span className="relative flex h-16 w-16">
-                  <span
-                    className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
-                  ></span>
-
-                  <span
-                    className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
-                  >
-                    <FaPlay />
-                  </span>
-
-                </span>
-                <button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
-              </div>
-
-
-
-
-              <img className="rounded-md" src="/po.webp"   
-                
-                    height="700"
-                    width="700"
-
-                     loading='lazy' alt="Hero Image" />
-
-              <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
-
-              </div>
-
-
-
-            </div>
-
-
-            {showModal ? (
-              <>
-                <div
-                  className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                  onClick={closeModal}
-                >
-                  <div
-                    className="relative  my-6    container-fluid "
-                    onClick={(e) => e.stopPropagation()}
-                  >
-
-                    <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-
-
-
-                      <div className="relative  flex-auto">
-
-
-                        <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/lrCuiQKhzpg?si=9YXv4snGgFg7rXA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
                       </div>
-
-
                     </div>
                   </div>
-                </div>
-                <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-              </>
-            ) : null}
+                  <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                </>
+              ) : null}
 
+
+            </div>
 
           </div>
 
         </div>
+      </section>
 
+
+      <div className=" px-24  pb-8">
+
+        {/* ===== Hero Section ===== */}
+
+        <section className="relative pt-16 pb-28 px-6 max-w-8xl mx-auto">
+          <div className="absolute inset-0 -z-10 overflow-hidden">
+            <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-cyan-500/5 rounded-full filter blur-[120px]"></div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-900 mb-8 leading-tight">
+                <span className="text-cyan-700">Adhunik Powertech</span> : Leading HVAC & Industrial Cooling Products in India
+              </h1>
+
+              <div className="prose prose-lg text-gray-600 mb-10">
+                {heroContent.description.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </div>
+
+              <div className="flex flex-wrap gap-4">
+                <button className="bg-cyan-700 hover:bg-cyan-800 text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 shadow-lg hover:shadow-cyan-700/30 transition-all">
+                  Explore Products <ArrowRight className="w-5 h-5" />
+                </button>
+                <button className="bg-white text-cyan-800 px-8 py-4 rounded-xl font-bold flex items-center gap-3 border border-gray-300 hover:border-cyan-400 shadow-sm hover:shadow-md transition-all">
+                  Download Catalog
+                </button>
+              </div>
+            </div>
+
+            <div className="relative h-full min-h-[400px] bg-[url('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750850557/sd_phu8br.webp')] bg-cover bg-center rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/30 to-cyan-700/10"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== Product Categories ===== */}
+
+        <section className=" px-6 max-w-7xl mx-auto">
+          <div className="text-center mb-20">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Comprehensive Product Categories
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Discover the Adhunik Powertech advantage through our specialized product lines, each engineered for superior performance and longevity.
+            </p>
+          </div>
+
+          {/* Mapped Product Categories */}
+
+          {productCategories.map((category, index) => (
+            <div key={index} className="mb-5">
+              <div className="flex items-start gap-6 mb-12">
+                <div className="bg-cyan-100 p-4 rounded-xl text-cyan-700">
+                  {category.icon}
+                </div>
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
+                    {category.title}
+                  </h3>
+                  <p className="text-lg text-gray-600 max-w-4xl">
+                    {category.description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {category.products.map((product, pIndex) => (
+                  <div
+                    key={pIndex}
+                    className="group relative bg-white rounded-xl shadow-sm hover:shadow-lg transition-all overflow-hidden border border-gray-200"
+                  >
+                    <div className="p-8">
+                      <div className="w-14 h-14 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-700 mb-6">
+                        {product.icon}
+                      </div>
+                      <h4 className="text-xl font-bold text-gray-900 mb-4">
+                        {product.name}
+                      </h4>
+                      <p className="text-gray-600 mb-6">
+                        {product.description}
+                      </p>
+
+                      <div className="space-y-3">
+                        {product.specs.map((spec, sIndex) => (
+                          <div key={sIndex} className="flex items-start gap-3">
+                            <CheckCircle className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-gray-700">{spec}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="px-8 pb-8">
+                      <button className="text-cyan-700 font-medium flex items-center gap-2 group-hover:text-cyan-800 transition-colors">
+                        Technical Specifications <ArrowRight className="w-4 h-4" />
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </section>
+
+        {/* ===== Industry Applications ===== */}
+
+        <section className="py-24 bg-cyan-900/5">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Trusted Across Diverse Sectors
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Our systems deliver reliable performance in the most demanding environments.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {industries.map((industry, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-all hover:shadow-lg"
+                >
+                  <div className="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center text-cyan-700 mb-6">
+                    {industry.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    {industry.name}
+                  </h3>
+                  <p className="text-gray-600">
+                    {industry.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+       
       </div>
-
-
 
 
     </>

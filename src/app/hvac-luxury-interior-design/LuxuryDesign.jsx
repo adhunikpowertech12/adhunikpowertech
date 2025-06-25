@@ -228,9 +228,9 @@ export default function LuxuryDesign() {
 
         {/* ===== Architectural Divider ===== */}
         <div className="relative h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent max-w-7xl mx-auto mb-20">
-          <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
+          <h1 className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
             Design Integration Philosophy
-          </div>
+          </h1>
         </div>
 
         {/* ===== Premium Content Section ===== */}
