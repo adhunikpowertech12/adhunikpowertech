@@ -18,6 +18,23 @@ import {
   CheckCircle
 } from 'lucide-react';
 
+
+import { 
+   
+  Cpu, 
+    
+  Filter,
+   
+  Globe,
+  Clock,
+  Zap,
+  HardHat,
+  LifeBuoy,
+  Award
+} from 'lucide-react';
+
+
+
 export default function ProductOverview() {
 
 
@@ -309,6 +326,7 @@ export default function ProductOverview() {
   }, []);
 
 
+
   const heroContent = {
     title: "Adhunik Powertech: Leading HVAC & Industrial Cooling Products in India",
     description: [
@@ -413,6 +431,89 @@ export default function ProductOverview() {
     },
 
   ];
+
+
+    const precisionCoolingProducts = [
+    {
+      icon: <Cpu className="w-7 h-7" />,
+      title: "Panel Air Conditioners",
+      description: "Safeguard sensitive electrical and electronic components from overheating. Our panel air conditioners offer precise temperature control, compact designs, and a wide range of cooling capacities, making them ideal for CNC machines, control panels, and automation enclosures.",
+      specs: [
+        "±1°C temperature control",
+        "5-30kW cooling capacity",
+        "IP54 rated enclosures"
+      ]
+    },
+    {
+      icon: <Droplet className="w-7 h-7" />,
+      title: "Oil & Coolant Chillers",
+      description: "Maintain optimal operating temperatures for hydraulic systems and machine tools. Our industrial oil and coolant chillers are indispensable for industries relying on consistent fluid temperatures for efficient and precise manufacturing processes.",
+      specs: [
+        "10-100TR capacity",
+        "PID controlled",
+        "Corrosion-resistant construction"
+      ]
+    }
+  ];
+
+  // Cleanroom Solutions
+  const cleanroomSolutions = [
+    {
+      icon: <Filter className="w-7 h-7" />,
+      title: "Air Handling Units (AHU)",
+      description: "Designed for superior air quality and thermal comfort in large commercial and industrial settings, including pharmaceutical and healthcare facilities. Our AHU systems ensure precise control over temperature, humidity, and filtration.",
+      specs: [
+        "HEPA/ULPA filtration",
+        "±5% RH control",
+        "Stainless steel construction"
+      ]
+    },
+    {
+      icon: <Shield className="w-7 h-7" />,
+      title: "Air Showers & Pass Boxes",
+      description: "Crucial for maintaining sterile environments in cleanrooms. Our air showers efficiently decontaminate personnel before entry, while pass boxes enable material transfer without compromising cleanroom integrity. Both are available in high-grade stainless steel (SS 304) and powder-coated GI materials.",
+      specs: [
+        "25-35m/s air velocity",
+        "Interlocked doors",
+        "GMP compliant"
+      ]
+    }
+  ];
+
+  // Why Choose Us
+  const whyChooseUs = [
+    {
+      icon: <Globe className="w-6 h-6" />,
+      title: "Made in India, Exported Globally",
+      description: "We pride ourselves on manufacturing high-quality products in India that meet international standards and serve clients worldwide."
+    },
+    {
+      icon: <Clock className="w-6 h-6" />,
+      title: "Over 19 Years of Expertise",
+      description: "Benefit from nearly two decades of specialized experience in HVAC design, manufacturing, and project execution."
+    },
+    {
+      icon: <Zap className="w-6 h-6" />,
+      title: "Energy Efficiency & Sustainability",
+      description: "Our products are engineered to minimize energy consumption, reduce operational costs, and promote environmental responsibility."
+    },
+    {
+      icon: <HardHat className="w-6 h-6" />,
+      title: "Robust & Reliable Construction",
+      description: "We use premium materials and advanced manufacturing processes to ensure the longevity and performance of every unit."
+    },
+    {
+      icon: <LifeBuoy className="w-6 h-6" />,
+      title: "Comprehensive Service & Support",
+      description: "In addition to our products, we offer complete turnkey solutions, expert consultation, and dedicated after-sales service."
+    },
+    {
+      icon: <Award className="w-6 h-6" />,
+      title: "Quality & Compliance",
+      description: "Adherence to industry best practices and standards (e.g., ISHRAE, ASHRAE, ISO) ensures top-tier quality."
+    }
+  ];
+
 
   return (
     <>
@@ -851,12 +952,11 @@ export default function ProductOverview() {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <button className="bg-cyan-700 hover:bg-cyan-800 text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 shadow-lg hover:shadow-cyan-700/30 transition-all">
-                  Explore Products <ArrowRight className="w-5 h-5" />
-                </button>
-                <button className="bg-white text-cyan-800 px-8 py-4 rounded-xl font-bold flex items-center gap-3 border border-gray-300 hover:border-cyan-400 shadow-sm hover:shadow-md transition-all">
+        
+                <a     href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
+                      download="Adhunik-Powertech-Product-Catalogue-2024" className="bg-white text-cyan-800 px-8 py-4 rounded-xl font-bold flex items-center gap-3 border border-gray-300 hover:border-cyan-400 shadow-sm hover:shadow-md transition-all">
                   Download Catalog
-                </button>
+                </a>
               </div>
             </div>
 
@@ -937,7 +1037,7 @@ export default function ProductOverview() {
 
         {/* ===== Industry Applications ===== */}
 
-        <section className="py-24 bg-cyan-900/5">
+        <section className="py-24 bg-cyan-900/5 rounded-2xl">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -968,6 +1068,143 @@ export default function ProductOverview() {
             </div>
           </div>
         </section>
+
+
+
+ <div className=" ">
+      {/* ===== Hero Section ===== */}
+      <section className="relative  pt-16 px-6 max-w-7xl mx-auto">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500/5 rounded-full filter blur-[100px]"></div>
+        </div>
+        
+        <div className="text-center  ">
+          <div className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+            <span className="text-cyan-700">Precision Cooling</span> & Process Control Equipment
+          </div>
+          <p className="text-md text-gray-600 max-w-4xl mx-auto">
+            Protect your valuable machinery and maintain critical temperatures with Adhunik Powertech's precision cooling solutions. These systems are vital for optimizing performance, extending equipment lifespan, and preventing costly downtime.
+          </p>
+        </div>
+      </section>
+
+      {/* ===== Precision Cooling Products ===== */}
+      <section className="py-16 px-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
+          {precisionCoolingProducts.map((product, index) => (
+            <div 
+              key={index}
+              className="bg-white rounded-xl p-8 shadow-sm border border-gray-200 hover:shadow-lg transition-all"
+            >
+              <div className="flex items-start gap-6">
+                <div className="bg-cyan-100 p-4 rounded-xl text-cyan-700">
+                  {product.icon}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">{product.title}</h3>
+                  <p className="text-gray-600 text-sm text-justify mb-6">{product.description}</p>
+                  <div className="space-y-3">
+                    {product.specs.map((spec, sIndex) => (
+                      <div key={sIndex} className="flex items-start gap-3">
+                        <CheckCircle className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-gray-700">{spec}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ===== Cleanroom Solutions ===== */}
+      <section className="  py-14 bg-cyan-900/5">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl   font-bold text-gray-900 mb-4">
+              Integrated Air Handling & <span className="text-cyan-700">Cleanroom Solutions</span>
+            </h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {cleanroomSolutions.map((solution, index) => (
+              <div 
+                key={index}
+                className="bg-white rounded-xl p-8 shadow-sm border border-gray-200 hover:shadow-lg transition-all"
+              >
+                <div className="flex items-start gap-6">
+                  <div className="bg-cyan-100 p-4 rounded-xl text-cyan-700">
+                    {solution.icon}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{solution.title}</h3>
+                    <p className="text-gray-600 text-sm text-justify mb-6">{solution.description}</p>
+                    <div className="space-y-3">
+                      {solution.specs.map((spec, sIndex) => (
+                        <div key={sIndex} className="flex items-start gap-3">
+                          <CheckCircle className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
+                          <span className="text-gray-700">{spec}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== Why Choose Us ===== */}
+      <section className="py-24 px-6 max-w-7xl mx-auto">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl  font-bold text-gray-900 mb-4">
+            Why Choose <span className="text-cyan-700">Adhunik Powertech?</span>
+          </h2>
+          <p className="text-md text-gray-600 max-w-3xl mx-auto">
+            Your Trusted HVAC Partner
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {whyChooseUs.map((reason, index) => (
+            <div 
+              key={index}
+              className="bg-white rounded-xl p-8 shadow-sm border border-gray-200 hover:border-cyan-300 transition-all hover:shadow-md"
+            >
+              <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-700 mb-6">
+                {reason.icon}
+              </div>
+              <h3 className="text-md font-bold text-gray-900 mb-3">{reason.title}</h3>
+              <p className=" text-sm text-gray-600">{reason.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ===== CTA Section ===== */}
+      <section className="py-28 px-6 bg-gradient-to-r rounded-2xl from-cyan-800 to-cyan-600 text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl   font-bold mb-8">
+            Ready to Protect Your Critical Equipment?
+          </h2>
+          <p className="text-md text-cyan-100 mb-12 max-w-2xl mx-auto">
+            Our technical experts will help you select the perfect precision cooling solution for your specific requirements.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href='tel:8287885885' className="bg-white text-cyan-900 px-8 py-4 rounded-xl font-bold flex items-center gap-3 shadow-xl hover:bg-gray-100 transition-all">
+              Get Expert Advice <ArrowRight className="w-5 h-5" />
+            </a>
+            <a     href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
+                      download="Adhunik-Powertech-Product-Catalogue-2024" className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-white/10 transition-all">
+              Download Product Catalog
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
 
        
       </div>
