@@ -174,11 +174,11 @@ export default function LuxuryDesign() {
                     <div className="md:text-center text-left     ">
 
 
-                      <span className="text-sm font-medium  flex justify-start mb-3 pt-6 items-center  text-cyan-800">
+                      <span className="text-sm font-medium  flex justify-center md:justify-start mb-3 pt-6 items-center md:items-center  text-cyan-800">
                       <Sparkles className="w-4 h-4 text-cyan-600 mr-4" /> Architectural Climate Systems</span>
 
 
-                      <p className="text-4xl text-left md:text-4xl font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-2xl text-center md:text-left md:text-4xl font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-cyan-600 to-cyan-800 bg-clip-text text-transparent">
                           How Smart HVAC
                         </span><br />
@@ -188,7 +188,7 @@ export default function LuxuryDesign() {
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 
                       In today's fast-paced world, the concept of a truly comfortable and functional space has evolved far beyond mere aesthetics. While a beautifully designed interior can undoubtedly inspire and delight, its true potential is only unlocked when it's seamlessly integrated with advanced comfort systems. At Adhunik Powertech, we deeply understand that optimal climate control isn't just about maintaining a specific temperature – it's about curating an environment that feels just right, operating with quiet efficiency, and enhancing the overall well-being of its occupants.
@@ -210,21 +210,21 @@ export default function LuxuryDesign() {
 
         {/* ===== Architectural Divider ===== */}
         <div className="relative h-px bg-gradient-to-r from-transparent via-orange-500 to-transparent max-w-7xl mx-auto mb-20">
-          <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-3xl">
+          <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
             Design Integration Philosophy
           </div>
         </div>
 
         {/* ===== Premium Content Section ===== */}
-        <section className="relative max-w-7xl mx-auto px-6 pb-32">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
+        <section className="relative max-w-7xl mx-auto px-6 mb-12 md:pb-24">
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-16">
             {/* Left sticky column */}
             <div className="lg:sticky lg:top-32 h-fit">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className=" text-center md:text-left text-md md:text-3xl font-bold text-gray-900 mb-6">
                 The Invisible Comfort :<br />
                 <span className="text-cyan-600">HVAC as Design Element</span>
               </h2>
-              <p className="text-gray-600 text-sm mb-8">
+              <p className="text-gray-600 text-justify text-sm mb-8">
                 However, a common challenge arises when the very systems designed to provide this comfort appear to clash with the clean lines, minimalist approaches, and elegant finishes that define modern interior design. This is precisely where the synergy between intelligent HVAC solutions and thoughtful interior aesthetics becomes not just beneficial, but absolutely paramount. The goal is to make the technology disappear, leaving behind only the comfort and beauty.
               </p>
               <div className="hidden lg:block">
@@ -237,9 +237,9 @@ export default function LuxuryDesign() {
             </div>
 
             {/* Right content column */}
-            <div className="lg:col-span-2 space-y-20">
+            <div className="lg:col-span-2 space-y-4 md:space-y-20">
               {/* Intro paragraph */}
-              <div className="prose prose-lg text-gray-600">
+              <div className="prose text-sm md:text-md text-justify md:text-left prose-lg text-gray-600">
                 <p>
                   Traditional HVAC systems, often characterized by their conspicuous ducts, bulky outdoor units, and sometimes noisy operation, can indeed become an unwelcome visual intrusion in a meticulously designed space. They can disrupt the flow, compromise the aesthetic integrity, and even limit design possibilities. Fortunately, significant advancements in climate control technology have ushered in an era of solutions that are as discreet as they are remarkably effective.
                 </p>
@@ -256,13 +256,13 @@ export default function LuxuryDesign() {
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-white to-cyan-50/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="relative p-8 lg:p-10">
-                    <div className="flex items-start gap-8">
-                      <div className="bg-cyan-100/10 border border-cyan-100/30 p-4 rounded-xl text-cyan-600 flex-shrink-0 mt-1">
+                    <div className="flex justify-center items-center flex-col md:flex-row md:items-start gap-8">
+                      <div className="bg-orange-100/10 border border-orange-100/30 p-4 rounded-xl text-orange-600 flex-shrink-0 mt-1">
                         {feature.icon}
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
-                        <p className="text-gray-600 leading-relaxed">{feature.content}</p>
+                        <h3 className=" text-lg md:text-2xl text-center md:text-left font-bold text-gray-900 mb-4">{feature.title}</h3>
+                        <p className="text-gray-600 text-sm md:text-md leading-relaxed">{feature.content}</p>
                       </div>
                     </div>
                   </div>
@@ -276,12 +276,12 @@ export default function LuxuryDesign() {
           {/* ===== Hero Section ===== */}
           <section className="relative     px-6 max-w-7xl mx-auto">
             <div className="text-center mb-20">
-              <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                When HVAC Meets High Design :<br />
+              <h2 className="text-xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                When HVAC Meets High Design : <br />
                 <span className="text-cyan-600">A Partnership for Perfection</span>
-              </h1>
+              </h2>
 
-              <div className="max-w-4xl mx-auto text-sm text-gray-600 space-y-6">
+              <div className="max-w-4xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
                 <p>
                   The ultimate goal in integrating HVAC with interior design is to have your comfort systems enhance, rather than detract from, your interior design vision. Achieving this harmony necessitates a collaborative approach from the very earliest stages of a project.
                 </p>
@@ -289,48 +289,51 @@ export default function LuxuryDesign() {
             </div>
 
             {/* Integration Examples */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
               {integrationExamples.map((example, index) => (
-                <div key={index} className="bg-gray-50 rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-colors">
-                  <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
+                <div key={index} className="bg-gray-50 flex flex-col items-center md:items-start  rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-colors">
+                  <div className="w-12 h-12  bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
                     {example.icon}
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{example.title}</h3>
-                  <p className="text-gray-600 text-sm ">{example.content}</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center md:text-left">{example.title}</h3>
+                  <p className="text-gray-600 text-sm text-justify md:text-left">{example.content}</p>
                 </div>
               ))}
             </div>
 
             {/* Full-width content block */}
-            <div className="bg-cyan-900/5 rounded-2xl p-12 border border-cyan-900/10 mb-24">
-              <p className="text-md text-gray-700 mb-8">
+            <div className="bg-cyan-900/5 rounded-2xl p-9 md:p-12 border border-cyan-900/10 mb-24">
+              <p className=" text-sm text-justify md:text-md text-gray-700 ">
                 Our team at Adhunik Powertech is committed to providing units that are not only high-performing but also compact, aesthetically pleasing, or specifically engineered to be easily concealed. This design philosophy empowers interior designers to unleash their full creative potential, knowing that comfort systems will complement their vision rather than compromise it. We work with architects and designers to ensure that our systems fit perfectly within the structural and aesthetic parameters.
               </p>
             </div>
 
             {/* Design Considerations Section */}
             <div className="mb-24">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+              <h2 className=" text-xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
                 The Indispensable Role of Thoughtful Interior Planning
               </h2>
-              <p className="text-md text-gray-600 max-w-4xl mx-auto text-center mb-16">
+              <p className=" text-sm md:text-md text-gray-600 max-w-4xl mx-auto text-center mb-16">
                 This is precisely where the specialized expertise of an accomplished interior design professional becomes not just valuable, but truly indispensable.
               </p>
+
+
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {designConsiderations.map((item, index) => (
                   <div key={index} className="group relative overflow-hidden bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-8 border border-gray-100">
                     <div className="absolute inset-0 bg-gradient-to-br from-white to-cyan-50 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="relative">
+                    <div className="relative flex flex-col md:items-start items-center ">
                       <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
                         {item.icon}
                       </div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
-                      <p className="text-gray-600 text-sm">{item.content}</p>
+                      <h3 className=" text-lg md:text-2xl text-center md:text-left  font-bold text-gray-900 mb-4">{item.title}</h3>
+                      <p className="text-gray-600 text-sm  text-justify md:text-left">{item.content}</p>
                     </div>
                   </div>
                 ))}
               </div>
+
             </div>
 
 
@@ -344,12 +347,12 @@ export default function LuxuryDesign() {
               <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-400/5 rounded-full filter blur-[100px]"></div>
             </div>
 
-            <div className="text-center mb-20">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            <div className="text-center mb-10 md:mb-20">
+              <h2 className="text-xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Experience the <span className="text-cyan-600">Best of Both Worlds</span>
-              </h1>
+              </h2>
 
-              <div className="max-w-4xl mx-auto text-md text-gray-600 space-y-6">
+              <div className="max-w-4xl  mx-auto text-sm text-justify md:text-md text-gray-600 space-y-6">
                 <p>
                   At Adhunik Powertech, our core commitment is to provide you with cutting-edge climate control solutions that consistently deliver superior comfort, remarkable efficiency, and long-term reliability. We firmly believe that true comfort is a sophisticated blend of optimal temperature, pristine air quality, and an environment that visually inspires and emotionally uplifts.
                 </p>
@@ -357,17 +360,17 @@ export default function LuxuryDesign() {
             </div>
 
             {/* Value Propositions */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 md:mb-24">
               {valuePropositions.map((item, index) => (
                 <div
                   key={index}
-                  className="bg-white/80 backdrop-blur-sm rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-all hover:shadow-lg"
+                  className="bg-white/80 flex flex-col md:items-start items-center  backdrop-blur-sm rounded-xl p-8 border border-gray-200 hover:border-cyan-300 transition-all hover:shadow-lg"
                 >
                   <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="text-gray-500 text-sm">{item.description}</p>
+                  <p className="text-gray-500 text-center md:text-left text-sm">{item.description}</p>
                 </div>
               ))}
             </div>
@@ -377,7 +380,7 @@ export default function LuxuryDesign() {
               <div style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
                 className="absolute inset-0   opacity-5"></div>
               <div className="relative">
-                <p className="text-xl text-gray-700 max-w-4xl mx-auto text-center">
+                <p className=" text-sm md:text-justify md:text-xl text-gray-700 max-w-4xl mx-auto text-center">
                   To truly explore how these advanced, discreet climate control systems can be seamlessly woven into the fabric of your dream home or commercial venture, we highly recommend consulting with interior design professionals who specialize in creating harmonious, functional, and aesthetically captivating environments .
                 </p>
               </div>
@@ -385,9 +388,15 @@ export default function LuxuryDesign() {
 
             {/* Consultation Options */}
             <div className="mb-24">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-12 text-center">
-                Begin Your Transformation
-              </h2>
+
+              <div className="relative h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent max-w-7xl mx-auto mb-20">
+          <div className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
+               Begin Your Transformation
+          </div>
+        </div>
+
+
+            
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {consultationOptions.map((item, index) => (
@@ -395,13 +404,15 @@ export default function LuxuryDesign() {
                     key={index}
                     className="group relative overflow-hidden bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-8 border border-gray-100"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-br from-white to-cyan-50 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white to-cyan-50 opacity-0 group-hover:opacity-100 transition-opacity">
+
+                    </div>
+                    <div className="relative flex flex-col items-center  md:items-start">
                       <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center text-cyan-600 mb-6">
                         {item.icon}
                       </div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
-                      <p className="text-gray-600 mb-6">{item.description}</p>
+                      <h3 className=" text-lg md:text-2xl font-bold text-gray-900 mb-4">{item.title}</h3>
+                      <p className="text-gray-600 mb-6  text-md text-center md:text-left md:text-sm">{item.description}</p>
                       <Link href='https://adhunikdecodive.com/' className="text-cyan-600 font-medium flex items-center gap-2 group-hover:text-cyan-700 transition-colors">
                         Learn more <ArrowRight className="w-4 h-4" />
                       </Link>
@@ -417,11 +428,11 @@ export default function LuxuryDesign() {
                 className="absolute inset-0   bg-[length:20px_20px] opacity-10"></div>
               <div className="relative max-w-4xl mx-auto text-center">
                 <CheckCircle className="w-12 h-12 mx-auto mb-6 text-cyan-300" />
-                <h3 className="text-3xl font-bold mb-6">Partner with Experts</h3>
-                <p className="text-xl text-cyan-100 mb-8">
+                <h3 className=" text-lg md:text-3xl font-bold mb-6">Partner with Experts</h3>
+                <p className=" text-sm md:text-xl text-cyan-100 mb-8">
                   Partnering with experts like Adhunik Decodive can unlock the full potential of your space, delivering comfort that is felt, not seen.
                 </p>
-                <Link href='https://adhunikdecodive.com/support-form' className="bg-white w-fit text-cyan-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors mx-auto shadow-xl">
+                <Link href='https://adhunikdecodive.com/support-form' className="bg-white w-fit text-cyan-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
                   Schedule Consultation <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
