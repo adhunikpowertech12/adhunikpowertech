@@ -56,14 +56,15 @@ export const BldcFans = () => {
           color: 'Cherry Brown',
           price: 2499,
           regularPrice: 3999,
-          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931673/uxnl8ad09ry2dcawvg2y_cd8wyu.webp',
+          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931673/uxnl8ad09ry2dcawvg2y_cd8wyu.webp',
           gallery: [
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931671/blqsnozev9qtakqotppr_d4mnpw.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931680/znkvb9wimasxsr3cr709_zd083f.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931672/a7vyihiz0zmy2rwr6mvp_h7f9rb.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931678/evsssbmhdys2t2icityv_zsxfyz.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931678/c4ilbvqh9krugomyjck1_no7uw7.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931679/v2pgnzmemdrhuogrbgre_va38yw.webp'
           ]
         }
       ],
