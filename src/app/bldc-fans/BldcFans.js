@@ -190,7 +190,8 @@ export const BldcFans = () => {
           ]
         }
       ]
-    },
+    }
+    ,
 
     {
       id: 3,
@@ -507,8 +508,8 @@ export const BldcFans = () => {
 
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <main className="container mx-auto px-4 md:px-14 py-12 mt-32">
+    <div className="min-h-screen  w-full bg-gray-50">
+      <main className="container-fluid mx-auto px-4 md:px-14 py-12 mt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           {/* Gallery Section */}
           <div className="space-y-6">
@@ -566,7 +567,7 @@ export const BldcFans = () => {
                 <button
                   key={fan.id}
                   onClick={() => handleFanChange(index)}
-                  className={`px-6 py-3 rounded-full font-medium transition-all ${selectedFan === index
+                  className={`px-6 py-3 rounded-full text-sm  transition-all ${selectedFan === index
                     ? 'bg-cyan-600 text-white shadow-lg'
                     : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50'}`}
                 >
@@ -577,7 +578,8 @@ export const BldcFans = () => {
 
             {showColorSelector && (
               <div className="flex flex-col space-y-3">
-                <span className="text-sm font-medium text-gray-700">Color: {currentVariant.color}</span>
+                <span className="text-sm font-medium text-gray-700">
+                Color: {currentVariant.color}</span>
                 <div className="flex space-x-3">
                   {currentFan.variants.map((variant, index) => (
                     <button
