@@ -37,10 +37,10 @@ export default function EnergyCalculator() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white rounded-xl shadow-lg">
+    <div className="max-w-2xl mx-auto p-4 py-9 md:p-6 bg-white rounded-xl shadow-lg">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">Energy Saving Calculator</h2>
-        <p className="text-gray-600 mt-2">Calculate your potential savings with energy-efficient fans</p>
+        <h2 className=" text-xl pb-3  md:text-2xl font-bold text-gray-800">Energy Saving Calculator</h2>
+        <p className="text-gray-600 text-sm mt-2">Calculate your potential savings with energy-efficient fans</p>
       </div>
 
       <div className="space-y-6">
@@ -87,7 +87,7 @@ export default function EnergyCalculator() {
         {/* Calculate Button */}
         <button
           onClick={calculateSavings}
-          className="w-full py-3 px-4 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition duration-200 shadow-md"
+          className="w-full py-3 px-4 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition   text-sm duration-200 shadow-md"
         >
           Calculate Savings
         </button>
@@ -99,33 +99,33 @@ export default function EnergyCalculator() {
             
             <div className="space-y-3">
               <div className="flex justify-between">
-                <span className="text-gray-600">Conventional Fans Energy Use (Yearly):</span>
-                <span className="font-medium">{results.conventionalEnergy.toFixed(2)} kWh</span>
+                <span className="text-gray-600 text-sm">Conventional Fans Energy Use (Yearly):</span>
+                <span className="font-medium text-sm">{results.conventionalEnergy.toFixed(2)} kWh</span>
               </div>
               
               <div className="flex justify-between">
-                <span className="text-gray-600">Your Fans Energy Use (Yearly):</span>
-                <span className="font-medium">{results.efficientEnergy.toFixed(2)} kWh</span>
+                <span className="text-gray-600 text-sm">Your Fans Energy Use (Yearly):</span>
+                <span className="font-medium text-sm">{results.efficientEnergy.toFixed(2)} kWh</span>
               </div>
               
               <div className="flex justify-between pt-3 border-t border-gray-200">
-                <span className="text-green-600 font-medium">Energy Saved (Yearly):</span>
-                <span className="text-green-600 font-medium">{results.savingsInEnergy.toFixed(2)} kWh</span>
+                <span className="text-green-600 font-medium text-sm">Energy Saved (Yearly):</span>
+                <span className="text-green-600 font-medium text-sm">{results.savingsInEnergy.toFixed(2)} kWh</span>
               </div>
               
               <div className="flex justify-between">
-                <span className="text-green-600 font-medium">Amount Saved (Yearly):</span>
-                <span className="text-green-600 font-medium">₹{results.savingsInCost.toFixed(2)} INR</span>
+                <span className="text-green-600 text-sm font-medium">Amount Saved (Yearly):</span>
+                <span className="text-green-600 text-sm font-medium">₹{results.savingsInCost.toFixed(2)} INR</span>
               </div>
               
               <div className="flex justify-between pt-3 border-t border-gray-200">
-                <span className="text-gray-600">CO₂ Saved (Yearly):</span>
-                <span className="font-medium">{results.co2Savings.toFixed(2)} kg</span>
+                <span className="text-gray-600 text-sm">CO₂ Saved (Yearly):</span>
+                <span className="font-medium text-sm">{results.co2Savings.toFixed(2)} kg</span>
               </div>
               
               <div className="flex justify-between">
-                <span className="text-gray-600">Equivalent to Planting:</span>
-                <span className="font-medium">{Math.ceil(results.treesEquivalent)} Trees</span>
+                <span className="text-gray-600 text-sm">Equivalent to Planting:</span>
+                <span className="font-medium text-sm">{Math.ceil(results.treesEquivalent)} Trees</span>
               </div>
             </div>
           </div>

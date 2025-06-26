@@ -508,8 +508,8 @@ export const BldcFans = () => {
 
 
   return (
-    <div className="min-h-screen   bg-gray-50">
-      <main className="container mx-auto px-4 md:px-14 py-12 mt-32">
+    <div className="min-h-screen       bg-gray-50">
+      <main className="container mx-auto px-4 md:px-14 py-12  mt-12 md:mt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           {/* Gallery Section */}
           <div className="space-y-6">
@@ -585,7 +585,7 @@ export const BldcFans = () => {
                     <button
                       key={index}
                       onClick={() => setSelectedVariant(index)}
-                      className={`px-4 py-2 rounded-md border-2 transition-all ${selectedVariant === index
+                      className={`px-4 text-sm md:text-md py-2 rounded-md border-2 transition-all ${selectedVariant === index
                         ? 'border-cyan-600 bg-cyan-50'
                         : 'border-gray-200 hover:border-gray-300'}`}
                     >
@@ -603,17 +603,17 @@ export const BldcFans = () => {
                 </div>
               </div>
             )}
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">{currentFan.name}</h1>
-              <p className="text-xl text-cyan-600 mt-2">{currentFan.tagline}</p>
+            <div className=' flex flex-col justify-center  md:items-start items-center'>
+              <h1 className=" text-2xl md:text-3xl font-bold text-gray-900">{currentFan.name}</h1>
+              <p className=" text-sm md:text-xl text-cyan-600 mt-2">{currentFan.tagline}</p>
             </div>
 
             {/* Highlights */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {currentFan.highlights.map((item, index) => (
-                <div key={index} className="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+                <div key={index} className="bg-white  flex flex-col  items-center justify-center p-4 rounded-xl shadow-sm border border-gray-100">
                   <div className="text-cyan-600 mb-2">{item.icon}</div>
-                  <h3 className="font-medium text-sm text-gray-500 pb-1">{item.title}</h3>
+                  <h3 className=" text-center text-sm text-gray-500 pb-1">{item.title}</h3>
                   <p className="text-md font-semibold text-gray-800">{item.value}</p>
                 </div>
               ))}
@@ -621,14 +621,14 @@ export const BldcFans = () => {
 
             {/* Price */}
             <div className="bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl border border-cyan-100">
-              <div className="flex items-end">
-                <span className="text-4xl font-bold text-cyan-700">₹{currentVariant.price.toLocaleString()}</span>
-                <span className="ml-3 text-xl text-gray-500 line-through">₹{currentVariant.regularPrice.toLocaleString()}</span>
-                <span className="ml-3 bg-cyan-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+              <div className="flex  items-center justify-center md:justify-start ">
+                <span className=" text-lg md:text-2xl font-bold text-cyan-700">₹{currentVariant.price.toLocaleString()}</span>
+                <span className="ml-3 text-sm text-gray-500 line-through">₹{currentVariant.regularPrice.toLocaleString()}</span>
+                <span className="ml-3 bg-cyan-600 text-white px-3 py-1 rounded-full text-[12px] ">
                   Save ₹{(currentVariant.regularPrice - currentVariant.price).toLocaleString()}
                 </span>
               </div>
-              <div className="mt-2 text-green-600 font-medium flex items-center">
+              <div className="mt-2 text-green-600  text-sm text-center justify-center md:justify-start flex items-center">
                 <Check className="w-5 h-5 mr-1" />
                 Free Shipping & Installation
               </div>
@@ -636,11 +636,11 @@ export const BldcFans = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+              <Link href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 text-sm rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
                 <MessageSquareQuote className="mr-2" />
                 Request Quote
               </Link>
-              <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+              <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
                 <Phone className="w-6 h-6 mr-2" />
                 Call Us Now
               </a>
@@ -648,13 +648,17 @@ export const BldcFans = () => {
           </div>
         </div>
 
+
+
+
+
         {/* Product Details Tabs */}
         <div className="mb-20">
-          <div className="border-b border-gray-200">
-            <nav className="flex flex-col md:flex-row md:space-x-8">
+          <div className="">
+            <nav className="flex border-2 border-cyan-600 rounded-2xl p-2 justify-center md:justify-start px-9 md:items-start items-center flex-col md:flex-row md:space-x-8">
               <button
                 onClick={() => setActiveTab('features')}
-                className={`py-4 px-1 font-medium text-sm border-b-2 ${activeTab === 'features' ? 'border-cyan-600 text-cyan-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
+                className={`py-4 px-1 w-fit font-medium  text-sm border-b-2 ${activeTab === 'features' ? 'border-cyan-600   text-cyan-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
               >
                 Features
               </button>
@@ -683,14 +687,14 @@ export const BldcFans = () => {
             {activeTab === 'features' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Premium Features</h3>
-                  <ul className="space-y-4">
+                  <h3 className=" text-sm md:text-xl  text-center md:text-left  font-semibold text-gray-900 mb-5">Premium Features</h3>
+                  <ul className="space-y-4 px-2">
                     {currentFan.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
-                        <div className="flex-shrink-0 h-6 w-6 text-cyan-600 mr-3 mt-0.5">
+                        <div className="  flex-shrink-0 h-6 w-6 text-cyan-600 mr-3 mt-0.5">
                           <Check className="w-5 h-5" />
                         </div>
-                        <p className="text-gray-700">{feature}</p>
+                        <p className=" text-sm  text-gray-700">{feature}</p>
                       </li>
                     ))}
                   </ul>
@@ -769,20 +773,20 @@ export const BldcFans = () => {
         <div className="bg-gray-50">
           {/* Hero Section */}
           <section className="bg-gradient-to-r from-cyan-800 to-cyan-600 rounded-2xl text-white py-10 px-4">
-            <div className="container px-5 mx-auto max-w-6xl">
+            <div className="container md:px-5 mx-auto max-w-6xl">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-                <div>
-                  <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                <div className=' px-3'>
+                  <h1 className="  text-center md:text-left  text-xl md:text-3xl font-bold mb-2">
                     Adhunik Air Care BLDC Ceiling Fans
                   </h1>
-                  <p className="text-xl mb-2 text-cyan-100">
+                  <p className=" text-center md:text-left  text-lg md:text-xl mb-4 text-cyan-100">
                     The Future of Efficient Cooling. Reclaim Your Savings.
                   </p>
-                  <p className=' text-sm pb-5'>Experience unmatched comfort and significant energy savings with Adhunik Air Care BLDC Ceiling Fans – Smart Air Solutions for Stylish Living from Adhunik Powertech.
+                  <p className=' text-sm pb-9 text-justify'>Experience unmatched comfort and significant energy savings with Adhunik Air Care BLDC Ceiling Fans – Smart Air Solutions for Stylish Living from Adhunik Powertech.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <button onClick={scrollToCalculator} className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-cyan-50 transition">
+                    <button onClick={scrollToCalculator} className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex text-sm items-center justify-center hover:bg-cyan-50 transition">
                       <Calculator className="mr-2" />
                       Calculate Your Savings
                     </button>
@@ -790,7 +794,7 @@ export const BldcFans = () => {
                   </div>
                 </div>
                 <div className="flex justify-center">
-                  <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-sm border border-white/20">
+                  <div className="bg-white/10 p-1 md:p-3 rounded-2xl backdrop-blur-sm border border-white/20">
 
                     <div ref={calculatorRef} className=" ">
                       <EnergyCalculator />
@@ -803,10 +807,10 @@ export const BldcFans = () => {
           </section>
 
           {/* About Section */}
-          <section className="py-16 px-4 bg-white">
+          <section className=" mt-10 md:mt-0 md:py-16 px-4 bg-white">
             <div className="container mx-auto max-w-6xl">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                <h2 className=" text-lg md:text-3xl font-bold text-gray-900 mb-4">
                   About Adhunik Air Care : Innovation, Quality, and Trusted Performance
 
                 </h2>
@@ -831,19 +835,19 @@ export const BldcFans = () => {
 
 
                 <div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                  <h3 className=" text-lg text-center md:text-left md:text-2xl font-semibold text-gray-900 mb-4">
                     Smart Air Solutions for Stylish Living
                   </h3>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-gray-600 mb-3 md:md-6 text-sm text-justify">
                     Our BLDC ceiling fans combine powerful air delivery with low electricity consumption
                     and whisper-quiet performance. Designed to fit perfectly into today's modern lifestyle,
                     whether you're upgrading your home or planning a smart office setup.
                   </p>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-gray-600 mb-6 text-sm text-justify">
 
                     Whether you're upgrading your home or planning a smart office setup, our fans are made to fit perfectly into today's modern lifestyle. Backed by the trusted name of Adhunik Powertech, we bring you a mix of innovation, quality, and trusted performance with every fan. Our vision is to lead the way in smart and sustainable air solutions, bringing comfort and innovation into every home and workspace through energy-efficient, stylish, and modern ceiling fans. </p>
-                  <div className="flex items-center text-cyan-600 font-medium">
-                    <BadgeCheck className="mr-2" />
+                  <div className="flex items-center text-center text-cyan-600 font-medium">
+                    <BadgeCheck className=" md:mr-2" />
                     <span>Backed by the trusted name of Adhunik Powertech</span>
                   </div>
                 </div>
