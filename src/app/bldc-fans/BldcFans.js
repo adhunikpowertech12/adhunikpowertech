@@ -859,13 +859,13 @@ export const BldcFans = () => {
           <section className="py-16 px-4 bg-gray-50">
             <div className="container mx-auto max-w-6xl">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                <h2 className=" text-lg md:text-3xl font-bold text-gray-900 mb-4">
                   Why Choose Adhunik Air Care BLDC Fans?
 
                 </h2>
                 <p className=' text-sm font-bold text-gray-900 pb-3'>Unrivaled Performance & Savings</p>
                 <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                <p className=" text-sm  md:text-lg text-gray-600 max-w-3xl mx-auto">
                   Adhunik Air Care BLDC fans offer a revolutionary approach to cooling, providing superior comfort while dramatically reducing your energy bills.
 
                 </p>
@@ -902,17 +902,17 @@ export const BldcFans = () => {
             <div className="container mx-auto max-w-6xl">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                  <h2 className=" text-lg text-center md:text-left md:text-3xl font-bold text-gray-900 mb-6">
                     Unmatched Energy Efficiency
                   </h2>
                   <div className="space-y-6">
                     <div className="flex items-start">
                       <Check className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        <h3 className=" md:text-xl font-semibold text-gray-900 mb-2">
                           Cut Electricity Bills Drastically
                         </h3>
-                        <p className="text-gray-600">
+                        <p className="text-gray-600 text-sm text-justify">
                           Adhunik Air Care BLDC Fans consume a maximum of just 32 Watts at top speed -
                           up to 65% less power than conventional fans (75-90 Watts).
                         </p>
@@ -921,23 +921,26 @@ export const BldcFans = () => {
                     <div className="flex items-start">
                       <Check className="w-6 h-6 text-green-500 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                        <h3 className="  md:text-xl font-semibold text-gray-900 mb-2">
                           Remarkable Low-Speed Consumption
                         </h3>
-                        <p className="text-gray-600">
+                        <p className="text-gray-600 text-sm text-justify">
                           At Speed 1, our fans consume as little as 3 Watts for ultra-efficient operation.
                         </p>
                       </div>
                     </div>
-                    <button onClick={scrollToCalculator} className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-lg font-medium flex items-center mt-6">
+                    <button onClick={scrollToCalculator} className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-lg font-medium flex items-center mt-6 text-sm">
                       <Calculator className="mr-2" />
                       Calculate Your Savings
                     </button>
                   </div>
                 </div>
+
+
                 <div>
+
                   <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+                    <h3 className="md:text-xl font-semibold text-gray-900 mb-4 text-center">
                       Power Consumption at Different Speeds
                     </h3>
                     <div className="overflow-x-auto">
@@ -973,6 +976,7 @@ export const BldcFans = () => {
                       </table>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -987,14 +991,14 @@ export const BldcFans = () => {
         <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className=" text-lg md:text-3xl font-bold text-gray-900 mb-4">
                 Our BLDC Fan Range
               </h2>
               <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className=" text-md md:text-xl text-gray-600 max-w-3xl mx-auto">
                 Premium Performance, Unbeatable Value
               </p>
-              <p className=' text-sm pt-2'>Explore our range of energy-efficient and stylish BLDC ceiling fans, designed to deliver superior comfort and significant savings.
+              <p className=' text-sm pt-2 '>Explore our range of energy-efficient and stylish BLDC ceiling fans, designed to deliver superior comfort and significant savings.
               </p>
             </div>
 
@@ -1020,8 +1024,8 @@ export const BldcFans = () => {
                     <div className="lg:col-span-2">
                       <div className="flex justify-between items-start">
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900">{product.name}</h3>
-                          <p className="text-lg text-cyan-600 mt-1">{product.tagline}</p>
+                          <h3 className=" text-lg md:text-2xl font-bold text-gray-900">{product.name}</h3>
+                          <p className=" text-sm md:text-lg text-cyan-600 mt-1">{product.tagline}</p>
                         </div>
                         <button
                           onClick={() => setExpandedProduct(expandedProduct === product.id ? null : product.id)}
@@ -1038,7 +1042,7 @@ export const BldcFans = () => {
                           {product.colors.map((color, index) => (
                             <span
                               key={index}
-                              className="px-3 py-1 text-sm rounded-full border"
+                              className="px-3  py-1 text-sm rounded-full border"
                               style={{
                                 backgroundColor: color.includes('Brown') ? '#8C4458' : color.includes('White') ? '#ffffff' : '#6b7280',
                                 color: color.includes('White') ? '#000000' : '#ffffff',
@@ -1053,12 +1057,12 @@ export const BldcFans = () => {
 
                       {/* Features */}
                       <div className="mt-6">
-                        <h4 className="font-medium text-gray-900 mb-3">Key Features:</h4>
+                        <h4 className="font-medium text-gray-900 mb-3">Key Features :</h4>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                           {product.features.map((feature, index) => (
                             <div key={index} className="flex items-center">
                               <span className="text-cyan-600 mr-2">{feature.icon}</span>
-                              <span className="text-gray-700">{feature.text}</span>
+                              <span className="text-gray-700 text-sm">{feature.text}</span>
                             </div>
                           ))}
                         </div>
@@ -1066,17 +1070,17 @@ export const BldcFans = () => {
 
                       {/* Pricing */}
                       <div className="mt-6 bg-gradient-to-r from-cyan-50 to-white p-4 rounded-lg border border-cyan-100">
-                        <div className="flex items-end">
-                          <span className="text-3xl font-bold text-cyan-700">₹{product.pricing.selling.toLocaleString()}</span>
-                          <span className="ml-3 text-lg text-gray-500 line-through">₹{product.pricing.mrp.toLocaleString()}</span>
-                          <span className="ml-auto bg-cyan-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                            Save ₹{(product.pricing.mrp - product.pricing.selling).toLocaleString()}
+                        <div className="flex items-center">
+                          <span className=" text-xl md:text-3xl font-bold text-cyan-700">₹{product.pricing.selling.toLocaleString()}</span>
+                          <span className="ml-2 text-[12px] text-gray-500 line-through">₹{product.pricing.mrp.toLocaleString()}</span>
+                          <span className="ml-auto bg-cyan-600 text-white px-3 py-1 rounded-full  font-medium text-[12px]">
+                            Save ₹ {(product.pricing.mrp - product.pricing.selling).toLocaleString()}
                           </span>
                         </div>
                       </div>
 
                       {/* CTA */}
-                      <Link href='/support-form' className="mt-6 w-fit bg-cyan-600 hover:bg-cyan-700 text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center transition">
+                      <Link href='/support-form' className="mt-6 w-fit bg-cyan-600 hover:bg-cyan-700 text-sm text-white font-medium py-3 px-6 rounded-lg flex items-center justify-center transition">
                         Request Quote for {product.name.split(' ')[1]}
                       </Link>
                     </div>
@@ -1113,25 +1117,25 @@ export const BldcFans = () => {
                           <ul className="space-y-3">
                             <li className="flex items-start">
                               <Check className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
-                              <span className="text-gray-700">2-Year Warranty for peace of mind</span>
+                              <span className="text-gray-700 text-sm">2-Year Warranty for peace of mind</span>
                             </li>
                             <li className="flex items-start">
                               <Check className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
-                              <span className="text-gray-700">Made in India with premium materials</span>
+                              <span className="text-gray-700 text-sm">Made in India with premium materials</span>
                             </li>
                             <li className="flex items-start">
                               <Check className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
-                              <span className="text-gray-700">Energy savings up to 65% compared to conventional fans</span>
+                              <span className="text-gray-700 text-sm">Energy savings up to 65% compared to conventional fans</span>
                             </li>
                             <li className="flex items-start">
                               <Check className="w-5 h-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
-                              <span className="text-gray-700">Runs 3X longer on inverter during power cuts</span>
+                              <span className="text-gray-700 text-sm">Runs 3X longer on inverter during power cuts</span>
                             </li>
                           </ul>
 
                           <div className="mt-6 w-fit flex space-x-4">
 
-                            <a href='tel:8287885885' className="flex-1 w-fit bg-gray-900 text-white font-medium py-2 px-4 rounded-lg flex items-center justify-center hover:bg-black transition">
+                            <a href='tel:8287885885' className="flex-1 w-fit bg-gray-900 text-white font-medium py-2 px-4 text-sm rounded-lg flex items-center justify-center hover:bg-black transition">
                               <Phone className="mr-2" />
                               Call for Details
                             </a>
@@ -1152,7 +1156,7 @@ export const BldcFans = () => {
           <section className="py-16 px-4 bg-white">
             <div className="container mx-auto max-w-6xl">
               <div className="text-center mb-12">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                <h2 className=" text-lg md:text-2xl font-bold text-gray-900 mb-4">
                   Precise Performance : Adhunik Air Care BLDC Fan Power Consumption
                 </h2>
                 <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
@@ -1223,32 +1227,32 @@ export const BldcFans = () => {
                     <div className="flex items-start">
                       <Zap className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Energy Efficient BLDC Motor</h3>
-                        <p className="text-gray-600">32W Consumption at maximum speed - up to 65% less than conventional fans</p>
+                        <h3 className="md:text-xl font-semibold text-gray-900 mb-2">Energy Efficient BLDC Motor</h3>
+                        <p className=" text-sm text-gray-600">32W Consumption at maximum speed - up to 65% less than conventional fans</p>
                       </div>
                     </div>
 
                     <div className="flex items-start">
                       <Volume2 className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Low Noise Operation</h3>
-                        <p className="text-gray-600">Engineered for whisper-quiet performance in any environment</p>
+                        <h3 className="md:text-xl font-semibold text-gray-900 mb-2">Low Noise Operation</h3>
+                        <p className="text-sm text-gray-600">Engineered for whisper-quiet performance in any environment</p>
                       </div>
                     </div>
 
                     <div className="flex items-start">
                       <RotateCw className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Inverter Compatibility</h3>
-                        <p className="text-gray-600">Runs 3 times longer on inverter during power cuts</p>
+                        <h3 className="md:text-xl font-semibold text-gray-900 mb-2">Inverter Compatibility</h3>
+                        <p className="text-gray-600 text-sm">Runs 3 times longer on inverter during power cuts</p>
                       </div>
                     </div>
 
                     <div className="flex items-start">
                       <Shield className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
                       <div>
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">2-Year Warranty</h3>
-                        <p className="text-gray-600">Comprehensive coverage for peace of mind</p>
+                        <h3 className="md:text-xl font-semibold text-gray-900 mb-2">2-Year Warranty</h3>
+                        <p className="text-sm text-gray-600">Comprehensive coverage for peace of mind</p>
                       </div>
                     </div>
                   </div>
@@ -1260,7 +1264,7 @@ export const BldcFans = () => {
           {/* CTA Section */}
           <section className="py-16 px-4 rounded-2xl bg-gradient-to-r from-cyan-800 to-cyan-600 text-white">
             <div className="container mx-auto max-w-6xl text-center">
-              <h2 className="text-2xl font-bold mb-6">
+              <h2 className="md:text-2xl font-bold mb-6">
                 Ready to Transform Your Space with Adhunik Air Care BLDC Fans ?
               </h2>
               <p className="text-sm mb-8 text-justify text-cyan-100 max-w-3xl mx-auto">
@@ -1270,7 +1274,7 @@ export const BldcFans = () => {
 
               <Link href="/support-form"
 
-                className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 transition inline-flex items-center"
+                className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 text-sm transition inline-flex items-center"
               >
                 Get a Personalized Energy Savings Report & Free Quote Today!
                 <ChevronRight className="ml-2" />
@@ -1287,7 +1291,7 @@ export const BldcFans = () => {
           <section className="py-16 px-4 bg-white">
             <div className="container mx-auto max-w-4xl">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                <h2 className=" text-lg md:text-3xl font-bold text-gray-900 mb-4">
                   Frequently Asked Questions
                 </h2>
                 <div className="w-24 h-1 bg-cyan-600 mx-auto"></div>
@@ -1303,12 +1307,12 @@ export const BldcFans = () => {
                       className="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition"
                       onClick={() => setActiveFaq(activeFaq === index ? null : index)}
                     >
-                      <h3 className="text-md font-medium text-gray-900">{faq.question}</h3>
+                      <h3 className="text-sm font-medium text-gray-900">{faq.question}</h3>
                       <ChevronRight className={`w-5 h-5 text-gray-500 transition-transform ${activeFaq === index ? 'rotate-90' : ''}`} />
                     </button>
                     {activeFaq === index && (
                       <div className=" text-sm p-6 pt-0 text-gray-600">
-                        <p>{faq.answer}</p>
+                        <p className=' text-sm text-gray-500'>{faq.answer}</p>
                       </div>
                     )}
                   </div>
@@ -1325,22 +1329,22 @@ export const BldcFans = () => {
                   <div className="bg-cyan-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Phone className="w-6 h-6 text-cyan-600" />
                   </div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-2">Call Us</h3>
-                  <p className="text-cyan-600 font-medium">+91 8287885885</p>
+                  <h3 className="md:text-lg font-medium text-gray-900 mb-2">Call Us</h3>
+                  <p className="text-cyan-600 text-sm font-medium">+91 8287885885</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
                   <div className="bg-cyan-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Mail className="w-6 h-6 text-cyan-600" />
                   </div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-2">Email Us</h3>
-                  <p className="text-cyan-600 font-medium"> info@adhunikpowertech.com </p>
+                  <h3 className="md:text-lg font-medium text-gray-900 mb-2">Email Us</h3>
+                  <p className="text-cyan-600 text-sm font-medium"> sales@adhunikpowertech.com </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
-                  <div className="bg-cyan-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="bg-cyan-100  w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                     <MapPin className="w-6 h-6 text-cyan-600" />
                   </div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-2">Visit Us</h3>
-                  <p className="text-cyan-600 font-medium">DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004</p>
+                  <h3 className="md:text-lg font-medium text-gray-900 mb-2">Visit Us</h3>
+                  <p className=" text-sm text-cyan-600 font-medium">DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004</p>
                 </div>
               </div>
             </div>
@@ -1349,7 +1353,7 @@ export const BldcFans = () => {
 
         {/* Testimonials */}
         <div className="mb-20">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Trusted by Thousands of Homes</h2>
+          <h2 className=" text-lg md:text-2xl font-bold text-gray-900 mb-8 text-center">Trusted by Thousands of Homes</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -1394,7 +1398,7 @@ export const BldcFans = () => {
                   ))}
                   <span className="ml-2 text-sm text-gray-500">{review.rating}.0</span>
                 </div>
-                <p className="text-gray-600 mb-4 italic">"{review.comment}"</p>
+                <p className="text-gray-600 mb-4  text-sm ">{review.comment}</p>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="h-10 w-10 rounded-full  mr-3 overflow-hidden">
@@ -1407,8 +1411,8 @@ export const BldcFans = () => {
                       )}
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-900">{review.name}</h4>
-                      <p className="text-sm text-gray-500">{review.location} • {review.date}</p>
+                      <h4 className="font-medium text-sm text-gray-900">{review.name}</h4>
+                      <p className="text-sm text-gray-500">{review.location}  </p>
                     </div>
                   </div>
                   <span className="text-xs bg-cyan-50 text-cyan-600 px-2 py-1 rounded">
