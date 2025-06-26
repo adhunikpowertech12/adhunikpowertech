@@ -97,9 +97,15 @@ export const BldcFans = () => {
           items: [
             { name: 'Included Components', value: 'Ceiling Fan, RF Remote, Canopy, Downrod, Shackel' },
             { name: 'Model Number', value: 'SimpleX' },
-            { name: 'Manufacturer', value: 'Adhunik PowerTech Private Limited' },
+            { name: 'Manufacturer', value: <>
+              <Link className=' text-cyan-600' href='/'>Adhunik PowerTech Private Limited</Link>
+            </> },
             { name: 'Item Type Name', value: 'Ceiling Fan' },
-            { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
+            { name: 'Packer Contact Information', value: <>
+     <Link className=' text-cyan-600' href='https://maps.app.goo.gl/pUjwzxHWckeNmBGW9'>DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004</Link>
+          
+              
+            </> },
           ]
         }
       ],
