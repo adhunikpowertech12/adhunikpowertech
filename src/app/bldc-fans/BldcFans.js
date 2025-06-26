@@ -210,15 +210,15 @@ export const BldcFans = () => {
           color: 'Smoke Brown',
           price: 3299,
           regularPrice: 5999,
-          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png',
+          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png',
           gallery: [
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp'
-            ,
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/14_xbryjz.png',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937347/2_utv6j6.png',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937347/1_ohnbcz.png',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/4_miw5h9.png',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/19_rhp8mz.png',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937348/3_yys11m.png' 
           ]
         }
       ],
@@ -394,7 +394,7 @@ export const BldcFans = () => {
         mrp: 3999,
         selling: 2499
       },
-      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
+      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp'
     },
 
     {
@@ -424,7 +424,7 @@ export const BldcFans = () => {
         mrp: 5499,
         selling: 2999
       },
-      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
+      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750934749/1_sevxe4.webp'
     },
 
     {
@@ -454,7 +454,7 @@ export const BldcFans = () => {
         mrp: 5999,
         selling: 3299
       },
-      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
+      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png'
     },
 
 
