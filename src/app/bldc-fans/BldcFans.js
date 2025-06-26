@@ -1,31 +1,30 @@
 "use client"
-import { useRef, useState } from 'react';
-import Image from 'next/image';
+import { useRef, useState } from 'react';  
 import {
   ShoppingCart, Phone, Check, Star, Download, MessageSquare,
   ChevronRight, Zap, Lightbulb, Smartphone, Clock, Shield,
   AirVent, Gauge, Wifi, Bluetooth, Settings, FileText,
   HelpCircle, ArrowRight, RotateCw, BatteryFull, Volume2,
-  MessageSquareQuote,BarChart2,
+  MessageSquareQuote, BarChart2,
   Mail,
   MapPin, Leaf,
   ChevronDown, Calculator, BadgeCheck,
-  Heart, Moon, Power,ChevronLeft
+  Heart, Moon, Power, ChevronLeft
 } from 'lucide-react';
- 
 
-import Link from 'next/link';
-import CalculatorCode from '@/components/CalculatorCode';
+
+import Link from 'next/link'; 
+
 import EnergyCalculator from '@/components/CalculatorCode';
 
 
- 
+
 export const BldcFans = () => {
   const [selectedFan, setSelectedFan] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selectedVariant, setSelectedVariant] = useState(0);
 
-    const calculatorRef = useRef(null);
+  const calculatorRef = useRef(null);
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -33,7 +32,7 @@ export const BldcFans = () => {
 
 
   const fanTypes = [
-  {
+    {
       id: 1,
       name: 'SimpleX',
       tagline: 'BLDC Ceiling Fan',
@@ -42,14 +41,15 @@ export const BldcFans = () => {
           color: 'White',
           price: 2499,
           regularPrice: 3999,
-          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
-          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp',
+          image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp',
+          thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp',
           gallery: [
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf5_hauz4y.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662732/ceiling_fans_2_wy7ptg.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750664766/Simplex_1_htdzen.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750663484/ceiling_fans_2_xv8qpp.webp',
-            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750662733/ceiling_fans_1_x1xuaj.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/02_e1nijd.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/03_gkh2vq.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/04_wken9p.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/05_rusijj.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/06_ggjr72.webp',
+            'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/07_kjqckq.webp',
           ]
         },
         {
@@ -259,7 +259,7 @@ export const BldcFans = () => {
         }
       ]
     },
-  
+
   ];
 
   const currentFan = fanTypes[selectedFan];
@@ -360,7 +360,7 @@ export const BldcFans = () => {
   const [expandedProduct, setExpandedProduct] = useState(null);
 
   const products = [
-    
+
     {
       id: 1,
       name: 'Adhunik Air Care SimpleX BLDC Ceiling Fan',
@@ -388,7 +388,7 @@ export const BldcFans = () => {
       image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750481343/cf4_acuaqz.webp'
     },
 
- {
+    {
       id: 2,
       name: 'Adhunik Air Care Venessa Blink BLDC Ceiling Fan',
       tagline: '(with 7-Speed LED Indicator) Intuitive Control, Intelligent Cooling.',
@@ -449,12 +449,12 @@ export const BldcFans = () => {
     },
 
 
-   
+
   ];
 
 
 
- 
+
 
   const faqs = [
     {
@@ -493,8 +493,8 @@ export const BldcFans = () => {
 
   const [activeFaq, setActiveFaq] = useState(null);
 
-  
- 
+
+
   const powerData = [
     { speed: "SPEED 1", rpm: 115, watts: 3 },
     { speed: "SPEED 2", rpm: 185, watts: 5 },
@@ -759,9 +759,9 @@ export const BldcFans = () => {
           </div>
         </div>
 
-    
 
-   
+
+
 
 
         <div className="bg-gray-50">
@@ -780,19 +780,19 @@ export const BldcFans = () => {
                   <p className=' text-sm pb-5'>Experience unmatched comfort and significant energy savings with Adhunik Air Care BLDC Ceiling Fans – Smart Air Solutions for Stylish Living from Adhunik Powertech.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <button  onClick={scrollToCalculator} className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-cyan-50 transition">
+                    <button onClick={scrollToCalculator} className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold flex items-center justify-center hover:bg-cyan-50 transition">
                       <Calculator className="mr-2" />
                       Calculate Your Savings
                     </button>
-                    
+
                   </div>
                 </div>
                 <div className="flex justify-center">
                   <div className="bg-white/10 p-3 rounded-2xl backdrop-blur-sm border border-white/20">
 
- <div ref={calculatorRef} className=" ">
-                 <EnergyCalculator />
-        </div>
+                    <div ref={calculatorRef} className=" ">
+                      <EnergyCalculator />
+                    </div>
 
                   </div>
                 </div>
@@ -823,8 +823,8 @@ export const BldcFans = () => {
                 <img
                   src="https://static.wixstatic.com/media/91f360_e50ded74ab174f8cb0d237b9a812eb49~mv2.png/v1/fill/w_928,h_965,al_c,q_90,enc_avif,quality_auto/6B%20Seno%20Wood_edited.png"
                   alt="Adhunik Air Care Fan"
-                  className="rounded-xl      animate-spin-slow"
-                  
+                  className="rounded-xl animate-spin-slow"
+
                 />
 
 
@@ -989,7 +989,7 @@ export const BldcFans = () => {
                 Premium Performance, Unbeatable Value
               </p>
               <p className=' text-sm pt-2'>Explore our range of energy-efficient and stylish BLDC ceiling fans, designed to deliver superior comfort and significant savings.
-</p>
+              </p>
             </div>
 
             <div className="space-y-8">
@@ -1141,141 +1141,141 @@ export const BldcFans = () => {
         </section>
 
 
- <div className="bg-gray-50">
-      {/* Performance Section */}
-      <section className="py-16 px-4 bg-white">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Precise Performance : Adhunik Air Care BLDC Fan Power Consumption
-            </h2>
-            <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
-            <p className="text-sm text-gray-600 max-w-3xl mx-auto">
-              Understand the remarkable efficiency of Adhunik Air Care BLDC fans at every speed setting
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Power Consumption Table */}
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">
-                Power Consumption at Different Speeds
-              </h3>
-              <div className="overflow-x-auto">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="bg-gray-100">
-                    <tr>
-                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
-                        FAN SPEED
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
-                        FAN RPMs
-                      </th>
-                      <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
-                        POWER CONSUMPTION
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    {powerData.map((data, index) => (
-                      <tr key={index}>
-                        <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
-                          {data.speed}
-                        </td>
-                        <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
-                          {data.rpm}
-                        </td>
-                        <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
-                          {data.watts} WATTS
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+        <div className="bg-gray-50">
+          {/* Performance Section */}
+          <section className="py-16 px-4 bg-white">
+            <div className="container mx-auto max-w-6xl">
+              <div className="text-center mb-12">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  Precise Performance : Adhunik Air Care BLDC Fan Power Consumption
+                </h2>
+                <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
+                <p className="text-sm text-gray-600 max-w-3xl mx-auto">
+                  Understand the remarkable efficiency of Adhunik Air Care BLDC fans at every speed setting
+                </p>
               </div>
-              <div className="mt-4 text-center text-sm text-gray-500">
-                Maximum Consumption: 32W
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                {/* Power Consumption Table */}
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">
+                    Power Consumption at Different Speeds
+                  </h3>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full divide-y divide-gray-200">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                            FAN SPEED
+                          </th>
+                          <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                            FAN RPMs
+                          </th>
+                          <th className="px-4 py-3 text-left text-sm font-medium text-gray-500 uppercase tracking-wider">
+                            POWER CONSUMPTION
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white divide-y divide-gray-200">
+                        {powerData.map((data, index) => (
+                          <tr key={index}>
+                            <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">
+                              {data.speed}
+                            </td>
+                            <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
+                              {data.rpm}
+                            </td>
+                            <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-500">
+                              {data.watts} WATTS
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="mt-4 text-center text-sm text-gray-500">
+                    Maximum Consumption: 32W
+                  </div>
+                </div>
+
+                {/* Energy Efficiency Info */}
+                <div>
+                  <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+                    <div className="flex">
+                      <div className="flex-shrink-0">
+                        <Star className="h-5 w-5 text-blue-400" />
+                      </div>
+                      <div className="ml-3">
+                        <p className="text-sm text-blue-700">
+                          <span className="font-bold">More Star, More Saving:</span> Look for BEE Star Ratings on our products for certified energy efficiency!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-6">
+                    <div className="flex items-start">
+                      <Zap className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Energy Efficient BLDC Motor</h3>
+                        <p className="text-gray-600">32W Consumption at maximum speed - up to 65% less than conventional fans</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <Volume2 className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Low Noise Operation</h3>
+                        <p className="text-gray-600">Engineered for whisper-quiet performance in any environment</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <RotateCw className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">Inverter Compatibility</h3>
+                        <p className="text-gray-600">Runs 3 times longer on inverter during power cuts</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <Shield className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-2">2-Year Warranty</h3>
+                        <p className="text-gray-600">Comprehensive coverage for peace of mind</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </section>
 
-            {/* Energy Efficiency Info */}
-            <div>
-              <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <Star className="h-5 w-5 text-blue-400" />
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-sm text-blue-700">
-                      <span className="font-bold">More Star, More Saving:</span> Look for BEE Star Ratings on our products for certified energy efficiency!
-                    </p>
-                  </div>
-                </div>
-              </div>
+          {/* CTA Section */}
+          <section className="py-16 px-4 rounded-2xl bg-gradient-to-r from-cyan-800 to-cyan-600 text-white">
+            <div className="container mx-auto max-w-6xl text-center">
+              <h2 className="text-2xl font-bold mb-6">
+                Ready to Transform Your Space with Adhunik Air Care BLDC Fans ?
+              </h2>
+              <p className="text-sm mb-8 text-justify text-cyan-100 max-w-3xl mx-auto">
+                Join thousands of satisfied customers in Gurugram, Delhi, and Across India who are enjoying unparalleled comfort and saving on electricity bills. Whether for your home, office, or commercial project, our experts are ready to help you choose the perfect Adhunik Air Care BLDC fan.
+              </p>
 
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <Zap className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Energy Efficient BLDC Motor</h3>
-                    <p className="text-gray-600">32W Consumption at maximum speed - up to 65% less than conventional fans</p>
-                  </div>
-                </div>
 
-                <div className="flex items-start">
-                  <Volume2 className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Low Noise Operation</h3>
-                    <p className="text-gray-600">Engineered for whisper-quiet performance in any environment</p>
-                  </div>
-                </div>
+              <Link href="/support-form"
 
-                <div className="flex items-start">
-                  <RotateCw className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Inverter Compatibility</h3>
-                    <p className="text-gray-600">Runs 3 times longer on inverter during power cuts</p>
-                  </div>
-                </div>
+                className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 transition inline-flex items-center"
+              >
+                Get a Personalized Energy Savings Report & Free Quote Today!
+                <ChevronRight className="ml-2" />
+              </Link>
 
-                <div className="flex items-start">
-                  <Shield className="w-6 h-6 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">2-Year Warranty</h3>
-                    <p className="text-gray-600">Comprehensive coverage for peace of mind</p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+          </section>
         </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 px-4 rounded-2xl bg-gradient-to-r from-cyan-800 to-cyan-600 text-white">
-        <div className="container mx-auto max-w-6xl text-center">
-          <h2 className="text-2xl font-bold mb-6">
-            Ready to Transform Your Space with Adhunik Air Care BLDC Fans ?
-          </h2>
-          <p className="text-sm mb-8 text-justify text-cyan-100 max-w-3xl mx-auto">
-            Join thousands of satisfied customers in Gurugram, Delhi, and Across India who are enjoying unparalleled comfort and saving on electricity bills. Whether for your home, office, or commercial project, our experts are ready to help you choose the perfect Adhunik Air Care BLDC fan.
-          </p>
-          
-          
-            <Link href="/support-form"
-         
-              className="bg-white text-cyan-700 px-8 py-4 rounded-lg font-bold hover:bg-cyan-50 transition inline-flex items-center"
-            >
-              Get a Personalized Energy Savings Report & Free Quote Today!
-              <ChevronRight className="ml-2" />
-            </Link>
-         
-        </div>
-      </section>
-    </div>
 
         <div className="bg-gray-50">
-      
+
 
           {/* FAQ Section */}
           <section className="py-16 px-4 bg-white">
@@ -1341,7 +1341,7 @@ export const BldcFans = () => {
           </section>
         </div>
 
-            {/* Testimonials */}
+        {/* Testimonials */}
         <div className="mb-20">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Trusted by Thousands of Homes</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
