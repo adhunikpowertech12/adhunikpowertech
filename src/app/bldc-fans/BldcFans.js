@@ -12,14 +12,12 @@ import {
   Heart, Moon, Power, ChevronLeft
 } from 'lucide-react';
 
-
 import Link from 'next/link'; 
 
 import EnergyCalculator from '@/components/CalculatorCode';
 
-
-
 export const BldcFans = () => {
+
   const [selectedFan, setSelectedFan] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selectedVariant, setSelectedVariant] = useState(0);
@@ -62,7 +60,14 @@ export const BldcFans = () => {
       links3: "https://www.indiamart.com/proddetail/adhunik-aircare-simplex-1200-mm-bldc-ceiling-fan-white-2856807825688.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
+
+      links4: "https://www.meesho.com/", // Replace with actual product page
+        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
+    ,
+
         },
+
+
         {
           color: 'Cherry Brown',
           price: 2499,
@@ -87,6 +92,9 @@ export const BldcFans = () => {
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-simplex-1200-mm-bldc-ceiling-fante-cherry-brown-2856807924048.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
+          links4: "https://www.meesho.com/", // Replace with actual product page
+        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
+    ,
         }
       ],
       highlights: [
@@ -95,8 +103,6 @@ export const BldcFans = () => {
         { icon: <RotateCw className="w-6 h-6" />, title: 'Reverse Rotation', value: 'Yes' },
         { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
       ],
-
-  
       features: [
         'Reverse Rotation for all-season comfort',
         'Timer function (2H/4H/8H)',
@@ -179,6 +185,9 @@ export const BldcFans = () => {
     
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-blink-with-7-speed-light-indicators-and-remote-bldc-ceiling-fan-2856808206048.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
+    ,
+          links4: "https://www.meesho.com/", // Replace with actual product page
+        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
     ,
 
         }
@@ -267,6 +276,9 @@ export const BldcFans = () => {
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-lumo-with-9w-led-light-and-rf-remote-bldc-ceiling-fan-smoke-brown-2856808743962.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
+          links4: "https://www.meesho.com/", // Replace with actual product page
+        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
+    ,
         }
       ],
       highlights: [
@@ -342,10 +354,6 @@ export const BldcFans = () => {
     setCurrentImageIndex(0);
   };
 
-
-
-
-
   const [activeTab, setActiveTab] = useState('features');
   const [expandedFeature, setExpandedFeature] = useState(null);
 
@@ -401,8 +409,6 @@ export const BldcFans = () => {
     },
   ];
 
-
-
   const powerConsumptionData = [
     { speed: "Speed 1", rpm: 115, watts: 3 },
     { speed: "Speed 2", rpm: 185, watts: 5 },
@@ -411,8 +417,6 @@ export const BldcFans = () => {
     { speed: "Speed 5", rpm: 346, watts: 25 },
     { speed: "Speed 6", rpm: 380, watts: 28 }
   ];
-
-
 
   const [expandedProduct, setExpandedProduct] = useState(null);
 
@@ -443,8 +447,6 @@ export const BldcFans = () => {
         selling: 2499
       },
       image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp',
-
-     
     },
 
     {
@@ -507,13 +509,7 @@ export const BldcFans = () => {
       image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png'
     },
 
-
-
   ];
-
-
-
-
 
   const faqs = [
     {
@@ -552,8 +548,6 @@ export const BldcFans = () => {
 
   const [activeFaq, setActiveFaq] = useState(null);
 
-
-
   const powerData = [
     { speed: "SPEED 1", rpm: 115, watts: 3 },
     { speed: "SPEED 2", rpm: 185, watts: 5 },
@@ -563,8 +557,6 @@ export const BldcFans = () => {
     { speed: "SPEED 6", rpm: 380, watts: 28 }
   ];
 
-
-
   return (
     <div className="min-h-screen       bg-gray-50">
       <main className="container mx-auto px-4 md:px-14 py-12  mt-12 md:mt-32">
@@ -573,12 +565,16 @@ export const BldcFans = () => {
           <div className="space-y-6">
             <div className="bg-white rounded-2xl overflow-hidden relative group">
               <div className="relative h-96 w-full">
+
                 <img
                   src={galleryImages[currentImageIndex]}
                   alt={`${currentFan.name} - ${currentVariant.color}`}
                   className="w-full h-full transition-opacity duration-300 object-center object-contain"
                 />
+
               </div>
+
+
               <button
                 onClick={prevImage}
                 className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
@@ -586,6 +582,7 @@ export const BldcFans = () => {
               >
                 <ChevronLeft className="w-6 h-6" />
               </button>
+
               <button
                 onClick={nextImage}
                 className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
@@ -694,9 +691,24 @@ export const BldcFans = () => {
               </div>
             </div>
 
-<p  className=' mt-10 '>---------| Also Available on |---------</p>
 
-<div className=" flex flex-wrap  gap-9 justify-start items-start">
+
+
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <Link href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 text-sm rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+                <MessageSquareQuote className="mr-2" />
+                Request Quote
+              </Link>
+              <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+                <Phone className="w-6 h-6 mr-2" />
+                Call Us Now
+              </a>
+            </div>
+
+<p  className=' mt-10  w-full text-center '>---------| Also Available on |---------</p>
+
+<div className=" flex flex-col md:flex-row  gap-9   md:gap-5 justify-center items-center">
 
   <a 
     href={currentVariant.links1} 
@@ -746,24 +758,25 @@ export const BldcFans = () => {
     />
   </a>
 
+  <a 
+    href={currentVariant.links4} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img 
+      src={currentVariant.linkimage4} 
+      alt={currentFan.name} 
+      className="w-full max-w-xs h-10 rounded-lg hover:opacity-90 transition-opacity"
+      onError={(e) => {
+        e.target.src = "https://via.placeholder.com/300x100?text=Buy+Now";
+      }}
+    />
+  </a>
+
 
 </div>
  
-
-
-            {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 text-sm rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
-                <MessageSquareQuote className="mr-2" />
-                Request Quote
-              </Link>
-              <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
-                <Phone className="w-6 h-6 mr-2" />
-                Call Us Now
-              </a>
-            </div>
-
-
 
           </div>
         </div>
