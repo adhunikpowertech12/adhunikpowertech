@@ -32,6 +32,7 @@ export const BldcFans = () => {
 
 
   const fanTypes = [
+    
     {
       id: 1,
       name: 'SimpleX',
@@ -50,7 +51,17 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/05_rusijj.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/06_ggjr72.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/07_kjqckq.webp',
-          ]
+          ],
+
+        links1: "https://www.amazon.in/", // Replace with actual product page
+        linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
+    ,
+        links2: "https://www.flipkart.com/adhunik-aircare-simplex-1200-mm-3-blade-ceiling-fan/p/itm576103eca6c58", // Replace with actual product page
+        linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
+    ,
+      links3: "https://www.indiamart.com/proddetail/adhunik-aircare-simplex-1200-mm-bldc-ceiling-fan-white-2856807825688.html", // Replace with actual product page
+        linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
+    ,
         },
         {
           color: 'Cherry Brown',
@@ -65,7 +76,17 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931678/evsssbmhdys2t2icityv_zsxfyz.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931678/c4ilbvqh9krugomyjck1_no7uw7.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931679/v2pgnzmemdrhuogrbgre_va38yw.webp'
-          ]
+          ],
+             links1: "https://www.amazon.in/", // Replace with actual product page
+        linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
+    ,
+        links2: "https://www.flipkart.com/adhunik-aircare-simplex-1200-mm-3-blade-ceiling-fan/p/itmed53f2532cc40", // Replace with actual product page
+        linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
+       ,
+    
+        links3: "https://www.indiamart.com/proddetail/adhunik-aircare-simplex-1200-mm-bldc-ceiling-fante-cherry-brown-2856807924048.html", // Replace with actual product page
+        linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
+    ,
         }
       ],
       highlights: [
@@ -74,6 +95,8 @@ export const BldcFans = () => {
         { icon: <RotateCw className="w-6 h-6" />, title: 'Reverse Rotation', value: 'Yes' },
         { icon: <Shield className="w-6 h-6" />, title: 'Warranty', value: '2-Years' }
       ],
+
+  
       features: [
         'Reverse Rotation for all-season comfort',
         'Timer function (2H/4H/8H)',
@@ -146,6 +169,18 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750934751/6_ytjesq.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750934750/7_yd1ui0.webp'
           ]
+          ,
+             links1: "https://www.amazon.in/", // Replace with actual product page
+        linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
+    ,
+        links2: "https://www.flipkart.in/", // Replace with actual product page
+        linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
+    ,
+    
+        links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-blink-with-7-speed-light-indicators-and-remote-bldc-ceiling-fan-2856808206048.html", // Replace with actual product page
+        linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
+    ,
+
         }
       ],
       highlights: [
@@ -212,6 +247,7 @@ export const BldcFans = () => {
           regularPrice: 5999,
           image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png',
           thumbnail: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937350/22_obiqig.png',
+
           gallery: [
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/14_xbryjz.png',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937347/2_utv6j6.png',
@@ -219,7 +255,18 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/4_miw5h9.png',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937349/19_rhp8mz.png',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937348/3_yys11m.png' 
-          ]
+          ],
+
+             links1: "https://www.amazon.in/", // Replace with actual product page
+        linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
+    ,
+        links2: "https://www.flipkart.in/", // Replace with actual product page
+        linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
+    ,  
+    
+        links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-lumo-with-9w-led-light-and-rf-remote-bldc-ceiling-fan-smoke-brown-2856808743962.html", // Replace with actual product page
+        linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
+    ,
         }
       ],
       highlights: [
@@ -266,7 +313,8 @@ export const BldcFans = () => {
             { name: 'Packer Contact Information', value: 'DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004' },
           ]
         }
-      ]
+      ],
+      
     },
 
   ];
@@ -394,7 +442,9 @@ export const BldcFans = () => {
         mrp: 3999,
         selling: 2499
       },
-      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp'
+      image: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917654/01_mgyuul.webp',
+
+     
     },
 
     {
@@ -627,6 +677,8 @@ export const BldcFans = () => {
               ))}
             </div>
 
+
+
             {/* Price */}
             <div className="bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl border border-cyan-100">
               <div className="flex  items-center justify-center md:justify-start ">
@@ -642,6 +694,63 @@ export const BldcFans = () => {
               </div>
             </div>
 
+<p  className=' mt-10 '>---------| Also Available on |---------</p>
+
+<div className=" flex flex-wrap  gap-9 justify-start items-start">
+
+  <a 
+    href={currentVariant.links1} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img 
+      src={currentVariant.linkimage1} 
+      alt={currentFan.name} 
+      className="w-full max-w-xs  h-10 rounded-lg hover:opacity-90 transition-opacity"
+      onError={(e) => {
+        e.target.src = "https://via.placeholder.com/300x100?text=Buy+Now";
+      }}
+    />
+  </a>
+
+  <a 
+    href={currentVariant.links2} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img 
+      src={currentVariant.linkimage2} 
+      alt={currentFan.name} 
+      className="w-full max-w-xs h-10 rounded-lg hover:opacity-90 transition-opacity"
+      onError={(e) => {
+        e.target.src = "https://via.placeholder.com/300x100?text=Buy+Now";
+      }}
+    />
+  </a>
+
+  <a 
+    href={currentVariant.links3} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <img 
+      src={currentVariant.linkimage3} 
+      alt={currentFan.name} 
+      className="w-full max-w-xs h-10 rounded-lg hover:opacity-90 transition-opacity"
+      onError={(e) => {
+        e.target.src = "https://via.placeholder.com/300x100?text=Buy+Now";
+      }}
+    />
+  </a>
+
+
+</div>
+ 
+
+
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href='/support-form' className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 px-6 text-sm rounded-xl transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
@@ -653,6 +762,9 @@ export const BldcFans = () => {
                 Call Us Now
               </a>
             </div>
+
+
+
           </div>
         </div>
 
