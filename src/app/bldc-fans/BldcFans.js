@@ -61,9 +61,7 @@ export const BldcFans = () => {
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
 
-      links4: "https://www.meesho.com/", // Replace with actual product page
-        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
-    ,
+      
 
         },
 
@@ -92,9 +90,7 @@ export const BldcFans = () => {
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-simplex-1200-mm-bldc-ceiling-fante-cherry-brown-2856807924048.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
-          links4: "https://www.meesho.com/", // Replace with actual product page
-        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
-    ,
+          
         }
       ],
       highlights: [
@@ -186,9 +182,7 @@ export const BldcFans = () => {
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-blink-with-7-speed-light-indicators-and-remote-bldc-ceiling-fan-2856808206048.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
-          links4: "https://www.meesho.com/", // Replace with actual product page
-        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
-    ,
+          
 
         }
       ],
@@ -276,9 +270,7 @@ export const BldcFans = () => {
         links3: "https://www.indiamart.com/proddetail/adhunik-aircare-venessa-lumo-with-9w-led-light-and-rf-remote-bldc-ceiling-fan-smoke-brown-2856808743962.html", // Replace with actual product page
         linkimage3: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp" // Correct image URL
     ,
-          links4: "https://www.meesho.com/", // Replace with actual product page
-        linkimage4: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751268345/Meesho-682x435_zpfo65.webp" // Correct image URL
-    ,
+          
         }
       ],
       highlights: [
@@ -708,7 +700,7 @@ export const BldcFans = () => {
 
 <p  className=' mt-10  w-full text-center '>---------| Also Available on |---------</p>
 
-<div className=" flex flex-col md:flex-row  gap-9   md:gap-5 justify-center items-center">
+<div className=" flex flex-col md:flex-row  gap-9   md:gap-7 justify-center items-center">
 
   <a 
     href={currentVariant.links1} 
@@ -758,21 +750,7 @@ export const BldcFans = () => {
     />
   </a>
 
-  <a 
-    href={currentVariant.links4} 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="block"
-  >
-    <img 
-      src={currentVariant.linkimage4} 
-      alt={currentFan.name} 
-      className="w-full max-w-xs h-10 rounded-lg hover:opacity-90 transition-opacity"
-      onError={(e) => {
-        e.target.src = "https://via.placeholder.com/300x100?text=Buy+Now";
-      }}
-    />
-  </a>
+   
 
 
 </div>
