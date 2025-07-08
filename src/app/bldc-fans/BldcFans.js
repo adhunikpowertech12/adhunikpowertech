@@ -175,7 +175,7 @@ export const BldcFans = () => {
              links1: "https://www.amazon.in/dp/B0FG7B9Z8G?ref=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&ref_=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&social_share=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&previewDohEventScheduleTesting=C", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
-        links2: "https://www.flipkart.in/", // Replace with actual product page
+        links2: "https://dl.flipkart.com/dl/adhunik-aircare-venessa-blink-7-led-speed-indicator-1200-mm-3-blade-ceiling-fan/p/itm80dfe9b68f6e5?pid=FANHDQFWYWMW6YBV&marketplace=FLIPKART&cmpid=product.share.pp&_refId=PP.3cbd6fb1-1883-4f55-b228-d535a422d6c0.FANHDQFWYWMW6YBV&_appId=CL", // Replace with actual product page
         linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
     ,
     
@@ -263,7 +263,7 @@ export const BldcFans = () => {
              links1: "https://www.amazon.in/", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
-        links2: "https://www.flipkart.in/", // Replace with actual product page
+        links2: "https://dl.flipkart.com/s/Xrr0mbNNNN", // Replace with actual product page
         linkimage2: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp" // Correct image URL
     ,  
     
