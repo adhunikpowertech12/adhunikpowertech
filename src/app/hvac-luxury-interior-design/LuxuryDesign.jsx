@@ -158,8 +158,9 @@ export default function LuxuryDesign() {
   return (
     <>
       <div className="bg-white  ">
-        {/* ===== Luxury Hero Section ===== */}
+         
         <section className="   mt-28 md:mt-0 px-4 relative h-auto md:h-screen min-h-[800px] flex items-center justify-center bg-gradient-to-br from-cyan-50/20 to-white">
+
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-cyan-400/5 rounded-full filter blur-[100px] "></div>
             <div className="absolute bottom-0 left-0 w-[30vw] h-[30vw] bg-orange-400/5 rounded-full filter blur-[80px] "></div>

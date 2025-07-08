@@ -172,7 +172,7 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750934750/7_yd1ui0.webp'
           ]
           ,
-             links1: "https://www.amazon.in/", // Replace with actual product page
+             links1: "https://www.amazon.in/dp/B0FG7B9Z8G?ref=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&ref_=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&social_share=cm_sw_r_cp_ud_dp_NMZ3JCW1HGFQV2SHXKCM&previewDohEventScheduleTesting=C", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
         links2: "https://www.flipkart.in/", // Replace with actual product page

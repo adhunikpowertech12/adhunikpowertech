@@ -7,7 +7,7 @@ export const metadata = {
   title: "BLDC Fans Adhunik Air Care : Save 65% Energy | Gurugram, Delhi",
   description: "Cut bills with Adhunik Air Care BLDC fans. Silent, 3X inverter backup, smart features. Get a free quote for SimpleX, Lumo, and Blink. Made in India, 2-year warranty.",
   keywords: [
- 
+
     "BLDC Ceiling Fan",
     "BLDC Fan",
     "Energy Efficient Fan",
