@@ -9,6 +9,7 @@ import {
 import Image from 'next/image';
 
  import { Globe, Award, Leaf, ShieldCheck, Settings2, Phone, FileText } from 'lucide-react';
+import Link from 'next/link';
 
  
 
@@ -88,7 +89,9 @@ export default function AnnualMaintenance() {
    
 
     const heroContent = {
-    title: "Adhunik Powertech: Leading HVAC & Industrial Cooling Products in India",
+
+    title: "Adhunik Powertech : Leading HVAC & Industrial Cooling Products in India",
+
     description: [
       "Welcome to Adhunik Powertech, your trusted partner for cutting-edge Heating, Ventilation, and Air Conditioning (HVAC) and industrial cooling solutions. With over 19 years of expertise, we design, engineer, and manufacture a comprehensive range of high-performance products right here in India.",
       "catering to diverse sectors from manufacturing and pharmaceuticals to commercial establishments and cleanroom facilities. Our commitment is to deliver sustainable, energy-efficient, and reliable systems that optimize your environment and protect your critical assets."
@@ -103,6 +106,7 @@ export default function AnnualMaintenance() {
       title: "Advanced Air Cooling & Ventilation Systems",
       description: "Adhunik Powertech's air cooling and ventilation products are designed for optimal airflow and indoor air quality. Whether you need to cool large industrial spaces or enhance air circulation, our solutions are built for efficiency and durability.",
       image: "https://images.unsplash.com/photo-1626963822110-c2ccbb1660e6?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      Links:'/air-washer',
       products: [
         {
           name: "Ducted Air Coolers",
@@ -129,6 +133,7 @@ export default function AnnualMaintenance() {
       icon: <Cpu className="w-10 h-10" />,
       title: "Precision Cooling & Process Control Equipment",
       description: "Protect your valuable machinery and maintain critical temperatures with Adhunik Powertech’s precision cooling solutions. These systems are vital for optimizing performance, extending equipment lifespan, and preventing costly downtime.",
+          Links:'/panel-air-conditioners',
       // Original image from first prompt for this category
       image: "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       products: [
@@ -153,6 +158,7 @@ export default function AnnualMaintenance() {
         title: "Integrated Air Handling & Cleanroom Solutions",
         description: "Designed for superior air quality and thermal comfort in large commercial and industrial settings, including pharmaceutical and healthcare facilities. Our systems ensure precise control over temperature, humidity, and filtration.",
         // New image from Unsplash
+            Links:'/air-handling-unit',
         image: "https://images.unsplash.com/photo-1748350985297-bfca7994fc1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         products: [
           {
@@ -291,8 +297,7 @@ export default function AnnualMaintenance() {
                     alt="Happiness by Smart Assistance"
                     className=" w-32 h-auto"
                       height="300"
-                          width="300"
-                  />
+                          width="300" />
 
                   <div className="annual-img-1 mt-4">
                     <h3 className="text-xl font-semibold">Happiness by Smart Assistance</h3>
@@ -327,6 +332,7 @@ export default function AnnualMaintenance() {
             <div className="mt-10">
               <h2 className="text-4xl text-center font-bold mb-6">Types of Annual Maintenance Contracts</h2>
               <div className="overflow-x-auto">
+
                 <table className="table-auto w-full border-collapse border border-gray-300 text-left">
                         <caption className="  uppercase text-base font-semibold text-gray-700 mb-2">
  Annual Maintenance Contracts
@@ -468,12 +474,15 @@ export default function AnnualMaintenance() {
                     </tr>
                   </tbody>
                 </table>
+
               </div>
             </div>
 
             {/* Benefits List */}
             <div className="mt-10">
-              <h4 className="text-xl font-bold mb-4">Our AMC Benefit Involves:</h4>
+
+              <h4 className="text-xl font-bold mb-4">Our AMC Benefit Involves :</h4>
+
               <ul className="list-disc ml-5 space-y-2">
                 <li>If any breakdown occurs then immediate action will be taken on priority bases.</li>
                 <li>On-call 24x7 assistance for any unwanted breakdowns.</li>
@@ -516,7 +525,7 @@ export default function AnnualMaintenance() {
 
 
                 <p className=" text-center p-3 text-white bg-gradient-to-r from-[#f74c06] to-[#efb42b] motive font-semibold mb-4">
-                  For further information regarding Annual Maintenance Contract (AMC) service, pricing, etc., related queries. Kindly contact our Customer Care Number:
+                  For further information regarding Annual Maintenance Contract (AMC) service, pricing, etc., related queries. Kindly contact our Customer Care Number :
                 </p>
 
                 <p className="font-bold mb-2">
@@ -536,7 +545,7 @@ export default function AnnualMaintenance() {
         
    <div className=" font-sans">
       {/* ===== Professional Hero Section ===== */}
-      <section className="relative h-[95vh] min-h-[700px] flex items-center text-white">
+      <section className="relative h-full  md:h-[95vh] md:min-h-[700px] flex items-center text-white">
         <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/80 to-cyan-700/60 z-10"></div>
         <Image
           src={heroContent.image}
@@ -547,32 +556,32 @@ export default function AnnualMaintenance() {
         />
         <div className="container mx-auto px-6 relative z-20">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight text-shadow-md">
+            <h1 className="text-2xl  py-5 text-center md:text-left  md:text-5xl  font-bold mb-6 leading-tight tracking-tight text-shadow-md">
               {heroContent.title}
             </h1>
-            <div className="space-y-4 text-lg md:text-xl text-slate-200 font-light">
+            <div className="space-y-4 text-sm text-justify md:text-left px-4 md:px-0 md:text-md  text-slate-200 font-light">
               {heroContent.description.map((para, i) => (
                 <p key={i}>{para}</p>
               ))}
             </div>
-            <button className="mt-12 bg-cyan-500 text-white px-10 py-4 rounded-full font-bold text-lg flex items-center gap-3 shadow-lg hover:bg-cyan-600 transition-all duration-300 group transform hover:scale-105">
+            <Link href='/product-overview' className=" w-fit mt-12 mb-10 bg-cyan-500 text-white px-10 py-4 rounded-full font-bold text-sm flex items-center gap-3 shadow-lg hover:bg-cyan-600 transition-all duration-300 group transform hover:scale-105">
               Explore Our Solutions
               <ChevronRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
-            </button>
+            </Link>
           </div>
         </div>
       </section>
 
 
- <div className="inline-flex items-center justify-center bg-white  w-full mx-auto my-4">
+ <div className="inline-flex items-center justify-center bg-white  py-12  w-full mx-auto my-4">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Our Comprehensive Product Categories
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans text-sm  "> Our Comprehensive Product Categories
           </h2>
         </div>
 
 
 
-<div className="container text-center  mx-auto  justify-center bg-white items-center flex">
+<div className="container  text-sm md:text-xl px-4  text-center  mx-auto  justify-center bg-white items-center flex">
 
 
    Our Comprehensive Product Categories
@@ -588,24 +597,24 @@ Discover the Adhunik Powertech advantage through our specialized product lines, 
 
         <section key={i} className={`py-20 md:py-28 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
           <div className="container mx-auto px-6">
-            <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center mb-16">
-              <div className="lg:w-1/2">
+            <div className="flex flex-col-reverse lg:flex-row gap-12 lg:gap-20 items-center mb-16">
+              <div className=" w-full lg:w-1/2">
                 <div className="flex items-center gap-5 mb-5">
                   <div className="bg-cyan-500/10 p-4 rounded-xl text-cyan-600">
                     {category.icon}
                   </div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">
+                  <h2 className="text-xl md:text-4xl font-bold text-slate-800 tracking-tight">
                     {category.title}
                   </h2>
                 </div>
-                <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+                <p className=" text-justify md:text-left md:text-lg text-slate-600 mb-8 leading-relaxed">
                   {category.description}
                 </p>
-                <button className="text-cyan-600 font-bold flex items-center gap-2 group hover:text-cyan-700 transition-colors">
+                <Link href={category.Links} className="text-cyan-600 font-bold flex items-center gap-2 group hover:text-cyan-700 transition-colors">
                   View Full Range <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
-              <div className="lg:w-1/2 h-[450px]  relative rounded-2xl overflow-hidden shadow-2xl shadow-cyan-900/10">
+              <div className=" w-full lg:w-1/2 h-[450px]  relative rounded-2xl overflow-hidden shadow-2xl shadow-cyan-900/10">
                 <Image
                   src={category.image}
                   alt={category.title}
@@ -618,12 +627,12 @@ Discover the Adhunik Powertech advantage through our specialized product lines, 
             <div className="grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 gap-8">
               {category.products.map((product, j) => (
                 <div key={j} className="bg-white rounded-xl border border-slate-200/80 shadow-md hover:shadow-xl hover:border-cyan-300 transition-all duration-300 group flex flex-col">
-                  <div className="h-96 relative overflow-hidden rounded-t-xl">
+                  <div className="h-96 w-full relative overflow-hidden rounded-t-xl">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      className="object-cover h-full w-full transition-transform duration-500 group-hover:scale-105"
+                      className="object-contain h-full w-full transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                     <h3 className="absolute bottom-0 left-0 p-6 text-2xl font-bold text-white tracking-wide">
@@ -631,7 +640,7 @@ Discover the Adhunik Powertech advantage through our specialized product lines, 
                     </h3>
                   </div>
                   <div className="p-6 flex-grow flex flex-col">
-                    <p className="text-slate-600 mb-6 flex-grow">
+                    <p className="text-slate-600 text-md text-justify md:text-left mb-6 flex-grow">
                       {product.description}
                     </p>
                     <ul className="space-y-3">
@@ -752,22 +761,22 @@ Discover the Adhunik Powertech advantage through our specialized product lines, 
 
             <div className="space-y-5">
                 {/* Primary Button: Request Quote */}
-                <button
-                  type="button"
+                <Link href='/support-form'
+                  
                   className="w-full flex items-center justify-center gap-3 font-bold text-white px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300"
                 >
                   <FileText className="w-5 h-5" />
                   Request a Quote
-                </button>
+                </Link>
                 
                 {/* Secondary Button: Call Us */}
-                <button
+                <a href='tel:8287885885'
                   type="button"
                   className="w-full flex items-center justify-center gap-3 font-bold text-cyan-700 bg-cyan-500/10 hover:bg-cyan-500/20 px-8 py-4 rounded-lg transition-all duration-300"
                 >
                   <Phone className="w-5 h-5" />
                   Call Us Now
-                </button>
+                </a>
             </div>
           </div>
 
