@@ -2,6 +2,8 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import { motion, AnimatePresence } from "framer-motion";
+import { Users, TrendingUp, Clock, HeartHandshake, MapPin, HelpCircle, ChevronDown, Mail, Phone, MoveRight, } from 'lucide-react';
+
 import {
   Award,
   Zap,
@@ -19,7 +21,7 @@ import {
   Wind,
 } from "lucide-react";
 
-import { AirVent, ThermometerSun, Building2,  HeartPulse, ConciergeBell, School, Home, Check } from 'lucide-react';
+import { AirVent, ThermometerSun, Building2, HeartPulse, ConciergeBell, School, Home, Check } from 'lucide-react';
 
 
 import { Cpu, CheckCircle, Cog } from 'lucide-react';
@@ -72,9 +74,6 @@ const benefitsData = [
   },
 ];
 
-
-
-
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-t from-cyan-100/30 to-transparent z-10"></div>
@@ -121,7 +120,7 @@ const HeroSection = () => (
               "0 10px 25px -5px rgba(0, 191, 255, 0.4), 0 8px 10px -6px rgba(0, 191, 255, 0.3)",
           }}
           whileTap={{ scale: 0.95 }}
-          className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-4 px-10 rounded-full shadow-lg transition-all duration-300 text-lg"
+          className="bg-gradient-to-r from-cyan-500 to-teal-600 text-white font-bold py-4 px-10 rounded-full shadow-lg transition-all duration-300 text-lg"
         >
           Request a Free AMC Quote Today{" "}
           <ArrowRight className="inline-block ml-2" />
@@ -186,7 +185,7 @@ const IntroductionSection = () => (
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-cyan-500 to-blue-600 p-8 rounded-xl h-full shadow-2xl shadow-cyan-500/20 text-white"
+          className="bg-gradient-to-br from-cyan-500 to-teal-600 p-8 rounded-xl h-full shadow-2xl shadow-cyan-500/20 text-white"
         >
           <div className="flex items-start space-x-4">
             <Server className="w-8 h-8 text-white mt-1 flex-shrink-0" />
@@ -307,7 +306,7 @@ const BenefitsSection = () => (
 );
 
 const CTASection = () => (
-  <section className="py-20 md:py-28 bg-white">
+  <section className="py-20   bg-white">
     <div className="container mx-auto px-4 text-center">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
@@ -566,7 +565,7 @@ const AmcPlansSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white p-8 rounded-xl shadow-lg"
+            className="bg-gradient-to-r from-cyan-500 to-teal-600 text-white p-8 rounded-xl shadow-lg"
           >
             <h3 className="text-2xl font-bold mb-3">
               3. Customized AMC Solutions
@@ -775,8 +774,8 @@ const Amc5 = () => {
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     className={`${activeTab === tab.id
-                        ? 'text-cyan-600'
-                        : 'text-gray-500 hover:text-gray-700'
+                      ? 'text-cyan-600'
+                      : 'text-gray-500 hover:text-gray-700'
                       } relative whitespace-nowrap py-4 px-1 text-md font-medium flex items-center transition-colors duration-300`}
                   >
                     {tab.icon}
@@ -907,6 +906,71 @@ const BeneficiaryCard = ({ icon, title, description, index }) => (
   </motion.div>
 );
 
+const FAQItem = ({ q, a }) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+        <motion.div 
+            layout 
+            className="border-b border-gray-200"
+        >
+            <motion.button
+                className="w-full text-left flex justify-between items-center py-4"
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className="font-semibold text-gray-800">{q}</span>
+                <motion.div
+                    animate={{ rotate: isOpen ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <ChevronDown className="w-5 h-5 text-gray-500" />
+                </motion.div>
+            </motion.button>
+            <AnimatePresence>
+                {isOpen && (
+                    <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                        className="overflow-hidden"
+                    >
+                        <p className="pb-4 text-gray-600 leading-relaxed">{a}</p>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </motion.div>
+    );
+};
+
+
+const faqData = [
+    {
+        question: "What is included in a typical Annual Maintenance Contract for an HVAC system?",
+        answer: "Our Comprehensive AMC typically includes regular scheduled services (e.g., quarterly visits), 24/7 emergency breakdown support, coverage for genuine spare parts, and labor costs. Our Non-Comprehensive plan covers labor and services, with parts being extra. Specific inclusions are detailed in your contract to cover all aspects of your HVAC system."
+    },
+    {
+        question: "How does an Industrial AC AMC differ from a standard AMC for AC?",
+        answer: "An Industrial AC AMC is highly specialized, focusing on the unique demands of mission-critical systems like chillers and panel air conditioners. It involves more in-depth diagnostics, specialized cleaning procedures, and a quicker response time due to the high cost of industrial downtime, unlike a standard AMC for AC which might focus on more general residential or light commercial units."
+    },
+    {
+        question: "Can Adhunik Powertech provide a Commercial HVAC maintenance contract for a multi-story office building in Noida?",
+        answer: "Absolutely! We specialize in Commercial HVAC maintenance contracts for all types of commercial properties, including office buildings, retail spaces, and hotels in Noida, Gurugram, Delhi, and throughout Delhi NCR and nearby locations. Our plans ensure optimal climate control and energy efficiency for your commercial operations."
+    },
+    {
+        question: "What types of reporting can I expect after a service visit?",
+        answer: "After every service visit, our technicians provide a detailed service report outlining the checks performed, any issues identified, resolutions implemented, and recommendations for future maintenance or upgrades. This transparent reporting helps you keep track of your cooling system AMC and asset health."
+    },
+    {
+        question: "How does an AMC save my business money in the long run?",
+        answer: "An Annual Maintenance Contract significantly reduces unexpected repair costs and costly downtime by proactively identifying and resolving issues. Regular maintenance also ensures your HVAC, Industrial AC, and Commercial Cooling Systems operate at peak efficiency, leading to substantial savings on energy bills and extending the overall lifespan of your expensive equipment."
+    },
+    {
+        question: "What areas in Delhi NCR and nearby locations do you cover for cooling system AMC?",
+        answer: "We provide cooling system AMC services across the entire Delhi NCR region, including Gurugram, Faridabad, Noida, Greater Noida, Ghaziabad, Delhi, Manesar, Bhiwadi, and numerous nearby locations such as Sonipat, Panipat, Rohtak, Rewari, Palwal, Meerut, Muzaffarnagar, Neemrana, Tapukara, and Bawal. We also support major industrial hubs like Jaipur and Chandigarh for larger projects."
+    }
+];
+
 
 const Amc6 = () => {
 
@@ -958,6 +1022,368 @@ const Amc6 = () => {
   )
 }
 
+const whyChooseUsData = [
+  {
+    icon: <Award className="w-8 h-8 text-cyan-600" />,
+    title: "19+ Years of Unmatched Expertise & Award-Winning Service",
+    description: "Our deep-rooted experience since 2005 means we understand the nuances of various cooling systems. We are specialists in Industrial AC AMC and large-scale Commercial HVAC maintenance contracts, validated by the India Business Award 2025 for Best Services."
+  },
+  {
+    icon: <Users className="w-8 h-8 text-cyan-600" />,
+    title: "Expert-Recruited & Continuously Trained Technicians",
+    description: "Through rigorous technical recruiting, we ensure our certified engineers possess in-depth understanding of complex system diagnostics. We invest in their continuous training to keep pace with evolving HVAC technologies."
+  },
+  {
+    icon: <TrendingUp className="w-8 h-8 text-cyan-600" />,
+    title: "Data-Driven Insights for Proactive Maintenance",
+    description: "At Adhunik Powertech, we don't just follow a checklist. We leverage systematic data analysis from past maintenance records and real-time system performance insights to develop optimized maintenance strategies. This proactive, data-informed approach predicts potential failures, enhances energy efficiency, and extends the operational life of your assets, leading to tangible cost savings"
+  },
+  {
+    icon: <Clock className="w-8 h-8 text-cyan-600" />,
+    title: "24/7 Rapid Response & Advanced CMS",
+    description: "Our dedicated helpline and efficient Customer Management System (CMS) ensure swift response times for breakdowns, minimizing disruption to your operations. We understand that downtime is not an option, especially for Industrial AC AMC clients."
+  },
+  {
+    icon: <Wrench className="w-8 h-8 text-cyan-600" />,
+    title: "Genuine Spares & Quality Workmanship",
+    description: "We commit to using only genuine spare parts and delivering lasting solutions. Our focus is on long-term reliability and ensuring the integrity of your cooling system."
+  },
+  {
+    icon: <HeartHandshake className="w-8 h-8 text-cyan-600" />,
+    title: "Client-Centric Philosophy & Tangible Impact",
+    description: "Your business goals are our goals. We aim to make a tangible impact by ensuring your critical systems support your operational efficiency, reduce your carbon footprint, and contribute to your overall success."
+  }
+];
+
+const featuredClients = ["Hero Honda", "DLF Magnolias", "ITC Limited (Agri Business Division)"];
+const otherClients = ["SMR Automotive - Noida", "Telus Xavient Software - Noida", "Chakr Innovation Pvt Ltd - Gurugram", "Samit Enterprises - Gurugram", "Acme Cleantech - Gurugram", "Anu Industries Ltd - Gurugram", "ER Automotive Ltd - Gurugram", "Shivam Autotech - Rohtak"];
+const ncrLocations = ["Gurugram (Gurgaon)", "Faridabad", "Noida", "Greater Noida", "Ghaziabad", "Delhi (all zones)", "Manesar", "Dharuhera", "Bhiwadi", "Sonipat", "Panipat", "Rohtak", "Rewari", "Palwal", "Meerut", "Muzaffarnagar", "Neemrana", "Tapukara", "Bawal"];
+const beyondNcrLocations = ["Jaipur", "Chandigarh", "Meerut", "Roorkee", "Haridwar", "Dehradun"];
+
+
+// --- HELPER COMPONENTS ---
+const WhyChooseUsCard = ({ icon, title, description, index }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.6, delay: index * 0.1 }}
+    className="bg-white p-6 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+  >
+    <div className="flex items-start">
+      <div className="flex-shrink-0 bg-cyan-100 p-4 rounded-full mr-5">
+        {icon}
+      </div>
+      <div>
+        <h3 className="text-lg font-bold text-cyan-900">{title}</h3>
+        <p className="text-gray-600 mt-1 leading-relaxed">{description}</p>
+      </div>
+    </div>
+  </motion.div>
+);
+
+// --- SECTIONS ---
+const Header = () => (
+  <header className="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+    <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="flex items-center space-x-2">
+        <Building className="w-8 h-8 text-cyan-600" />
+        <span className="text-xl font-bold text-gray-800 tracking-wider">Adhunik Powertech</span>
+      </div>
+      <motion.button
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="bg-gradient-to-r from-cyan-500 to-teal-600 text-white font-semibold py-2 px-5 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
+      >
+        Contact Us
+      </motion.button>
+    </div>
+  </header>
+);
+
+ 
+
+
+const WhyChooseUsSection = () => (
+    <section className="relative pt-16 pb-28   md:pb-36 text-gray-800 overflow-hidden bg-gray-50">
+        <AuroraBackground />
+        <div className="relative z-10 container mx-auto px-4">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="text-center mb-16"
+            >
+                <h2 className="text-3xl md:text-4xl font-extrabold text-cyan-900 mb-4">Why Choose Adhunik Powertech for Your Annual Maintenance Contract (AMC)?</h2>
+        <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          When it comes to the critical performance of your HVAC system, Industrial AC, or Commercial Cooling System in Delhi NCR and nearby locations, trust the leader. Adhunik Powertech offers a distinct advantage:
+        </p>
+            </motion.div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                {whyChooseUsData.map((item, index) => (
+                    <motion.div
+                        key={item.title}
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ duration: 0.6, delay: index * 0.1 }}
+                        className="bg-white/60 backdrop-blur-md p-6 rounded-xl border border-gray-200/80 hover:border-cyan-400/50 hover:-translate-y-2 transition-all duration-300 shadow-sm hover:shadow-xl"
+                    >
+                        <div className="flex items-center mb-4 text-cyan-600">
+                            {item.icon}
+                            <h3 className="text-lg font-bold text-gray-800 ml-4">{item.title}</h3>
+                        </div>
+                        <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                    </motion.div>
+                ))}
+            </div>
+        </div>
+    </section>
+);
+
+
+ 
+
+
+
+const ServiceAreaSection = () => (
+    <section className="relative py-20 md:py-28 text-gray-800 overflow-hidden bg-gray-50">
+        <AuroraBackground />
+        <div className="relative z-10 container mx-auto px-4">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="text-center mb-16"
+            >
+                <h2 className="text-3xl md:text-4xl font-extrabold text-cyan-900 mb-4">Extensive Annual Maintenance Contract (AMC) Service Coverage</h2>
+        <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          Adhunik Powertech is a leading provider of HVAC Annual Maintenance Contracts across the entire Delhi NCR region and nearby locations. Our dedicated teams ensure swift, reliable, and expert cooling system AMC service in all key areas.
+        </p>
+            </motion.div>
+            <div className="grid lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
+                <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="lg:col-span-3 bg-white/60 backdrop-blur-md p-8 rounded-xl border border-gray-200/80 shadow-sm"
+                >
+                    <h3 className="text-2xl font-bold text-cyan-700 mb-6 flex items-center"><MapPin className="mr-3" /> Delhi NCR & Nearby</h3>
+                    <div className="columns-2 md:columns-3 gap-x-6 gap-y-3">
+                        {ncrLocations.map((loc) => (
+                            <p key={loc} className="text-gray-600 mb-2 break-inside-avoid flex items-center"><Check className="w-4 h-4 mr-2 text-green-500" />{loc}</p>
+                        ))}
+                    </div>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    className="lg:col-span-2 bg-gradient-to-br from-cyan-500 to-blue-600 p-8 rounded-xl shadow-lg shadow-cyan-500/20"
+                >
+                    <h3 className="text-2xl font-bold text-white mb-6">Beyond Delhi NCR</h3>
+                   <p className="text-cyan-100 mb-6">Adhunik Powertech extends its specialized AMC services for large-scale HVAC and industrial cooling systems to prominent commercial and industrial centers across India.</p>
+            <div className="space-y-3">
+                        {beyondNcrLocations.map((loc) => (
+                            <p key={loc} className="text-white font-semibold flex items-center"><Check className="w-4 h-4 mr-2 text-cyan-200" />{loc}</p>
+                        ))}
+                    </div>
+                         <p className="text-sm text-cyan-200 mt-6">For specialized requirements in these cities, please contact us to discuss tailored service agreements.</p>
+       
+                </motion.div>
+            </div>
+        </div>
+    </section>
+);
+
+
+
+
+const FAQSection = () => {
+    const [openIndex, setOpenIndex] = useState(null);
+
+    return (
+        <section className="py-20 md:pb-28 bg-white text-gray-800">
+            <div className="container mx-auto px-4">
+                 <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.7 }}
+                    className="text-center mb-16 max-w-3xl mx-auto"
+                >
+                    <HelpCircle className="w-12 h-12 mx-auto text-cyan-500 mb-4" />
+                    <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Common Questions</h2>
+                </motion.div>
+                <div className="max-w-3xl mx-auto space-y-4">
+                    {faqData.map((item, index) => (
+                        <div key={index} className="bg-gray-50/70 rounded-lg border border-gray-200/80 overflow-hidden">
+                            <button
+                                className="w-full text-left flex justify-between items-center p-5"
+                                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                            >
+                                <span className="font-semibold text-gray-800">{item.question}</span>
+                                <motion.div
+                                    animate={{ rotate: openIndex === index ? 180 : 0 }}
+                                    transition={{ duration: 0.3 }}
+                                >
+                                    <ChevronDown className="w-5 h-5 text-gray-500" />
+                                </motion.div>
+                            </button>
+                            <AnimatePresence>
+                                {openIndex === index && (
+                                    <motion.div
+                                        initial={{ opacity: 0, height: 0 }}
+                                        animate={{ opacity: 1, height: 'auto' }}
+                                        exit={{ opacity: 0, height: 0 }}
+                                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                                    >
+                                        <p className="px-5 pb-5 text-gray-600 leading-relaxed">{item.answer}</p>
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
+
+
+const AuroraBackground = () => (
+    <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+        <motion.div
+            initial={{ opacity: 0, x: '-50%', y: '-50%' }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-blue-500/20 rounded-full filter blur-3xl animate-pulse"
+        />
+        <motion.div
+            initial={{ opacity: 0, x: '50%', y: '50%' }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2, delay: 0.5 }}
+            className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-cyan-500/20 rounded-full filter blur-3xl animate-pulse animation-delay-2000"
+        />
+    </div>
+);
+
+
+const ContactSection = () => (
+    <section className="relative py-20 md:py-28 text-gray-800 overflow-hidden bg-gray-50">
+        <AuroraBackground />
+        <div className="relative z-10 container mx-auto px-4">
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8 }}
+                className="bg-white/60 backdrop-blur-xl rounded-2xl shadow-2xl shadow-gray-300/40 overflow-hidden grid lg:grid-cols-2 border border-gray-200"
+            >
+                <div className="p-8 md:p-12 flex flex-col justify-center">
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Ready for Uninterrupted Performance?</h2>
+                    <p className="text-lg text-gray-600 mb-8">
+                        Don't let unexpected breakdowns compromise your operations. Invest in the reliability and longevity of your cooling systems with Adhunik Powertech's expert AMCs.
+                    </p>
+                    <div className="space-y-6 mb-8">
+                        <a href="mailto:info@adhunikpowertech.com" className="flex items-center group">
+                            <div className="bg-gray-100 p-3 rounded-full mr-4 border border-gray-200 group-hover:border-cyan-400 transition-colors">
+                                <Mail className="w-6 h-6 text-cyan-600"/>
+                            </div>
+                            <div>
+                                <p className="text-gray-500 text-sm">Email Us</p>
+                                <p className="font-semibold text-gray-800 text-lg group-hover:text-cyan-600 transition-colors">info@adhunikpowertech.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:8287885885" className="flex items-center group">
+                            <div className="bg-gray-100 p-3 rounded-full mr-4 border border-gray-200 group-hover:border-cyan-400 transition-colors">
+                                <Phone className="w-6 h-6 text-cyan-600"/>
+                            </div>
+                            <div>
+                                <p className="text-gray-500 text-sm">Call Us</p>
+                                <p className="font-semibold text-gray-800 text-lg group-hover:text-cyan-600 transition-colors">8287885885</p>
+                            </div>
+                        </a>
+                    </div>
+                    <motion.button
+                        whileHover={{ scale: 1.02, boxShadow: '0 0 30px rgba(34, 211, 238, 0.4)' }}
+                        whileTap={{ scale: 0.98 }}
+                        className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-4 px-10 rounded-lg shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 text-lg flex items-center justify-center"
+                    >
+                        Get My Free AMC Quote <MoveRight className="ml-3" />
+                    </motion.button>
+                </div>
+                <div className="hidden lg:block relative">
+                    <div className="absolute inset-0 bg-gradient-to-l from-white/20 to-transparent"></div>
+                    <img 
+                        src="https://images.unsplash.com/photo-1554494583-c43153547245?q=80&w=2070&auto=format&fit=crop" 
+                        alt="Industrial HVAC system"
+                        className="w-full h-full object-cover"
+                        onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/600x700/e0f7fa/334155?text=Image+Not+Found'; }}
+                    />
+                </div>
+            </motion.div>
+        </div>
+    </section>
+);
+
+const ClientsSection = () => (
+    <section className="py-20 md:py-28 bg-slate-900 text-white">
+        <div className="container mx-auto px-4">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="text-center mb-16"
+            >
+                 <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Trusted by Leading Businesses & Prestigious Properties</h2>
+         <p className="text-sm text-gray-400 max-w-3xl mx-auto">
+      Our long-standing relationships with industry leaders and premier properties are a testament to our unwavering commitment to quality service, technical expertise, and a proactive approach that ensures their critical cooling systems always perform at their peak. We pride ourselves on being more than just a service provider; we are a strategic partner in their operational success.
+ </p>
+            </motion.div>
+            <div className="max-w-6xl mx-auto">
+              <h3 className="text-xl font-bold text-center text-white mb-8">Our Valued AMC Clients</h3>
+                <div className="flex justify-center gap-8 md:gap-12 mb-16 flex-wrap">
+                    {featuredClients.map((client, index) => (
+                        <motion.div
+                            key={client}
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5, delay: index * 0.15 }}
+                            className="bg-slate-800 p-6 rounded-lg border border-slate-700 flex items-center justify-center"
+                        >
+                            <span className="text-2xl font-semibold text-white">{client}</span>
+                        </motion.div>
+                    ))}
+                </div>
+                  <p className="text-center text-gray-400 mb-8">We also proudly serve a diverse portfolio of industrial and commercial clients across Delhi NCR and beyond, including:</p>
+                <div className="w-full overflow-hidden">
+                    <motion.div
+                        className="flex gap-4"
+                        animate={{ x: ['0%', '-100%'] }}
+                        transition={{ ease: 'linear', duration: 20, repeat: Infinity }}
+                    >
+                        {[...otherClients, ...otherClients].map((client, index) => (
+                            <div key={index} className="flex-shrink-0 bg-slate-800/70 text-slate-100 px-6 py-3 rounded-full text-md font-medium border border-slate-700">
+                                {client}
+                            </div>
+                        ))}
+                    </motion.div>
+                </div>
+                 <p className="text-center text-sm text-gray-400 mt-12 max-w-4xl mx-auto">This extensive client list underscores our capability to handle diverse and complex HVAC and commercial/industrial cooling systems for businesses of all scales, from high-volume manufacturing units in locations like Gurugram and Noida to advanced tech facilities and luxury residential complexes.</p>
+            </div>
+        </div>
+    </section>
+);
+
+
+ 
 export default function AnnualMaintenance() {
   const slides = [
     {
@@ -1551,10 +1977,16 @@ export default function AnnualMaintenance() {
           <BenefitsSection />
 
           <AmcPlansSection />
-
+   <CTASection />
           <Amc5 />
           <Amc6 />
-          <CTASection />
+
+          <WhyChooseUsSection />
+          <ClientsSection />
+          <ServiceAreaSection />
+ <FAQSection />
+       
+                <ContactSection />
         </main>
       </div>
     </>
