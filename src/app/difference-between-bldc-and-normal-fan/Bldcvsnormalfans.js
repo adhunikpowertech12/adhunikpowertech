@@ -99,35 +99,35 @@ const advantagesData = [
     title: "Unmatched Energy Savings – Guaranteed Impact",
     description:
       "Our BLDC fans are meticulously engineered to consume up to 65% less power than conventional fans. This isn't just a claim; it's a promise of tangible savings on your electricity bills, directly contributing to your household budget year after year.",
-    image: "https://placehold.co/800x600/e0f2fe/0891b2?text=Savings",
+    image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     icon: ShieldCheck,
     title: '"Proudly Made In India" – A Commitment to Quality',
     description:
       "As a brand rooted in India, we uphold the highest standards of manufacturing and quality control. Choosing Adhunik Air Care means investing in a product built with superior craftsmanship and local expertise, ensuring quality you can trust.",
-    image: "https://placehold.co/800x600/e0f2fe/0891b2?text=Quality",
+    image: "https://plus.unsplash.com/premium_photo-1682309834966-485aedc99be5?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     icon: Cpu,
     title: "Superior Durability with 100% Copper Winding",
     description:
       "We believe in building products that last. That's why our BLDC motors feature 100% copper winding. Copper, known for its excellent conductivity and durability, ensures better efficiency, less heat generation, and a longer lifespan for your fan. This commitment to quality is backed by our robust 2-year warranty.",
-    image: "https://placehold.co/800x600/e0f2fe/0891b2?text=Durability",
+    image: "https://img.freepik.com/free-vector/certified-antivirus-technology-your-digital-privacy-web-protection_1017-44243.jpg?t=st=1752221742~exp=1752225342~hmac=2c2858b04adae4d4cc5bc0edbebb04b504e1b83e41d7c34fdaced19f2ac4e698&w=826",
   },
   {
     icon: Zap,
     title: "Uninterrupted Comfort – 3X Longer on Inverter",
     description:
       "Power cuts are a reality in many parts of India. Adhunik Air Care BLDC fans are designed for India's homes, consuming so little power that they run 3 times longer on inverter backup compared to traditional fans, ensuring consistent airflow even when you're off-grid.",
-    image: "https://placehold.co/800x600/e0f2fe/0891b2?text=Backup",
+    image: "https://img.freepik.com/free-vector/cloud-services-isometric-composition-with-cloud-connection-icons-server-racks-wired-cloud-with-sync-sign-vector-illustration_1284-65966.jpg?t=st=1752221910~exp=1752225510~hmac=6deb34d53e6bf4c7569b5d2235f8a4b3f9a4516dd6f151447ffa2d9406451096&w=826",
   },
   {
     icon: VolumeX,
     title: "Whisper-Quiet Operation",
     description:
       "The brushless design of our motors, combined with precision engineering, means our fans operate with virtually silent performance. Say goodbye to annoying hums and enjoy a peaceful, serene environment in your home or office.",
-    image: "https://placehold.co/800x600/e0f2fe/0891b2?text=Silence",
+    image: "https://img.freepik.com/premium-vector/sound-icon_859406-34.jpg?w=826",
   },
   {
     icon: Wind,
