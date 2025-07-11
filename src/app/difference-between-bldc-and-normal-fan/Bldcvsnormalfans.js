@@ -269,7 +269,7 @@ export default function Bldcvsnormalfans() {
     <>
     
     <div className="div  px-0 xl:px-24">
-<div className="min-h-screen   ">
+<div className=" min-h-screen ">
         <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
