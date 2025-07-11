@@ -113,6 +113,17 @@ export default function Blog() {
       link: "/hvac-luxury-interior-design",
       img: "https://images.unsplash.com/photo-1687180497716-5872969e5125?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
+    {
+      id: 11,
+      title: "BLDC Fan vs. Normal Fan: Save Up To 65% | Adhunik Air Care",
+
+
+      date: "July  2025",
+      image:
+        "",
+      link: "/difference-between-bldc-and-normal-fan",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1752217844/blog15_esyemu.webp",
+    },
 
 
   ];
