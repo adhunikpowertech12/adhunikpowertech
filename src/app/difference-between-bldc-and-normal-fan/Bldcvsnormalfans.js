@@ -67,22 +67,22 @@ const retailPartners = [
   {
     name: "Official Website",
     url: "https://www.adhunikpowertech.com/bldc-fans",
-    logo: "https://placehold.co/200x80/ffffff/334155?text=Adhunik+Air+Care",
+    logo: "https://www.adhunikpowertech.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fddkyx2jhh%2Fimage%2Fupload%2Fv1750406676%2Faircare_vn2m2p.webp&w=384&q=75",
   },
   {
     name: "Flipkart",
     url: "https://www.flipkart.com/adhunik-aircare-venessa-lumo-9w-led-1200-mm-3-blade-ceiling-fan/p/itm47c283eecc8a2",
-    logo: "https://placehold.co/200x80/ffffff/2874f0?text=Flipkart",
+    logo: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262116/flipkart-logo_qr83uh.webp",
   },
   {
     name: "Amazon",
     url: "https://www.amazon.in/dp/B0FG7B9Z8G",
-    logo: "https://placehold.co/200x80/ffffff/ff9900?text=amazon",
+    logo: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp",
   },
   {
     name: "IndiaMART",
     url: "https://www.adhunikpowertech.co.in/bldc-ceiling-fan.html",
-    logo: "https://placehold.co/200x80/ffffff/00a699?text=IndiaMART",
+    logo: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751264800/indiamart_juqvwb.webp",
   },
 ];
 
@@ -373,7 +373,7 @@ export default function Bldcvsnormalfans() {
                       className="mt-6 self-start  "
                     >
                       <Link
-                        href="/hvac"
+                        href="/support-form"
                         className="bg-gradient-to-r from-cyan-600 to-cyan-800 text-white px-6 py-3 rounded-full text-sm font-medium shadow-md hover:shadow-lg transition-all flex items-center gap-2"
                       >
                         Explore Solutions <ArrowRight className="w-4 h-4" />
@@ -1301,9 +1301,9 @@ export default function Bldcvsnormalfans() {
             whileTap={{ scale: 0.95 }}
             className="inline-block"
           >
-            <button className="bg-white text-cyan-700 hover:bg-cyan-50 font-semibold py-3 px-8 rounded-full text-lg shadow-lg transition-all flex items-center gap-2 mx-auto">
+            <Link href='/bldc-fans' className="bg-white text-cyan-700 hover:bg-cyan-50 font-semibold py-3 px-8 rounded-full text-lg shadow-lg transition-all flex items-center gap-2 mx-auto">
               Shop BLDC Fans <ArrowRight className="w-5 h-5" />
-            </button>
+            </Link>
           </motion.div>
         </div>
       </motion.section>
