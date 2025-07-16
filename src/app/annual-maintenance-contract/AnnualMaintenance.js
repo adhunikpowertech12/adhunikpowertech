@@ -95,7 +95,7 @@ const benefitsData = [
 ];
 
 const HeroSection = () => (
-  <section className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
+  <section className=" px-0 relative min-h-screen flex items-center justify-center text-white overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-t from-cyan-100/30 to-transparent z-10"></div>
     <div className="absolute inset-0 z-0">
       <video
@@ -154,15 +154,7 @@ const IntroductionSection = () => (
   <section className="   ">
     <div className="container mx-auto px-4 pt-12">
       <div className="text-center mb-16">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="text-3xl md:text-4xl font-bold text-cyan-800"
-        >
-          Introduction
-        </motion.h2>
+     
       </div>
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <motion.div
@@ -290,7 +282,7 @@ const ServicesSection = () => (
 );
 
 const BenefitsSection = () => (
-  <section className="py-20 md:py-28 bg-gray-50">
+  <section className="py-10   bg-gray-50">
     <div className="container mx-auto px-4">
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
@@ -326,7 +318,7 @@ const BenefitsSection = () => (
 );
 
 const CTASection = () => (
-  <section className="py-20   bg-white">
+  <section className="py-10   bg-white">
     <div className="container mx-auto px-4 text-center">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
@@ -370,7 +362,7 @@ const AmcPlansSection = () => {
   );
 
   return (
-    <section className="py-20 md:py-28  ">
+    <section className="py-10  ">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -1787,7 +1779,9 @@ export default function AnnualMaintenance() {
 
   return (
     <>
-      <div className="row ">
+      <div className="row  px-0  ">
+     
+     
         <div
           className="relative w-full h-screen overflow-hidden"
           ref={containerRef}
@@ -1863,6 +1857,7 @@ export default function AnnualMaintenance() {
             ))}
           </div>
         </div>
+ <div className=" px-0 2xl:px-24">
 
         <section className="annual-sec py-10">
           <div className="container mx-auto px-4">
@@ -2291,7 +2286,7 @@ export default function AnnualMaintenance() {
         </section>
 
         <main>
-          <HeroSection />
+          <HeroSection  />
           <IntroductionSection />
           <ServicesSection />
           <BenefitsSection />
@@ -2309,6 +2304,7 @@ export default function AnnualMaintenance() {
           <ContactSection />
         </main>
       </div>
+       </div>
     </>
   );
 }

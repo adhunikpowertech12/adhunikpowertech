@@ -125,6 +125,18 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1752217844/blog15_esyemu.webp",
     },
 
+    {
+      id: 12,
+      title: "HVAC Excellence: 20 Years of Innovation",
+
+
+      date: "July  2025",
+      image:
+        "",
+      link: "/hvac-thumb-rule-and-formulas",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1752651101/formulas_paeknf.webp",
+    },
+
 
   ];
 
