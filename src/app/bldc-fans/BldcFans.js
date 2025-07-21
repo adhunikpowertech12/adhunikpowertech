@@ -51,7 +51,7 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750917655/07_kjqckq.webp',
           ],
 
-        links1: "https://www.amazon.in/", // Replace with actual product page
+        links1: "https://www.amazon.in/dp/B0FHPSPWFD?ref=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&ref_=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&social_share=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&th=1", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
         links2: "https://www.flipkart.com/adhunik-aircare-simplex-1200-mm-3-blade-ceiling-fan/p/itm576103eca6c58", // Replace with actual product page
@@ -80,7 +80,7 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931678/c4ilbvqh9krugomyjck1_no7uw7.webp',
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750931679/v2pgnzmemdrhuogrbgre_va38yw.webp'
           ],
-             links1: "https://www.amazon.in/", // Replace with actual product page
+             links1: "https://www.amazon.in/dp/B0FHPMPZWX?ref=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&ref_=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&social_share=cm_sw_r_cp_ud_dp_P86HB6SRW4G7S0XW7MTE&th=1", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
         links2: "https://www.flipkart.com/adhunik-aircare-simplex-1200-mm-3-blade-ceiling-fan/p/itmed53f2532cc40", // Replace with actual product page
@@ -260,7 +260,7 @@ export const BldcFans = () => {
             'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750937348/3_yys11m.png' 
           ],
 
-             links1: "https://www.amazon.in/", // Replace with actual product page
+             links1: "https://www.amazon.in/dp/B0FHKVHQK9?ref=cm_sw_r_cp_ud_dp_A4W44J78GR3KKW3GYQ2Q&ref_=cm_sw_r_cp_ud_dp_A4W44J78GR3KKW3GYQ2Q&social_share=cm_sw_r_cp_ud_dp_A4W44J78GR3KKW3GYQ2Q", // Replace with actual product page
         linkimage1: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1751262115/91f360_78edf202834d4e94b30c01ec457d3ffd_mv2_jrwclc.webp" // Correct image URL
     ,
         links2: "https://dl.flipkart.com/s/Xrr0mbNNNN", // Replace with actual product page
