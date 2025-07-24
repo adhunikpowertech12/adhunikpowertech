@@ -151,7 +151,7 @@ export default function HeroPage() {
     }
     else {
       console.log('Please chordo');
-      window.location.href = 'tel:08287885885';  
+      window.location.href = 'tel:8287885885';  
     }
   };
 
@@ -528,91 +528,153 @@ export default function HeroPage() {
 
   
   const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://adhunikpowertech.com",
-        "url": "https://adhunikpowertech.com",
-        "name": "Adhunik Powertech",
-        "headline": "Top & Best HVAC Companies in India - Adhunik Powertech",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "url": "https://adhunikpowertech.com/"
-        },
-        "thumbnailUrl": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_1200/f_auto/q_auto/v1/landingpage/indiaawards_k0es0f?_a=BAVAZGDX0",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://res.cloudinary.com/ddkyx2jhh/image/upload/c_limit,w_3840/f_auto/q_auto/v1/awb_y87hai_edmbck?_a=BAVAZGDX0",
-          "height": "500",
-          "width": "700"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://adhunikpowertech.com/?s={search_term_string}",
-          "query-input": "required name=search_term_string"
-        },
-        "author": {
-          "@type": "Person",
-          "@id": "https://adhunikpowertech.com",
-          "url": "https://adhunikpowertech.com",
-          "name": "Adhunik Powertech"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "@id": "https://adhunikpowertech.com/",
-          "url": "https://adhunikpowertech.com/",
-          "name": "Adhunik Powertech",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.adhunikpowertech.com/we.svg",
-            "width": "3000",
-            "height": "962",
-            "caption": "Adhunik Powertech"
-          },
-          "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
-          "sameAs": [
-            "https://x.com/AdhunikCooling",
-            "https://www.linkedin.com/company/adhunikpowertech/"
-          ]
-        },
-        "keywords": "HVAC solutions, air cooling systems, industrial ventilation, air handling units, cooling systems provider,HVAC contractors,hvac company in noida"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "additionalType": "http://schema.org/Manufacturer",
+      "@id": "https://adhunikpowertech.com/#organization",
+      "name": "Adhunik Powertech Private Limited",
+      "url": "https://adhunikpowertech.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.adhunikpowertech.com/we.svg",
+        "caption": "Adhunik Powertech Private Limited Logo"
       },
-      {
-        "@type": "LocalBusiness",
-        "name": "Adhunik Powertech",
-        "image": "https://adhunikpowertech.com/logo.jpg",
-        "description": "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Sector 70, Gurugram",
-          "addressLocality": "Gurugram",
-          "addressRegion": "Haryana",
-          "postalCode": "122001",
-          "addressCountry": "India"
-        },
-        "telephone": "+91-9289126052",
-        "url": "https://adhunikpowertech.com/",
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "09:00",
-          "closes": "21:00"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "7"
-        },
-        "sameAs": [
-          "https://www.facebook.com/adhunikpowertech",
-          "https://www.instagram.com/adhunikpowertech/",
-          "https://www.linkedin.com/company/adhunikpowertech/"
+      "description": "Founded in 2005, Adhunik Powertech Private Limited is a leading Indian manufacturer and global provider of comprehensive HVAC solutions. We specialize in designing, manufacturing, and installing energy-efficient cooling, ventilation, and fire safety systems for industrial, commercial, and residential clients.",
+      "foundingDate": "2005-09-22",
+      "founder": {
+        "@type": "Person",
+        "name": "Sanjay Chauhan"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "DCG1-0102, Tower-1, DLF CORPORATE GREENS, Sector 74A",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122004",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "8287885885",
+        "contactType": "Customer Service",
+        "areaServed": "IN",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://www.facebook.com/adhunikpowertech",
+        "https://www.instagram.com/adhunikpowertech/",
+        "https://x.com/AdhunikCooling",
+        "https://www.linkedin.com/company/adhunikpowertech/"
+      ],
+      "award": [
+        "Most Innovative Brand for HVAC Projects 2024-25",
+        "India Business Award 2025",
+        "Award for Best Quality Standards & Services in HVAC Industry"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Product Catalog",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Washer" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Ducted Air Coolers" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Ventilation & Exhaust Fans" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Panel Air Conditioner" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Oil and Coolant Chiller" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Shower" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Air Handling Unit (AHU)" } }
         ]
       }
-    ]
-  };
-
+    },
+    {
+      "@type": "HVACBusiness",
+      "@id": "https://adhunikpowertech.com/#localbusiness",
+      "name": "Adhunik Powertech Private Limited",
+      "image": "https://www.adhunikpowertech.com/we.svg",
+      "url": "https://adhunikpowertech.com/",
+      "telephone": "8287885885",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "DCG1-0102, Tower-1, DLF CORPORATE GREENS, Sector 74A",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122004",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "85"
+      },
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Contracting Services" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Design and Consultation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional HVAC Installation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Repair and Maintenance" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial HVAC Solutions" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Energy-Efficient HVAC Upgrades" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Air Quality Solutions" } }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adhunikpowertech.com/#website",
+      "url": "https://adhunikpowertech.com/",
+      "name": "Adhunik Powertech",
+      "publisher": { "@id": "https://adhunikpowertech.com/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adhunikpowertech.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/our-Company",
+      "url": "https://www.adhunikpowertech.com/our-Company",
+      "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Powertech",
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "about": { "@id": "https://adhunikpowertech.com/#organization" },
+      "inLanguage": "en-IN"
+    },
+	{
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/product-overview",
+      "url": "https://www.adhunikpowertech.com/product-overview",
+      "name": "HVAC & Industrial Cooling Products India | Global - Adhunik Powertech",
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
+      "url": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
+      "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Powertech",
+	  "description": "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR and across India, offering expert services in HVAC design, installation, repair, and maintenance for industrial and commercial clients.",
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    }
+  ]
+};
   return (
     <>
       <Head>
