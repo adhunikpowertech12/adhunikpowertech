@@ -159,7 +159,7 @@ export default function LuxuryDesign() {
     <>
       <div className="bg-white  ">
          
-        <section className="   mt-28 md:mt-0 px-4 relative h-auto md:h-screen min-h-[800px] flex items-center justify-center bg-gradient-to-br from-cyan-50/20 to-white">
+        <section className="mt-28 md:mt-0 px-4 relative h-auto md:h-screen min-h-[800px] flex items-center justify-center bg-gradient-to-br from-cyan-50/20 to-white">
 
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-cyan-400/5 rounded-full filter blur-[100px] "></div>
