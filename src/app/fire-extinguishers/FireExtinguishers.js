@@ -1187,9 +1187,11 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
                 <p className=" text-sm md:text-xl text-red-100 mb-8">
                   Partnering with experts like Adhunik Decodive can unlock the full potential of your space, delivering comfort that is felt, not seen.
                 </p>
-                <Link href='https://adhunikdecodive.com/' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
+                
+                <Link href='/support-form' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
                   Schedule Consultation <ArrowRight className="w-5 h-5" />
                 </Link>
+
               </div>
             </div>
           </section>
