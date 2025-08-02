@@ -41,7 +41,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
-export default function FireSprinklerSystem() {
+export default function FireSupresion() {
 
   
   const integrationExamples = [
@@ -50,12 +50,12 @@ export default function FireSprinklerSystem() {
       title:
       <>
         <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-      Sprinkler Heads
+      Suppression Agents
 
         </Link>
       </> 
       ,
-      content: " Precision-engineered to activate individually at specific temperatures, releasing water directly onto the fire."
+      content: "The specific extinguishing agent chosen based on the hazard (e.g., FM-200, Novec 1230, CO2, Foam, Dry Chemical)."
     },
 
     {
@@ -63,11 +63,11 @@ export default function FireSprinklerSystem() {
       title: 
        <>
         <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>
-       Piping Network
+      Detection System
 </Link>
       </> 
 ,
-      content: "A robust system of pipes, strategically designed and installed by our contracting team, to transport water efficiently throughout the protected area."
+      content: "Advanced smoke, heat, or flame detectors configured for rapid and accurate fire identification, triggering the suppression system."
     },
 
     {
@@ -75,21 +75,21 @@ export default function FireSprinklerSystem() {
       title: 
         <>
         <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-       Control Valves
+     Control Panel
         </Link>
       </> 
       ,
-      content: "Regulate water flow within the system, crucial for isolation, maintenance, and emergency operations."
+      content: " The intelligent hub for system monitoring, activation, and status reporting."
     },
 
     {
       icon: <Atom className="w-6 h-6" />,
       title: 
         <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Water Supply</Link>
+        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Delivery System</Link>
       </> 
       ,
-      content: "A reliable and adequately pressurized water source (municipal connection, dedicated tanks, or fire pumps) ensuring sustained water delivery."
+      content: "A network of specialized pipes, manifolds, and nozzles precisely installed by our contracting team to ensure uniform and effective agent dispersal."
     },
 
     {
@@ -97,21 +97,21 @@ export default function FireSprinklerSystem() {
       title: 
         <>
         <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-       Integrated Alarm Systems
+      Storage Cylinders
         </Link>
       </> 
       ,
-      content: "Alert occupants and emergency services immediately upon sprinkler activation."
+      content: " High-pressure cylinders designed to safely store the suppression agent."
     },
 
     {
       icon: <Atom className="w-6 h-6" />,
       title: 
         <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Flow Switches</Link>
+        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Manual Release Stations</Link>
       </> 
       ,
-      content: " Detect water flow in the system, triggering alarms and notifications."
+      content: " Provide an option for human activation when necessary."
     },
 
     
@@ -119,10 +119,10 @@ export default function FireSprinklerSystem() {
       icon: <Atom className="w-6 h-6" />,
       title: 
         <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Fire Pumps</Link>
+        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Pre-Discharge Alarms</Link>
       </> 
       ,
-      content: "Ensure sufficient water pressure and volume, especially in large or high-rise structures in Delhi and Gurugram."
+      content: " Crucial for signaling occupants to evacuate before agent release, particularly for gaseous systems."
     },
 
    
@@ -134,35 +134,71 @@ export default function FireSprinklerSystem() {
       {
     
        icon: <PanelLeft className="w-6 h-6" />,
-      title: "Saves Lives",
-      content: " Rapid suppression buys precious time for occupants to evacuate safely, significantly reducing fatalities in a fire incident."
+      title: "Minimizes Damage to Critical Assets",
+      content: "Protects expensive machinery, data, sensitive electronics, and irreplaceable documents from fire and water damage, especially with clean agent solutions."
     },
 
     {
        icon: <Droplets className="w-6 h-6" />,
-      title: "Minimizes Property Damage",
-      content: "Automatic activation contains and extinguishes fires quickly, limiting the spread of flames, smoke, and heat, thus minimizing structural and asset loss."
+      title: "Rapid & Automatic Response",
+      content: " Systems activate automatically upon fire detection, suppressing the fire within seconds, often before it can fully develop or spread."
     },
       {
     
        icon: <PanelLeft className="w-6 h-6" />,
-      title: "Reduced Insurance Premiums",
-      content: "Properties equipped with certified fire sprinkler systems often qualify for lower insurance costs due to significantly reduced fire risk."
+      title: "Enhanced Life Safety",
+      content: " While some systems are designed for unoccupied spaces, many provide pre-discharge alarms, allowing safe evacuation before agent release, significantly improving life safety."
     },
       {
     
        icon: <PanelLeft className="w-6 h-6" />,
-      title: "Lower Emergency Response Costs",
-      content: "Quicker fire suppression means less extensive firefighting efforts, reducing overall emergency service expenses."
+      title: "Ensures Business Continuity",
+      content: " By quickly controlling fires and minimizing disruption, these systems help maintain operational integrity and reduce downtime, crucial for businesses in Delhi NCR."
     },
       {
     
        icon: <PanelLeft className="w-6 h-6" />,
       title: "Regulatory Compliance",
-      content: "Essential for meeting stringent fire safety norms, including BIS, NFPA (e.g., NFPA 13, 25), and local municipal fire department requirements, especially under acts like the Haryana Fire Act 2022 in regions like Gurugram. Our contractor expertise ensures your system is always compliant."
+      content: " Essential for meeting stringent international and national fire safety norms, including NFPA (e.g., NFPA 2001 for Clean Agents), BIS, and local municipal fire department requirements. Our contractor expertise ensures your system adheres to all applicable acts and standards."
+    },
+      {
+    
+       icon: <PanelLeft className="w-6 h-6" />,
+      title: "Potential Insurance Advantages",
+      content: " Properties with certified, well-maintained suppression systems may qualify for significant reductions in insurance premiums."
     },
    
   ];
+
+
+  const fireSafetyPoints = [
+  {
+    title: "Turnkey Solutions",
+    description:
+      " We offer a complete suite of services, from initial hazard assessment, customized engineering design, ISI-certified supply, precise installation by our expert contracting team, rigorous testing, and proactive Annual Maintenance Contracts (AMC).",
+  },
+  {
+    title: "Specialized Expertise",
+    description:
+      " Our highly qualified engineers and technicians are experienced in the intricacies of various fire suppression technologies and their application in diverse, high-stakes environments",
+  },
+  {
+    title: "Quality & Compliance Assured",
+    description:
+      " We supply and install systems built with robust, reliable components that meet the highest national and international safety standards. Our contracting work ensures these standards are meticulously followed during every project.",
+  },
+  {
+    title: "Local Presence, Pan-India Reach",
+    description:
+      "  With a strong operational presence across Delhi NCR and a robust network covering Jaipur, Chandigarh, and numerous industrial clusters like Manesar and Bhiwadi, we guarantee prompt and efficient service, whether you need a supplier or a full-service contractor.",
+  },
+  {
+    title: "Customized & Precision Engineered",
+    description:
+      " Our solutions are not off-the-shelf. They are custom-engineered and expertly installed by our contracting team to mitigate the specific fire risks of your unique facility and protect your most valuable assets.",
+  },
+];
+
 
   return (
     <>
@@ -188,7 +224,7 @@ export default function FireSprinklerSystem() {
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_fggarf.webp"
+                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp"
                       alt="Adhunik Powertech air washer"
                       loading="lazy"
                     />
@@ -208,13 +244,13 @@ export default function FireSprinklerSystem() {
                       <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
-                    Fire Sprinkler System Contractor, Supplier & Dealer 
-
+                  Fire Suppression System Contractor, Supplier & Dealer in 
+ Delhi NCR, Gurugram & Noida 
                           </Link>
                         </span><br />
                         <span className="font-light text-gray-700">   <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                            <span  className='  '>
-                in Delhi NCR, Gurugram, Noida & Across India
+           
                           </span> 
                         </span>   Adhunik FireXpert
                         </span>
@@ -223,13 +259,13 @@ export default function FireSprinklerSystem() {
                     <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 
-            For unparalleled automatic fire protection, a state-of-the-art Fire Sprinkler System is a cornerstone of modern safety infrastructure. As a leading dealer, supplier, and specialized contractor of advanced fire sprinkler systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert provides comprehensive, end-to-end solutions from meticulous design to flawless installation and ongoing maintenance.
+For critical assets, sensitive equipment, and high-value properties, an advanced Fire Suppression System provides ultimate protection, automatically detecting and extinguishing fires with specialized agents. As a leading dealer, supplier, and expert contractor of cutting-edge fire suppression systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert delivers comprehensive, turnkey solutions.
 
 
                     </p>
                     <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
-We equip commercial complexes, industrial facilities, educational institutions, and large residential properties with ISI-marked and NFPA-compliant fire sprinkler systems, ensuring rapid and automatic fire detection and suppression. Our expertise guarantees your property's adherence to the latest fire safety regulations, offering superior protection and peace of mind across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
+We specialize in designing, installing, and maintaining custom fire suppression systems for data centers, server rooms, control rooms, industrial facilities, archives, and high-rise commercial buildings. Our ISI-marked and NFPA-compliant systems ensure rapid, targeted fire control, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
 
                     </p>
@@ -250,7 +286,8 @@ We equip commercial complexes, industrial facilities, educational institutions, 
             <div className="text-center py-12">
             
               <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
-         Why a Modern Fire Sprinkler System is Indispensable for Your Property
+
+      The Critical Role of Advanced Fire Suppression Systems
 
  <br />
                 <span className="text-red-600">Your Essential First Line of Defense</span>
@@ -259,7 +296,7 @@ We equip commercial complexes, industrial facilities, educational institutions, 
               <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
                 <p>
 
-           A professionally designed and installed fire sprinkler system is arguably the most effective tool in minimizing fire damage and protecting occupants. These automatic systems detect fires early and suppress them immediately, often before the fire department arrives. Investing in a quality system from a trusted fire sprinkler system supplier and contractor like Adhunik FireXpert significantly enhances property safety, safeguards lives, and ensures business continuity.
+Traditional fire fighting methods aren't always suitable for sensitive environments where water or conventional extinguishing agents could cause more damage than the fire itself. Fire Suppression Systems offer a specialized, automatic response, using clean agents or other targeted methods to extinguish fires quickly without harming valuable assets or disrupting critical operations. Partnering with a skilled fire suppression system contractor like Adhunik FireXpert is crucial for safeguarding your most vital infrastructure.
 
                 </p>
                
@@ -268,11 +305,12 @@ We equip commercial complexes, industrial facilities, educational institutions, 
 
 
 <p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
-Types of Fire Sprinkler Systems Supplied & Installed <br /> by Adhunik FireXpert
+Types of Fire Suppression Systems Supplied & Installed by Adhunik FireXpert
+
  </p>
 
  <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
-Adhunik FireXpert is a top fire sprinkler system dealer and contractor, offering a range of systems tailored to various building types and hazard levels
+Adhunik FireXpert is a top fire suppression system dealer and contractor, providing a range of specialized systems tailored to various hazards and environments
 
 </p>
 
@@ -284,10 +322,11 @@ Adhunik FireXpert is a top fire sprinkler system dealer and contractor, offering
 
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-      <h2 className=" text-2xl mb-3 hidden md:block"> Wet Pipe Sprinkler Systems </h2>
+      <h2 className=" text-2xl mb-3 hidden md:block"> Clean Agent Fire Suppression Systems (e.g., FM-200, Novec 1230, Inergen) </h2>
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Description : </strong> 
-     The most common type, with pipes constantly filled with water, allowing for immediate discharge upon sprinkler head activation.
+   
+    These systems use gaseous agents that are electrically non-conductive, non-corrosive, and leave no residue upon discharge. They suppress fires by removing heat or oxygen, or by interrupting the chemical chain reaction.
 
 
       </p>
@@ -295,8 +334,7 @@ Adhunik FireXpert is a top fire sprinkler system dealer and contractor, offering
          <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>   Ideal For : </strong> 
      
-Offices, residential buildings, and retail spaces in Gurugram, Noida, and across Delhi NCR.
-
+Data centers, server rooms, control rooms, telecommunication facilities, museums, archives, and critical electrical rooms in Noida, Gurugram, and across Delhi NCR.
 
 
       </p>
@@ -305,9 +343,7 @@ Offices, residential buildings, and retail spaces in Gurugram, Noida, and across
          <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'> Benefits : </strong> 
      
-Simple, reliable, and cost-effective, offering rapid response to fire.
-
-
+Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, safe for occupied spaces (depending on agent), and environmentally friendly.
       </p>
 
       
@@ -327,7 +363,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263837/fire_sprinkler_m2veyv.webp"
+                  src="https://www.zedexfire.com/fire-suppression-system-1.webp"
                 />
               </div>
             </div>
@@ -377,7 +413,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-3_w6g04z.webp"
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
                 />
               </div>
             </div>
@@ -396,11 +432,11 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
 
     <div className="md:w-[60%] flex flex-col items-start justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-      <h2 className=" text-2xl mb-3 hidden md:block"> Dry Pipe Sprinkler Systems</h2>
+      <h2 className=" text-2xl mb-3 hidden md:block">CO2 Fire Suppression Systems:</h2>
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Description : </strong> 
      
-       Pipes are filled with pressurized air or nitrogen. Water is held back by a valve and released only when a sprinkler head activates.
+    Utilize Carbon Dioxide (CO2) gas, which rapidly displaces oxygen to suffocate the fire. CO2 is stored as a liquid and expands into a gas upon discharge.
 
 
       </p>
@@ -408,15 +444,15 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>  Ideal For :  </strong> 
      
-   Unheated warehouses, parking garages, and environments prone to freezing temperatures, or areas where accidental discharge of water could be damaging.
-
+   Unoccupied industrial areas, power generation facilities, paint booths, electrical substations, and marine applications in industrial belts like Faridabad and Manesar.
 
       </p>
 
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'> Benefits :  </strong> 
      
-  Prevents freezing of water in pipes, suitable for cold climates or sensitive areas.
+Highly effective on Class B and C fires, non-conductive, leaves no residue. Note: Primarily for unoccupied spaces due to oxygen displacement.
+
 
 
       </p>
@@ -438,19 +474,19 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> 
-     Preaction Sprinkler Systems
+  Foam Fire Suppression Systems
+
        </h2>
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Description : </strong> 
-    A two-stage system where both a detection event (e.g., smoke or heat) and sprinkler head activation are required before water is released into the pipes.
-
+   Description: These systems discharge a foam solution that spreads over the burning surface, cooling the fuel and forming a barrier to prevent oxygen from reaching the fire.
 
       </p>
 
          <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>   Ideal For : </strong> 
      
-  High-value asset areas like data centers, museums, and server rooms in Greater Noida and Jaipur, where accidental water discharge is highly undesirable.
+  Flammable liquid storage areas, oil refineries, aircraft hangars, chemical plants, and fuel loading docks, often found in Bhiwadi or Muzaffarnagar.
 
 
       </p>
@@ -459,7 +495,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
          <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'> Benefits : </strong> 
      
-  Minimizes accidental discharge risk, critical for protecting sensitive equipment.
+ Highly effective on Class B fires, prevents re-ignition, and provides cooling.
 
 
       </p>
@@ -481,7 +517,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-2_ey3qlf.webp"
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
                 />
               </div>
             </div>
@@ -524,7 +560,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-2_ey3qlf.webp"
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
                 />
               </div>
             </div>
@@ -544,12 +580,13 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
     <div className="md:w-[60%] flex flex-col items-start justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block">
-     Deluge Sprinkler Systems
+    Dry Chemical Fire Suppression Systems
+
        </h2>
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Description : </strong> 
      
-       Sprinkler heads are open, and water is delivered through all heads simultaneously once a detection system activates.
+      Use specially fluidized and siliconized monoammonium phosphate or sodium bicarbonate-based dry chemical agents to rapidly extinguish fires by interrupting the chemical reaction.
 
 
       </p>
@@ -557,8 +594,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>  Ideal For :  </strong> 
      
-    High-hazard industrial areas, aircraft hangars, and chemical storage facilities in Faridabad, Manesar, and Bhiwadi.
-
+ Commercial kitchens (for specific applications beyond Class K), industrial hazards, and areas with combined fire risks.
 
 
       </p>
@@ -566,7 +602,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'> Benefits :  </strong> 
      
-   Rapid and widespread water application for swift suppression of fast-spreading fires.
+ Rapid knockdown of fires, versatile for multiple fire classes.
 
 
       </p>
@@ -599,10 +635,12 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             <div className="text-center mb-20">
 
               <h2 className="text-md  font-bold text-gray-900 mb-6 leading-tight">
-           Our Fire Sprinkler Systems (Supplied & Installed):
+          Our Fire Suppression Systems (Supplied & Installed)
  <br />
                 <span className="text-red-600">
-      As an experienced fire sprinkler system supplier and contractor, Adhunik FireXpert ensures every component meets the highest quality standards and is expertly installed for optimal performance
+
+As an experienced fire suppression system supplier and contractor, Adhunik FireXpert ensures every component meets rigorous quality standards and is expertly integrated
+
 
                 </span>
               </h2>
@@ -629,12 +667,10 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             <div className="mb-24">
               <h2 className=" text-xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
 
-The Unmatched Advantages of Professional Fire Sprinkler Systems
-
+The Unmatched Benefits of Professional Fire Suppression Systems
  </h2>
               <p className=" text-sm md:text-md text-gray-600 max-w-4xl mx-auto text-center mb-16">
-       Implementing a professional fire sprinkler system from Adhunik FireXpert offers critical benefits for properties across Noida, Ghaziabad, and beyond
-
+  Implementing an advanced fire suppression system from Adhunik FireXpert offers critical advantages for properties across Gurugram, Delhi, Noida, and beyond
   </p>
 
 
@@ -670,12 +706,12 @@ The Unmatched Advantages of Professional Fire Sprinkler Systems
             <div className="text-center mb-10 md:mb-20">
               <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
-           Why Choose Adhunik FireXpert as Your 
+       Why Choose Adhunik FireXpert for
 
 {" "}
 
  <span className="text-red-600 ">
- Fire Sprinkler System Contractor & Supplier ?</span>
+  Your Fire Suppression System ?</span>
               </div>
 
               <div className="max-w-4xl  mx-auto text-sm text-justify md:text-md text-gray-600 space-y-6">
@@ -684,48 +720,18 @@ The Unmatched Advantages of Professional Fire Sprinkler Systems
                <p className="md:text-justify text-sm  py-2">
     
 As your trusted  <strong className=' text-red-500'>  
-    fire sprinkler system dealer, supplier, and contractor,   </strong>  Adhunik FireXpert brings unparalleled expertise and a commitment to excellence:
+   fire suppression system dealer, supplier, and contractor,  </strong>  Adhunik FireXpert brings unparalleled expertise and a commitment to excellence in specialized fire protection:
+  
 
       </p>
 
-               <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>  
-      End-to-End Solutions :  </strong> 
-  We offer a complete suite of services, from initial consultation and custom design to ISI-certified installation, rigorous testing, and proactive Annual Maintenance Contracts (AMC). Our role as a fire safety contractor means we handle every step with precision.
+            {fireSafetyPoints.map((point, index) => (
+  <p key={index} className="md:text-justify text-sm py-2">
+    <strong className="text-red-500">{point.title} : </strong>
+    {point.description}
+  </p>
+))}
 
-      </p>
-
-                
-               <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>  Certified Expertise : </strong> 
- Our team of highly qualified engineers and technicians possesses extensive experience in designing and implementing complex fire sprinkler networks for diverse industries and infrastructures.
-
-
-      </p>
-                
-               <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>  Quality & Compliance : </strong> 
- We supply systems built with robust, reliable components that meet the highest national and international safety standards. Our contracting work ensures these standards are meticulously followed during installation across Delhi NCR and our expanded service locations.
-
-
-      </p>
-
-                
-               <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'> Local Presence, Pan-India Reach : </strong> 
- With a strong operational presence across Delhi NCR and a robust network covering Jaipur, Chandigarh, and numerous industrial clusters like Manesar and Bhiwadi, we guarantee prompt and efficient service, whether you need a supplier or a full-service contractor.
-
-
-      </p>
-
-                
-               <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'> Customized Design & Installation : </strong> 
-
- We don't believe in one-size-fits-all. Our solutions are custom-engineered and expertly installed by our contracting team to meet the specific fire hazards and structural requirements of your property.
-
-
-      </p>
 
                 
               </div>
@@ -736,14 +742,13 @@ As your trusted  <strong className=' text-red-500'>
             <div className="text-center mb-10 md:mb-20">
               <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
-         Regular Maintenance: Ensuring System Readiness & 
- 
+       Regular Maintenance: Ensuring Continuous Protection & 
 {" "}
 
  <span className="text-red-600 ">Compliance</span>
               </div>
               <p className=' py-4 text-sm text-gray-600'>
-        A fire sprinkler system is only effective if it's meticulously maintained. Adhunik FireXpert, as a comprehensive fire safety contractor, provides ongoing maintenance services across Gurugram, Delhi, Noida, and all our service areas
+    The reliability of a fire suppression system hinges on diligent maintenance. Adhunik FireXpert, as a comprehensive fire safety contractor, provides ongoing maintenance services across Gurugram, Delhi, Noida, and all our service areas:
 
 </p>
 
@@ -751,31 +756,29 @@ As your trusted  <strong className=' text-red-500'>
 
 
                <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'> Annual Inspections (NFPA 25) : </strong> 
- Professional inspections conducted at least once a year to check for leaks, corrosion, obstructions, and proper water flow.
+     <strong className=' text-red-500'> Routine Checks & Inspections : </strong> 
+ Regular visual inspections and functional checks of detectors, nozzles, piping, and control panels.
 
       </p>
 
                 
                <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>   Testing of Alarm Systems : </strong> 
- Ensuring that integrated alarms and notifications function correctly upon system activation.
-
+     <strong className=' text-red-500'>   Agent Level Monitoring : </strong> 
+ Periodic verification of suppression agent quantity and pressure in storage cylinders.
 
 
       </p>
                 
                <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>  Sprinkler Head Maintenance : </strong> 
- Regular checks to ensure heads are free from obstructions and are operating properly.
-
+     <strong className=' text-red-500'>  Detection Device Testing :</strong> 
+ Regular testing of smoke, heat, and flame detectors to ensure proper function.
 
       </p>
 
                 
                <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'> System Flow Testing : </strong> 
- Testing the flow and pressure to ensure adequate water supply during an emergency.
+     <strong className=' text-red-500'> System Drills & Training : </strong> 
+ Conducting simulated drills and providing training to your staff on system operation and emergency procedures.
 
 
 
@@ -783,8 +786,8 @@ As your trusted  <strong className=' text-red-500'>
 
                 
                <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'> Compliance Checks : </strong> 
- Ensuring your system consistently meets Fire NOC requirements and other local fire safety regulations. Our contracting and maintenance services ensure you stay compliant.
+     <strong className=' text-red-500'> Compliance & Re-certification : </strong> 
+ Ensuring your system consistently meets Fire NOC requirements, NFPA standards, and other local fire safety regulations for continuous operability.
 
 
       </p>
@@ -802,11 +805,11 @@ As your trusted  <strong className=' text-red-500'>
               <div className="relative max-w-4xl mx-auto text-center">
                 <CheckCircle className="w-12 h-12 mx-auto mb-6 text-red-300" />
                 <h3 className=" text-lg md:text-3xl font-bold mb-6">
-              Partner with the Experts in Fire Sprinkler Systems!
+            Protect Your Critical Assets with Adhunik FireXpert!
 
 </h3>
                 <p className=" text-sm   text-red-100 mb-8">
-            Don't leave your property's safety to chance. Partner with Adhunik FireXpert, the premier fire sprinkler system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your needs, design, install, and maintain a system that offers maximum protection and peace of mind.
+       Don't compromise the safety of your invaluable assets. Partner with Adhunik FireXpert, the premier fire suppression system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your unique risks, design, install, and maintain a system that offers maximum protection and peace of mind for your critical infrastructure.
 
 
                 </p>

@@ -80,7 +80,11 @@ function Navbar() {
     },
     {
       to: '#',
-      text: ' FIRE & SAFETY ',
+      text: 
+        <>
+      <div className=' text-red-700'>FIRE & SAFETY</div>
+     </>
+     ,
       dropdownItems: [
         { label: 'Overview', href: '/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' },
         { label: " Fire Extinguishers ", href: "/fire-extinguishers " },
@@ -237,7 +241,11 @@ function Navbar() {
     },
 
     {
-      label: "FIRE & SAFETY",
+      label: 
+     <>
+      <div className=' text-red-700'>FIRE & SAFETY</div>
+     </>
+      ,
       dropdown: [
         { label: "Overview", href: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India" },
         { label: " Fire Extinguishers ", href: "/fire-extinguishers " },

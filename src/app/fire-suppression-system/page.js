@@ -1,492 +1,110 @@
-"use client";
+import React from 'react'
+import FireSupresion from './FireSupresion'
 
 
-export default function DuctedAirCooler() {
+export const metadata = {
+  title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+  description:
+    "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
+  keywords: [
+   
+    "fire suppression system Delhi NCR",
+    "fire suppression system Gurugram",
+    "fire suppression system Noida",
+    "fire suppression system Faridabad",
+    "fire suppression system Ghaziabad",
+    "fire suppression system supplier Delhi NCR",
+    "fire suppression system dealer Gurugram",
+    "fire suppression system contractor Noida",
+    "fire suppression installation Gurugram",
+    "fire suppression maintenance Delhi NCR",
+    "fire suppression design India",
+    "ISI certified fire suppression system",
+    "NFPA compliant fire suppression", 
+    "clean agent fire suppression",
+    "FM-200 fire suppression",
+    "Novec 1230 fire suppression",
+    "Inergen fire suppression",
+    "CO2 fire suppression system",
+    "foam fire suppression system",
+    "dry chemical fire suppression system",
+    "gas based fire suppression", 
+    "Haryana Fire Act 2022 fire suppression",
+    "Fire NOC Gurugram fire suppression",
+    "fire safety compliance Delhi",
+    "National Building Code fire suppression",
+    "NFPA 2001 clean agent",  
+    "LPG gas leak detection system",  
+    "commercial fire suppression system",
+    "industrial fire suppression system",
+    "data center fire suppression",
+    "server room fire suppression",
+    "fire suppression AMC",
+    "fire suppression system repair",
+    "turnkey fire safety contractor Delhi",  
+    "fire suppression system Sonipat",
+    "fire suppression system Panipat",
+    "fire suppression system Rohtak",
+    "fire suppression system Rewari",
+    "fire suppression system Palwal",
+    "fire suppression system Bhiwadi",
+    "fire suppression system Meerut",
+    "fire suppression system Neemrana",
+    "fire suppression system Tapukara",
+    "fire suppression system Bawal",
+    "fire suppression system Manesar",
+    "fire suppression system Dharuhera",
+    "fire suppression system Muzaffarnagar",
+    "fire suppression system Jaipur",
+    "fire suppression system Chandigarh", 
+    "Adhunik FireXpert",
+    "Adhunik Powertech fire safety", 
+    "trusted fire safety contractor Gurugram",
+    "best fire protection company Noida",
+    "critical asset protection", 
+    "automatic fire extinguishing system",
+    "minimal damage fire suppression",
+    "business continuity fire safety",
+    "sensitive equipment fire protection",
+  ],
+  robots: "index,follow",
+  
+  openGraph: {
+    title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    description:
+
+      "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
+
+    url: "https://www.adhunikpowertech.com/fire-suppression-system",
+    type: "website", 
+    images: [
+      {
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp", 
+        width: 1200,
+        height: 630,
+        alt: "Fire Suppression System Installation and Service by Adhunik FireXpert in Delhi NCR",
+      },
+    ],
+  },
+  alternates: {
+    canonical:
+      "https://www.adhunikpowertech.com/fire-suppression-system", 
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    description:
+      "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp", 
+  },
+};
 
 
-
-
-
-
-
+export default function page() {
   return (
-
-
     <>
 
-      <div className="row mt-32 font-sans">
-
-
-        <div className="row">
-
-          <h1 className=" w-full text-center font-sans text-4xl  md:text-5xl  text-sky-700 uppercase"> Fire suppression system </h1>
-
-          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-            <div className="md:w-[40%] w-auto">
-              <div className="flex items-center justify-center h-full">
-                <div>
-                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
-                    <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                        <img
-                          className="  md:h-[28rem]  object-center object-cover  "
-                          fetchPriority="high"
-                          decoding="async"
-                          alt="Fire suppression system"
-                          src=" https://media.istockphoto.com/id/1178819648/photo/automatic-gas-fire-extinguishing-system-safety-of-premises-from-conflagration-red-compressed.jpg?s=612x612&w=0&k=20&c=64d5ykqzttrQlXWdSVIyHsgzb_luXXlM0jgwLJ5qGbE="
-                        />
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <p className="font-dmserif text-3xl font-bold text-white">  Fire suppression system  </p>
-                      <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                      </p>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire suppression system</p>
-              <p className="md:text-justify  py-2">
-              A Fire suppression system is a critical safety  mechanism designed to control or extinguish fires in
-various environments, protecting lives, property, and
-assets. These systems utilize different methods and
-agents to suppress flames, offering effective solutions
-tailored to specific hazards and settings.
-              </p>
-
-
-              <h2 className="text-[6vw] md:text-4xl mb-3    text-left"> Key Components Fire suppression system </h2>
-        
-             
-              
-
-
-
-
-
-
-        <div className="card   text-left">
-     
-          <ul className=" list-disc py-3 space-y-1  ps-4">
-            <li>
-
-           <span className=" font-sans font-bold">
-              
-           Suppression Agent:
-             </span> 
-           The material used to extinguish
-or control a fire. Common agents include water,
-foam, dry chemicals, carbon dioxide (CO2), and
-clean agents like FM-200 or Inergen.
-
-
-            </li>
-            <li>
-
-           <span className=" font-sans font-bold">
-              
-           Delivery System:
-             </span> 
-         The network of pipes, nozzles, or
-hoses through which the suppression agent is
-distributed. This system can be activated manually
-or automatically.
-
-            </li>
-
-            <li>
-
-           <span className=" font-sans font-bold">
-              
-           Control Panel:
-             </span> 
-       The central unit that monitors and
-manages the fire suppression system, including
-alarms and notifications. It can integrate with other
-fire safety systems.
-
-            </li>
-
-            <li>
-
-           <span className=" font-sans font-bold">
-              
-           Detection System: 
-             </span> 
-   Devices such as smoke
-detectors, heat detectors, or flame sensors that
-trigger the suppression system when a fire is
-detected.
-
-            </li>
-            <li>
-
-           <span className=" font-sans font-bold">
-              
-           Nozzles and Discharge Devices:
-             </span> 
-            These components
-disperse the suppression agent over the fire area.
-Their design and placement are critical for effective
-fire suppression.
-
-            </li>
-          
-      
-          
-          </ul>
-        </div>
-
-          
-
-
-              <div className="show_m mt-5">
-                <button
-                  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
-                >
-                  Enquiry Now
-                </button>
-
-
-
-              </div>
-            </div>
-
-
-          </div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-     
-        <div className="row">
-
-
-          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4 items-center">
-
-
-
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-        
-
-
-           
-            <div className="card   text-left">
-              <p className=" text-4xl pt-2  text-left "> Importance of Fire Suppression Systems</p>
-                <ul className=" list-disc py-3 space-y-1  ps-4">
-
-
-                  <li>
-                 <span className=" font-sans font-bold"> 
-                 
-                 Life Safety:
-                  
-                   </span>  
-                 
-                 Quickly control or extinguish fires,
-significantly increasing the chances of occupant
-survival and evacuation.
-
-
-                  </li>
-
-                  <li>
-                 <span className=" font-sans font-bold"> 
-                 
-                 Property Protection:
-                  
-                   </span>  
-                 
-               Minimize damage to buildings
-and equipment, leading to reduced repair costs and
-downtime.
-
-
-                  </li>
-
-                  <li>
-                 <span className=" font-sans font-bold"> 
-                 
-                 Insurance Advantages:
-                  
-                   </span>  
-                 
-            Buildings with fire
-suppression systems often qualify for lower
-insurance premiums due to decreased fire risk.
-
-
-                  </li>
-
-                  <li>
-                 <span className=" font-sans font-bold"> 
-                 
-                       
-           Regulatory Compliance:
-                   </span>  
-           Many jurisdictions require
-fire suppression systems in commercial and
-industrial settings, ensuring adherence to safety
-regulations.
-
-                  </li>
-
-                  
-                
-
-
-                </ul>
-              </div>
-
-
-
-
-
-
-
-           
-            </div>
-
-
-            <div className="md:w-[40%] w-auto">
-              <div className="flex items-center justify-center h-full">
-                <div>
-                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
-                    <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                        <img
-                          className="md:h-[28rem] object-center object-cover"
-                          fetchPriority="high"
-                          decoding="async"
-                          alt="Fire suppression system"
-                          src="firex/fssup.webp"
-                        />
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <p className="font-dmserif text-3xl font-bold text-white">Fire suppression system</p>
-                      <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                      </p>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-        <div className="row">
-
-
-          <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-
-            <div className="md:w-[40%] w-auto">
-              <div className="flex items-center justify-center h-full">
-                <div>
-                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
-                    <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-                        <img
-                          className="  md:h-[28rem]  object-center object-cover  "
-                          fetchPriority="high"
-                          decoding="async"
-                          alt="Fire suppression system"
-                          src=" https://media.istockphoto.com/id/1320085870/photo/gas-extinguishing-modules.jpg?s=612x612&w=0&k=20&c=Zx4iBzH7VIUYUItWnw2sv59d7AWUEbwZQ8LXc-ZY0T4="
-                        />
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <p className="font-dmserif text-3xl font-bold text-white">  Fire suppression system  </p>
-                      <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                      </p>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Maintenance and Inspection</h2>
-             
-              <div className="card   text-left">
-           
-
-                <ul className=" list-disc py-3 space-y-1  ps-4">
-
-                  <li>
-                 <span className=" font-sans font-bold">
-                 Routine Inspections: 
-                  </span>
-
-                 Conduct thorough checks
-annually or bi-annually to ensure all components are
-functioning correctly.
-
-
-                  </li>
-
-
-                  <li>
-                 <span className=" font-sans font-bold">
-              
-                 Testing of Detection Devices:
-                  </span>
- Regularly test
-detectors and alarms to confirm they activate the
-suppression system as intended.
-
-                  </li>
-                  <li>
-                 <span className=" font-sans font-bold">
-                 Agent Replacement:
-                  </span>
-
-                  Ensure that suppression agents
-are replenished or replaced according to the
-manufacturer’s guidelines.
-
-
-                  </li>
-                  <li>
-                 <span className=" font-sans font-bold">
-                 System Drills:
-                  </span>
-
-           
- Conduct training and drills to
-familiarize staff with the system's operation and
-emergency procedures.
-
-
-                  </li>
-
-         
-            
-
-                
-                </ul>
-              </div>
-
-
-             
-             
-<p className="space-y-1  ps-4"> Fire suppression systems are an indispensable part of fire
-safety, providing immediate response capabilities that
-protect lives and property from the devastating effects of
-fire. these systems can effectively control or extinguish
-fires quickly, minimizing damage and enhancing safety.
-Regular maintenance and inspections are crucial to
-ensure their reliability and effectiveness. </p>
-
-           
-
-          
-
-
-
-
-
-
-
-           
-            </div>
-
-
-
-          </div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-        <div className="row flex-col flex justify-center items-center py-10">
-
-
-<div className="flex items-center justify-center  md:py-10  ">
-
-  <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
-  <span className="text-transparent  bg-clip-text bg-gradient-to-r to-[#f7b733] from-[#fc4a1a]">    Choosing the Right Fire suppression system</span> 
-  </p>
-</div>
-
-
-<div className="container  text-center py-5 md:px-10 px-3">
-  <p> The appropriate type of Fire suppression system depends on the specific hazards present in your home, office, or workplace. For example, if you frequently cook with oils, a Class K extinguisher is essential. Consult with a fire safety expert to determine the best options for your needs.
-  </p>
-
-  <div className="show_m mt-5">
-    <button
-      className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-      onClick={() => {
-window.location.href = 'tel:8287885885';
-}}
-    >
-
-     Call Us Now
-
-    </button>
-
-
-
-  </div>
-
-  
-</div>
-
-
-</div>
-
-
-  
-
-      </div>
-
-
-
-
+    <FireSupresion/>
     </>
-
   )
 }
