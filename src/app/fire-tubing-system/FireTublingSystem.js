@@ -1,243 +1,392 @@
 "use client";
 
+import {
+  ArrowRight,
+  Check,
+  ShieldCheck,
+  Settings,
+  VolumeX,
+  PanelLeft,
+  Thermometer,
+  ChevronRight,
+  Sparkles,
+  GitPullRequest,
+  Eye,
+  Atom
+} from 'lucide-react';
+
+
+import {
+
+  Home,
+  Utensils,
+  Building,
+  Droplets,
+  Volume2,
+
+} from 'lucide-react';
+
+import {
+
+  CheckCircle,
+
+  Droplet,
+  EyeOff,
+  LayoutGrid,
+  Users,
+
+  Briefcase
+} from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+
 export default function FireTublingSystem() {
+
+
+  const integrationExamples = [
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+         Detection Tubing
+          </Link>
+        </>
+      ,
+      content: " Flexible, heat-sensitive polymer tubing that ruptures at specific temperatures (e.g., 100°C, 120°C, 180°C), initiating the discharge."
+    },
+
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+            Extinguishing Agent
+          </Link>
+        </>
+      ,
+      content: " Stored in a cylinder and chosen based on the hazard, typically Clean Agents (FM-200, Novec 1230), CO2, or Dry Chemical."
+    },
+
+
+
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+           Cylinder & Valve Assembly
+          </Link>
+        </>
+      ,
+      content: " Contains the extinguishing agent under pressure, connected to the tubing or a manifold."
+    },
+
+
+
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+          Discharge Nozzles (for Indirect Systems)
+          </Link>
+        </>
+      ,
+      content: " Precisely positioned to ensure uniform agent distribution within the protected space."
+    },
+
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+       Pressure Gauge
+          </Link>
+        </>
+      ,
+      content: " Monitors the system's operational pressure."
+    },
+
+    {
+      icon: <GitPullRequest className="w-6 h-6" />,
+      title:
+        <>
+          <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+      Warning Signage
+          </Link>
+        </>
+      ,
+      content: " Crucial for safety and compliance, clearly indicating the presence of an automatic suppression system."
+    },
+
+
+
+  ];
+
+  // Design considerations
+  const designConsiderations = [
+    {
+
+      icon: <PanelLeft className="w-6 h-6" />,
+      title: "Pinpoint Protection",
+      content: "Targets fires directly at their source within enclosed spaces, preventing spread and minimizing collateral damage."
+    },
+
+    {
+      icon: <Droplets className="w-6 h-6" />,
+      title: "Automatic & Rapid Activation",
+      content: "Detects heat and suppresses fires within seconds, without human intervention, crucial for unmanned equipment."
+    },
+    {
+
+      icon: <PanelLeft className="w-6 h-6" />,
+      title: "Minimizes Collateral Damage",
+      content: "Especially with clean agents, these systems extinguish fires without harming sensitive electronics or leaving residue, ensuring minimal downtime and cleanup."
+    },
+    {
+
+      icon: <PanelLeft className="w-6 h-6" />,
+      title: "Cost-Effective for Micro-Environments",
+      content: "A highly efficient and economical solution for protecting specific, high-risk equipment where a full room suppression system might be impractical."
+    },
+    {
+
+      icon: <PanelLeft className="w-6 h-6" />,
+      title: "Enhanced Life Safety",
+      content: "By containing fires quickly, they reduce the risk of larger, more dangerous incidents."
+    },
+
+    {
+
+      icon: <PanelLeft className="w-6 h-6" />,
+      title: "Regulatory Compliance",
+      content: " Essential for meeting stringent industry-specific fire safety norms and NFPA standards (e.g., NFPA 75 for IT Equipment), especially for critical infrastructure in Jaipur or Chandigarh. Our contractor expertise ensures your system adheres to all applicable acts and standards."
+    },
+
+
+  ];
+
+
+  const fireSafetyPoints = [
+    {
+      title: "Specialized Expertise",
+      description:
+        " Our highly qualified engineers and technicians are experts in assessing unique micro-environment risks and designing precise tubing solutions.",
+    },
+    {
+      title: "Turnkey Solutions",
+      description:
+        " We offer a complete suite of services, from initial hazard assessment, customized engineering design, UL/FM Approved supply, meticulous installation by our expert contracting team, rigorous testing, and proactive Annual Maintenance Contracts (AMC).",
+    },
+    {
+      title: "Quality & Compliance Assured",
+      description:
+        "We supply and install systems built with robust, reliable components that meet the highest national and international safety standards. Our contracting work ensures these standards are meticulously followed during every project across Delhi NCR and our expanded service locations.",
+    },
+    {
+      title: "Local Presence, Pan-India Reach",
+      description:
+        "With a strong operational presence across Delhi NCR and a robust network covering Jaipur, Chandigarh, and numerous industrial clusters like Manesar and Bhiwadi, we guarantee prompt and efficient service, whether you need a supplier or a full-service contractor.",
+    },
+    {
+      title: "Customized & Precision Engineered",
+      description:
+        " Our solutions are not off-the-shelf. They are custom-engineered and expertly installed by our contracting team to meet the specific fire risks of your unique equipment or enclosure.",
+    },
+  ];
+
+
   return (
     <>
+
+
       <div className="row mt-32 font-sans">
 
 
+        <section className=" md:mt-0 px-4 relative h-auto  flex items-center justify-center bg-gradient-to-br from-red-50/20 to-white">
+
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-red-400/5 rounded-full filter blur-[100px] "></div>
+            <div className="absolute bottom-0 left-0 w-[30vw] h-[30vw] bg-red-400/5 rounded-full filter blur-[80px] "></div>
+          </div>
+
+          <div className="relative z-10  max-w-7xl mx-auto text-center ">
+
+            <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row  '>
+              <div className=" blog-img mb-6 text-center">
+                <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
+                  <div className="w-full h-full md:w-5/12 flex  ">
+
+
+                    <img
+                      className=" w-full h-full object-center rounded-3xl object-contain"
+                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                      alt="Fire Tubing System"
+                      loading="lazy"
+                    />
+
+
+                  </div>
+
+                  <div className=" w-full md:w-6/12 md:text-center text-left text-gray-800 mb-6 flex justify-center md:items-center flex-col mt-2">
+                    <div className="md:text-center text-left     ">
+
+
+                      <span className="text-sm font-medium  flex justify-center md:justify-start mb-3 pt-6 items-center md:items-center  text-red-800">
+                        <Sparkles className="w-4 h-4 text-red-600 mr-4" /> FIRE SAFETY ESSENTIALS
+                      </span>
+
+
+                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                        <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
+                          <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
+                      Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram & Noida  
+   </Link>
+                        </span><br />
+                        <span className="font-light text-gray-700">   <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
+                          <span className='  '>
+
+                          </span>
+                        </span>   Adhunik FireXpert
+                        </span>
+                      </p>
+                    </div>
+                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+
+                    For pinpoint fire protection in critical and confined spaces, an advanced Fire Tubing System offers an unparalleled automatic suppression solution. As a leading dealer, supplier, and expert contractor of specialized fire tubing systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert delivers comprehensive, turnkey solutions.
+
+                    </p>
+                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                   
+                   We specialize in designing, installing, and maintaining custom fire tubing systems for electrical panels, server racks, vehicle engines, machinery enclosures, and other critical micro-environments where fire risk is high and traditional suppression might cause damage. Our NFPA-compliant and UL/FM approved systems ensure rapid, direct-to-source fire detection and extinguishing, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
+
+                    </p>
+
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+
+
+
+
+          </div>
+        </section>
+
+        <div className="text-center py-12">
+
+          <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+
+          The Precision of Fire Tubing Systems : 
+
+            <br />
+            <span className="text-red-600">Targeted Protection Where It Matters Most</span>
+          </h2>
+
+          <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+            <p>
+
+             Traditional fire suppression methods can be overkill or ineffective for fires originating within small, enclosed spaces. Fire Tubing Systems (also known as tube-based fire suppression systems) are designed for precision. They utilize flexible polymer tubing that detects heat and then delivers an extinguishing agent directly to the heart of the fire, often before it can spread. This targeted approach is crucial for protecting high-value components and ensuring business continuity in critical equipment. Partnering with a skilled fire tubing system contractor like Adhunik FireXpert is essential for safeguarding your most vital assets.
+
+            </p>
+
+          </div>
+        </div>
+
+
+        <p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
+          Types of Fire Tubing Systems Supplied & Installed by Adhunik FireXpert
+
+        </p>
+
+        <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
+        Adhunik FireXpert is a top fire tubing system dealer and contractor, providing specialized systems tailored to various critical applications
+        </p>
+
         <div className="row">
-          <h1 className=" w-full text-center font-sans  text-5xl  text-sky-700 uppercase"> Fire Tubing System </h1>
+
+
+          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
+
+
+            <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
+              <h2 className=" text-2xl mb-3 hidden md:block"> 
+             Direct Release Fire Tubing Systems
+               </h2>
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'>Description : </strong>
+
+               The detection tube itself acts as the fire detector and extinguisher agent delivery system. When heat from a fire reaches a specific temperature, the tube ruptures at the hottest point, releasing the extinguishing agent directly onto the fire.
+
+
+              </p>
+
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'>   Ideal For : </strong>
+
+               Small enclosures like electrical cabinets, server racks, control panels, fume hoods, and CNC machines in tech parks across Gurugram and industrial facilities in Faridabad.
+
+
+              </p>
+
+
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'> Benefits : </strong>
+
+               Cost-effective, simple installation, highly effective for localized protection, no external power source required for detection.
+
+              </p>
+
+
+
+
+            </div>
+
+
+            <div className="md:w-[40%] w-auto">
+              <div className="flex items-center justify-center h-full">
+                <div>
+                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
+                    <div className="w-auto">
+                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                        <img
+                          className="     object-center object-cover  "
+                          fetchPriority="high"
+                          decoding="async"
+                          alt="Fire Tubing System"
+                          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                        />
+                      </div>
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+                    <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                      <h2 className="font-dmserif text-2xl font-bold text-white">
+                        Conventional Fire Alarm Systems
+
+                      </h2>
+                      <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        Provides immediate water access, allowing for faster response times. </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
 
           <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
-            <div className="md:w-[40%] w-auto">
-              <div className="flex items-center justify-center h-full">
-                <div>
-                  <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
-                    <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-
-                        <img
-                          className="  md:h-[28rem]  object-center object-cover  "
-                          fetchPriority="high"
-                          decoding="async"
-                          alt="Fire Tubing System"
-                          src="/ft.jpg"
-                        />
-
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <p className="font-dmserif text-2xl font-bold text-white">  Fire Tubing System  </p>
-                      <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                      </p>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Fire Tubing System </p>
-              <p className="md:text-justify  py-2">
-                A fire tubing system is a crucial component of fire protection engineering, designed to control and
-                extinguish fires in various settings. These systems utilize specialized tubing filled with water or other
-                extinguishing agents, activated by heat from a fire. Designed to supply water to combat fires
-                effectively. These systems are commonly found in commercial, industrial, and residential settings,
-                providing a reliable means to extinguish flames and prevent the spread of fire
-              </p>
-
-
-              <div className="card text-left">
-                <p className=" text-4xl pt-2  text-left "> Key Components of a Fire Tubing System</p>
-                <ul className=" list-disc py-3 space-y-1  ps-4">
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Glow signage:
-                    </span>
-
-                    refers to illuminated signs that use photoluminescent materials or
-                    integrated lighting to enhance visibility, especially in low-light or emergency
-                    situations.
-
-                  </li>
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Fire Hoses:
-                    </span>
-
-                    High-quality hoses that can withstand high pressure and are resistant to abrasion and chemicals.
-                    They come in various lengths and diameters, tailored to the specific needs of a facility.
-
-                  </li>
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Hose Reels:
-                    </span>
-
-                    These are wall-mounted devices that store hoses in a ready-to-use manner. They ensure that hoses
-                    are accessible and can be deployed quickly during emergencies.
-
-                  </li>
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Water Supply:
-                    </span>
-
-                    A consistent and adequate water supply is essential. This can come from municipal water
-                    sources, dedicated tanks, or fire pumps designed to maintain pressure and flow during emergencies.
-
-                  </li>
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Valves and Connectors:
-                    </span>
-
-                    Essential for controlling water flow, these components connect hoses and ensure that
-                    the system operates safely and efficiently.
-
-                  </li>
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Nozzles:
-                    </span>
-
-
-                    Attached to the end of hoses, nozzles control the spray pattern and flow rate of water, allowing for
-                    targeted fire suppression.
-                  </li>
-
-
-                  <li>
-                    <span className=" font-sans font-bold">
-                      Control Panels:
-                    </span>
-
-
-
-                    In more advanced systems, control panels monitor pressure, flow rates, and system integrity,
-                    providing real-time data and alerts.
-                  </li>
- 
-                </ul>
-              </div>
-
-
-
-
-              <div className="show_m mt-5">
-                <button
-                  className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                  onClick={() => {
-                    window.location.href = 'mailto:info@adhunikpowertech.com?subject=Enquiry%20Now&body=Hello, I would like to enquire about your services.';
-                  }}
-                >
-                  Enquiry Now
-                </button>
-
-
-
-              </div>
-            </div>
-
-
-          </div>
-
- 
-        </div>
-
-
-        <div className="row">
-
-
-          <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4 items-center">
-
-
-
-            <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-              <h2 className="text-[6vw] md:text-4xl mb-3    text-left"> Advantages of Fire Tubing Systems</h2>
- 
-
-              <div className="card text-left">
-
-
-                <ul className=" list-disc py-3 space-y-1  ps-4">
-
-
-                  <li>
-
-                    <span className=" font-sans font-bold">
-
-                      Immediate Fire Response:
-                    </span>
-                    Fire tubing systems allow for quick access to water, enabling personnel to tackle small
-                    fires before they escalate.
-
-
-                  </li>
- 
-                  <li>
-
-                    <span className=" font-sans font-bold">
-
-                      Accessibility:
-                    </span>
-                    Properly placed hose reels and access points ensure that individuals can reach firefighting
-                    equipment swiftly, reducing response times.
-
-                  </li>
-
-                  <li>
-
-                    <span className=" font-sans font-bold">
-
-                      Cost Efficiency:
-                    </span>
-                    Investing in a fire tubing system can mitigate the financial impact of fire damage by controlling
-                    flames early and effectively.
-                  </li>
-
-                  <li>
-
-                    <span className=" font-sans font-bold">
-
-                      Regulatory Compliance:
-                    </span>
-                    Many jurisdictions require fire protection systems in buildings, making fire tubing
-                    systems not only a safety measure but a legal necessity.
-
-                  </li>
- 
-                </ul>
-              </div>
-
-
-
-              <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Conclusion </h2>
-              <p className="md:text-justify  py-2">
-                A fire tubing system is an integral part of any comprehensive fire safety strategy. By ensuring a reliable water
-                supply and facilitating quick response in emergencies, these systems significantly enhance the safety of occupants
-                and property. Regular maintenance, adherence to safety regulations, and effective training are essential to
-                maximize the benefits of fire tubing systems in safeguarding lives and assets.
-
-              </p>
- 
-            </div>
 
 
             <div className="md:w-[40%] w-auto">
@@ -245,22 +394,22 @@ export default function FireTublingSystem() {
                 <div>
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
                     <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                      <div className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="  md:h-[28rem]  object-center object-cover  "
+                          className=" object-center object-cover  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Tubing System"
-                          src=" ft2.jpg "
+                          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
                         />
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <p className="font-dmserif text-2xl font-bold text-white">  Fire Tubing System  </p>
+                      <h2 className="font-dmserif text-2xl font-bold text-white"> Addressable Fire Alarm Systems
+                      </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
-                      </p>
+                        Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
 
                     </div>
                   </div>
@@ -268,38 +417,33 @@ export default function FireTublingSystem() {
               </div>
             </div>
 
-          </div>
- 
-        </div>
+
+            <div className="md:w-[60%] flex flex-col items-start justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
+              <h2 className=" text-2xl mb-3 hidden md:block">
+            Indirect Release Fire Tubing Systems
+              </h2>
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'>Description : </strong>
+
+             The detection tube acts solely as the fire detector. When it ruptures due to heat, it triggers a main valve to release the extinguishing agent from a larger cylinder through separate conventional nozzles.
+
+              </p>
+
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'>  Ideal For :  </strong>
+
+              Larger enclosures, engine compartments of vehicles (buses, heavy machinery), or applications where a larger volume of agent is required to protect the entire space. We expertly install these for fleet management in Manesar or Bhiwadi.
 
 
-        <div className="row flex-col flex justify-center items-center py-10">
+              </p>
+
+              <p className="md:text-justify text-sm  py-2">
+                <strong className=' text-red-500'> Benefits :  </strong>
+
+              Provides greater extinguishing agent capacity, allows for more complex distribution systems, suitable for larger or more complex hazards.
 
 
-          <div className="flex items-center justify-center  md:py-10  ">
-
-            <p className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl">
-              <span className="text-transparent  bg-clip-text bg-gradient-to-r to-[#f7b733] from-[#fc4a1a]">    Choosing the Right Fire Tubing System</span>
-            </p>
-          </div>
-
-
-          <div className="container  text-center py-5 md:px-10 px-3">
-            <p> The appropriate type of Fire Tubing System depends on the specific hazards present in your home, office, or workplace. For example, if you frequently cook with oils, a Class K extinguisher is essential. Consult with a fire safety expert to determine the best options for your needs.
-            </p>
-
-            <div className="show_m mt-5">
-              <button
-                className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
-                onClick={() => {
-                  window.location.href = 'tel:8287885885'; // Replace with the actual phone number
-                }}
-              >
-
-                Call Us Now
-
-              </button>
-
+              </p>
 
 
             </div>
@@ -307,10 +451,232 @@ export default function FireTublingSystem() {
 
           </div>
 
+        </div>
+
+
+
+       
+
+        <div className="bg-white pt-12  ">
+
+
+          {/* ===== Architectural Divider ===== */}
+          <div className="  relative h-px bg-gradient-to-r from-transparent via-red-500 to-transparent max-w-7xl mx-auto mb-20">
+            <h1 className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
+              Key Components
+            </h1>
+          </div>
+
+
+
+          <div className="bg-white">
+            {/* ===== Hero Section ===== */}
+            <section className="relative     px-6 max-w-6xl mx-auto">
+
+              <div className="text-center mb-20">
+
+                <h2 className="text-md  font-bold text-gray-900 mb-6 leading-tight">
+                 Fire Tubing Systems (Supplied & Installed):
+
+                  <br />
+                  <span className="text-red-600">
+
+                As an experienced fire tubing system supplier and contractor, Adhunik FireXpert ensures every component meets rigorous quality standards and is expertly integrated for optimal performance:
+
+
+                  </span>
+                </h2>
+
+
+              </div>
+
+              {/* Integration Examples */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+                {integrationExamples.map((example, index) => (
+                  <div key={index} className="bg-gray-50 flex flex-col items-center md:items-start  rounded-xl p-8 border border-gray-200 hover:border-red-300 transition-colors">
+                    <div className="w-12 h-12  bg-red-100 rounded-lg flex items-center justify-center text-red-600 mb-6">
+                      {example.icon}
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center md:text-left">{example.title}</h3>
+                    <div className="text-gray-600 text-sm text-justify md:text-left">{example.content}</div>
+                  </div>
+                ))}
+              </div>
+
+
+
+              {/* Design Considerations Section */}
+              <div className="mb-24">
+                <h2 className=" text-xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+
+                The Unmatched Benefits of Professional Fire Tubing Systems
+                </h2>
+                <p className=" text-sm md:text-md text-gray-600 max-w-4xl mx-auto text-center mb-16">
+            Implementing an advanced fire tubing system from Adhunik FireXpert offers critical advantages for properties across Delhi NCR, Gurugram, Noida, and beyond
+               </p>
+
+
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {designConsiderations.map((item, index) => (
+                    <div key={index} className="group relative overflow-hidden bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-8 border border-gray-100">
+                      <div className="absolute inset-0 bg-gradient-to-br from-white to-red-50 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="relative flex flex-col md:items-start items-center ">
+                        <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center text-red-600 mb-6">
+                          {item.icon}
+                        </div>
+                        <h3 className=" text-lg md:text-2xl text-center md:text-left  font-bold text-gray-900 mb-4">{item.title}</h3>
+                        <p className="text-gray-600 text-sm  text-justify md:text-left">{item.content}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+              </div>
+
+
+            </section>
+          </div>
+
+          <div className="bg-gradient-to-b from-white to-red-50/20">
+            {/* ===== Premium Hero Section ===== */}
+            <section className="relative    px-6 max-w-7xl mx-auto">
+              <div className="absolute inset-0 overflow-hidden -z-10">
+                <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-red-400/5 rounded-full filter blur-[100px]"></div>
+              </div>
+
+              <div className="text-center mb-10 md:mb-20">
+                <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+
+                  Why Choose Adhunik FireXpert for
+
+                  {" "}
+
+                  <span className="text-red-600 ">
+                   Your Fire Tubing System ?
+                  </span>
+                </div>
+
+                <div className="max-w-4xl  mx-auto text-sm text-justify md:text-md text-gray-600 space-y-6">
+
+
+                  <p className="md:text-justify text-sm  py-2">
+
+                    As your trusted <strong className=' text-red-500'>      fire tubing system dealer, supplier, and contractor,  </strong>
+                  Adhunik FireXpert brings unparalleled expertise and a commitment to excellence in targeted fire protection:
+
+                  </p>
+
+                  {fireSafetyPoints.map((point, index) => (
+                    <p key={index} className="md:text-justify text-sm py-2">
+                      <strong className="text-red-500">{point.title} : </strong>
+                      {point.description}
+                    </p>
+                  ))}
+
+
+
+                </div>
+              </div>
+
+
+
+              <div className="text-center mb-10 md:mb-20">
+                <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+
+               Regular Maintenance: Ensuring Continuous Precision Protection & {" "}
+
+                  <span className="text-red-600 ">Compliance</span>
+                </div>
+                <p className=' py-4 text-sm text-gray-600'>
+
+               The reliability of a fire tubing system hinges on diligent maintenance. Adhunik FireXpert, as a comprehensive fire safety contractor, provides ongoing maintenance services across Gurugram, Delhi, Noida, and all our service areas
+                </p>
+
+                <div className="max-w-4xl  mx-auto text-sm text-justify md:text-md text-gray-600 space-y-6">
+
+
+                  <p className="md:text-justify text-sm  py-2">
+                    <strong className=' text-red-500'> Routine Checks & Inspections : </strong>
+                   Regular visual inspections of tubing, nozzles, cylinders, and detection points for any damage or degradation.
+
+                  </p>
+
+
+                  <p className="md:text-justify text-sm  py-2">
+                    <strong className=' text-red-500'> Pressure Monitoring : </strong>
+                  Periodic verification of suppression agent pressure in storage cylinders.
+
+
+
+                  </p>
+
+                  <p className="md:text-justify text-sm  py-2">
+                    <strong className=' text-red-500'>   Agent Integrity Checks : </strong>
+                  Ensuring the extinguishing agent is within specifications and not compromised.
+
+                  </p>
+
+
+                  <p className="md:text-justify text-sm  py-2">
+                    <strong className=' text-red-500'>  System Functionality Testing : </strong>
+                Periodic testing (where safe and feasible) to ensure rapid and accurate activation.
+
+
+
+                  </p>
+
+
+                  <p className="md:text-justify text-sm  py-2">
+                    <strong className=' text-red-500'>    Compliance & Re-certification : </strong>
+                Ensuring your system consistently meets Fire NOC requirements, NFPA standards, and manufacturer guidelines for continuous operability.
+
+
+                  </p>
+
+
+
+               
+
+
+                </div>
+              </div>
+
+
+
+              {/* Closing CTA */}
+              <div className="bg-gradient-to-r from-red-900 to-red-800 rounded-2xl p-12 mb-24 text-white relative overflow-hidden">
+                <div style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/thumbnails/002/401/674/small/black-and-white-small-dots-pattern-free-vector.jpg")` }}
+                  className="absolute inset-0   bg-[length:20px_20px] opacity-10"></div>
+                <div className="relative max-w-4xl mx-auto text-center">
+                  <CheckCircle className="w-12 h-12 mx-auto mb-6 text-red-300" />
+                  <h3 className=" text-lg md:text-3xl font-bold mb-6">
+                 Protect Your Critical Micro-Environments with Adhunik FireXpert!
+
+                  </h3>
+                  <p className=" text-sm   text-red-100 mb-8">
+                Don't leave your vital equipment vulnerable to fire. Partner with Adhunik FireXpert, the premier fire tubing system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your unique risks, design, install, and maintain a system that offers maximum protection and peace of mind for your critical assets.
+
+
+                  </p>
+                  <Link href='/support-form' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
+                    Schedule Consultation <ArrowRight className="w-5 h-5" />
+                  </Link>
+                </div>
+              </div>
+            </section>
+          </div>
+
+
 
         </div>
- 
+
+
+
+
+
       </div>
+
     </>
   )
-} 
+}
