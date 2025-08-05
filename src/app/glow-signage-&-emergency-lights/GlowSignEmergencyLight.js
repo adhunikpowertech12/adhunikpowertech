@@ -191,13 +191,13 @@ export default function GlowSignEmergencyLight() {
             <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row  '>
               <div className=" blog-img mb-6 text-center">
                 <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
-                  <div className="w-full h-full md:w-5/12 flex  ">
+                  <div className="w-full h-96 md:w-5/12 flex  ">
 
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp"
-                      alt="Adhunik Powertech air washer"
+                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385628/Lighting-p36-37_ixjar2.webp"
+                      alt="Glow Signage & Emergency Lights"
                       loading="lazy"
                     />
 
@@ -369,13 +369,13 @@ Constructed from robust, long-lasting materials.
         <div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
             <div className="w-auto">
-              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+              <div className="w-full object-cover h-96 transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
                   className="     object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="https://www.zedexfire.com/fire-suppression-system-1.webp"
+                  alt="Glow Signage & Emergency Lights"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385629/iel_t48rco.webp"
                 />
               </div>
             </div>
@@ -412,22 +412,24 @@ Constructed from robust, long-lasting materials.
         <div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
             <div className="w-auto">
-              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+              <div className="w-full object-cover h-96 transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="     object-center object-cover  "
+                  className="  h-full w-full  object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
+                  alt="Glow Signage & Emergency Lights"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385628/workplace-emergency-lighting-testing-1024x427_qardkc.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems
-               </h2>
+
+              <h2 className="font-dmserif text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems </h2>
+
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions. 
+            </p>
 
             </div>
           </div>
