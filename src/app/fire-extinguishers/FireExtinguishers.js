@@ -342,7 +342,7 @@ const fireExtinguisherFeatures5 = [
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-lg md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
                           Your Trusted Fire Extinguisher
@@ -357,13 +357,13 @@ const fireExtinguisherFeatures5 = [
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 
                    When unexpected fires strike, immediate action is crucial for protecting lives and property. As a leading fire extinguisher dealer and supplier across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert provides a comprehensive range of high-quality, BIS-certified and ISI-marked fire extinguishers.
 
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 We ensure your premises – from bustling commercial complexes and tech parks in Gurugram to manufacturing units in Faridabad and residential societies in Noida – are equipped with the right tools for swift and effective fire suppression, adhering to all Indian safety standards, including NBC guidelines.
 
@@ -382,9 +382,9 @@ We ensure your premises – from bustling commercial complexes and tech parks in
           </div>
         </section>
 
-            <div className="text-center py-12">
+            <div className="text-center px-4 py-12">
             
-              <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className=" text-lg md:text-2xl  font-bold text-gray-900 mb-6 leading-tight">
                 Understanding Fire Extinguishers
  <br />
                 <span className="text-red-600">Your Essential First Line of Defense</span>
@@ -403,7 +403,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
             </div>
 
 
-<p className=" w-full text-center font-sans py-4 md:py-12   text-3xl  text-sky-700  capitalize"> Our Range of Fire Extinguishers by Adhunik FireXpert </p>
+<p className=" w-full text-center font-sans py-4 md:py-12  text-lg  md:text-3xl  text-sky-700  capitalize"> Our Range of Fire Extinguishers by Adhunik FireXpert </p>
 
 <div className="row">
 
@@ -414,12 +414,12 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> 1. Water (Class A) Fire Extinguishers </h2>
-      <p className="md:text-justify text-sm  py-2">
+      <p className=" text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Ideal For :</strong> Fires involving ordinary combustible materials such as wood, paper, cloth, and plastics – commonly found in offices and homes across Gurugram and Delhi.
 
       </p>
 
-         <p className="md:text-justify text-sm  py-2">
+         <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
     Foam extinguishers form a blanket that cools the fire and smothers it, cutting off the oxygen supply and providing excellent cooling.
@@ -520,9 +520,6 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
-
-
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -554,14 +551,14 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> 2. Foam (Class A and B) Fire Extinguishers </h2>
-      <p className="md:text-justify text-sm  py-2">
-     <strong className=' text-red-500'>Ideal For :</strong> 
+      <p className="text-left md:text-justify text-sm  py-2">
+     <strong className=' text-red-500'> Ideal For : </strong> 
      
       Versatile for both Class A (ordinary combustibles) and Class B fires (flammable liquids like petrol, oils, paints) – crucial for workshops in Faridabad and commercial kitchens.
-
-
+ 
       </p>
-      <p className="md:text-justify text-sm  py-2">
+
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
     Foam extinguishers form a blanket that cools the fire and smothers it, cutting off the oxygen supply and providing excellent cooling.
@@ -569,7 +566,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
       </p>
 
-      <div className="card   text-left ">
+      <div className="card text-left ">
 
         <p className=" text-2xl pt-2 "> Advantages </p>
         
@@ -612,13 +609,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
   </div>
 
-
-
-
-
-
-
-
+ 
 
 </div>
 
