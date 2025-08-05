@@ -462,9 +462,11 @@ export default function FireTublingSystem() {
 
           {/* ===== Architectural Divider ===== */}
           <div className="  relative h-px bg-gradient-to-r from-transparent via-red-500 to-transparent max-w-7xl mx-auto mb-20">
+
             <h1 className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
               Key Components
             </h1>
+            
           </div>
 
 

@@ -82,7 +82,7 @@ function Navbar() {
       to: '#',
       text: 
         <>
-      <div className=' text-red-700'>FIRE & SAFETY</div>
+      <div className=' '>FIRE & SAFETY</div>
      </>
      ,
       dropdownItems: [
@@ -243,7 +243,7 @@ function Navbar() {
     {
       label: 
      <>
-      <div className=' text-red-700'>FIRE & SAFETY</div>
+      <div>FIRE & SAFETY</div>
      </>
       ,
       dropdown: [
