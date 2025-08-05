@@ -626,7 +626,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
         <h2 className=" text-2xl mb-3 hidden md:block">3. Dry Powder (Class A, B, and C) Fire Extinguishers
 </h2>
-      <p className="md:text-justify text-sm  py-2">
+      <p className=" text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Ideal For : </strong> 
      
    Highly versatile, suitable for Class A, Class B, and Class C fires (flammable gases, electrical fires) – essential for general safety in homes, offices, and industrial units in Sonipat and Rewari.
@@ -634,7 +634,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
 
       </p>
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
   They release a fine chemical powder that rapidly extinguishes flames by interrupting the chemical reaction of the fire.
@@ -767,14 +767,14 @@ We ensure your premises – from bustling commercial complexes and tech parks in
 
 </h2>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className=" text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Ideal For : </strong> 
      
 Class B fires (flammable liquids) and Class C fires (electrical fires involving energized equipment) – a must-have for server rooms, laboratories, and IT hubs in Delhi and Noida.
 
       </p>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
 How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the flames, and also provides a significant cooling effect.
@@ -851,14 +851,14 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
 
 </h2>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Ideal For : </strong> 
      
 Class B fires (flammable liquids) and Class C fires (electrical fires involving energized equipment) – a must-have for server rooms, laboratories, and IT hubs in Delhi and Noida.
 
       </p>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
 How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the flames, and also provides a significant cooling effect.
@@ -866,7 +866,7 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
 
       </p>
 
-      <div className="card   text-left ">
+      <div className="card text-left ">
 
         <p className=" text-2xl pt-2 "> Advantages </p>
         
@@ -991,14 +991,14 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
 
 </h2>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Ideal For : </strong> 
      
   Advanced protection for Class A, B, and C fires in areas with highly sensitive or valuable equipment, such as data centers in Greater Noida, server rooms in Jaipur, museums, and corporate offices.
 
       </p>
 
-      <p className="md:text-justify text-sm  py-2">
+      <p className="text-left md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>How They Work : </strong> 
      
   These extinguishers utilize environmentally friendly chemicals (e.g., FK-5-1-12, 3M Novec 1230) to suppress fires by interrupting the chemical reaction without leaving any residue.
@@ -1105,7 +1105,7 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
 
             {/* Design Considerations Section */}
             <div className="mb-24">
-              <h2 className=" text-xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+              <h2 className=" text-lg md:text-3xl font-bold text-gray-900 mb-6 text-center">
            Regular Maintenance : Ensuring Your Extinguishers Are Always Ready
  </h2>
               <p className=" text-sm md:text-md text-gray-600 max-w-4xl mx-auto text-center mb-16">
