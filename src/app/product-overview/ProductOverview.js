@@ -606,7 +606,7 @@ export default function ProductOverview() {
 
       </div>
 
-      <section className='  px-14'>
+      <section className='  md:px-14'>
 
 
         <div className="row  flex flex-col-reverse lg:flex-col-reverse  pb-8 ">
@@ -930,7 +930,7 @@ export default function ProductOverview() {
       </section>
 
 
-      <div className=" px-24  pb-8">
+      <div className="  md:px-24  md:pb-8">
 
         {/* ===== Hero Section ===== */}
 
@@ -1187,7 +1187,7 @@ export default function ProductOverview() {
       </section>
 
       {/* ===== CTA Section ===== */}
-      <section className="py-28 px-6 bg-gradient-to-r rounded-2xl from-cyan-800 to-cyan-600 text-white">
+      <section className=" py-28 px-6 bg-gradient-to-r md:rounded-2xl from-cyan-800 to-cyan-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl   font-bold mb-8">
             Ready to Protect Your Critical Equipment?
@@ -1206,6 +1206,7 @@ export default function ProductOverview() {
           </div>
         </div>
       </section>
+
     </div>
 
 

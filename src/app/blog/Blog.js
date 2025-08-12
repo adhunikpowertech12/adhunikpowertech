@@ -137,6 +137,18 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1752651101/formulas_paeknf.webp",
     },
 
+    {
+      id: 14,
+      title: "Top Fire Fighting Contractors in Delhi | Adhunik FireXpert",
+
+
+      date: "Aug  2025",
+      image:
+        "",
+      link: "/top-fire-fighting-contractors-in-delhi",
+      img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
+    },
+
 
   ];
 
