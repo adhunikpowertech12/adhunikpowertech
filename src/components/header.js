@@ -559,9 +559,9 @@ function Navbar() {
             <div className="col">
               <div className="hidden xl:flex items-center space-x-1">
 
-                <ul className="flex md:text-[11px] lg:text-[15px] flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+                <ul className="flex md:text-[11px]  lg:text-[15px] flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                   {menuItems.map((item, index) => (
-                    <li className=" after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-blue-500 after:to-blue-700 after:scale-x-0 after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
+                    <li className=" media-style after:content-[''] after:block after:w-full after:h-[3px] after:bg-gradient-to-r after:from-blue-500 after:to-blue-700 after:scale-x-0 after:origin-left after:transition-transform after:duration-250 after:ease-in-out hover:after:scale-x-100 " key={index}>
                       {item.dropdown ? (
                         <Dropdown label={item.label} inline>
                           {item.dropdown.map((subItem, subIndex) => (

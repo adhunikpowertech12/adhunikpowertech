@@ -1041,3 +1041,13 @@ input[type="number"] {
 .animate-spin-slow {
   animation: spin-slow 8s linear infinite;
 }
+
+
+
+@media (min-width: 1261px) and (max-width: 1320px) {
+  /* Font size changes only within this range */
+.media-style{
+ font-size: 14px;
+}
+
+}
