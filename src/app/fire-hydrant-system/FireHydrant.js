@@ -416,7 +416,7 @@ const fireExtinguisherFeatures5 = [
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="   md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
                        Fire Hydrant System Dealer, Supplier & 
@@ -431,13 +431,12 @@ const fireExtinguisherFeatures5 = [
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
-
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
                For robust and reliable fire protection, a high-performing Fire Hydrant System is indispensable. As a leading dealer, supplier, and specialized contractor of advanced fire hydrant systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert provides comprehensive, end-to-end solutions from design to installation and ongoing maintenance.
 
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm  md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 We equip commercial buildings, industrial complexes, and large residential societies with ISI-marked and NFPA-compliant fire hydrant systems, ensuring firefighters have immediate and abundant access to water during emergencies. Our expertise ensures your property's adherence to the latest fire safety regulations, offering unparalleled protection across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
@@ -459,14 +458,14 @@ We equip commercial buildings, industrial complexes, and large residential socie
 
             <div className="text-center py-12">
             
-              <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className="  md:text-2xl font-bold text-gray-900 mb-6 leading-tight">
               Why a Robust Fire Hydrant System is Non-Negotiable
 
  <br />
                 <span className="text-red-600">Your Essential First Line of Defense</span>
               </h2>
 
-              <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+              <div className="max-w-6xl text-justify  mx-auto px-4 text-sm text-gray-600 space-y-6">
                 <p>
               A meticulously designed and installed fire hydrant system is the backbone of any effective fire suppression strategy. It provides a crucial, readily available water source for professional firefighters, enabling swift response to large-scale incidents that manual extinguishers simply can't handle. Investing in a quality system from a trusted fire hydrant system supplier and contractor like Adhunik FireXpert enhances property safety, protects lives, and secures your valuable assets.
 
@@ -477,18 +476,15 @@ We equip commercial buildings, industrial complexes, and large residential socie
             </div>
 
 
-<p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize"> Types of Fire Hydrant Systems Supplied & Installed <br /> by Adhunik FireXpert
-
+<p className=" w-full text-center font-sans py-4 md:py-12 text-lg md:text-2xl  text-sky-700  capitalize"> Types of Fire Hydrant Systems Supplied & Installed <br /> by Adhunik FireXpert
  </p>
- <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">Adhunik FireXpert is a top fire hydrant system dealer and contractor, offering both primary types to suit diverse climatic conditions and operational requirements
+
+ <p className=" w-full text-center font-sans px-2  text-sm  text-sky-700 ">Adhunik FireXpert is a top fire hydrant system dealer and contractor, offering both primary types to suit diverse climatic conditions and operational requirements
 </p>
 
 <div className="row">
 
-
   <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> 1. Wet Barrel Hydrants </h2>
@@ -519,7 +515,6 @@ We equip commercial buildings, industrial complexes, and large residential socie
 
     </div>
 
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -537,7 +532,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">Wet Barrel Hydrants
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">Wet Barrel Hydrants
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Provides immediate water access, allowing for faster response times. </p>
@@ -567,8 +562,6 @@ We equip commercial buildings, industrial complexes, and large residential socie
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
-
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -576,7 +569,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="     object-center object-cover  "
+                  className=" object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
@@ -586,7 +579,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Foam Dry Barrel Hydrants
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Foam Dry Barrel Hydrants
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
@@ -634,14 +627,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
 
 
   </div>
-
-
-
-
-
-
-
-
+ 
 
 </div>
 
@@ -673,7 +659,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
               <h2 className="text-md  font-bold text-gray-900 mb-6 leading-tight">
             Our Fire Hydrant Systems (Supplied & Installed)
  <br />
-                <span className="text-red-600">
+                <span className="text-red-600 text-sm">
               As an experienced fire hydrant system supplier and contractor, Adhunik FireXpert ensures every component meets the highest quality standards and is expertly installed:
 
                 </span>
@@ -737,7 +723,7 @@ The Unmatched Importance of Professional Fire Hydrant Systems
             </div>
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
             Why Choose Adhunik FireXpert as Your 
 {" "}
@@ -790,7 +776,7 @@ We offer a complete suite of services, from initial consultation and custom desi
           
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
          Regular Maintenance: Ensuring System Readiness & 
  
@@ -798,7 +784,7 @@ We offer a complete suite of services, from initial consultation and custom desi
 
  <span className="text-red-600 ">Compliance</span>
               </div>
-              <p className=' py-4 text-sm text-gray-600'>A fire hydrant system is only effective if it's meticulously maintained. Adhunik FireXpert, as a comprehensive fire safety contractor, provides ongoing maintenance services across Gurugram, Delhi, Noida, and all our service areas:
+              <p className=' py-4 text-sm text-gray-600'>A fire hydrant system is only effective if it's meticulously maintained. Adhunik FireXpert, as a comprehensive fire safety contractor, provides ongoing maintenance services across Gurugram, Delhi, Noida, and all our service areas :
 </p>
 
               <div className="max-w-4xl  mx-auto text-sm text-justify md:text-md text-gray-600 space-y-6">
@@ -853,9 +839,10 @@ We offer a complete suite of services, from initial consultation and custom desi
                 className="absolute inset-0   bg-[length:20px_20px] opacity-10"></div>
               <div className="relative max-w-4xl mx-auto text-center">
                 <CheckCircle className="w-12 h-12 mx-auto mb-6 text-red-300" />
-                <h3 className=" text-lg md:text-3xl font-bold mb-6">Partner with the Experts in Fire Hydrant Systems!
+                <h3 className=" text-lg md:text-3xl font-bold mb-6">
+                Partner with the Experts in Fire Hydrant Systems!
 </h3>
-                <p className=" text-sm   text-red-100 mb-8">
+                <p className=" text-sm  text-justify  text-red-100 mb-8">
                 Don't leave your property's safety to chance. Partner with Adhunik FireXpert, the premier fire hydrant system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your needs, design, install, and maintain a system that offers maximum protection and peace of mind.
 
                 </p>
