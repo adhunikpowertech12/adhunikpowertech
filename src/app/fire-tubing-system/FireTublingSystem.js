@@ -239,7 +239,7 @@ export default function FireTublingSystem() {
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-lg md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
                       Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram & Noida  
@@ -253,12 +253,14 @@ export default function FireTublingSystem() {
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
                     For pinpoint fire protection in critical and confined spaces, an advanced Fire Tubing System offers an unparalleled automatic suppression solution. As a leading dealer, supplier, and expert contractor of specialized fire tubing systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert delivers comprehensive, turnkey solutions.
 
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
                    
                    We specialize in designing, installing, and maintaining custom fire tubing systems for electrical panels, server racks, vehicle engines, machinery enclosures, and other critical micro-environments where fire risk is high and traditional suppression might cause damage. Our NFPA-compliant and UL/FM approved systems ensure rapid, direct-to-source fire detection and extinguishing, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
@@ -279,7 +281,7 @@ export default function FireTublingSystem() {
 
         <div className="text-center py-12">
 
-          <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+          <h2 className=" text-lg md:text-2xl  font-bold text-gray-900 mb-6 leading-tight">
 
           The Precision of Fire Tubing Systems : 
 
@@ -287,7 +289,7 @@ export default function FireTublingSystem() {
             <span className="text-red-600">Targeted Protection Where It Matters Most</span>
           </h2>
 
-          <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+          <div className="max-w-6xl px-4 text-justify  mx-auto text-sm text-gray-600 space-y-6">
             <p>
 
              Traditional fire suppression methods can be overkill or ineffective for fires originating within small, enclosed spaces. Fire Tubing Systems (also known as tube-based fire suppression systems) are designed for precision. They utilize flexible polymer tubing that detects heat and then delivers an extinguishing agent directly to the heart of the fire, often before it can spread. This targeted approach is crucial for protecting high-value components and ensuring business continuity in critical equipment. Partnering with a skilled fire tubing system contractor like Adhunik FireXpert is essential for safeguarding your most vital assets.
@@ -298,12 +300,12 @@ export default function FireTublingSystem() {
         </div>
 
 
-        <p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
+        <p className=" w-full text-center font-sans py-4 md:py-12  text-lg  md:text-2xl  text-sky-700  capitalize">
           Types of Fire Tubing Systems Supplied & Installed by Adhunik FireXpert
 
         </p>
 
-        <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
+        <p className=" w-full text-center font-sans px-4  text-sm  text-sky-700 ">
         Adhunik FireXpert is a top fire tubing system dealer and contractor, providing specialized systems tailored to various critical applications
         </p>
 
@@ -364,7 +366,7 @@ export default function FireTublingSystem() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-2xl font-bold text-white">
+                      <h2 className="font-dmserif  text-lg md:text-2xl font-bold text-white">
                         Conventional Fire Alarm Systems
 
                       </h2>
@@ -406,7 +408,7 @@ export default function FireTublingSystem() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-2xl font-bold text-white"> Addressable Fire Alarm Systems
+                      <h2 className="font-dmserif text-lg md:text-2xl font-bold text-white"> Addressable Fire Alarm Systems
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
@@ -481,7 +483,7 @@ export default function FireTublingSystem() {
                  Fire Tubing Systems (Supplied & Installed):
 
                   <br />
-                  <span className="text-red-600">
+                  <span className="text-red-600 text-sm">
 
                 As an experienced fire tubing system supplier and contractor, Adhunik FireXpert ensures every component meets rigorous quality standards and is expertly integrated for optimal performance:
 
@@ -548,7 +550,7 @@ export default function FireTublingSystem() {
               </div>
 
               <div className="text-center mb-10 md:mb-20">
-                <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+                <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
                   Why Choose Adhunik FireXpert for
 
@@ -584,7 +586,7 @@ export default function FireTublingSystem() {
 
 
               <div className="text-center mb-10 md:mb-20">
-                <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+                <div className="  text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
                Regular Maintenance: Ensuring Continuous Precision Protection & {" "}
 
@@ -656,11 +658,11 @@ export default function FireTublingSystem() {
                  Protect Your Critical Micro-Environments with Adhunik FireXpert!
 
                   </h3>
-                  <p className=" text-sm   text-red-100 mb-8">
+                  <p className=" text-sm text-justify   text-red-100 mb-8">
                 Don't leave your vital equipment vulnerable to fire. Partner with Adhunik FireXpert, the premier fire tubing system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your unique risks, design, install, and maintain a system that offers maximum protection and peace of mind for your critical assets.
 
-
                   </p>
+                  
                   <Link href='/support-form' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
                     Schedule Consultation <ArrowRight className="w-5 h-5" />
                   </Link>

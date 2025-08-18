@@ -290,7 +290,7 @@ Audible Alarms :
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-lg md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
               Fire Alarm System Contractor, Supplier & Dealer in Delhi NCR, Gurugram, Noida & Across India 
@@ -304,12 +304,12 @@ Audible Alarms :
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 For the earliest possible detection and warning in the event of a fire, a reliable Fire Alarm System is paramount. As a leading dealer, supplier, and expert contractor of state-of-the-art fire alarm systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert delivers comprehensive, turnkey solutions.
 
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 We specialize in designing, installing, and maintaining custom fire alarm systems for a wide range of properties, from commercial buildings and industrial facilities to educational institutions and large residential complexes. Our ISI-marked and NFPA-compliant systems ensure rapid detection and immediate alerts, providing precious time for safe evacuation and prompt emergency response, crucial for protecting lives and property across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
                     </p>
@@ -329,7 +329,7 @@ We specialize in designing, installing, and maintaining custom fire alarm system
 
             <div className="text-center py-12">
             
-              <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className=" text-lg md:text-2xl  font-bold text-gray-900 mb-6 leading-tight">
 
     The Critical Role of Advanced Fire Alarm Systems
 
@@ -337,7 +337,7 @@ We specialize in designing, installing, and maintaining custom fire alarm system
                 <span className="text-red-600">Your Essential First Line of Defense</span>
               </h2>
 
-              <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+              <div className="max-w-6xl px-4 text-justify  mx-auto text-sm text-gray-600 space-y-6">
                 <p>
 
 A meticulously planned and expertly installed fire alarm system serves as your first line of defense, providing early warning signals that can mean the difference between minor incident and major disaster. These systems are vital for detecting smoke, heat, or flames and initiating immediate alerts, allowing occupants to evacuate safely and enabling firefighters to respond quickly. Partnering with a skilled fire alarm system contractor like Adhunik FireXpert is essential for safeguarding your people and assets.
@@ -348,12 +348,11 @@ A meticulously planned and expertly installed fire alarm system serves as your f
             </div>
 
 
-<p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
+<p className=" w-full text-center font-sans py-4 md:py-12  text-lg  md:text-2xl  text-sky-700  capitalize">
 Types of Fire Alarm Systems Supplied & Installed by Adhunik FireXpert
-
  </p>
 
- <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
+ <p className=" w-full text-center font-sans  px-4 text-sm  text-sky-700 ">
 Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a range of systems tailored to various building sizes, complexities, and hazard levels
 
 </p>
@@ -366,7 +365,7 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
 
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
-      <h2 className=" text-2xl mb-3 hidden md:block"> Conventional Fire Alarm Systems</h2>
+      <h2 className="  text-2xl mb-3 hidden md:block"> Conventional Fire Alarm Systems</h2>
       <p className="md:text-justify text-sm  py-2">
      <strong className=' text-red-500'>Description : </strong> 
    
@@ -414,7 +413,7 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-2xl font-bold text-white">
+              <h2 className="font-dmserif  text-lg md:text-2xl font-bold text-white">
           Conventional Fire Alarm Systems
 
  </h2>
@@ -429,14 +428,6 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
 
   </div>
 
-
-
-
-
-
-
-
-
 </div>
 
 
@@ -444,9 +435,6 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
 
 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-
-
 
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
@@ -465,7 +453,7 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-2xl font-bold text-white"> Addressable Fire Alarm Systems
+              <h2 className="font-dmserif text-lg md:text-2xl font-bold text-white"> Addressable Fire Alarm Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
@@ -572,7 +560,7 @@ Wireless Fire Alarm Systems
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-2xl font-bold text-white">
+              <h2 className="font-dmserif text-lg md:text-2xl font-bold text-white">
            Wireless Fire Alarm Systems
 
  </h2>
@@ -596,8 +584,8 @@ Wireless Fire Alarm Systems
 
  <div className="bg-white pt-12  ">
          
-       
         {/* ===== Architectural Divider ===== */}
+
         <div className="  relative h-px bg-gradient-to-r from-transparent via-red-500 to-transparent max-w-7xl mx-auto mb-20">
           <h1 className="absolute left-1/2 -translate-x-1/2 -top-3.5 bg-white px-4 text-gray-500 text-md text-center md:text-3xl">
           Key Components
@@ -616,7 +604,7 @@ Wireless Fire Alarm Systems
          Our Fire Alarm Systems (Supplied & Installed)
 
  <br />
-                <span className="text-red-600">
+                <span className="text-red-600 text-sm">
 
 As an experienced fire alarm system supplier and contractor, Adhunik FireXpert ensures every component meets rigorous quality standards and is expertly integrated for optimal performance
 
@@ -685,7 +673,7 @@ The Unmatched Advantages of Professional Fire Alarm Systems
             </div>
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
        Why Choose Adhunik FireXpert for
 
@@ -721,7 +709,7 @@ The Unmatched Advantages of Professional Fire Alarm Systems
           
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
      Regular Maintenance : Ensuring Continuous Alerts & 
 {" "}
@@ -802,7 +790,7 @@ The Unmatched Advantages of Professional Fire Alarm Systems
           Secure Your Property with a State-of-the-Art Fire Alarm System!
 
 </h3>
-                <p className=" text-sm   text-red-100 mb-8">
+                <p className=" text-sm text-justify    text-red-100 mb-8">
    Don't compromise on early detection and life safety. Partner with Adhunik FireXpert, the premier fire alarm system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire detection solutions. Our team is ready to assess your needs, design, install, and maintain a system that offers maximum protection and peace of mind for your property.
 
 

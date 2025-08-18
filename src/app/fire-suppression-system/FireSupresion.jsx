@@ -241,7 +241,7 @@ export default function FireSupresion() {
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-lg md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
                   Fire Suppression System Contractor, Supplier & Dealer in 
@@ -256,14 +256,14 @@ export default function FireSupresion() {
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 
 For critical assets, sensitive equipment, and high-value properties, an advanced Fire Suppression System provides ultimate protection, automatically detecting and extinguishing fires with specialized agents. As a leading dealer, supplier, and expert contractor of cutting-edge fire suppression systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert delivers comprehensive, turnkey solutions.
 
 
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+                    <p className=" font-sans  text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 We specialize in designing, installing, and maintaining custom fire suppression systems for data centers, server rooms, control rooms, industrial facilities, archives, and high-rise commercial buildings. Our ISI-marked and NFPA-compliant systems ensure rapid, targeted fire control, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
@@ -285,7 +285,7 @@ We specialize in designing, installing, and maintaining custom fire suppression 
 
             <div className="text-center py-12">
             
-              <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className=" text-lg md:text-2xl  font-bold text-gray-900 mb-6 leading-tight">
 
       The Critical Role of Advanced Fire Suppression Systems
 
@@ -293,7 +293,7 @@ We specialize in designing, installing, and maintaining custom fire suppression 
                 <span className="text-red-600">Your Essential First Line of Defense</span>
               </h2>
 
-              <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+              <div className="max-w-6xl px-4 text-justify  mx-auto text-sm text-gray-600 space-y-6">
                 <p>
 
 Traditional fire fighting methods aren't always suitable for sensitive environments where water or conventional extinguishing agents could cause more damage than the fire itself. Fire Suppression Systems offer a specialized, automatic response, using clean agents or other targeted methods to extinguish fires quickly without harming valuable assets or disrupting critical operations. Partnering with a skilled fire suppression system contractor like Adhunik FireXpert is crucial for safeguarding your most vital infrastructure.
@@ -304,12 +304,12 @@ Traditional fire fighting methods aren't always suitable for sensitive environme
             </div>
 
 
-<p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
+<p className=" w-full text-center font-sans py-4 md:py-12  text-lg  md:text-2xl  text-sky-700  capitalize">
 Types of Fire Suppression Systems Supplied & Installed by Adhunik FireXpert
 
  </p>
 
- <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
+ <p className=" w-full text-center font-sans text-sm  text-sky-700 ">
 Adhunik FireXpert is a top fire suppression system dealer and contractor, providing a range of specialized systems tailored to various hazards and environments
 
 </p>
@@ -369,8 +369,8 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">
-           Wet Pipe Sprinkler Systems
+              <h2 className=" font-dmserif md:text-3xl font-bold text-white">
+           Clean Agent Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Provides immediate water access, allowing for faster response times. </p>
@@ -400,8 +400,6 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
 
-
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -419,8 +417,7 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems
-               </h2>
+              <h2 className="font-dmserif  text-lg md:text-3xl font-bold text-white"> CO2 Fire Suppression Systems </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
 
@@ -523,8 +520,8 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">
-             Preaction Sprinkler Systems
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">
+             Foam Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Provides immediate water access, allowing for faster response times. </p>
@@ -546,9 +543,6 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
-
-
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -566,8 +560,7 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Deluge Sprinkler Systems
-               </h2>
+              <h2 className="font-dmserif  text-lg md:text-3xl font-bold text-white"> Dry Chemical Fire Suppression Systems               </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
 
@@ -637,7 +630,7 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
               <h2 className="text-md  font-bold text-gray-900 mb-6 leading-tight">
           Our Fire Suppression Systems (Supplied & Installed)
  <br />
-                <span className="text-red-600">
+                <span className="text-red-600 text-sm">
 
 As an experienced fire suppression system supplier and contractor, Adhunik FireXpert ensures every component meets rigorous quality standards and is expertly integrated
 
@@ -704,7 +697,7 @@ The Unmatched Benefits of Professional Fire Suppression Systems
             </div>
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
        Why Choose Adhunik FireXpert for
 
@@ -740,7 +733,7 @@ As your trusted  <strong className=' text-red-500'>
           
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
        Regular Maintenance: Ensuring Continuous Protection & 
 {" "}
@@ -808,7 +801,7 @@ As your trusted  <strong className=' text-red-500'>
             Protect Your Critical Assets with Adhunik FireXpert!
 
 </h3>
-                <p className=" text-sm   text-red-100 mb-8">
+                <p className=" text-sm text-justify   text-red-100 mb-8">
        Don't compromise the safety of your invaluable assets. Partner with Adhunik FireXpert, the premier fire suppression system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your unique risks, design, install, and maintain a system that offers maximum protection and peace of mind for your critical infrastructure.
 
 

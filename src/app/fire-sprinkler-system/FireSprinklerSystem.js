@@ -205,7 +205,7 @@ export default function FireSprinklerSystem() {
                       </span>
 
 
-                      <p className="  text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
+                      <p className="  text-lg  md:text-2xl text-center md:text-left font-bold text-gray-900  mb-2 leading-tight">
                         <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                           <Link href='https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India' className='  '>
                     Fire Sprinkler System Contractor, Supplier & Dealer 
@@ -220,14 +220,11 @@ export default function FireSprinklerSystem() {
                         </span>
                       </p>
                     </div>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
-
-
+                    <p className=" font-sans  text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
             For unparalleled automatic fire protection, a state-of-the-art Fire Sprinkler System is a cornerstone of modern safety infrastructure. As a leading dealer, supplier, and specialized contractor of advanced fire sprinkler systems across Gurugram, Delhi NCR (including Noida, Greater Noida, Faridabad, Ghaziabad), and extended regions like Jaipur, Chandigarh, Sonipat, Panipat, Rohtak, Rewari, Palwal, Bhiwadi, Meerut, Neemrana, Tapukara, Bawal, Manesar, Dharuhera, and Muzaffarnagar, Adhunik FireXpert provides comprehensive, end-to-end solutions from meticulous design to flawless installation and ongoing maintenance.
-
-
                     </p>
-                    <p className=" font-sans text-md text-gray-600 text-justify  md:text-left pt-3   ">
+
+                    <p className=" font-sans text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
 We equip commercial complexes, industrial facilities, educational institutions, and large residential properties with ISI-marked and NFPA-compliant fire sprinkler systems, ensuring rapid and automatic fire detection and suppression. Our expertise guarantees your property's adherence to the latest fire safety regulations, offering superior protection and peace of mind across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
@@ -249,14 +246,14 @@ We equip commercial complexes, industrial facilities, educational institutions, 
 
             <div className="text-center py-12">
             
-              <h2 className="text-2xl  font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className=" text-lg md:text-2xl  font-bold text-gray-900 mb-6 leading-tight">
          Why a Modern Fire Sprinkler System is Indispensable for Your Property
 
  <br />
                 <span className="text-red-600">Your Essential First Line of Defense</span>
               </h2>
 
-              <div className="max-w-6xl text-justify  mx-auto text-sm text-gray-600 space-y-6">
+              <div className="max-w-6xl text-justify  mx-auto px-4 text-sm text-gray-600 space-y-6">
                 <p>
 
            A professionally designed and installed fire sprinkler system is arguably the most effective tool in minimizing fire damage and protecting occupants. These automatic systems detect fires early and suppress them immediately, often before the fire department arrives. Investing in a quality system from a trusted fire sprinkler system supplier and contractor like Adhunik FireXpert significantly enhances property safety, safeguards lives, and ensures business continuity.
@@ -267,11 +264,11 @@ We equip commercial complexes, industrial facilities, educational institutions, 
             </div>
 
 
-<p className=" w-full text-center font-sans py-4 md:py-12   text-2xl  text-sky-700  capitalize">
+<p className=" w-full text-center font-sans py-4 md:py-12  text-lg  md:text-2xl  text-sky-700  capitalize">
 Types of Fire Sprinkler Systems Supplied & Installed <br /> by Adhunik FireXpert
  </p>
 
- <p className=" w-full text-center font-sans  text-sm  text-sky-700 ">
+ <p className=" w-full text-center font-sans px-4  text-sm  text-sky-700 ">
 Adhunik FireXpert is a top fire sprinkler system dealer and contractor, offering a range of systems tailored to various building types and hazard levels
 
 </p>
@@ -280,8 +277,6 @@ Adhunik FireXpert is a top fire sprinkler system dealer and contractor, offering
 
 
   <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> Wet Pipe Sprinkler Systems </h2>
@@ -333,7 +328,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">
            Wet Pipe Sprinkler Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -363,9 +358,6 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
   <div className=" h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
-
-
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -373,7 +365,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="     object-center object-cover  "
+                  className=" object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
@@ -383,7 +375,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
@@ -433,8 +425,6 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
 
   <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-
 
     <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
       <h2 className=" text-2xl mb-3 hidden md:block"> 
@@ -487,7 +477,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">
              Preaction Sprinkler Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -512,7 +502,6 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
 
 
-
     <div className="md:w-[40%] w-auto">
       <div className="flex items-center justify-center h-full">
         <div>
@@ -530,7 +519,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Deluge Sprinkler Systems
+              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Deluge Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
@@ -594,14 +583,14 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
 
         <div className="bg-white">
           {/* ===== Hero Section ===== */}
-          <section className="relative     px-6 max-w-6xl mx-auto">
+          <section className="relative  px-6 max-w-6xl mx-auto">
           
             <div className="text-center mb-20">
 
               <h2 className="text-md  font-bold text-gray-900 mb-6 leading-tight">
-           Our Fire Sprinkler Systems (Supplied & Installed):
+           Our Fire Sprinkler Systems (Supplied & Installed) :
  <br />
-                <span className="text-red-600">
+                <span className="text-red-600 text-sm">
       As an experienced fire sprinkler system supplier and contractor, Adhunik FireXpert ensures every component meets the highest quality standards and is expertly installed for optimal performance
 
                 </span>
@@ -663,12 +652,13 @@ The Unmatched Advantages of Professional Fire Sprinkler Systems
         <div className="bg-gradient-to-b from-white to-red-50/20">
           {/* ===== Premium Hero Section ===== */}
           <section className="relative    px-6 max-w-7xl mx-auto">
+
             <div className="absolute inset-0 overflow-hidden -z-10">
               <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-red-400/5 rounded-full filter blur-[100px]"></div>
             </div>
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
            Why Choose Adhunik FireXpert as Your 
 
@@ -734,7 +724,7 @@ As your trusted  <strong className=' text-red-500'>
           
 
             <div className="text-center mb-10 md:mb-20">
-              <div className="text-4xl   font-bold text-gray-900 mb-6 leading-tight">
+              <div className=" text-lg md:text-4xl   font-bold text-gray-900 mb-6 leading-tight">
 
          Regular Maintenance: Ensuring System Readiness & 
  
@@ -805,7 +795,7 @@ As your trusted  <strong className=' text-red-500'>
               Partner with the Experts in Fire Sprinkler Systems!
 
 </h3>
-                <p className=" text-sm   text-red-100 mb-8">
+                <p className=" text-sm  text-justify text-red-100 mb-8">
             Don't leave your property's safety to chance. Partner with Adhunik FireXpert, the premier fire sprinkler system dealer, supplier, and contractor committed to delivering reliable, compliant, and cutting-edge fire protection solutions. Our team is ready to assess your needs, design, install, and maintain a system that offers maximum protection and peace of mind.
 
 
