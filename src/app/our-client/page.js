@@ -1,4 +1,5 @@
 "use client"
+
 import Image from 'next/image';
 import React from 'react'
 import { useEffect, useRef, useState } from 'react';
@@ -195,7 +196,6 @@ export default function page() {
   ];
   
 
-
     const [inView, setInView] = useState(false);
     const containerRef = useRef(null);
   
@@ -237,7 +237,6 @@ export default function page() {
 
 
     <div className="row">
-
 
       <div className="col py-4">
 

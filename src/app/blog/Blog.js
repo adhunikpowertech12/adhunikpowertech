@@ -149,6 +149,17 @@ export default function Blog() {
       img: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
     },
 
+    {
+      id: 15,
+      title: "How to Prevent Overheating in Electrical Cabinets: Industrial Cooling Solutions",
+
+      date: "Aug  2025",
+      image:
+        "",
+      link: "/how-to-prevent-overheating-in-electrical-cabinets",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756274962/electrical_cabinets_1_cnlck0.webp",
+    },
+
 
   ];
 

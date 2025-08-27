@@ -11,7 +11,6 @@ import { EffectCards } from 'swiper/modules';
 
 export default function OurCompany() {
 
-
   const [activePage, setActivePage] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMyslideInView, setIsMyslideInView] = useState(false);
