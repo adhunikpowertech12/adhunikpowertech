@@ -222,7 +222,7 @@ export default function FireTublingSystem() {
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803409/fire_tubing_system_Overview_page_s6hn3q.webp"
                       alt="Fire Tubing System"
                       loading="lazy"
                     />

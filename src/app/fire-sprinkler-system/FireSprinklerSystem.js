@@ -188,7 +188,7 @@ export default function FireSprinklerSystem() {
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747373103/mobile_view_638_x_870_px_fggarf.webp"
+                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803732/fire-sprinkler-systems_qjaxgo.webp"
                       alt="Adhunik Powertech air washer"
                       loading="lazy"
                     />
@@ -369,7 +369,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-3_w6g04z.webp"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803732/fire-sprinkler-systems_qjaxgo.webp"
                 />
               </div>
             </div>
@@ -471,7 +471,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-2_ey3qlf.webp"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803732/Fire_Pre_Action_1_s3grww.webp"
                 />
               </div>
             </div>
@@ -513,7 +513,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618656/fire-sprinkler-system-2_ey3qlf.webp"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803732/deluge_sprinkler_system_qpoyet.jpg"
                 />
               </div>
             </div>
@@ -522,7 +522,8 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Deluge Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions. 
+            </p>
 
             </div>
           </div>
