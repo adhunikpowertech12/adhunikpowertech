@@ -316,9 +316,13 @@ export default function FireTublingSystem() {
 
 
             <div className="md:w-[60%] flex items-start flex-col  justify-center w-auto h-full p-2 m-2 md:p-5 md:m-5  md:text-justify">
+
               <h2 className=" text-2xl mb-3 hidden md:block"> 
-             Direct Release Fire Tubing Systems
+
+ Direct Release Fire Tubing Systems
+
                </h2>
+
               <p className="md:text-justify text-sm  py-2">
                 <strong className=' text-red-500'>Description : </strong>
 
@@ -354,24 +358,26 @@ export default function FireTublingSystem() {
                 <div>
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
                     <div className="w-auto">
-                      <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                      <div className="w-full h-[50vh] object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="     object-center object-cover  "
+                          className=" w-full h-full object-center object-contain"
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Tubing System"
-                          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756797372/direct_mtiiro.webp"
                         />
                       </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif  text-lg md:text-2xl font-bold text-white">
-                        Conventional Fire Alarm Systems
 
+                      <h2 className="font-dmserif  text-sm font-bold text-white">
+                    Direct Release Fire Tubing Systems
                       </h2>
+
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Provides immediate water access, allowing for faster response times. </p>
+                    Cost-effective, simple installation, highly effective for localized protection.
+                     </p>
 
                     </div>
                   </div>
@@ -408,10 +414,11 @@ export default function FireTublingSystem() {
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h2 className="font-dmserif text-lg md:text-2xl font-bold text-white"> Addressable Fire Alarm Systems
+                      <h2 className="font-dmserif text-sm  font-bold text-white"> 
+                     Indirect Release Fire Tubing Systems
                       </h2>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+                       Provides greater extinguishing agent capacity, allows for more complex distribution  </p>
 
                     </div>
                   </div>

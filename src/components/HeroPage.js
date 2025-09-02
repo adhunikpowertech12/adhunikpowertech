@@ -579,7 +579,9 @@ export default function HeroPage() {
       
 
       }
+      
     },
+
     {
       "@type": "HVACBusiness",
       "@id": "https://adhunikpowertech.com/#localbusiness",
@@ -595,7 +597,9 @@ export default function HeroPage() {
         "postalCode": "122004",
         "addressCountry": "IN"
       },
+
       "openingHoursSpecification": [
+
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
