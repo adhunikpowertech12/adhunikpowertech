@@ -369,7 +369,7 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className=" font-dmserif md:text-3xl font-bold text-white">
+              <h2 className=" font-dmserif  text-sm font-bold text-white">
            Clean Agent Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -417,7 +417,7 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif  text-lg md:text-3xl font-bold text-white"> CO2 Fire Suppression Systems </h2>
+              <h2 className="font-dmserif  text-sm font-bold text-white"> CO2 Fire Suppression Systems </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
 
@@ -508,19 +508,19 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
         <div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
             <div className="w-auto">
-              <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+              <div className="w-full h-[50vh] object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="     object-center object-cover  "
+                  className="object-center object-contain  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756807051/foam_fire_suppression_system_2_s4y1px.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">
+              <h2 className="font-dmserif text-sm font-bold text-white">
              Foam Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -550,17 +550,17 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="object-center object-cover  "
+                  className="object-center object-contain h-full w-full  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756807108/dry_chemical_fire_suppression_system_biv4dl.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif  text-lg md:text-3xl font-bold text-white"> Dry Chemical Fire Suppression Systems               </h2>
+              <h2 className="font-dmserif  text-sm font-bold text-white"> Dry Chemical Fire Suppression Systems </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
            Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
 
