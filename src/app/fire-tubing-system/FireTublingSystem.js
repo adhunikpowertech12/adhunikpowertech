@@ -402,23 +402,28 @@ export default function FireTublingSystem() {
                 <div>
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/10 rounded-xl">
                     <div className="w-auto">
-                      <div className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+
+                      <div className="w-full h-[60vh] object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className=" object-center object-cover  "
+                          className=" object-center h-full w-full object-contain  "
                           fetchPriority="high"
                           decoding="async"
                           alt="Fire Tubing System"
-                          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                          src="https://res.cloudinary.com/djablkulv/image/upload/v1756895213/Indirect_rmb3qd.webp"
                         />
                       </div>
+
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+
                       <h2 className="font-dmserif text-sm  font-bold text-white"> 
                      Indirect Release Fire Tubing Systems
                       </h2>
+
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                       Provides greater extinguishing agent capacity, allows for more complex distribution  </p>
+                       Provides greater extinguishing agent capacity, allows for more complex distribution
+                      </p>
 
                     </div>
                   </div>

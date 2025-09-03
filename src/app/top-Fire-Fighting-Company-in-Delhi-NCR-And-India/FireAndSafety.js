@@ -185,11 +185,11 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                 Adhunik FireXpert Services Is A Leading Fire Protection Equipment Supplier in Delhi  NCR and India
               </h1>
             </div>
-            <p className="mt-3 uk21"></p>
+            <p className="mt-3 "></p>
           </div>
-          <div className="w-full lg:w-5/12 sa">
+          <div className="w-full py-5 md:py-10 lg:w-5/12 ">
             <p className="lead text-black"></p>
-            <p className="text-black text-center text-sm  md:text-justify font-sans pt-0 p-9">
+            <p className="text-black   text-center text-sm  md:text-justify font-sans pt-0 p-9">
 
               When it comes to fire safety, ignorance can lead to disaster. Fire accidents can happen anywhere,
               risking the lives of people working or living there. It should be taken quite seriously. FIREXPERT
@@ -266,7 +266,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[22rem]  object-center object-fill "
+                  className="  md:h-[22rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
@@ -279,7 +279,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-3xl font-bold text-white">Fire Extinguishers <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg  font-bold text-white">Fire Extinguishers <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -380,20 +380,20 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[28rem]  object-center object-fill "
+                  className="  md:h-[28rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                    height={300}
                   width={500}
                   decoding="async"
                   alt="Air washer"
-                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477708/whs_xxw3s3.webp"
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529202/inner_hydrant_bvpgcw.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-3xl font-bold text-white">Fire Hydrant System <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg   font-bold text-white">Fire Hydrant System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -419,7 +419,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[28rem]  object-center object-fill "
+                  className="  md:h-[28rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
@@ -432,7 +432,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-3xl  font-bold text-white">Fire Sprinkler System <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg   font-bold text-white">Fire Sprinkler System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -538,21 +538,21 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[28rem]  object-center object-fill "
+                  className="  md:h-[28rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
                   alt="Air washer"
                    height={300}
                   width={500}
-                  src="https://media.istockphoto.com/id/1178819648/photo/automatic-gas-fire-extinguishing-system-safety-of-premises-from-conflagration-red-compressed.jpg?s=612x612&w=0&k=20&c=64d5ykqzttrQlXWdSVIyHsgzb_luXXlM0jgwLJ5qGbE="
+                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
 
-              <p className="font-dmserif text-lg md:text-3xl font-bold text-white">Fire suppression system <span className=' text-sm'> </span> 
+              <p className="font-dmserif text-lg   font-bold text-white">Fire suppression system <span className=' text-sm'> </span> 
               </p>
 
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -585,7 +585,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[28rem]  object-center object-fill "
+                  className="  md:h-[28rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                    height={300}
@@ -598,7 +598,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-3xl font-bold text-white">Fire Alarm System <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg  font-bold text-white">Fire Alarm System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -650,6 +650,7 @@ various environments where traditional wiring is not feasible.</li>
 
 
 <div className="row">
+
   <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
@@ -704,22 +705,22 @@ Detects smoke at low concentrations, often well before visible signs of fire.
         <div>
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
             <div className="w-auto">
+
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="    object-center object-fill "
+                  className="object-center  object-fill"
                   fetchPriority="high"
                   loading="lazy"
-                   height={300}
-                  width={500}
                   decoding="async"
-                  alt="Air washer"
+                  alt="Fire VESDA System"
                   src="vs2.webp"
                 />
               </div>
+
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-2xl font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg   font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -748,20 +749,20 @@ Detects smoke at low concentrations, often well before visible signs of fire.
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[30rem]  object-center object-fill "
+                  className="  md:h-[30rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                    height={300}
                   width={500}
                   decoding="async"
                   alt="Air washer"
-                  src="ft2.jpg "
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803409/fire_tubing_system_Overview_page_s6hn3q.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg md:text-3xl font-bold text-white">Fire Tubing System  <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg   font-bold text-white">Fire Tubing System  <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -889,20 +890,19 @@ Only” or “No Smoking.
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="  md:h-[28rem]  object-center object-fill "
+                  className="    object-center object-contain "
                   fetchPriority="high"
                   decoding="async"
                   alt="Air washer"
                   loading="lazy"
-                   height={300}
-                  width={500}
-                  src="firex/10.png"
+                   
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385629/iel_t48rco.webp"
                 />
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif  md:text-2xl font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg   font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>

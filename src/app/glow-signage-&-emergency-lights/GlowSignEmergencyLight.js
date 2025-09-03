@@ -381,11 +381,12 @@ Constructed from robust, long-lasting materials.
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h2 className="font-dmserif text-3xl font-bold text-white">
-           Wet Pipe Sprinkler Systems
+              <h2 className="font-dmserif  text-sm font-bold text-white">
+           Glow Signage (Photoluminescent & Illuminated)
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+        Exit routes, emergency assembly points, fire extinguisher locations, and safety
+          </p>
 
             </div>
           </div>
@@ -425,11 +426,11 @@ Constructed from robust, long-lasting materials.
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
 
-              <h2 className="font-dmserif text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems </h2>
+              <h2 className="font-dmserif text-lg font-bold text-white"> Emergency Lights (Battery-Powered Fixtures)
+</h2>
 
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions. 
-            </p>
+       Hallways, stairwells, exit routes, open areas, and critical operational zones in offices  </p>
 
             </div>
           </div>
