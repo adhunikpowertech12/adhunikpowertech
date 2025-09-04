@@ -160,6 +160,17 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756274962/electrical_cabinets_1_cnlck0.webp",
     },
 
+    {
+      id: 16,
+      title: "Adhunik HVAC Projects : The Legacy of Adhunik Powertech",
+
+      date: "Sep  2025",
+      image:
+        "",
+      link: "/adhunik-hvac-projects-the-legacy-of-adhunik-powertech",
+      img: "https://www.daikin.com.mt/en_us/about/case-studies/supplying-a-complete-hvac-system-for-an-office-building/_jcr_content/image43.coreimg.png/1687764457327/dji-0044-2048x1152.png",
+    },
+
 
   ];
 
