@@ -8,7 +8,7 @@ export default function Blog() {
       id: 1,
       title: "What is an Air Washer ?",
 
-      date: "January  2025",
+      date: "January 2025",
       image:
         "",
       link: "/what-is-an-air-washer",
@@ -30,12 +30,13 @@ export default function Blog() {
       id: 3,
       title: "What is Panel Air Conditioners ?",
 
-      date: "February  2025",
+      date: "February 2025",
       image:
         "",
       link: "/what-is-panel-air-conditioners",
       img: "/pab.png",
     },
+
     {
       id: 4,
       title: "What is HVAC? Guide for Beginners",
@@ -57,11 +58,12 @@ export default function Blog() {
       link: "/10-tips-for-choosing-an-HVAC-contractor-in-india",
       img: "/tips10.webp",
     },
+
     {
       id: 6,
       title: "Award-Winning Services in the HVAC Industry ",
 
-      date: "March  2025",
+      date: "March 2025",
       image:
         "",
       link: "/india-business-award-2025",
@@ -73,7 +75,7 @@ export default function Blog() {
       title: "Understanding HVAC and Finding the Right Contractor in India",
 
 
-      date: "April  2025",
+      date: "April 2025",
       image:
         "",
       link: "/hire-The-Right-HVAC-Contractor-in-India",
@@ -85,40 +87,43 @@ export default function Blog() {
       title: "Top HVAC Contractor Across Delhi NCR and India ",
 
 
-      date: "April  2025",
+      date: "April 2025",
       image:
         "",
       link: "/top-HVAC-Contractor-Across-Delhi-NCR-and-India",
       img: "/hvac-contractor.webp",
     },
+
     {
       id: 9,
       title: "Choosing the Best HVAC Contractor for Your Commercial and Industrial Space ",
 
 
-      date: "May  2025",
+      date: "May 2025",
       image:
         "",
       link: "/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac_x2sop2.webp",
     },
+
     {
       id: 10,
       title: "How Smart HVAC Design Integrates Seamlessly with Modern Interior Aesthetics ",
 
 
-      date: "June  2025",
+      date: "June 2025",
       image:
         "",
       link: "/hvac-luxury-interior-design",
       img: "https://images.unsplash.com/photo-1687180497716-5872969e5125?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
+
     {
       id: 11,
       title: "BLDC Fan vs. Normal Fan: Save Up To 65% | Adhunik Air Care",
 
 
-      date: "July  2025",
+      date: "July 2025",
       image:
         "",
       link: "/difference-between-bldc-and-normal-fan",
@@ -130,7 +135,7 @@ export default function Blog() {
       title: "HVAC Excellence: 20 Years of Innovation",
 
 
-      date: "July  2025",
+      date: "July 2025",
       image:
         "",
       link: "/hvac-thumb-rule-and-formulas",
@@ -142,7 +147,7 @@ export default function Blog() {
       title: "Top Fire Fighting Contractors in Delhi | Adhunik FireXpert",
 
 
-      date: "Aug  2025",
+      date: "Aug 2025",
       image:
         "",
       link: "/top-fire-fighting-contractors-in-delhi",
@@ -153,7 +158,7 @@ export default function Blog() {
       id: 15,
       title: "How to Prevent Overheating in Electrical Cabinets: Industrial Cooling Solutions",
 
-      date: "Aug  2025",
+      date: "Aug 2025",
       image:
         "",
       link: "/how-to-prevent-overheating-in-electrical-cabinets",
@@ -164,11 +169,22 @@ export default function Blog() {
       id: 16,
       title: "Adhunik HVAC Projects : The Legacy of Adhunik Powertech",
 
-      date: "Sep  2025",
+      date: "Sep 2025",
       image:
         "",
       link: "/adhunik-hvac-projects-the-legacy-of-adhunik-powertech",
       img: "https://www.daikin.com.mt/en_us/about/case-studies/supplying-a-complete-hvac-system-for-an-office-building/_jcr_content/image43.coreimg.png/1687764457327/dji-0044-2048x1152.png",
+    },
+
+    {
+      id: 17,
+      title: "Central AC Systems in Delhi NCR : Your Guide to Choosing a Top Contractor & Energy-Efficient Solutions",
+
+      date: "Sep 2025",
+      image:
+        "",
+      link: "/central-ac-systems-in-delhi-ncr",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757408310/central_hj3qhx.webp",
     },
 
 

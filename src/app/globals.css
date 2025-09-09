@@ -776,12 +776,8 @@ section .card__img span {
 }
 
 @media (min-width: 1025px) {
-  /* Align to the left for larger screens */
-  
+
 }
-
-
-
 
 
 
@@ -804,7 +800,6 @@ input[type="number"] {
  }
 
 
- 
 
  .origin-0 {
    transform-origin: 0%;
@@ -830,6 +825,7 @@ input[type="number"] {
    --tw-translate-y: -1.5rem;
  }
 
+
  input:focus ~ label,
  select:focus ~ label {
    /* @apply text-black; left-0; */
@@ -842,15 +838,7 @@ input[type="number"] {
 
 
 
-
-
-
  /* ################################### */
-
-
-
-
-
 
 
  #app { height: 100% }
@@ -882,8 +870,8 @@ input[type="number"] {
   border-color: cyan;
   border: 1px #00A0E1 solid;
   background-image: url('/slideabout.webp');
-  background-size: cover; /* Ensures the image covers the slide area */
-  background-position: center; /* Centers the image */
+  background-size: cover; 
+  background-position: center;  
   background-repeat: no-repeat;
   
 
@@ -891,15 +879,13 @@ input[type="number"] {
 
 .swiper-slide:nth-child(2n) {
   
-    background-color: rgb(240, 255, 255);
+  background-color: rgb(240, 255, 255);
   border-color: cyan;
   border: 1px #00A0E1 solid;
-  
-  background-image: url('/blog/2005.webp'); /* Add background image */
-  background-size: cover; /* Ensures the image covers the slide area */
-  background-position: center; /* Centers the image */
+  background-image: url('/blog/2005.webp');  
+  background-size: cover;  
+  background-position: center;  
   background-repeat: no-repeat;
-
 }
 
 .swiper-slide:nth-child(3n) {
@@ -944,15 +930,14 @@ input[type="number"] {
 }
 
 .swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
 
+  background-color: rgb(218, 12, 218);
   background-image: url('/blog/grow.webp');
 
 }
 
 .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
-
   background-image: url('/blog/grow.webp');
 
 }
