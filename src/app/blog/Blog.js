@@ -187,6 +187,17 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757408310/central_hj3qhx.webp",
     },
 
+    {
+      id: 17,
+      title: "Fire Extinguisher Guide for Delhi NCR: Types, Uses & Regulations | Adhunik FireXpert",
+
+      date: "Sep 2025",
+      image:
+        "",
+      link: "/fire-extinguisher-guide-for-delhi-ncr",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757417516/fire_mcsmvc.webp",
+    },
+
 
   ];
 

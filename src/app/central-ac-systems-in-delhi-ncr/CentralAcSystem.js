@@ -192,7 +192,9 @@ export default function CentralAcSystem() {
 
         <strong className=' font-semibold  text-cyan-700'>
      Adhunik Powertech's Experience : </strong> 
-      Since 2005, we have been a trusted name in the HVAC industry, renowned for delivering sophisticated Central AC solutions for hotels, hospitals, corporate offices, data centers, manufacturing units, and commercial complexes across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Jaipur, and Chandigarh. Our portfolio speaks for itself.
+      Since 2005, we have been a trusted name in the <Link href='/hvac' className=' font-semibold texcy'>
+        HVAC
+      </Link>  industry, renowned for delivering sophisticated Central AC solutions for hotels, hospitals, corporate offices, data centers, manufacturing units, and commercial complexes across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Jaipur, and Chandigarh. Our portfolio speaks for itself.
 
 </p>
 
@@ -418,7 +420,9 @@ export default function CentralAcSystem() {
           <section className="mb-16 bg-white p-3 md:p-8 rounded-xl shadow-md border border-cyan-100">
            
             <p className=' text-sm pb-4 text-justify'>
-      At Adhunik Powertech, with our decades of experience in designing, supplying, installing, and maintaining advanced HVAC solutions, we understand the complexities involved. We're here to guide you through the essentials of Central AC and demonstrate why partnering with an expert makes all the difference for energy efficiency, indoor air quality, and long-term performance.
+      At <Link href='/' className=' font-semibold text-cyan-500'>
+        Adhunik Powertech
+      </Link>, with our decades of experience in designing, supplying, installing, and maintaining advanced HVAC solutions, we understand the complexities involved. We're here to guide you through the essentials of Central AC and demonstrate why partnering with an expert makes all the difference for energy efficiency, indoor air quality, and long-term performance.
 
 </p>
            
