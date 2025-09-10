@@ -188,7 +188,7 @@ export default function Blog() {
     },
 
     {
-      id: 17,
+      id: 18,
       title: "Fire Extinguisher Guide for Delhi NCR: Types, Uses & Regulations | Adhunik FireXpert",
 
       date: "Sep 2025",

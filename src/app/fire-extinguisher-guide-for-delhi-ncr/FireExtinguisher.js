@@ -14,13 +14,126 @@ export default function FireExtinguisher() {
   };
 
   const energySystems = [
+
     {
       title: "Water Extinguishers (Class A)",
       desc: (
         <>
          <ul>
-            <li><strong>Agent :
+            <li><strong className=" text-red-500">Agent :
 </strong> Pressurized water.</li>
+
+            <li><strong className=" text-red-500"> Uses :
+</strong> Exclusively for Class A fires. They work by cooling the burning material.</li>
+
+            <li><strong className=" text-red-500"> Note : 
+</strong> Never use on electrical or liquid fires.</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Foam Extinguishers (Class A and B)",
+      desc: (
+        <>
+         <ul>
+            <li><strong className=" text-red-500">Agent : </strong> A mixture of water and foam concentrate.</li>
+
+            <li><strong className=" text-red-500">Uses : </strong>  Effective on both Class A and Class B fires. The foam creates a blanket that smothers the fire and cools the fuel.
+</li>
+
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Dry Powder Extinguishers (Class A, B, and C)",
+      desc: (
+        <>
+         <ul>
+            <li><strong className=" text-red-500">Agent :
+</strong> A fine, dry chemical powder.</li>
+
+            <li><strong className=" text-red-500"> Uses :
+</strong> Highly versatile, used for Class A, B, and C fires. They work by interrupting the chemical reaction of the fire.
+</li>
+            <li><strong className=" text-red-500"> Note :
+</strong> Leave a residue and can impair visibility in confined spaces.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+
+    {
+      title: "CO2 (Carbon Dioxide) Extinguishers (Class B and C)",
+      desc: (
+        <>
+         <ul>
+            <li><strong className=" text-red-500">Agent :
+</strong> Carbon dioxide gas under high pressure.</li>
+
+            <li><strong className=" text-red-500"> Uses :
+</strong> Ideal for Class B and C fires. They work by displacing oxygen.
+</li>
+            <li><strong className=" text-red-500"> Note :
+</strong> Leave no residue, making them perfect for electrical equipment, server rooms, and labs.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Wet Chemical Extinguishers (Class K)",
+      desc: (
+        <>
+         <ul>
+            <li><strong className=" text-red-500">Agent :
+</strong>  A specialized chemical solution</li>
+
+            <li><strong className=" text-red-500"> Uses :
+</strong> Specifically designed for Class K fires. The agent creates a soapy foam on the surface of hot oils and fats to prevent re-ignition.
+</li>
+          
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Clean Agent Extinguishers (Class A, B, and C)",
+      desc: (
+        <>
+         <ul>
+            <li><strong className=" text-red-500">Agent :
+</strong> Advanced, residue-free chemicals (e.g., FM-200, Novec 1230)</li>
+
+            <li><strong className=" text-red-500"> Uses :
+</strong> Versatile for A, B, and C fires. Ideal for sensitive equipment, data centers, and clean rooms as they leave no residue
+</li>
+          
+
          </ul>
         </>
       ),
@@ -29,6 +142,285 @@ export default function FireExtinguisher() {
 
      
   ];
+
+  
+  const energySystems2 = [
+
+    {
+      
+      desc: (
+        <>
+         <ul>
+
+            <li>
+            <strong className=" text-red-500">
+            BIS Certification (IS 15683) : </strong>
+ The Bureau of Indian Standards (BIS) certification as per IS 15683 is mandatory for all portable fire extinguishers. This standard ensures the extinguisher meets stringent requirements for extinguishing capacity, discharge time, pressure resistance, and safety.
+ </li>
+ 
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+            ISI Mark : </strong>
+  Look for the ISI mark on your extinguisher. It is a symbol of BIS certification, guaranteeing that the product is a high-quality, reliable, and compliant fire safety device.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+            Fire NOC : 
+            </strong>
+  For commercial and industrial buildings in Delhi, Gurugram, and Noida, the presence of BIS-certified fire extinguishers is a mandatory requirement for obtaining and maintaining a Fire NOC.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    
+  ];
+
+
+  const energySystems3 = [
+
+    {
+      
+      desc: (
+        <>
+         <ul>
+
+            <li>
+            <strong className=" text-red-500">
+            For Homes :  </strong>
+ An ABC-rated Dry Powder extinguisher is a versatile choice for most rooms. Keep a Wet Chemical or Class K extinguisher in the kitchen to handle cooking oil fires.
+
+ </li>
+ 
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+            For Offices & Commercial Spaces : </strong>
+   Use ABC-rated Dry Powder extinguishers for general use. In server rooms or areas with sensitive electronics, a CO2 or Clean Agent extinguisher is a better choice to avoid damage.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+           For Industrial Facilities :</strong> {" "}
+   A thorough assessment by a fire safety professional is essential. You will likely need a combination of Dry Powder, CO2, and specialized Class D extinguishers for specific risks.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    
+  ];
+
+
+
+  const energySystems4 = [
+
+    {
+      
+      desc: (
+        <>
+         <ul>
+
+            <li>
+            <strong className=" text-red-500">
+         P - Pull the Pin :  </strong>
+ Pull the pin at the top of the extinguisher to break the tamper seal.
+
+ </li>
+ 
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+            A - Aim at the Base : </strong>
+    Aim the nozzle at the base of the fire, not the flames.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+           S - Squeeze the Handle : </strong> {" "}
+   Squeeze the handle to discharge the extinguishing agent.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+          S - Sweep Side-to-Side : </strong> {" "}
+   Sweep the nozzle from side to side at the base of the fire until it goes out.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    
+  ];
+
+  const energySystems5 = [
+
+    {
+      
+      desc: (
+        <>
+         <ul>
+
+            <li>
+            <strong className=" text-red-500">
+         Expert Consultation :   </strong>
+Our specialists will help you
+ assess your unique fire risks and select the ideal fire extinguishers for your needs.
+
+ </li>
+ 
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+          Seamless Supply & Installation :  </strong>
+   As a leading supplier and dealer, we provide high-quality, compliant extinguishers and ensure proper installation and placement.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+       desc: (
+        <>
+         <ul>
+               <li>
+            <strong className=" text-red-500">
+           Annual Maintenance Contracts (AMC) : </strong> {" "}
+    We offer robust AMC services to inspect, test, and maintain your fire extinguishers, ensuring they are always ready to protect you.
+
+ </li>
+            
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+     
+    
+  ];
+
+
 
   const faqItems = [
     {
@@ -70,7 +462,7 @@ export default function FireExtinguisher() {
           <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
             <div className=" w-full  h-96 md:w-6/12">
               <img
-                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757488069/pull_hrtmos.webp"
                 alt="Commercial HVAC System"
                 loading="lazy"
                 className="w-full h-full  object-center object-contain"
@@ -142,26 +534,12 @@ export default function FireExtinguisher() {
 
               <div className="bg-gradient-to-br from-red-50 to-white p-4 md:p-6 rounded-xl border border-red-200 shadow-sm mb-8">
                 <div className="flex items-center mb-8">
-                  <div className="bg-red-100 p-3 rounded-lg mr-4">
-                    <svg
-                      className="w-8 h-8 text-red-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M13 10V3L4 14h7v7l9-11h-7z"
-                      />
-                    </svg>
-                  </div>
+               
 
                   <p className=" text-sm  text-red-900 ">
-                    <strong className=" text-red-500">
+                    <strong className=" text-xl text-red-500">
                       {" "}
-                      Understanding the Classes of Fire
+                   1.   Understanding the Classes of Fire :
                     </strong>{" "}
                     Using the wrong type of fire extinguisher can be ineffective
                     or even dangerous. Fires are classified based on the type of
@@ -215,11 +593,11 @@ export default function FireExtinguisher() {
 
               <div className="mb-12">
                <p className=" text-sm pb-4  text-red-900 ">
-                    <strong className=" text-red-500 ">
+                    <strong className=" text-xl text-red-500 ">
                       {" "}
-                     Common Types of Fire Extinguishers and Their Uses
+                    2. Common Types of Fire Extinguishers and Their Uses
 
-                    </strong>{" "} <br />
+                    </strong> {" "} <br />
               Fire extinguishers are designed with specific agents to combat different fire classes. It's essential to match the extinguisher to the fire class.
   </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
@@ -228,21 +606,10 @@ export default function FireExtinguisher() {
                       key={index}
                       className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-red-100 hover:border-red-300 transition-all shadow-sm hover:shadow-md"
                     >
-                      <div className="row flex flex-row gap-2 md:gap-4 ">
-                        <div className="bg-red-100 w-12 h-12 items-center rounded-full flex  justify-center mb-4">
-                          <svg
-                            className="w-6 h-6 text-red-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d={system.icon}
-                            />
-                          </svg>
+                      <div className="row justify-center items-center flex flex-row gap-2 md:gap-4 ">
+                        <div className=" bg-red-50 w-12 h-12 items-center rounded-full flex  justify-center mb-4">
+                        
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-fire-extinguisher-icon lucide-fire-extinguisher"><path d="M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5"/><path d="M9 18h8"/><path d="M18 3h-3"/><path d="M11 3a6 6 0 0 0-6 6v11"/><path d="M5 13h4"/><path d="M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z"/></svg>
                         </div>
 
                         <h2 className=" w-9/12 md:w-full font-bold text-red-700 text-sm text-left  md:text-lg mb-2">
@@ -257,6 +624,139 @@ export default function FireExtinguisher() {
                   ))}
                 </div>
               </div>
+
+              
+              <div className="mb-12">
+
+               <p className=" text-sm pb-4  text-red-900 ">
+                    <strong className=" text-xl text-red-500 ">
+                      {" "}
+                  3. Key Indian Regulations & Certifications
+
+                    </strong> {" "} <br />
+
+             In India, fire extinguishers must comply with strict safety standards to be legally sold and used.
+
+  </p>
+  
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems2.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-red-100 hover:border-red-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      
+
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                      <p className=" text-sm pt-4
+                        text-red-900 ">
+                   
+           As a top fire extinguisher dealer and supplier, Adhunik FireXpert ensures that every single extinguisher we provide is fully compliant with these national standards, giving you peace of mind.
+
+  </p>
+              </div>
+
+              <div className="mb-12">
+
+               <p className=" text-sm pb-4  text-red-900 ">
+                    <strong className=" text-lg text-red-500 ">
+                      {" "}
+                  4. How to Choose the Right Fire Extinguisher for Your Needs
+
+
+                    </strong> {" "} <br />
+The best way to ensure your property is safe is to conduct a fire risk assessment. Here are some general guidelines for different environments :
+
+  </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems3.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-red-100 hover:border-red-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      
+
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                   
+              </div>
+
+
+              <div className="mb-12">
+
+               <p className=" text-sm pb-4  text-red-900 ">
+                    <strong className=" text-lg text-red-500 ">
+                      {" "}
+                 5. Using a Fire Extinguisher: The P.A.S.S. Method
+
+
+                    </strong> {" "} <br />
+Knowing how to use an extinguisher correctly is crucial. Remember the P.A.S.S. acronym :
+
+
+  </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems4.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-red-100 hover:border-red-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                   
+              </div>
+
+
+              <div className="mb-12">
+
+               <p className=" text-sm pb-4  text-red-900 ">
+                    <strong className=" text-lg text-red-500 ">
+                      {" "}
+             Your Trusted Partner in Fire Safety Across Delhi NCR
+
+
+                    </strong> {" "} <br />
+Choosing the right fire extinguisher is a critical step in a comprehensive fire safety plan. As a dedicated fire safety contractor, Adhunik FireXpert provides more than just products. We offer complete fire safety solutions, including :
+
+
+  </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems5.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-red-100 hover:border-red-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                   
+              </div>
+
+
+
             </section>
 
             {/* CTA Section */}
@@ -264,27 +764,17 @@ export default function FireExtinguisher() {
             <section className="bg-gradient-to-r from-red-600 to-red-800 rounded-xl p-8 text-white shadow-lg">
               <div className="text-center max-w-3xl mx-auto">
                 <h2 className="  text-xl  font-bold mb-4">
-                  Adhunik FireXpert : Your Choice for Top Firefighting
-                  Contractors in Delhi
+                 Contact Adhunik FireXpert for a Consultation or Quote.
+
                 </h2>
                 <p className="text-red-100 mb-8 text-sm  text-justify ">
-                  In Delhi's dynamic landscape, choosing the right firefighting
-                  contractor is a decision that directly impacts safety and
-                  business continuity. Adhunik FireXpert is not just a fire
-                  safety dealer and supplier; we are a dedicated firefighting
-                  contractor committed to delivering superior fire protection
-                  engineering. Our strong foundation in comprehensive building
-                  solutions, including our parent company's legacy in advanced
-                  HVAC systems, empowers us to offer integrated and highly
-                  reliable safety solutions.
+               Whether you're in Gurugram, Noida, Faridabad, Ghaziabad, Jaipur, Chandigarh, or any of our service locations, you can rely on Adhunik FireXpert for all your fire safety needs.
+
                 </p>
 
-                <p className="text-red-100 mb-8 text-sm  text-justify">
-                  Whether you require a complete fire safety overhaul for your
-                  new commercial project in Saket, Delhi, a specialized fire
-                  suppression system for your data center in Noida, or annual
-                  maintenance for your fire alarm systems in Gurugram, our
-                  expertise and commitment make us the ideal partner.
+                <p className=" text-center text-red-100 mb-8 text-sm  ">
+             Ready to secure your property with the right fire extinguishers ?
+
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
