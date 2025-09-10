@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 function Footer() {
+
   const pathname = usePathname();
 
 
@@ -87,6 +88,7 @@ function Footer() {
 
 
   return (
+
     <footer className="  text-[10px] font-sans text-center h-auto w-auto bg-black text-white lg:text-left lg:px-14 py-5">
 
 
@@ -113,13 +115,14 @@ function Footer() {
               at the   fingertips.
             </h2>
 
-            <p className=' font-semibold text-[15px]  font-sans  pb-1'>Corporate Office </p>
+            <p className=' font-semibold text-[15px]  font-sans  pb-1'>Head Office </p>
 
             <p className=' pb-1'>
 
 
-              DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
-            </p>
+          Unit No. 6-03B, 6th floor, Reach My Tower,
+Sector 70, Gurugram, Pin Code-122101
+</p>
             <p className=' pb-1'>Email: info@adhunikpowertech.com</p>
             <p>Phone: 8287885885</p>
 
@@ -195,12 +198,18 @@ function Footer() {
             </h2>
             <div className="pb-2 font-sans">
               <span className=' font-bold'> Haridwar</span>  : Ashoka Marg, <br /> Lane No.13, Ramnagar, <br /> Roorkee, Uttarakhand 247667
-
-
-
-
+ 
             </div>
           
+   <p className=' font-semibold text-[15px]  font-sans  pb-1'> Corporate Office </p>
+
+            <p className=' pb-2'>
+
+
+              DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004
+            </p>
+          
+
 
 
             <h2 className="mb-2  text-[15px] flex justify-center  font-sans font-semibold uppercase ">
@@ -257,7 +266,6 @@ function Footer() {
 
         </div>
       </div>
-
 
 
       <div className=" flex bg-black/5 p-6 text-center   flex-col  md:flex-row justify-center items-center gap-6">
