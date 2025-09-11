@@ -265,10 +265,10 @@ export default function VentilationFans() {
 
 
             <div className=" w-full md:w-6/12">
-              <h1 className=" text-lg md:text-xl text-center md:text-left font-bold text-cyan-800 mb-3 leading-tight">
+              <h2 className=" text-lg md:text-xl text-center md:text-left font-bold text-cyan-800 mb-3 leading-tight">
                High-Performance Ventilation Fans for Industrial & Commercial Applications
 
-              </h1>
+              </h2>
              
               <p className="text-sm text-gray-700 mb-2 text-justify md:text-left ">
                Engineered for Durability, Efficiency, and Superior Air Quality. Adhunik Powertech provides robust solutions to keep your environment safe, clean, and productive.
