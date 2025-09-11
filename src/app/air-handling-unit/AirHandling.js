@@ -120,6 +120,207 @@ export default function AirHandling() {
 
   ];
 
+ const energySystems = [
+
+    {
+      title: "Comfort Air Handling Units (Double Skin)",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+            <li>  
+            Our Double Skin Comfort AHUs are the perfect solution for large commercial spaces where superior air quality and thermal comfort are paramount. The double-skin construction provides excellent thermal insulation and acoustic performance, ensuring quiet and efficient operation.
+</li>
+<span >
+ <strong className=" text-cyan-500"> Ideal For :
+</strong>
+</span>
+
+            <li> 
+            Corporate Offices & Commercial Buildings
+</li>
+            <li> 
+           Hotels, Malls & Multiplexes
+
+</li>
+<li>
+  Hospitals & Educational Institutions
+
+</li>
+<li>
+  Large-Scale Industrial Sheds
+
+</li>
+
+          
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Hygienic / Cleanroom Air Handling Units",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+            <li> 
+           For industries where air purity is non-negotiable, our Cleanroom AHUs are engineered to meet the strictest standards. Designed with smooth, non-porous surfaces and easy-to-clean interiors, these units are crucial for preventing microbial growth and ensuring a contaminant-free environment.
+
+</li>
+<span >
+ <strong className=" text-cyan-500"> Ideal For :
+</strong>
+</span>
+
+            <li> 
+           Pharmaceutical & Biotechnology Labs
+
+</li>
+            <li> 
+        Hospitals (Operating Theaters & ICUs)
+
+</li>
+<li>
+ Electronics & Semiconductor Manufacturing
+
+</li>
+<li>
+ Food & Beverage Processing Facilities
+
+</li>
+
+         </ul>
+
+
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+
+     
+   
+     
+  ];
+ const energySystems2 = [
+
+    {
+      title: "Wide Capacity Range",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+          We offer a full range of products, with capacities starting from 500 CFM to 50,000 CFM, ensuring a perfectly sized solution for any project.
+
+</li>
+
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: " Robust Double Skin Construction",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+        Our units feature a double-skin panel design that minimizes heat loss, reduces operational noise, and enhances structural rigidity.
+
+
+</li>
+
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "High-Quality Materials",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+    We offer construction in both heavy-duty Powder Coated GI and corrosion-resistant Stainless Steel (SS-304) to suit your specific application.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Advanced Filtration",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+   Our AHUs can be configured with a multi-stage filtration system, including pre-filters, bag filters, and high-efficiency HEPA filters, to achieve the required level of air purity.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "High-Efficiency Components",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+   We use high-quality, energy-efficient blowers, motors, and cooling coils to maximize performance and minimize operational costs.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+    {
+      title: "Rust-Free & Anti-Corrosion Coating",
+      desc: (
+        <>
+         <ul className=" list-disc list-inside">
+
+            <li>  
+   All spare parts are treated with a rust-free, anti-corrosion coating to ensure a long and trouble-free service life.
+
+</li>
+
+         </ul>
+        </>
+      ),
+      icon: "M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4",
+    },
+
+     
+
+     
+  ];
 
   return (
     <>
@@ -127,7 +328,8 @@ export default function AirHandling() {
 
 
         <div className="row">
-          <h1 className=" w-full text-center font-sans text-4xl  md:text-5xl  text-sky-700 uppercase"> Air Handling Unit </h1>
+          <h1 className=" w-full text-center font-sans text-2xl     text-cyan-600 uppercase">Precision Air Handling Units : The Heart of Your HVAC System
+ </h1>
 
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -138,14 +340,13 @@ export default function AirHandling() {
                     <div className="w-auto">
                       <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                         <img
-                          className="    object-center object-fill "
+                          className="   h-full w-full  object-center object-contain "
                           fetchPriority="high"
                           loading="lazy"
                           decoding="async"
                           alt="Air Handling Unit"
                           src="/ahu2.jpeg"
-                          height="200"
-                          width="400"
+                          
                         />
                       </div>
                     </div>
@@ -153,7 +354,8 @@ export default function AirHandling() {
                     <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                       <p className="font-dmserif text-3xl font-bold text-white">  Air Handling Unit  </p>
                       <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        Experience the perfect blend of style and performance that elevates your environment. Contact us today for a free consultation and discover how to create a cooler, more comfortable space.    </p>
+                        Experience the perfect blend of style and performance that elevates your environment. Contact us today for a free consultation and discover how to create a cooler, more comfortable space.  
+                          </p>
 
                     </div>
                   </div>
@@ -162,10 +364,29 @@ export default function AirHandling() {
             </div>
 
             <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-              <p className="text-[6vw] md:text-4xl mb-3 hidden md:block"> Air Handling Unit (Customizable)</p>
-              <p className="text-justify md:text-center">
-                Air Handling Unit, a premier solution for customizable and energy-efficient cooling. Designed with elegance and adaptability, it delivers optimal comfort while its robust cooling power effortlessly counters the summer heat. Discover how you can enjoy a perfect blend of style and performance that elevates your environment. Contact us today to learn more and take the first step towards a cooler, more comfortable space.
+
+
+              <h2 className=" text-cyan-700 md:text-xl text-center md:text-left mb-3 hidden md:block">
+Precision Air Handling Units : The Heart of Your HVAC System
+               </h2>
+
+              <p className="text-justify text-sm  ">
+              Experience Unparalleled Air Quality, Precise Temperature Control, and Exceptional Energy Efficiency with Adhunik Powertech’s Advanced Air Handling Units.
               </p>
+
+              <h2 className="text-cyan-700 pt-2 text-center md:text-left md:text-xl mb-3 hidden md:block">
+The Core of Your Building's Environment
+               </h2>
+
+              <p className="text-justify text-sm  ">
+              The Air Handling Unit (AHU) is the central component of your HVAC system, acting as the "lungs" of your building. It is responsible for conditioning and circulating air, ensuring that every corner of your facility receives a consistent supply of clean, fresh, and temperature-controlled air. A high-quality, properly engineecyan AHU is fundamental to achieving superior indoor air quality (IAQ), thermal comfort, and energy efficiency.
+<br />
+Adhunik Powertech manufactures a wide range of robust and reliable AHUs, designed to meet the most demanding requirements of commercial, industrial, and specialized environments.
+
+              </p>
+
+
+
               <div className="show_m mt-5">
                 <button
                   className="rounded-md bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 mt-5"
@@ -229,6 +450,90 @@ export default function AirHandling() {
             </div>
           </div>
         </div>
+
+<div className="mb-12 px-4 md:px-24 pt-24">
+               <p className=" text-sm pb-4  text-cyan-900 ">
+                    <strong className=" text-xl text-cyan-500 ">
+                      {" "}
+                   Our Air Handling Unit Portfolio: Solutions for Every Need
+
+                    </strong> {" "} <br />
+            We offer a comprehensive range of AHUs, including both Comfort AHUs for general applications and highly specialized Cleanroom AHUs for critical environments.
+
+  </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-cyan-100 hover:border-cyan-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      <div className="row justify-center items-center flex flex-row gap-2 md:gap-4 ">
+                        <div className=" bg-cyan-50 w-12 h-12 items-center rounded-full flex  justify-center mb-4">
+                        
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-container-icon lucide-container"><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z"/><path d="M10 21.9V14L2.1 9.1"/><path d="m10 14 11.9-6.9"/><path d="M14 19.8v-8.1"/><path d="M18 17.5V9.4"/></svg>
+
+                        </div>
+
+                        <h2 className=" w-9/12 md:w-full font-bold text-cyan-700 text-sm text-left  md:text-lg mb-2">
+                          {system.title}
+                        </h2>
+                      </div>
+
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+
+<div className="mb-12 px-4 md:px-24 py-2">
+
+               <p className=" text-sm pb-4  text-cyan-900 ">
+                    <strong className=" text-xl text-cyan-500 ">
+                      {" "}
+                Engineered for Performance and Durability
+
+                    </strong> {" "} <br />
+        Every Adhunik Powertech AHU is built with a focus on quality, reliability, and long-term performance.
+
+  </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                  {energySystems2.map((system, index) => (
+                    <div
+                      key={index}
+                      className="bg-white flex flex-col    items-start  md:text-left text-center p-5 rounded-lg border border-cyan-100 hover:border-cyan-300 transition-all shadow-sm hover:shadow-md"
+                    >
+                      <div className="row justify-center items-center flex flex-row gap-2 md:gap-4 ">
+                        <div className=" bg-cyan-50 w-12 h-12 items-center rounded-full flex  justify-center mb-4">
+                        
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-container-icon lucide-container"><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z"/><path d="M10 21.9V14L2.1 9.1"/><path d="m10 14 11.9-6.9"/><path d="M14 19.8v-8.1"/><path d="M18 17.5V9.4"/></svg>
+
+                        </div>
+
+                        <h2 className=" w-9/12 md:w-full font-bold text-cyan-700 text-sm text-left  md:text-lg mb-2">
+                          {system.title}
+                        </h2>
+                      </div>
+
+                      <div className=" text-justify text-sm text-gray-600">
+                        {system.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                    <p className=" text-center pt-7 text-sm pb-4  text-cyan-900 ">
+                    <strong className=" text-xl text-cyan-500 ">
+                      {" "}
+               Let's Build the Heart of Your HVAC System
+
+                    </strong> {" "} <br />
+      Our team of technical experts is ready to help you select and configure the perfect Air Handling Unit for your specific needs.
+
+  </p>
+              </div>
 
 
 
@@ -311,7 +616,7 @@ export default function AirHandling() {
 
         </div>
 
-
+  
 
       </div>
 

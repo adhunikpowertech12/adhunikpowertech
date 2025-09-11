@@ -278,7 +278,7 @@ export default function AirShower() {
     <>
 
       <div className="row mt-32 font-sans">
-   <h1 className=" w-full text-center font-sans text-3xl  md:text-5xl  text-sky-700 uppercase">Air Shower & Pass Box </h1>
+   <h1 className=" w-full text-center font-sans text-3xl  md:text-5xl  text-cyan-600 uppercase">Air Shower & Pass Box </h1>
 
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:py-12">
           {/* Hero Section */}

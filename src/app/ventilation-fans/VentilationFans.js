@@ -248,7 +248,7 @@ export default function VentilationFans() {
      <div className="row mt-32 font-sans">
 
 
- <h1 className=" w-full text-center font-sans text-xl  md:text-4xl  text-sky-700 uppercase"> Axial & Exhaust Fan </h1>
+ <h1 className=" w-full text-center font-sans text-xl  md:text-4xl  text-cyan-600 uppercase"> Axial & Exhaust Fan </h1>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:py-12">
           {/* Hero Section */}
