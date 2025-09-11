@@ -1,6 +1,7 @@
 "use client";
 
 export default function VentilationFans() {
+
     const Axial_Flow_fans = [
         {
     
@@ -247,8 +248,66 @@ export default function VentilationFans() {
      <div className="row mt-32 font-sans">
 
 
+ <h1 className=" w-full text-center font-sans text-xl  md:text-4xl  text-sky-700 uppercase"> Axial & Exhaust Fan </h1>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  md:py-12">
+          {/* Hero Section */}
+          <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
+            <div className=" w-full   h-full  md:w-6/12">
+              <img
+                src="https://images.pexels.com/photos/5502720/pexels-photo-5502720.jpeg"
+                alt="Commercial HVAC System"
+                loading="lazy"
+                className="w-full h-full  object-center object-contain"
+              />
+            </div>
+
+
+
+            <div className=" w-full md:w-6/12">
+              <h1 className=" text-lg md:text-xl text-center md:text-left font-bold text-cyan-800 mb-3 leading-tight">
+               High-Performance Ventilation Fans for Industrial & Commercial Applications
+
+              </h1>
+             
+              <p className="text-sm text-gray-700 mb-2 text-justify md:text-left ">
+               Engineered for Durability, Efficiency, and Superior Air Quality. Adhunik Powertech provides robust solutions to keep your environment safe, clean, and productive.
+
+              </p>
+
+               <h2 className=" text-lg md:text-xl text-center md:text-left font-bold text-cyan-800 mb-2 leading-tight">
+             The Critical Role of Ventilation in Your Facility
+
+
+              </h2>
+              <div className="bg-cyan-100  border-l-4 border-cyan-500 p-4 rounded-r-lg">
+
+                <p className="text-cyan-800 text-sm font-medium text-justify md:text-left">
+                In any demanding industrial or commercial environment, effective air management is crucial. The buildup of heat, toxic fumes, smoke, and humidity not only creates an unsafe and uncomfortable atmosphere but also directly impacts productivity and equipment lifespan. A high-performance ventilation system is your first line of defense, ensuring a continuous flow of fresh air that protects your people and your processes.
+
+                </p>
+                <p className="text-cyan-800  text-sm font-medium text-justify md:text-left">
+            Adhunik Powertech is a leading manufacturer of industrial and commercial ventilation fans, designed to solve the toughest air quality challenges in the Indian market.
+                </p>
+              
+
+              </div>
+
+               <h2 className=" text-lg md:text-xl pt-2 text-center md:text-left font-bold text-cyan-800 mb-2 leading-tight">
+             The Critical Role of Ventilation in Your Facility
+              </h2>
+                <p className="text-cyan-800 text-sm font-medium text-justify md:text-left">
+            We manufacture three distinct categories of fans, each engineered to excel in specific environments. Whether you need high-volume air circulation or specialized fume extraction, we have the right solution for your facility.
+
+                </p>
+
+
+            </div>
+          </section>
+        </div>
+
+
 <div className="row">
-<h1 className=" w-full text-center font-sans  text-4xl md:text-5xl  text-sky-700 uppercase"> Ventilation  Fan </h1>
 
 <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -257,12 +316,12 @@ export default function VentilationFans() {
       <div>
         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
           <div className="w-auto">
-            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+            <div className="w-full object-cover h-96 transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  md:h-[31rem]  object-center object-cover "
+                className="   h-full w-full  object-center object-contain "
                 fetchPriority="high"
                 decoding="async"
-                alt="Axial Flow Fan"
+                alt="Axial Flow Fans : High-Volume Air Movement"
                 src="/aff.png"
                 loading="lazy"
                  height="300"
@@ -272,9 +331,9 @@ width="400"
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h2 className="font-dmserif text-3xl font-bold text-white">  Axial Flow Fan  </h2>
+            <h2 className="font-dmserif text-lg font-bold text-white">  Axial Flow Fans    </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            Improve air quality and efficiency with our high-performance axial flow fans. Engineered for optimal airflow, low noise operation, and energy saving.   </p>
+            Improve air quality and efficiency with our high-performance axial flow fans. Engineecyan for optimal airflow, low noise operation, and energy saving.   </p>
 
           </div>
         </div>
@@ -283,9 +342,9 @@ width="400"
   </div>
 
   <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-    <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Axial Flow Fan</p>
-    <p className="text-justify md:text-center">
-    We offers a range of high-performance axial flow fans engineered to deliver optimal airflow solutions. These fans are characterized by their robust construction, low noise operation, and energy efficiency. With a wide range of sizes and capacities, they are suitable for diverse applications, including industrial ventilation, commercial HVAC systems, etc. We ensures durability and reliability through advanced manufacturing techniques and stringent quality control measures.
+    <p className=" md:text-2xl mb-3 hidden md:block">Axial Flow Fans : High-Volume Air Movement</p>
+    <p className="text-justify text-sm md:text-center">
+    We offers a range of high-performance axial flow fans engineecyan to deliver optimal airflow solutions. These fans are characterized by their robust construction, low noise operation, and energy efficiency. With a wide range of sizes and capacities, they are suitable for diverse applications, including industrial ventilation, commercial HVAC systems, etc. We ensures durability and reliability through advanced manufacturing techniques and stringent quality control measures.
     </p>
     <div className="show_m mt-5">
 
@@ -410,8 +469,10 @@ width="400"
 
 
 <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-    <h2 className="text-[6vw] md:text-4xl mb-3 hidden md:block">Exhaust  Fan (PP)</h2>
-    <p className="text-justify md:text-center">
+    <h2 className="  md:text-2xl mb-3 hidden md:block">
+      Exhaust Fan (PP): Corrosion-Resistant Performance
+ </h2>
+    <p className="text-justify text-sm md:text-center">
     We offers a range of durable and efficient PP Exhaust Fans. These fans are designed to effectively remove stale air, heat, and odors from various spaces, including commercial kitchens, warehouses, and industrial settings. Constructed with high-quality Poly Propylene Plastic, these fans are resistant to corrosion and offer long-lasting performance. With powerful motors and aerodynamic blade designs, they ensure optimal airflow and low noise operation. Additionally, their energy-efficient design minimizes energy consumption while maximizing performance.
     </p>
     <div className="show_m mt-5">
@@ -436,11 +497,11 @@ width="400"
           <div className="w-auto">
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  md:h-[28rem]  object-center object-cover "
+                className="   h-full w-full  object-center object-contain "
                 fetchPriority="high"
                 loading="lazy"
                 decoding="async"
-                alt="Exhaust Fan (PP)"
+                alt="Exhaust Fan (PP): Corrosion-Resistant Performance"
                 src="/efss.jpeg"
                  height="300"
 width="600"
@@ -449,7 +510,7 @@ width="600"
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <p className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (PP)
+            <p className="font-dmserif text-xl font-bold text-white">  Exhaust Fan (PP) 
             </p>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             Constructed with high-quality Poly polypropylene plastic, our Exhaust Fans are corrosion-resistant and offer long-lasting performance.  </p>
@@ -575,22 +636,21 @@ width="600"
       <div>
         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
           <div className="w-auto">
-            <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+            <div className="w-full object-cover h-96 transition-transform duration-500 group-hover:scale-125 rounded-xl">
               <img
-                className="  md:h-[32rem]  object-center object-cover "
+                className="  h-full w-full  object-center object-contain "
                 fetchPriority="high"
                 loading="lazy"
                 decoding="async"
-                alt="Exhaust Fan (SS)"
+                alt="Exhaust Fan (PP): Corrosion-Resistant Performance"
                 src="/ef.jpeg"
-                 height="300"
-width="400"
+               
               />
             </div>
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h2 className="font-dmserif text-3xl font-bold text-white">  Exhaust Fan (SS)
+            <h2 className="font-dmserif text-xl font-bold text-white">  Exhaust Fan (PP)
             </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             Experience the peace of mind that comes with our stainless steel Exhaust Fans. Their robust construction ensures years of reliable operation and corrosion resistance.  </p>
@@ -602,9 +662,9 @@ width="400"
   </div>
 
 <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-    <p className="text-[6vw] md:text-4xl mb-3 hidden md:block">Exhaust  Fan (SS)</p>
-    <p className="text-justify md:text-center">
-    We offers a range of durable and efficient Stainless Steel Exhaust Fans. These fans are engineered to provide optimal ventilation solutions for various commercial and industrial applications. Constructed with high-quality stainless steel, these fans are resistant to corrosion and ensure long-lasting performance. Their powerful motors and aerodynamic blade design deliver efficient airflow and low noise operation, while their energy-efficient design minimizes energy consumption. With easy installation and reliable performance, these fans are an excellent choice for maintaining a healthy and comfortable indoor environment.
+    <p className=" md:text-2xl mb-3 hidden md:block"> Exhaust Fan (SS): Durability for Demanding Environments </p>
+    <p className="text-justify text-sm md:text-center">
+    We offers a range of durable and efficient Stainless Steel Exhaust Fans. These fans are engineecyan to provide optimal ventilation solutions for various commercial and industrial applications. Constructed with high-quality stainless steel, these fans are resistant to corrosion and ensure long-lasting performance. Their powerful motors and aerodynamic blade design deliver efficient airflow and low noise operation, while their energy-efficient design minimizes energy consumption. With easy installation and reliable performance, these fans are an excellent choice for maintaining a healthy and comfortable indoor environment.
     </p>
     <div className="show_m mt-5">
       <button
