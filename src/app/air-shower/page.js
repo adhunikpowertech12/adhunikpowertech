@@ -33,7 +33,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://img.freepik.com/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-415.jpg?t=st=1757577287~exp=1757580887~hmac=202ea7e245ca3abec3f1a3b3990c2b599efb22518947ced0800ca3b1f73c434e&w=2000",  
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757583402/22_lvaqj1.webp",  
         width: 1200, 
         height: 630, 
         alt: "Adhunik Powertech Cleanroom Air Shower and Pass Box",
@@ -49,7 +49,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Advanced Contamination Control: Air Showers & Pass Boxes | Adhunik Powertech",
     description: "Protect your critical environments with our precision-engineered air showers & pass boxes. Ideal for pharma, electronics, and healthcare. Learn more.",
-    image: "https://img.freepik.com/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-415.jpg?t=st=1757577287~exp=1757580887~hmac=202ea7e245ca3abec3f1a3b3990c2b599efb22518947ced0800ca3b1f73c434e&w=2000",  
+    image: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757583402/22_lvaqj1.webp",  
   },
 };
 

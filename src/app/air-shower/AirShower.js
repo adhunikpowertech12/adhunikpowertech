@@ -285,7 +285,7 @@ export default function AirShower() {
           <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
             <div className=" w-full   h-full  md:w-6/12">
               <img
-                src="https://img.freepik.com/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-415.jpg?t=st=1757577287~exp=1757580887~hmac=202ea7e245ca3abec3f1a3b3990c2b599efb22518947ced0800ca3b1f73c434e&w=2000"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757583402/22_lvaqj1.webp"
                 alt="Commercial HVAC System"
                 loading="lazy"
                 className="w-full h-full  object-center object-contain"
