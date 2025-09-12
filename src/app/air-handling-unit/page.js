@@ -3,7 +3,7 @@ import AirHandling from "./AirHandling";
 
 export const metadata = {
 
-  title: "Air Handling Unit (AHU) Manufacturer in India | Adhunik",
+  title: "Air Handling Unit (AHU) Manufacturer in India | Adhunik Powertech",
   description: "Get a high-performance Air Handling Unit from a trusted Indian manufacturer. We specialize in custom AHUs for commercial, industrial, and pharmaceutical use. Contact us!",
   
   keywords: [ 
