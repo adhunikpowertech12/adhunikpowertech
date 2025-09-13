@@ -176,11 +176,10 @@ export default function RootLayout({ children }) {
 
       <body>
 
-      <Security/>
+        {/* <Security/> */}
         <Analytics />
         <SpeedInsights />
         <Header />
-        
         <WatsapButton phoneNumber="+919599050534" />
 
         <noscript>

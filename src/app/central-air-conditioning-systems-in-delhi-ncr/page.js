@@ -16,8 +16,13 @@ export const metadata = {
     "central AC supplier Gurugram",
     "central AC price India",
     "turnkey AC solutions", 
+     "Central Air Conditioning system Gurugram",
+    "Central Air Conditioning contractor Delhi",
+    "Central Air Conditioning supplier Gurugram",
+    "Central Air Conditioning price India",
     "HVAC contractor Delhi",
     "HVAC company Noida",
+     "Central Air Conditioning Delhi",
     "air conditioning service Faridabad",
     "commercial AC solutions",
     "industrial AC solutions",
@@ -43,12 +48,15 @@ export const metadata = {
     "central AC buying guide",
     "how to choose a central AC contractor",
     "benefits of central AC",
+     "Central Air Conditioning buying guide",
+    "how to choose a Central Air Conditioning contractor",
+    "benefits of Central Air Conditioning",
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Central AC : Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
+    title: "Central Air Conditioning : Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
     description:
-      "Choosing Central AC in Delhi NCR? Discover how a top contractor ensures energy efficiency, IAQ & cost savings. Adhunik Powertech offers turnkey solutions for commercial, industrial & residential projects. Read our guide!",
+      "Choosing Central Air Conditioning in Delhi NCR? Discover how a top contractor ensures energy efficiency, IAQ & cost savings. Adhunik Powertech offers turnkey solutions for commercial, industrial & residential projects. Read our guide!",
     url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757415857/wmremove-transformed_qczj9f.webp", // IMPORTANT: Update with the actual blog post URL
     type: "article",
     images: [
@@ -56,7 +64,7 @@ export const metadata = {
         url: "https://www.adhunikpowertech.com/images/blog/central-ac-guide-hero.jpg", // IMPORTANT: Replace with a relevant, high-quality image for this blog post
         width: 1200,
         height: 630,
-        alt: "Central AC Contractor Guide by Adhunik Powertech",
+        alt: "Central Air Conditioning Contractor Guide by Adhunik Powertech",
       },
     ],
   },
@@ -66,9 +74,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Central AC: Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
+    title: "Central Air Conditioning : Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
     description:
-      "Choosing Central AC in Delhi NCR? Discover how a top contractor ensures energy efficiency, IAQ & cost savings. Adhunik Powertech offers turnkey solutions for commercial, industrial & residential projects. Read our guide!",
+      "Choosing Central Air Conditioning in Delhi NCR? Discover how a top contractor ensures energy efficiency, IAQ & cost savings. Adhunik Powertech offers turnkey solutions for commercial, industrial & residential projects. Read our guide!",
     image: "https://www.adhunikpowertech.com/images/blog/central-ac-guide-hero.jpg", // IMPORTANT: Use the same image as Open Graph
   },
 };

@@ -178,23 +178,34 @@ export default function Blog() {
 
     {
       id: 17,
-      title: "Central AC Systems in Delhi NCR : Your Guide to Choosing a Top Contractor & Energy-Efficient Solutions",
+      title: "Central Air Conditioning Systems in Delhi NCR : Your Guide to Choosing a Top Contractor & Energy-Efficient Solutions",
 
       date: "Sep 2025",
       image:
         "",
-      link: "/central-ac-systems-in-delhi-ncr",
+      link: "/central-air-conditioning-systems-in-delhi-ncr",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757408310/central_hj3qhx.webp",
     },
 
     {
       id: 18,
-      title: "Fire Extinguisher Guide for Delhi NCR: Types, Uses & Regulations | Adhunik FireXpert",
+      title: "Fire Extinguisher Guide for Delhi NCR : Types, Uses & Regulations | Adhunik FireXpert",
 
       date: "Sep 2025",
       image:
         "",
       link: "/fire-extinguisher-guide-for-delhi-ncr",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757417516/fire_mcsmvc.webp",
+    },
+
+    {
+      id: 19,
+      title: "The Ultimate Guide to Fire Safety & Protection in Delhi NCR | Adhunik FireXpert",
+
+      date: "Sep 2025",
+      image:
+        "",
+      link: "/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757417516/fire_mcsmvc.webp",
     },
 

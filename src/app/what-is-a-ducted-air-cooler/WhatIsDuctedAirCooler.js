@@ -89,7 +89,7 @@ export default function WhatIsDuctedAirCooler() {
     {
       title: '  Lower Installation and Maintenance Costs',
       description:
-        "  Compared to central AC systems, installation and maintenance are generally simpler and more affordable. ",
+        "  Compared to Central Air Conditioning systems, installation and maintenance are generally simpler and more affordable. ",
     },
     {
       title: ' Humidification ',

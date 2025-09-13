@@ -163,7 +163,7 @@ export default function CentralAcSystem() {
 
         <strong className=' font-semibold  text-cyan-700'>
      Adhunik Powertech's Approach : </strong> 
-      We act as your complete Central AC contractor. Our in-house engineers conduct meticulous site assessments, design custom layouts for optimal airflow and energy use, expertly source and supply premium equipment, manage professional installation, and provide robust Annual Maintenance Contracts (AMC) to ensure longevity.
+      We act as your complete Central Air Conditioning contractor. Our in-house engineers conduct meticulous site assessments, design custom layouts for optimal airflow and energy use, expertly source and supply premium equipment, manage professional installation, and provide robust Annual Maintenance Contracts (AMC) to ensure longevity.
 
 </p>
 
@@ -182,7 +182,7 @@ export default function CentralAcSystem() {
 
         <strong className=' font-semibold  text-cyan-700'>
         The Difference :  </strong> 
-   Central AC for a large office building or factory is vastly different from a residential setup. You need a contractor with a track record in complex, large-scale projects.
+   Central Air Conditioning for a large office building or factory is vastly different from a residential setup. You need a contractor with a track record in complex, large-scale projects.
 
 </p>
 
@@ -194,7 +194,7 @@ export default function CentralAcSystem() {
      Adhunik Powertech's Experience : </strong> 
       Since 2005, we have been a trusted name in the <Link href='/hvac' className=' font-semibold texcy'>
         HVAC
-      </Link>  industry, renowned for delivering sophisticated Central AC solutions for hotels, hospitals, corporate offices, data centers, manufacturing units, and commercial complexes across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Jaipur, and Chandigarh. Our portfolio speaks for itself.
+      </Link>  industry, renowned for delivering sophisticated Central Air Conditioning solutions for hotels, hospitals, corporate offices, data centers, manufacturing units, and commercial complexes across Delhi, Gurugram, Noida, Faridabad, Ghaziabad, Jaipur, and Chandigarh. Our portfolio speaks for itself.
 
 </p>
 
@@ -224,7 +224,7 @@ export default function CentralAcSystem() {
 
         <strong className=' font-semibold  text-cyan-700'>
       Adhunik Powertech's Commitment : </strong> 
-     We specialize in energy-efficient Central AC systems, including advanced Chillers and VRF/VRV units. Our designs are optimized to reduce your carbon footprint and operational costs without compromising comfort.
+     We specialize in energy-efficient Central Air Conditioning systems, including advanced Chillers and VRF/VRV units. Our designs are optimized to reduce your carbon footprint and operational costs without compromising comfort.
 
 
 </p>
@@ -255,7 +255,7 @@ export default function CentralAcSystem() {
 
         <strong className=' font-semibold  text-cyan-700'>
        Adhunik Powertech's Solution : </strong> 
-  Our Central AC systems are designed not only for comfort but also for health. We incorporate state-of-the-art filtration and ventilation strategies to ensure your indoor environment is fresh, clean, and free of allergens and airborne contaminants.
+  Our Central Air Conditioning systems are designed not only for comfort but also for health. We incorporate state-of-the-art filtration and ventilation strategies to ensure your indoor environment is fresh, clean, and free of allergens and airborne contaminants.
 
 
 </p>
@@ -321,7 +321,7 @@ export default function CentralAcSystem() {
         <strong className=' font-semibold  text-cyan-700'>
         Adhunik Powertech's Promise :  </strong> 
   
- Our dedicated service team provides rapid response and flexible AMC options, keeping your Central AC system running flawlessly year after year across the entire Delhi NCR region.
+ Our dedicated service team provides rapid response and flexible AMC options, keeping your Central Air Conditioning system running flawlessly year after year across the entire Delhi NCR region.
 
 
 </p>
@@ -359,7 +359,7 @@ export default function CentralAcSystem() {
     
     {
         title:"Indoor Air Quality (IAQ) : ",
-      description: "Beyond cooling, modern central AC systems can incorporate advanced filtration and ventilation to ensure a healthy indoor environment, free from pollutants, bacteria, and viruses.",
+      description: "Beyond cooling, modern Central Air Conditioning systems can incorporate advanced filtration and ventilation to ensure a healthy indoor environment, free from pollutants, bacteria, and viruses.",
     },
    
     
@@ -398,12 +398,12 @@ export default function CentralAcSystem() {
             <div className=" w-full md:w-6/12">
 
               <h1 className=" text-lg md:text-2xl text-center md:text-left font-bold text-cyan-800 mb-6 leading-tight">
-            Central AC Systems in Delhi NCR : Your Guide to Choosing a Top Contractor & Energy-Efficient Solutions
+            Central Air Conditioning Systems in Delhi NCR : Your Guide to Choosing a Top Contractor & Energy-Efficient Solutions
 
               </h1>
 
               <p className=" w-full md:w-10/12 text-sm text-gray-700 mb-6 text-justify md:text-left ">
-           Delhi NCR's scorching summers demand reliable and efficient cooling. For commercial spaces, industrial facilities, and even large residences, a Central AC system isn't just a luxury—it's a necessity. But with so many options and providers, how do you choose the right system and, more importantly, a top Central AC contractor in Delhi, Gurugram, or Noida ?
+           Delhi NCR's scorching summers demand reliable and efficient cooling. For commercial spaces, industrial facilities, and even large residences, a Central Air Conditioning system isn't just a luxury—it's a necessity. But with so many options and providers, how do you choose the right system and, more importantly, a top Central Air Conditioning contractor in Delhi, Gurugram, or Noida ?
 
               </p>
 
@@ -422,7 +422,7 @@ export default function CentralAcSystem() {
             <p className=' text-sm pb-4 text-justify'>
       At <Link href='/' className=' font-semibold text-cyan-500'>
         Adhunik Powertech
-      </Link>, with our decades of experience in designing, supplying, installing, and maintaining advanced HVAC solutions, we understand the complexities involved. We're here to guide you through the essentials of Central AC and demonstrate why partnering with an expert makes all the difference for energy efficiency, indoor air quality, and long-term performance.
+      </Link>, with our decades of experience in designing, supplying, installing, and maintaining advanced HVAC solutions, we understand the complexities involved. We're here to guide you through the essentials of Central Air Conditioning and demonstrate why partnering with an expert makes all the difference for energy efficiency, indoor air quality, and long-term performance.
 
 </p>
            
@@ -434,7 +434,7 @@ export default function CentralAcSystem() {
             <p className="  md:text-2xl  text-center md:text-left  font-bold text-cyan-800 mb-6 pb-2 border-b-2 border-cyan-200">
               <span className="bg-cyan-600     text-white px-2 py-1 rounded-md">
             
-         What is Central AC and why is it Essential for Delhi NCR?
+         What is Central Air Conditioning and why is it Essential for Delhi NCR?
 
               </span>
             </p>
@@ -446,12 +446,12 @@ export default function CentralAcSystem() {
 </p>
             <p className=' text-md  font-bold pb-2 text-justify'>
             
-      Key Factors to Consider When Opting for Central AC :
+      Key Factors to Consider When Opting for Central Air Conditioning :
 
 </p>
             <p className=' text-sm pb-2 text-gray-500 text-justify'>
 
-     Choosing the right Central AC system requires careful consideration of several factors :
+     Choosing the right Central Air Conditioning system requires careful consideration of several factors :
 
 
 </p>
@@ -488,13 +488,13 @@ export default function CentralAcSystem() {
               <div className="mt-8">
                 <h3 className="md:text-2xl font-semibold text-cyan-700 mb-4 text-center md:text-left">
 
-          Choosing Your Central AC Contractor : What "Top" Really Means in Delhi NCR
+          Choosing Your Central Air Conditioning Contractor : What "Top" Really Means in Delhi NCR
 
 
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm text-justify md:text-left">
 
-           Your Central AC contractor is the most critical element in your project's success. Here’s what sets a "top" contractor like Adhunik Powertech apart in Delhi, Gurugram, and Noida :
+           Your Central Air Conditioning contractor is the most critical element in your project's success. Here’s what sets a "top" contractor like Adhunik Powertech apart in Delhi, Gurugram, and Noida :
 
 
  </p>
@@ -534,13 +534,13 @@ export default function CentralAcSystem() {
     
               <div className="mb-12">
                 <h3 className="md:text-2xl text-center md:text-left font-semibold text-cyan-700 mb-4">
-           Types of Central AC Systems Adhunik Powertech Specializes In
+           Types of Central Air Conditioning Systems Adhunik Powertech Specializes In
 
 
   </h3>
 
                 <p className="text-gray-700 mb-6  text-sm text-justify md:text-left">
-              As a leading Central AC supplier and contractor, we offer expertise in :
+              As a leading Central Air Conditioning supplier and contractor, we offer expertise in :
                 </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
                   {energySystems.map((system, index) => (
@@ -587,10 +587,10 @@ export default function CentralAcSystem() {
             {/* CTA Section */}
             <section className="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-xl p-8 text-white shadow-lg">
               <div className="text-center max-w-3xl mx-auto">
-                <h2 className="  text-xl md:text-2xl font-bold mb-4">Make the Right Choice for Your Central AC Needs in Delhi NCR
+                <h2 className="  text-xl md:text-2xl font-bold mb-4">Make the Right Choice for Your Central Air Conditioning Needs in Delhi NCR
 </h2>
                 <p className="text-cyan-100 text-justify mb-8 text-sm ">
-       Investing in a Central AC system is a significant decision. Don't settle for anything less than a top Central AC contractor who can deliver unmatched expertise, energy efficiency, and reliable long-term performance.
+       Investing in a Central Air Conditioning system is a significant decision. Don't settle for anything less than a top Central Air Conditioning contractor who can deliver unmatched expertise, energy efficiency, and reliable long-term performance.
 
 
   </p>
@@ -600,7 +600,7 @@ export default function CentralAcSystem() {
 
   </p>
 
-             <h2 className="  text-sm  font-bold mb-4"> Ready to get a quote for your Central AC project ?
+             <h2 className="  text-sm  font-bold mb-4"> Ready to get a quote for your Central Air Conditioning project ?
 
 </h2>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
