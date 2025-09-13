@@ -206,7 +206,7 @@ export default function Blog() {
       image:
         "",
       link: "/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757417516/fire_mcsmvc.webp",
+      img: "https://images.unsplash.com/photo-1576707995936-a6cffe26ef7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 
 
