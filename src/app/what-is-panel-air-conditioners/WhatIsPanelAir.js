@@ -3,6 +3,7 @@ import Link from 'next/link'
 export default function WhatIsPanelAir() {
 
   const features = [
+
     {
       title: ' Intake',
       description:
@@ -124,14 +125,13 @@ export default function WhatIsPanelAir() {
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-              <Image
+              <img
                 className="   h-full w-full  object-center object-fill rounded-2xl "
                 fetchPriority="high"
                 decoding="async"
                 alt="Air washer"
                 src="/blog/pa.png"
-                width="300"
-                height="300"
+                
               />
             </div>
 
@@ -139,11 +139,11 @@ export default function WhatIsPanelAir() {
 
 
           <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-            <h1 className=" w-full text-center md:text-left font-sans  text-4xl  text-sky-700 "> What is a Panel Air Conditioner ?
+            <h1 className=" w-full text-center md:text-left font-sans  text-xl md:text-4xl  text-sky-700 "> What is a Panel Air Conditioner ?
 
             </h1>
 
-            <p className="text-gray-700  py-3 font-sans  text-justify md:text-left">
+            <p className="text-gray-700 text-sm  py-3 font-sans  text-justify md:text-left">
               <Link
                 href="/panel-air-conditioners"
                 className="text-blue-500 hover:underline capitalize"
@@ -169,16 +169,16 @@ export default function WhatIsPanelAir() {
           <div className="flex flex-wrap">
             <div className="w-full">
               <div >
-   <h2 className=" text-2xl  md:text-3xl py-4 text-center  text-gray-600 font-semibold mb-3">
+   <h2 className=" text-xl  md:text-3xl py-4 text-center  text-gray-600 font-semibold mb-3">
                   How Does a Panel Air Conditioner Work ?
                 </h2>
 
 
-                <p className="  md:text-2xl text-gray-600 font-semibold mb-3" >Panel air conditioner cooling a control cabinet </p>
+                <p className="  md:text-2xl  text-gray-600 font-semibold mb-3" >Panel air conditioner cooling a control cabinet </p>
 
 
                 <div className="features-list">
-                  <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <ul className="list-disc list-outside text-sm ps-4 pl-5 text-gray-700 space-y-2">
                     {features.map((feature, index) => (
                       <li key={index} className="font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -190,12 +190,12 @@ export default function WhatIsPanelAir() {
 
 
 
-                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2">
+                <h3 className=" text-lg text-center md:text-left md:text-xl font-medium mb-3 text-gray-600 mt-2">
                   Why Are Panel Air Conditioners Important ?
                 </h3>
 
                 <div className="features-list">
-                  <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <ul className="list-disc list-outside text-sm pl-5 text-gray-700 space-y-2">
                     {features2.map((feature, index) => (
                       <li key={index} className="font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -208,13 +208,13 @@ export default function WhatIsPanelAir() {
 
 
 
-                <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2">
+                <h3 className=" text-lg text-center md:text-left md:text-xl font-medium mb-3 text-gray-600 mt-2">
                   Key Features of Panel Air Conditioners
 
                 </h3>
 
                 <div className="features-list">
-                  <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <ul className="list-disc text-sm pl-5 text-gray-700 space-y-2">
                     {features3.map((feature, index) => (
                       <li key={index} className="font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -225,11 +225,11 @@ export default function WhatIsPanelAir() {
                 </div>
 
 
-                <h3 className=" text-center text-xl font-medium mb-3  mt-4">
+                <h3 className=" text-center md:text-xl font-medium mb-3  mt-4">
                   Adhunik Powertech : A Leading Panel Air Conditioner Manufacturer in India
 
                 </h3>
-                <p className="mb-4 text-gray-700 font-sans font-normal">
+                <p className="mb-4 text-sm text-gray-700 font-sans font-normal">
 
                   <Link
                     href="/"
@@ -248,14 +248,13 @@ export default function WhatIsPanelAir() {
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
             <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-              <Image
+              <img
                 className="   h-full w-full  object-center object-fill rounded-2xl "
                 fetchPriority="high"
                 decoding="async"
                 alt="Air washer"
                 src="/wm.png"
-                width="300"
-                height="300"
+              
               />
             </div>
 
@@ -263,13 +262,13 @@ export default function WhatIsPanelAir() {
 
 
           <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
-          <h3 className="text-xl font-medium mb-3 text-gray-600">
-                  Key Benefits of Choosing Adhunik Powertech Panel Air Conditioners:
+          <h3 className=" md:text-xl font-medium mb-3 text-gray-600">
+                  Key Benefits of Choosing Adhunik Powertech Panel Air Conditioners -
 
                 </h3>
 
                 <div className="features-list">
-                  <ul className="list-disc pl-6 text-gray-700 space-y-2">
+                  <ul className="list-disc list-outside text-sm pl-6 text-gray-700 space-y-2">
                     {features4.map((feature, index) => (
                       <li key={index} className="font-sans font-normal leading-relaxed">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -284,13 +283,13 @@ export default function WhatIsPanelAir() {
 
 
 
-                <p className="text-gray-700 font-sans font-normal">
+                <p className="text-gray-700 text-sm pt-4 font-sans font-normal">
                   By investing in a reliable panel air conditioner from Adhunik Powertech, you can safeguard your critical electronic equipment, optimize performance, and minimize downtime.
 
 
                 </p>
 
-                <p className="text-gray-700 font-sans font-normal pt-5">
+                <p className=" text-sm text-gray-700 font-sans font-normal pt-5">
                   In conclusion, <b><Link
                     href="/panel-air-conditioners"
                     className="text-blue-500 hover:underline pr-1 "

@@ -4,6 +4,7 @@ export const metadata = {
   title: "What is a Panel Air Conditioner ? A Guide to Enclosure Cooling | Adhunik Powertech",
   description:
     "Learn about panel air conditioners and how they protect sensitive electronics from heat, dust & moisture. Our guide covers key applications, benefits, and how these specialized units ensure equipment reliability and prevent downtime.",
+    
   keywords: [
 
     "what is a panel air conditioner",
