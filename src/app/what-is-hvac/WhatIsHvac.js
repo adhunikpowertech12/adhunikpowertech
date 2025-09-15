@@ -167,16 +167,15 @@ export default function WhatIsHvac() {
        <section className=' md:p-5 flex flex-col md:flex-row mb-5 gap-4'>
                   <div className="box md:w-6/12 justify-center flex items-center mx-auto">
 
-                    <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+                    <div className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
 
-                      <Image
+                      <img
                         className="   h-full w-full  object-center object-fill rounded-2xl "
                         fetchPriority="high"
                         decoding="async"
                         alt="Air washer"
                         src="/WhatisHVAC.webp"
-                        width="300"
-                        height="300"
+                     
                       />
 
                     </div>
@@ -184,14 +183,14 @@ export default function WhatIsHvac() {
                   </div>
 
 
-                  <div className="box  md:w-6/12 py-4 px-4 flex justify-center items-start flex-col ">
+                  <div className="box  md:w-6/12 py-4 md:px-4 flex justify-center md:items-start flex-col ">
                   
-                  <h1 className="text-4xl font-bold mb-4 text-center">
-                      What is HVAC?
+                  <h1 className=" text-gray-600 text-xl  md:text-4xl font-bold mb-4 text-center">
+                      What is HVAC ?
                     </h1>
 
 
-                    <p className="mb-4 text-gray-700 font-sans font-normal">
+                    <p className=" text-sm text-justify mb-4 text-gray-700 font-sans font-normal">
                       <Link
                         href="/hvac"
                         className="text-blue-500 hover:underline "
@@ -204,31 +203,27 @@ export default function WhatIsHvac() {
 
                     </p>
 
-
-
-
-
+ 
                   </div>
                 </section>
 
 
+ 
 
-
-
-
-                <h2 className="text-2xl font-semibold mb-3">
+                <h2 className=" text-lg text-gray-700 text-center md:text-left md:text-2xl font-semibold mb-3">
                   Key Components of an HVAC System
                 </h2>
-                <p className="text-2xl font-thin font-sans mb-3">
-                  An HVAC system typically comprises several key components:
+
+                <p className="  md:text-2xl font-normal font-sans mb-3">
+                  An HVAC system typically comprises several key components :
                 </p>
                 <div className="features-list">
-                  <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <ul className=" text-sm list-disc px-4 list-outside text-gray-700 mb-4">
 
                     {features.map((feature, index) => (
                       <li key={index} className="mb-3 font-sans font-normal ">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
-                        <ul className="list-disc list-inside ml-6 mt-2  pl-6 text-gray-700 space-y-2">
+                        <ul className=" list-decimal list-inside mt-2   text-gray-700 space-y-2">
                           <li className='font-sans font-normal leading-relaxed'>
                             <span className="font-bold">{feature.title2} </span> {feature.description2}
                           </li>
@@ -243,17 +238,17 @@ export default function WhatIsHvac() {
 
                 </div>
 
-                {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3">
-                  How Does an HVAC System Work?
+
+                <h3 className=" text-lg text-gray-700 md:text-xl font-medium mb-3">
+                  How Does an HVAC System Work ?
                 </h3>
-                <p className="mb-4 text-gray-700 font-sans font-normal">
+                <p className="mb-4 text-sm text-gray-700 font-sans font-normal">
 
                   The seamless operation of an HVAC system relies on the coordinated function of its components:
 
                 </p>
                 <div className="features-list">
-                  <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <ul className="list-disc list-outside px-4  text-sm text-gray-700 mb-4">
                     {features2.map((feature, index) => (
                       <li key={index} className="mb-3 font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -261,13 +256,13 @@ export default function WhatIsHvac() {
                     ))}
                   </ul>
                 </div>
-                {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3">
+                
+                <h3 className=" text-gray-700 text-lg text-center md:text-left  md:text-xl font-medium mb-3">
                   Types of HVAC Systems
                 </h3>
 
                 <div className="features-list">
-                  <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <ul className="list-disc list-outside text-sm px-4 text-gray-700 mb-4">
                     {features3.map((feature, index) => (
                       <li key={index} className="mb-3 font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -275,17 +270,17 @@ export default function WhatIsHvac() {
                     ))}
                   </ul>
                 </div>
-                {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3">
+                
+                <h3 className=" text-gray-700 md:text-left text-center text-lg md:text-xl font-medium mb-3">
                   Choosing the Right HVAC System
                 </h3>
-                <p className="mb-4 text-gray-700 font-sans font-normal">
-                  Selecting the appropriate HVAC system requires careful consideration of several factors:
+                <p className="mb-4 text-gray-700 text-sm font-sans font-normal">
+                  Selecting the appropriate HVAC system requires careful consideration of several factors :
 
                 </p>
 
                 <div className="features-list">
-                  <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <ul className="list-disc list-outside px-4 text-sm text-gray-700 mb-4">
                     {features4.map((feature, index) => (
                       <li key={index} className="mb-3 font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -293,54 +288,50 @@ export default function WhatIsHvac() {
                     ))}
                   </ul>
                 </div>
-                {/* Question Section */}
-                <h3 className="text-xl font-medium mb-3">
-                  Adhunik Powertech: A Leading HVAC Solution Provider
+
+               
+                <h3 className="text-lg md:text-xl text-center md:text-left font-medium mb-3">
+                  Adhunik Powertech : A Leading HVAC Solution Provider
                 </h3>
-                <p className="mb-4 text-gray-700 font-sans font-normal">
+
+                <p className="mb-4 text-sm text-gray-700 font-sans font-normal">
+
                   When considering HVAC projects, Adhunik Powertech stands out as a leading provider of comprehensive and reliable solutions. With a strong focus on quality, innovation, and customer satisfaction, Adhunik Powertech offers a wide range of HVAC services, including:
 
                 </p>
 
                 <div className="features-list">
-                  <ul className="list-disc list-inside text-gray-700 mb-4">
+
+                  <ul className="list-disc list-outside text-sm ps-4 text-gray-700 mb-4">
                     {features5.map((feature, index) => (
                       <li key={index} className="mb-3 font-sans font-normal">
                         <span className="font-bold">{feature.title} :</span> {feature.description}
                       </li>
                     ))}
                   </ul>
+
                 </div>
 
-                {/* Image 1 */}
 
-
-                {/* Manufacturer Section */}
-
-                <p className="mb-4 text-gray-700 font-sans font-normal">
+                <p className="mb-4 text-sm text-gray-700 font-sans font-normal">
 
                   Adhunik Powertech's commitment to excellence and customer satisfaction makes them a trusted partner for all your HVAC project needs.
-
-
 
                 </p>
 
 
-
-                {/* Image 2 */}
-
-
-                {/* Conclusion */}
-                <h3 className="text-xl font-medium mb-3 ">
-                  <b>Conclusion</b>
+                <h3 className=" text-lg md:text-xl font-medium mb-3 ">
+                  <b className=' text-cyan-600'>Conclusion :</b>
                 </h3>
+
                 <p>
                 </p>
 
 
-                <p className="text-gray-700 font-sans font-normal">
+                <p className="text-gray-700 text-sm text-justify font-sans font-normal">
                   HVAC systems play a vital role in creating comfortable, healthy, and productive indoor environments. By understanding the key components, working principles, and available options, you can make informed decisions when selecting and implementing an HVAC system that meets your specific requirements. Consider partnering with a reputable provider like Adhunik Powertech to ensure a successful and efficient HVAC installation and ongoing maintenance.
                 </p>
+
               </div>
             </div>
           </div>
