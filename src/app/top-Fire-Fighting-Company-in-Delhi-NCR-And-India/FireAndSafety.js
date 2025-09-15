@@ -182,7 +182,10 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
           <div className="w-full lg:w-7/12 ss">
             <div className="text-primary">
               <h1 className="text-lg md:text-[34px] font-sans text-center md:text-left font-extrabold p-9">
-                Adhunik FireXpert Services Is A Leading Fire Protection Equipment Supplier in Delhi  NCR and India
+                <Link href="https://www.adhunikfirexpert.com/" className=" text-red-500   font-bold font-sans hover:text-red-700 "  >
+                  Adhunik FireXpert {" "}
+                </Link> 
+                Is A Leading Fire Protection Equipment Supplier in Delhi  NCR and India
               </h1>
             </div>
             <p className="mt-3 "></p>
@@ -265,21 +268,21 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
+
                 <img
-                  className="  md:h-[22rem]  object-center object-contain "
+                  className="md:h-[22rem]  object-center object-contain "
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
                   alt="Air washer"
-                  height={300}
-                  width={500}
                   src="/firex/13.webp"
                 />
+
               </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <p className="font-dmserif text-lg  font-bold text-white">Fire Extinguishers <span className=' text-sm'> </span> </p>
+              <p className="font-dmserif text-lg  font-bold text-white"> Fire Extinguishers <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
               </p>
@@ -291,7 +294,11 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
     <div className=" md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <p className="text-lg md:text-4xl md:text-left font-sans mb-3   ">Fire Extinguishers </p>
+      <p className="text-lg md:text-4xl md:text-left font-sans mb-3 ">
+       <Link href="https://www.adhunikfirexpert.com/fire-extinguishers" className=" text-red-500 hover:text-red-700">
+        Fire Extinguishers 
+      </Link>
+       </p>
       <p className=' px-2 text-sm text-justify' >Fire extinguishers are crucial devices designed to
         suppress small fires and prevent them from spreading.
         Understanding the different types of fire extinguishers
@@ -335,8 +342,12 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
 <div className="row">
   <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
-    <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className="text-lg md:text-4xl md:text-left font-sans mb-3   ">Fire Hydrant System </h2>
+    <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center" >
+      <h2 className="text-lg md:text-4xl md:text-left font-sans mb-3 "> 
+        <Link href="https://www.adhunikfirexpert.com/fire-hydrant-system" className=" text-red-500 hover:text-red-700">
+        Fire Hydrant System
+      </Link>
+      </h2>
       <p className=' px-2 text-sm text-justify' >A fire hydrant system is a critical component of fire protection infrastructure, providing emergency
         responders with quick access to water for firefighting operations. These systems are strategically
         placed in urban and rural areas to ensure that firefighters can effectively combat fires and protect life
@@ -444,11 +455,19 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3   ">Fire Sprinkler System </h2>
+
+      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3"> 
+        <Link href="https://www.adhunikfirexpert.com/fire-sprinkler-system" className=" text-red-500 hover:text-red-700">
+        Fire Sprinkler System
+      </Link>
+      </h2>
+
       <p className='  px-2 text-sm  text-justify ' > Fire sprinkler systems are vital components of modern fire protection, designed to detect and
         suppress fires automatically. These systems can significantly reduce the risk of fire-related injuries
         and property damage, making them an essential element in both residential and commercial
-        buildings. </p>
+        buildings. 
+      </p>
+
       <h2 className=' text-lg md:text-2xl text-left py-4 underline'>Components of a Fire Sprinkler System</h2>
       <div className="text-start md:text-justify ">
         <ul className="list-disc text-sm ps-4">
@@ -493,16 +512,22 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
   <div className=" h-full flex  flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3"> Fire suppression system </h2>
+
+      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3"> 
+        <Link href="https://www.adhunikfirexpert.com/fire-suppression-system" className=" text-red-500 hover:text-red-700">
+       Fire suppression system
+      </Link>
+      </h2>
 
       <p className='  px-2 text-sm text-justify' > Fire suppression systems are crucial safety measures designed to detect and extinguish fires before
         they escalate, protecting lives, property, and assets. These systems can be categorized into various
         types, each tailored to specific environments and fire risks. Fire suppression systems are critical
         components in fire protection strategies, designed to detect and control fires quickly, minimizing
         damage and protecting lives. 
-        </p>
+      </p>
 
-      <p className=' text-lg md:text-2xl text-left py-4 underline '> Key Components</p>
+      <p className=' text-lg md:text-2xl text-left py-4 underline '> Key Components </p>
+
       <div className=" text-start md:text-justify ">
         <ul className="list-disc ps-4 text-sm">
           <li> <span className=" font-bold font-sans "> Detection Devices:  </span>  Smoke detectors, heat sensors, and flame detectors identify the
@@ -566,11 +591,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
   </div>
-
-
-
-
-
+ 
 </div>
 
 
@@ -610,7 +631,11 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
     </div>
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <p className="text-lg md:text-4xl md:text-left font-sans mb-3   "> Fire Alarm System </p>
+      <p className="text-lg md:text-4xl md:text-left font-sans mb-3 ">
+        <Link href="https://www.adhunikfirexpert.com/addressable-fire-alarm-system-in-delhi-ncr" className=" text-red-500 hover:text-red-700">
+        Fire Alarm System
+      </Link>
+      </p>
       <p className='  text-sm text-justify px-2' > Fire alarm systems are essential safety mechanisms designed to detect fires early and alert occupants,
 enabling swift evacuation and response. They play a crucial role in protecting lives and property by
 providing early warning signals when a fire is detected. By providing timely warnings, these systems help
@@ -654,8 +679,12 @@ various environments where traditional wiring is not feasible.</li>
   <div className=" h-full flex flex-col-reverse md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3   "> Fire VESDA System </h2>
-      <p className=' mx-2 text-sm text-justify' >   The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
+      <h2 className=" text-lg md:text-4xl md:text-left font-sans mb-3 "> 
+        <Link href="https://www.adhunikfirexpert.com/fire-vesda-system" className=" text-red-500 hover:text-red-700">
+        FIRE VESDA System
+      </Link>
+      </h2>
+      <p className=' mx-2 text-sm text-justify' >  The VESDA (Very Early Smoke Detection Apparatus) system is a sophisticated, high-sensitivity smoke
 detection solution designed to provide early warning of potential fire risks. This system is widely
 recognized for its ability to detect smoke at extremely low concentrations—often well before visible
 signs of smoke or flames appear—making it a critical component in modern fire protection systems,
@@ -732,10 +761,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
     </div>
 
   </div>
-
-
-
-
+ 
 </div>
 
 
@@ -776,7 +802,12 @@ Detects smoke at low concentrations, often well before visible signs of fire.
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
 
 
-      <p className="text-lg md:text-4xl md:text-left font-sans mb-3"> Fire Tubing System</p>
+      <p className="text-lg md:text-4xl md:text-left font-sans mb-3">
+        <Link href="https://www.adhunikfirexpert.com/fire-tubing-system" className=" text-red-500 hover:text-red-700">
+       Fire Tubing System
+      </Link>
+       
+       </p>
       <p className=' px-2  text-sm text-justify' >
       A fire tubing system typically consists of a network of flexible, heat-sensitive tubes filled with a special
 agent, such as water, foam, or dry chemicals, designed to activate when exposed to heat or flames. The
@@ -848,7 +879,13 @@ case of activation.
    
 
     <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
-      <h2 className="text-lg md:text-4xl md:text-left font-sans mb-3  ">Glow Signage and Emergency Lights</h2>
+      <h2 className="text-lg md:text-4xl md:text-left font-sans mb-3">
+        <Link href="https://www.adhunikfirexpert.com/glow-signage-&-emergency-lights" className=" text-red-500 hover:text-red-700">
+        Glow Signage and Emergency Lights
+      </Link>
+
+      
+        </h2>
 
       <p className=' px-2 text-sm text-justify' > Glow signage and emergency lights are critical components of safety management in public spaces,
 commercial buildings, and industrial facilities. They serve to guide and inform occupants during
