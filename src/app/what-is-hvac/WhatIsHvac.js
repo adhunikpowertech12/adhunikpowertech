@@ -238,7 +238,7 @@ export default function WhatIsHvac() {
 
                 </div>
 
-
+                {/* Question Section */}
                 <h3 className=" text-lg text-gray-700 md:text-xl font-medium mb-3">
                   How Does an HVAC System Work ?
                 </h3>
