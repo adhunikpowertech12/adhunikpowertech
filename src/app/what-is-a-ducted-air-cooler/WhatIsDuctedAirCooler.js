@@ -134,26 +134,13 @@ export default function WhatIsDuctedAirCooler() {
 
               <section>
                 <div className="blog-img mb-6 text-center">
-                  <div className="flex gap-4 md:gap-9   justify-around items-center  flex-col md:flex-row-reverse">
-                    <div className=" w-full md:w-4/12 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-
-
-                      <Image
-                        className="w-full h-full object-center object-cover rounded-3xl"
-                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
-                        alt="Adhunik Powertech Ducted Air Cooler "
-                        width="500"
-                        height="500"
-                        loading="lazy"
-                      />
-
-
-                    </div>
+                  <div className="flex gap-4 md:gap-9   justify-around items-center  flex-col-reverse md:flex-row-reverse">
 
                     <div className=" w-full md:w-7/12 text-center text-gray-800 mb-6 flex justify-center items-center flex-col mt-2">
-                      <h1 className=" text-[20px] md:text-2xl font-bold">What is a Ducted Air Cooler ? A Comprehensive Guide
+                      <h1 className="  md:text-2xl font-bold">
+                      What is a Ducted Air Cooler ? A Comprehensive Guide
                       </h1>
-                      <p className="text-gray-600 text-justify pt-3 text-[15px]  md:text-[14px] ">
+                      <p className="text-gray-600 text-sm text-justify pt-3 text-[15px]  md:text-[14px] ">
 
                         As temperatures rise, finding effective and efficient cooling solutions becomes a priority. While air conditioners are a common choice, Ducted Air Coolers offer a compelling alternative, particularly in dry climates. This article provides a comprehensive overview of what ducted air coolers are, how they work, their advantages, and where they are most effective.
                       </p>
@@ -162,6 +149,22 @@ export default function WhatIsDuctedAirCooler() {
                       </p>
 
                     </div>
+
+                    <div className=" w-full md:w-4/12 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+
+
+                      <img
+                        className="w-full h-full object-center object-cover rounded-3xl"
+                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747477707/ac4_txhqpt.webp"
+                        alt="Adhunik Powertech Ducted Air Cooler "
+                       
+                        loading="lazy"
+                      />
+
+
+                    </div>
+
+                  
                   </div>
 
                 </div>
@@ -170,11 +173,11 @@ export default function WhatIsDuctedAirCooler() {
 
 
 
-              <h2 className="text-2xl text-gray-600 font-semibold mb-3">
+              <h2 className=" text-lg text-center md:text-left md:text-2xl text-gray-600 font-semibold mb-3">
                 What is a Ducted Air Cooler ?
               </h2>
 
-              <p className="mb-4 text-gray-700 font-sans font-normal">
+              <p className="mb-4 text-sm text-justify text-gray-700 font-sans font-normal">
 
                 A <Link
                   href="/ducted-air-cooler"
@@ -188,12 +191,13 @@ export default function WhatIsDuctedAirCooler() {
 
 
 
-              <p className="text-2xl text-gray-600 font-semibold mb-3" > How Does a Ducted Air Cooler Work ?</p>
-              <p className=" text-gray-600 font-semibold mb-3">The working principle of a ducted air cooler is relatively simple :
+              <p className="  md:text-2xl text-gray-600 font-semibold mb-3" > How Does a Ducted Air Cooler Work ?</p>
+
+              <p className=" text-sm text-gray-600 font-semibold mb-3">The working principle of a ducted air cooler is relatively simple :
               </p>
 
               <div className="features-list">
-                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                <ul className="list-disc text-sm pl-5 text-gray-700 space-y-2">
                   {features.map((feature, index) => (
                     <li key={index} className="font-sans font-normal">
                       <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -203,12 +207,12 @@ export default function WhatIsDuctedAirCooler() {
 
               </div>
 
-              <h3 className="text-xl font-medium mb-3 text-gray-600 mt-3">
+              <h3 className=" md:text-xl font-medium mb-3 text-gray-600 mt-3">
                 Key Components of a Ducted Air Cooler :
               </h3>
 
               <div className="features-list">
-                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                <ul className="list-disc text-sm pl-5 text-gray-700 space-y-2">
                   {features2.map((feature, index) => (
                     <li key={index} className="font-sans font-normal">
                       <span className="font-bold">{feature.title} :</span> {feature.description}
@@ -219,27 +223,26 @@ export default function WhatIsDuctedAirCooler() {
               </div>
 
          
-              <h3 className="text-xl font-medium mb-3 text-gray-600 mt-2 text-center md:text-left">
-                Advantages of Ducted Air Coolers:
+              <h3 className="  md:text-xl font-medium mb-3 text-gray-600 mt-2 text-center md:text-left">
+                Advantages of Ducted Air Coolers :
 
               </h3>
 
               <div className="features-list">
-                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                <ul className="list-disc list-outside text-sm pl-5 text-gray-700 space-y-2">
                   {features3.map((feature, index) => (
                     <li key={index} className="font-sans font-normal">
                       <span className="font-bold">{feature.title} :</span> {feature.description}
                     </li>
                   ))}
                 </ul>
-
               </div>
 
     
-              <h3 className=" text-left text-xl font-medium mb-3  mt-2">
+              <h3 className=" text-left md:text-xl font-medium mb-3  mt-2">
                 Where are Ducted Air Coolers Most Effective ?
               </h3>
-              <p className="mb-4 text-gray-700 font-sans font-normal">
+              <p className="mb-4 text-gray-700 text-sm text-justify font-sans font-normal">
 
                 Ducted air coolers are most effective in hot, dry climates with low humidity. These conditions maximize the rate of evaporation, resulting in significant cooling. They are commonly used in :
 
@@ -249,19 +252,19 @@ export default function WhatIsDuctedAirCooler() {
 
 
               <div className="features-list">
-                <ul className="list-disc list-inside text-gray-700 mb-4">
+                <ul className="list-disc list-inside  text-gray-700 mb-4">
                   {features4.map((feature, index) => (
-                    <li key={index} className="mb-3 font-sans font-normal">
+                    <li key={index} className="mb-3 text-sm font-sans font-normal">
                       <span className="font-bold">{feature.title}</span> {feature.description}
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <h3 className=" text-left text-xl font-medium mb-3 ">
+              <h3 className=" text-left md:text-xl font-medium mb-3 ">
                 Leading Provider : Adhunik Powertech
               </h3>
-              <p className="mb-4 text-gray-700 font-sans font-normal">
+              <p className="mb-4 text-gray-700 font-sans text-sm text-justify font-normal">
 
                 For high-quality and reliable ducted air coolers, consider Adhunik Powertech, a leading manufacturer in Delhi. They offer a wide range of solutions for various industrial and commercial spaces, known for their energy efficiency, durability, and excellent customer service.
 
@@ -274,12 +277,11 @@ export default function WhatIsDuctedAirCooler() {
                     <div className=" w-full md:w-4/12   h-96 flex justify-center items-center  rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
 
 
-                      <Image
+                      <img
                         className="w-full h-full object-center object-cover rounded-3xl"
                          src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476597/DCI_g3yjdr.webp"
                          alt="Adhunik Powertech Ducted Air Cooler "
-                        width="500"
-                        height="500"
+                       
                         loading="lazy"
                       />
 
@@ -287,8 +289,9 @@ export default function WhatIsDuctedAirCooler() {
                     </div>
 
                     <div className=" w-full md:w-6/12  text-gray-800 mb-6 flex justify-start flex-col mt-2">
-                      <h2 className=" text-[20px] md:text-3xl  text-left font-bold"> Conclusion</h2>
-                      <p className="text-gray-600 text-justify text-[15px] pt-3  md:text-[14px] ">  
+                      <h2 className="   md:text-3xl  text-left font-bold"> Conclusion</h2>
+
+                      <p className="text-gray-600 text-sm text-justify text-[15px] pt-3  md:text-[14px] ">  
 
 
                   <Link

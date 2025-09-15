@@ -117,9 +117,11 @@ export default function OurCompany() {
     {
 
       id: 1,
+      
       year: '2005',
 
       bgImage: '/blog/2005.webp',
+
       content: (
 
         <div className="z-10 text-center">
