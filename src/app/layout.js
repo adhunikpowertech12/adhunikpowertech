@@ -176,8 +176,8 @@ export default function RootLayout({ children }) {
 
       <body>
 
-        <Security/>
 
+        <Security/>
         <Analytics />
         <SpeedInsights />
         <Header />
