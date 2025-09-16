@@ -191,12 +191,12 @@ export default function OurProjects() {
 
      <div className="row   mt-36">
 
-        <h1 className=" text-4xl md:text-5xl  font-sans py-3 w-full text-center text-cyan-900 capitalize "> SOME OF OUR PROJECTS
+        <h1 className=" text-xl text-cyan-600 md:text-4xl  font-sans py-3 w-full text-center  capitalize "> SOME OF OUR PROJECTS
         </h1>
 
         <div className="card justify-center flex items-center">
 
-          <p className=" text-[15px] px-4 md:px-0  md:w-[75%]  font-sans py-3  text-center text-cyan-900 capitalize "> As a leading HVAC contractor, Adhunik Powertech is committed to delivering innovative solutions that optimize indoor environments. With a strong track record in the industry, we have successfully executed projects across diverse sectors, including industrial, institutional, healthcare, pharmaceutical, food processing, residential, and commercial spaces. Our team of skilled professionals is dedicated to providing energy-efficient, sustainable, and reliable HVAC systems that enhance comfort and productivity.
+          <p className=" text-sm text-justify px-4 md:px-0  md:w-[75%]  font-sans py-3  text-cyan-900 capitalize "> As a leading HVAC contractor, Adhunik Powertech is committed to delivering innovative solutions that optimize indoor environments. With a strong track record in the industry, we have successfully executed projects across diverse sectors, including industrial, institutional, healthcare, pharmaceutical, food processing, residential, and commercial spaces. Our team of skilled professionals is dedicated to providing energy-efficient, sustainable, and reliable HVAC systems that enhance comfort and productivity.
           </p>
 
         </div> 
@@ -206,19 +206,19 @@ export default function OurProjects() {
             {industrialSectors.map((sector) => (
 
               <div key={sector.id} className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col lg:flex-row">
                   {/* Main Image */}
                   <div className="mr-0 md:mr-8 mb-6 md:mb-0 lg:w-[45%]">
+
                     <img
-                      className="lg:w-auto h-72 lg:h-96 mx-auto"
+                      className=" h-full w-full object-center object-contain mx-auto"
                       src={sector.mainImageSrc}
                       loading="lazy"
-                       height={300}
-                  width={500}
-                      alt="can_help_banner"
+               
+                      alt={sector.mainText}
                     />
 
-                    <h2 className=" text-2xl bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#5bbcb0] uppercase">    {sector.mainText} </h2>
+                    <h2 className=" py-5 text-3xl md:ext-4xl  text-center bg-clip-text text-transparent bg-gradient-to-r to-[#0093E9] from-[#5bbcb0] uppercase md:py-2">  {sector.mainText} </h2>
 
 
                   </div>
@@ -230,15 +230,17 @@ export default function OurProjects() {
                         className="w-full sm:w-1/2 mb-4 px-2 justify-center items-center flex"
                       >
                         <div className="h-full rounded-br-xl">
-                          <img
+                        <div className="card  h-40">
+  <img
                             src={feature.imgSrc}
                             loading="lazy"
-                             height={300}
-                  width={500}
-                            className="h-32 rounded-tl-lg rounded-br-lg object-center object-fill"
+                         
+                            className="h-full w-full  rounded-tl-lg rounded-br-lg object-center object-contain"
                             alt={feature.title}
                           />
-                          <p className="text-sm">
+                        </div>
+                        
+                          <p className="text-sm text-center py-2">
                             {feature.title} <br />
                             {feature.location}
                           </p>
