@@ -893,6 +893,7 @@ emergencies, ensuring a safe and efficient evacuation. </p>
 
       <h2 className=' text-lg md:text-2xl text-left py-4 underline'> Types of Glow Signage </h2>
       <div className="text-start md:text-justify ">
+
         <ul className="list-disc ps-4 text-sm">
           <li> <span className=" font-bold font-sans "> Exit Signs:  </span> Indicate the nearest exit routes, guiding occupants to safety.</li>
           <li><span className=" font-bold font-sans "> Directional Signs:  </span> Provide information on the location of exits, restrooms, fire
@@ -905,6 +906,7 @@ Only” or “No Smoking.
         
 
         </ul>
+        
       </div>
 
       <div className="show_m mt-5">

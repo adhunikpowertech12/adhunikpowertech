@@ -148,23 +148,23 @@ export default function CentralAcSystem() {
 
       description: <>
         <p> 
-        <span className=' font-bold text-lg   text-cyan-700' >Turnkey Expertise (Design, Supply, Installation, Maintenance)
+        <span className='font-bold text-lg  text-cyan-700'>
+        Turnkey Expertise (Design, Supply, Installation, Maintenance)
 </span> <br />
 
+
         <strong className=' font-semibold  text-cyan-700'>
-        The Difference : </strong> 
+        The Difference :
+         </strong> 
+
        A true leader handles everything from concept to commissioning and beyond. They don't just sell you a unit; they engineer a complete climate control solution.
 
 </p>
 
-
         <p> 
-       
-
         <strong className=' font-semibold  text-cyan-700'>
      Adhunik Powertech's Approach : </strong> 
       We act as your complete Central Air Conditioning contractor. Our in-house engineers conduct meticulous site assessments, design custom layouts for optimal airflow and energy use, expertly source and supply premium equipment, manage professional installation, and provide robust Annual Maintenance Contracts (AMC) to ensure longevity.
-
 </p>
 
       </> ,
