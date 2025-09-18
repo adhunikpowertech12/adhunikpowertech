@@ -41,6 +41,7 @@ export const metadata = {
     "hvac company India"
   ],
 
+
   robots: "index,follow",
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",
@@ -59,6 +60,7 @@ export const metadata = {
     image: "https://adhunikpowertech.com/apple-touch-icon.png",
     imageAlt: "Adhunik Powertech - HVAC & Air Cooling Solutions"
   },
+  
   openGraph: {
     title: "Adhunik Powertech",
     type: "website",
@@ -178,6 +180,7 @@ export default function RootLayout({ children }) {
 
 
         <Security/>
+        
         <Analytics />
         <SpeedInsights />
         <Header />
