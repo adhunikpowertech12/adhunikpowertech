@@ -67,7 +67,7 @@ export const metadata = {
     "business continuity fire safety",
     "sensitive equipment fire protection",
   ],
-  robots: "index,follow",
+  
   
   openGraph: {
     title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",

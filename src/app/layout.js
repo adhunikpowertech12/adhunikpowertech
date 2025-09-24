@@ -43,7 +43,7 @@ export const metadata = {
   ],
 
 
-  robots: "index,follow",
+  
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",
   appleMobileWebAppStatusBarStyle: "default",
@@ -183,8 +183,6 @@ export default function RootLayout({ children }) {
         <Security/>
         
         
-{/* <Home/> */}
-
 
 
         <Analytics />
