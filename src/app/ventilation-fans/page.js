@@ -3,23 +3,23 @@
 import VentilationFans from "./VentilationFans";
 
 export const metadata = {
-  title: "Axial & Exhaust Fan Manufacturer in India | Adhunik Powertech",
-  description: "India's leading manufacturer of industrial ventilation fans. We offer durable axial flow, PP & SS exhaust fans for factories, kitchens & warehouses. Get your quote!",
+  title: "Axial & Exhaust Fan Manufaturer in India | Adhunik Powertech",
+  description: "India's leading manufacturer of industrial vantilation fans. We offer durable axial flow, PP & SS exhaust fans for factories, kitchens & warehouses. Get your quote!",
   
   keywords: [ 
-    "industrial ventilation fans",
+    "industrial vantilation fans",
     "commercial exhaust fans",
     "axial flow fan manufacturer",
     "PP exhaust fan",
     "SS exhaust fan",
     "heavy-duty exhaust fan",
     "corrosion-resistant fan", 
-    "factory ventilation",
+    "factory vantilation",
     "warehouse exhaust fans",
     "kitchen exhaust systems",
     "industrial fume extraction",
-    "workshop ventilation", 
-    "ventilation fans India",
+    "workshop vantilation", 
+    "vantilation fans India",
     "exhaust fan manufacturer Delhi NCR", 
     "Adhunik Powertech fans",
   ],
@@ -29,7 +29,7 @@ export const metadata = {
   openGraph: {
     title: "High-Performance Industrial Ventilation Fans | Adhunik Powertech",
     description: "Engineered for durability and efficiency, our axial flow, PP, and SS exhaust fans are the trusted choice for factories, warehouses, and commercial kitchens across India.",
-    url: "https://www.adhunikpowertech.com/ventilation-fans",  
+    url: "https://www.adhunikpowertech.com/vantilation-fans",  
     type: "website",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/ventilation-fans",  
+    canonical: "https://www.adhunikpowertech.com/vantilation-fans",  
   },
 
   twitter: {

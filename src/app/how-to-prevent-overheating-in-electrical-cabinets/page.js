@@ -2,7 +2,7 @@ import ElectricalCabinets from "./ElectricalCabinets";
 
 
 export const metadata = {
-  title: "How to Prevent Overheating in Electrical Cabinets: Industrial Cooling Solutions",
+  title: "How to Prevant Ovarheating in Electcal Cabinets: Industral Cooling Solutions",
   description: "Protect your electronics from heat damage with our guide to industrial thermal management. Discover the causes of overheating and explore reliable solutions, such as panel air conditioners, to ensure your equipment operates efficiently.",
   keywords: [
     

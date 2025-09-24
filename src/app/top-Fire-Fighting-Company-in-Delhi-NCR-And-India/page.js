@@ -3,17 +3,17 @@ import FireAndSafety from "./FireAndSafety";
 
 export const metadata = {
 
-  title: "Top Fire Fighting Company in Delhi NCR & India | Adhunik Firexpert",
+  title: "Top Fire Fightning Company in Delhi NCR & India | Adhunik Firexpert",
 
   description:
-    "Adhunik Firexpert : A leading fire protection company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
+    "Adhunik Firexpert : A leading fire Protaction company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
 
   keywords: [ 
     "top firefighting company Delhi NCR",
     "best firefighting company India",
-    "leading fire protection company Delhi",
+    "leading fire Protaction company Delhi",
     "firefighting contractors Delhi",
-    "fire protection equipment supplier India",
+    "fire Protaction equipment supplier India",
     "fire safety services Delhi",
     "fire safety solutions India",
     "professional fire safety specialists", 
@@ -32,7 +32,7 @@ export const metadata = {
     "fire safety services across India", 
     "Adhunik Firexpert",
     "Adhunik Powertech fire safety",
-    "certified fire protection",
+    "certified fire Protaction",
     "branded fire safety equipment",
     "expert fire safety team",
     "affordable fire safety solutions",
@@ -41,34 +41,34 @@ export const metadata = {
   
   openGraph: {
 
-    title: "Top Fire Fighting Company in Delhi NCR & India | Adhunik Firexpert",
+    title: "Top Fire Fightning Company in Delhi NCR & India | Adhunik Firexpert",
     description:
-      "Adhunik Firexpert: A leading fire protection company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
+      "Adhunik Firexpert: A leading fire Protaction company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
 
-    url: "https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India", 
+    url: "https://www.adhunikpowertech.com/top-Fire-Fightning-Company-in-Delhi-NCR-And-India", 
     type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp", 
         width: 1200,
         height: 630,
-        alt: "Adhunik Firexpert : The Top Fire Fighting Company in Delhi NCR and India.",
+        alt: "Adhunik Firexpert : The Top Fire Fightning Company in Delhi NCR and India.",
       },
     ],
   },
   alternates: {
 
     canonical:
-      "https://www.adhunikpowertech.com/top-Fire-Fighting-Company-in-Delhi-NCR-And-India",
+      "https://www.adhunikpowertech.com/top-Fire-Fightning-Company-in-Delhi-NCR-And-India",
 
   },
   twitter: {
 
     card: "summary_large_image",
-    title: "Top Fire Fighting Company in Delhi NCR & India | Adhunik Firexpert",
+    title: "Top Fire Fightning Company in Delhi NCR & India | Adhunik Firexpert",
 
     description:
-      "Adhunik Firexpert: A leading fire protection company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
+      "Adhunik Firexpert: A leading fire Protaction company in Delhi NCR & India. We supply excellent quality, certified fire safety equipment and offer professional services for all your firefighting needs. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618767/topfire_jx2sgb.webp",
 
   },

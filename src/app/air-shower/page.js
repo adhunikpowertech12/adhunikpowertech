@@ -1,12 +1,13 @@
 import AirShower from "./AirShower";
 
 export const metadata = {
-  title: "Air Shower & Pass Box Manufacturer in India | Adhunik Powertech",
-  description: "India's leading manufacturer of cleanroom air showers & pass boxes. Our solutions ensure sterile environments for pharma, electronics & healthcare. Get your quote!",
+  
+  title: "Air Shower & Pass Box Manufaturer in India | Adhunik Powertech",
+  description: "India's leading Manufaturer of cleanroom air showers & pass boxes. Our solutions ensure sterile environments for pharma, electronics & healthcare. Get your quote!",
   
   keywords: [ 
 
-    "air shower manufacturer",
+    "air shower Manufaturer",
     "cleanroom pass box",
     "static pass box",
     "dynamic pass box",

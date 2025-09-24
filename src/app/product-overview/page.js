@@ -3,11 +3,11 @@ import ProductOverview from "./ProductOverview";
  
 
 export const metadata = {
-  title: "Adhunik Powertech | HVAC & Industrial Cooling Products India | Global",
-  description: "Discover Adhunik Powertech's HVAC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
+  title: "Adhunik Powertech | HAVC & Industrial Cooling Products India | Global",
+  description: "Discover Adhunik Powertech's HAVC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
   keywords: [
     "Adhunik Powertech products",
-    "HVAC solutions India",
+    "HAVC solutions India",
     "Industrial cooling products Delhi",
     "Air Washer",
     "Ducted Air Cooler",
@@ -27,8 +27,8 @@ export const metadata = {
   
 
   openGraph: {
-    title: "Adhunik Powertech | HVAC & Industrial Cooling Products India | Global",
-    description: "Discover Adhunik Powertech's HVAC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
+    title: "Adhunik Powertech | HAVC & Industrial Cooling Products India | Global",
+    description: "Discover Adhunik Powertech's HAVC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
     url: "https://www.adhunikpowertech.com/product-overview",
     type: "website",
     images: [
@@ -36,7 +36,7 @@ export const metadata = {
         url: "/po.webp", 
         width: 1200,
         height: 630,
-        alt: "Adhunik Powertech HVAC & Industrial Cooling Products",
+        alt: "Adhunik Powertech HAVC & Industrial Cooling Products",
       },
     ],
   },
@@ -45,8 +45,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adhunik Powertech | HVAC & Industrial Cooling Products India | Global",
-    description: "Discover Adhunik Powertech's HVAC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
+    title: "Adhunik Powertech | HAVC & Industrial Cooling Products India | Global",
+    description: "Discover Adhunik Powertech's HAVC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
     image: "/po.webp",  
   },
 };

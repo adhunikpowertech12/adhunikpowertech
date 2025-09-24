@@ -6,12 +6,13 @@ import ChillerOil from "./ChillerOil";
 
 export const metadata = {
 
-  title: "Hydraulic Oil Chillers Manufacturer in Delhi NCR",
-  description: "Adhunik Powertech: Leading hydraulic oil chiller manufacturer in Delhi NCR & India. Boost productivity for CNC machines & industrial systems with our high-efficiency solutions.",
+  title: "Hydraulic Oil Chillers Manufaturer in Delhi NCR",
+
+  description: "Adhunik Powertech: Leading hydraulic oil chiller Manufaturer in Delhi NCR & India. Boost productivity for CNC machines & industrial systems with our high-efficiency solutions.",
 
   keywords: [
     "Hydraulic Oil Chiller",
-    "Oil Chiller Manufacturer",
+    "Oil Chiller Manufaturer",
     "Industrial Oil Chiller",
     "Coolant Chiller",
     "CNC Machine Oil Chiller",
@@ -63,8 +64,8 @@ export const metadata = {
   
 
   openGraph: {
-    title: "Hydraulic Oil Chiller Manufacturer in Delhi NCR | Adhunik Powertech",
-    description: "Adhunik Powertech is a leading hydraulic oil chiller manufacturer in Delhi NCR & India. Boost productivity for CNC machines & industrial systems with our high-efficiency solutions.",
+    title: "Hydraulic Oil Chiller Manufaturer in Delhi NCR | Adhunik Powertech",
+    description: "Adhunik Powertech is a leading hydraulic oil chiller Manufaturer in Delhi NCR & India. Boost productivity for CNC machines & industrial systems with our high-efficiency solutions.",
     url: "https://www.adhunikpowertech.com/chiller-oil-water-coolant", 
     type: "article",
     images: [
@@ -81,8 +82,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hydraulic Oil Chiller Manufacturer in Delhi NCR | Adhunik Powertech",
-    description: "Need a reliable hydraulic oil chiller? Adhunik Powertech is a leading manufacturer in Delhi NCR & India. Explore our high-efficiency industrial oil chiller solutions.",
+    title: "Hydraulic Oil Chiller Manufaturer in Delhi NCR | Adhunik Powertech",
+    description: "Need a reliable hydraulic oil chiller? Adhunik Powertech is a leading Manufaturer in Delhi NCR & India. Explore our high-efficiency industrial oil chiller solutions.",
     image: "/awi/16.jpeg",
   },
 };

@@ -2,23 +2,23 @@ import React from 'react'
 import IndiaBusinessAward from './IndiaBusinessAward'
 
 export const metadata = {
-    title: "Award-Winning HVAC Service in Delhi",
-    description: "Award-winning HVAC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on.",
+    title: "Award-Winning HAVC Service in Delhi",
+    description: "Award-winning HAVC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on.",
     keywords: [
-      "HVAC solutions Delhi NCR",
-    "HVAC contractor Noida",
+      "HAVC solutions Delhi NCR",
+    "HAVC contractor Noida",
     "Air conditioning contractor Gurugram",
-"Turnkey HVAC projects Northern India",
-"HVAC services Delhi",
-"Commercial HVAC solutions Delhi NCR",
-"Industrial HVAC installation Noida",
-"HVAC system design Northern India,"
+"Turnkey HAVC projects Northern India",
+"HAVC services Delhi",
+"Commercial HAVC solutions Delhi NCR",
+"Industrial HAVC installation Noida",
+"HAVC system design Northern India,"
 
 
     ],
     openGraph: {
       title: "Adhunik Powertech",
-      description: "Award-winning HVAC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on",
+      description: "Award-winning HAVC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on",
       url: "https://www.adhunikpowertech.com/india-business-award-2025",
       siteName: "Adhunik Powertech", 
       locale: "en_IN",
@@ -26,8 +26,8 @@ export const metadata = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Adhunik Powertech | HVAC & Air Cooling Systems Gurugram",
-      description: "Award-winning HVAC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on",
+      title: "Adhunik Powertech | HAVC & Air Cooling Systems Gurugram",
+      description: "Award-winning HAVC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on",
       creator: "@AdhunikPowertech",
     },
     alternates: {
