@@ -11,7 +11,7 @@ export default function ContactUs() {
     const notifye = () => toast.error(" Invalid Details ");
     const notifys = () => toast(" Message Sent ");
     const router = useRouter();
-    const phoneNumber = "8287885885";
+    const phoneNumber = "8287885985";
 
     const handlePhoneCall = () => {
         window.location.href = `tel:${phoneNumber}`;

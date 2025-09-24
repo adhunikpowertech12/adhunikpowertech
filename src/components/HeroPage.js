@@ -151,7 +151,7 @@ export default function HeroPage() {
     }
     else {
       console.log('Please chordo');
-      window.location.href = 'tel:8287885885';  
+      window.location.href = 'tel:8287885985';  
     }
   };
 
@@ -557,7 +557,7 @@ export default function HeroPage() {
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "8287885885",
+        "telephone": "8287885985",
         "contactType": "Customer Service",
         "areaServed": "IN",
         "availableLanguage": "en"
@@ -588,7 +588,7 @@ export default function HeroPage() {
       "name": "Adhunik Powertech Private Limited",
       "image": "https://www.adhunikpowertech.com/we.svg",
       "url": "https://adhunikpowertech.com/",
-      "telephone": "8287885885",
+      "telephone": "8287885985",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "DCG1-0102, Tower-1, DLF CORPORATE GREENS, Sector 74A",

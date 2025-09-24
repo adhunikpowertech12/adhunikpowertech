@@ -369,7 +369,7 @@ export default function IndustrialCooler() {
                   <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex-1 min-w-[200px]">
                     Request Quote
                   </Link>
-                  <a href="tel:8287885885" className="flex-1 min-w-[200px]">
+                  <a href="tel:8287885985" className="flex-1 min-w-[200px]">
                     <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors w-full">
                       Call Us Now
                     </button>
@@ -519,7 +519,7 @@ export default function IndustrialCooler() {
               <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
                 Request Quote
               </Link>
-              <a href="tel:8287885885" className=" ">
+              <a href="tel:8287885985" className=" ">
                 <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors w-full">
                   Call Us Now
                 </button>
@@ -619,7 +619,7 @@ export default function IndustrialCooler() {
               <Link href="/support-form" className=" text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors  ">
                 Request Quote
               </Link>
-              <a href="tel:8287885885" className=" ">
+              <a href="tel:8287885985" className=" ">
                 <button className="bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors w-full">
                   Call Us Now
                 </button>
@@ -695,7 +695,7 @@ export default function IndustrialCooler() {
 
                       <div className="w-full flex justify-center">
 
-                        <a href="tel:8287885885"
+                        <a href="tel:8287885985"
                           className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
                         >
                           <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>

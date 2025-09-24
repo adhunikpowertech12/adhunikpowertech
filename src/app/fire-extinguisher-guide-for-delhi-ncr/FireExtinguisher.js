@@ -779,7 +779,7 @@ Choosing the right fire extinguisher is a critical step in a comprehensive fire 
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <a
-                    href="tel:8287885885"
+                    href="tel:8287885985"
                     className="bg-white text-sm md:text-md font-bold text-red-800 hover:bg-red-100  py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
                   >
                     <svg

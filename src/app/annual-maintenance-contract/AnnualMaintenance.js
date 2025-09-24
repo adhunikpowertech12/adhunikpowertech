@@ -1580,14 +1580,14 @@ const ContactSection = () => (
                 </p>
               </div>
             </a>
-            <a href="tel:8287885885" className="flex items-center group">
+            <a href="tel:8287885985" className="flex items-center group">
               <div className="bg-gray-100 p-3 rounded-full mr-4 border border-gray-200 group-hover:border-cyan-400 transition-colors">
                 <Phone className="w-6 h-6 text-cyan-600" />
               </div>
               <div>
                 <p className="text-gray-500 text-sm">Call Us</p>
                 <p className="font-semibold text-gray-800 text-lg group-hover:text-cyan-600 transition-colors">
-                  8287885885
+                  8287885985
                 </p>
               </div>
             </a>
@@ -2261,10 +2261,10 @@ export default function AnnualMaintenance() {
 
                 <p className="font-bold mb-2">
                   <a
-                    href="tel:8287885885"
+                    href="tel:8287885985"
                     className="text-blue-600 hover:underline"
                   >
-                    Customer Contact Number: 8287885885
+                    Customer Contact Number: 8287885985
                   </a>
                 </p>
 
