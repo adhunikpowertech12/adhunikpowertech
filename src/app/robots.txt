@@ -1,5 +1,1 @@
 User-Agent: *
-Allow: /
-Disallow: /private/
-
-Sitemap: https://www.adhunikpowertech.com/sitemap.xml
