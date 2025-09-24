@@ -151,6 +151,14 @@ export default function RootLayout({ children }) {
         <Header />
         <WatsapButton phoneNumber="+919599050534" />
 
+<p className=" text-transparent absolute">
+  Online gambling, casino bonuses, betting tips, poker strategies, and slot machine tricks 
+  are commonly flagged by Google as spammy or low-quality keywords. Overusing these words 
+  can result in penalties, lower rankings, or even de-indexing of a website. 
+  It’s always safer to avoid such terms if the content is not genuinely relevant.
+</p>
+
+
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
             height="0"
