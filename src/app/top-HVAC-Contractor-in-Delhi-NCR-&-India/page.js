@@ -36,7 +36,7 @@ export const metadata = {
 "Best HVAC Contractor in India", 
      
   ],
-  robots: "index, follow",
+  
   
   openGraph: {
     title: "Top HVAC Contractor in Delhi NCR & India – Adhunik Powertech",

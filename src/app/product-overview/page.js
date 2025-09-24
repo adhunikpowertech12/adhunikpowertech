@@ -24,7 +24,7 @@ export const metadata = {
     "Process cooling equipment",
     "Air quality solutions"
   ],
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Adhunik Powertech | HVAC & Industrial Cooling Products India | Global",

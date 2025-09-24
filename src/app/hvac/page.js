@@ -48,7 +48,7 @@ export const metadata = {
     "Reliable HVAC Contractor",
     "Award Winning HVAC",
   ],
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "HVAC Contractor Gurugram | Turnkey HVAC Solutions - Adhunik Powertech",

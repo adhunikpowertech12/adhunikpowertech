@@ -31,7 +31,7 @@ export const metadata = {
     "Modern home comfort India",
     "Interior climate control Delhi",
   ],
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "The Art of Invisible Comfort: HVAC Meets Luxury Interior Aesthetics",

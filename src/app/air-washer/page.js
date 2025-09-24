@@ -28,7 +28,7 @@ export const metadata = {
     "Air Washer for Commercial Spaces",
     "Air Cooling Solutions",
   ],
-  robots: "index, follow",
+  
   alternates: {
     canonical: "https://www.adhunikpowertech.com/air-washer",
   },

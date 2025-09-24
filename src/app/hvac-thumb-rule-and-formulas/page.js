@@ -71,7 +71,7 @@ export const metadata = {
     "Expert HVAC Services",
     "Air Quality Control",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "HVAC Excellence: 20 Years of Innovation | Adhunik Powertech",
     description: "Adhunik Powertech: 20 years of HVAC leadership in Delhi. Learn expert formulas, thumb rules, & real case studies for commercial & cleanroom efficiency.",

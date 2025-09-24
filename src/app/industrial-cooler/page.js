@@ -53,7 +53,7 @@ export const metadata = {
     "Cooler for Open Areas",
     "Cooler for Hot Climates",
   ],
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Industrial Cooler Manufacturer Delhi NCR | Adhunik Powertech",

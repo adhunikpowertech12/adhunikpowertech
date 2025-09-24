@@ -61,7 +61,7 @@ export const metadata = {
     "life safety systems",
     "property protection fire system",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Fire Hydrant System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:

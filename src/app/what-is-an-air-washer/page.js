@@ -33,7 +33,7 @@ export const metadata = {
     "air washing unit supplier Noida",
 
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "What is an Air Washer ? A Guide to Air Cooling & Purification | Adhunik Powertech",
     description:

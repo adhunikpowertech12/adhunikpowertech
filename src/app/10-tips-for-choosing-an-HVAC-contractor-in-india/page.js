@@ -32,7 +32,7 @@ export const metadata = {
     "HVAC turnkey contractor",
     "Adhunik Powertech HVAC expertise",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "10 Tips for Choosing an HVAC Contractor in India | Adhunik Powertech",
     description:

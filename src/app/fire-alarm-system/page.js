@@ -67,7 +67,7 @@ export const metadata = {
     "automatic fire detection",
     "fire warning system",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Fire Alarm System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:

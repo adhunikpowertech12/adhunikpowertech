@@ -63,7 +63,7 @@ export const metadata = {
     "property damage prevention",
     "early fire detection system",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Fire Sprinkler System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:

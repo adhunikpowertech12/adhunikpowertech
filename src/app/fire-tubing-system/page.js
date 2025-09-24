@@ -66,7 +66,7 @@ export const metadata = {
     "critical asset safety",
     "damage mitigation fire",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:

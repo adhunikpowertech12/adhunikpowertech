@@ -53,7 +53,7 @@ export const metadata = {
     "Industrial enclosure cooling systems",
     "Thermal management for PLC cabinets",
   ],
-  robots: "index, follow",
+  
   
   openGraph: {
     title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",

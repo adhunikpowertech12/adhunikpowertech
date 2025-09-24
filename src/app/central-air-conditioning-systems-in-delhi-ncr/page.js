@@ -52,7 +52,7 @@ export const metadata = {
     "how to choose a Central Air Conditioning contractor",
     "benefits of Central Air Conditioning",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Central Air Conditioning : Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
     description:

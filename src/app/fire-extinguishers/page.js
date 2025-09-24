@@ -66,7 +66,7 @@ export const metadata = {
     "fire prevention solutions",
     "fire compliance solutions",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Fire Extinguisher Dealer & Supplier in Delhi NCR, Gurugram, Noida | Adhunik FireXpert",
     description:

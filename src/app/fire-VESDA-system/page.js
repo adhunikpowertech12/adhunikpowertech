@@ -72,7 +72,7 @@ export const metadata = {
     "business continuity protection",
 
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "VESDA System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:

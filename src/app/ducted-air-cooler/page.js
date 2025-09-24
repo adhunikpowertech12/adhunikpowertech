@@ -45,7 +45,7 @@ export const metadata = {
     "CE Certified Air Cooler",
     "Reliable Air Cooler Manufacturer",
   ],
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Duct Air Cooler Manufacturer Delhi NCR & India | Adhunik Powertech",

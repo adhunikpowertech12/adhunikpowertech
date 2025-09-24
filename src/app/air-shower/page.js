@@ -24,7 +24,7 @@ export const metadata = {
 
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Advanced Contamination Control: Air Showers & Pass Boxes | Adhunik Powertech",

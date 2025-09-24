@@ -48,7 +48,7 @@ export const metadata = {
     "Energy Saving Fan Delhi",
     "Silent Fan Gurugram",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Adhunik Air Care BLDC Ceiling Fans: Save Energy | Delhi, Gurugram",
     description: "Cut electricity bills with Adhunik Air Care BLDC fans. Enjoy silent operation, 3X inverter backup, and smart features. Get a free quote for SimpleX, Venessa Lumo, and Venessa Blink models. Made in India, 3-year warranty.",

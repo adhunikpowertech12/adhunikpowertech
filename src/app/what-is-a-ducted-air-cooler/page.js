@@ -36,7 +36,7 @@ export const metadata = {
 
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
 

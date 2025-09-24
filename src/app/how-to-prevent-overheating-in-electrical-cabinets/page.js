@@ -43,7 +43,7 @@ export const metadata = {
     "IP66 cooling solution",
     "industrial electronics protection",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "How to Prevent Overheating in Electrical Cabinets: Industrial Cooling Solutions",
     description: "Protect your electronics from heat damage with our guide to industrial thermal management. Discover the causes of overheating and explore reliable solutions, such as panel air conditioners, to ensure your equipment operates efficiently.",

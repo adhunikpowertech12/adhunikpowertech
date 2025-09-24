@@ -40,7 +40,7 @@ export const metadata = {
     "HVAC Faridabad",
   ],
 
-  robots: "index, follow",
+  
   openGraph: {
     title: "What is HVAC ? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
     description:

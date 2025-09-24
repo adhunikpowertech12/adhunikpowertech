@@ -52,7 +52,7 @@ export const metadata = {
     "firefighting contractors Sonipat",
     "firefighting contractors Manesar",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "Top Firefighting Contractors in Delhi: Adhunik FireXpert's Edge | Blog",
     description:

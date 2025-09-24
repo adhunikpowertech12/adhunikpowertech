@@ -49,7 +49,7 @@ export const metadata = {
     "climate control solutions",
   ],
 
-     robots: "index, follow",
+     
 
   openGraph: {
     title: "Our HVAC Projects & Portfolio | Commercial & Industrial Solutions | Adhunik Powertech",

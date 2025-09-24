@@ -60,7 +60,7 @@ export const metadata = {
     "Oil Chiller for Automation",
   ],
   
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Hydraulic Oil Chiller Manufacturer in Delhi NCR | Adhunik Powertech",

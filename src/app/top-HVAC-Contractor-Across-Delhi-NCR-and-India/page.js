@@ -35,7 +35,7 @@ import TopHvacContractor from "./TopHvacContractor";
       "Best HVAC Contractor in India",
     ],
     
-    robots: "index, follow",
+    
     alternates: {
       canonical: "https://www.adhunikpowertech.com/top-HVAC-Contractor-Across-Delhi-NCR-and-India",
     },

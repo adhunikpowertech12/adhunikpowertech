@@ -41,7 +41,7 @@ export const metadata = {
     "enclosure cooling solutions Noida",
 
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: " What is a Panel Air Conditioner ? A Guide to Enclosure Cooling | Adhunik Powertech",
     description:

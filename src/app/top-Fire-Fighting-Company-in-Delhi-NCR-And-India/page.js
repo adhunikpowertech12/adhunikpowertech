@@ -38,7 +38,7 @@ export const metadata = {
     "affordable fire safety solutions",
   ],
 
-  robots: "index, follow",
+  
   openGraph: {
 
     title: "Top Fire Fighting Company in Delhi NCR & India | Adhunik Firexpert",

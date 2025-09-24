@@ -8,7 +8,8 @@ import Script from "next/script";
 import WatsapButton from "@/components/watsap";
 import { GoogleTagManager } from '@next/third-parties/google'
 import Security from "@/components/Security";
-
+import Home from "@/components/MyComponent";
+ 
 
 
 
@@ -46,7 +47,7 @@ export const metadata = {
   appleMobileWebAppCapable: "yes",
   appleMobileWebAppTitle: "Adhunik Powertech",
   appleMobileWebAppStatusBarStyle: "default",
-  robots: "index, follow",
+  
 
   alternates: {
     canonical: "https://www.adhunikpowertech.com/",
@@ -181,6 +182,11 @@ export default function RootLayout({ children }) {
 
         <Security/>
         
+        
+<Home/>
+
+
+
         <Analytics />
         <SpeedInsights />
         <Header />

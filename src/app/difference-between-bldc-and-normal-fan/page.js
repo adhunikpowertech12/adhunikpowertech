@@ -32,7 +32,7 @@ export const metadata = {
     "Longer Inverter Backup Fan",
     "Smart Fan Choice",
   ],
-  robots: "index, follow",
+  
   openGraph: {
     title: "BLDC Fan vs. Normal Fan: Save Up To 65% | Adhunik Air Care",
     description: "Compare BLDC vs. normal ceiling fans to cut electricity bills. Adhunik Air Care BLDC fans offer 65% energy savings, silent operation, & 3X inverter backup. Discover why we're smart!",

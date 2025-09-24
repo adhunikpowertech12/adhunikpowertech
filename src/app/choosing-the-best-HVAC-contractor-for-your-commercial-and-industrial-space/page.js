@@ -45,7 +45,7 @@ import ChoosingHvac from "./ChoosingHvac";
     "Uttar Pradesh Commercial HVAC",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Industrial & Commercial HVAC Contractor | 2025 Selection Guide",

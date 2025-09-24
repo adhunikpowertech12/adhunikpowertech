@@ -24,7 +24,7 @@ export const metadata = {
     "Adhunik Powertech fans",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "High-Performance Industrial Ventilation Fans | Adhunik Powertech",
