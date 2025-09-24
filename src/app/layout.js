@@ -183,7 +183,7 @@ export default function RootLayout({ children }) {
         <Security/>
         
         
-<Home/>
+{/* <Home/> */}
 
 
 
