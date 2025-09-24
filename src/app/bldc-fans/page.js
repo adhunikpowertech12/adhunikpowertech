@@ -1,5 +1,6 @@
 import React from 'react'
-import { BDLCFans } from './BDLCFans'
+
+import { BldcFans } from './BldcFans';
 
 
 
@@ -82,7 +83,7 @@ export default function page() {
   return (
     <>
     
-    <BDLCFans/>
+    <BldcFans/>
     
     </>
   )

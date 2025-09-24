@@ -1,8 +1,9 @@
-import TopHAVCContractor from "./TopHAVCContractor";
+
+import TopHvacContractor from "./TopHvacContractor";
  
 export const metadata = {
   title: "10 Tips for Choosing an HAVC Contractor in India | Adhunik Powertech",
-  
+
   description:
     "Looking for a reliable HAVC contractor in India? This guide provides 10 essential tips on what to look for, from verifying certifications to checking after-sales support. Choose wisely for long-term efficiency.",
 
@@ -70,7 +71,7 @@ export default function page() {
   return (
     <>
 
- <TopHAVCContractor/>
+ <TopHvacContractor/>
 
     </>
   )

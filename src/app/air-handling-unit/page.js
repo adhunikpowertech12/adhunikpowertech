@@ -1,4 +1,5 @@
-import AirHanding from "./AirHanding";
+
+import AirHandling from "./AirHandling";
 
 
 export const metadata = {
@@ -63,7 +64,7 @@ export default function AirHandingUnit() {
     <>
 
      
-<AirHanding/>
+<AirHandling/>
 
 
 

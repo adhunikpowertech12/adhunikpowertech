@@ -1,4 +1,5 @@
-import ChoosingHAVC from "./ChoosingHAVC";
+
+import ChoosingHvac from "./ChoosingHvac";
 
  
   export const metadata = {
@@ -80,7 +81,7 @@ export default function page() {
   return (
    <>
 
-<ChoosingHAVC/>
+<ChoosingHvac/>
 
    </>
   )
