@@ -149,7 +149,7 @@ export default function RootLayout({ children }) {
         <Analytics />
         <SpeedInsights />
         <Header />
-        <WatsapButton phoneNumber="+919599950534" />
+        <WatsapButton phoneNumber="+919599050534" />
 
 <p className=" text-transparent absolute">
   Online gambling, casino bonuses, betting tips, poker strategies, and slot machine tricks 
