@@ -7,7 +7,7 @@ const WatsapButton = ({ phoneNumber }) => {
 
     const openChatWindow = () => {
         // Open WhatsApp chat window with the predefined message
-        window.open(`https://wa.me/${+919595950534}?text=${encodeURIComponent(message)}`, '_blank');
+        window.open(`https://wa.me/${+999599050534}?text=${encodeURIComponent(message)}`, '_blank');
     };
 
     return (
