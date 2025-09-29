@@ -88,7 +88,7 @@ export default function ContactUs() {
         if (validateForm()) {
 
             emailjs
-                .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
+                .sendForm("service_vo5gd7i", "template_l7fwlg4", form.current, {
                     publicKey: "HNVjZHjWsKKbBqDhx",
                 })
                 .then(() => {
