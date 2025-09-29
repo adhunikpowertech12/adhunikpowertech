@@ -89,7 +89,7 @@ export default function Popup() {
   
       notifys();
       emailjs.sendForm("service_vo5gd7i", "template_0jpgm58", formRef.current, {
-        publicKey: "MhRQ4EQ146BN6g6VJ",
+        publicKey: "HNVjZHjWsKKbBqDhx",
       });
       handleClose(); // Close the form after submission
     };
