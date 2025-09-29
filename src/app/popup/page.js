@@ -88,7 +88,7 @@ export default function Popup() {
       console.log("Form submitted");
   
       notifys();
-      emailjs.sendForm("service_rurf2x7", "template_0jpgm58", formRef.current, {
+      emailjs.sendForm("service_vo5gd7i", "template_0jpgm58", formRef.current, {
         publicKey: "MhRQ4EQ146BN6g6VJ",
       });
       handleClose(); // Close the form after submission
