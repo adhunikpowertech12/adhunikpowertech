@@ -19,7 +19,9 @@ export default function ContactUs() {
     const emailAddress = "info@adhunikpowertech.com";
 
     const handleEmailSend = () => {
+
         window.location.href = `mailto:${emailAddress}`;
+        
     };
     const locationAddress = "DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004";
 
@@ -86,8 +88,8 @@ export default function ContactUs() {
         if (validateForm()) {
 
             emailjs
-                .sendForm("service_rur2x7", "tempate_l7fwlg4", form.current, {
-                    publicKey: "MhRQ4EQ1BN6g6VJ",
+                .sendForm("service_rurf2x7", "template_l7fwlg4", form.current, {
+                    publicKey: "HNVjZHjWsKKbBqDhx",
                 })
                 .then(() => {
                     notifys();
@@ -114,6 +116,7 @@ export default function ContactUs() {
             title: 'Phone',
             value: phoneNumber,
             icon: (
+                
                 <svg
                     className="mx-auto my-auto w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -187,6 +190,7 @@ export default function ContactUs() {
             <ToastContainer />
 
             <div className="w-full  ">
+        
                 <div className=" w-full p-7   items-center justify-center ">
 
                     <p className="text-5xl pt-4 text-center h-full mt-16"> Contact Us </p>
@@ -197,6 +201,7 @@ export default function ContactUs() {
                     <div className="text-center">
 
                         <div className="justify-around grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 group p-5">
+        
                             {contactDetails.map((detail) => (
   <div key={detail.id}   className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
                                 >
@@ -220,7 +225,6 @@ export default function ContactUs() {
                     <div className=" w-full bg-[white] mt-5 flex flex-col md:flex-row items-center justify-center mx-auto">
 
 
-
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
                                 src="/contactus.webp" 
@@ -233,9 +237,7 @@ export default function ContactUs() {
                         </div>
 
 
-
                         <div className="h-fit w-auto lg:w-5/12  mt-5">
-
                             <form
                                 className="w-auto m-3 md:m-7"
                                 onSubmit={sendEmail}
@@ -298,9 +300,11 @@ export default function ContactUs() {
                                             className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                             placeholder="Enter Email ID"
                                         />
+                                            
                                         {errors.email && (
                                             <p className="text-red-500">{errors.email}</p>
                                         )}
+
                                     </div>
                                 </div>
                                 <div className="flex flex-wrap -mx-3 mb-6">
@@ -319,9 +323,11 @@ export default function ContactUs() {
                                             className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                             placeholder="Gurugram"
                                         />
+                                            
                                         {errors.city && (
                                             <p className="text-red-500">{errors.city}</p>
                                         )}
+
                                     </div>
                                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                         <label
