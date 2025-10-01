@@ -888,10 +888,10 @@ export default function AirWasher() {
               <p className="text-gray-700  py-3 font-sans   text-center ">For reliable and high-quality air washer solutions in Delhi and across India, contact Adhunik Powertech today. Also, if you have any questions about air washers, installation, maintenance, and repair, please reach-out to our toll-free number, and we'll be happy to discuss your needs and provide a customized solution.
               </p>
               <a
-                href="tel:8287885985"
+                href="tel:8287885885"
                 onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = "tel:8287885985";
+                  window.location.href = "tel:8287885885";
                 }}
                 className="self-center rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
               >
