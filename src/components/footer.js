@@ -124,7 +124,7 @@ function Footer() {
 Sector 70, Gurugram, Pin Code-122101
 </p>
             <p className=' pb-1'>Email: info@adhunikpowertech.com</p>
-            <p>Phone: 8287885985</p>
+            <p>Phone: 8287885885</p>
 
           </div>
 
