@@ -501,7 +501,7 @@ function Navbar() {
                   <hr className=' rotate-90 w-10  relative hidden md:block ' />
 
                   <div className="col pb-2 md:pb-0 ">
-                    <svg onClick={() => window.location.href = "tel:8287885985"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <svg onClick={() => window.location.href = "tel:8287885885"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                     </svg>
 
@@ -510,7 +510,7 @@ function Navbar() {
 
                   <div
                     className="col text-left text-[12px] ps-2 hidden md:block"
-                    onClick={() => window.location.href = "tel:8287885985"}
+                    onClick={() => window.location.href = "tel:8287885885"}
                     style={{ cursor: 'pointer' }} // Optional styling for pointer and color
                   >
                     <p className="font-sans font-thin">Toll-Free Number</p>
