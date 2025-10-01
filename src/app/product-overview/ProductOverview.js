@@ -166,7 +166,7 @@ export default function ProductOverview() {
       title: 'AIR SHOWER ',
       description: ' Maintain a clean and controlled environment with our high-performance air showers. Effectively remove dust, debris, and contaminants from personnel before entering critical areas. ',
       imgSrc: '/as.webp',
-      link: '/air-washer',
+      link: '/air-shower',
       imgHeight: "350px",
       imgWidth: "350px",
     },
@@ -837,7 +837,7 @@ export default function ProductOverview() {
                     <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
                   </a>
                   <a
-                    href="tel:8287885985"
+                    href="tel:8287885885"
                     onClick={(e) => {
                       e.preventDefault();
                       window.location.href = "tel:+919870248420";
