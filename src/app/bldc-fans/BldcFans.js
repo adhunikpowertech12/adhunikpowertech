@@ -692,7 +692,7 @@ export const BldcFans = () => {
                 <MessageSquareQuote className="mr-2" />
                 Request Quote
               </Link>
-              <a href='tel:8287885985' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
+              <a href='tel:8287885885' className="flex-1 bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center">
                 <Phone className="w-6 h-6 mr-2" />
                 Call Us Now
               </a>
@@ -1246,7 +1246,7 @@ export const BldcFans = () => {
 
                           <div className="mt-6 w-fit flex space-x-4">
 
-                            <a href='tel:8287885985' className="flex-1 w-fit bg-gray-900 text-white font-medium py-2 px-4 text-sm rounded-lg flex items-center justify-center hover:bg-black transition">
+                            <a href='tel:8287885885' className="flex-1 w-fit bg-gray-900 text-white font-medium py-2 px-4 text-sm rounded-lg flex items-center justify-center hover:bg-black transition">
                               <Phone className="mr-2" />
                               Call for Details
                             </a>
@@ -1441,7 +1441,7 @@ export const BldcFans = () => {
                     <Phone className="w-6 h-6 text-cyan-600" />
                   </div>
                   <h3 className="md:text-lg font-medium text-gray-900 mb-2">Call Us</h3>
-                  <p className="text-cyan-600 text-sm font-medium">+91 8287885985</p>
+                  <p className="text-cyan-600 text-sm font-medium">+91 8287885885</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
                   <div className="bg-cyan-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
