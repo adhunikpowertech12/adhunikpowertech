@@ -20,7 +20,7 @@ function Footer() {
     window.open(mapUrl, '_blank');
   };
 
-  const phoneNumber = "8287885985";
+  const phoneNumber = "8287885885";
 
   const handlePhoneCall = () => {
     window.location.href = `tel:${phoneNumber}`;
