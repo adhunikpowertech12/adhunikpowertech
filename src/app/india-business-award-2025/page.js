@@ -24,6 +24,7 @@ export const metadata = {
       locale: "en_IN",
       type: "website",
     },
+    robots: "index, follow",
     twitter: {
       card: "summary_large_image",
       title: "Adhunik Powertech | HAVC & Air Cooling Systems Gurugram",
