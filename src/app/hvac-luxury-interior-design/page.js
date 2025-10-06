@@ -50,6 +50,7 @@ export const metadata = {
   alternates: {
     canonical: "https://www.adhunikpowertech.com/hvac-luxury-interior-design",  
   },
+  robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "The Art of Invisible Comfort: HAVC Meets Luxury Interior Aesthetics",
