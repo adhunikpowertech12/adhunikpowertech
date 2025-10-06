@@ -3,7 +3,7 @@ import OurProjects from "./OurProjects";
  
  
 export const metadata = {
-   title: "Our HVAC Projacts & Portfolio | Commarcial & Industrial Solutions | Adhunik Powertech",
+   title: "Our HVAC Projects & Portfolio | Commercial & Industrial Solutions | Adhunik Powertech",
   description:
     "Explore Adhunik Powertech's portfolio of successful HVAC projects. See our expertise in delivering innovative, energy-efficient climate control solutions for commercial and industrial sectors. See our work across India.",
 
@@ -52,7 +52,7 @@ export const metadata = {
      
 
   openGraph: {
-    title: "Our HVAC Projacts & Portfolio | Commarcial & Industrial Solutions | Adhunik Powertech",
+    title: "Our HVAC Projects & Portfolio | Commercial & Industrial Solutions | Adhunik Powertech",
     description:
       "Explore Adhunik Powertech's portfolio of successful HVAC projects. See our expertise in delivering innovative, energy-efficient climate control solutions for commercial and industrial sectors. See our work across India.",
     url: "https://www.adhunikpowertech.com/our-projects",
@@ -75,7 +75,7 @@ export const metadata = {
 robots: "index, follow",
     twitter: {
     card: "summary_large_image",
-     title: "Our HVAC Projacts & Portfolio | Commarcial & Industrial Solutions | Adhunik Powertech",
+     title: "Our HVAC Projects & Portfolio | Commercial & Industrial Solutions | Adhunik Powertech",
     description:
       "Explore Adhunik Powertech's portfolio of successful HVAC projects. See our expertise in delivering innovative, energy-efficient climate control solutions for commercial and industrial sectors. See our work across India.",
      image: "https://www.adhunikpowertech.com/projects/20.webp",
