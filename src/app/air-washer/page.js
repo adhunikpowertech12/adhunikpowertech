@@ -3,13 +3,13 @@ import AirWasher from "./AirWasher";
  
 
 export const metadata = {
-  title: "Top Air Washer Manufaturer in Delhi NCR & India | Adhunik Powertech",
+  title: "Top Air Washer Manufacturer in Delhi NCR & India | Adhunik Powertech",
   description: "Adhunik Powertech: Leading air washer supplier in Delhi NCR (Gurugram, Noida, Faridabad) & India (Jaipur, Chandigarh). Industrial & commercial air washers for efficient cooling.",
   keywords: [
     "Air Washer",
     "Industrial Air Washer",
     "Commercial Air Washer",
-    "Air Washer Manufaturer",
+    "Air Washer Manufacturer",
     "Air Washer Supplier",
     "Delhi NCR Air Washer",
     "India Air Washer",
@@ -33,7 +33,7 @@ export const metadata = {
     canonical: "https://www.adhunikpowertech.com/air-washer",
   },
   openGraph: {
-    title: "Top Air Washer Manufaturer in Delhi NCR & India | Adhunik Powertech",
+    title: "Top Air Washer Manufacturer in Delhi NCR & India | Adhunik Powertech",
     description: "Adhunik Powertech: Leading air washer supplier in Delhi NCR (Gurugram, Noida, Faridabad) & India (Jaipur, Chandigarh). Industrial & commercial air washers for efficient cooling.",
     url: "https://www.adhunikpowertech.com/air-washer",  
    siteName: 'adhunik powertech',  
