@@ -67,7 +67,7 @@ export const metadata = {
     "Data-driven maintenance",
     "Genuine parts HAVC",
   ],
-    
+    robots: "index, follow",
   openGraph: {
     title: "HAVC & Industrial AC AMC Delhi NCR | Adhunik Powertech",
     description: "Adhunik Powertech: Award-wining AMC for HAVC, Industrial & Commercial Cooling in Delhi NCR. Expert maintenance for Chillers & Panel ACs. Maximize uptime. Free quote!",
