@@ -47,6 +47,7 @@ export const metadata = {
       },
     ],
   },
+  robots: "index, follow",
   alternates: {
     canonical: "https://www.adhunikpowertech.com/bldc-fans",  
   },
