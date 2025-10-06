@@ -46,7 +46,7 @@ export const metadata = {
     "Reliable Air Cooler Manufaturer",
   ],
   
-
+robots: "index, follow",
   openGraph: {
     title: "Duct Air Cooler Manufaturer Delhi NCR & India | Adhunik Powertech",
     description: "Adhunik Powertech: Your trusted duct air cooler manufacturer in Delhi NCR & across India, offering energy-efficient, durable ducted cooling systems, including Stainless Steel 304.",
