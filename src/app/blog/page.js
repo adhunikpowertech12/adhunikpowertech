@@ -20,6 +20,8 @@ export const metadata = {
     "fire safety and HAVC insights",
     "air handling unit discussions",
   ],
+
+  robots: "index, follow",
     alternates: {
     canonical: "https://www.adhunikpowertech.com/blog",  
   },
