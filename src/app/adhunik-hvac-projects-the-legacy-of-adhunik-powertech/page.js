@@ -23,7 +23,7 @@ export const metadata = {
     "MEP contractors India",
   ],
 
-  
+  robots: "index, follow",
 
   openGraph: {
     title: "A Legacy Reimagined: Introducing Adhunik HAVC Projects",
