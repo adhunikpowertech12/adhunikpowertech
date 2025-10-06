@@ -86,6 +86,7 @@ export const metadata = {
       },
     ],
   },
+  robots: "index, follow",
   alternates: {
     canonical: "https://www.adhunikpowertech.com/blog/hvac-excellence-20-years-innovation", // Placeholder: Adjust to your actual canonical URL for this blog post
   },
