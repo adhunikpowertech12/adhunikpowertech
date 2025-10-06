@@ -25,7 +25,7 @@ export const metadata = {
     "Air quality solutions"
   ],
   
-
+robots: "index, follow",
   openGraph: {
     title: "Adhunik Powertech | HAVC & Industrial Cooling Products India | Global",
     description: "Discover Adhunik Powertech's HAVC, industrial cooling & air quality products. Energy-efficient air coolers, panel ACs & cleanroom equipment. Made in India, exported globally.",
