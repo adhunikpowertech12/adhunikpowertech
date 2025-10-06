@@ -35,7 +35,7 @@ export const metadata = {
     "HAVC turnkey contractor",
     "Adhunik Powertech HAVC expertise",
   ],
-  
+  robots: "index, follow",
   openGraph: {
     title: "10 Tips for Choosing an HAVC Contractor in India | Adhunik Powertech",
     description:
