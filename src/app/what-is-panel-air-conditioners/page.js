@@ -1,21 +1,21 @@
 import WhatIsPanelAir from "./WhatIsPanelAir";
 
 export const metadata = {
-  title: "What is a Panel Air Conditionar ? A Guide to Enclosure Cooling | Adhunik Powertech",
+  title: "What is a Panel Air Conditioner ? A Guide to Enclosure Cooling | Adhunik Powertech",
   description:
     "Learn about panel air conditioners and how they protect sensitive electronics from heat, dust & moisture. Our guide covers key applications, benefits, and how these specialized units ensure equipment reliability and prevent downtime.",
     
   keywords: [
 
-    "what is a panel air Conditionar",
-    "panel air Conditionar explained",
+    "what is a panel air Conditioner",
+    "panel air Conditioner explained",
     "enclosure cooling",
     "electrical panel cooling",
     "how panel air conditioners work",
     "panel AC",
-    "industrial air Conditionar",
+    "industrial air Conditioner",
     "control panel cooling",
-    "panel air Conditionar benefits",
+    "panel air Conditioner benefits",
     "protect sensitive electronics",
     "prevent overheating",
     "reduce downtime",
@@ -27,23 +27,25 @@ export const metadata = {
     "CNC panel cooling",
     "dust and moisture protection",
     "closed-loop cooling system",
-    "panel air Conditionar components",
+    "panel air Conditioner components",
     "industrial enclosures",
     "control cabinets",
     "panel cooler",
     "thermoelectric coolers",
     "refrigerant for panel AC",
-    "wall mounted panel air Conditionar",
-    "top mounted panel air Conditionar",
+    "wall mounted panel air Conditioner",
+    "top mounted panel air Conditioner",
     "Adhunik Powertech",
-    "panel air Conditionar supplier Delhi NCR",
+    "panel air Conditioner supplier Delhi NCR",
     "industrial HVAC Gurugram",
     "enclosure cooling solutions Noida",
 
   ],
   
+robots: "index, follow",
+
   openGraph: {
-    title: " What is a Panel Air Conditionar ? A Guide to Enclosure Cooling | Adhunik Powertech",
+    title: " What is a Panel Air Conditioner ? A Guide to Enclosure Cooling | Adhunik Powertech",
     description:
       "Learn about panel air conditioners and how they protect sensitive electronics from heat, dust & moisture. Our guide covers key applications, benefits, and how these specialized units ensure equipment reliability and prevent downtime.",
     url: "https://www.adhunikpowertech.com/what-is-panel-air-conditioners", 
@@ -53,7 +55,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498847/panel_bgfupm.webp",
         width: 1200,
         height: 630,
-        alt: "A diagram explaining how a panel air Conditionar works to cool an electrical enclosure.",
+        alt: "A diagram explaining how a panel air Conditioner works to cool an electrical enclosure.",
       },
     ],
   },
@@ -63,7 +65,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What is a Panel Air Conditionar ? A Guide to Enclosure Cooling | Adhunik Powertech",
+    title: "What is a Panel Air Conditioner ? A Guide to Enclosure Cooling | Adhunik Powertech",
     description:
       "Learn about panel air conditioners and how they protect sensitive electronics from heat, dust & moisture. Our guide covers key applications, benefits, and how these specialized units ensure equipment reliability and prevent downtime.",
     image: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498847/panel_bgfupm.webp",
