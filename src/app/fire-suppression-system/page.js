@@ -86,6 +86,7 @@ export const metadata = {
       },
     ],
   },
+  robots: "index, follow",
   alternates: {
     canonical:
       "https://www.adhunikpowertech.com/fire-suppresion-system", 
