@@ -2,7 +2,7 @@ import React from 'react'
 import FireSafetyProtection from './FireSafetyProtection'
 
 export const metadata = {
-  title: "The Ultimate Guide to Fire Safety & Protaction in Delhi NCR | Adhunik FireXpert",
+  title: "The Ultimate Guide to Fire Safety & Protection in Delhi NCR | Adhunik FireXpert",
   description:
     "Learn the four pillars of fire protection, from early detection to suppression. This expert guide covers fire safety causes, solutions & regulations for businesses in Delhi NCR, Gurugram & Noida. Adhunik FireXpert offers turnkey solutions.",
   keywords: [ 
@@ -49,7 +49,7 @@ export const metadata = {
 
   robots: "index, follow",
   openGraph: {
-    title: "The Ultimate Guide to Fire Safety & Protaction in Delhi NCR | Adhunik FireXpert",
+    title: "The Ultimate Guide to Fire Safety & Protection in Delhi NCR | Adhunik FireXpert",
     description:
       "Learn the four pillars of fire protection, from early detection to suppression. This expert guide covers fire safety causes, solutions & regulations for businesses in Delhi NCR, Gurugram & Noida. Adhunik FireXpert offers turnkey solutions.",
     url: "https://www.adhunikpowertech.com/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr",  
@@ -69,7 +69,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Ultimate Guide to Fire Safety & Protaction in Delhi NCR | Adhunik FireXpert",
+    title: "The Ultimate Guide to Fire Safety & Protection in Delhi NCR | Adhunik FireXpert",
     description:
       "Learn the four pillars of fire protection, from early detection to suppression. This expert guide covers fire safety causes, solutions & regulations for businesses in Delhi NCR, Gurugram & Noida. Adhunik FireXpert offers turnkey solutions.",
     image: "https://images.unsplash.com/photo-1575867094974-9e16b6f55360?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
