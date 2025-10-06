@@ -47,7 +47,7 @@ export const metadata = {
     "fire protection solutions",
     "emergency safety",
   ],
-  
+  robots: "index, follow",
   openGraph: {
     title: "Fire Extinguisher Guide for Delhi NCR: Types, Uses & Regulations | Adhunik FireXpert",
     description:
