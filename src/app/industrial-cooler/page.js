@@ -70,7 +70,7 @@ export const metadata = {
       },
     ],
   },
-  
+  robots: "index, follow",
   alternates: {
     canonical: "https://www.adhunikpowertech.com/industrial-cooler",  
   },
