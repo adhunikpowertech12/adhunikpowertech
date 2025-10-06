@@ -16,51 +16,48 @@ import Home from "@/components/MyComponent";
 export const metadata = {
   title: {
 
-    default: " Top & Best Company In India - Adhunik Powertech",
+    default: "Top & Best HVAC Company In India - Adhunik Powertech",
     template: "%s"
 
   },
-  description: "Adhunik Powertech : Your trusted  contractor in Delhi. Expert installations, repairs, and maintenance for a comfortable indoor environment. Contact us now!",
+  description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi. Expert installations, repairs, and maintenance for a comfortable indoor environment. Contact us now",
 
   
   keywords: [
-    "HAVC Solutions",
-    "Industriel Air Cooling",
-    "Commercel Air Cooling Systams",
-    "Air Washer Systams",
+    "HVAC Solutions",
+    "Industrial Air Cooling",
+    "Commercial Air Cooling Systems",
+    "Air Washer Systems",
     "Ducted Air Coolers",
-    "Ventiletion Exhaust Fans",
-    "Panel Air Conditionars",
-    "Oil and Coolant Chillars",
+    "Ventilation Exhaust Fans",
+    "Panel Air Conditioners",
+    "Oil and Coolant Chillers",
     "Air Handling Units",
-    "Air Shower Systams",
+    "Air Shower Systems",
     "Energy-Efficient Cooling Solutions",
-    "Industriel Ventilation Systams",
-    "Commercel HAVC Systams",
-    "HAVC contractors",
+    "Industrial Ventilation Systems",
+    "Commercial HVAC Systems",
+    "HVAC contractors",
   ],
 
 
   
 
   alternates: {
-    canonical: "https://www.adhunikpowrtech.com/",
+    canonical: "https://www.adhunikpowertech.com/",
   },
 
   twitter: {
-    
-    title: "Adhunik Powertech | Top HAVC & Air Cooling Systams Gurugram",
-    description: "Discover Adhunik Powertech Private Limited, a leader in HAVC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
-    card: "summary",
-    image: "https://adhunikpowertech.com/apple-touch-icon.png",
-    imageAlt: "Adhunik Powertech - HAVC & Air Cooling Solutions"
+    site: "@adhunikpowertech",
+    title: "Adhunik Powertech | Top HVAC & Air Cooling Systems Gurugram",
+    description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
   },
   
   openGraph: {
     title: "Adhunik Powertech",
     type: "website",
     url: "https://www.adhunikpowertech.com/",
-    siteName: "Adhunik Powertech - HAVC Experts",
+    siteName: "Adhunik Powertech - HVAC Experts",
     image: "https://adhunikpowertech.com/apple-touch-icon.png",
     locale: "en_IN",
     creator: "Adhunik Powertech",
@@ -71,12 +68,19 @@ export const metadata = {
         url: "https://adhunikpowertech.com/apple-touch-icon.png",
         width: 1200,
         height: 630,
-        alt: "Adhunik Powertech HAVC Solutions"
+        alt: "Adhunik Powertech HVAC Solutions"
       }
     ]
   },
 
- 
+  additionalMeta: [
+    { httpEquiv: "X-UA-Compatible", content: "IE=EmulateIE7" },
+    { httpEquiv: "Accept-CH", content: "DPR, Viewport-Width, Width, Save-Data" }
+  ],
+
+  link: [
+    { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" },
+  ]
  
 };
  
@@ -94,9 +98,19 @@ export default function RootLayout({ children }) {
 
    <meta itemProp="name" content="Adhunik Powertech" />
 
-       
-
-
+  <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Adhunik Powertech",
+              "url": "https://www.adhunikpowertech.com/",
+              "alternateName": "Adhunik Powertech",
+            }),
+          }}
+        />
+   
      
   <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-16494041391"
@@ -130,7 +144,24 @@ export default function RootLayout({ children }) {
 
         </Script>
 
+ <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
 
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+
+        <link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-Medium.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
      
 
      
