@@ -18,7 +18,7 @@ export const metadata = {
      locale: "en_IN",
     creator: "Adhunik Powertech",
 
-
+robots: "index, follow",
     images: [
       {
         url: "https://adhunikpowertech.com/apple-touch-icon.png",
