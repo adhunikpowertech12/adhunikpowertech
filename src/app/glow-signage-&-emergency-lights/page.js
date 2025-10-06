@@ -60,7 +60,7 @@ export const metadata = {
     "fire safety compliance solutions",
 
   ],
-  
+  robots: "index, follow",
   openGraph: {
     title: "Glow Signage, Emergency Lights Contractor & Supplier in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
