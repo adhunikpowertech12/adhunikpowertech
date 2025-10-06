@@ -3,22 +3,22 @@ import WhatIsHvac from "./WhatIsHvac";
 
 
 export const metadata = {
-  title: "What is HAVC ? A Beginner's Guide to Heating, Ventilation & Air Conditioning | Adhunik Powertech",
+  title: "What is HVAC ? A Beginner's Guide to Heating, Ventilation & Air Conditioning | Adhunik Powertech",
 
   description:
 
-    "Confused about HAVC ? Our comprehensive guide explains what HAVC means, its key components, and how it works. Discover the benefits of a modern HAVC system for your home or business.",
+    "Confused about HVAC ? Our comprehensive guide explains what HVAC means, its key components, and how it works. Discover the benefits of a modern HVAC system for your home or business.",
 
   keywords: [ 
 
-    "what is HAVC",
-    "HAVC meaning",
-    "HAVC for beginners",
-    "how does HAVC work",
-    "HAVC system explained", 
-    "HAVC components",
-    "types of HAVC systems",
-    "heating ventilation air conditioning",
+    "what is HVAC",
+    "HVAC meaning",
+    "HVAC for beginners",
+    "how does HVAC work",
+    "HVAC system explained", 
+    "HVAC components",
+    "types of HVAC systems",
+    "heating, ventilation air conditioning",
     "central AC",
     "chiller systems",
     "ductless mini-split",
@@ -26,25 +26,27 @@ export const metadata = {
     "heat pump",
     "ductwork",
     "furnace", 
-    "benefits of HAVC",
-    "energy efficient HAVC",
+    "benefits of HVAC",
+    "energy efficient HVAC",
     "indoor air quality",
-    "HAVC maintenance",
-    "HAVC for commercial buildings",
-    "HAVC for industrial projects",
+    "HVAC maintenance",
+    "HVAC for commercial buildings",
+    "HVAC for industrial projects",
     "hvac for home", 
     "Adhunik Powertech",
-    "HAVC contractor Delhi NCR",
-    "HAVC Gurugram",
-    "HAVC Noida",
-    "HAVC Faridabad",
+    "HVAC contractor Delhi NCR",
+    "HVAC Gurugram",
+    "HVAC Noida",
+    "HVAC Faridabad",
   ],
+
+robots: "index, follow",
 
   
   openGraph: {
-    title: "What is HAVC ? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
+    title: "What is HVAC ? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
     description:
-      "Confused about HAVC ? Our comprehensive guide explains what HAVC means, its key components, and how it works. Discover the benefits of a modern HAVC system for your home or business.",
+      "Confused about HVAC ? Our comprehensive guide explains what HVAC means, its key components, and how it works. Discover the benefits of a modern HVAC system for your home or business.",
     url: "https://www.adhunikpowertech.com/what-is-hvac",  
     type: "article",
     images: [
@@ -52,7 +54,7 @@ export const metadata = {
         url: "http://localhost:3000/_next/image?url=%2FWhatisHVAC.webp&w=640&q=75",  
         width: 1200,
         height: 630,
-        alt: "A diagram of an HAVC system, explaining its components and function.",
+        alt: "A diagram of an HVAC system, explaining its components and function.",
       },
     ],
   },
@@ -62,9 +64,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What is HAVC? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
+    title: "What is HVAC? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
     description:
-      "Confused about HAVC? Our comprehensive guide explains what HAVC means, its key components, and how it works. Discover the benefits of a modern HAVC system for your home or business.",
+      "Confused about HVAC? Our comprehensive guide explains what HVAC means, its key components, and how it works. Discover the benefits of a modern HVAC system for your home or business.",
     image: "http://localhost:3000/_next/image?url=%2FWhatisHVAC.webp&w=640&q=75",  
   },
 };
