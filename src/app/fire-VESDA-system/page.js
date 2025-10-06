@@ -72,7 +72,7 @@ export const metadata = {
     "business continuity protection",
 
   ],
-  
+  robots: "index, follow",
   openGraph: {
     title: "VECDA System Contrator, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
