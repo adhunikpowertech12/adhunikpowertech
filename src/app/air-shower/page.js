@@ -26,7 +26,7 @@ export const metadata = {
   ],
 
   
-
+robots: "index, follow",
   openGraph: {
     title: "Advanced Contamination Control: Air Showers & Pass Boxes | Adhunik Powertech",
     description: "Protect your critical environments with our precision-engineered air showers & pass boxes. Ideal for pharma, electronics, and healthcare. Learn more.",
