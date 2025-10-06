@@ -58,6 +58,8 @@ export const metadata = {
       },
     ],
   },
+
+  robots: "index, follow",
   alternates: {
     canonical: "https://www.adhunikpowertech.com/how-to-prevent-overheating-in-electrical-cabinets", 
   },
