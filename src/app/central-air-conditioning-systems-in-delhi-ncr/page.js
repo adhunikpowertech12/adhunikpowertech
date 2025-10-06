@@ -68,6 +68,8 @@ export const metadata = {
       },
     ],
   },
+
+  robots: "index, follow",
   alternates: {
     canonical:
       "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757415857/wmremove-transformed_qczj9f.webp", // IMPORTANT: Update with the actual canonical URL
