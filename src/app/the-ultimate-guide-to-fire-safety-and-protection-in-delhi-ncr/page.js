@@ -46,7 +46,8 @@ export const metadata = {
     "HVAC and fire protection",
     "engineering legacy",
   ],
-  
+
+  robots: "index, follow",
   openGraph: {
     title: "The Ultimate Guide to Fire Safety & Protaction in Delhi NCR | Adhunik FireXpert",
     description:
