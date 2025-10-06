@@ -67,6 +67,7 @@ export const metadata = {
       },
     ],
   },
+  robots: "index, follow",
   alternates: {
     canonical: "https://www.adhunikpowertech.com/BDLC-fans",  
   },
