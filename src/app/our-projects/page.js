@@ -72,7 +72,7 @@ export const metadata = {
       "https://www.adhunikpowertech.com/our-projects",  
   },
 
-
+robots: "index, follow",
     twitter: {
     card: "summary_large_image",
      title: "Our HVAC Projacts & Portfolio | Commarcial & Industrial Solutions | Adhunik Powertech",
