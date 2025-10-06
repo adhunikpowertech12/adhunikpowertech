@@ -67,7 +67,7 @@ export const metadata = {
   alternates: {
     canonical: "https://www.adhunikpowertech.com/hvac",
   },
-
+robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "HAVC Contractor Gurugram | Turnkey HAVC Solutions - Adhunik Powertech",
