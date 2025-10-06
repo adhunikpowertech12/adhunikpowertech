@@ -77,6 +77,7 @@ export const metadata = {
       },
     ],
   },
+  robots: "index, follow",
   alternates: {
     canonical:
       "https://www.adhunikpowertech.com/fire-hydrent-system", // Crucial: Ensure this matches your actual canonical URL
