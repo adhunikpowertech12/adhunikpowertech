@@ -47,7 +47,7 @@ import ChoosingHvac from "./ChoosingHvac";
   ],
 
   
-
+robots: "index, follow",
   openGraph: {
     title: "Industrial & Commercial HAVC Contractor | 2025 Selection Guide",
     description: "Finding the top HAVC contractor for your industrial or commercial facility in 2025 is key. This guide helps you choose a partner for efficiency, reliability, and long-term cost savings.",
