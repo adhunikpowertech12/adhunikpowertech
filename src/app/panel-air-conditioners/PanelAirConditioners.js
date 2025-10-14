@@ -102,7 +102,7 @@ export default function PanelAirConditioners() {
     {
       id: 1,
       title: "Specifications of Panel Air Conditioner",
-      imageSrc: "/pac.jpg",
+      imageSrc: "/specification of panel ac.webp",
       altText: "Panel Air Conditioner ",
     },
 
