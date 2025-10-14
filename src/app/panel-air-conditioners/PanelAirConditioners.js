@@ -239,7 +239,7 @@ export default function PanelAirConditioners() {
                 className="w-full h-auto rounded-2xl"
                 decoding="async"
                 alt="Air washer"
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/panel_ac_y8kocn.webp"
+                src="/panel_ac upper image.webp"
                 loading="lazy"
                 height="300"
                 width="300"
