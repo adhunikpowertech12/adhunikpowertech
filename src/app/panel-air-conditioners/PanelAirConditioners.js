@@ -601,7 +601,7 @@ export default function PanelAirConditioners() {
                             fetchPriority="high"
                             decoding="async"
                             alt="Panel Air Conditioner "
-                            src="/sa.png"
+                            src="/sa.webp.webp"
                             loading="lazy"
                             height="300"
                             width="300"
