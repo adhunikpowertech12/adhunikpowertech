@@ -401,7 +401,7 @@ export default function PanelAirConditioners() {
                             decoding="async"
                             loading="lazy"
                             alt="Panel Air Conditioner "
-                            src="/wm.png"
+                            src="/wm.webp"
                             height="300"
                             width="300"
                           />
