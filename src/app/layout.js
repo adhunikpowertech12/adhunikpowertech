@@ -5,10 +5,10 @@ import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script";
-import WatsapButton from "@/components/watsap";
 import { GoogleTagManager } from '@next/third-parties/google'
 import Security from "@/components/Security";
 import Home from "@/components/MyComponent";
+import FloatingActionButtons from "@/components/FloatingActionButtons";
  
 
 
@@ -176,11 +176,11 @@ export default function RootLayout({ children }) {
         
         
 
-
+            <FloatingActionButtons />
         <Analytics />
         <SpeedInsights />
         <Header />
-        <WatsapButton phoneNumber="+919599050534" />
+       
 
 
 

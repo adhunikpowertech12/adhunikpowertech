@@ -436,10 +436,11 @@ function Navbar() {
                     <a
                       href="/Adhunik-Powertech-Product-Catalogue-2024.pdf"
                       download="Adhunik-Powertech-Product-Catalogue-2024"
-                      className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
-                        ? " text-black hover:text-black border-black"
-                        : " text-white hover:text-black "
-                        }`}
+                      className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${
+                        isScrolled
+                          ? "text-black hover:text-black border-black"
+                          : "text-white hover:text-black"
+                      }`}
                     >
                       <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
                       <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
@@ -464,7 +465,7 @@ function Navbar() {
                     <a
                       href="/Adhunik-Powertech-HVAC-Profile.pdf" // The file path in the public folder
                       download="Adhunik-Powertech-HVAC-Profile"
-                      className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
+                      className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
                         ? " text-black hover:text-black border-black "
                         : " text-white hover:text-black "
                         }`}
@@ -525,7 +526,7 @@ function Navbar() {
 
                 <div className="row flex flex-col  md:flex-row">
                   <div className="col flex justify-center items-center">   
-                    <svg xmlns="http://www.w3.org/2000/svg" className="px-2 " onClick={() => setShowSearch(!showSearch)} width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="px-2 lucide lucide-search-icon lucide-search" onClick={() => setShowSearch(!showSearch)} width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
                    
                   </div>
 
@@ -541,7 +542,7 @@ function Navbar() {
                         </svg>
                       ) : (
 
-                        <svg className="md:px-2 " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones-icon lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>
+                        <svg className="md:px-2 lucide lucide-headphones-icon lucide-headphones" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>
                        
                       )}
                     </div>
