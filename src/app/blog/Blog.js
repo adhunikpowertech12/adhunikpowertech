@@ -220,6 +220,17 @@ export default function Blog() {
       img: "/top-hvac-contractor-in-noida.webp",
     },
 
+    {
+      id: 21,
+      title: "5 Ways to Reduce Commercial HVAC Energy Consumption | Adhunik Powertech",
+
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/reduce-hvac-energy-consumption",
+      img: "/5 ways to reduce energy consumption.webp",
+    },
+
   ];
 
   return (
