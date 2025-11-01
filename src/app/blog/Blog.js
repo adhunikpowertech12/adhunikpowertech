@@ -209,6 +209,16 @@ export default function Blog() {
       img: "https://images.unsplash.com/photo-1576707995936-a6cffe26ef7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 
+    {
+      id: 20,
+      title: "Top HVAC Contractor in Noida | Adhunik Powertech",
+
+      date: "Oct 2025",
+      image:
+        "",
+      link: "/top-hvac-contractor-in-noida",
+      img: "/top-hvac-contractor-in-noida.webp",
+    },
 
   ];
 
@@ -272,7 +282,6 @@ export default function Blog() {
           </div>
         </div>
         {/* End Title */}
-
 
       </div>
     </>
