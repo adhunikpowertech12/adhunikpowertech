@@ -231,6 +231,17 @@ export default function Blog() {
       img: "/5 ways to reduce energy consumption.webp",
     },
 
+     {
+      id: 22,
+      title: "Why Your Electrical Cabinet Needs a Panel AC | Adhunik Powertech",
+
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/why-your-electrical-cabinet-needs-a-panel-ac",
+      img: "/panel ac mounted on control panel.webp",
+    },
+
   ];
 
   return (
