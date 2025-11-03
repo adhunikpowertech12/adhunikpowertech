@@ -242,6 +242,17 @@ export default function Blog() {
       img: "/panel ac mounted on control panel.webp",
     },
 
+    {
+      id: 23,
+      title: "A New Chapter of Excellence: Introducing Adhunik HVAC Projects",
+
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/a-new-chapter-of-excellence-adhunik-hvac-projects",
+      img: "/Adhunik HVAC Projects Logo.webp",
+    },
+
   ];
 
   return (
