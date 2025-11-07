@@ -48,9 +48,8 @@ export default function SiteMap() {
     { href: '/support-form', text: 'Contact Us', title: 'Contact us for expert HVAC advice' },
     { href: '/why-your-electrical-cabinet-needs-a-panel-ac', text: 'Why Your Electrical Cabinet Needs a Panel AC', title: 'Panel AC Benefits: Preventing Downtime in Electrical Cabinets' },
     { href: '/top-hvac-contractor-in-noida', text: 'Top HVAC Contractors in Noida', title: 'Best HVAC Contractor & Services in Noida for Commercial & Industrial Needs' },
-    { href: '/reduce-hvac-energy-consumption', text: 'Reduce HVAC Energy Consumption', title: 'Top 5 Ways to Reduce HVAC Energy Consumption & Save Costs' },   
-    { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Ultimate Guide to Fire Safety in Delhi NCR', title: 'The Ultimate Guide: Fire Safety & Protection Laws and Equipment in Delhi NCR' },   
-    ];
+    { href: '/reduce-hvac-energy-consumption', text: 'Reduce HVAC Energy Consumption', title: 'Top 5 Ways to Reduce HVAC Energy Consumption & Save Costs' }, 
+    { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Ultimate Guide to Fire Safety in Delhi NCR', title: 'The Ultimate Guide: Fire Safety & Protection Laws and Equipment in Delhi NCR' }
     ];
 
   return (
