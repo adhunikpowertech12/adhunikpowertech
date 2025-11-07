@@ -38,6 +38,7 @@ export default function SiteMap() {
     { href: '/india-business-award-2025', text: 'Award-Winning HVAC Services', title: 'Our award-winning HVAC solutions' },
     { href: '/10-tips-for-choosing-an-HVAC-contractor-in-india', text: '10 Tips for Choosing an HVAC Contractor in India', title: 'Guide to choosing HVAC contractors in India' },
     { href: '/what-is-hvac?', text: 'What is HVAC ?', title: 'Understanding HVAC systems' },
+    { href: '/a-new-chapter-of-excellence-adhunik-hvac-projects', text: 'Introducing Adhunik HVAC Projects', title: 'A New Chapter of Engineering Excellence' },
     { href: '/what-is-panel-air-conditioners', text: 'What is a Panel Air Conditioner?', title: 'Learn about panel ACs and their uses' },
     { href: '/what-is-a-ducted-air-cooler', text: 'What is a Ducted Air Cooler?', title: 'Guide to ducted air cooler systems' },
     { href: '/blog', text: 'Blog Page', title: 'Read our blog articles and updates' },
