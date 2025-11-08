@@ -49,7 +49,6 @@ export default function SiteMap() {
     { href: '/why-your-electrical-cabinet-needs-a-panel-ac', text: 'Why Your Electrical Cabinet Needs a Panel AC', title: 'Panel AC Benefits: Preventing Downtime in Electrical Cabinets' },
     { href: '/top-hvac-contractor-in-noida', text: 'Top HVAC Contractors in Noida', title: 'Best HVAC Contractor & Services in Noida for Commercial & Industrial Needs' },
     { href: '/reduce-hvac-energy-consumption', text: 'Reduce HVAC Energy Consumption', title: 'Top 5 Ways to Reduce HVAC Energy Consumption & Save Costs' }, 
-    { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Ultimate Guide to Fire Safety in Delhi NCR', title: 'The Ultimate Guide: Fire Safety & Protection Laws and Equipment in Delhi NCR' }
     { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Fire Safety Guide-Delhi NCR Protection Systems', title: 'Essential fire safety tips, compliance, and top protection services in Delhi/NCR' },
     { href: '/fire-extinguisher-guide-for-delhi-ncr', text: 'Fire Extinguisher Guide for Delhi NCR ', title: 'Know which fire extinguisher to use. Selection, types, and installation rules for Delhi NCR. ' },
     { href: '/central-air-conditioning-systems-in-delhi-ncr', text: 'Central AC Systems for Delhi NCR Commercial Spaces ', title: 'Expert installation and maintenance of Central Air Conditioning for businesses in Delhi NCR ' },
