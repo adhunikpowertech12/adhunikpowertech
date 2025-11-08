@@ -50,7 +50,16 @@ export default function SiteMap() {
     { href: '/top-hvac-contractor-in-noida', text: 'Top HVAC Contractors in Noida', title: 'Best HVAC Contractor & Services in Noida for Commercial & Industrial Needs' },
     { href: '/reduce-hvac-energy-consumption', text: 'Reduce HVAC Energy Consumption', title: 'Top 5 Ways to Reduce HVAC Energy Consumption & Save Costs' }, 
     { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Ultimate Guide to Fire Safety in Delhi NCR', title: 'The Ultimate Guide: Fire Safety & Protection Laws and Equipment in Delhi NCR' }
-    ];
+    { href: '/the-ultimate-guide-to-fire-safety-and-protection-in-delhi-ncr', text: 'Fire Safety Guide-Delhi NCR Protection Systems', title: 'Essential fire safety tips, compliance, and top protection services in Delhi/NCR' },
+    { href: '/fire-extinguisher-guide-for-delhi-ncr', text: 'Fire Extinguisher Guide for Delhi NCR ', title: 'Know which fire extinguisher to use. Selection, types, and installation rules for Delhi NCR. ' },
+    { href: '/central-air-conditioning-systems-in-delhi-ncr', text: 'Central AC Systems for Delhi NCR Commercial Spaces ', title: 'Expert installation and maintenance of Central Air Conditioning for businesses in Delhi NCR ' },
+    { href: '/adhunik-hvac-projects-the-legacy-of-adhunik-powertech', text: 'Adhunik HVAC Projects: Powertech Engineering Legacy', title: 'Explore the successful HVAC projects defining the engineering legacy of Adhunik Powertech. ' },
+    { href: '/how-to-prevent-overheating-in-electrical-cabinets', text: 'Prevent Electrical Cabinet Overheating ', title: 'Prevent Electrical Cabinet Overheating: Essential Tips ' },
+    { href: '/top-fire-fighting-contractors-in-delhi', text: ' Top Fire Fighting Contractors in Delhi', title: 'Top Fire Fighting Contractors in Delhi' },
+    { href: '/hvac-thumb-rule-and-formulas', text: 'Thumb Rules & Formulas ', title: 'Essential HVAC Thumb Rules & Formulas for Quick Design' },
+    { href: '/difference-between-bldc-and-normal-fan', text: 'BLDC vs Normal fan ', title: 'BLDC vs. Normal Fans: Energy Savings Compared' },
+    { href: '/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space', text: 'HVAC Contractor for Commercial & Industrial Sites ', title: 'Best HVAC Contractor for Commercial & Industrial Sites' },
+     ];
 
   return (
     <>
