@@ -252,6 +252,16 @@ export default function Blog() {
       link: "/a-new-chapter-of-excellence-adhunik-hvac-projects",
       img: "/Adhunik HVAC Projects Logo.webp",
     },
+     {
+      id: 24,
+      title: "HVAC Experts Gurugram: AC & Heating Services",
+
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/hvac-experts-in-gurugram",
+      img: "/hvacexperts.webp",
+    },
 
   ];
 
