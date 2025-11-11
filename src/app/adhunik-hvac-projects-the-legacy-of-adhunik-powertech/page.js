@@ -32,7 +32,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "http://localhost:3000/_next/image?url=%2FHVAC-contractor2.webp&w=1080&q=75",  
+        url: "/adhunik-blog.webp",  
         width: 1200, 
         height: 630, 
         alt: "Announcing the launch of Adhunik HVAC Projects",
@@ -48,7 +48,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Adhunik HVAC Projects: The Legacy of Adhunik Powertech",
     description: "Discover the next chapter in our 19+ year engineering legacy. Adhunik HVAC Projects is the new company born from Adhunik Powertech's award-winning HVAC expertise.",
-    image: "http://localhost:3000/_next/image?url=%2FHVAC-contractor2.webp&w=1080&q=75",  
+    image: "/adhunik-blog.webp",  
   },
 };
 
