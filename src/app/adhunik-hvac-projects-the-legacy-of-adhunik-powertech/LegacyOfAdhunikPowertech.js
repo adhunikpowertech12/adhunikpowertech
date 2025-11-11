@@ -217,7 +217,7 @@ export default function LegacyOfAdhunikPowertech() {
             <div className=" w-full md:w-6/12">
 
               <Image
-                src="https://www.daikin.com.mt/en_us/about/case-studies/supplying-a-complete-hvac-system-for-an-office-building/_jcr_content/image43.coreimg.png/1687764457327/dji-0044-2048x1152.png"
+                src="/adhunik-blog.webp"
                 alt="Commercial HVAC System"
                 width={700}
                 loading="lazy"
