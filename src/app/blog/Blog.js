@@ -263,6 +263,18 @@ export default function Blog() {
       img: "/hvacexperts.webp",
     },
 
+      {
+      id: 25,
+      title: "Leading Panel AC Manufacturers & Authorised Government Supplier in India",
+
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/panel-ac-manufacturers-&-authorised-government-supplier-in-india",
+      img: "/panelac.webp",
+    },
+
+
   ];
 
   return (
