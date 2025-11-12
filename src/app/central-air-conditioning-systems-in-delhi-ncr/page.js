@@ -1,7 +1,6 @@
 import React from 'react'
 import CentralAcSystem from './CentralAcSystem'
 
-
 export const metadata = {
   title: "Central Air Conditioning Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
   description:
@@ -57,7 +56,7 @@ export const metadata = {
     title: "Central Air Conditioning : Contractor Guide to Top & Energy-Efficient Solutions | Adhunik Powertech",
     description:
       "Choosing Central Air Conditioning in Delhi NCR? Discover how a top contractor ensures energy efficiency, IAQ & cost savings. Adhunik Powertech offers turnkey solutions for commercial, industrial & residential projects. Read our guide!",
-    url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757415857/wmremove-transformed_qczj9f.webp", // IMPORTANT: Update with the actual blog post URL
+    url: "https://www.adhunikpowertech.com/central-air-conditioning-systems-in-delhi-ncr", // IMPORTANT: Update with the actual blog post URL
     type: "article",
     images: [
       {
@@ -71,8 +70,7 @@ export const metadata = {
 
   robots: "index, follow",
   alternates: {
-    canonical:
-      "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1757415857/wmremove-transformed_qczj9f.webp", // IMPORTANT: Update with the actual canonical URL
+    canonical:"https://www.adhunikpowertech.com/central-air-conditioning-systems-in-delhi-ncr", // IMPORTANT: Update with the actual canonical URL
   },
   twitter: {
     card: "summary_large_image",
