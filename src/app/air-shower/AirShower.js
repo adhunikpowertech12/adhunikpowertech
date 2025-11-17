@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image'; // Import the Image component for better optimization
+import React from 'react';
 
 export default function AirShower() {
 
