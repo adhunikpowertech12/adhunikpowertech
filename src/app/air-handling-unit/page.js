@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     title: "High-Performance Air Handling Units (AHUs) | Adhunik Powertech",
     description: "Engineered for superior air quality and efficiency, our custom Air Handling Units are the trusted choice for commercial, industrial, and pharmaceutical applications in India.",
-    url: "https://www.adhunikpowertech.com/air-Handling-unit", 
+    url: "https://www.adhunikpowertech.com/air-handling-unit", 
     type: "website",
     images: [
       {
@@ -44,7 +44,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/air-Handling-unit",  
+    canonical: "https://www.adhunikpowertech.com/air-handling-unit",  
   },
 
   twitter: {
