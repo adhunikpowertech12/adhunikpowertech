@@ -75,7 +75,7 @@ export const metadata = {
   openGraph: {
     title: "HVAC Excellence: 20 Years of Innovation | Adhunik Powertech",
     description: "Adhunik Powertech: 20 years of HVAC leadership in Delhi. Learn expert formulas, thumb rules, & real case studies for commercial & cleanroom efficiency.",
-    url: "https://www.adhunikpowertech.com/blog/hvac-excellence-20-years-innovation", // Placeholder: Adjust to your actual blog post URL
+    url: "https://www.adhunikpowertech.com/blog/hvac-thumb-rule-and-formulas", // Placeholder: Adjust to your actual blog post URL
     type: "article",
     images: [
       {
@@ -88,7 +88,7 @@ export const metadata = {
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/blog/hvac-excellence-20-years-innovation", // Placeholder: Adjust to your actual canonical URL for this blog post
+    canonical: "https://www.adhunikpowertech.com/blog/hvac-thumb-rule-and-formulas", // Placeholder: Adjust to your actual canonical URL for this blog post
   },
   twitter: {
     card: "summary_large_image",
