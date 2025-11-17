@@ -56,7 +56,7 @@ export const metadata = {
   openGraph: {
     title: "Adhunik Air Care BLDC Ceiling Fans: Save Energy | Delhi, Gurugram",
     description: "Cut electricity bills with Adhunik Air Care BLDC fans. Enjoy silent operation, 3X inverter backup, and smart features. Get a free quote for SimpleX, Venessa Lumo, and Venessa Blink models. Made in India, 3-year warranty.",
-    url: "https://www.adhunikpowertech.com/BLDC-fans",  
+    url: "https://www.adhunikpowertech.com/bldc-fans",  
     type: "website",  
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata = {
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/BLDC-fans",  
+    canonical: "https://www.adhunikpowertech.com/bldc-fans",  
   },
   twitter: {
     card: "summary_large_image",
