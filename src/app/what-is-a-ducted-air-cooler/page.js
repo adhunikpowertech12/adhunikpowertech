@@ -45,7 +45,7 @@ export const metadata = {
     description:
       "Learn what a Ducted air cooler is and how it works. Our guide covers key components, benefits like energy efficiency & improved air quality, and ideal applications for industrial and commercial spaces.",
 
-    url: "https://www.adhunikpowertech.com/what-is-a-Ducted-air-cooler", 
+    url: "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler", 
 
     type: "article",
 
@@ -66,7 +66,7 @@ export const metadata = {
   alternates: {
     
     canonical:
-      "https://www.adhunikpowertech.com/what-is-a-Ducted-air-cooler", 
+      "https://www.adhunikpowertech.com/what-is-a-ducted-air-cooler", 
 
   },
 
