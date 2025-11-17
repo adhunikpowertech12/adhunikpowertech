@@ -28,7 +28,7 @@ export const metadata = {
   openGraph: {
     title: "A Legacy Reimagined: Introducing Adhunik HVAC Projects",
     description: "Discover the next chapter in our 19+ year engineering legacy. Adhunik HVAC Projects is the new, specialized company born from Adhunik Powertech's award-winning expertise.",
-    url: "https://www.adhunikpowertech.com/adhunik-HVAC-projects-the-legacy-of-adhunik-powertech",  
+    url: "https://www.adhunikpowertech.com/adhunik-hvac-projects-the-legacy-of-adhunik-powertech",  
     type: "article",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/adhunik-HVAC-projects-the-legacy-of-adhunik-powertech",  
+    canonical: "https://www.adhunikpowertech.com/adhunik-hvac-projects-the-legacy-of-adhunik-powertech",  
   },
 
   twitter: {
