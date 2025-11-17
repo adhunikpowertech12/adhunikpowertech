@@ -21,13 +21,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/blog/why-your-electrical-cabinet-needs-a-panel-ac",
+    canonical: "/why-your-electrical-cabinet-needs-a-panel-ac",
   },
 
   openGraph: {
     title: "Why Your Electrical Cabinet Needs a Panel AC | Adhunik Powertech",
     description: "Stop costly VFD & PLC trips. Learn the pain points of not using a Panel AC and how Adhunik Powertech's industrial cooling solutions ensure 100% uptime.",
-    url: "/blog/why-your-electrical-cabinet-needs-a-panel-ac",
+    url: "/why-your-electrical-cabinet-needs-a-panel-ac",
     type: "article",
     images: [
       {
