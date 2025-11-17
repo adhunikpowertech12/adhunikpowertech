@@ -38,7 +38,7 @@ export const metadata = {
     title: "What is an Air Washer ? A Guide to Air Cooling & Purification | Adhunik Powertech",
     description:
       "Learn what an air Washer is, how it works, and its benefits. Our guide covers key features, the technology behind industrial air cooling & purification, and ideal applications for industrial and commercial spaces.",
-    url: "https://www.adhunikpowertech.com/what-is-an-air-Washer", 
+    url: "https://www.adhunikpowertech.com/what-is-an-air-washer", 
     type: "article",
     images: [
       {
@@ -51,7 +51,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/what-is-an-air-Washer", 
+      "https://www.adhunikpowertech.com/what-is-an-air-washer", 
   },
   twitter: {
     card: "summary_large_image",
