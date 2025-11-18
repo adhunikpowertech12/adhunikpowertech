@@ -274,7 +274,15 @@ export default function Blog() {
       img: "/panelac.webp",
     },
 
-
+      {
+      id: 26,
+      title: "Why Panel AC Is Your Best Investment in 2025 | Adhunik Powertech",
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/why-panel-ac-is-your-best-investment",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1763445437/Panelac-blog_xk9t4l.webp",
+    },
   ];
 
   return (
