@@ -270,7 +270,7 @@ export default function Blog() {
       date: "Nov 2025",
       image:
         "",
-      link: "/panel-ac-manufacturers-&-authorised-government-supplier-in-india",
+      link: "/panel-ac-manufacturers-&-authorised-govt-supplier",
       img: "/panelac.webp",
     },
 
