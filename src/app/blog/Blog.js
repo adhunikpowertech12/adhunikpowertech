@@ -283,6 +283,16 @@ export default function Blog() {
       link: "/why-panel-ac-is-your-best-investment",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1763445437/Panelac-blog_xk9t4l.webp",
     },
+
+     {
+      id: 27,
+      title: "7-Checklist Points to Maintain Your Hydraulic Oil Chiller",
+      date: "Nov 2025",
+      image:
+        "",
+      link: "/oil-chiller-maintenance-alerts",
+      img: "/hydraulic-oil-chiller.webp",
+    },
   ];
 
   return (

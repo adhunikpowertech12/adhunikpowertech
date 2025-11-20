@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
     // UPDATED TITLE (Under 60 Characters for optimal visibility)
-    title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik",
+    title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
     description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
 
     keywords: [
@@ -34,7 +34,7 @@ export const metadata = {
 
     openGraph: {
         // UPDATED OpenGraph Title
-        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik",
+        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
         description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
         url: "/panel-ac-manufacturers-&-authorised-government-supplier-in-india",
         type: "article",
@@ -47,7 +47,7 @@ export const metadata = {
             },
         ],
     },
-
+    robots: "index, follow",
     twitter: {
         card: "summary_large_image",
         // UPDATED Twitter Title

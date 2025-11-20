@@ -59,6 +59,9 @@ export default function SiteMap() {
     { href: '/difference-between-bldc-and-normal-fan', text: 'BLDC vs Normal fan ', title: 'BLDC vs. Normal Fans: Energy Savings Compared' },
     { href: '/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space', text: 'HVAC Contractor for Commercial & Industrial Sites ', title: 'Best HVAC Contractor for Commercial & Industrial Sites' },
     { href: '/hvac-experts-in-gurugram', text: 'HVAC Experts in Gurugram ', title: 'HVAC Experts in Gurugram: Best Air Conditioning & Heating Services' },
+    { href: '/why-panel-ac-is-your-best-investment', text: 'why-panel-ac-is-your-best-investment ', title: 'Best Investment for 2025: Panel AC Explained | Trusted Govt-Authorized Provider' },
+    { href: '/panel-ac-manufacturers-&-authorised-govt-supplier', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech' },
+    { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: '7-Point Checklist to Maintain Your Hydraulic Oil Chiller' },
     
     
     ];

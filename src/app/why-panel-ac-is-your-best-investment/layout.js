@@ -38,7 +38,7 @@ export const metadata = {
       },
     ],
   },
-
+  robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "Why Panel AC Is Your Best Investment in 2025 | Certified Supplier",
