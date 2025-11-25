@@ -22,7 +22,7 @@ export const metadata = {
       url: "https://www.adhunikpowertech.com/india-business-award-2025",
       siteName: "Adhunik Powertech", 
       locale: "en_IN",
-      type: "website",
+      type: "article",
     },
     robots: "index, follow",
     twitter: {
