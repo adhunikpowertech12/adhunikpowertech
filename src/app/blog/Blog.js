@@ -34,7 +34,7 @@ export default function Blog() {
       image:
         "",
       link: "/what-is-panel-air-conditioners",
-      img: "/pab.png",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764057226/pab_ffjxx7.webp",
     },
 
     {
