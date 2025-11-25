@@ -130,7 +130,7 @@ export default function WhatIsPanelAir() {
                 fetchPriority="high"
                 decoding="async"
                 alt="panelac"
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764052390/panel_ac_upper_image_r6ukhc.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764057226/pab_ffjxx7.webp"
                 
               />
             </div>
