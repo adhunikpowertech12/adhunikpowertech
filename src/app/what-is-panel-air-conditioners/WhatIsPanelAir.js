@@ -129,8 +129,8 @@ export default function WhatIsPanelAir() {
                 className="   h-full w-full  object-center object-fill rounded-2xl "
                 fetchPriority="high"
                 decoding="async"
-                alt="Air washer"
-                src="/blog/pa.png"
+                alt="panelac"
+                src="/panelac.webp"
                 
               />
             </div>
