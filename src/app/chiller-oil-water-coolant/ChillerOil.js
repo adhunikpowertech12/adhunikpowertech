@@ -535,7 +535,7 @@ export default function ChillerOil() {
 
             <div className="w-full   flex justify-center">
               <Image
-                src="/awi/16.jpeg"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764134596/oil-chiller_qrrlqx.webp"
                 alt="Hydraulic Oil Chiller"
                 className="rounded-2xl   object-center object-contain"
                 width={350}
