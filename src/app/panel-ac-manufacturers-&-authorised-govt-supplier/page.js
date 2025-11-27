@@ -29,14 +29,14 @@ export const metadata = {
 
     // Canonical link for SEO
     alternates: {
-        canonical: "/panel-ac-manufacturers-&-authorised-government-supplier-in-india",
+        canonical: "/panel-ac-manufacturers-&-authorised-govt-supplier",
     },
 
     openGraph: {
         // UPDATED OpenGraph Title
         title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
         description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
-        url: "/panel-ac-manufacturers-&-authorised-government-supplier-in-india",
+        url: "/panel-ac-manufacturers-&-authorised-govt-supplier",
         type: "article",
         images: [
             {
