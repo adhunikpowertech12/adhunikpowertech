@@ -804,7 +804,7 @@ export default function PanelAirConditioners() {
                         <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
 
                           <Image
-                            className="h-[30rem] object-center object-fill"
+                            className="w-full h-auto object-contain"
                              
                                 loading="lazy"
                             alt={product.altText}
