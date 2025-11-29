@@ -790,39 +790,30 @@ export default function PanelAirConditioners() {
           </div>
 
 
-
-          {products3.map((product) => (
-
-
-            <div key={product.id} className="h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4">
-
-              <div className="md:w-[40%] w-auto">
-                <div className="flex items-center justify-center h-full">
-                  <div>
-                    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 rounded-xl">
-                      <div className="w-auto">
-                        <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
-
-                          <Image
-                            className="w-full h-auto object-contain"
-                             
-                                loading="lazy"
-                            alt={product.altText}
-                            src={product.imageSrc}
-                            width={600}
-                            height={700}
-                            layout="responsive"
-                          />
-                        </div>
-                      </div>
-
-
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+{products3.map((product) => (
+  <div 
+    key={product.id} 
+    className="h-full flex flex-col md:flex-row text-center md:p-5 bg-[#F4F4F4] m-4 rounded-xl"
+  >
+    {/* Image Container: Width set to 40% on desktop, full on mobile */}
+    <div className="w-full md:w-[40%] flex items-center-justify-center p-4">
+      
+      {/* Interactive Wrapper: Handles shape, shadow, and overflow */}
+      <div className="group relative overflow-hidden rounded-sm shadow-md transition-shadow duration-200 hover:shadow- hover:shadow-black/20">
+        
+        <Image
+          src={product.imageSrc}
+          alt={product.altText}
+          width={600}
+          height={700}
+          // w-full h-auto makes it responsive. 
+          // object-cover fills the box, object-contain ensures the whole product is seen.
+          className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-110"
+          loading="lazy"
+        />
+        
+      </div>
+    </div>
 
 
               <div className="md:w-[60%] w-auto h-full p-2 m-2 md:p-5 md:m-5 text-center">
