@@ -184,7 +184,7 @@ export default function PanelACInvestmentBlog() {
                                     Massive Energy Savings
                                 </span>
                             </div>
-                            <div className="flex items-center gap-2 p-3 bg-cyan-50 rounded-lg">
+                            <div className="flex items-center gap-2 p-3 bg-blue-50 rounded-lg">
                                 <Gavel className="w-6 h-6 text-cyan-700" />
                                 <span className="font-semibold text-cyan-800 text-sm">
                                     Authorised Govt. Quality
