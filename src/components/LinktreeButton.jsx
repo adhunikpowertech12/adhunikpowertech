@@ -1,13 +1,12 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 // --- Configuration ---
-const QR_CODE_IMAGE_URL = "/linktree-qr.svg"; // Ensure this file is in your public folder
+const QR_CODE_IMAGE_URL = "/linktree-qr.svg"; 
 
 // --- ICONS ---
 
-// Official Linktree Icon
+// Official Linktree Icon (Green Logo)
 const LinktreeIcon = ({ size = 24 }) => (
     <svg 
         xmlns="http://www.w3.org/2000/svg" 
@@ -19,9 +18,10 @@ const LinktreeIcon = ({ size = 24 }) => (
         viewBox="0 0 417 512.238"
         width={size}
         height={size}
-        fill="currentColor" // Changed from #43E660 to currentColor so it shows as white
     >
+        {/* We keep the official Green fill here */}
         <path 
+            fill="#43E660" 
             fillRule="nonzero" 
             d="M171.274 344.942h74.09v167.296h-74.09V344.942zM0 173.468h126.068l-89.622-85.44 49.591-50.985 85.439 87.829V0h74.086v124.872L331 37.243l49.552 50.785-89.58 85.24H417v70.502H290.252l90.183 87.629L331 381.192 208.519 258.11 86.037 381.192l-49.591-49.591 90.218-87.631H0v-70.502z"
         />
@@ -46,7 +46,6 @@ const LinktreeButton = () => {
         setIsPopupOpen(false);
     };
 
-    // Handler to close the modal if the backdrop is clicked.
     const handleBackdropClick = (e) => {
         if (e.target === e.currentTarget) {
             closePopup();
@@ -67,23 +66,24 @@ const LinktreeButton = () => {
     return (
         <>
             {/* The Floating Button */}
-            <div className="fixed bottom-[166px] right-6 z-[999] group transition-all duration-500 hover:-translate-y-3">
+            <div className="fixed bottom-[166px] right-6 z-[999] group transition-all duration-500 hover:-translate-y-2">
                 <div className="relative group/tooltip">
                     <button
                         onClick={openPopup}
-                        // Green coloring for Linktree
-                        className="w-14 h-14 bg-[#43E660] hover:bg-[#39D455] rounded-full p-2 text-white shadow-xl transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/50 flex items-center justify-center"
-                        aria-label="Connect on Linktree"
+                        // UPDATED: Changed bg-[#43E660] to bg-white. 
+                        // Removed hover:bg-[#39D455] so it doesn't turn green and hide the logo.
+                        className="w-14 h-14 bg-white hover:bg-gray-100 rounded-full p-2 shadow-xl transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-500/30 flex items-center justify-center border border-gray-100"
+                        aria-label="Connect via Linktree"
                     >
-                        {/* Adjusted size to fit the button nicely */}
-                        <LinktreeIcon size={26} />
+                        {/* The Icon is Green (#43E660), so it will show up perfectly on the White button */}
+                        <LinktreeIcon size={28} />
                     </button>
                     
-                    {/* Custom Tooltip (Same style as Google Button) */}
+                    {/* Tooltip */}
                     <span
-                        className="absolute right-full top-1/2 -translate-y-1/2 mr-3 px-3 py-1 bg-gray-700 text-white text-sm rounded-lg whitespace-nowrap opacity-0 group-hover/tooltip:opacity-100 transition-opacity duration-300 pointer-events-none"
+                        className="absolute right-full top-1/2 -translate-y-1/2 mr-3 px-3 py-1 bg-gray-800 text-white text-sm rounded-lg whitespace-nowrap opacity-0 group-hover/tooltip:opacity-100 transition-opacity duration-300 pointer-events-none shadow-sm"
                     >
-                        Connect on Linktree
+                        Connect via Linktree
                     </span>
                 </div>
             </div>
@@ -99,22 +99,20 @@ const LinktreeButton = () => {
                         role="dialog"
                         aria-modal="true"
                     >
-                        {/* Close Button */}
                         <button
                             onClick={closePopup}
-                            className="absolute top-3 right-3 p-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-full transition-colors duration-200"
+                            className="absolute top-3 right-3 p-2 bg-gray-100 hover:bg-gray-200 text-gray-600 rounded-full transition-colors duration-200"
                             aria-label="Close modal"
                         >
                             <CloseIcon size={20} />
                         </button>
 
-                        {/* QR Code Image */}
                         <img
-                            src="/linktree-qr.svg"
+                            src={QR_CODE_IMAGE_URL}
                             alt="Scan to connect on Linktree"
                             width={400}
                             height={400}
-                            className="w-full h-auto rounded-xl shadow-lg"
+                            className="w-full h-auto rounded-xl shadow-sm border border-gray-100"
                             onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/400x400/EF4444/FFFFFF?text=Image+Error"; }}
                         />
                         
