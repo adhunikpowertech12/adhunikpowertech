@@ -9,6 +9,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import Security from "@/components/Security";
 import Home from "@/components/MyComponent";
 import FloatingActionButtons from "@/components/FloatingActionButtons";
+import LinktreeButton from "@/components/LinktreeButton";
  
 
 
@@ -177,6 +178,7 @@ export default function RootLayout({ children }) {
         
 
             <FloatingActionButtons />
+            <LinktreeButton />
         <Analytics />
         <SpeedInsights />
         <Header />
