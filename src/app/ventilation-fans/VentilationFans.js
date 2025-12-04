@@ -255,8 +255,8 @@ export default function VentilationFans() {
           <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
             <div className=" w-full   h-full  md:w-6/12">
               <img
-                src="https://images.pexels.com/photos/5502720/pexels-photo-5502720.jpeg"
-                alt="Commercial HVAC System"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764840885/Ventilation_fan_qb77j1.webp"
+                alt="Close-up view of two large industrial ventilation fans mounted"
                 loading="lazy"
                 className="w-full h-full  object-center object-contain"
               />
