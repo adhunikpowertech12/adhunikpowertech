@@ -650,7 +650,7 @@ width="600"
           </div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h2 className="font-dmserif text-xl font-bold text-white">  Exhaust Fan (PP)
+            <h2 className="font-dmserif text-xl font-bold text-white">  Exhaust Fan (SS)
             </h2>
             <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             Experience the peace of mind that comes with our stainless steel Exhaust Fans. Their robust construction ensures years of reliable operation and corrosion resistance.  </p>
