@@ -865,7 +865,7 @@ export const BldcFans = () => {
                     <p className="text-gray-600 mb-4">
                       Free professional installation available. Our support team is available 7 days a week.
                     </p>
-                    <Link href="support-form" className="bg-cyan-600 w-56 text-white px-5 py-2 rounded-lg hover:bg-cyan-700 transition flex items-center">
+                    <Link href="/support-form" className="bg-cyan-600 w-56 text-white px-5 py-2 rounded-lg hover:bg-cyan-700 transition flex items-center">
                       <MessageSquare className="w-4 h-4 mr-2" />
                       Contact Support
                     </Link>

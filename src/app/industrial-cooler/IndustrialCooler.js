@@ -460,7 +460,7 @@ export default function IndustrialCooler() {
 
             </section>
 
-            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5 m-4">
 
               <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                 <div className="flex items-center justify-center h-full">
@@ -487,7 +487,7 @@ export default function IndustrialCooler() {
               ))}
             </ul>
  
-            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5 m-4">
               <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                 <div className="flex items-center justify-center h-full">
 
@@ -559,7 +559,7 @@ export default function IndustrialCooler() {
 
             </section>
 
-            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 mt-0 m-4">
               <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                 <div className="flex items-center justify-center h-full">
 
@@ -588,7 +588,7 @@ export default function IndustrialCooler() {
 
 
 
-            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+            <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5 mt-0 m-4">
               <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                 <div className="flex items-center justify-center h-full">
 
@@ -629,7 +629,7 @@ export default function IndustrialCooler() {
 
 
             <div className="box hidden md:block">
-              <div className="  h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+              <div className="  h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-0 m-4">
                 <div className=" w-full md:p-7 md:pt-0   rounded-xl">
                   <div className="flex items-center justify-center h-full">
 
