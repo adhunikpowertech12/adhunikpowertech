@@ -128,13 +128,13 @@ export default function page() {
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
     },
-   
+   {/* 
     {
       src: "/projects/clients/27.webp",
       alt: "Ducted Air Coolers",
       borderColor: "border-yellow-500", // Custom border color
-    },
-   
+    },*/},
+
     { src: "/projects/clients/28.webp", alt: "Air Purifiers", borderColor: "border-blue-500" },
     { src: "/projects/clients/29.webp", alt: "Air Conditioners", borderColor: "border-green-500" },
     { src: "/projects/clients/33.webp", alt: "Smart Climate Control", borderColor: "border-pink-500" },
