@@ -668,20 +668,20 @@ export const BldcFans = () => {
 
 
 
-            {/* Price */}
-            <div className="bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl border border-cyan-100">
-              <div className="flex  items-center justify-center md:justify-start ">
-                <span className=" text-lg md:text-2xl font-bold text-cyan-700">₹{currentVariant.price.toLocaleString()}</span>
-                <span className="ml-3 text-sm text-gray-500 line-through">₹{currentVariant.regularPrice.toLocaleString()}</span>
-                <span className="ml-3 bg-cyan-600 text-white px-3 py-1 rounded-full text-[12px] ">
-                  Save ₹{(currentVariant.regularPrice - currentVariant.price).toLocaleString()}
-                </span>
-              </div>
-              <div className="mt-2 text-green-600  text-sm text-center justify-center md:justify-start flex items-center">
-                <Check className="w-5 h-5 mr-1" />
-                Free Shipping & Installation
-              </div>
-            </div>
+           {/* Price */}
+            <div className="bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl border border-cyan-100">
+              <div className="flex  items-center justify-center md:justify-start ">
+                <span className=" text-lg md:text-2xl font-bold text-cyan-700">₹{currentVariant.price.toLocaleString()}</span>
+                <span className="ml-3 text-sm text-gray-500 line-through">₹{currentVariant.regularPrice.toLocaleString()}</span>
+                <span className="ml-3 bg-cyan-600 text-white px-3 py-1 rounded-full text-[12px] ">
+                  Save ₹{(currentVariant.regularPrice - currentVariant.price).toLocaleString()}
+                </span>
+              </div>
+              <div className="mt-2 text-green-600  text-sm text-center justify-center md:justify-start flex items-center">
+                <Check className="w-5 h-5 mr-1" />
+                Free Shipping & Installation
+              </div>
+            </div>
 
 
 
