@@ -64,45 +64,45 @@ export default function TechmarkSCUPage() {
       <div className="font-sans text-slate-900 bg-white selection:bg-blue-100 selection:text-blue-900">
         
         {/* SECTION 1: HERO - High Impact & Keyword Rich */}
-        <section className="relative pt-20 pb-20 lg:pt-32 lg:pb-28 overflow-hidden">
-          <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-blue-50 rounded-full blur-3xl opacity-50 z-0"></div>
-          
-          <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-              <div className="w-full lg:w-3/5">
-                <header>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-wider mb-6">
-                    <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
-                    IDEC Technology
-                    </div>
-                    <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-                    Cool Air. Zero Moisture. <br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
-                        Max Energy Savings.
-                    </span>
-                    </h1>
-                </header>
+     <section className="relative pt-28 pb-20 lg:pt-32 lg:pb-28 overflow-hidden"> {/* CHANGED pt-20 to pt-28 */}
+    <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-blue-50 rounded-full blur-3xl opacity-50 z-0"></div>
+  
+  <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+      <div className="w-full lg:w-3/5">
+        <header>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-wider mb-6">
+            <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+            IDEC Technology
+          </div>
+          <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+            Cool Air. Zero Moisture. <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
+              Max Energy Savings.
+            </span>
+          </h1>
+        </header>
                 
-                <article className="prose prose-lg text-slate-600 mb-8 max-w-2xl text-justify">
-                  <p>
-                    The <strong>Techmark Sensible Cooling Unit (SCU)</strong> represents a paradigm shift in industrial thermal management. Unlike traditional evaporative coolers that saturate air with humidity, our SCU utilizes cutting-edge <strong>Indirect Evaporative Cooling (IDEC)</strong> technology.
-                  </p>
-                  <p className="mt-4">
-                    Designed for high-heat environments like <strong>Data Centers, Pharmaceutical Labs, and Textile Mills</strong>, the SCU achieves a dry bulb depression of up to <strong>13°C</strong> while maintaining constant specific humidity. This effectively decouples the sensible heat load from your primary AHU, slashing operational expenses (OpEx) while extending the lifespan of your mechanical chillers.
-                  </p>
-                </article>
+          <article className="prose prose-lg text-slate-600 mb-8 max-w-2xl text-justify">
+            <p>The <strong>Techmark Sensible Cooling Unit (SCU)</strong> represents a paradigm shift in industrial thermal management. Unlike traditional evaporative coolers that saturate air with humidity, our SCU utilizes cutting-edge <strong>Indirect Evaporative Cooling (IDEC)</strong> technology.
+            </p>
+            <p className="mt-4">
+              Designed for high-heat environments like <strong>Data Centers, Pharmaceutical Labs, and Textile Mills</strong>, the SCU achieves a dry bulb depression of up to <strong>13°C</strong> while maintaining constant specific humidity. This effectively decouples the sensible heat load from your primary AHU, slashing operational expenses (OpEx) while extending the lifespan of your mechanical chillers.
+          </p>
+        </article>
 
-                <div className="flex flex-wrap gap-4">
-                  <Link href="/support-form" className="group bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/30 flex items-center gap-2">
-                    Request Pricing
-                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                  <a href="/Techmark SCU (Sensible Cooling Unit) Catalogue 2025.pdf" download className="group bg-white border border-slate-200 hover:border-blue-400 text-slate-700 hover:text-blue-700 font-semibold py-4 px-8 rounded-lg transition-all duration-300 flex items-center gap-2">
+          {/* BUTTON CONTAINER - ADDED justify-center and lg:justify-start */}
+          <div className="flex flex-wrap gap-4 justify-center lg:justify-start"> 
+            <Link href="/support-form" className="group bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/30 flex items-center gap-2">
+              Request Pricing
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+                <a href="/Techmark SCU (Sensible Cooling Unit) Catalogue 2025.pdf" download className="group bg-white border border-slate-200 hover:border-blue-400 text-slate-700 hover:text-blue-700 font-semibold py-4 px-8 rounded-lg transition-all duration-300 flex items-center gap-2">
                     <Download className="w-5 h-5 text-slate-400 group-hover:text-blue-600" />
-                    Download Catalogue
-                  </a>
-                </div>
-              </div>
+                      Download Catalogue
+                </a>
+          </div>
+       </div>
               
               <div className="w-full lg:w-1/4 relative">
                 <figure className="relative rounded-2xl bg-gradient-to-b from-slate-100 to-white border border-slate-200 shadow-2xl p-2">
@@ -167,7 +167,7 @@ export default function TechmarkSCUPage() {
              <div className="flex flex-col xl:flex-row gap-16 items-start">
                 
                 {/* Left Side: The Diagram */}
-                <div className="w-full xl:w-3/5 sticky top-24">
+                <div className="w-full xl:w-3/5 top-24">
                    <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 shadow-inner">
                       <figure className="bg-white rounded-xl overflow-hidden border border-slate-100">
                         <Image 
