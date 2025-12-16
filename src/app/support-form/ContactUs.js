@@ -3,13 +3,20 @@ import Image from 'next/image';
 import { Suspense, useRef, useState } from 'react';
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
-
+// 🌟 REQUIRED: Import the reCAPTCHA hook
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'; 
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/navigation';
 
 export default function ContactUs() {
+    // 🌟 REQUIRED: Initialize the reCAPTCHA hook
+    const { executeRecaptcha } = useGoogleReCaptcha();
+    
     const notifye = () => toast.error(" Invalid Details ");
     const notifys = () => toast(" Message Sent ");
+    // 🌟 REQUIRED: Notification for bot detection
+    const notifyBot = () => toast.error(" reCAPTCHA failed. Please try again. "); 
+    
     const router = useRouter();
     const phoneNumber = "8287885885";
 
@@ -19,9 +26,7 @@ export default function ContactUs() {
     const emailAddress = "info@adhunikpowertech.com";
 
     const handleEmailSend = () => {
-
         window.location.href = `mailto:${emailAddress}`;
-        
     };
     const locationAddress = "DCG1-0102, Tower -1, DLF Corporate Green Sector-74A Gurugram (HR) 122004";
 
@@ -31,7 +36,6 @@ export default function ContactUs() {
         // Opening the URL in a new tab
         window.open(mapsUrl, '_blank');
     };
-
 
 
     const [formData, setFormData] = useState({
@@ -58,7 +62,6 @@ export default function ContactUs() {
         }
         if (formData.phoneNumber.trim() === "") {
             newErrors.phoneNumber = "Phone Number is required";
-
         }
         else if (!/^\d{10}$/.test(formData.phoneNumber)) {
             newErrors.phoneNumber = "Phone Number must be exactly 10 digits";
@@ -82,27 +85,60 @@ export default function ContactUs() {
         return Object.keys(newErrors).length === 0;
     };
 
-    const sendEmail = (e) => {
+    // 🌟 REQUIRED: Updated to async to handle reCAPTCHA verification
+    const sendEmail = async (e) => {
         e.preventDefault();
 
         if (validateForm()) {
+            
+            // -----------------------------------------------------------
+            // START: RECAPTCHA EXECUTION AND SERVER VERIFICATION
+            // -----------------------------------------------------------
+            if (!executeRecaptcha) {
+                console.error("Execute reCAPTCHA function not available.");
+                notifye();
+                return;
+            }
+            
+            // 1. Get the reCAPTCHA token
+            const gReCaptchaToken = await executeRecaptcha("contact_form_submission");
 
+            // 2. Send token to your custom API route for server verification
+            const verificationResponse = await fetch('/api/verify-recaptcha', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ gReCaptchaToken }),
+            });
+
+            const verificationResult = await verificationResponse.json();
+
+            if (!verificationResult.success) {
+                console.error("reCAPTCHA verification failed on server:", verificationResult.message);
+                notifyBot(); // STOP submission if verification fails
+                return; 
+            }
+            // -----------------------------------------------------------
+            // END: RECAPTCHA CHECK PASSED
+            // -----------------------------------------------------------
+
+            // 3. Proceed with original emailjs submission
             emailjs
                 .sendForm("service_vo5gd7i", "template_l7fwlg4", form.current, {
                     publicKey: "HNVjZHjWsKKbBqDhx",
                 })
                 .then(() => {
                     notifys();
-                    console.log("SUCCESS!");
+                    console.log("SUCCESS! Message Sent and reCAPTCHA verified.");
 
                     setTimeout(() => {
                         router.push("/");
                     }, 5000);
                 })
                 .catch((error) => {
-                    console.log("FAILED...", error);
+                    console.log("EMAIL FAILED...", error);
+                    notifye();
                 });
-            console.log("Form validate");
+            console.log("Form validated and reCAPTCHA token acquired.");
         } else {
             // Form validation failed
             console.log("Form validation failed");
@@ -116,7 +152,6 @@ export default function ContactUs() {
             title: 'Phone',
             value: phoneNumber,
             icon: (
-                
                 <svg
                     className="mx-auto my-auto w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -188,23 +223,19 @@ export default function ContactUs() {
     return (
         <>
             <ToastContainer />
-
+            
             <div className="w-full  ">
-        
-                <div className=" w-full p-7   items-center justify-center ">
-
+                
+                <div className=" w-full p-7  items-center justify-center ">
                     <p className="text-5xl pt-4 text-center h-full mt-16"> Contact Us </p>
-
                 </div>
 
                 <div className=" w-full ">
                     <div className="text-center">
-
                         <div className="justify-around grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 group p-5">
-        
                             {contactDetails.map((detail) => (
-  <div key={detail.id}   className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
-                                >
+                                <div key={detail.id}  className=" shadow-2xl  border-2 border-gray-100 transition-transform hover:!blur-none group-hover:scale-[.85] hover:!scale-100 p-4 rounded-xl mix-blend-luminosity cursor-pointer"
+                                    >
                                     <div className="w-auto h-auto">{detail.icon}</div>
                                     <h4 className="uppercase text-[18px] font-sans py-3 font-bold">{detail.title}</h4>
                                     <p className="text-sm leading-7  font-light opacity-50">{detail.value}</p>
@@ -215,16 +246,11 @@ export default function ContactUs() {
                                         Get in Touch
                                     </button>
                                 </div>
-
-
                             ))}
                         </div>
-
                     </div>
 
                     <div className=" w-full bg-[white] mt-5 flex flex-col md:flex-row items-center justify-center mx-auto">
-
-
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
                                 src="/contactus.webp" 
@@ -236,11 +262,10 @@ export default function ContactUs() {
                             />
                         </div>
 
-
                         <div className="h-fit w-auto lg:w-5/12  mt-5">
                             <form
                                 className="w-auto m-3 md:m-7"
-                                onSubmit={sendEmail}
+                                onSubmit={sendEmail} 
                                 ref={form}
                             >
                                 <h1 className="text-4xl mb-7 capitalize">Talk to our expert.</h1>
@@ -371,7 +396,6 @@ export default function ContactUs() {
                                 </div>
                                 <button
                                     type="submit"
-
                                     className="w-full button bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded mt-5"
                                 >
                                     BOOK A CONSULTATION
@@ -383,14 +407,11 @@ export default function ContactUs() {
 
                     <div className="w-full h-full">
                         <div className="google-maps-embed">
-
-
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.3866213825036!2d76.99470307554475!3d28.40758867578828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1820517a67c3%3A0x2674661964851cd9!2sAdhunik%20Powertech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1726057699009!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
                                 className=" w-full h-[50vh]"
                                 style={{ border: 0 }}
                                 loading="lazy"
                                 title="Google Maps Embed"
-
                             ></iframe>
                         </div>
                     </div>

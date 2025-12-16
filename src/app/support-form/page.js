@@ -1,43 +1,44 @@
 import React from 'react'
-import ContactUs from './ContactUs'
+
+// Correct import path for ContactUs (sibling file)
+import ContactUs from './ContactUs' 
+
+// 🎯 CORRECT IMPORT PATH: Go up one level (../) from /support-form/ to /app/, then into /components/
+import RecaptchaProvider from '../components/RecaptchaProvider'; 
 
 
 export const metadata = {
-
     title: "HVAC Experts in Gurugram | Contact Adhunik Powertech",
-  
     description: "Need reliable HVAC systems in Gurugram? Contact Adhunik Powertech for expert industrial & commercial HVAC installation, maintenance, and solutions. Get a free quote!",
-      alternates: {
-    canonical:"https://www.adhunikpowertech.com/support-form",  
-
+    alternates: {
+      canonical:"https://www.adhunikpowertech.com/support-form",  
       openGraph: {
-    title: "Adhunik Powertech",
-    type: "website",
-    url: "https://www.adhunikpowertech.com/support-form",
-    siteName: "Adhunik Powertech - HVAC Experts",
-     locale: "en_IN",
-    creator: "Adhunik Powertech",
+        title: "Adhunik Powertech",
+        type: "website",
+        url: "https://www.adhunikpowertech.com/support-form",
+        siteName: "Adhunik Powertech - HVAC Experts",
+        locale: "en_IN",
+        creator: "Adhunik Powertech",
 
-robots: "index, follow",
-    images: [
-      {
-        url: "https://adhunikpowertech.com/apple-touch-icon.png",
-        width: 1200,
-        height: 630,
-        alt: "Adhunik Powertech HVAC Solutions"
-      }
-    ]
-  },
+    robots: "index, follow",
+      
+        images: [
+          {
+            url: "https://adhunikpowertech.com/apple-touch-icon.png",
+            width: 1200,
+            height: 630,
+            alt: "Adhunik Powertech HVAC Solutions"
+          }
+        ]
+      },
+    },
+}
 
-  },
-  }
-
-export default function page() {
+export default function supportformPage() {
   return (
-    <>
-
-    <ContactUs/>
-    
-    </>
+    // 🌟 WRAPPING THE COMPONENT WITH THE PROVIDER
+    <RecaptchaProvider>
+      <ContactUs/>
+    </RecaptchaProvider>
   )
 }
