@@ -943,9 +943,7 @@ Only” or “No Smoking.
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-               Safety that shines: our glow signage keeps everyone on the right path during emergencies.
-              </p>
-
+              Discover the ultimate peace of mind with self-illuminating fire exit signs designed for maximum durability and glow duration.
             </div>
           </div>
         </div>
