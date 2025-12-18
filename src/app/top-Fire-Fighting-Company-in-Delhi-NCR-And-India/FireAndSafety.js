@@ -952,9 +952,6 @@ Only” or “No Smoking.
 
   </div>
 
-
-
-
 </div>
 
 </div>
