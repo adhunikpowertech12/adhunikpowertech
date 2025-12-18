@@ -691,8 +691,8 @@ We ensure your premises – from bustling commercial complexes and tech parks in
                   className="  md:h-[28rem]  object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="  /firex/5.jpg "
+                  alt="A row of four red dry powder fire extinguishers in various sizes ranging"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766049983/dry_powder_2_jv9spy.webp"
                 />
               </div>
             </div>
@@ -741,8 +741,8 @@ We ensure your premises – from bustling commercial complexes and tech parks in
                   className="  md:h-[28rem]  object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="  /firex/3.png "
+                  alt="Three high-pressure CO2 fire extinguishers with discharge horns, suitable for electrical and flammable liquid fires"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766049984/co2_fireextinguishers_guvy9g.webp "
                 />
               </div>
             </div>
