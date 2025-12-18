@@ -274,8 +274,8 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
-                  alt="Air washer"
-                  src="/firex/13.webp"
+                  alt="Different types of fire extinguishers including water, powder, foam, CO₂, and wet chemical extinguishers displayed together for fire safety and emergency protection."
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766041191/fire_extingushers_xnsha8.webp"
                 />
 
               </div>
@@ -284,7 +284,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg  font-bold text-white"> Fire Extinguishers <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Experience all-round fire safety with multiple fire extinguisher types suitable for homes, workplaces, and public spaces.
               </p>
 
             </div>
@@ -397,7 +397,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                    height={300}
                   width={500}
                   decoding="async"
-                  alt="Air washer"
+                  alt="Fire hydrant system cabinet with hose reel and fire extinguisher installed inside, designed for quick emergency firefighting response"
                   src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1753529202/inner_hydrant_bvpgcw.webp"
                 />
               </div>
@@ -406,7 +406,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white">Fire Hydrant System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Protect life and property with a fire hydrant system engineered for fast response, high pressure, and consistent performance.
               </p>
 
             </div>
@@ -436,7 +436,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   decoding="async"
                    height={300}
                   width={500}
-                  alt="Air washer"
+                  alt="Ceiling-mounted fire sprinkler system with automatic heat-activated sprinkler head for rapid fire suppression in commercial and residential buildings."
                   src="firex/fss2.webp"
                 />
               </div>
@@ -445,7 +445,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white">Fire Sprinkler System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Experience fast-response fire protection with reliable fire sprinkler systems for homes and workplaces.
               </p>
 
             </div>
@@ -567,7 +567,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
-                  alt="Air washer"
+                  alt="Complete fire alarm system kit including a central control panel, smoke detectors, manual call point, and sounder."
                    height={300}
                   width={500}
                   src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp"
@@ -581,7 +581,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
               </p>
 
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Proven fire protection solutions using advanced fire suppression systems to reduce risk and downtime.
               </p>
 
             </div>
@@ -612,7 +612,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                    height={300}
                   width={500}
                   decoding="async"
-                  alt="fire alarm system"
+                  alt="Comprehensive fire alarm system kit featuring a central control panel, smoke detectors, manual call point, and sounder."
                   src=" firex/fire-alarm-system.webp"
                 />
               </div>
@@ -621,7 +621,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg  font-bold text-white">Fire Alarm System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Experience early fire detection with advanced fire alarm systems designed for rapid alerts.
               </p>
 
             </div>
@@ -741,7 +741,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                   fetchPriority="high"
                   loading="lazy"
                   decoding="async"
-                  alt="Fire VESDA System"
+                  alt="VESDA aspirating smoke detection system with wall-mounted laser control units and red air-sampling pipe network"
                   src="vs2.webp"
                 />
               </div>
@@ -751,7 +751,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white"> Fire VESDA System <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Experience very early fire detection with VESDA systems designed to identify smoke at the earliest possible stage.
               </p>
 
             </div>
@@ -781,7 +781,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
                    height={300}
                   width={500}
                   decoding="async"
-                  alt="Air washer"
+                  alt="Adhunik FireXpert fire tubing system for automatic fire detection and suppression"
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1756803409/fire_tubing_system_Overview_page_s6hn3q.webp"
                 />
               </div>
@@ -790,7 +790,7 @@ Detects smoke at low concentrations, often well before visible signs of fire.
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white">Fire Tubing System  <span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Discover the Fire Tubing System: early detection, rapid response, total peace of mind.
               </p>
 
             </div>
@@ -932,7 +932,7 @@ Only” or “No Smoking.
                   className="    object-center object-contain "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Air washer"
+                  alt="Green glow EXIT sign for emergency lighting and safe evacuation."
                   loading="lazy"
                    
                   src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385629/iel_t48rco.webp"
@@ -943,7 +943,7 @@ Only” or “No Smoking.
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <p className="font-dmserif text-lg   font-bold text-white"> Glow Signage and Emergency Lights<span className=' text-sm'> </span> </p>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Safety that shines: our glow signage keeps everyone on the right path during emergencies.
               </p>
 
             </div>
