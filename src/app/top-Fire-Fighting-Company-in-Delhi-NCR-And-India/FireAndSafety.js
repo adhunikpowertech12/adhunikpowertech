@@ -275,7 +275,7 @@ linear-gradient(68.8deg, rgba(0, 0, 0, 0.95) 1.8%, rgb(0, 55, 79) 31.8%, rgb(9, 
                   loading="lazy"
                   decoding="async"
                   alt="Different types of fire extinguishers including water, powder, foam, CO₂, and wet chemical extinguishers displayed together for fire safety and emergency protection."
-                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766041191/fire_extingushers_xnsha8.webp"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766044357/fire_extinguishers_vmkdy4.webp"
                 />
 
               </div>
