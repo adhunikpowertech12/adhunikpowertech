@@ -82,8 +82,8 @@ export default function FireAndSafety() {
   const items = [
     {
       id: 1,
-      imgSrc: ' firex/4.png ',
-      imgAlt: 'fire extinguisher',
+      imgSrc: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766037597/fireextinguishers_tafyzv.webp',
+      imgAlt: 'Group of fire extinguishers',
       title: 'Top Quality Products',
       description: 'We are well versed in how important fire safety products are during an emergency, so we provide pre-tested, top-quality, and branded fire safety equipment in Delhi and NCR, India.',
     },
