@@ -325,8 +325,8 @@ const fireExtinguisherFeatures5 = [
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-extinguishers-type_vbvjzi.webp"
-                      alt="Adhunik Powertech air washer"
+                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766044357/fire_extinguishers_vmkdy4.webp"
+                      alt="Professional collection of various red fire extinguishers including CO2, Powder, Water, and Foam types on a white background"
                       loading="lazy"
                     />
 
