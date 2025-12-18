@@ -915,8 +915,8 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
                   className="  md:h-[28rem]  object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1747476598/wfe_nhafyh.webp"
+                  alt="Two polished stainless steel wet chemical fire extinguishers"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766050972/wet-chemical_dxhdmh.webp"
                 />
               </div>
             </div>
