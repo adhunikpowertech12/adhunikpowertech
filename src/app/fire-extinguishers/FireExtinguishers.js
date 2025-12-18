@@ -484,8 +484,8 @@ We ensure your premises – from bustling commercial complexes and tech parks in
                   className="  md:h-[28rem]  object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
-                  alt="Fire Extinguishers"
-                  src="/firex/12.jpg"
+                  alt="Water fire extinguisher with a discharge hose and clear instruction label"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1766050581/waterfire_extinguishers_qdfuph.webp"
                 />
               </div>
             </div>
