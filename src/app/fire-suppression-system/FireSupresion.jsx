@@ -265,7 +265,7 @@ For critical assets, sensitive equipment, and high-value properties, an advanced
                     </p>
                     <p className=" font-sans  text-sm md:text-md text-gray-600 text-justify  md:text-left pt-3   ">
 
-We specialize in designing, installing, and maintaining custom fire suppression systems for data centers, server rooms, control rooms, industrial facilities, archives, and high-rise commercial buildings. Our ISI-marked and NFPA-compliant systems ensure rapid, targeted fire control, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
+                    We specialize in designing, installing, and maintaining custom fire suppression systems for data centers, server rooms, control rooms, industrial facilities, archives, and high-rise commercial buildings. Our ISI-marked and NFPA-compliant systems ensure rapid, targeted fire control, minimizing damage and ensuring regulatory adherence across Delhi, Haryana, Rajasthan, and Uttar Pradesh.
 
 
                     </p>
@@ -373,7 +373,7 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
            Clean Agent Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+           Discover residue-free protection that stops fire in seconds without damaging your sensitive electronics or data. </p>
 
             </div>
           </div>
@@ -419,7 +419,7 @@ Rapid suppression, minimal damage to sensitive equipment, no post-fire cleanup, 
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif  text-sm font-bold text-white"> CO2 Fire Suppression Systems </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+           Experience the fury of CO2 Fire Suppression Systems—discover instant oxygen displacement that kills industrial fires with zero residue and zero risk.  </p>
 
             </div>
           </div>
@@ -524,7 +524,7 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
              Foam Fire Suppression Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+           Experience the total containment of Foam Fire Suppression Systems—discover the impenetrable cooling barrier that smothers flammable liquid fires and prevents re-ignition. </p>
 
             </div>
           </div>
@@ -562,7 +562,7 @@ Highly effective on Class B and C fires, non-conductive, leaves no residue. Note
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif  text-sm font-bold text-white"> Dry Chemical Fire Suppression Systems </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+           Experience the rapid kill of Dry Chemical Fire Suppression Systems—discover the ultimate knockdown power that shatters chemical fire reactions in an instant.  </p>
 
             </div>
           </div>
