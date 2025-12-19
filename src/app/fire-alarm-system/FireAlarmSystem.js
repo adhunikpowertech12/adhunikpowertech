@@ -89,80 +89,63 @@ export default function FireAlarmSystem() {
    
 
     {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
- Alarm Notification Devices
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Alarm Notification Devices
+      </span>
+    </>
+  ),
+  content: (
+    <ul className="list-disc ml-5">
+      <li>
+        <strong className="text-red-500">Audible Alarms: </strong>
+        Hooters, sirens, bells to alert occupants.
+      </li>
+      <li>
+        <strong className="text-red-500">Visual Alarms: </strong>
+        Strobes and flashing lights, essential for the hearing impaired and in noisy environments.
+      </li>
+    </ul>
+  ),
+},
 
-        </Link>
-      </> 
-      ,
-      content: <>
-        <ul className=' list-disc'>
-          <li>
-<strong className=' text-red-500 '>
-Audible Alarms :  
-</strong>
- Hooters, sirens, bells to alert occupants.
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Manual Call Points (Manual Pull Stations)
+      </span>
+    </>
+  ),
+  content: "Allow occupants to manually trigger an alarm in case of a visible fire."
+},
 
-          </li>
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Control Modules & Interface Units
+      </span>
+    </>
+  ),
+  content: "Facilitate communication between the FACP and other building systems (e.g., HVAC shutdown, elevator recall, access control)."
+},
 
-          
-          <li>
-<strong className=' text-red-500 '> Visual Alarms :
-</strong>
- Strobes and flashing lights, essential for the hearing impaired and in noisy environments.
-
-   </li>
- 
-
-
-        </ul>
-      </>
-    },
-
-   
-  {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-   Manual Call Points (Manual Pull Stations)
-        </Link>
-      </> 
-      ,
-      content: " Allow occupants to manually trigger an alarm in case of a visible fire."
-    },
-
-
-   
-  {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-    Control Modules & Interface Units
-        </Link>
-      </> 
-      ,
-      content: " Facilitate communication between the FACP and other building systems (e.g., HVAC shutdown, elevator recall, access control)."
-    },
-
-
-   
-  {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-    Power Supplies
-        </Link>
-      </> 
-      ,
-      content: " Primary (mains electricity) and secondary (battery backup) power sources to ensure continuous operation."
-    },
-
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Power Supplies
+      </span>
+    </>
+  ),
+  content: "Primary (mains electricity) and secondary (battery backup) power sources to ensure continuous operation."
+},
  
 
   ];

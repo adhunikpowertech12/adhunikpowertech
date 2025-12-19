@@ -46,6 +46,76 @@ export default function FireTublingSystem() {
 
   const integrationExamples = [
     {
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Detection Tubing
+      </span>
+    </>
+  ),
+  content: " Flexible, heat-sensitive polymer tubing that ruptures at specific temperatures (e.g., 100°C, 120°C, 180°C), initiating the discharge."
+},
+
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Extinguishing Agent
+      </span>
+    </>
+  ),
+  content: " Stored in a cylinder and chosen based on the hazard, typically Clean Agents (FM-200, Novec 1230), CO2, or Dry Chemical."
+},
+
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Cylinder & Valve Assembly
+      </span>
+    </>
+  ),
+  content: " Contains the extinguishing agent under pressure, connected to the tubing or a manifold."
+},
+
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Discharge Nozzles (for Indirect Systems)
+      </span>
+    </>
+  ),
+  content: " Precisely positioned to ensure uniform agent distribution within the protected space."
+},
+
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Pressure Gauge
+      </span>
+    </>
+  ),
+  content: " Monitors the system's operational pressure."
+},
+
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Warning Signage
+      </span>
+    </>
+  ),
+  content: " Crucial for safety and compliance, clearly indicating the presence of an automatic suppression system."
+},{
       icon: <GitPullRequest className="w-6 h-6" />,
       title:
         <>

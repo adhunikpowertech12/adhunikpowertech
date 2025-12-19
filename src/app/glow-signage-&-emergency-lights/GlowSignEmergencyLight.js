@@ -46,63 +46,65 @@ export default function GlowSignEmergencyLight() {
   
   const integrationExamples = [
 
-    {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-     Illumination Source
-        </Link>
-      </> 
-      ,
-      content: "High-efficiency LEDs for electric signs and emergency lights, or high-grade photoluminescent pigments for glow signs."
-    },
+   {
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Illumination Source
+      </span>
+    </>
+  ),
+  content: "High-efficiency LEDs for electric signs and emergency lights, or high-grade photoluminescent pigments for glow signs."
+},
 
-    {
-      icon: <Eye className="w-6 h-6" />,
-      title: 
-       <>
-        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>
-  Battery Backup
-</Link>
-      </> 
-,
-      content: "Rechargeable batteries (e.g., Ni-Cad, Li-ion) for emergency lights, ensuring sustained operation during power failures."
-    },
+{
+  icon: <Eye className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Battery Backup
+      </span>
+    </>
+  ),
+  content: "Rechargeable batteries (e.g., Ni-Cad, Li-ion) for emergency lights, ensuring sustained operation during power failures."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-    Housing & Enclosures
-        </Link>
-      </> 
-      ,
-      content:"Durable, fire-resistant materials for fixtures and signs, suitable for various indoor and outdoor environments."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Housing & Enclosures
+      </span>
+    </>
+  ),
+  content: "Durable, fire-resistant materials for fixtures and signs, suitable for various indoor and outdoor environments."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Charging Circuitry</Link>
-      </> 
-      ,
-      content: "For emergency lights, circuits that maintain battery charge and switch to battery power automatically upon power loss."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Charging Circuitry
+      </span>
+    </>
+  ),
+  content: "For emergency lights, circuits that maintain battery charge and switch to battery power automatically upon power loss."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-      Mounting Hardware
-        </Link>
-      </> 
-      ,
-      content: " Secure and compliant mounting solutions for signs and fixtures, installed by our contracting team."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Mounting Hardware
+      </span>
+    </>
+  ),
+  content: " Secure and compliant mounting solutions for signs and fixtures, installed by our contracting team."
+},
 
   ];
 

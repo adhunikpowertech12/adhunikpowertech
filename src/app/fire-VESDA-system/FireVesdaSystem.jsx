@@ -46,92 +46,88 @@ export default function FireVesdaSystem() {
 
     const integrationExamples = [
         {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                       Very Early Smoke Detection
-                    </Link>
-                </>
-            ,
-            content: " Detects fire at the incipient (earliest) stage, often before visible smoke is present, providing critical time for investigation and response."
-        },
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Very Early Smoke Detection
+      </span>
+    </>
+  ),
+  content: " Detects fire at the incipient (earliest) stage, often before visible smoke is present, providing critical time for investigation and response."
+},
 
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                       Reduced False Alarms
-                    </Link>
-                </>
-            ,
-            content: " Advanced laser technology and air filtration significantly lower the likelihood of nuisance alarms triggered by dust, steam, or other non-fire phenomena, ensuring operational continuity."
-        },
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Reduced False Alarms
+      </span>
+    </>
+  ),
+  content: " Advanced laser technology and air filtration significantly lower the likelihood of nuisance alarms triggered by dust, steam, or other non-fire phenomena, ensuring operational continuity."
+},
 
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Enhanced Life Safety
+      </span>
+    </>
+  ),
+  content: " Early warning provides maximum time for safe evacuation of occupants, greatly improving life safety outcomes."
+},
 
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Minimizes Property Damage & Downtime
+      </span>
+    </>
+  ),
+  content: "By enabling pre-emptive action or immediate suppression, VESDA systems drastically limit the spread of fire, smoke, and heat, protecting valuable equipment and ensuring business continuity."
+},
 
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                       Enhanced Life Safety
-                    </Link>
-                </>
-            ,
-            content: " Early warning provides maximum time for safe evacuation of occupants, greatly improving life safety outcomes."
-        },
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Versatility for Sensitive Environments
+      </span>
+    </>
+  ),
+  content: "Ideal for data centers in Greater Noida, server rooms in Jaipur, clean rooms, museums, archives, and healthcare facilities where conventional detectors may be unsuitable or cause unacceptable damage."
+},
 
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Data Collection & Analytics
+      </span>
+    </>
+  ),
+  content: " These systems can collect and store extensive data on air quality and smoke levels, providing valuable insights for facility management, safety compliance, and proactive maintenance."
+},
 
-
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                       Minimizes Property Damage & Downtime
-                    </Link>
-                </>
-            ,
-            content: "By enabling pre-emptive action or immediate suppression, VESDA systems drastically limit the spread of fire, smoke, and heat, protecting valuable equipment and ensuring business continuity."
-        },
-
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                       Versatility for Sensitive Environments
-                    </Link>
-                </>
-            ,
-            content: "Ideal for data centers in Greater Noida, server rooms in Jaipur, clean rooms, museums, archives, and healthcare facilities where conventional detectors may be unsuitable or cause unacceptable damage."
-        },
-
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-                <>
-                    <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                      Data Collection & Analytics
-                    </Link>
-                </>
-            ,
-            content: " These systems can collect and store extensive data on air quality and smoke levels, providing valuable insights for facility management, safety compliance, and proactive maintenance."
-        },
-        {
-            icon: <GitPullRequest className="w-6 h-6" />,
-            title:
-            <>
-             <Link href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-                      Regulatory Compliance
-                    </Link>
-
-            </>,
-            content:" Essential for meeting stringent international and national fire safety norms, including NFPA (e.g., NFPA 72, NFPA 75), UL/FM approvals, and local municipal fire department requirements. Our contractor expertise ensures your system adheres to all applicable acts and standards.",
-
-        }
+{
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Regulatory Compliance
+      </span>
+    </>
+  ),
+  content: " Essential for meeting stringent international and national fire safety norms, including NFPA (e.g., NFPA 72, NFPA 75), UL/FM approvals, and local municipal fire department requirements. Our contractor expertise ensures your system adheres to all applicable acts and standards."
+},
 
 
 

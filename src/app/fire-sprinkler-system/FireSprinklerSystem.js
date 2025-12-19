@@ -46,85 +46,88 @@ export default function FireSprinklerSystem() {
   
   const integrationExamples = [
     {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-      Sprinkler Heads
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Sprinkler Heads
+      </span>
+    </>
+  ),
+  content: " Precision-engineered to activate individually at specific temperatures, releasing water directly onto the fire."
+},
 
-        </Link>
-      </> 
-      ,
-      content: " Precision-engineered to activate individually at specific temperatures, releasing water directly onto the fire."
-    },
+{
+  icon: <Eye className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Piping Network
+      </span>
+    </>
+  ),
+  content: "A robust system of pipes, strategically designed and installed by our contracting team, to transport water efficiently throughout the protected area."
+},
 
-    {
-      icon: <Eye className="w-6 h-6" />,
-      title: 
-       <>
-        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>
-       Piping Network
-</Link>
-      </> 
-,
-      content: "A robust system of pipes, strategically designed and installed by our contracting team, to transport water efficiently throughout the protected area."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Control Valves
+      </span>
+    </>
+  ),
+  content: "Regulate water flow within the system, crucial for isolation, maintenance, and emergency operations."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-       Control Valves
-        </Link>
-      </> 
-      ,
-      content: "Regulate water flow within the system, crucial for isolation, maintenance, and emergency operations."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Water Supply
+      </span>
+    </>
+  ),
+  content: "A reliable and adequately pressurized water source (municipal connection, dedicated tanks, or fire pumps) ensuring sustained water delivery."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Water Supply</Link>
-      </> 
-      ,
-      content: "A reliable and adequately pressurized water source (municipal connection, dedicated tanks, or fire pumps) ensuring sustained water delivery."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Integrated Alarm Systems
+      </span>
+    </>
+  ),
+  content: "Alert occupants and emergency services immediately upon sprinkler activation."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-       Integrated Alarm Systems
-        </Link>
-      </> 
-      ,
-      content: "Alert occupants and emergency services immediately upon sprinkler activation."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Flow Switches
+      </span>
+    </>
+  ),
+  content: " Detect water flow in the system, triggering alarms and notifications."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Flow Switches</Link>
-      </> 
-      ,
-      content: " Detect water flow in the system, triggering alarms and notifications."
-    },
-
-    
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Fire Pumps</Link>
-      </> 
-      ,
-      content: "Ensure sufficient water pressure and volume, especially in large or high-rise structures in Delhi and Gurugram."
-    },
-
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Fire Pumps
+      </span>
+    </>
+  ),
+  content: "Ensure sufficient water pressure and volume, especially in large or high-rise structures in Delhi and Gurugram."
+},
    
 
   ];

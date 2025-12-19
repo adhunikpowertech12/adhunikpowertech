@@ -46,41 +46,49 @@ export default function FireExtinguishers() {
   
   const integrationExamples = [
     {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>Pull the pin</Link>
-      </> 
-      ,
-      content: " Break the tamper seal and pull the pin."
-    },
-    {
-      icon: <Eye className="w-6 h-6" />,
-      title: 
-       <>
-        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>Aim the nozzle</Link>
-      </> 
-,
-      content: " Aim low, pointing the nozzle at the base of the fire."
-    },
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'> Squeeze the handle</Link>
-      </> 
-      ,
-      content: " Press the handle to release the extinguishing agent."
-    },
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'> Sweep side-to-side</Link>
-      </> 
-      ,
-      content: " Sweep the nozzle from side to side at the base of the fire until it is extinguished."
-    }
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Pull the pin
+      </span>
+    </>
+  ),
+  content: "Break the tamper seal and pull the pin."
+},
+{
+  icon: <Eye className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Aim the nozzle
+      </span>
+    </>
+  ),
+  content: "Aim low, pointing the nozzle at the base of the fire."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Squeeze the handle
+      </span>
+    </>
+  ),
+  content: "Press the handle to release the extinguishing agent."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Sweep side-to-side
+      </span>
+    </>
+  ),
+  content: "Sweep the nozzle from side to side at the base of the fire until it is extinguished."
+}
   ];
 
   // Design considerations

@@ -45,98 +45,105 @@ export default function FireHydrant() {
 
   
   const integrationExamples = [
-    {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
+   {
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
         Hydrant Body
-
-        </Link>
-      </> 
-      ,
-      content: "Robustly constructed to withstand high pressure and harsh environmental conditions."
-    },
-    {
-      icon: <Eye className="w-6 h-6" />,
-      title: 
-       <>
-        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>Valve Mechanism
-</Link>
-      </> 
-,
-      content: "Precisely engineered to control water flow efficiently and reliably."
-    },
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Outlet Nozzles</Link>
-      </> 
-      ,
-      content: "Designed for quick and secure connection of fire hoses, ensuring optimal water delivery"
-    },
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Bonnet</Link>
-      </> 
-      ,
-      content: "Protects the internal operating mechanism from external elements and tampering"
-    },
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Drainage System</Link>
-      </> 
-      ,
-      content: "Essential for dry barrel hydrants to prevent water retention and freezing issues."
-    },
-
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Bury Depth</Link>
-      </> 
-      ,
-      content: "Installed at appropriate depths by our contracting team to protect the system from freeze damage and traffic."
-    },
-
-    
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Pumping System</Link>
-      </> 
-      ,
-      content: "High-capacity pumps ensure adequate pressure and flow throughout the network, professionally installed and commissioned by our contractors."
-    },
-
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Fire Hose Reels & Landing Valves</Link>
-      </> 
-      ,
-      content: "Integral parts of the internal hydrant system, providing immediate access to water inside buildings."
-    },
-
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Fire Tanks</Link>
-      </> 
-      ,
-      content: "Large reservoirs to ensure a sustained water supply for firefighting."
-    },
-
-
+      </span>
+    </>
+  ),
+  content: "Robustly constructed to withstand high pressure and harsh environmental conditions."
+},
+{
+  icon: <Eye className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Valve Mechanism
+      </span>
+    </>
+  ),
+  content: "Precisely engineered to control water flow efficiently and reliably."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Outlet Nozzles
+      </span>
+    </>
+  ),
+  content: "Designed for quick and secure connection of fire hoses, ensuring optimal water delivery"
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Bonnet
+      </span>
+    </>
+  ),
+  content: "Protects the internal operating mechanism from external elements and tampering"
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Drainage System
+      </span>
+    </>
+  ),
+  content: "Essential for dry barrel hydrants to prevent water retention and freezing issues."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Bury Depth
+      </span>
+    </>
+  ),
+  content: "Installed at appropriate depths by our contracting team to protect the system from freeze damage and traffic."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Pumping System
+      </span>
+    </>
+  ),
+  content: "High-capacity pumps ensure adequate pressure and flow throughout the network, professionally installed and commissioned by our contractors."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Fire Hose Reels & Landing Valves
+      </span>
+    </>
+  ),
+  content: "Integral parts of the internal hydrant system, providing immediate access to water inside buildings."
+},
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Fire Tanks
+      </span>
+    </>
+  ),
+  content: "Large reservoirs to ensure a sustained water supply for firefighting."
+},
 
   ];
 

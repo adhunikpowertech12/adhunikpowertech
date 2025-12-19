@@ -45,85 +45,89 @@ export default function FireSupresion() {
 
   
   const integrationExamples = [
-    {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-      Suppression Agents
+   {
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Suppression Agents
+      </span>
+    </>
+  ),
+  content: "The specific extinguishing agent chosen based on the hazard (e.g., FM-200, Novec 1230, CO2, Foam, Dry Chemical)."
+},
 
-        </Link>
-      </> 
-      ,
-      content: "The specific extinguishing agent chosen based on the hazard (e.g., FM-200, Novec 1230, CO2, Foam, Dry Chemical)."
-    },
+{
+  icon: <Eye className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Detection System
+      </span>
+    </>
+  ),
+  content: "Advanced smoke, heat, or flame detectors configured for rapid and accurate fire identification, triggering the suppression system."
+},
 
-    {
-      icon: <Eye className="w-6 h-6" />,
-      title: 
-       <>
-        <Link  href='https://adhunikdecodive.com/domestic-furniture' className=' text-red-700 hover:text-red-500'>
-      Detection System
-</Link>
-      </> 
-,
-      content: "Advanced smoke, heat, or flame detectors configured for rapid and accurate fire identification, triggering the suppression system."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Control Panel
+      </span>
+    </>
+  ),
+  content: " The intelligent hub for system monitoring, activation, and status reporting."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-     Control Panel
-        </Link>
-      </> 
-      ,
-      content: " The intelligent hub for system monitoring, activation, and status reporting."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Delivery System
+      </span>
+    </>
+  ),
+  content: "A network of specialized pipes, manifolds, and nozzles precisely installed by our contracting team to ensure uniform and effective agent dispersal."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Delivery System</Link>
-      </> 
-      ,
-      content: "A network of specialized pipes, manifolds, and nozzles precisely installed by our contracting team to ensure uniform and effective agent dispersal."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Storage Cylinders
+      </span>
+    </>
+  ),
+  content: " High-pressure cylinders designed to safely store the suppression agent."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
-      Storage Cylinders
-        </Link>
-      </> 
-      ,
-      content: " High-pressure cylinders designed to safely store the suppression agent."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Manual Release Stations
+      </span>
+    </>
+  ),
+  content: " Provide an option for human activation when necessary."
+},
 
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Manual Release Stations</Link>
-      </> 
-      ,
-      content: " Provide an option for human activation when necessary."
-    },
-
-    
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>Pre-Discharge Alarms</Link>
-      </> 
-      ,
-      content: " Crucial for signaling occupants to evacuate before agent release, particularly for gaseous systems."
-    },
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Pre-Discharge Alarms
+      </span>
+    </>
+  ),
+  content: " Crucial for signaling occupants to evacuate before agent release, particularly for gaseous systems."
+},
 
    
 
