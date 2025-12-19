@@ -59,37 +59,32 @@ export default function FireAlarmSystem() {
      },
 
  
-
-    {
-      icon: <Atom className="w-6 h-6" />,
-      title: 
-        <>
-       <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
-       Detectors
-         </span>
+{
+  icon: <Atom className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Detectors
+      </span>
     </>
-  ),
-      content:
-        <ul className=' list-disc'>
-          <li>
-<strong className=' text-red-500 '>Smoke Detectors :  
-</strong>
-Respond to smoke particles (e.g., photoelectric, ionization).
-          </li>
-          <li>
-<strong className=' text-red-500 '>Heat Detectors :
-</strong>
- Respond to rapid temperature rise or fixed high temperatures.
-   </li>
-
-          <li>
-<strong className=' text-red-500 '>Multi-Sensor Detectors :
-</strong>
- Combine detection methods for enhanced accuracy and reduced false alarms.
- </li>
-        </ul>
-    
-    },
+  ), // Added the opening '(' to the title line to match this closing ')'
+  content: (
+    <ul className="list-disc ml-5">
+      <li>
+        <strong className="text-red-500">Smoke Detectors: </strong>
+        Respond to smoke particles (e.g., photoelectric, ionization).
+      </li>
+      <li>
+        <strong className="text-red-500">Heat Detectors: </strong>
+        Respond to rapid temperature rise or fixed high temperatures.
+      </li>
+      <li>
+        <strong className="text-red-500">Multi-Sensor Detectors: </strong>
+        Combine detection methods for enhanced accuracy and reduced false alarms.
+      </li>
+    </ul>
+  )
+}
 
    
 
