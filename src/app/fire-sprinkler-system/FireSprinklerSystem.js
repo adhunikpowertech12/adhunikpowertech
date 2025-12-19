@@ -481,7 +481,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
              Preaction Sprinkler Systems
          </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                 precision fire protection for critical and high-value assets.</p>
+                 Precision fire protection for critical and high-value assets.</p>
 
             </div>
           </div>
@@ -522,7 +522,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Deluge Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           PExperience the Deluge Sprinkler Systems—rapid, full-scale protection for high-risk fire zones. 
+           Experience the Deluge Sprinkler Systems—rapid, full-scale protection for high-risk fire zones. 
             </p>
 
             </div>
