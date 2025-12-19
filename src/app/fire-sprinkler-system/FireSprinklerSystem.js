@@ -332,7 +332,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
            Wet Pipe Sprinkler Systems
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+             Experience the Wet Pipe Sprinkler Systems—simple, effective, and trusted fire protection. </p>
 
             </div>
           </div>
@@ -378,7 +378,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Dry Pipe Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+               Engineered to prevent freezing and protect sensitive areas with precision-controlled water release.  </p>
 
             </div>
           </div>
@@ -467,7 +467,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             <div className="w-auto">
               <div className="w-full object-cover transition-transform duration-500 group-hover:scale-125 rounded-xl">
                 <img
-                  className="     object-center object-cover  "
+                  className="object-center object-cover  "
                   fetchPriority="high"
                   decoding="async"
                   alt="Fire Extinguishers"
@@ -479,9 +479,9 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">
              Preaction Sprinkler Systems
- </h2>
+         </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+                 precision fire protection for critical and high-value assets.</p>
 
             </div>
           </div>
@@ -522,7 +522,7 @@ Simple, reliable, and cost-effective, offering rapid response to fire.
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white"> Deluge Sprinkler Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions. 
+           PExperience the Deluge Sprinkler Systems—rapid, full-scale protection for high-risk fire zones. 
             </p>
 
             </div>
