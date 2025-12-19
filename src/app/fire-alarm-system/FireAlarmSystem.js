@@ -69,15 +69,13 @@ export default function FireAlarmSystem() {
          </span>
     </>
   ),
-      content: <>
+      content:
         <ul className=' list-disc'>
           <li>
 <strong className=' text-red-500 '>Smoke Detectors :  
 </strong>
 Respond to smoke particles (e.g., photoelectric, ionization).
           </li>
-
-          
           <li>
 <strong className=' text-red-500 '>Heat Detectors :
 </strong>
@@ -89,10 +87,8 @@ Respond to smoke particles (e.g., photoelectric, ionization).
 </strong>
  Combine detection methods for enhanced accuracy and reduced false alarms.
  </li>
-
-
         </ul>
-      </>
+    
     },
 
    
