@@ -45,17 +45,16 @@ export default function FireAlarmSystem() {
 
   
   const integrationExamples = [
-    {
-      icon: <GitPullRequest className="w-6 h-6" />,
-      title:
-      <>
-        <Link  href='https://adhunikdecodive.com/modular-kitchen-designs' className=' text-red-700 hover:text-red-500'>
-    Fire Alarm Control Panel (FACP)
-        </Link>
-      </> 
-      ,
-      content: "The central nervous system of the system, receiving signals from detectors, processing them, and activating alarms. Our contractors ensure optimal placement and configuration."
-    },
+ 
+     {
+  icon: <GitPullRequest className="w-6 h-6" />,
+  title: (
+    <>
+      <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+        Fire Alarm Control Panel (FACP)
+      </span>
+    </>
+  ),
 
 
  
