@@ -45,7 +45,7 @@ export default function FireAlarmSystem() {
 
   
   const integrationExamples = [
-   {
+   
      {
   icon: <GitPullRequest className="w-6 h-6" />,
   title: (
@@ -55,7 +55,7 @@ export default function FireAlarmSystem() {
       </span>
     </>
   ),
-
+     },
 
  
 
