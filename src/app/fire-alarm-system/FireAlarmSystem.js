@@ -64,11 +64,11 @@ export default function FireAlarmSystem() {
       icon: <Atom className="w-6 h-6" />,
       title: 
         <>
-        <Link  href='https://adhunikdecodive.com/commercial-furniture' className=' text-red-700 hover:text-red-500'>
- Detectors
-        </Link>
-      </> 
-      ,
+       <span className="text-red-700 hover:text-red-500 transition-colors cursor-default">
+       Detectors
+         </span>
+    </>
+  ),
       content: <>
         <ul className=' list-disc'>
           <li>
