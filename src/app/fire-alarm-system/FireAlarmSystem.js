@@ -392,7 +392,7 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
 
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+           Experience the reliable simplicity of Conventional Fire Alarm Systems—discover smart, cost-effective zone protection for your everyday safety.</p>
 
             </div>
           </div>
@@ -430,7 +430,7 @@ Adhunik FireXpert is a top fire alarm system dealer and contractor, offering a r
               <h2 className="font-dmserif text-lg md:text-2xl font-bold text-white"> Addressable Fire Alarm Systems
                </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Prevents water in the barrel from freezing and causing damage, ensuring reliability in cold conditions.  </p>
+           Experience the precision of Addressable Fire Alarm Systems—discover pinpoint location accuracy for the fastest possible response when seconds count.  </p>
 
             </div>
           </div>
@@ -539,7 +539,7 @@ Wireless Fire Alarm Systems
 
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Provides immediate water access, allowing for faster response times. </p>
+           Experience the freedom of Wireless Fire Alarm Systems—discover rapid, cable-free installation and flexible protection with zero building disruptions. </p>
 
             </div>
           </div>
