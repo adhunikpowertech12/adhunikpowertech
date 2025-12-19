@@ -535,7 +535,7 @@ We equip commercial buildings, industrial complexes, and large residential socie
               <h2 className="font-dmserif text-lg md:text-3xl font-bold text-white">Wet Barrel Hydrants
  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-           Wet Barrel Hydrants—instant water availability for quick, reliable fire response in non-freezing regions </p>
+               Instant water availability for quick, reliable fire response in non-freezing regions </p>
 
             </div>
           </div>
