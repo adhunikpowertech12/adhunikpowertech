@@ -493,7 +493,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white">Water  Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Discover the Water Class A Fire Extinguishers, delivering powerful cooling action for fast and reliable fire control.
               </p>
 
             </div>
@@ -539,7 +539,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white"> Foam Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Discover the Foam (Class A & B) Fire Extinguishers—versatile protection that cools, smothers, and controls fires.
               </p>
 
             </div>
@@ -700,7 +700,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white">  Dry Powder Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+               Discover the Dry Powder (Class A, B & C) Fire Extinguishers—fast-acting, multi-risk fire protection you can rely on.
               </p>
 
             </div>
@@ -750,7 +750,7 @@ We ensure your premises – from bustling commercial complexes and tech parks in
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white"> (CO2) Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Discover the CO₂ (Class B & C) Fire Extinguishers—clean, powerful protection for electrical and flammable liquid fires.
               </p>
 
             </div>
@@ -924,7 +924,7 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white"> Wet Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Experience the Wet Chemical (Class K) Fire Extinguishers for fast, reliable protection against kitchen fire hazards.
               </p>
 
             </div>
@@ -974,7 +974,7 @@ How They Work: CO2 gas rapidly displaces oxygen around the fire, suffocating the
             <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h2 className="font-dmserif text-3xl font-bold text-white"> Clean Agent Fire Extinguishers  </h2>
               <p className="mb-3 pt-2 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Stay cool and comfortable all summer long with our efficient air cooler, designed for optimal airflow and energy savings.
+                Clean Agent Fire Extinguishers—powerful fire control with zero residue and maximum protection.
               </p>
 
             </div>
