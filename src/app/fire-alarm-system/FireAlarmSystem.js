@@ -55,6 +55,7 @@ export default function FireAlarmSystem() {
       </span>
     </>
   ),
+   content: "The central nervous system of the system, receiving signals from detectors, processing them, and activating alarms. Our contractors ensure optimal placement and configuration."
      },
 
  
