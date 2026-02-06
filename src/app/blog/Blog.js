@@ -293,6 +293,16 @@ export default function Blog() {
       link: "/oil-chiller-maintenance-alerts",
       img: "/hydraulic-oil-chiller.webp",
     },
+
+    {
+      id: 28,
+      title: "Turnkey HVAC Solutions for Industrial Applications | The Complete Industrial Guide",
+      date: "Feb 2026",
+      image:
+        "",
+      link: "/turnkey-hvac-solutions-for-industrial-applications",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770359810/Turnkey_HVAC_Solution_lxuyjp.webp",
+    },
   ];
 
   return (

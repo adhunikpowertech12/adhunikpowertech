@@ -62,7 +62,7 @@ export default function SiteMap() {
     { href: '/why-panel-ac-is-your-best-investment', text: 'why-panel-ac-is-your-best-investment ', title: 'Best Investment for 2025: Panel AC Explained | Trusted Govt-Authorized Provider' },
     { href: '/panel-ac-manufacturers-&-authorised-govt-supplier', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech' },
     { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: '7-Point Checklist to Maintain Your Hydraulic Oil Chiller' },
-    
+    { href: '/turnkey-hvac-solutions-for-industrial-applications', text: 'Turnkey HVAC Solutions for Industrial Applications', title: 'Turnkey HVAC Solutions for Industrial Applications | The Complete Industrial Guide' },
     
     ];
 
