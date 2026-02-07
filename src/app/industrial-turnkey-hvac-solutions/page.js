@@ -127,7 +127,7 @@ export default function TurnkeyHVACSolutionsBlog() {
 
                     <div className="w-full md:w-6/12">
                         <img
-                            src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770359810/Turnkey_HVAC_Solution_lxuyjp.webp"
+                            src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770457627/Havc_Turnkey_b8xazd.webp"
                             alt="Industrial HVAC Turnkey Project Installation"
                             width="1260"
                             height="750"

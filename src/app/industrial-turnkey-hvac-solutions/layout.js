@@ -4,7 +4,7 @@ import React from 'react';
 export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
-  title: "Turnkey HVAC Solutions for Industrial Applications | The Complete Industrial Guide",
+  title: "Industrial Turnkey HVAC Solutions | The Complete Industrial Guide",
   description: "Turnkey HVAC solutions for industrial applications, offering end-to-end air cooling and air conditioning projects with expert design, installation, and commissioning.",
 
   keywords: [
@@ -21,17 +21,17 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/turnkey-hvac-solutions-for-industrial-applications",
+    canonical: "/industrial-turnkey-hvac-solutions",
   },
 
   openGraph: {
-    title: "Turnkey HVAC Solutions for Industrial Applications | Adhunik Powertech",
+    title: "Industrial Turnkey HVAC Solutions | Adhunik Powertech",
     description: "Looking for a reliable HVAC turnkey solution? Adhunik Powertech provides complete industrial HVAC projects for cooling, ventilation, and air conditioning across India",
-    url: "/turnkey-hvac-solutions-for-industrial-applications",
+    url: "/industrial-turnkey-hvac-solutions",
     type: "article",
     images: [
       {
-        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770359810/Turnkey_HVAC_Solution_lxuyjp.webp", 
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770457627/Havc_Turnkey_b8xazd.webp", 
         width: 1200,
         height: 630,
         alt: "A large-scale industrial HVAC installation featuring ductwork and AHU units, representing complete turnkey service delivery.",
@@ -46,7 +46,7 @@ export const metadata = {
     title: "Turnkey HVAC Solutions: Design to Commissioning | Certified Engineering",
     description: "Minimize downtime and maximize efficiency with our all-in-one industrial HVAC solutions. Trusted by government and private sectors.",
     images: 
-      "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770359810/Turnkey_HVAC_Solution_lxuyjp.webp"
+      "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770457627/Havc_Turnkey_b8xazd.webp"
 
   },
 };
