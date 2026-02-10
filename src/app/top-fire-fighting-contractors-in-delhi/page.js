@@ -59,7 +59,7 @@ robots: "index, follow",
     title: "Top Firefighting Contractors in Delhi: Adhunik FireXpert's Edge | Blog",
     description:
       "Searching for the best firefighting contractors in Delhi? Discover what sets top fire safety companies apart. Adhunik FireXpert offers comprehensive, ISI/NFPA-certified solutions across Delhi NCR, Gurugram & Noida. Read more!",
-    url: "https://www.adhunikpowertech.com/blog/top-firefighting-contractors-delhi", 
+    url: "https://www.adhunikpowertech.com/top-fire-fighting-contractors-in-delhi", 
     type: "article",  
     images: [
       {
@@ -72,7 +72,7 @@ robots: "index, follow",
   },
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/blog/top-firefighting-contractors-delhi", 
+      "https://www.adhunikpowertech.com/top-fire-fighting-contractors-in-delhi", 
   },
   twitter: {
     card: "summary_large_image",

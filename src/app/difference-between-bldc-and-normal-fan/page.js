@@ -36,7 +36,7 @@ export const metadata = {
   openGraph: {
     title: "BLDC Fan vs. Normal Fan: Save Up To 65% | Adhunik Air Care",
     description: "Compare BLDC vs. normal ceiling fans to cut electricity bills. Adhunik Air Care BLDC fans offer 65% energy savings, silent operation, & 3X inverter backup. Discover why we're smart!",
-    url: "https://www.adhunikpowertech.com/bldc-fans", 
+    url: "https://www.adhunikpowertech.com/difference-between-bldc-and-normal-fan", 
     type: "article",  
     images: [
       {
@@ -49,7 +49,7 @@ export const metadata = {
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/bldc-fans",  
+    canonical: "https://www.adhunikpowertech.com/difference-between-bldc-and-normal-fan",  
   },
   twitter: {
     card: "summary_large_image",

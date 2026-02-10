@@ -18,13 +18,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/blog/a-new-chapter-of-excellence-adhunik-hvac-projects",
+    canonical: "https://www.adhunikpowertech.com/a-new-chapter-of-excellence-adhunik-hvac-projects",
   },
 
   openGraph: {
     title: "A New Chapter of Excellence: Introducing Adhunik HVAC Projects",
     description: "Adhunik Powertech is proud to announce Adhunik HVAC Projects, our new specialized company inheriting our 19+ year legacy.",
-    url: "/blog/a-new-chapter-of-excellence-adhunik-hvac-projects",
+    url: "https://www.adhunikpowertech.com/a-new-chapter-of-excellence-adhunik-hvac-projects",
     type: "article",
     images: [
       {

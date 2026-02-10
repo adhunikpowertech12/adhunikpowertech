@@ -52,7 +52,7 @@ export const metadata = {
     title: "Fire Extinguisher Guide for Delhi NCR: Types, Uses & Regulations | Adhunik FireXpert",
     description:
       "Which fire Extinguisher do you need? This guide covers all classes of fire, types of extinguishers & Indian regulations (BIS, ISI). Learn how to choose & use the right one for your home or business. Read our expert guide!",
-    url: "https://www.adhunikpowertech.com/fire-Extinguisher-guide-for-delhi-ncr", 
+    url: "https://www.adhunikpowertech.com/fire-extinguisher-guide-for-delhi-ncr", 
     type: "article",
     images: [
       {
@@ -65,7 +65,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/fire-Extinguisher-guide-for-delhi-ncr",  
+      "https://www.adhunikpowertech.com/fire-extinguisher-guide-for-delhi-ncr",  
   },
   twitter: {
     card: "summary_large_image",

@@ -19,13 +19,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/blog/reduce-hvac-energy-consumption", // Using relative canonical
+    canonical: "https://www.adhunikpowertech.com/reduce-hvac-energy-consumption", // Using relative canonical
   },
 
   openGraph: {
     title: "5 Ways to Reduce Commercial HVAC Energy Consumption | Adhunik Powertech",
     description: "Learn how to reduce your commercial HVAC energy bills with 5 proven strategies, from smart maintenance (AMCs) to energy-efficient system upgrades.",
-    url: "/blog/reduce-hvac-energy-consumption", // Using relative URL
+    url: "https://www.adhunikpowertech.com/reduce-hvac-energy-consumption", // Using relative URL
     type: "article",
     images: [
       {

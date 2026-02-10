@@ -68,7 +68,7 @@ export const metadata = {
     title: "Fire Sprinkler System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Sprinkler System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for superior fire protection. Contact us!",
-    url: "https://www.adhunikpowertech.com/fire-Sprinkler-system",  
+    url: "https://www.adhunikpowertech.com/fire-sprinkler-system",  
     type: "website",  
     images: [
       {
@@ -82,7 +82,7 @@ export const metadata = {
   robots: "index, follow",
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/fire-Sprinkler-system",  
+      "https://www.adhunikpowertech.com/fire-sprinkler-system",  
   },
   twitter: {
     card: "summary_large_image",

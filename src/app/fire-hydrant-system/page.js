@@ -66,7 +66,7 @@ export const metadata = {
     title: "Fire Hydrant System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Hydrant System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for robust fire protection. Contact us!",
-    url: "https://www.adhunikpowertech.com/fire-Hydrant-system", 
+    url: "https://www.adhunikpowertech.com/fire-hydrant-system", 
     type: "website", 
     images: [
       {
@@ -80,7 +80,7 @@ export const metadata = {
   robots: "index, follow",
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/fire-Hydrant-system", // Crucial: Ensure this matches your actual canonical URL
+      "https://www.adhunikpowertech.com/fire-hydrant-system", // Crucial: Ensure this matches your actual canonical URL
   },
   twitter: {
     card: "summary_large_image",
