@@ -303,6 +303,15 @@ export default function Blog() {
       link: "/industrial-turnkey-hvac-solutions",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770457627/Havc_Turnkey_b8xazd.webp",
     },
+    {
+      id: 29,
+      title: "Evaporative Cooling vs AC: Best Industrial Air Cooling Solution",
+      date: "Feb 2026",
+      image:
+        "",
+      link: "/best-industrial-air-cooling-solution",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770705914/evaoprative_air_coolingvs_ac_ewjq1b.webp",
+    },
   ];
 
   return (

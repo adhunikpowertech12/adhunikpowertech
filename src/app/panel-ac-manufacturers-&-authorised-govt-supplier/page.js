@@ -51,7 +51,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         // UPDATED Twitter Title
-        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik",
+        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
         description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
         image: "/panelac.webp", // Placeholder
     },
