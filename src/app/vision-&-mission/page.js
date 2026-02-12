@@ -41,7 +41,7 @@ export default function page() {
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                   <img
                     className="rounded-xl object-cover"
-                    src="https://pagedone.io/asset/uploads/1717741205.png"
+                    src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770803843/vision_hk3mxx.webp"
                     alt="about Us image"
                      height={300}
                   width={500}
@@ -50,7 +50,7 @@ export default function page() {
                 </div>
                 <img
                   className="sm:ml-0 ml-auto rounded-xl object-cover"
-                  src="https://pagedone.io/asset/uploads/1717741215.png"
+                  src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770803909/vision1_qtsip5.webp"
                   alt="about Us image"
                    height={300}
                   width={500}

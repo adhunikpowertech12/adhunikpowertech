@@ -110,25 +110,23 @@ export default function ProductOverview() {
 
 
   const articles = [
-
     {
       id: 1,
       title: ' Air Washer',
       description: 'Breathe easy with our air washers. Experience cleaner, fresher air by removing pollutants and allergens. ',
       imgSrc: '/AWP.webp',
       link: '/air-washer',
-      imgHeight: "250px ",
-      imgWidth: "250px ",
+      imgHeight: "250px", // Standardized height
+      imgWidth: "auto",   // Let width adjust naturally
     },
-
     {
       id: 2,
       title: ' Ducted Air Coolers ',
       description: 'Stay comfortable in style. Our ducted air coolers provide quiet, efficient cooling without compromising your space.',
       imgSrc: '/DCP.webp',
       link: '/ducted-air-cooler',
-      imgHeight: "250px    ",
-      imgWidth: "250px ",
+      imgHeight: "250px",
+      imgWidth: "auto",
     },
     {
       id: 3,
@@ -136,21 +134,20 @@ export default function ProductOverview() {
       description: ' Create a healthier, more comfortable indoor environment. Our ventilation exhaust fans remove moisture, odors, and pollutants. ',
       imgSrc: '/efss.webp',
       link: '/ventilation-fans',
-      imgHeight: "250px ",
-      imgWidth: " 250px  ",
+      imgHeight: "250px",
+      imgWidth: "auto",
     },
   ];
-
 
   const articles2 = [
     {
       id: 1,
       title: ' PANEL AIR CONDITIONER ',
       description: 'Keep your CNC and electrical panels running smoothly. Our panel air conditioners provide precise temperature control and reliable cooling, preventing overheating and system failures.',
-      imgSrc: '/panelac.webp',
+      imgSrc: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770795094/panel_ac_vyhuid.webp',
       link: '/panel-air-conditioners',
-      imgHeight: "350px",
-      imgWidth: "350px",
+      imgHeight: "300px", // Keeping a consistent height for the taller row
+      imgWidth: "auto",
     },
     {
       id: 2,
@@ -158,8 +155,8 @@ export default function ProductOverview() {
       description: 'Protect your valuable machinery and maintain optimal operating temperatures with our efficient oil and coolant chillers. Prevent overheating, reduce downtime, and improve overall productivity.',
       imgSrc: '/OC.webp',
       link: '/chiller-oil-water-coolant',
-      imgHeight: "350px",
-      imgWidth: "350px",
+      imgHeight: "300px",
+      imgWidth: "auto",
     },
     {
       id: 3,
@@ -167,8 +164,8 @@ export default function ProductOverview() {
       description: ' Maintain a clean and controlled environment with our high-performance air showers. Effectively remove dust, debris, and contaminants from personnel before entering critical areas. ',
       imgSrc: '/as.webp',
       link: '/air-shower',
-      imgHeight: "350px",
-      imgWidth: "350px",
+      imgHeight: "300px",
+      imgWidth: "auto",
     },
     {
       id: 4,
@@ -176,10 +173,11 @@ export default function ProductOverview() {
       description: ' Optimize indoor air quality and comfort with our efficient air handling units. Control temperature, humidity, and airflow for a healthy and productive environment. ',
       imgSrc: '/AHU.webp',
       link: '/air-handling-unit',
-      imgHeight: "350px",
-      imgWidth: "350px",
+      imgHeight: "300px",
+      imgWidth: "auto",
     },
   ];
+
 
   const [showModal, setShowModal] = React.useState(false);
 
