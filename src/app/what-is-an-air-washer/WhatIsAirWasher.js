@@ -137,7 +137,7 @@ export default function WhatIsAirWasher()
 
                       <img
                         className="w-full h-full object-center object-cover rounded-3xl"
-                        src="/blog/2.jpg"
+                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770979707/2_cryfy4.webp"
                         alt="Adhunik Powertech air washer"
                         loading="lazy"
                       />
@@ -192,7 +192,7 @@ export default function WhatIsAirWasher()
 
                       <img
                         className="w-full h-full object-center object-cover rounded-3xl"
-                        src="/blog/3.jpg"
+                        src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770979707/3_uk9jxv.webp"
                          alt="Adhunik Powertech air washer "
                        
                         loading="lazy"

@@ -12,7 +12,7 @@ export default function Blog() {
       image:
         "",
       link: "/what-is-an-air-washer",
-      img: "/awb.png",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770979707/2_cryfy4.webp",
     },
 
     {
