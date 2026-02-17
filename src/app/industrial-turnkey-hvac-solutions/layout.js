@@ -17,7 +17,16 @@ export const metadata = {
     "HVAC commissioning services",
     "energy-efficient industrial cooling",
     "HVAC contractors",
-    "clean room HVAC solutions"
+    "End-to-End HVAC Solutions for Industries",
+    "Turnkey HVAC Contractor in Delhi NCR",
+    "Industrial Cooling Solutions Provider",
+    "Turnkey HVAC Solutions for Factories",
+    "HVAC Project Execution Services",
+    "Turnkey HVAC Design Build Services",
+    "Turnkey HVAC Contractor in Delhi NCR",
+    "Turnkey Hvac Solutions for Manufacturing plants",
+    "Hvac Turnkey Solutions",
+
   ],
 
   alternates: {

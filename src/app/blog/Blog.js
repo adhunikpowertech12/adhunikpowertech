@@ -312,6 +312,15 @@ export default function Blog() {
       link: "/best-industrial-air-cooling-solution",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770705914/evaoprative_air_coolingvs_ac_ewjq1b.webp",
     },
+      {
+      id: 30,
+      title: "Panel AC vs. Cooling Fans: Industrial Cooling Guide",
+      date: "Feb 2026",
+      image:
+        "",
+      link: "/panel-air-conditioner-vs-cooling-fans",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771330538/Panel_AC_vs._Cooling_Fans_pooufv.webp",
+    },
   ];
 
   return (
