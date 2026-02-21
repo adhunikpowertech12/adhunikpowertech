@@ -4,8 +4,8 @@ import PanelAirConditioners from "./PanelAirConditioners"
 
 
 export const metadata = {
-  title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
-  description: "Looking for a reliable panel air conditioner? Adhunik Powertech is a top manufacturer and authorized government supplier of high-quality panel AC units for various industrial needs.",
+  title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
+  description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
   keywords: [
     "Panel AC",
     "Panel Air Conditioner",
@@ -56,8 +56,8 @@ export const metadata = {
   
   robots: "index, follow",
   openGraph: {
-    title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
-    description: "Looking for a reliable panel air conditioner? Adhunik Powertech is a top manufacturer and authorized government supplier of high-quality panel AC units for various industrial needs.",
+    title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
+    description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
     url: "https://www.adhunikpowertech.com/panel-air-conditioners",
     type: "article",
     images: [
@@ -74,8 +74,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
-    description: "Need a reliable panel air conditioner? Adhunik Powertech is a leading, authorized government supplier. Explore our high-quality industrial panel AC units.",
+    title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
+    description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
     image: "https://www.adhunikpowertech.com/_next/image?url=%2Fpanelac.png&w=640&q=75",
   },
 };
