@@ -6,13 +6,13 @@ export const metadata = {
     description: "Award-winning HVAC in Delhi! Trusted by top brands like Maruti & Hero Honda. Expert service & quality you can rely on.",
     keywords: [
       "HVAC solutions Delhi NCR",
-    "HVAC contractor Noida",
-    "Air conditioning contractor Gurugram",
-"Turnkey HVAC projects Northern India",
-"HVAC services Delhi",
-"Commercial HVAC solutions Delhi NCR",
-"Industrial HVAC installation Noida",
-"HVAC system design Northern India,"
+      "HVAC contractor Noida",
+      "Air conditioning contractor Gurugram",
+      "Turnkey HVAC projects Northern India",
+      "HVAC services Delhi",
+      "Commercial HVAC solutions Delhi NCR",
+      "Industrial HVAC installation Noida",
+      "HVAC system design Northern India,"
 
 
     ],

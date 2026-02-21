@@ -4,7 +4,7 @@ import ChoosingHvac from "./ChoosingHvac";
  
   export const metadata = {
 
-    title: "Industrial & Commercial HVAC Contractor",
+    title: "Best HVAC Contractor Guide (2025) | Adhunik Powertech",
   
     description: "Choosing the right HVAC contractor for your business in 2025? Our guide covers licensing, experience, energy efficiency, and warranties for optimal results.",
     
@@ -49,8 +49,8 @@ import ChoosingHvac from "./ChoosingHvac";
   
 robots: "index, follow",
   openGraph: {
-    title: "Industrial & Commercial HVAC Contractor | 2025 Selection Guide",
-    description: "Finding the top HVAC contractor for your industrial or commercial facility in 2025 is key. This guide helps you choose a partner for efficiency, reliability, and long-term cost savings.",
+    title: "Best HVAC Contractor Guide (2025) | Adhunik Powertech",
+    description: "Choosing the right HVAC contractor in 2025? This expert guide by Adhunik Powertech helps industrial & commercial buyers compare pricing, efficiency, quality & reliability.",
     url: "https://www.adhunikpowertech.com/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space", 
 
     type: "article",
@@ -69,8 +69,8 @@ robots: "index, follow",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Industrial & Commercial HVAC Contractor | 2025 Selection Guide",
-    description: "Expert guide for businesses: Choose the right HVAC contractor for your industrial or commercial facility in 2025, ensuring efficiency, reliability, and cost savings.",
+    title: "Best HVAC Contractor Guide (2025) | Adhunik Powertech",
+    description: "Confused about choosing the right HVAC contractor for your industrial or commercial project in 2025? This expert guide by Adhunik Powertech helps you compare experience, pricing, efficiency & reliability.",
     image: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/HVAC2_v4rz2t.webp",  
   },
 };
