@@ -64,7 +64,7 @@ export default function SiteMap() {
     { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: '7-Point Checklist to Maintain Your Hydraulic Oil Chiller' },
     { href: '/industrial-turnkey-hvac-solutions', text: 'Industrial Turnkey HVAC Solutions', title: 'Industrial Turnkey HVAC Solutions | The Complete Industrial Guide' },
     { href: '/best-industrial-air-cooling-solution', text: 'Best Industrial Air Cooling Solution', title: 'Best Industrial Air Cooling Solution | Adhunik Powertech' },
-    
+    { href: '/panel-air-conditioner-vs-cooling-fans',text:'Panel Air Conditioner vs Cooling fans', title: 'Panel Ac vs Cooling Fans:Industrial Cooling Guide'},
     ];
 
   return (
