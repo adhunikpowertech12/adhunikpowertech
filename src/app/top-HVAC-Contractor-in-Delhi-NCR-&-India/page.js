@@ -3,9 +3,9 @@ import OurQualityService from './OurQualityService'
 
 
 export const metadata = {
-  title: "Top HVAC Contractor in Delhi NCR & India – Adhunik Powertech",
+  title: "Trusted HVAC Contractor in Delhi NCR & India | Adhunik Powertech",
 
-  description: "Adhunik Powertech, your trusted HVAC contractor in Delhi NCR & India, delivers expert, energy-efficient HVAC solutions from design to execution for commercial, industrial, and residential projects.",
+  description: "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR & India, delivering energy-efficient HVAC solutions from design to execution for industrial, commercial & residential projects.",
   keywords: [
     "HVAC Contractor",
     "Delhi NCR HVAC Contractor",
@@ -27,13 +27,13 @@ export const metadata = {
     "Gurugram HVAC Contractor",
     "Faridabad HVAC Contractor",
     "Ghaziabad HVAC Contractor",
-"Top HVAC Contractor In Delhi",
-"HVAC Consultant",
-"Top HVAC Contractor",
-"Top HVAC Consultant",
-"Best HVAC Contractor",
-"Best HVAC Contractor in Delhi",
-"Best HVAC Contractor in India", 
+    "Top HVAC Contractor In Delhi",
+    "HVAC Consultant",
+    "Top HVAC Contractor",
+    "Top HVAC Consultant",
+    "Best HVAC Contractor",
+    "Best HVAC Contractor in Delhi",
+    "Best HVAC Contractor in India", 
      
   ],
   
@@ -45,7 +45,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.adhunikpowertech.com/pe.jpg",
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770879845/pe_nm3szp.webp",
         width: 800,
         height: 600,
         alt: "Adhunik Powertech HVAC Contractor Services",
@@ -59,7 +59,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Adhunik Powertech - Top HVAC Contractor in Delhi NCR & India",
     description: "Expert & energy-efficient HVAC solutions from design to execution for commercial, industrial, & residential projects across Delhi NCR & India.",
-    image: "https://www.adhunikpowertech.com/dd.jpg",
+    image: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1770879845/pe_nm3szp.webp",
   },
 };
 
