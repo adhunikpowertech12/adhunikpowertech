@@ -321,6 +321,15 @@ export default function Blog() {
       link: "/panel-air-conditioner-vs-cooling-fans",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771330538/Panel_AC_vs._Cooling_Fans_pooufv.webp",
     },
+    {
+      id: 31,
+      title: "HVAC Turnkey Projects in Delhi NCR | Industrial Cost-Saving Solutions",
+      date: "Feb 2026",
+      image:
+        "",
+      link: "/hvac-turnkey-projects",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771838810/hvacturnkey_jpm1qj.webp",
+    },
   ];
 
   return (
