@@ -3,8 +3,8 @@ import HeroPage from './HeroPage';
 
 
 export const metadata = {
-  title: "Turnkey Industrial HVAC Company in India | Adhunik Powertech",
-  description: "Leading industrial HVAC company in India delivering turnkey air cooling and air conditioning projects for industrial and commercial plants. 19+ years experience. ",
+  title: "Top & Best HVAC Companies in India - Adhunik Powertech",
+  description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
   keywords: [
   "Industrial HVAC Company in India",
   "Turnkey HVAC Projects in India",
@@ -17,12 +17,16 @@ export const metadata = {
   "industrial cooling solutions",
   "HVAC solutions for factories",
   "Gurugram HVAC company",
+  "HVAC solutions",
   "HVAC services in Delhi NCR",
-  "Adhunik Powertech"
+  "Adhunik Powertech",
+  "industrial cooling",
+  "energy-efficient cooling",
+  "Gurugram cooling systems"
 ],
   openGraph: {
-    title: "Turnkey Industrial HVAC Company in India | Adhunik Powertech",
-    description: "Leading industrial HVAC company in India delivering turnkey air cooling and air conditioning projects for industrial and commercial plants. 19+ years experience.",
+   title: "Top & Best HVAC Companies in India - Adhunik Powertech",
+    description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     url: "https://www.adhunikpowertech.com/",
     siteName: "Adhunik Powertech",
     locale: "en_IN",
@@ -30,8 +34,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Turnkey Industrial HVAC Company in India | Adhunik Powertech",
-    description: "Leading industrial HVAC company in India delivering turnkey air cooling and air conditioning projects for industrial and commercial plants. 19+ years experience.",
+  title: "Top & Best HVAC Companies in India - Adhunik Powertech",
+    description: "Searching for the top HVAC companies in India? Adhunik Powertech, Delhi's trusted HVAC contractor, manufacturer & supplier, offers expert cooling solutions across India. Contact us now & Get a Free Quote!",
     creator: "@AdhunikPowertech",
   },
   alternates: {
