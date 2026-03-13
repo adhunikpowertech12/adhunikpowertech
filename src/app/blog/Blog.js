@@ -330,6 +330,15 @@ export default function Blog() {
       link: "/hvac-turnkey-projects",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771838810/hvacturnkey_jpm1qj.webp",
     },
+     {
+      id: 32,
+      title: "Best Industrial Air Cooling Solutions in Delhi NCR | Adhunik Powertech",
+      date: "March 2026",
+      image:
+        "",
+      link: "/best-air-cooling-solutions",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773393301/Air_cooling_yajdpk.webp",
+    },
   ];
 
   return (
