@@ -337,7 +337,7 @@ export default function Blog() {
       image:
         "",
       link: "/best-air-cooling-solutions",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773393301/Air_cooling_yajdpk.webp",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp",
     },
   ];
 
