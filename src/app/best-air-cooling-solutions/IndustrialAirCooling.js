@@ -89,7 +89,7 @@ export default function IndustrialAirCooling() {
           </div>
           <div className="w-full md:w-6/12 order-1 md:order-2">
             <Image
-              src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773393301/Air_cooling_yajdpk.webp"
+              src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp"
               alt="Industrial air cooling ducts being installed in a large warehouse with text-BEST AIR COOLING SOLUTIONS IN DELHI NCR."
               width={700}
               height={500}
