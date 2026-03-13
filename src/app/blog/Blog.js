@@ -332,7 +332,7 @@ export default function Blog() {
     },
      {
       id: 32,
-      title: "Best Industrial Air Cooling Solutions in Delhi NCR | Adhunik Powertech",
+      title: "Best Air Cooling Solutions in Delhi NCR | Adhunik Powertech",
       date: "March 2026",
       image:
         "",
