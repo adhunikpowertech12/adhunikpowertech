@@ -19,14 +19,14 @@ export const metadata = {
 
   alternates: {
     // IMPORTANT: Update this path to match exactly where this page lives on your site
-    canonical: "/blog/oil-chiller-maintenance-alerts",
+    canonical: "https://www.adhunikpowertech.com/oil-chiller-maintenance-alerts",
   },
 
   openGraph: {
     title: "7-Point Checklist to Maintain Your Hydraulic Oil Chiller | Adhunik Powertech",
     description: "Prevent production downtime with this deep-dive 7-point Hydraulic Oil Chiller checklist. Learn to identify failure signs.",
     // IMPORTANT: Update this URL to match the canonical link above
-    url: "/blog/oil-chiller-maintenance-alerts",
+    url: "https://www.adhunikpowertech.com/oil-chiller-maintenance-alerts",
     type: "article",
     images: [
       {
