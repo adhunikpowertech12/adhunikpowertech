@@ -44,7 +44,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773393301/Air_cooling_yajdpk.webp",
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp",
         width: 1200,
         height: 630,
         alt: "Industrial air cooling ducts being installed in a large warehouse with text-BEST AIR COOLING SOLUTIONS IN DELHI NCR.",
@@ -60,7 +60,7 @@ export const metadata = {
     description: "Need industrial air cooling in Delhi NCR? Adhunik Powertech offers advanced evaporative cooling systems for factories, warehouses, and industrial facilities. Contact experts today.",
 
     images: [
-      "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773393301/Air_cooling_yajdpk.webp",
+      "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp",
     ],
   },
 
