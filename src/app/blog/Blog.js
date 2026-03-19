@@ -339,6 +339,15 @@ export default function Blog() {
       link: "/best-air-cooling-solutions",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp",
     },
+     {
+      id: 33,
+      title: "Top HVAC Contractor in Delhi NCR | Reliable Company Guide",
+      date: "March 2026",
+      image:
+        "",
+      link: "/what-makes-a-contractor-reliable",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773833826/company_guide_b7dkig.webp",
+    },
   ];
 
   return (

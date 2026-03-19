@@ -67,6 +67,7 @@ export default function SiteMap() {
     { href: '/panel-air-conditioner-vs-cooling-fans',text:'Panel Air Conditioner vs Cooling fans', title: 'Panel Ac vs Cooling Fans:Industrial Cooling Guide'},
     { href: '/hvac-turnkey-projects',text:'HVAC Turnkey Projects', title: 'HVAC Turnkey Projects in Delhi NCR | Industrial Cost-Saving Solutions'},
     { href: '/best-air-cooling-solutions',text:'Best Industrial Air Cooling Solutions', title: 'Best Industrial Air Cooling Solutions in Delhi NCR | Adhunik Powertech'},
+    { href: '/what-makes-a-contractor-reliable',text:'What Makes a Contractor Reliable?', title: 'Top HVAC Contractor in Delhi NCR | Reliable Company Guide'},
     
     ];
 
