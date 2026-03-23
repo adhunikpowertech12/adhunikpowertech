@@ -348,6 +348,24 @@ export default function Blog() {
       link: "/what-makes-a-contractor-reliable",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773833826/company_guide_b7dkig.webp",
     },
+    {
+      id: 34,
+      title: "AHU vs FFU in Pharma Clean Rooms:Which is Better?",
+      date: "March 2026",
+      image:
+        "",
+      link: "/ahu-vs-ffu-in-pharma-clean-rooms",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774258077/ahuvsffu_pcs3xq.webp",
+    },
+    /*{
+      id: 35,
+      title: "Top HVAC Contractor in Delhi NCR | Industrial & Commercial HVAC Solutions",
+      date: "March 2026",
+      image:
+        "",
+      link: "/top-hvac-contractor-in-delhi-ncr",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774247285/HVACinDelhincr_nioekh.webp",
+    },*/
   ];
 
   return (

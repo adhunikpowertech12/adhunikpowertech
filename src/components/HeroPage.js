@@ -40,8 +40,8 @@ export default function HeroPage() {
     },
 
     {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/airwasher_n0a5gw.webp",
+      original: "/awi/dura.webp",
+      thumbnail: "/awi/dura.webp",
       originalAlt: "Cooling Equipment Image",
       thumbnailAlt: "Cooling Equipment Image",
       originalHeight: 600,
@@ -112,8 +112,8 @@ export default function HeroPage() {
       thumbnailLoading: "lazy",
     },
     {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/1_vmsg3f_aqwufc.webp",
+      original: "/awi/5.webp",
+      thumbnail: "/awi/5.webp",
       originalAlt: "Chiller Oil Water Coolant Image",
       thumbnailAlt: "Chiller Oil Water Coolant Image",
       originalHeight: 600,
