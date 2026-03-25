@@ -7,12 +7,27 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function ManufactureRnD() {
 
     const images3 = [
+      
+        {
+          original: "/awi/rd2.webp",
+          thumbnail: "/awi/rd2.webp",
+          originalAlt: "Advanced hydraulic sheet bending machine used for precision metal fabrication in HVAC manufacturing.",
+          thumbnailAlt: "Advanced hydraulic sheet bending machine used for precision metal fabrication in HVAC manufacturing.",
+           originalHeight:"300",
+    originalWidth:"300",
+    thumbnailHeight:"300",
+    thumbnailWidth:"300",
+       thumbnailLoading: "lazy",
+    loading:"lazy",
+        },
 
-        {
-          original: "/awi/rd2.png",
-          thumbnail: "/awi/rd2.png",
-          originalAlt: "HVAC System Image",
-          thumbnailAlt: "HVAC System Image",
+       
+      
+         {
+          original: "/awi/rd1.webp",
+          thumbnail: "/awi/rd1.webp",
+          originalAlt: "Industrial PU forming machine with control panel and hydraulic system for precision manufacturing operations",
+          thumbnailAlt: "Industrial PU forming machine with control panel and hydraulic system for precision manufacturing operations",
            originalHeight:"300",
     originalWidth:"300",
     thumbnailHeight:"300",
@@ -23,10 +38,10 @@ export default function ManufactureRnD() {
         },
       
         {
-          original: "/awi/rd1.png",
-          thumbnail: "/awi/rd1.png",
-          originalAlt: "HVAC System Image",
-          thumbnailAlt: "HVAC System Image",
+          original: "/awi/rd3.webp",
+          thumbnail: "/awi/rd3.webp",
+          originalAlt: "CNC press brake bending machine for metal forming in R&D labs, advanced industrial equipment for sheet metal bending and prototyping.",
+          thumbnailAlt: "CNC press brake bending machine for metal forming in R&D labs, advanced industrial equipment for sheet metal bending and prototyping.",
            originalHeight:"300",
     originalWidth:"300",
     thumbnailHeight:"300",
@@ -36,23 +51,10 @@ export default function ManufactureRnD() {
         },
       
         {
-          original: "/awi/rd3.png",
-          thumbnail: "/awi/rd3.png",
-          originalAlt: "HVAC System Image",
-          thumbnailAlt: "HVAC System Image",
-           originalHeight:"300",
-    originalWidth:"300",
-    thumbnailHeight:"300",
-    thumbnailWidth:"300",
-       thumbnailLoading: "lazy",
-    loading:"lazy",
-        },
-      
-        {
-          original: "/awi/rd4.png",
-          thumbnail: "/awi/rd4.png",
-          originalAlt: "HVAC System Image",
-          thumbnailAlt: "HVAC System Image",
+          original: "/awi/rd4.webp",
+          thumbnail: "/awi/rd4.webp",
+          originalAlt: "Hydraulic sheet metal shearing machine used in R&D departments for precision cutting, industrial fabrication equipment with CNC control panel.",
+          thumbnailAlt: "Hydraulic sheet metal shearing machine used in R&D departments for precision cutting, industrial fabrication equipment with CNC control panel.",
            originalHeight:"300",
     originalWidth:"300",
     thumbnailHeight:"300",
@@ -327,8 +329,8 @@ Shaping the Future of HVAC</h1>
               className="  h-[28rem]  object-center object-cover  "
               fetchPriority="high"
               decoding="async"
-              alt="Fire Extinguishers"
-             src="/awi/rd.png"
+              alt="R&D facility for testing and developing energy-efficient HVAC systems with controlled environments."
+             src="/awi/rd.webp"
              height={300}
              width={500}
             />
