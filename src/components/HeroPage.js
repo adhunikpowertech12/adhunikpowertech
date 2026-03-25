@@ -51,7 +51,7 @@ export default function HeroPage() {
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
-    {
+    /*{
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       originalAlt: "Cooling Equipment Image",
@@ -74,7 +74,7 @@ export default function HeroPage() {
       thumbnailHeight: 150,
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
-    },
+    },*/
     {
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
