@@ -26,11 +26,12 @@ export default function HeroPage() {
 
 
   const images3 = [
-    {
-      original: "/awi/cooler.webp",
-      thumbnail: "/awi/cooler.webp",
-      originalAlt: "HVAC System Image",
-      thumbnailAlt: "HVAC System Image",
+    
+	   {
+      original: "/awi/5.webp",
+      thumbnail: "/awi/5.webp",
+      originalAlt: "Industrial Air Washers installed outdoors for commercial HVAC ventilation, cooling, and air filtration systems",
+      thumbnailAlt: "Industrial Air wWshers installed outdoors for commercial HVAC ventilation, cooling, and air filtration systems",
       originalHeight: 600,
       originalWidth: 600,
       loading: "lazy",
@@ -38,12 +39,24 @@ export default function HeroPage() {
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
+	 /* {
+      original: "/awi/cooler.webp",
+      thumbnail: "/awi/cooler.webp",
+      originalAlt: "Ducted  cooler",
+      thumbnailAlt: "Rooftop industrial HVAC system with ducting.",
+      originalHeight: 600,
+      originalWidth: 600,
+      loading: "lazy",
+      thumbnailHeight: 150,
+      thumbnailWidth: 150,
+      thumbnailLoading: "lazy",
+    },*/
 
     {
       original: "/awi/dura.webp",
       thumbnail: "/awi/dura.webp",
-      originalAlt: "Cooling Equipment Image",
-      thumbnailAlt: "Cooling Equipment Image",
+      originalAlt: "Rooftop industrial HVAC system with ducting.",
+      thumbnailAlt: "Rooftop industrial HVAC system with ducting.",
       originalHeight: 600,
       originalWidth: 600,
       loading: "lazy",
@@ -51,7 +64,7 @@ export default function HeroPage() {
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
-    {
+    /*{
       original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841648/9_f9bq6x_onl4kf.webp",
       originalAlt: "Cooling Equipment Image",
@@ -74,12 +87,13 @@ export default function HeroPage() {
       thumbnailHeight: 150,
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
-    },
+    },*/
+    
     {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/7_xjguld_hnctpy.webp",
-      originalAlt: "Industrial Air Cooling System Image",
-      thumbnailAlt: "Industrial Air Cooling System Image",
+      original: "/awi/ventilation fan.webp",
+      thumbnail: "/awi/ventilation fan.webp",
+      originalAlt: "Industrial ventilation fans stacked in a factory workshop, used for HVAC air circulation and exhaust systems.",
+      thumbnailAlt: "Industrial ventilation fans stacked in a factory workshop, used for HVAC air circulation and exhaust systems.",
       originalHeight: 600,
       originalWidth: 600,
       loading: "lazy",
@@ -88,10 +102,10 @@ export default function HeroPage() {
       thumbnailLoading: "lazy",
     },
     {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/3_hlacmx_t3cosf.webp",
-      originalAlt: "Ventilation Fans Image",
-      thumbnailAlt: "Ventilation Fans Image",
+      original: "/awi/panel ac.webp",
+      thumbnail: "/awi/panel ac.webp",
+      originalAlt: "Industrial panel air conditioners in a warehouse, designed for electrical panels and enclosure cooling",
+      thumbnailAlt: "Industrial panel air conditioners in a warehouse, designed for electrical panels and enclosure cooling",
       originalHeight: 600,
       originalWidth: 600,
       loading: "lazy",
@@ -99,23 +113,11 @@ export default function HeroPage() {
       thumbnailWidth: 150,
       thumbnailLoading: "lazy",
     },
-    {
-      original: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      thumbnail: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1738841647/2_pxs9ab_tp70du.webp",
-      originalAlt: "Panel Air Conditioners Image",
-      thumbnailAlt: "Panel Air Conditioners Image",
-      originalHeight: 600,
-      originalWidth: 600,
-      loading: "lazy",
-      thumbnailHeight: 150,
-      thumbnailWidth: 150,
-      thumbnailLoading: "lazy",
-    },
-    {
-      original: "/awi/5.webp",
-      thumbnail: "/awi/5.webp",
-      originalAlt: "Chiller Oil Water Coolant Image",
-      thumbnailAlt: "Chiller Oil Water Coolant Image",
+   {
+      original: "/awi/Oil_Chiller.webp",
+      thumbnail: "/awi/Oil_Chiller.webp",
+      originalAlt: "Industrial oil chiller unit in a factory, used for machine cooling and temperature control in manufacturing processes",
+      thumbnailAlt: "Industrial oil chiller unit in a factory, used for machine cooling and temperature control in manufacturing processes",
       originalHeight: 600,
       originalWidth: 600,
       loading: "lazy",
@@ -150,7 +152,7 @@ export default function HeroPage() {
       window.location.href = '/support-form';  
     }
     else {
-      console.log('Please chordo');
+      console.log('Please');
       window.location.href = 'tel:8287885885';  
     }
   };
