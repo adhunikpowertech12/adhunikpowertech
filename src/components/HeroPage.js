@@ -88,9 +88,9 @@ export default function HeroPage() {
       thumbnailLoading: "lazy",
     },
     {
-      original: "awi/ventilation fan.webp",
-      thumbnail: "awi/ventilation fan.webp",
-      originalAlt: "VIndustrial ventilation fans stacked in a factory workshop, used for HVAC air circulation and exhaust systems.",
+      original: "/awi/ventilation fan.webp",
+      thumbnail: "/awi/ventilation fan.webp",
+      originalAlt: "Industrial ventilation fans stacked in a factory workshop, used for HVAC air circulation and exhaust systems.",
       thumbnailAlt: "Industrial ventilation fans stacked in a factory workshop, used for HVAC air circulation and exhaust systems.",
       originalHeight: 600,
       originalWidth: 600,
