@@ -130,18 +130,18 @@ export default function HeroPage() {
 
 
   const logos = [
-    { src: '/projects/1.webp', alt: 'Asahi-India-Glass-Ltd', width: 176, height: 112 },
-    { src: '/projects/2.webp', alt: 'Bajaj', width: 126, height: 100 },
-    { src: '/projects/3.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/4.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/5.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/6.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/7.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/8.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/9.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.webp', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/10.png', alt: 'Bajaj', width: 176, height: 112 },
-    { src: '/projects/101.webp', alt: 'Bajaj', width: 176, height: 112 },
+    { src: '/projects/1.webp', alt: 'Aarvy Healthcare Super Speciality Hospital logo with modern green and orange medical branding', width: 176, height: 112 },
+    { src: '/projects/2.webp', alt: 'AIS Asahi India Glass Ltd logo with red diamond shape and blue text branding', width: 126, height: 100 },
+    { src: '/projects/3.webp', alt: 'BKT Balkrishna Industries Limited logo in green gradient representing tyre manufacturing brand', width: 176, height: 112 },
+    { src: '/projects/4.webp', alt: 'Brookfield logo in blue text representing global asset management company', width: 176, height: 112 },
+    { src: '/projects/5.webp', alt: 'Hero MotoCorp logo with red text and black geometric icon representing motorcycle brand', width: 176, height: 112 },
+    { src: '/projects/6.webp', alt: 'Maruti Suzuki logo featuring stylized “S” emblem and corporate branding of India’s leading automobile manufacturer', width: 176, height: 112 },
+    { src: '/projects/7.webp', alt: 'Signature Global logo with green abstract “S” icon and tagline representing real estate and housing development company in India', width: 176, height: 112 },
+    { src: '/projects/8.webp', alt: 'Nuclear Fuel Complex NFC logo with atomic symbol and “Atoms in the Service of the Nation” tagline, Government of India organization', width: 176, height: 112 },
+    { src: '/projects/9.webp', alt: 'Positron Super Speciality & Cancer Hospital logo with red cross symbol representing advanced healthcare and oncology services', width: 176, height: 112 },
+    { src: '/projects/10.webp', alt: 'Zomato logo in bold red lowercase typography representing India’s leading online food delivery and restaurant discovery platform', width: 176, height: 112 },
+    { src: '/projects/102.webp', alt: 'Bhilai Steel Plant SAIL logo with Hindi and English text representing Steel Authority of India Limited integrated steel manufacturing facility', width: 176, height: 112 },
+    { src: '/projects/101.webp', alt: 'Godrej logo in multicolor gradient script typography representing the diversified Indian conglomerate brand', width: 176, height: 112 },
   ];
 
 
@@ -274,22 +274,18 @@ export default function HeroPage() {
   const images4 = [
 
     {
-
       src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743493133/india_qejhxm.webp',
       alt: 'India',
       label: 'India',
 
-
     }
     ,
-
     {
       src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743498724/nepal_mp0pkh.webp',
       alt: 'Nepal',
       label: 'Nepal',
 
     },
-
     {
       src: 'https://res.cloudinary.com/ddkyx2jhh/image/upload/v1743494131/bangladesh_rtj40y.webp',
       alt: 'Bangladesh',
@@ -318,24 +314,24 @@ export default function HeroPage() {
   ];
 
   const images6 = [
-    { src: '/l1.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/l2.webp', alt: 'pics', width: 150, height: 150 }, // Custom size
-    { src: '/GEM.webp', alt: 'pics', width: 220, height: 220 },
-    { src: '/RL.webp', alt: 'pics', width: 200, height: 100 }, // Custom size
-    { src: '/l3.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/NHWC.webp', alt: 'pics', width: 120, height: 120 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/l1.webp', alt: 'ASHRAE logo with blue hexagon symbol representing HVAC industry organization', width: 120, height: 120 },
+    { src: '/l2.webp', alt: 'ISHRAE logo representing Indian HVAC engineering society', width: 150, height: 150 }, // Custom size
+    { src: '/GEM.webp', alt: 'GeM Government e-Marketplace logo for public procurement platform in India', width: 220, height: 220 },
+    { src: '/RL.webp', alt: 'RATA logo representing Refrigeration and Air Conditioning Trades Association Ltd', width: 200, height: 100 }, // Custom size
+    { src: '/l3.webp', alt: 'TradeIndia logo representing Indian B2B business directory platform', width: 120, height: 120 },
+    { src: '/NHWC.webp', alt: 'National Human Welfare Council logo with shield emblem representing social welfare organization', width: 120, height: 120 },
+    { src: '/NTIC2.webp', alt: 'NTIC National Trade and Industry Council logo representing Indian trade and industry organization', width: 120, height: 120 },
 
   ];
 
   const images7 = [
-    { src: '/l1.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/l2.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/GEM.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/RL.webp', alt: 'pics', width: 50, height: 50 },
-    { src: '/l3.webp', alt: 'pics', width: 120, height: 50 },
-    { src: '/NHWC.webp', alt: 'pics', width: 119, height: 119 },
-    { src: '/NTIC2.webp', alt: 'pics', width: 120, height: 120 },
+    { src: '/l1.webp', alt: 'ASHRAE logo with blue hexagon symbol representing HVAC industry organization', width: 50, height: 50 },
+    { src: '/l2.webp', alt: 'ISHRAE logo representing Indian HVAC engineering society', width: 50, height: 50 },
+    { src: '/GEM.webp', alt: 'GeM Government e-Marketplace logo for public procurement platform in India', width: 50, height: 50 },
+    { src: '/RL.webp', alt: 'RATA logo representing Refrigeration and Air Conditioning Trades Association Ltd', width: 50, height: 50 },
+    { src: '/l3.webp', alt: 'TradeIndia logo representing Indian B2B business directory platform', width: 120, height: 50 },
+    { src: '/NHWC.webp', alt: 'National Human Welfare Council logo with shield emblem representing social welfare organization', width: 119, height: 119 },
+    { src: '/NTIC2.webp', alt: 'NTIC National Trade and Industry Council logo representing Indian trade and industry organization', width: 120, height: 120 },
 
   ];
 
@@ -804,7 +800,7 @@ export default function HeroPage() {
               height="600"
               src="/hvacsolution.webp"
               className="h-full md:w-[70%]"
-              alt="hvac solution"
+              alt="HVAC solution banner text with industrial air conditioning systems and rooftop units background."
               fetchPriority="high"
               decoding="async"
               effect="blur"
@@ -982,14 +978,7 @@ export default function HeroPage() {
                   </div>
                 </div>
               </div>
-
-
             </div>
-
-
-
-
-
 
           </div>
         </section>
@@ -999,13 +988,6 @@ export default function HeroPage() {
           <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving WorldWide
           </h2>
         </div>
-
-
-
-
-
-
-
 
         <div className="row flex flex-col md:flex-row ">
           <div className="col w-full md:w-6/12">
@@ -1172,7 +1154,7 @@ export default function HeroPage() {
                     height={200}
                     className="rounded-xl  object-cover  "
                     src="/tophvac2.webp"
-                    alt="about Us image"
+                    alt="Industrial HVAC cooling system with large chillers, piping, and rooftop installation for commercial building."
                     loading='lazy'
                   />
 
@@ -1183,7 +1165,7 @@ export default function HeroPage() {
                     height={200}
                     className="sm:ml-0 ml-auto rounded-xl object-cover "
                     src="/tophvac1.webp"
-                    alt="about Us image"
+                    alt="Industrial cooling tower with piping and metal platform in HVAC plant for large-scale commercial and manufacturing facility."
                     loading='lazy'
                   />
                 </div>
@@ -1221,7 +1203,7 @@ export default function HeroPage() {
             <div className=" w-full h-full md:w-5/12 px-3">
 
               <h2 className=" font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative ">
-Our Product Range 
+                 Our Product Range 
                 </h2>
 
               <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
@@ -1363,7 +1345,7 @@ Our Product Range
                 <img
                   src="/indiamartreview.webp"
                         width="300"
-  height="300"
+                  height="300"
                   loading="lazy"
                   alt="4.5 out of 5 indiamart ratings of adhunik powertech"
                 />
@@ -1376,7 +1358,7 @@ Our Product Range
                 <img
                   src="/googlereview.webp"
                         width="300"
-  height="300"
+                  height="300"
                   loading="lazy"
                   alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
                 />
@@ -1391,7 +1373,7 @@ Our Product Range
                   alt="image"
                   loading='lazy'
                      width="300"
-  height="300"
+                     height="300"
                 />
               </a>
             </div>
