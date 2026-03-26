@@ -41,10 +41,10 @@ import Link from 'next/link';
 const images3 = [
   {
 
-    original: "/jobs/1.jpg",
-    thumbnail: "/jobs/1.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite1.webp",
+    thumbnail: "/jobs/aircoolingsite1.webp",
+    originalAlt: "Industrial air cooling system with ducting and powertech's industrial air washer units installed outside factory building.",
+    thumbnailAlt: "Industrial air cooling system with ducting and powertech's industrial air washer units installed outside factory building.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -53,83 +53,81 @@ const images3 = [
     loading:"lazy"
 
   },
-
-
   {
-    original: "/jobs/2.jpg",
-    thumbnail: "/jobs/2.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite2.webp",
+    thumbnail: "/jobs/aircoolingsite2.webp",
+    originalAlt: "Air washer units with ducting installed at factory exterior for industrial air cooling system",
+    thumbnailAlt: "Air washer units with ducting installed at factory exterior for industrial air cooling system",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
   {
-    original: "/jobs/3.jpg",
-    thumbnail: "/jobs/3.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite3.webp",
+    thumbnail: "/jobs/aircoolingsite3.webp",
+    originalAlt: "Industrial air washer units with ducting installed on factory exterior for ventilation and cooling.",
+    thumbnailAlt: "Industrial air washer units with ducting installed on factory exterior for ventilation and cooling.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
   {
-    original: "/jobs/4.jpg",
-    thumbnail: "/jobs/4.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite4.webp",
+    thumbnail: "/jobs/aircoolingsite4.webp",
+    originalAlt: "Industrial air washer unit with ducting installed outside factory building for efficient air cooling and ventilation system.",
+    thumbnailAlt: "Industrial air washer unit with ducting installed outside factory building for efficient air cooling and ventilation system.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
   {
-    original: "/jobs/5.jpg",
-    thumbnail: "/jobs/5.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite5.webp",
+    thumbnail: "/jobs/aircoolingsite5.webp",
+    originalAlt: "Industrial air washer units installed outdoors with filtration panels and piping for efficient factory air cooling system.",
+    thumbnailAlt: "Industrial air washer units installed outdoors with filtration panels and piping for efficient factory air cooling system.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
   {
-    original: "/jobs/6.jpg",
-    thumbnail: "/jobs/6.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite6.webp",
+    thumbnail: "/jobs/aircoolingsite6.webp",
+    originalAlt: "Stainless steel ducting cooler installed for air cooling.",
+    thumbnailAlt: "Stainless steel ducting cooler installed for air cooling.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
   {
-    original: "/jobs/7.jpg",
-    thumbnail: "/jobs/7.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/aircoolingsite7.webp",
+    thumbnail: "/jobs/aircoolingsite7.webp",
+    originalAlt: "Industrial ducted air cooler with stainless steel ducting installed on factory exterior platform.",
+    thumbnailAlt: "Industrial ducted air cooler with stainless steel ducting installed on factory exterior platform.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
+    thumbnailLoading: "lazy",
     loading:"lazy"
   },
 
