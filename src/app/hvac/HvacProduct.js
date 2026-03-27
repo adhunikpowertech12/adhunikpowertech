@@ -136,10 +136,10 @@ const images3 = [
 
 const images4 = [
   {
-    original: "/jobs/8.jpg",
-    thumbnail: "/jobs/8.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning1.webp",
+    thumbnail: "/jobs/airconditioning1.webp",
+    originalAlt: "Rooftop VRF air conditioning units installed for commercial HVAC cooling and energy-efficient climate control systems.",
+    thumbnailAlt: "Rooftop VRF air conditioning units installed for commercial HVAC cooling and energy-efficient climate control systems.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -149,10 +149,10 @@ const images4 = [
   },
 
   {
-    original: "/jobs/9.jpg",
-    thumbnail: "/jobs/9.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning2.webp",
+    thumbnail: "/jobs/airconditioning2.webp",
+    originalAlt: "Multi-level industrial HVAC system with ducting, AHU units, and outdoor AC units for commercial ventilation and cooling.",
+    thumbnailAlt: "Multi-level industrial HVAC system with ducting, AHU units, and outdoor AC units for commercial ventilation and cooling.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -162,10 +162,10 @@ const images4 = [
   },
 
   {
-    original: "/jobs/10.jpg",
-    thumbnail: "/jobs/10.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning3.webp",
+    thumbnail: "/jobs/airconditioning3.webp",
+    originalAlt: "Industrial York centrifugal chiller system for large-scale commercial HVAC cooling and energy-efficient temperature control.",
+    thumbnailAlt: "Industrial York centrifugal chiller system for large-scale commercial HVAC cooling and energy-efficient temperature control.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -175,10 +175,10 @@ const images4 = [
   },
 
   {
-    original: "/jobs/11.jpg",
-    thumbnail: "/jobs/11.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning4.webp",
+    thumbnail: "/jobs/airconditioning4.webp",
+    originalAlt: "Industrial air handling unit (AHU) installation for commercial HVAC ventilation, cooling, and air filtration systems.",
+    thumbnailAlt: "Industrial air handling unit (AHU) installation for commercial HVAC ventilation, cooling, and air filtration systems.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -188,10 +188,10 @@ const images4 = [
   },
 
   {
-    original: "/jobs/12.jpg",
-    thumbnail: "/jobs/12.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning5.webp",
+    thumbnail: "/jobs/airconditioning5.webp",
+    originalAlt: "Industrial water chiller system with piping and compressors for commercial HVAC cooling and temperature control.",
+    thumbnailAlt: "Industrial water chiller system with piping and compressors for commercial HVAC cooling and temperature control.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -199,7 +199,7 @@ const images4 = [
       thumbnailLoading: "lazy",
     loading:"lazy",
   },
-
+/*
   {
     original: "/jobs/13.jpg",
     thumbnail: "/jobs/13.jpg",
@@ -211,10 +211,7 @@ const images4 = [
     thumbnailWidth: "300",
       thumbnailLoading: "lazy",
     loading:"lazy",
-  },
-
-
-
+  },*/
 
 ];
 
