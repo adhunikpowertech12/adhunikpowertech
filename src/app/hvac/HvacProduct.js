@@ -199,19 +199,19 @@ const images4 = [
       thumbnailLoading: "lazy",
     loading:"lazy",
   },
-/*
+
   {
-    original: "/jobs/13.jpg",
-    thumbnail: "/jobs/13.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/airconditioning6.webp",
+    thumbnail: "/jobs/airconditioning6.webp",
+    originalAlt: "Large industrial HVAC cooling system with chillers, pipelines, and cooling towers for turnkey HVAC projects in Delhi NCR",
+    thumbnailAlt: "Large industrial HVAC cooling system with chillers, pipelines, and cooling towers for turnkey HVAC projects in Delhi NCR",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
     thumbnailWidth: "300",
       thumbnailLoading: "lazy",
     loading:"lazy",
-  },*/
+  },
 
 ];
 
