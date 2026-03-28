@@ -1,22 +1,19 @@
-import CleanroomHVACContent from "./CleanroomHVACContent"; // Assuming your component name
+import CleanroomHVACContent from "./CleanroomHVACContent"; 
 
 export const metadata = {
-  // Meta Title (60 characters optimized)
-  title: "Cleanroom HVAC System for Pharma | GMP HVAC India",
+  // Meta Title: Optimized for high-intent keywords + Brand Authority (56 chars)
+  title: "Cleanroom HVAC Guide 2026 | Turnkey Pharma HVAC India",
 
-  // Meta Description (155–160 characters)
-  description: "Learn cleanroom HVAC systems for pharma manufacturing. GMP-compliant design, AHU, HEPA, ACH & turnkey solutions in Haridwar, Baddi, Rudrapur & more.",
+  // Meta Description: High CTR with localized intent and CTA (158 chars)
+  description: "Master pharma cleanroom HVAC design. Adhunik Powertech offers GMP-compliant AHU & HEPA turnkey solutions in Haridwar, Baddi, & Rudrapur. Get your 2026 guide.",
 
   keywords: [
-    // Core Keywords
     "cleanroom HVAC system",
     "pharma HVAC requirements",
     "cleanroom air handling system",
     "HVAC for pharmaceutical manufacturing",
     "GMP HVAC system India",
     "cleanroom HVAC design",
-
-    // Regional/Geographic Focus Keywords
     "HVAC solutions Haridwar",
     "Pharma HVAC Rudrapur",
     "Cleanroom AHU Baddi",
@@ -32,17 +29,18 @@ export const metadata = {
   ],
 
   openGraph: {
-    title: "Cleanroom HVAC Guide: Pharma Manufacturing (2026)",
-    description: "GMP-compliant HVAC design, AHU, and HEPA solutions for pharma manufacturing in Haridwar, Baddi, Rudrapur, and across North India.",
-    url: "https://www.adhunikpowertech.com/cleanroom-hvac-guide", // Adjust to your actual slug
+    // OG Title: Branded and specific for social sharing
+    title: "Adhunik Powertech: The 2026 Guide to Pharma Cleanroom HVAC",
+    description: "Are your cleanroom systems GMP-ready? Explore our 2026 guide on HVAC design, AHU integration, and turnkey pharma solutions for India's manufacturing hubs.",
+    url: "https://www.adhunikpowertech.com/cleanroom-hvac-guide", 
     type: "article",
     siteName: "Adhunik Powertech",
     images: [
       {
-        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp", // Replace with your actual image
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp", 
         width: 1200,
         height: 630,
-        alt: "Cleanroom HVAC system for pharmaceutical manufacturing lab with Cleanroom HVAC Guide: Pharma Manufacturing 2026 text over the image",
+        alt: "Cleanroom HVAC system for pharmaceutical manufacturing lab with Cleanroom HVAC Guide: Pharma Manufacturing 2026 text",
       },
     ],
     locale: "en_IN",
@@ -55,7 +53,6 @@ export const metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
@@ -67,7 +64,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Cleanroom HVAC Guide: Pharma Manufacturing (2026)",
+    title: "Adhunik Powertech: 2026 Pharma Cleanroom HVAC Guide",
     description: "Expert HVAC strategies for pharma hubs including Baddi, Haridwar, and Rudrapur.",
     images: ["https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp"], 
   },
