@@ -817,7 +817,7 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">6.5 Amp.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">1 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">28 TO 36</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">LMP 28 TO 36</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
                 </tbody>
@@ -930,7 +930,7 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">12.6 Amp.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">1 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 40 TO 60</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">LMP 40 TO 60</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
                 </tbody>
@@ -1041,7 +1041,7 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">15.5 Amp.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">3 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 90 TO 110 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">LMP 90 TO 110 </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
                 </tbody>
