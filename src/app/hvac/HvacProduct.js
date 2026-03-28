@@ -217,11 +217,12 @@ const images4 = [
 
 
 const images5 = [
+ 
   {
-    original: "/jobs/14.jpg",
-    thumbnail: "/jobs/14.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/cleanroom1.webp",
+    thumbnail: "/jobs/cleanroom1.webp",
+    originalAlt: "FANUC and Toshiba injection molding machines in a sterile cleanroom with an overhead gantry crane and white epoxy flooring.",
+    thumbnailAlt: "FANUC and Toshiba injection molding machines in a sterile cleanroom with an overhead gantry crane and white epoxy flooring.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -231,10 +232,10 @@ const images5 = [
   },
 
   {
-    original: "/jobs/15.jpg",
-    thumbnail: "/jobs/15.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/cleanroom2.webp",
+    thumbnail: "/jobs/cleanroom2.webp",
+    originalAlt: "Side view of a Toshiba EC130 injection molding machine with material feed lines in a high-gloss cleanroom environment.",
+    thumbnailAlt: "Side view of a Toshiba EC130 injection molding machine with material feed lines in a high-gloss cleanroom environment.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -244,36 +245,10 @@ const images5 = [
   },
 
   {
-    original: "/jobs/16.jpg",
-    thumbnail: "/jobs/16.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
-    originalHeight: "300",
-    originalWidth: "300",
-    thumbnailHeight: "300",
-    thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
-    loading:"lazy",
-  },
-
-  {
-    original: "/jobs/17.jpg",
-    thumbnail: "/jobs/17.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
-    originalHeight: "300",
-    originalWidth: "300",
-    thumbnailHeight: "300",
-    thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
-    loading:"lazy",
-  },
-
-  {
-    original: "/jobs/18.jpg",
-    thumbnail: "/jobs/18.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/cleanroom3.webp",
+    thumbnail: "/jobs/cleanroom3.webp",
+    originalAlt: "Technicians in sterile suits operating automated molding stations in a cleanroom manufacturing facility.",
+    thumbnailAlt: "Technicians in sterile suits operating automated molding stations in a cleanroom manufacturing facility.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -283,10 +258,10 @@ const images5 = [
   },
 
   {
-    original: "/jobs/19.jpg",
-    thumbnail: "/jobs/19.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/cleanroom4.webp",
+    thumbnail: "/jobs/cleanroom4.webp",
+    originalAlt: "Interior view of a high-tech ISO-certified cleanroom facility featuring automated injection molding machinery and polished epoxy flooring for sterile manufacturing.",
+    thumbnailAlt: "Interior view of a high-tech ISO-certified cleanroom facility featuring automated injection molding machinery and polished epoxy flooring for sterile manufacturing.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -294,12 +269,25 @@ const images5 = [
       thumbnailLoading: "lazy",
     loading:"lazy",
   },
+
+ /* {
+    original: "/jobs/cleanroom5.webp",
+    thumbnail: "/jobs/cleanroom5.webp",
+    originalAlt: "Modern cleanroom facility for medical and electronic component manufacturing.",
+    thumbnailAlt: "Modern cleanroom facility for medical and electronic component manufacturing.",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
+  },*/
 
   {
-    original: "/jobs/20.jpg",
-    thumbnail: "/jobs/20.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/cleanroom6.webp",
+    thumbnail: "/jobs/cleanroom6.webp",
+    originalAlt: "Cleanroom pass-through chamber with sliding glass door for sterile material transfer.",
+    thumbnailAlt: "Cleanroom pass-through chamber with sliding glass door for sterile material transfer.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -308,11 +296,11 @@ const images5 = [
     loading:"lazy",
   },
 
-  {
-    original: "/jobs/21.jpg",
-    thumbnail: "/jobs/21.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+{
+    original: "/jobs/cleanroom_2.webp",
+    thumbnail: "/jobs/cleanroom_2.webp",
+    originalAlt: "Industrial cleanroom environment showing staff monitoring automated quality control equipment.",
+    thumbnailAlt: "Industrial cleanroom environment showing staff monitoring automated quality control equipment.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -320,22 +308,6 @@ const images5 = [
       thumbnailLoading: "lazy",
     loading:"lazy",
   },
-
-  {
-    original: "/jobs/22.jpg",
-    thumbnail: "/jobs/22.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
-    originalHeight: "300",
-    originalWidth: "300",
-    thumbnailHeight: "300",
-    thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
-    loading:"lazy",
-  },
-
-
-
 
 ];
 
@@ -612,7 +584,7 @@ export default function HvacProduct() {
 
       id: 4,
       imgSrc: "certi/4.webp",
-      clientName: <>Positron Multi Specialty <br /> & Cancer Hospital</>,
+      clientName: <>Positron Multi Specialty <br/> & Cancer Hospital</>,
       location: "Rohtak, Haryana",
       jobType: " Chiller & AHU ",
       orderValue: "2 Cr",
