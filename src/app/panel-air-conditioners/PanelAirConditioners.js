@@ -109,89 +109,234 @@ export default function PanelAirConditioners() {
   ];
 
   const wall_mount = [
-    {
-      heading: "Model No.",
-      values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "WMS-025", "WMS-005", "WMS-0010", "WMS-0015", "WMS-0020", "WMS-0025", "WMS-0030", "WMS-0035", "WMS-0050", "WMS-0070"],
-    },
-    {
-      heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119", "6825 ", "8532", "10238", "11794", "17064", "23890"],
-    },
-    {
-      heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH</div></>, "285x285x570", "285x285x570", "285x310x785", "285x310x785", "275x400x1000", "275x400x1000", "270x400x1400", "270x400x1400", "425x550x1570", "425x550x1570"],
-    },
-    {
-      heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "484/2.2", "704/3.2", " 770/ 3.5", " 924/ 4.2", " 990/4.5", "1364/ 6.2", "1430/ 6.5", "1496/ 6.8", "2024/ 9.2", "2640/ 12"],
-    },
-    {
-      heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "102", "221", "238", "320", "485", "544", "595", "1076", "1326"],
-    },
-    {
-      heading: "Gross Weight",
-      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "24", "27", "38", "42", "52", "55", "70", "73", "100", "105"],
-    },
-  ];
-
-
-
-
-  const top_mount = [
-    {
-      heading: "Model No.",
-      values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "TMT-025", "TMT-005", "TMT-0010", "TMT-0015"],
-    },
-    {
-      heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "853", "1706", "3412", "5119"],
-    },
-    {
-      heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH </div></>, "405x455x555", "405x455x555", "395x655x345", "395x655x345"],
-    },
-    {
-      heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, "484/2.2", "704/3.2", " 770/ 3.5", " 924/4.2",],
-    },
-    {
-      heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "68", "102", "221", "238"],
-    },
-    {
-      heading: "Gross Weight",
-      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "26", "28", "39", "43",],
-    },
-  ];
+  {
+    heading: "Model No.",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Units</div></>,
+      "WMS-025", // Kept 250W original
+      "WMS-005",
+      "WMS-0010",
+      "WMS-0015",
+      "WMS-0020",
+      "WMS-0025",
+      "WMS-0030",
+      "WMS-0035",
+      "WMS-0050",
+      "WMS-0070",
+    ],
+  },
+  {
+    heading: "Cooling Capacity",
+    values: [
+      <><div className="font-extrabold font-sans text-black">BTU</div></>,
+      "853", // Kept 250W original
+      "1706",
+      "3412",
+      "5119",
+      "6825",
+      "8532",
+      "10238",
+      "11794",
+      "17064",
+      "23890",
+    ],
+  },
+  {
+    heading: "Dimension in mm",
+    values: [
+      <><div className="font-extrabold font-sans text-black">DxWxH</div></>,
+      "285x285x570", // Kept 250W original
+      "285x295x570",
+      "285x300x785",
+      "285x310x785",
+      "275x400x800",
+      "275x400x1000",
+      "270x400x1400",
+      "270x400x1400",
+      "425x550x1570",
+      "425x550x1570",
+    ],
+  },
+  {
+    heading: "Power Input",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Watt/ Amp</div></>,
+      "484/2.2", // Kept 250W original
+      "704 / 3.2",
+      "770 / 3.5",
+      "924 / 4.2",
+      "990 / 4.5",
+      "1364 / 6.2",
+      "1430 / 6.5",
+      "1496 / 6.8",
+      "2024 / 9.2",
+      "2640 / 12",
+    ],
+  },
+  {
+    heading: "Air-Flow",
+    values: [
+      <><div className="font-extrabold font-sans text-black">CMH</div></>,
+      "68", // Kept 250W original
+      "102",
+      "221",
+      "238",
+      "320",
+      "485",
+      "544",
+      "595",
+      "1076",
+      "1326",
+    ],
+  },
+  {
+    heading: "Gross Weight",
+    values: [
+      <><div className="font-extrabold font-sans text-black">KG</div></>,
+      "24", // Kept 250W original
+      "27",
+      "38",
+      "42",
+      "52",
+      "55",
+      "70",
+      "73",
+      "100",
+      "105",
+    ],
+  },
+];
+const top_mount = [
+  {
+    heading: "Model No.",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Units</div></>,
+      "TMT-025", // Kept 250W original
+      "TMT-005",
+      "TMT-0010",
+      "TMT-0015",
+    ],
+  },
+  {
+    heading: "Cooling Capacity",
+    values: [
+      <><div className="font-extrabold font-sans text-black">BTU</div></>,
+      "853", // Kept 250W original
+      "1706",
+      "3412",
+      "5119",
+    ],
+  },
+  {
+    heading: "Dimension in mm",
+    values: [
+      <><div className="font-extrabold font-sans text-black">DxWxH</div></>,
+      "405x455x555", // Kept 250W original
+      "405x455x555",
+      "395x655x345",
+      "395x655x345",
+    ],
+  },
+  {
+    heading: "Power Input",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Watt/ Amp</div></>,
+      "484/2.2", // Kept 250W original
+      "704/3.2",
+      "770/ 3.5",
+      "924/4.2",
+    ],
+  },
+  {
+    heading: "Air-Flow",
+    values: [
+      <><div className="font-extrabold font-sans text-black">CMH</div></>,
+      "68", // Kept 250W original
+      "102",
+      "221",
+      "238",
+    ],
+  },
+  {
+    heading: "Gross Weight",
+    values: [
+      <><div className="font-extrabold font-sans text-black">KG</div></>,
+      "26", // Kept 250W original
+      "28",
+      "39",
+      "43",
+    ],
+  },
+];
 
   const stand_alone = [
-    {
-      heading: "Model No.",
-      values: [< > <div className=" font-extrabold font-sans text-black">Units</div></>, "SA-0010", "SA-0015", "SA-0030", "SA-0050", "SA-070",],
-    },
-    {
-      heading: "Cooling Capacity",
-      values: [< > <div className=" font-extrabold font-sans text-black">BTU</div></>, "3412", "5119", "10238", "17064", "23890",],
-    },
-    {
-      heading: "Dimension in mm",
-      values: [< > <div className=" font-extrabold font-sans text-black">DxWxH</div></>, "285x310x785", "285x310x785", "550x550x1150", "550x550x1150", "425x550x1570"],
-    },
-    {
-      heading: "Power Input",
-      values: [< > <div className=" font-extrabold font-sans text-black">Watt/ Amp</div></>, " 770/ 3.5", " 924/ 4.2", " 1430/ 6.5", " 2024/ 9.2", " 2640/12",],
-    },
-    {
-      heading: "Air-Flow",
-      values: [< > <div className=" font-extrabold font-sans text-black">CMH </div></>, "221", "238", "544", "1076", "1326",],
-    },
-    {
-      heading: "Gross Weight",
-      values: [< > <div className=" font-extrabold font-sans text-black">KG</div></>, "38", "42", "72", "82", "105"],
-    },
-  ];
-
+  {
+    heading: "Model No.",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Units</div></>,
+      "SA-0010",
+      "SA-0015",
+      "SA-0030",
+      "SA-0050",
+      "SA-070",
+    ],
+  },
+  {
+    heading: "Cooling Capacity",
+    values: [
+      <><div className="font-extrabold font-sans text-black">BTU</div></>,
+      "3412",
+      "5119",
+      "10238",
+      "17064",
+      "23890",
+    ],
+  },
+  {
+    heading: "Dimension in mm",
+    values: [
+      <><div className="font-extrabold font-sans text-black">DxWxH</div></>,
+      "285x310x785",
+      "285x310x785",
+      "550x550x1150",
+      "550x550x1150",
+      "425x550x1570",
+    ],
+  },
+  {
+    heading: "Power Input",
+    values: [
+      <><div className="font-extrabold font-sans text-black">Watt/ Amp</div></>,
+      "770 / 3.5",
+      "924 / 4.2",
+      "1430 / 6.5",
+      "2024 / 9.2",
+      "2640 / 12",
+    ],
+  },
+  {
+    heading: "Air-Flow",
+    values: [
+      <><div className="font-extrabold font-sans text-black">CMH</div></>,
+      "221",
+      "238",
+      "544",
+      "1076",
+      "1326",
+    ],
+  },
+  {
+    heading: "Gross Weight",
+    values: [
+      <><div className="font-extrabold font-sans text-black">KG</div></>,
+      "38",
+      "42",
+      "70",
+      "100",
+      "105",
+    ],
+  },
+];
   const column1 = [
     "CNC Machine Tools ",
     "Robotics",

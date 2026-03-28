@@ -342,10 +342,10 @@ const images5 = [
 
 const images6 = [
   {
-    original: "/jobs/27.jpg",
-    thumbnail: "/jobs/27.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/basementventilation1.webp",
+    thumbnail: "/jobs/basementventilation1.webp",
+    originalAlt: "Industrial HVAC ventilation system with multiple exhaust fans installed on factory building for large-scale cooling solutions.",
+    thumbnailAlt: "Industrial HVAC ventilation system with multiple exhaust fans installed on factory building for large-scale cooling solutions.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -355,10 +355,10 @@ const images6 = [
   },
 
   {
-    original: "/jobs/26.jpg",
-    thumbnail: "/jobs/26.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/basementventilation2.webp",
+    thumbnail: "/jobs/basementventilation2.webp",
+    originalAlt: "Row of industrial galvanized steel exhaust fans in a warehouse factory.",
+    thumbnailAlt: "Row of industrial galvanized steel exhaust fans in a warehouse factory.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -368,10 +368,25 @@ const images6 = [
   },
 
   {
-    original: "/jobs/25.jpg",
-    thumbnail: "/jobs/25.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/basementventilation3.webp",
+    thumbnail: "/jobs/basementventilation3.webp",
+    originalAlt: "commercial basement parking lot with low ceilings and overhead ducting for air circulation.",
+    thumbnailAlt: "commercial basement parking lot with low ceilings and overhead ducting for air circulation.",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
+  },
+
+  
+
+  {
+    original: "/jobs/basementventilation4.webp",
+    thumbnail: "/jobs/basementventilation4.webp",
+    originalAlt: "Overhead rectangular exhaust ductwork for basement smoke extraction and air circulation.",
+    thumbnailAlt: "Overhead rectangular exhaust ductwork for basement smoke extraction and air circulation.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -381,8 +396,20 @@ const images6 = [
   },
 
   {
-    original: "/jobs/28.jpg",
-    thumbnail: "/jobs/28.jpg",
+    original: "/jobs/basementventilation5.webp",
+    thumbnail: "/jobs/basementventilation5.webp",
+    originalAlt: "Heavy-duty axial fan installation for warehouse and basement air circulation.",
+    thumbnailAlt: "Heavy-duty axial fan installation for warehouse and basement air circulation.",
+    originalHeight: "300",
+    originalWidth: "300",
+    thumbnailHeight: "300",
+    thumbnailWidth: "300",
+      thumbnailLoading: "lazy",
+    loading:"lazy",
+  },
+  /*{
+    original: "/jobs/basementventilation6.webp",
+    thumbnail: "/jobs/basementventilation6.webp",
     originalAlt: "HVAC System Image",
     thumbnailAlt: "HVAC System Image",
     originalHeight: "300",
@@ -391,13 +418,13 @@ const images6 = [
     thumbnailWidth: "300",
       thumbnailLoading: "lazy",
     loading:"lazy",
-  },
+  },*/
 
-  {
-    original: "/jobs/29.jpg",
-    thumbnail: "/jobs/29.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+{
+    original: "/awi/ventilation fan.webp",
+    thumbnail: "/awi/ventilation fan.webp",
+    originalAlt: "Stacked industrial axial flow fans for high-volume basement ventilation and air extraction.",
+    thumbnailAlt: "Stacked industrial axial flow fans for high-volume basement ventilation and air extraction.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -405,21 +432,6 @@ const images6 = [
       thumbnailLoading: "lazy",
     loading:"lazy",
   },
-
-  {
-    original: "/jobs/30.jpg",
-    thumbnail: "/jobs/30.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
-    originalHeight: "300",
-    originalWidth: "300",
-    thumbnailHeight: "300",
-    thumbnailWidth: "300",
-      thumbnailLoading: "lazy",
-    loading:"lazy",
-  },
-
-
 
 
 
@@ -428,10 +440,10 @@ const images6 = [
 
 const images7 = [
   {
-    original: "/jobs/31.jpg",
-    thumbnail: "/jobs/31.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/ducting1.webp",
+    thumbnail: "/jobs/ducting1.webp",
+    originalAlt: "Large-scale industrial ventilation project showing galvanized steel ducting in unit",
+    thumbnailAlt: "Large-scale industrial ventilation project showing galvanized steel ducting in unit",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -441,10 +453,10 @@ const images7 = [
   },
 
   {
-    original: "/jobs/32.jpg",
-    thumbnail: "/jobs/32.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/ducting2.webp",
+    thumbnail: "/jobs/ducting2.webp",
+    originalAlt: "Overhead rectangular GI ducting network with multiple vertical air drops in a manufacturing plant",
+    thumbnailAlt: "Overhead rectangular GI ducting network with multiple vertical air drops in a manufacturing plant",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -454,10 +466,10 @@ const images7 = [
   },
 
   {
-    original: "/jobs/33.jpg",
-    thumbnail: "/jobs/33.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/ducting3.webp",
+    thumbnail: "/jobs/ducting3.webp",
+    originalAlt: "Industrial HVAC ducting system installed inside a large facility with metal air ducts, ventilation pipes, and cleanroom partition walls for efficient airflow management.",
+    thumbnailAlt: "Industrial HVAC ducting system installed inside a large facility with metal air ducts, ventilation pipes, and cleanroom partition walls for efficient airflow management.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -467,10 +479,10 @@ const images7 = [
   },
 
   {
-    original: "/jobs/34.jpg",
-    thumbnail: "/jobs/34.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/ducting4.webp",
+    thumbnail: "/jobs/ducting4.webp",
+    originalAlt: "Industrial galvanized steel HVAC ductwork system installed along the ceiling of a large warehouse",
+    thumbnailAlt: "Industrial galvanized steel HVAC ductwork system installed along the ceiling of a large warehouse",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
@@ -480,10 +492,10 @@ const images7 = [
   },
 
   {
-    original: "/jobs/35.jpg",
-    thumbnail: "/jobs/35.jpg",
-    originalAlt: "HVAC System Image",
-    thumbnailAlt: "HVAC System Image",
+    original: "/jobs/ducting5.webp",
+    thumbnail: "/jobs/ducting5.webp",
+    originalAlt: "Large rectangular metal ventilation ducts suspended from the ceiling in a high-ceiling industrial facility.",
+    thumbnailAlt: "Large rectangular metal ventilation ducts suspended from the ceiling in a high-ceiling industrial facility.",
     originalHeight: "300",
     originalWidth: "300",
     thumbnailHeight: "300",
