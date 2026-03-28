@@ -365,6 +365,15 @@ export default function Blog() {
         "",
       link: "/top-hvac-contractor-in-delhi-ncr",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774247285/HVACinDelhincr_nioekh.webp",
+    },
+    {
+      id: 37,
+      title: "Cleanroom HVAC Guide: Pharma Manufacturing (2026)",
+      date: "March 2026",
+      image:
+        "",
+      link: "/cleanroom-hvac-guide",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp",
     }
   ];
 

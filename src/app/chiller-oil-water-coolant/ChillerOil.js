@@ -681,21 +681,21 @@ export default function ChillerOil() {
                 </thead>
                 <tbody>
                   <tr className="bg-white text-center border-b border-gray-300">
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 1.5 Tr.  </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">1.5 Tr.  </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Reciprocating</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Air-cooled (copper tube alu. fins)</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">550 X 550 X 1000</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Brazed Plate Heat-exchanger</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> TE-2 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TE-2 </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML-163</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Manually reset</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">R-407C</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">415V, 50Hz, 3PH</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">4.5 Amp.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 1 HP,1440 RPM, 50 Hz, TEFC, IE-2 </td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> LPM 28 TO 36 </td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 10 deg.C to 60 deg.C </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">1 HP,1440 RPM, 50 Hz, TEFC, IE-2 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">LPM 28 TO 36 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C </td>
                   </tr>
                 </tbody>
               </table>
@@ -807,15 +807,15 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">3 Tr.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Copeland Scroll</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Air-cooled (copper tube alu. fins)</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">50 X 50 X 1 00 7 7 2</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">750 X 750 X 1200</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Brazed Plate Heat-exchanger</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">TGEL-3.5</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML-163</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Manually reset</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">R-410A</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">415V, 50Hz, 3PH</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">.5 Amp. 6</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t (-40 to +99)</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">6.5 Amp.</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">1 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">28 TO 36</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
@@ -920,17 +920,17 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 5 Tr.  </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Copeland Scroll</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Air-cooled (copper tube alu. fins)</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">50 X 50 X 1 0 9 9 27</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">950 X 950 X 1270 </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Brazed Plate Heat-exchanger</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TGEL- .5 4</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML-16 4</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TGEL-4.5 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML - 163</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Manually reset</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">R-410A</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">415V, 50Hz, 3PH</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">12.6</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">12.6 Amp.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">HP, 1440 RPM, 50 Hz, TEFC, IE-2 2</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TO 40 60</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">1 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 40 TO 60</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
                 </tbody>
@@ -1031,17 +1031,17 @@ export default function ChillerOil() {
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">8 Tr.</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Copeland Scroll</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Air-cooled (copper tube alu. fins)</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">50 X 50 X 10 10 1460</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">1050 X 1050 X 1460 </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Brazed Plate Heat-exchanger</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TGEL- .5 8</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML-16 5S</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TGEL-8.5 </td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">DML-165S </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">Manually reset</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">R-410A</td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">415V, 50Hz, 3PH</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">15.5</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t (-40 to +99)</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">HP, 1440 RPM, 50 Hz, TEFC, IE-2 3</td>
-                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">TO 90 110</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">15.5 Amp.</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">Subzero 7510t ( -40 to +99 )</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300">3 HP, 1440 RPM, 50 Hz, TEFC, IE-2</td>
+                    <td className="px-2 py-2 text-[12px] border-r border-gray-300"> 90 TO 110 </td>
                     <td className="px-2 py-2 text-[12px] border-r border-gray-300">10 deg.C to 60 deg.C</td>
                   </tr>
                 </tbody>
@@ -1338,10 +1338,12 @@ export default function ChillerOil() {
                 <div className="mt-7 grid gap-3 w-full sm:inline-flex">
                   <Link href="/our-Company" className="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">       Know more About Us </span>
+                    <span className="relative">Know more About Us </span>
                   </Link>
-                  <a href="tel:8287885885"
-                    onclick="location.href='tel:8287885885'; return false;" className=" overflow-hidden  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
+                    <a 
+                    href="tel:8287885885" 
+                    className="overflow-hidden rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
+                  >
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                     <span className="relative"> Contact Us</span>
                   </a>
