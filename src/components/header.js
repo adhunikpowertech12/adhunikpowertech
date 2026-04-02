@@ -238,7 +238,7 @@ function Navbar() {
     },
 
     {
-      label: "HVAC",
+      label: "HVAC PROJECTS",
       dropdown: [
 
         { label: "Overview", href: "/hvac" },
