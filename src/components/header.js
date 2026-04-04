@@ -72,7 +72,7 @@ function Navbar() {
       ],
     },
     {
-      text: 'HVAC',
+      text: 'HVAC PROJECTS',
       dropdownItems: [
 
         { label: 'Overview', href: '/hvac' },
@@ -238,7 +238,7 @@ function Navbar() {
     },
 
     {
-      label: "HVAC",
+      label: "HVAC PROJECTS",
       dropdown: [
 
         { label: "Overview", href: "/hvac" },
