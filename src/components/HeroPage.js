@@ -553,9 +553,10 @@ export default function HeroPage() {
         "postalCode": "122004",
         "addressCountry": "IN"
       },
+     
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "8287885885",
+        "telephone": "+91-8287885885",
         "contactType": "Customer Service",
         "areaServed": "IN",
         "availableLanguage": "en"
@@ -564,29 +565,42 @@ export default function HeroPage() {
         "https://www.facebook.com/adhunikpowertech",
         "https://www.instagram.com/adhunikpowertech/",
         "https://x.com/AdhunikCooling",
-        "https://www.linkedin.com/company/adhunikpowertech/"
+        "https://www.linkedin.com/company/adhunikpowertech/",
+        "https://www.youtube.com/@adhunikpowertech",
+        "https://www.indiamart.com/adhunik-cooling-system-limited/profile.html",
+        "https://g.page/adhunikpowertech"
       ],
       "award": [
         "Most Innovative Brand for HVAC Projects 2024-25",
         "India Business Award 2025",
         "Award for Best Quality Standards & Services in HVAC Industry"
       ],
-      "hasOfferCatalog": {
+     /* "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Product Catalog",
       
 
-      }
+      }*/
       
     },
 
-    {
-      "@type": "HVACBusiness",
-      "@id": "https://adhunikpowertech.com/#localbusiness",
-      "name": "Adhunik Powertech Private Limited",
+   {
+  "@type": "HVACBusiness",
+  "@id": "https://adhunikpowertech.com/#localbusiness",
+  "name": "Adhunik Powertech Private Limited",
+
+  "parentOrganization": {
+    "@id": "https://adhunikpowertech.com/#organization"
+  },
+
+  "sameAs": [
+    "https://www.linkedin.com/company/adhunikpowertech/",
+    "https://www.facebook.com/adhunikpowertech",
+    "https://www.instagram.com/adhunikpowertech/"
+  ],
       "image": "https://www.adhunikpowertech.com/we.svg",
       "url": "https://adhunikpowertech.com/",
-      "telephone": "8287885885",
+      "telephone": "+91-8287885885",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "DCG1-0102, Tower-1, DLF CORPORATE GREENS, Sector 74A",
@@ -595,7 +609,22 @@ export default function HeroPage() {
         "postalCode": "122004",
         "addressCountry": "IN"
       },
-
+       "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "28.4089",
+      "longitude": "77.0400"
+    },
+    "areaServed": [
+    { "@type": "Country", "name": "India" },
+    { "@type": "City", "name": "Gurugram" },
+    { "@type": "AdministrativeArea", "name": "Delhi NCR" },
+    { "@type": "City", "name": "Noida" },
+    { "@type": "City", "name": "Faridabad" },
+    { "@type": "City", "name": "Haridwar" },
+    { "@type": "City", "name": "Roorkee" },
+    { "@type": "State", "name": "Uttarakhand" },
+    { "@type": "State", "name": "Uttar Pradesh" }
+],
       "openingHoursSpecification": [
 
         {
@@ -611,11 +640,11 @@ export default function HeroPage() {
           "closes": "00:00"
         }
       ],
-      "aggregateRating": {
+     /* "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.6",
-        "ratingCount": "85"
-      },
+       
+      },*/
    
     },
     {
