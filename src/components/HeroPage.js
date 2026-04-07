@@ -616,12 +616,12 @@ export default function HeroPage() {
     },
     "areaServed": [
     { "@type": "Country", "name": "India" },
-    { "@type": "City", "name": "Gurugram" },
+    { "@type": "AdministrativeArea", "name": "Gurugram" },
     { "@type": "AdministrativeArea", "name": "Delhi NCR" },
-    { "@type": "City", "name": "Noida" },
-    { "@type": "City", "name": "Faridabad" },
-    { "@type": "City", "name": "Haridwar" },
-    { "@type": "City", "name": "Roorkee" },
+    { "@type": "AdministrativeArea", "name": "Noida" },
+    { "@type": "AdministrativeArea", "name": "Faridabad" },
+    { "@type": "AdministrativeArea", "name": "Haridwar" },
+    { "@type": "AdministrativeArea", "name": "Roorkee" },
     { "@type": "State", "name": "Uttarakhand" },
     { "@type": "State", "name": "Uttar Pradesh" }
 ],
@@ -663,32 +663,127 @@ export default function HeroPage() {
       },
       "inLanguage": "en-IN"
     },
+   {
+      "@type": "SiteNavigationElement",
+      "@id": "https://adhunikpowertech.com/#navigation",
+      "name": [
+        "About Us",
+        "Contact Us",
+        "Panel Air Conditioner",
+        "Top HVAC Contractor",
+        "HVAC Projects & Turnkey Solutions"
+      ],
+      "url": [
+        "https://www.adhunikpowertech.com/our-Company",
+        "https://www.adhunikpowertech.com/support-form",
+        "https://www.adhunikpowertech.com/panel-air-conditioners",
+        "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
+        "https://www.adhunikpowertech.com/hvac"
+      ]
+    },
+
+    /* ---------- BREADCRUMBS ---------- */
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/our-Company#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.adhunikpowertech.com/our-Company" }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/support-form#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://www.adhunikpowertech.com/support-form" }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/panel-air-conditioners#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Panel Air Conditioner", "item": "https://www.adhunikpowertech.com/panel-air-conditioners" }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Top HVAC Contractor", "item": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India" }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/hvac#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "HVAC Projects & Turnkey Solutions", "item": "https://www.adhunikpowertech.com/hvac" }
+      ]
+    },
+
+    /* ---------- WEBPAGES WITH LINKED BREADCRUMB ---------- */
+
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/our-Company",
       "url": "https://www.adhunikpowertech.com/our-Company",
       "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Powertech",
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "about": { "@id": "https://adhunikpowertech.com/#organization" },
-      "inLanguage": "en-IN"
-    },
-	{
-      "@type": "WebPage",
-      "@id": "https://www.adhunikpowertech.com/product-overview",
-      "url": "https://www.adhunikpowertech.com/product-overview",
-      "name": "HVAC & Industrial Cooling Products India | Global - Adhunik Powertech",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/our-Company#breadcrumb" },
       "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/support-form",
+      "url": "https://www.adhunikpowertech.com/support-form",
+      "name": "Contact Us - Adhunik Powertech",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/support-form#breadcrumb" },
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/panel-air-conditioners",
+      "url": "https://www.adhunikpowertech.com/panel-air-conditioners",
+      "name": "Panel Air Conditioner Manufacturer in India - Adhunik Powertech",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/panel-air-conditioners#breadcrumb" },
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    },
+
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
       "url": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
       "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Powertech",
-	  "description": "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR and across India, offering expert services in HVAC design, installation, repair, and maintenance for industrial and commercial clients.",
+      "description": "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR and across India.",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India#breadcrumb" },
+      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/hvac",
+      "url": "https://www.adhunikpowertech.com/hvac",
+      "name": "HVAC Projects & Turnkey Solutions - Adhunik Powertech",
+      "description": "Complete HVAC turnkey solutions including design and execution.",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/hvac#breadcrumb" },
       "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     }
+
   ]
 };
   return (
