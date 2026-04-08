@@ -25,6 +25,13 @@ export const metadata = {
     "VFD Panel Cooling Solutions",
     "Industrial Electrical Panel Cooling Delhi",
     "Panel Mounted Air Conditioning Units",
+    "Panel ac",
+    "panel ac price",
+    "panel ac for electrical panel",
+    "advance cooling- panel ac",
+    "Panel air conditioner on gem",
+    "panel air conditioner price",
+    "panel ac manufacturers in india",
     "Dust Proof Cooling for Electrical Cabinets",
     "Energy Efficient Panel AC Manufacturers",
     "Panel Air Conditioner Supplier Noida Gurgaon"

@@ -22,9 +22,19 @@ export const metadata = {
         "Electrical Enclosure Cooling",
         "VFD Panel AC",
         "PLC Panel Cooler",
-        "SS 304 Panel AC",
-        "Thermal Management Solutions",
+        "CNC Machine Cooling Solutions",
+        "Panel ac",
+        "panel ac price",
+        "panel ac for electrical panel",
+        "advance cooling- panel ac",
+        "Panel air conditioner on gem",
+        "panel air conditioner price",
+        "panel ac manufacturers in india",
         "Industrial Cooling India",
+        "Industrial Panel Air Conditioner",
+        "Electrical Cabinet Cooling System",
+        "Panel AC Manufacturer India",
+
     ],
 
     // Canonical link for SEO
