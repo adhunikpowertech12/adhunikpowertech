@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     title: "AHU vs FFU in Pharma Clean Rooms: Best HVAC Solutions in North India",
     description: "Make the right engineering decision for your pharmaceutical facility. Expert AHU and FFU integration in Haridwar, Baddi, Rudrapur, and across North India.",
-    url: "https://www.adhunikpowertech.com/ahu-vs-ffu-pharma-clean-rooms",  
+    url: "https://www.adhunikpowertech.com/ahu-vs-ffu-in-pharma-clean-rooms",  
     type: "article",
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata = {
 
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/ahu-vs-ffu-pharma-clean-rooms", 
+    canonical: "https://www.adhunikpowertech.com/ahu-vs-ffu-in-pharma-clean-rooms", 
   },
   twitter: {
     card: "summary_large_image",
