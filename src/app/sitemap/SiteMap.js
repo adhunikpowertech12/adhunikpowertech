@@ -70,8 +70,8 @@ export default function SiteMap() {
     { href: '/what-makes-a-contractor-reliable',text:'What Makes a Contractor Reliable?', title: 'Top HVAC Contractor in Delhi NCR | Reliable Company Guide'},
     { href: '/ahu-vs-ffu-in-pharma-clean-rooms',text:'AHU vs FFU in Pharma Clean Rooms', title: 'AHU vs FFU in Pharma Clean Rooms | Adhunik Powertech'},
     { href: '/top-hvac-contractor-in-delhi-ncr',text:'Top HVAC Contractor in Delhi NCR', title: 'Top HVAC Contractor in Delhi NCR for Industrial & Commercial Projects'},
-    { href: '/cleanroom-hvac-guide',text:'Cleanroom HVAC Guide', title: 'Cleanroom HVAC Guide: Pharma Manufacturing (2026)'}
-    
+    { href: '/cleanroom-hvac-guide',text:'Cleanroom HVAC Guide', title: 'Cleanroom HVAC Guide: Pharma Manufacturing (2026)'},
+    { href: '/choose-right-hvac-company-in-haridwar', text:'Choose the Best HVAC Company in Haridwar | Expert Guide', title: 'Choose the Best HVAC Company in Haridwar | Expert Guide'}
     ];
 
   return (

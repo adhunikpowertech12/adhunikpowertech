@@ -374,6 +374,15 @@ export default function Blog() {
         "",
       link: "/cleanroom-hvac-guide",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp",
+    },
+     {
+      id: 38,
+      title: "Choose the Best HVAC Company in Haridwar | Expert Guide",
+      date: "April 2026",
+      image:
+        "",
+      link: "/choose-right-hvac-company-in-haridwar",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775817226/hvaccompanyinharidwar_zvgumq.webp",
     }
   ];
 
