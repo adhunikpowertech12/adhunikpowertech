@@ -383,6 +383,15 @@ export default function Blog() {
         "",
       link: "/choose-right-hvac-company-in-haridwar",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775817226/hvaccompanyinharidwar_zvgumq.webp",
+    },
+    {
+      id: 39,
+      title: "Top 10 HVAC Companies in Haridwar | Adhunik Powertech",
+      date: "April 2026",
+      image:
+        "",
+      link: "/top-hvac-companies-in-haridwar",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775890444/haridwarhvac_u6fnes.webp",
     }
   ];
 

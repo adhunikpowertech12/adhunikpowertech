@@ -27,7 +27,7 @@ export const metadata = {
     "Pharma HVAC Uttarakhand",
     "Cleanroom engineering Uttar Pradesh"
   ],
-
+  
   openGraph: {
     // OG Title: Branded and specific for social sharing
     title: "Adhunik Powertech: The 2026 Guide to Pharma Cleanroom HVAC",

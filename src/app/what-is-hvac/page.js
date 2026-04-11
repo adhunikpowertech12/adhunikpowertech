@@ -40,7 +40,8 @@ export const metadata = {
     "HVAC Faridabad",
   ],
 
-robots: "index, follow",
+  // SEO Robots Instructions
+  robots: "index, follow",
 
   
   openGraph: {

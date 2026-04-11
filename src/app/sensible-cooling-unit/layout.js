@@ -16,7 +16,8 @@ export const metadata = {
     "DAMA Unit",
     "Fresh Air Pre-cooling"
   ],
-
+  // SEO Robots Instructions
+  robots: "index, follow",
   openGraph: {
     title: "Techmark SCU: Revolutionizing Industrial Cooling",
     description: "Reduce cooling operational costs by up to 90% with Techmark's patented Sensible Cooling technology.",
