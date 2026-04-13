@@ -392,6 +392,15 @@ export default function Blog() {
         "",
       link: "/top-hvac-companies-in-haridwar",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775890444/haridwarhvac_u6fnes.webp",
+    },
+     {
+      id: 40,
+      title: "Best HVAC Services in Haridwar | The Complete Guide",
+      date: "April 2026",
+      image:
+        "",
+      link: "/best-hvac-services-haridwar",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp",
     }
   ];
 
