@@ -138,7 +138,7 @@ export default function HaridwarHVACBlog() {
           <div className="w-full md:w-6/12">
             <Image
               src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp" 
-              alt="Best HVAC Services in Haridwar 2026"
+              alt="Row of rooftop HVAC outdoor units with large fans at sunset, promoting “Best HVAC Services in Haridwar.”"
               width={700}
               height={500}
               className="w-full h-auto rounded-xl shadow-xl border-2 border-cyan-100"
