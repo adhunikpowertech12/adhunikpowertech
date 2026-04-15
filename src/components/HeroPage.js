@@ -1003,11 +1003,252 @@ export default function HeroPage() {
           </section>
 
         </div>
+ 
+ <section className="relative   py-20  bg-body overflow-hidden bg-black text-white">
+            <div className="relative container mx-auto px-4">
+
+              <div className="absolute top-0 right-0 -mr-52 -mt-64 w-186 h-186 bg-gradient-to-t from-purple-600 via-darkBlue-900 rounded-full filter blur-4xl"></div>
+              <div className="relative  h-full w-full mx-auto lg:mx-0 mb-7 text-center">
+                <h2 className="font-heading text-4xl font-medium  tracking-tight mb-6">Our Quality Services</h2>
+                <p className="  text-gray-400 tracking-tight capitalize">
+                  <span className='  text-center '> we offer high-quality, personalized services that ensure a  great experience and <br /> exceed your expectations.</span>
+                </p>
+              </div>
 
 
+              <div className="relative max-w-md lg:max-w-none mx-auto">
+                <div className="flex flex-wrap -mx-4 text-center md:text-left">
+                  {[
+                    {
+                      icon: 'cad__bvhdns',
+                      title: 'Consultancy & Design',
+                      content: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
+                    },
+                    {
+                      icon: 'de__xjfjdj',
+                      title: 'Detailed Engineering',
+                      content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
+                    },
+                    {
+                      icon: 'Project_Exe_mptvqx',
+                      title: 'Project Execution',
+                      content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
+                    },
+                  ].map((service, index) => (
+                    <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                      <div
+                        className="group block h-auto xl:h-128 p-8 border-2 border-white border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
+
+                      >
+                        <div className="flex h-full flex-col items-start">
+                          <div className="flex w-full mb-12 items-center justify-between">
+
+                            <CldImage
+                              width="960"
+                              height="400"
+                              src={service.icon}
+                              className="block w-full rounded-lg h-52 object-cover object-center"
+                              alt="services"
+                              fetchPriority="high"
+                              decoding="async"
+                            />
+
+                          </div>
+                          <div className="mt-auto ">
+                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
+                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+
+
+        </div>
+
+
+
+        <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving WorldWide
+          </h2>
+        </div>
+
+        <div className="row flex flex-col md:flex-row ">
+          <div className="col w-full md:w-6/12">
+            <div className="row">
+
+              <div className="bg-white   ">
+                <div className="mx-auto  max-w-screen-md px-4 md:px-8">
+
+                  <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 ">
+                    {images4.map((image, index) => (
+
+                      <div key={index}
+
+                        className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg ${index === 0 || index === 3 || index == 4 ? 'md:col-span-2' : ''} md:h-44`}
+                      >
+                        <Image
+                          src={image.src}
+                          width={600}
+                          height={600}
+                          alt={image.alt}
+                          loading='lazy'
+                          className="absolute h-full inset-0  object-cover object-center transition duration-200 group-hover:scale-110"
+                        />
+                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                        <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
+                          {image.label}
+                        </span>
+                      </div>
+
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div className="col w-full md:w-6/12 items-center justify-center flex  my-auto mx-auto">
+
+            <section className="bg-white ">
+
+              <div className=" md:p-9 py-8 px-5 ">
+                <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
+                  <h2 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-700 ">
+
+                    From the Heart of India to  the Far  Corners of the World  <span className='  text-[10px] lg:text-[18px] '> </span>
+                  </h2>
+                  <p className="mb-3 text-[12px]  text-justify  lg:text-[14px] font-sans font-light">
+                    At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
+
+
+                  </p>
+                  <p className=' mb-4 text-[12px] lg:text-[14px] text-justify font-sans font-light'>
+                    Our <strong>global reach</strong>  extends far beyond the borders of our home country, <strong>India</strong> . We've established a strong presence in diverse regions, from the bustling metropolises of <strong>Asia</strong> to the high-rise buildings of the  <strong>Middle East</strong>. No matter where you are, we're here to provide you with the cooling solutions you need.
+
+
+                  </p>
+
+                  <p className=' text-[12px] lg:text-[14px] text-justify  font-sans font-light'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
+
+
+                </div>
+                <div className="container flex  justify-center pt-3">
+                  <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-normal  font-sans'>
+                    Product Overview
+                  </Link>
+                </div>
+
+
+              </div>
+            </section>
+
+          </div>
+
+
+        </div>
+
+        <div className="row">
+
+
+          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+
+          </div>
+
+
+
+         
+        <section className="pb-24 pt-14 relative">
+
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
+
+              <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
+                  <Image
+                    width={300}
+                    height={200}
+                    className="rounded-xl  object-cover  "
+                    src="/tophvac2.webp"
+                    alt="Industrial HVAC cooling system with large chillers, piping, and rooftop installation for commercial building."
+                    loading='lazy'
+                  />
+
+                </div>
+                <div className="flex-col flex gap-5">
+                  <Image
+                    width={300}
+                    height={200}
+                    className="sm:ml-0 ml-auto rounded-xl object-cover "
+                    src="/tophvac1.webp"
+                    alt="Industrial cooling tower with piping and metal platform in HVAC plant for large-scale commercial and manufacturing facility."
+                    loading='lazy'
+                  />
+                </div>
+
+              </div>
+
+
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
+                <div className="w-full flex-col justify-center items-start gap-8 flex">
+                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                    <h2 className="text-gray-700 text-xl font-semibold font-manrope w-full leading-normal  text-center">
+                      Top HVAC Services in Delhi NCR & India : Design, Engineering, Installation
+                    </h2>
+                    <div className=" text-base  leading-relaxed   space-y-4">
+                      {paragraphs.map((paragraph, index) => (
+                        <p className="font-sans  text-sm font-thin  text-justify " key={index}>{paragraph}</p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+       {/*} <div className="row">
+          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
+            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
+            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl   capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
+          </div>
+
+          <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
+            <div className=" w-full h-full md:w-5/12 px-3">
+
+              <h2 className=" font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative ">
+                 Our Product Range 
+                </h2>
+
+              <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
+                We pride ourselves on offering a <strong>diverse and innovative product range</strong> designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for  <strong>performance, durability, and efficiency.</strong> Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
+              </p>
+            </div>
+
+            <div className=" w-full h-full md:w-5/12 my-5  ">
+              <ImageGallery items={images3} className="rounded-lg " />
+            </div>
+          </div>
+
+        </div>
+*/}
+
+      
+
+ 
         <div className="inline-flex items-center justify-center w-full mx-auto mt-4 my-3">
           <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-lg   text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Our Products </h2>
+          <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-lg   text-center  md:text-3xl text-1xl capitalize font-extrabold font-sans" >Explore Our Premium Product Range</h2>
         </div>
 
         <section className="row ">
@@ -1106,244 +1347,7 @@ export default function HeroPage() {
 
           </div>
         </section>
-
-        <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-          <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-          <h2 className="absolute px-2 md:px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2  text-center text-[20px]  md:text-3xl text-1xl capitalize font-extrabold font-sans"> Serving WorldWide
-          </h2>
-        </div>
-
-        <div className="row flex flex-col md:flex-row ">
-          <div className="col w-full md:w-6/12">
-            <div className="row">
-
-              <div className="bg-white   ">
-                <div className="mx-auto  max-w-screen-md px-4 md:px-8">
-
-                  <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 ">
-                    {images4.map((image, index) => (
-
-                      <div key={index}
-
-                        className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg ${index === 0 || index === 3 || index == 4 ? 'md:col-span-2' : ''} md:h-44`}
-                      >
-                        <Image
-                          src={image.src}
-                          width={600}
-                          height={600}
-                          alt={image.alt}
-                          loading='lazy'
-                          className="absolute h-full inset-0  object-cover object-center transition duration-200 group-hover:scale-110"
-                        />
-                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-                        <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                          {image.label}
-                        </span>
-                      </div>
-
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-          <div className="col w-full md:w-6/12 items-center justify-center flex  my-auto mx-auto">
-
-            <section className="bg-white ">
-
-              <div className=" md:p-9 py-8 px-5 ">
-                <div className="font-light text-gray-700 text-[15px]  md:text-[16px] text-center ">
-                  <h2 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-700 ">
-
-                    From the Heart of India to  the Far  Corners of the World  <span className='  text-[10px] lg:text-[18px] '> </span>
-                  </h2>
-                  <p className="mb-3 text-[12px]  text-justify  lg:text-[14px] font-sans font-light">
-                    At Adhunik Powertech, we believe everyone deserves the comfort and efficiency of reliable cooling solutions. That's why we're dedicated to delivering our innovative air conditioning and air cooling products to customers across the globe.
-
-
-                  </p>
-                  <p className=' mb-4 text-[12px] lg:text-[14px] text-justify font-sans font-light'>
-                    Our <strong>global reach</strong>  extends far beyond the borders of our home country, <strong>India</strong> . We've established a strong presence in diverse regions, from the bustling metropolises of <strong>Asia</strong> to the high-rise buildings of the  <strong>Middle East</strong>. No matter where you are, we're here to provide you with the cooling solutions you need.
-
-
-                  </p>
-
-                  <p className=' text-[12px] lg:text-[14px] text-justify  font-sans font-light'>When you choose Adhunik Powertech, you're choosing a company dedicated to providing innovative, reliable, and sustainable cooling solutions. Our focus on quality, customer satisfaction, and global reach sets us apart as a leading provider in the industry.</p>
-
-
-                </div>
-                <div className="container flex  justify-center pt-3">
-                  <Link aria-label=" learn more about HVAC Solutions and Air Cooling Systems product page" href='/product-overview' className=' bg-[#0177C8] relative text-white text-[14px] px-4 py-3 md:px-12 md:py-4 rounded-full  uppercase font-normal  font-sans'>
-                    Product Overview
-                  </Link>
-                </div>
-
-
-              </div>
-            </section>
-
-          </div>
-
-
-        </div>
-
-        <div className="row">
-
-
-          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-
-          </div>
-
-
-
-          <section className="relative   py-20  bg-body overflow-hidden bg-black text-white">
-            <div className="relative container mx-auto px-4">
-
-              <div className="absolute top-0 right-0 -mr-52 -mt-64 w-186 h-186 bg-gradient-to-t from-purple-600 via-darkBlue-900 rounded-full filter blur-4xl"></div>
-              <div className="relative  h-full w-full mx-auto lg:mx-0 mb-7 text-center">
-                <h2 className="font-heading text-4xl font-medium  tracking-tight mb-6">Our Quality Services</h2>
-                <p className="  text-gray-400 tracking-tight capitalize">
-                  <span className='  text-center '> we offer high-quality, personalized services that ensure a  great experience and <br /> exceed your expectations.</span>
-                </p>
-              </div>
-
-
-              <div className="relative max-w-md lg:max-w-none mx-auto">
-                <div className="flex flex-wrap -mx-4 text-center md:text-left">
-                  {[
-                    {
-                      icon: 'cad__bvhdns',
-                      title: 'Consultancy & Design',
-                      content: 'Adhunik Powertech provides (Engineering, Procurement, and Construction) HVAC Solutions to clients of various industries, executing turnkey HVAC Projects all over India.',
-                    },
-                    {
-                      icon: 'de__xjfjdj',
-                      title: 'Detailed Engineering',
-                      content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
-                    },
-                    {
-                      icon: 'Project_Exe_mptvqx',
-                      title: 'Project Execution',
-                      content: " We execute all the projects under NBC, CPWD & NABH guidelines. We also follow ISHRAE, ASHRAE & ISO Standards. We are committed to safety, measurement & precautions during the execution of the work."
-                    },
-                  ].map((service, index) => (
-                    <div key={index} className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                      <div
-                        className="group block h-auto xl:h-128 p-8 border-2 border-white border-opacity-10 hover:border-opacity-200 rounded-3xl transition duration-200 cursor-pointer"
-
-                      >
-                        <div className="flex h-full flex-col items-start">
-                          <div className="flex w-full mb-12 items-center justify-between">
-
-                            <CldImage
-                              width="960"
-                              height="400"
-                              src={service.icon}
-                              className="block w-full rounded-lg h-52 object-cover object-center"
-                              alt="services"
-                              fetchPriority="high"
-                              decoding="async"
-                            />
-
-                          </div>
-                          <div className="mt-auto ">
-                            <h2 className="text-3xl sm:text-4xl mb-2 font-medium  group-hover:text-cyan-500">{service.title}</h2>
-                            <p className="text-gray-400 tracking-tight leading-5  ">{service.content}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-
-            </div>
-          </section>
-
-
-        </div>
-
-        <section className="pb-24 pt-14 relative">
-
-          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-            <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-12">
-
-              <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
-                <div className="   flex-col gap-5 items-center md:items-end  pt-24 lg:justify-center sm:justify-end justify-start   flex">
-                  <Image
-                    width={300}
-                    height={200}
-                    className="rounded-xl  object-cover  "
-                    src="/tophvac2.webp"
-                    alt="Industrial HVAC cooling system with large chillers, piping, and rooftop installation for commercial building."
-                    loading='lazy'
-                  />
-
-                </div>
-                <div className="flex-col flex gap-5">
-                  <Image
-                    width={300}
-                    height={200}
-                    className="sm:ml-0 ml-auto rounded-xl object-cover "
-                    src="/tophvac1.webp"
-                    alt="Industrial cooling tower with piping and metal platform in HVAC plant for large-scale commercial and manufacturing facility."
-                    loading='lazy'
-                  />
-                </div>
-
-              </div>
-
-
-              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex transition-colors duration-500 ease-in-out hover:border-cyan-500 border-2 border-gray-300 rounded-xl px-6  py-6">
-                <div className="w-full flex-col justify-center items-start gap-8 flex">
-                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                    <h2 className="text-gray-700 text-xl font-semibold font-manrope w-full leading-normal  text-center">
-                      Top HVAC Services in Delhi NCR & India : Design, Engineering, Installation
-                    </h2>
-                    <div className=" text-base  leading-relaxed   space-y-4">
-                      {paragraphs.map((paragraph, index) => (
-                        <p className="font-sans  text-sm font-thin  text-justify " key={index}>{paragraph}</p>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </section>
-
-        <div className="row">
-          <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-            <hr className="w-[90%] h-px my-8 bg-gray-300 border-0 " />
-            <h2 className="absolute px-3  text-gray-700 -translate-x-1/2 bg-white left-1/2   md:text-3xl   capitalize font-bold text-center font-sans">Our Premier Product Selection</h2>
-          </div>
-
-          <div className="row flex flex-row flex-wrap-reverse  mb-3 justify-evenly items-center">
-            <div className=" w-full h-full md:w-5/12 px-3">
-
-              <h2 className=" font-manrope uppercase  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-600 text-2xl lg:text-4xl text-black mb-9 max-lg:text-center relative ">
-                 Our Product Range 
-                </h2>
-
-              <p className="font-light font-sans text-justify text-[16px] leading-8 text-gray-500   max-w-2xl mx-auto">
-                We pride ourselves on offering a <strong>diverse and innovative product range</strong> designed to meet the specific needs of our clients across various industries. Our portfolio includes high-quality, cutting-edge solutions that are engineered for  <strong>performance, durability, and efficiency.</strong> Whether you require advanced HVAC systems, specialized ducting, or customized components, our products are meticulously crafted to deliver exceptional results, ensuring that every project is executed to the highest standards.
-              </p>
-            </div>
-
-            <div className=" w-full h-full md:w-5/12 my-5  ">
-              <ImageGallery items={images3} className="rounded-lg " />
-            </div>
-          </div>
-
-        </div>
-
-
-        <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
+           <div className="inline-flex  py-6 items-center justify-center w-full mx-auto my-4 mt-8">
           <hr className="w-[90%] h-px  bg-gray-300 border-0 " />
           <h2 className="absolute px-5 text-gray-700  -translate-x-1/2 bg-white left-1/2   md:text-3xl text-1xl capitalize font-extrabold   text-center font-sans">Member of</h2>
         </div>
@@ -1368,7 +1372,6 @@ export default function HeroPage() {
           </section>
 
         </div>
-
 
         <div className="row">
           <div className="relative w-full max-w-xl mx-auto block md:hidden">
@@ -1453,12 +1456,6 @@ export default function HeroPage() {
 
           </div>
 
-
-
-
-
-
-
           <section className="hidden md:flex flex-col px-4 flex-wrap md:flex-row justify-evenly items-center gap-9 pt-6">
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
               <a
@@ -1484,7 +1481,7 @@ export default function HeroPage() {
                         width="300"
                   height="300"
                   loading="lazy"
-                  alt="4.5 out of 5 Google ratings of adhunik powertech has 84 good reviews"
+                  alt="4.6 out of 5 Google ratings of adhunik powertech has 96 good reviews"
                 />
               </Link>
 
