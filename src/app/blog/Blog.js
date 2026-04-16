@@ -105,8 +105,7 @@ export default function Blog() {
       link: "/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac_x2sop2.webp",
     },
-
-    {
+/* {
       id: 10,
       title: "How Smart HVAC Design Integrates Seamlessly with Modern Interior Aesthetics ",
 
@@ -116,7 +115,7 @@ export default function Blog() {
         "",
       link: "/hvac-luxury-interior-design",
       img: "https://images.unsplash.com/photo-1687180497716-5872969e5125?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+    },*/
 
     {
       id: 11,
