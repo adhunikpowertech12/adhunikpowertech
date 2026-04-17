@@ -3,7 +3,7 @@ import FireSupresion from './FireSupresion'
 
 
 export const metadata = {
-  title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+  title: "Fire Suppression System Delhi NCR – Adhunik FireXpert",
   description:
     "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
   keywords: [
@@ -70,7 +70,7 @@ export const metadata = {
   
   
   openGraph: {
-    title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Fire Suppression System Delhi NCR – Adhunik FireXpert",
     description:
 
       "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
@@ -93,7 +93,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Suppression System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Fire Suppression System Delhi NCR – Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Suppression System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618657/fire-suppression-system_dawyka.webp", 

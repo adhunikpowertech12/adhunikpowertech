@@ -3,7 +3,7 @@ import FireVesdaSystem from "./FireVesdaSystem";
 
 export const metadata = {
 
-  title: "VESDA System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+  title: "Best VESDA System Delhi NCR | Adhunik FireXpert",
 
   description:
     "Adhunik FireXpert: Top VESDA System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for early fire detection. Contact us!",
@@ -74,7 +74,7 @@ export const metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "VESDA System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Best VESDA System Delhi NCR | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top VESDA System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for early fire detection. Contact us!",
     url: "https://www.adhunikpowertech.com/fire-VESDA-system",
@@ -94,7 +94,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "VESDA System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Best VESDA System Delhi NCR | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top VESDA System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for early fire detection. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618666/Zedexfire4_wz58ui.webp",

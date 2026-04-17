@@ -2,7 +2,7 @@ import FireHydrant from "./FireHydrant";
 
 
 export const metadata = {
-  title: "Fire Hydrant System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+  title: "Fire Hydrant System Contractor in Delhi NCR, Gurugram | Adhunik FireXpert",
   description:
     "Adhunik FireXpert: Top Fire Hydrant System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for robust fire protection. Contact us!",
   keywords: [
@@ -63,7 +63,7 @@ export const metadata = {
   ],
   
   openGraph: {
-    title: "Fire Hydrant System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Fire Hydrant System Contractor in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Hydrant System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for robust fire protection. Contact us!",
     url: "https://www.adhunikpowertech.com/fire-hydrant-system", 
@@ -79,12 +79,11 @@ export const metadata = {
   },
   robots: "index, follow",
   alternates: {
-    canonical:
-      "https://www.adhunikpowertech.com/fire-hydrant-system", // Crucial: Ensure this matches your actual canonical URL
+    canonical: "https://www.adhunikpowertech.com/fire-hydrant-system", // Crucial: Ensure this matches your actual canonical URL
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Hydrant System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Fire Hydrant System Contractor in Delhi NCR, Gurugram | Adhunik FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Hydrant System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for robust fire protection. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618655/fire-Hydrant-system_y6jt44.webp", // Placeholder: Use the same image as Open Graph

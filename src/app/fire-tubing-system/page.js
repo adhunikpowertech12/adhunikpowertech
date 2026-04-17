@@ -2,7 +2,7 @@ import FireTublingSystem from "./FireTublingSystem";
 
  
 export const metadata = {
-  title: "Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+  title: "Best Fire Tubing Suppression Delhi NCR | FireXpert",
   description:
     "Adhunik FireXpert: Top Fire Tubing System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
     
@@ -68,7 +68,7 @@ export const metadata = {
   ],
   
   openGraph: {
-    title: "Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Best Fire Tubing Suppression Delhi NCR | FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Tubing System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
     url: "https://www.adhunikpowertech.com/fire-tubing-system", 
@@ -84,12 +84,11 @@ export const metadata = {
   },
  robots: "index, follow",
   alternates: {
-    canonical:
-      "https://www.adhunikpowertech.com/fire-tubing-system", 
+    canonical: "https://www.adhunikpowertech.com/fire-tubing-system", 
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Tubing System Contractor, Supplier & Dealer in Delhi NCR, Gurugram | Adhunik FireXpert",
+    title: "Best Fire Tubing Suppression Delhi NCR | FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Tubing System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get UL/FM/NFPA-certified design, installation, maintenance & AMC for critical assets. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/Tubing_ts7kec.webp", 

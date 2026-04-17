@@ -77,8 +77,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical:
-      "https://www.adhunikpowertech.com/glow-signage-&-emergency-lights", 
+    canonical: "https://www.adhunikpowertech.com/glow-signage-&-emergency-lights", 
   },
   twitter: {
     card: "summary_large_image",

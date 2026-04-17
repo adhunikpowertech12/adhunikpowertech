@@ -3,18 +3,30 @@
 export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
-  title: "7-Point Oil Chiller Checklist | Adhunik Powertech",
+  title: "Hydraulic Oil Chiller Checklist | Adhunik Powertech",
   description: "Prevent production downtime with a 7-point hydraulic oil chiller checklist. Identify early failure signs and keep your system running efficiently.",
 
   keywords: [
-    "Hydraulic Oil Chiller",
-    "Chiller Troubleshooting Checklist",
-    "Oil Chiller Maintenance India",
-    "Hydraulic System Cooling",
-    "Chiller Repair Delhi NCR",
-    "Industrial Chiller Failure Signs",
-    "Adhunik Powertech",
-    "Hydraulic Oil Temperature Control"
+    "hydraulic oil chiller",
+  "oil chiller maintenance checklist",
+  "chiller troubleshooting checklist",
+  "oil chiller maintenance India",
+  "hydraulic system cooling",
+  "industrial chiller failure signs",
+  "hydraulic oil temperature control",
+  "oil chiller working principle",
+  "hydraulic oil chiller unit",
+  "oil chiller price in India",
+  "oil cooling chiller price",
+  "oil chiller manufacturers in India",
+  "hydraulic oil chiller manufacturers",
+  "oil chiller in Delhi NCR",
+  "chiller repair Delhi NCR",
+  "oil cooling chiller manufacturers",
+  "chiller oil pressure issues",
+  "daikin oil cooling unit alarms",
+  "industrial oil chiller maintenance tips",
+  "Adhunik Powertech oil chiller"
   ],
 
   alternates: {
@@ -23,7 +35,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "7-Point Oil Chiller Checklist | Adhunik Powertech",
+    title: "Hydraulic Oil Chiller Checklist | Adhunik Powertech",
     description: "Prevent production downtime with a 7-point hydraulic oil chiller checklist. Identify early failure signs and keep your system running efficiently.",
     // IMPORTANT: Update this URL to match the canonical link above
     url: "https://www.adhunikpowertech.com/oil-chiller-maintenance-alerts",
@@ -40,7 +52,7 @@ export const metadata = {
   robots: "index, follow",
   twitter: {
     card: "summary_large_image",
-    title: "7-Point Oil Chiller Checklist | Adhunik Powertech",
+    title: "Hydraulic Oil Chiller Checklist | Adhunik Powertech",
     description: "Prevent production downtime with a 7-point hydraulic oil chiller checklist. Identify early failure signs and keep your system running efficiently.",
     image: "/hydraulic-chiller-guide.webp", // IMPORTANT: Use the same image
   },
