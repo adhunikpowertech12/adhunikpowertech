@@ -61,7 +61,7 @@ export default function SiteMap() {
     { href: '/hvac-experts-in-gurugram', text: 'HVAC Experts in Gurugram ', title: 'HVAC Experts in Gurugram: Best Air Conditioning & Heating Services' },
     { href: '/why-panel-ac-is-your-best-investment', text: 'why-panel-ac-is-your-best-investment ', title: 'Best Investment for 2025: Panel AC Explained | Trusted Govt-Authorized Provider' },
     { href: '/panel-ac-manufacturer-india', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Best Panel AC Manufacturer India | Govt Approved' },
-    { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: '7-Point Checklist to Maintain Your Hydraulic Oil Chiller' },
+    { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: 'Hydraulic Oil Chiller Maintenance Checklist' },
     { href: '/industrial-turnkey-hvac-solutions', text: 'Industrial Turnkey HVAC Solutions', title: 'Industrial Turnkey HVAC Solutions | The Complete Industrial Guide' },
     { href: '/best-industrial-air-cooling-solution', text: 'Best Industrial Air Cooling Solution', title: 'Best Industrial Air Cooling Solution | Adhunik Powertech' },
     { href: '/panel-air-conditioner-vs-cooling-fans',text:'Panel Air Conditioner vs Cooling fans', title: 'Panel Ac vs Cooling Fans:Industrial Cooling Guide'},

@@ -285,7 +285,7 @@ export default function Blog() {
 
      {
       id: 27,
-      title: "7-Checklist Points to Maintain Your Hydraulic Oil Chiller",
+      title: "Hydraulic Oil Chiller Maintenance Checklist",
       date: "Nov 2025",
       image:
         "",
