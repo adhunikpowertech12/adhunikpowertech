@@ -2,7 +2,7 @@ import FireSprinklerSystem from "./FireSprinklerSystem";
 
 
 export const metadata = {
-  title: "Fire Sprinkler Contractor Delhi NCR | Adhunik FireXpert",
+  title: "Fire Sprinkler System Delhi NCR | 24/7 Service FireXpert",
   description:
     "Adhunik FireXpert: Top Fire Sprinkler System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for superior fire protection. Contact us!",
   keywords: [
@@ -63,7 +63,7 @@ export const metadata = {
   ],
   
   openGraph: {
-    title: "Fire Sprinkler Contractor Delhi NCR | Adhunik FireXpert",
+    title: "Fire Sprinkler System Delhi NCR | 24/7 Service FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Sprinkler System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for superior fire protection. Contact us!",
     url: "https://www.adhunikpowertech.com/fire-sprinkler-system",  
@@ -84,7 +84,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fire Sprinkler Contractor Delhi NCR | Adhunik FireXpert",
+    title: "Fire Sprinkler System Delhi NCR | 24/7 Service FireXpert",
     description:
       "Adhunik FireXpert: Top Fire Sprinkler System contractor, supplier & dealer in Delhi NCR, Gurugram, Noida & Jaipur. Get ISI-certified design, installation, maintenance & AMC for superior fire protection. Contact us!",
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1753263837/fire_sprinkler_m2veyv.webp",  
