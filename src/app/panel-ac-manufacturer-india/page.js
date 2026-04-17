@@ -6,8 +6,8 @@ export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
     // UPDATED TITLE (Under 60 Characters for optimal visibility)
-    title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
-    description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
+    title: "TBest Panel AC Manufacturer India | Govt Approved",
+    description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
 
     keywords: [
         "Panel AC Manufacturer in India",
@@ -44,9 +44,9 @@ export const metadata = {
 
     openGraph: {
         // UPDATED OpenGraph Title
-        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
-        description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
-        url: "/panel-ac-manufacturers-&-authorised-govt-supplier",
+        title: "Best Panel AC Manufacturer India | Govt Approved",
+        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
+        url: "/panel-ac-manufacturer-india",
         type: "article",
         images: [
             {
@@ -61,8 +61,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         // UPDATED Twitter Title
-        title: "Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech",
-        description: "Adhunik Powertech is a leading panel AC manufacturer and Authorized Govt. Supplier in India, providing ZED-certified, closed-loop cooling solutions for industrial uptime.",
+        title: "Best Panel AC Manufacturer India | Govt Approved",
+        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
         image: "/panelac.webp", // Placeholder
     },
 };

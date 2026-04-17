@@ -144,7 +144,7 @@ export default function AdhunikPowertechPanelACBlog() {
             {/* CTA Button */}
             <div className="flex justify-center md:justify-start mb-8">
               <a
-                href="/support-form"
+                href="https://www.adhunikpowertech.com/panel-air-conditioners"
                 className="bg-cyan-700 hover:bg-cyan-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-xl flex items-center"
               >
                 <ChevronsRight className="w-5 h-5 mr-2" />

@@ -60,7 +60,7 @@ export default function SiteMap() {
     { href: '/choosing-the-best-HVAC-contractor-for-your-commercial-and-industrial-space', text: 'HVAC Contractor for Commercial & Industrial Sites ', title: 'Best HVAC Contractor for Commercial & Industrial Sites' },
     { href: '/hvac-experts-in-gurugram', text: 'HVAC Experts in Gurugram ', title: 'HVAC Experts in Gurugram: Best Air Conditioning & Heating Services' },
     { href: '/why-panel-ac-is-your-best-investment', text: 'why-panel-ac-is-your-best-investment ', title: 'Best Investment for 2025: Panel AC Explained | Trusted Govt-Authorized Provider' },
-    { href: '/panel-ac-manufacturers-&-authorised-govt-supplier', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Panel AC Manufacturer & Govt Supplier in India | Adhunik Powertech' },
+    { href: '/panel-ac-manufacturer-india', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Best Panel AC Manufacturer India | Govt Approved' },
     { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: '7-Point Checklist to Maintain Your Hydraulic Oil Chiller' },
     { href: '/industrial-turnkey-hvac-solutions', text: 'Industrial Turnkey HVAC Solutions', title: 'Industrial Turnkey HVAC Solutions | The Complete Industrial Guide' },
     { href: '/best-industrial-air-cooling-solution', text: 'Best Industrial Air Cooling Solution', title: 'Best Industrial Air Cooling Solution | Adhunik Powertech' },

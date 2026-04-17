@@ -264,12 +264,12 @@ export default function Blog() {
 
       {
       id: 25,
-      title: "Leading Panel AC Manufacturers & Authorised Government Supplier in India",
+      title: "Best Panel AC Manufacturer India | Govt Approved",
 
       date: "Nov 2025",
       image:
         "",
-      link: "/panel-ac-manufacturers-&-authorised-govt-supplier",
+      link: "/panel-ac-manufacturer-india",
       img: "/panelac.webp",
     },
 
@@ -400,6 +400,15 @@ export default function Blog() {
         "",
       link: "/best-hvac-services-haridwar",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp",
+    },
+      {
+      id: 41,
+      title: "Advantages of Panel AC for Industrial Cooling | Guide",
+      date: "April 2026",
+      image:
+        "",
+      link: "/panel-ac-advantages",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776406523/panel-ac-advantages_smbjao.webp",
     }
   ];
 
