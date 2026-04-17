@@ -73,7 +73,8 @@ export default function SiteMap() {
     { href: '/cleanroom-hvac-guide',text:'Cleanroom HVAC Guide', title: 'Cleanroom HVAC Guide: Pharma Manufacturing (2026)'},
     { href: '/choose-right-hvac-company-in-haridwar', text:'Choose the Best HVAC Company in Haridwar | Expert Guide', title: 'Choose the Best HVAC Company in Haridwar | Expert Guide'},
     { href: '/top-hvac-companies-in-haridwar', text:'Top HVAC Companies in Haridwar | Adhunik Powertech', title: 'Top HVAC Companies in Haridwar | Adhunik Powertech'},
-    { href: '/best-hvac-services-haridwar', text:'Best HVAC Services in Haridwar | Adhunik Powertech', title: 'Best HVAC Services in Haridwar | Adhunik Powertech'}
+    { href: '/best-hvac-services-haridwar', text:'Best HVAC Services in Haridwar | Adhunik Powertech', title: 'Best HVAC Services in Haridwar | Adhunik Powertech'},
+    { href: '/panel-ac-advantages', text:'Advantages of Panel AC for Industrial Cooling', title: 'Advantages of Panel AC for Industrial Cooling | Guide'}
   ];
 
   return (
