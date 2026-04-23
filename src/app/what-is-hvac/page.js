@@ -48,7 +48,7 @@ export const metadata = {
     title: "What is HVAC ? A Beginner's Guide to Heating, Ventilation & AC | Adhunik Powertech",
     description:
       "Confused about HVAC ? Our comprehensive guide explains what HVAC means, its key components, and how it works. Discover the benefits of a modern HVAC system for your home or business.",
-    url: "https://www.adhunikpowertech.com/what-is-hvac",  
+    url: "https://www.adhunikpowertech.com/what-is-hvac/",  
     type: "article",
     images: [
       {
@@ -61,7 +61,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://www.adhunikpowertech.com/what-is-hvac",  
+      "https://www.adhunikpowertech.com/what-is-hvac/",  
   },
   twitter: {
     card: "summary_large_image",
