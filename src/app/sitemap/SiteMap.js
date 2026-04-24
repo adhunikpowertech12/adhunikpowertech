@@ -74,7 +74,8 @@ export default function SiteMap() {
     { href: '/choose-right-hvac-company-in-haridwar', text:'Choose the Best HVAC Company in Haridwar | Expert Guide', title: 'Choose the Best HVAC Company in Haridwar | Expert Guide'},
     { href: '/top-hvac-companies-in-haridwar', text:'Top HVAC Companies in Haridwar | Adhunik Powertech', title: 'Top HVAC Companies in Haridwar | Adhunik Powertech'},
     { href: '/best-hvac-services-haridwar', text:'Best HVAC Services in Haridwar | Adhunik Powertech', title: 'Best HVAC Services in Haridwar | Adhunik Powertech'},
-    { href: '/panel-ac-advantages', text:'Advantages of Panel AC for Industrial Cooling', title: 'Advantages of Panel AC for Industrial Cooling | Guide'}
+    { href: '/panel-ac-advantages', text:'Advantages of Panel AC for Industrial Cooling', title: 'Advantages of Panel AC for Industrial Cooling | Guide'},
+    { href: '/hvac-consultants-in-delhi-ncr', text:'HVAC Consultants in Delhi NCR', title: 'Trusted HVAC Consultants in Delhi NCR | Adhunik Powertech'}
   ];
 
   return (

@@ -409,6 +409,15 @@ export default function Blog() {
         "",
       link: "/panel-ac-advantages",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776406523/panel-ac-advantages_smbjao.webp",
+    },
+     {
+      id: 42,
+      title: "Trusted HVAC Consultants in Delhi NCR | Adhunik Powertech",
+      date: "April 2026",
+      image:
+        "",
+      link: "/hvac-consultants-in-delhi-ncr",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1777031578/Trusted_HVAC_Consultants_in_Delhi_NCR_zucxru.webp",
     }
   ];
 
