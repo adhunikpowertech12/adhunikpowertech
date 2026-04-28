@@ -81,6 +81,7 @@ export default function HVACConsultantsDelhi() {
       height={500}
       className="w-full h-auto rounded-xl shadow-xl border-2 border-cyan-100"
       priority // Ensures faster LCP (Largest Contentful Paint)
+      loading="eager" // <--- ADD THIS: Ensures no lazy-loading is applied
     />
   </div>
 

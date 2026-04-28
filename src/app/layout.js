@@ -1,4 +1,3 @@
- 
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -10,50 +9,28 @@ import Security from "@/components/Security";
 import Home from "@/components/MyComponent";
 import FloatingActionButtons from "@/components/FloatingActionButtons";
 import LinktreeButton from "@/components/LinktreeButton";
- 
-
-
 
 export const metadata = {
   title: {
-
     default: "Top & Best HVAC Company In India - Adhunik Powertech",
     template: "%s"
-
   },
   description: "Adhunik Powertech: Your trusted HVAC contractor in Delhi. Expert installations, repairs, and maintenance for a comfortable indoor environment. Contact us now",
-
-  
   keywords: [
-    "HVAC Solutions",
-    "Industrial Air Cooling",
-    "Commercial Air Cooling Systems",
-    "Air Washer Systems",
-    "Ducted Air Coolers",
-    "Ventilation Exhaust Fans",
-    "Panel Air Conditioners",
-    "Oil and Coolant Chillers",
-    "Air Handling Units",
-    "Air Shower Systems",
-    "Energy-Efficient Cooling Solutions",
-    "Industrial Ventilation Systems",
-    "Commercial HVAC Systems",
-    "HVAC contractors",
+    "HVAC Solutions", "Industrial Air Cooling", "Commercial Air Cooling Systems",
+    "Air Washer Systems", "Ducted Air Coolers", "Ventilation Exhaust Fans",
+    "Panel Air Conditioners", "Oil and Coolant Chillers", "Air Handling Units",
+    "Air Shower Systems", "Energy-Efficient Cooling Solutions",
+    "Industrial Ventilation Systems", "Commercial HVAC Systems", "HVAC contractors",
   ],
-
-
-  
-
   alternates: {
     canonical: "https://www.adhunikpowertech.com/",
   },
-
   twitter: {
     site: "@adhunikpowertech",
     title: "Adhunik Powertech | Top HVAC & Air Cooling Systems Gurugram",
     description: "Discover Adhunik Powertech Private Limited, a leader in HVAC solutions and air cooling systems. Based in Gurugram, India, we specialize in innovative, turnkey projects for industrial and commercial cooling needs.",
   },
-  
   openGraph: {
     title: "Adhunik Powertech",
     type: "website",
@@ -62,8 +39,6 @@ export const metadata = {
     image: "https://adhunikpowertech.com/apple-touch-icon.png",
     locale: "en_IN",
     creator: "Adhunik Powertech",
-
-
     images: [
       {
         url: "https://adhunikpowertech.com/apple-touch-icon.png",
@@ -73,33 +48,26 @@ export const metadata = {
       }
     ]
   },
-
   additionalMeta: [
     { httpEquiv: "X-UA-Compatible", content: "IE=EmulateIE7" },
     { httpEquiv: "Accept-CH", content: "DPR, Viewport-Width, Width, Save-Data" }
   ],
-
   link: [
     { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" },
   ]
- 
 };
- 
-
 
 export default function RootLayout({ children }) {
-
-
-
   return (
-
     <html lang="en">
-
       <head>
+        {/* START PERFORMANCE FIX: Cloudinary Preconnect */}
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        {/* END PERFORMANCE FIX */}
 
-   <meta itemProp="name" content="Adhunik Powertech" />
-
-  <script
+        <meta itemProp="name" content="Adhunik Powertech" />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -111,41 +79,33 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-   
-     
-  <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16494041391"
-        strategy="afterInteractive"
-      />
 
-      <Script id="gtag-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16494041391');
-        `}
-      </Script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16494041391"
+          strategy="afterInteractive"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16494041391');
+          `}
+        </Script>
 
         <GoogleTagManager gtmId="GTM-W994SKBG" />
-        
         <meta name="google-site-verification" content="NvZ4IN4DrHMOm2iwZo-ONRq9_7U8g_ntzz0_MaRVVc8" />
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3">
-
-        </Script>
-
-        <Script id="google-analytics" >
-
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MBSC4RFX3" />
+        <Script id="google-analytics">
           {` window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5MBSC4RFX3');`}
-
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5MBSC4RFX3');`}
         </Script>
 
- <link
+        <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -155,7 +115,6 @@ export default function RootLayout({ children }) {
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
 
-
         <link
           rel="preload"
           href="/fonts/Poppins/Poppins-Medium.ttf"
@@ -163,29 +122,14 @@ export default function RootLayout({ children }) {
           type="font/ttf"
           crossOrigin="anonymous"
         />
-     
-
-     
       </head>
 
-
-
       <body>
-
-
-      
-        
-        
-
-            <FloatingActionButtons />
-            <LinktreeButton />
+        <FloatingActionButtons />
+        <LinktreeButton />
         <Analytics />
         <SpeedInsights />
         <Header />
-       
-
-
-
 
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W994SKBG"
@@ -195,14 +139,12 @@ export default function RootLayout({ children }) {
               display: "none",
               visibility: "hidden"
             }}>
-
           </iframe>
         </noscript>
 
         {children}
 
         <Footer />
-
       </body>
     </html>
   );
