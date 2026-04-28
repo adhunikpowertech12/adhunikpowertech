@@ -150,30 +150,54 @@ export default function HVACConsultantsDelhi() {
           
           {/* Secondary Services Row */}
           <div className="grid md:grid-cols-2 gap-6 mt-8">
-              {[
-                  { title: "Ventilation & Air Distribution", desc: "Fresh air systems, AHUs, and filtration critical for air quality and pressure control.", icon: <Wind/> },
-                  { title: "Industrial Solutions", desc: "Heat extraction and large-area cooling for factories, warehouses, and manufacturing units.", icon: <Factory/> },
-                  { title: "Evaporative Air Cooling", desc: "Cost-effective solutions for large spaces offering energy savings up to 80%.", icon: <Droplets/> },
-                  { title: "Maintenance & Audits", desc: "System performance audits and energy optimization upgrades for long-term reliability.", icon: <Activity/> }
-              ].map((item, i) => (
-                <div key={i} className="flex items-start p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <div className="text-cyan-600 mr-3 mt-1">{item.icon}</div>
-                    <div>
-                        <h4 className="font-bold text-slate-800 text-md">{item.title}</h4>
-                        <p className="text-sm text-gray-600">{item.desc}</p>
-                    </div>
-                </div>
-              ))}
+         {[
+    { 
+      title: "Ventilation & Air Distribution", 
+      desc: "Fresh air systems, AHUs, and filtration critical for air quality and pressure control.", 
+      icon: <Wind/>,
+      link: "https://www.adhunikpowertech.com/ventilation-fans" 
+    },
+    { 
+      title: "Industrial Solutions", 
+      desc: "Heat extraction and large-area cooling for factories, warehouses, and manufacturing units.", 
+      icon: <Factory/>,
+      link: "https://www.adhunikpowertech.com/product-overview" 
+    },
+    { 
+      title: "Evaporative Air Cooling", 
+      desc: "Cost-effective solutions for large spaces offering energy savings up to 80%.", 
+      icon: <Droplets/>,
+      link: "https://www.adhunikpowertech.com/air-washer" 
+    },
+    { 
+      title: "Maintenance & Audits", 
+      desc: "System performance audits and energy optimization upgrades for long-term reliability.", 
+      icon: <Activity/>,
+      link: "https://www.adhunikpowertech.com/annual-maintenance-contract" 
+    }
+].map((item, i) => (
+    <div key={i} className="flex items-start p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-cyan-300 transition-colors">
+        <div className="text-cyan-600 mr-3 mt-1">{item.icon}</div>
+        <div>
+            <a href={item.link} className="group">
+                <h4 className="font-bold text-slate-800 text-md group-hover:text-cyan-700 transition-colors">
+                    {item.title}
+                </h4>
+            </a>
+            <p className="text-sm text-gray-600">{item.desc}</p>
+        </div>
+    </div>
+))}
           </div>
         </section>
    {/* Benefits to Your Business Section - Integrated for Adhunik Powertech */}
-<section className="my-20">
+ <section className="my-20">
   <div className="text-center mb-12">
     <h2 className="text-3xl font-bold text-cyan-800 mb-4">
      Smarter HVAC. Better Business Performance.
     </h2>
     <p className="text-gray-600 max-w-2xl mx-auto">
-     Key business advantages of professional HVAC consultancy and smart system design:
+     Some of the Key business advantages of professional HVAC consultancy and smart system design:
     </p>
   </div>
 
@@ -184,22 +208,19 @@ export default function HVACConsultantsDelhi() {
       <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
         <Wind className="w-7 h-7" />
       </div>
-      <h3 className="font-bold text-slate-800 mb-3 text-lg">Cost Savings</h3>
+      <h3 className="font-bold text-slate-800 mb-3 text-lg">Lower Energy Costs</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
-        By optimizing HVAC system design, We helps reduce energy consumption and avoid frequent breakdowns, saving your business significant costs in the long run.
+        A poorly designed HVAC system drains energy and money. With expert HVAC consultancy, you get optimized system design that reduces energy consumption, prevents breakdowns, and lowers maintenance costs—delivering long-term savings from day one.
       </p>
     </div>
-
-   
-
     {/* Benefit 3: Improved Productivity */}
     <div className="p-8 border border-slate-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all text-center flex flex-col items-center">
       <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
         <Activity className="w-7 h-7" />
       </div>
-      <h3 className="font-bold text-slate-800 mb-3 text-lg">Improved Productivity</h3>
+      <h3 className="font-bold text-slate-800 mb-3 text-lg">Boost Productivity</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
-        A well-designed HVAC system creates a comfortable indoor environment, helping employees stay focused and productive, even during extreme heat conditions.
+       Uncomfortable environments slow people down. A well-designed HVAC system maintains consistent temperature and air quality, helping employees stay focused, efficient, and productive—even during extreme 45°C+ heat.
       </p>
     </div>
      {/* Benefit 2: Professional Expertise */}
@@ -207,9 +228,9 @@ export default function HVACConsultantsDelhi() {
       <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
         <Settings className="w-7 h-7" />
       </div>
-      <h3 className="font-bold text-slate-800 mb-3 text-lg">Professional Expertise</h3>
+      <h3 className="font-bold text-slate-800 mb-3 text-lg">Expert System Design</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
-        With Adhunik Powertech, you get experienced HVAC professionals who ensure your system is designed and executed for reliable and efficient performance.
+       HVAC is not trial-and-error. With professional consultancy, every system is engineered for performance, reliability, and scalability—ensuring you avoid expensive design flaws and future operational issues.
       </p>
     </div>
 
@@ -218,9 +239,9 @@ export default function HVACConsultantsDelhi() {
       <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
         <CheckCircle2 className="w-7 h-7" />
       </div>
-      <h3 className="font-bold text-slate-800 mb-3 text-lg">Regulatory Compliance</h3>
+      <h3 className="font-bold text-slate-800 mb-3 text-lg">Ensure Compliance</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
-        Our HVAC consultancy ensures that your systems meet all required safety standards and building regulations, giving you complete peace of mind.
+       Improper system sizing and load imbalance damage equipment faster. Smart HVAC design improves system efficiency and stability, increasing equipment lifespan and reducing the need for frequent replacements.
       </p>
     </div>
 
@@ -231,7 +252,7 @@ export default function HVACConsultantsDelhi() {
       </div>
       <h3 className="font-bold text-slate-800 mb-3 text-lg">Longer Equipment Life</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
-        Proper system design and load balancing by Adhunik Powertech increase the lifespan of your HVAC equipment, reducing the need for frequent replacements.
+        HVAC systems consume a major share of energy in any facility. With optimized design and advanced solutions, you can significantly reduce energy usage, cut operational costs, and improve overall system performance.
       </p>
     </div>
 
@@ -240,14 +261,24 @@ export default function HVACConsultantsDelhi() {
       <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center mb-6 text-white shadow-lg shadow-cyan-200">
         <Zap className="w-7 h-7" />
       </div>
-      <h3 className="font-bold text-slate-800 mb-3 text-lg">Better Energy Efficiency</h3>
+      <h3 className="font-bold text-slate-800 mb-3 text-lg">Higher Energy Efficiency</h3>
       <p className="text-gray-600 text-sm leading-relaxed">
        Heating and cooling systems use a large share of a building’s energy. By working with an HVAC expert, businesses can make these systems run more efficiently. This helps cut down on energy use and reduces overall operating costs.
       </p>
     </div>
-
   </div>
+  {/* Optimized Summary Section */}
+<div className="w-full mt-16 mb-22 px-3">
+ <p className="text-gray-600 text-sm md:text-base leading-relaxed text-center max-w-5xl mx-auto">
+    In summary, Adhunik Powertech Private Limited delivers expert HVAC consultancy and 
+    system design solutions that drive real business value. By optimizing system 
+    efficiency, enhancing indoor comfort and air quality, ensuring compliance with 
+    building codes and standards, and realizing cost savings, businesses can improve 
+    their operations, create a healthier indoor environment, and increase their property value.
+  </p>
+</div>
 </section>
+
 
         {/* Adhunik Spotlight */}
 <section className="mb-16 bg-cyan-900 p-8 md:p-12 rounded-3xl text-white shadow-2xl relative overflow-hidden">
@@ -262,13 +293,8 @@ export default function HVACConsultantsDelhi() {
       <p className="text-cyan-100 italic">Selecting the right HVAC contractor is a critical decision. Here is why Adhunik Powertech is the preferred choice:</p>
       
       <div className="space-y-3">
-        {/* Blue Star Highlight */}
-        <div className="flex gap-3 items-start">
-          <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0" />
-          <span><strong>Authorized Dealer:</strong> Blue Star AC ensuring premium, energy-efficient equipment.</span>
-        </div>
-
-        {/* Points from Screenshot */}
+    
+       {/* Points from Screenshot */}
         <div className="flex gap-3 items-start">
           <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0" />
           <span><strong>Extensive Experience:</strong> Knowledge and expertise to handle projects of any complexity.</span>
@@ -328,7 +354,7 @@ export default function HVACConsultantsDelhi() {
               </h2>
               <div className="mt-4 p-4 bg-cyan-50 rounded-xl border-l-4 border-cyan-500">
                 <p className="text-sm text-slate-600 italic">
-                  Our commitment to providing quality HVAC solutions extends across India. Contact us to discuss your project, regardless of your location.
+                  We deliver reliable, high-quality HVAC solutions across India for projects of every scale.
                 </p>
               </div>
             </div>
