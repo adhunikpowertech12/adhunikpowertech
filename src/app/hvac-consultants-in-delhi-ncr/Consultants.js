@@ -70,37 +70,42 @@ export default function HVACConsultantsDelhi() {
     <div className="bg-white mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         
-        {/* Hero Section */}
-        <section className="flex flex-col md:flex-row gap-12 items-start mb-20">
-          <div className="w-full md:w-7/12 order-2 md:order-1">
-            <h1 className="text-3xl md:text-4xl font-bold text-cyan-800 mb-6 leading-tight">
-              Trusted HVAC Consultants in Delhi NCR – Adhunik Powertech
-            </h1>
-            <div className="space-y-4 text-gray-700 text-base leading-relaxed text-justify">
-              <p className="text-xl font-semibold text-red-600">
-                Heat is Not Your Biggest Problem—Inefficient HVAC Design Is
-              </p>
-              <p>
-                Every summer in Delhi NCR, businesses struggle to maintain indoor comfort as temperatures surge past 45°C. But the real issue isn’t just the heat outside—it’s how your HVAC system responds to it.
-              </p>
-              <p>
-                An inefficient HVAC system doesn’t just fail to cool—it silently drains energy, disrupts airflow balance, and increases operational costs. <strong>That’s where Adhunik Powertech comes in.</strong>
-              </p>
-              <p className="font-medium text-cyan-700">
-                As one of the trusted HVAC consultants in Delhi NCR, we specialize in designing precision-engineered, energy-efficient HVAC systems.
-              </p>
-            </div>
-          </div>
-          <div className="w-full md:w-5/12 order-1 md:order-2">
-            <Image
-              src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1777031578/Trusted_HVAC_Consultants_in_Delhi_NCR_zucxru.webp"
-              alt="Trusted HVAC consultants in Delhi NCR reviewing building plans and system design for efficient installation"
-              width={700}
-              height={500}
-              className="w-full h-auto rounded-xl shadow-xl"
-            />
-          </div>
-        </section>
+       {/* Hero Section */}
+<section className="flex flex-col md:flex-row gap-8 items-center mb-16">
+  {/* Image Container - Now First for MD screens */}
+  <div className="w-full md:w-6/12">
+    <Image
+      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1777031578/Trusted_HVAC_Consultants_in_Delhi_NCR_zucxru.webp"
+      alt="Trusted HVAC consultants in Delhi NCR reviewing building plans and system design for efficient installation"
+      width={700}
+      height={500}
+      className="w-full h-auto rounded-xl shadow-xl border-2 border-cyan-100"
+      priority // Ensures faster LCP (Largest Contentful Paint)
+    />
+  </div>
+
+  {/* Content Container */}
+  <div className="w-full md:w-6/12">
+    <h1 className="text-xl md:text-3xl text-center md:text-left font-bold text-cyan-800 mb-6 leading-tight uppercase">
+      Trusted HVAC Consultants in Delhi NCR – Adhunik Powertech
+    </h1>
+    
+    <div className="w-full md:w-11/12 space-y-4">
+      <p className="text-sm text-red-600 font-bold text-justify md:text-left">
+        Heat is Not Your Biggest Problem — Inefficient HVAC Design Is
+      </p>
+      
+      <p className="text-sm text-gray-700 text-justify md:text-left leading-relaxed">
+        Every summer in Delhi NCR, businesses struggle to maintain indoor comfort as temperatures surge past 45°C. But the real issue isn’t just the heat outside—it’s how your HVAC system responds to it.
+      </p>
+      
+      <p className="text-sm text-gray-700 text-justify md:text-left leading-relaxed">
+        An inefficient HVAC system silently drains energy and increases operational costs. 
+        <span className="font-medium text-cyan-700"> As trusted consultants, we specialize in precision-engineered, energy-efficient designs.</span>
+      </p>
+    </div>
+  </div>
+</section>
 
  
 
