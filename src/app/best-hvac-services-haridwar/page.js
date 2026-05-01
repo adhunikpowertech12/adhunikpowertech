@@ -43,7 +43,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp",
         width: 1200,
         height: 630,
-        alt: "Row of rooftop HVAC outdoor units with large fans at sunset, promoting “Best HVAC Services in Haridwar.”",
+        alt: "Row of rooftop HVAC outdoor units with large fans at sunset, promoting “Best HVAC Services in Haridwar.",
       },
     ],
   },
