@@ -47,13 +47,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/top-hvac-contractor-in-delhi-ncr",
+    canonical: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr,
   },
 
   openGraph: {
     title: "Top HVAC Contractor in Delhi NCR | Reliable Company Guide",
     description: "Choose the top HVAC contractor in Delhi NCR with confidence. Industrial and commercial HVAC solutions by Adhunik Powertech.",
-    url: "https://www.adhunikpowertech.com/top-hvac-contractor-in-delhi-ncr",
+    url: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr",
     siteName: "Adhunik Powertech",
     type: "article",
     images: [
