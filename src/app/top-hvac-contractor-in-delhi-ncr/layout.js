@@ -47,7 +47,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr,
+    canonical: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr",
   },
 
   openGraph: {
