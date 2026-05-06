@@ -36,21 +36,21 @@ export const metadata = {
   openGraph: {
     title: "Best HVAC Services in Haridwar (Complete 2026 Guide)",
     description: "Expert HVAC solutions for Haridwar's industrial and pharma sectors. From turnkey cleanrooms to commercial cooling.",
-    url: "https://www.adhunikpowertech.com/best-hvac-services-in-haridwar",
+    url: "https://www.adhunikpowertech.com/best-hvac-services-haridwar",
     type: "article",
     images: [
       {
         url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp",
         width: 1200,
         height: 630,
-        alt: "Row of rooftop HVAC outdoor units with large fans at sunset, promoting “Best HVAC Services in Haridwar.”",
+        alt: 'Row of rooftop HVAC outdoor units with large fans at sunset, promoting “Best HVAC Services in Haridwar."',
       },
     ],
   },
 
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/best-hvac-services-in-haridwar",
+    canonical: "https://www.adhunikpowertech.com/best-hvac-services-haridwar",
   },
   twitter: {
     card: "summary_large_image",

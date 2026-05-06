@@ -44,7 +44,7 @@ export default function Blog() {
       date: "February 2025",
       image:
         "",
-      link: "/what-is-hvac?",
+      link: "/what-is-hvac",
       img: "/WhatisHVAC.webp",
     },
 

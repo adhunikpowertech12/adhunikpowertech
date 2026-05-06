@@ -6,7 +6,7 @@ export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
     // UPDATED TITLE (Under 60 Characters for optimal visibility)
-    title: "TBest Panel AC Manufacturer India | Govt Approved",
+    title: "Best Panel AC Manufacturer India | Govt Approved",
     description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
 
     keywords: [
@@ -39,14 +39,14 @@ export const metadata = {
 
     // Canonical link for SEO
     alternates: {
-        canonical: "/panel-ac-manufacturers-&-authorised-govt-supplier",
+        canonical: "https://www.adhunikpowertech.com/panel-ac-manufacturer-india",
     },
 
     openGraph: {
         // UPDATED OpenGraph Title
         title: "Best Panel AC Manufacturer India | Govt Approved",
         description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
-        url: "/panel-ac-manufacturer-india",
+        url: "https://www.adhunikpowertech.com/panel-ac-manufacturer-india",
         type: "article",
         images: [
             {
