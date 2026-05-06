@@ -418,6 +418,15 @@ export default function Blog() {
         "",
       link: "/hvac-consultants-in-delhi-ncr",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1777031578/Trusted_HVAC_Consultants_in_Delhi_NCR_zucxru.webp",
+    },
+    {
+      id: 43,
+      title: "Panel AC Maintenance Checklist | Adhunik Powertech",
+      date: "May 2026",
+      image:
+        "",
+      link: "/panel-ac-maintenance-checklist",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778061950/Panel_AC_Maintenance_Checklist_glnfpe.webp",
     }
   ];
 
