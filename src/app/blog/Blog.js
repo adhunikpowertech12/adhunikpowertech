@@ -427,6 +427,15 @@ export default function Blog() {
         "",
       link: "/panel-ac-maintenance-checklist",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778061950/Panel_AC_Maintenance_Checklist_glnfpe.webp",
+    },
+     {
+      id: 44,
+      title: "How to Choose the Right Panel Air Conditioner | Adhunik Powertech",
+      date: "May 2026",
+      image:
+        "",
+      link: "/how-to-choose-the-right-panel-ac",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778587790/How_to_Choose_the_Right_Panel_Air_Conditioner_udm2kc.webp",
     }
   ];
 
