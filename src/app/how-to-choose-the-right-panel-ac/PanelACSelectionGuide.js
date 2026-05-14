@@ -299,7 +299,7 @@ const [openIndex, setOpenIndex] = useState(null);
         </section>
 
         {/* UPDATED ADVANCED HEAT LOAD CALCULATOR TOOL */}
-        <section id="calculator" className="my-20 bg-white rounded-[2rem] shadow-2xl border border-cyan-100 overflow-hidden max-w-6xl mx-auto">
+       /* <section id="calculator" className="my-20 bg-white rounded-[2rem] shadow-2xl border border-cyan-100 overflow-hidden max-w-6xl mx-auto">
           <div className="bg-gradient-to-br from-cyan-50 to-white p-8 text-center border-b border-cyan-100">
             <div className="inline-flex items-center gap-2 bg-cyan-600 text-white px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-4">
               <Calculator className="w-4 h-4" /> Engineering Tool
@@ -326,7 +326,7 @@ const [openIndex, setOpenIndex] = useState(null);
           <div className="p-8">
             {activeTab === 'calculator' ? (
               <div className="grid md:grid-cols-2 gap-8">
-                {/* Left Column */}
+                {/* Left Column 
                 <div className="space-y-6">
                   <div>
                     <label className="text-xs font-bold text-slate-700 uppercase mb-2 block tracking-wider">Enclosure Material</label>
@@ -382,7 +382,7 @@ const [openIndex, setOpenIndex] = useState(null);
                   </div>
                 </div>
 
-                {/* Right Column */}
+                {/* Right Column 
                 <div className="space-y-6">
                   <div>
                     <label className="text-xs font-bold text-slate-700 uppercase mb-2 block tracking-wider">Total Max Equipment Power</label>
@@ -500,7 +500,7 @@ const [openIndex, setOpenIndex] = useState(null);
               </div>
             )}
           </div>
-        </section>
+        </section>*/}
 
         {/* Serving Industry Leaders Across India */}
         <section className="mb-20">
