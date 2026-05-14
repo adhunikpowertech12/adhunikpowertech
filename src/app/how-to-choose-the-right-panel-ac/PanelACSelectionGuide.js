@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 export default function PanelACSelectionGuide() {
-const [openIndex, setOpenIndex] = useState(null);
+ {/*const [openIndex, setOpenIndex] = useState(null);
 
   // Calculator State
   const [activeTab, setActiveTab] = useState('calculator');
@@ -72,7 +72,7 @@ const [openIndex, setOpenIndex] = useState(null);
     
     const totalLoad = (surfaceHeatTransfer + (parseFloat(equipmentPower) || 0)) * altCorr * (parseFloat(safetyFactor) || 1.2);
     setResult(totalLoad > 0 ? Math.ceil(totalLoad).toString() : "0");
-  };
+  };*/}
   const faqs = [
     {
       q: "What size Panel AC do I need for my electrical enclosure?",
