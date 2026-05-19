@@ -246,7 +246,7 @@ const cleanroomImages = [
       {/* Modular Expertise Section */}
       <section className="bg-white py-20 px-4 md:px-14">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Cleanroom Expertise</h2>
+          <h2 className="text-3xl font-bold  text-gray-900 text-center mb-12">Our Cleanroom Expertise</h2>
           <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 mb-12">
             {Object.keys(expertises).map((key) => (
               <button key={key} onClick={() => setActiveTab(key)} className={`px-8 py-3 rounded-full font-bold transition-all ${activeTab === key ? 'bg-cyan-600 text-white shadow-lg' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>{key.charAt(0).toUpperCase() + key.slice(1)}</button>
@@ -312,7 +312,7 @@ const cleanroomImages = [
           <div className="bg-cyan-900 rounded-3xl overflow-hidden text-white relative shadow-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 relative z-10">
               <div className="p-8 md:p-12 border-b lg:border-b-0 lg:border-r border-white/10 bg-cyan-900/40 backdrop-blur-sm">
-                <h3 className="text-3xl font-bold text-gray-900 mb-6">Cleanroom HVAC Systems</h3>
+                <h3 className="text-3xl font-bold mb-6">Cleanroom HVAC Systems</h3>
                 <p className="text-cyan-100 mb-8 leading-relaxed font-light">Precision HVAC engineering to maintain environment control for ISO compliance.</p>
                 <div className="space-y-4">
                   {["Uniform Air Distribution", "Precise Temp & Humidity Control", "Positive/Negative Pressure Management", "Energy Efficient Air Handling"].map((item, i) => (
