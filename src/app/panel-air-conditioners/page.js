@@ -1,8 +1,4 @@
 import PanelAirConditioners from "./PanelAirConditioners"
-
-
-
-
 export const metadata = {
   title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
   description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",

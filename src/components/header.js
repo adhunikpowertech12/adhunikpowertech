@@ -77,6 +77,7 @@ function Navbar() {
 
         { label: 'Overview', href: '/hvac' },
         { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
+        { label: 'Clean-Room Solutions ', href: '/turnkey-cleanroom-solutions' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
@@ -170,41 +171,41 @@ function Navbar() {
 
 
 
-  const pathname = usePathname();
-  const [logoSrc, setLogoSrc] = useState('/we.svg');
-  const [logoSize, setLogoSize] = useState({ width: '150', height: '60' });
+const pathname = usePathname();
 
+// FIXED: Initialize with numbers instead of string coordinates to keep types consistent
+const [logoSrc, setLogoSrc] = useState('/we.svg');
+const [logoSize, setLogoSize] = useState({ width: 150, height: 60 });
 
-  useEffect(() => {
-    if (!pathname) return;
+useEffect(() => {
+  if (!pathname) return;
 
-    const firePages = [
-      '/top-Fire-Fighting-Company-in-Delhi-NCR-And-India',
-      '/fire-extinguishers',
-      '/fire-hydrant-system',
-      '/fire-sprinkler-system',
-      '/fire-suppression-system',
-      '/glow-signage-&-emergency-lights',
-      '/fire-tubing-system',
-      '/fire-VESDA-system',
-      '/fire-alarm-system',
-    ];
+  const firePages = [
+    '/top-Fire-Fighting-Company-in-Delhi-NCR-And-India',
+    '/fire-extinguishers',
+    '/fire-hydrant-system',
+    '/fire-sprinkler-system',
+    '/fire-suppression-system',
+    '/glow-signage-&-emergency-lights',
+    '/fire-tubing-system',
+    '/fire-VESDA-system',
+    '/fire-alarm-system',
+  ];
 
-    if (firePages.includes(pathname)) {
-  setLogoSrc('/next2.webp');
-  setLogoSize({ width: 180, height: 44 });
-} else if (pathname === '/bldc-fans') {
-  setLogoSrc('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750406676/aircare_vn2m2p.webp');
-  setLogoSize({ width: 150, height: 60 });
-} else if (pathname === '/sensible-cooling-unit') { // <--- NEW LOGIC ADDED HERE
-  setLogoSrc('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1765437230/TechMark_iszbtt.webp'); // <--- Replace with your new logo URL/path
-  setLogoSize({ width: 150, height: 60 }); // <--- Replace with your desired width and height
-} else {
-  setLogoSrc('/we.svg');
-  setLogoSize({ width: 150, height: 60 });
-}
-  },
-    [pathname]);
+  if (firePages.includes(pathname)) {
+    setLogoSrc('/next2.webp');
+    setLogoSize({ width: 180, height: 44 });
+  } else if (pathname === '/bldc-fans') {
+    setLogoSrc('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1750406676/aircare_vn2m2p.webp');
+    setLogoSize({ width: 150, height: 60 });
+  } else if (pathname === '/sensible-cooling-unit') {
+    setLogoSrc('https://res.cloudinary.com/ddkyx2jhh/image/upload/v1765437230/TechMark_iszbtt.webp');
+    setLogoSize({ width: 150, height: 60 });
+  } else {
+    setLogoSrc('/we.svg');
+    setLogoSize({ width: 150, height: 60 });
+  }
+}, [pathname]);
 
 
   const menuItems = [
@@ -243,6 +244,7 @@ function Navbar() {
 
         { label: "Overview", href: "/hvac" },
         { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
+                { label: 'Clean-Room Solutions ', href: '/turnkey-cleanroom-solutions' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
@@ -403,21 +405,18 @@ function Navbar() {
           <div className="flex space-x-4">
             <div className="row flex  md:flex-col lg:flex-row ">
 
-              <Link href='/'  >
-
-                {pathname && (<Image
-
-                  src={logoSrc}
-                  width={logoSize.width}
-                  height={logoSize.height}
-                  alt="Picture"
-                  className="  md:h-[60px] md:w-auto my-3"
-                  style={{ width: `${logoSize.width}px`, height: `${logoSize.height}px` }} // Ensure correct styling
-
-                />
-                )}
-
-              </Link>
+            <Link href='/'>
+          {pathname && (
+            <Image
+              src={logoSrc}
+              width={logoSize.width}
+              height={logoSize.height}
+              alt="Picture"
+              className="md:h-[60px] md:w-auto my-3"
+              priority                   // FIX: Solves the LCP (Largest Contentful Paint) terminal warning
+            />
+          )}
+        </Link>
 
             </div>
 

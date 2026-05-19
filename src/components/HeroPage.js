@@ -531,9 +531,9 @@ export default function HeroPage() {
     {
       "@type": "Organization",
       "additionalType": "http://schema.org/Manufacturer",
-      "@id": "https://adhunikpowertech.com/#organization",
+      "@id": "https://www.adhunikpowertech.com/#organization",
       "name": "Adhunik Powertech Private Limited",
-      "url": "https://adhunikpowertech.com/",
+      "url": "https://www.adhunikpowertech.com/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.adhunikpowertech.com/we.svg",
@@ -553,7 +553,6 @@ export default function HeroPage() {
         "postalCode": "122004",
         "addressCountry": "IN"
       },
-     
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91-8287885885",
@@ -574,32 +573,22 @@ export default function HeroPage() {
         "Most Innovative Brand for HVAC Projects 2024-25",
         "India Business Award 2025",
         "Award for Best Quality Standards & Services in HVAC Industry"
-      ],
-     /* "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Product Catalog",
-      
-
-      }*/
-      
+      ]
     },
-
-   {
-  "@type": "HVACBusiness",
-  "@id": "https://adhunikpowertech.com/#localbusiness",
-  "name": "Adhunik Powertech Private Limited",
-
-  "parentOrganization": {
-    "@id": "https://adhunikpowertech.com/#organization"
-  },
-
-  "sameAs": [
-    "https://www.linkedin.com/company/adhunikpowertech/",
-    "https://www.facebook.com/adhunikpowertech",
-    "https://www.instagram.com/adhunikpowertech/"
-  ],
+    {
+      "@type": "HVACBusiness",
+      "@id": "https://www.adhunikpowertech.com/#localbusiness",
+      "name": "Adhunik Powertech Private Limited",
+      "parentOrganization": {
+        "@id": "https://www.adhunikpowertech.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/adhunikpowertech/",
+        "https://www.facebook.com/adhunikpowertech",
+        "https://www.instagram.com/adhunikpowertech/"
+      ],
       "image": "https://www.adhunikpowertech.com/we.svg",
-      "url": "https://adhunikpowertech.com/",
+      "url": "https://www.adhunikpowertech.com/",
       "telephone": "+91-8287885885",
       "address": {
         "@type": "PostalAddress",
@@ -609,24 +598,23 @@ export default function HeroPage() {
         "postalCode": "122004",
         "addressCountry": "IN"
       },
-       "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "28.4089",
-      "longitude": "77.0400"
-    },
-    "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "AdministrativeArea", "name": "Gurugram" },
-    { "@type": "AdministrativeArea", "name": "Delhi NCR" },
-    { "@type": "AdministrativeArea", "name": "Noida" },
-    { "@type": "AdministrativeArea", "name": "Faridabad" },
-    { "@type": "AdministrativeArea", "name": "Haridwar" },
-    { "@type": "AdministrativeArea", "name": "Roorkee" },
-    { "@type": "State", "name": "Uttarakhand" },
-    { "@type": "State", "name": "Uttar Pradesh" }
-],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.4089",
+        "longitude": "77.0400"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "India" },
+        { "@type": "AdministrativeArea", "name": "Gurugram" },
+        { "@type": "AdministrativeArea", "name": "Delhi NCR" },
+        { "@type": "AdministrativeArea", "name": "Noida" },
+        { "@type": "AdministrativeArea", "name": "Faridabad" },
+        { "@type": "AdministrativeArea", "name": "Haridwar" },
+        { "@type": "AdministrativeArea", "name": "Roorkee" },
+        { "@type": "State", "name": "Uttarakhand" },
+        { "@type": "State", "name": "Uttar Pradesh" }
+      ],
       "openingHoursSpecification": [
-
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
@@ -639,46 +627,42 @@ export default function HeroPage() {
           "opens": "00:00",
           "closes": "00:00"
         }
-      ],
-     /* "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.6",
-       
-      },*/
-   
+      ]
     },
     {
       "@type": "WebSite",
-      "@id": "https://adhunikpowertech.com/#website",
-      "url": "https://adhunikpowertech.com/",
+      "@id": "https://www.adhunikpowertech.com/#website",
+      "url": "https://www.adhunikpowertech.com/",
       "name": "Adhunik Powertech",
-      "publisher": { "@id": "https://adhunikpowertech.com/#organization" },
+      "publisher": { "@id": "https://www.adhunikpowertech.com/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://adhunikpowertech.com/?s={search_term_string}"
+          "urlTemplate": "https://www.adhunikpowertech.com/?s={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       },
       "inLanguage": "en-IN"
     },
-   {
+    {
       "@type": "SiteNavigationElement",
-      "@id": "https://adhunikpowertech.com/#navigation",
+      "@id": "https://www.adhunikpowertech.com/#navigation",
       "name": [
         "About Us",
         "Contact Us",
         "Panel Air Conditioner",
         "Top HVAC Contractor",
-        "HVAC Projects & Turnkey Solutions"
+        "HVAC Projects & Turnkey Solutions",
+        "Clean Room Turnkey Modular Solutions"
       ],
       "url": [
         "https://www.adhunikpowertech.com/our-Company",
         "https://www.adhunikpowertech.com/support-form",
         "https://www.adhunikpowertech.com/panel-air-conditioners",
         "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
-        "https://www.adhunikpowertech.com/hvac"
+        "https://www.adhunikpowertech.com/hvac",
+        "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions"
       ]
     },
 
@@ -692,7 +676,6 @@ export default function HeroPage() {
         { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.adhunikpowertech.com/our-Company" }
       ]
     },
-
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.adhunikpowertech.com/support-form#breadcrumb",
@@ -701,7 +684,6 @@ export default function HeroPage() {
         { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://www.adhunikpowertech.com/support-form" }
       ]
     },
-
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.adhunikpowertech.com/panel-air-conditioners#breadcrumb",
@@ -710,7 +692,6 @@ export default function HeroPage() {
         { "@type": "ListItem", "position": 2, "name": "Panel Air Conditioner", "item": "https://www.adhunikpowertech.com/panel-air-conditioners" }
       ]
     },
-
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India#breadcrumb",
@@ -719,13 +700,20 @@ export default function HeroPage() {
         { "@type": "ListItem", "position": 2, "name": "Top HVAC Contractor", "item": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India" }
       ]
     },
-
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.adhunikpowertech.com/hvac#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
         { "@type": "ListItem", "position": 2, "name": "HVAC Projects & Turnkey Solutions", "item": "https://www.adhunikpowertech.com/hvac" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.adhunikpowertech.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Turnkey Cleanroom Solutions", "item": "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions" }
       ]
     },
 
@@ -736,32 +724,29 @@ export default function HeroPage() {
       "@id": "https://www.adhunikpowertech.com/our-Company",
       "url": "https://www.adhunikpowertech.com/our-Company",
       "name": "About Us - HVAC & Manufacturing Experts in Gurugram - Adhunik Powertech",
-      "about": { "@id": "https://adhunikpowertech.com/#organization" },
+      "about": { "@id": "https://www.adhunikpowertech.com/#organization" },
       "breadcrumb": { "@id": "https://www.adhunikpowertech.com/our-Company#breadcrumb" },
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
-
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/support-form",
       "url": "https://www.adhunikpowertech.com/support-form",
       "name": "Contact Us - Adhunik Powertech",
       "breadcrumb": { "@id": "https://www.adhunikpowertech.com/support-form#breadcrumb" },
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
-
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/panel-air-conditioners",
       "url": "https://www.adhunikpowertech.com/panel-air-conditioners",
       "name": "Panel Air Conditioner Manufacturer in India - Adhunik Powertech",
       "breadcrumb": { "@id": "https://www.adhunikpowertech.com/panel-air-conditioners#breadcrumb" },
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
-
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India",
@@ -769,10 +754,9 @@ export default function HeroPage() {
       "name": "Top HVAC Contractor in Delhi NCR & India - Adhunik Powertech",
       "description": "Adhunik Powertech is a trusted HVAC contractor in Delhi NCR and across India.",
       "breadcrumb": { "@id": "https://www.adhunikpowertech.com/top-HVAC-Contractor-in-Delhi-NCR-&-India#breadcrumb" },
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     },
-
     {
       "@type": "WebPage",
       "@id": "https://www.adhunikpowertech.com/hvac",
@@ -780,11 +764,21 @@ export default function HeroPage() {
       "name": "HVAC Projects & Turnkey Solutions - Adhunik Powertech",
       "description": "Complete HVAC turnkey solutions including design and execution.",
       "breadcrumb": { "@id": "https://www.adhunikpowertech.com/hvac#breadcrumb" },
-      "isPartOf": { "@id": "https://adhunikpowertech.com/#website" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions",
+      "url": "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions",
+      "name": "Clean Room Manufacturers in India | Turnkey Modular Solutions",
+      "description": "Adhunik Powertech is a premier clean room manufacturer in India, offering complete turnkey modular clean room solutions for pharmaceutical, electronics, and healthcare industries.",
+      "breadcrumb": { "@id": "https://www.adhunikpowertech.com/turnkey-cleanroom-solutions#breadcrumb" },
+      "isPartOf": { "@id": "https://www.adhunikpowertech.com/#website" },
       "inLanguage": "en-IN"
     }
-
   ]
+
 };
   return (
     <>

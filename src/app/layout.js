@@ -59,7 +59,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    // UPDATED FOR HYDRATION FIX: Added suppressHydrationWarning here
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* START PERFORMANCE FIX: Cloudinary Preconnect */}
         <link rel="preconnect" href="https://res.cloudinary.com" />
