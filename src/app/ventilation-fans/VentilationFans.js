@@ -21,22 +21,49 @@ export default function VentilationFans() {
         },
       ];
     
-      const Exhaust_Fan_PP = [
-        {
-          modelNo: 'Exhaust-PP', 
-          airVolume: '32000',
-          relatedVoltage: '380V', 
-          power: '0.75 ', 
-          dimension: '1060x1060x550', 
-          diameter: ' 900',
-          blades: '6', 
-          material: 'Poly-Propylene',
-          speed: ' 460 ',
-          noise: ' < = 48',
-          netWeight: '35', 
-          warranty: '12 months',
-        },
-      ];
+       const Exhaust_Fan_PP = [
+
+  {
+    modelNo: 'Exhaust-1460', 
+    airVolume: '36000',
+    relatedVoltage: '380V', 
+    power: '1.1', 
+    dimension: '1460x1460x590', 
+    diameter: '1240 mm (50")',
+    blades: '6', 
+    material: 'Fiberglass',
+    speed: '520',
+    noise: '60–70',
+  
+    warranty: '12 Months',
+  },
+  {
+    modelNo: 'Exhaust-1260', 
+    airVolume: '32000',
+    relatedVoltage: '380V', 
+    power: '0.75', 
+    dimension: '1260x1260x560', 
+    diameter: '1080 mm (42")',
+    blades: '6', 
+    material: 'Fiberglass',
+    speed: '520',
+    noise: '60–70',
+    warranty: '12 Months',
+  },
+  {
+    modelNo: 'Exhaust-1060', 
+    airVolume: '19000',
+    relatedVoltage: '380V', 
+    power: '0.55', 
+    dimension: '1060x1060x560', 
+    diameter: '890 mm (36")',
+    blades: '6', 
+    material: 'Fiberglass',
+    speed: '520',
+    noise: '60–70',
+   warranty: '12 Months',
+  },
+];
 
       const Exhaust_Fan_SS = [
         {
