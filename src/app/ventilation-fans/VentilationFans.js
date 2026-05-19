@@ -579,7 +579,6 @@ width="600"
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Material</th>
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Speed(RPM)</th>
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Noise (DBA)</th>
-      <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Net Weight(KG)</th>
       <th scope="col" className="py-2 px-2 text-[10px] border-r border-gray-100">Warranty</th>
     </tr>
   </thead>
@@ -596,7 +595,6 @@ width="600"
         <td className="px-2 py-2 text-[12px] border-r border-gray-300">{product.material}</td>
         <td className="px-2 py-2 text-[12px] border-r border-gray-300">{product.speed}</td>
         <td className="px-2 py-2 text-[12px] border-r border-gray-300">{product.noise}</td>
-        <td className="px-2 py-2 text-[12px] border-r border-gray-300">{product.netWeight}</td>
         <td className="px-2 py-2 text-[12px] border-r border-gray-300">{product.warranty}</td>
       </tr>
     ))}
