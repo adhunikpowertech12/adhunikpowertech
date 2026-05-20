@@ -139,8 +139,14 @@ export default function HVACCompaniesHaridwar() {
                   <h2 className="text-3xl font-bold text-cyan-900 mb-2"> 1. Adhunik Powertech</h2>
                   <p className="text-xl font-medium text-cyan-600">Top HVAC Company in Haridwar</p>
                 </div>
-                <div className="bg-cyan-50 border border-cyan-100 px-4 py-2 rounded-full text-sm font-bold text-cyan-700">
-                  Best For: Pharma, Cleanrooms & Industrial Turnkey
+               <div className="bg-cyan-50 border border-cyan-100 px-4 py-2 rounded-full text-sm font-bold text-cyan-700">
+                  Best For:{" "}
+                  <a 
+                    href="https://www.adhunikpowertech.com/turnkey-cleanroom-solutions" 
+                    className="hover:underline text-cyan-800 transition-colors"
+                  >
+                    Pharma, Cleanrooms & Industrial Turnkey
+                  </a>
                 </div>
               </div>
 
