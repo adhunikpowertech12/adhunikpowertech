@@ -325,7 +325,7 @@ const [openIndex, setOpenIndex] = useState(null);
               </a>
               
               <Link 
-                href="/request-quote" 
+                href="/support-form" 
                 className="w-full sm:w-auto bg-transparent border border-slate-700 hover:border-cyan-400 text-white px-8 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all"
               >
                 <Mail className="w-4 h-4" /> Request a Quote
