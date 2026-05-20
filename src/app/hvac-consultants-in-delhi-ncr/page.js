@@ -69,7 +69,7 @@ export const metadata = {
   openGraph: {
     title: "Trusted HVAC Consultants Delhi NCR | Adhunik Powertech",
     description: "Adhunik Powertech provides expert HVAC consultancy, system design, and turnkey cooling solutions across Delhi NCR for industrial & commercial spaces.",
-    url: "https://www.adhunikpowertech.com/hvac-consultants-delhi-ncr",
+    url: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr",
     type: "article",
     images: [
       {
@@ -84,7 +84,7 @@ export const metadata = {
   robots: "index, follow",
 
   alternates: {
-    canonical: "https://www.adhunikpowertech.com/hvac-consultants-delhi-ncr",
+    canonical: "https://www.adhunikpowertech.com/hvac-consultants-in-delhi-ncr",
   },
 
   twitter: {

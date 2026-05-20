@@ -249,7 +249,7 @@ export default function HVACGuideHaridwar() {
                   <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
 
-                <Link href="/contact" className="group bg-transparent border-2 border-slate-700 hover:border-cyan-400 text-white font-bold py-4 px-8 rounded-xl flex items-center justify-between transition-all duration-300">
+                <Link href="/support-form" className="group bg-transparent border-2 border-slate-700 hover:border-cyan-400 text-white font-bold py-4 px-8 rounded-xl flex items-center justify-between transition-all duration-300">
                   <span className="flex items-center gap-3">
                     <Mail className="w-5 h-5" /> Request a Site Visit
                   </span>
