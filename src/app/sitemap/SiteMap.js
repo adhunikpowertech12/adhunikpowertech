@@ -78,7 +78,8 @@ export default function SiteMap() {
     { href: '/hvac-consultants-in-delhi-ncr', text:'HVAC Consultants in Delhi NCR', title: 'Trusted HVAC Consultants in Delhi NCR | Adhunik Powertech'},
     { href: '/panel-ac-maintenance-checklist', text:'Panel AC Maintenance Checklist', title: 'Panel AC Maintenance Checklist | Adhunik Powertech'},
     { href: '/how-to-choose-the-right-panel-ac', text:'How to Choose the Right Panel AC', title: 'How to Choose the Right Panel AC | Adhunik Powertech'},
-    { href: '/turnkey-cleanroom-solutions', text:'Turnkey Cleanroom Solutions', title: 'Turnkey Cleanroom Solutions | Adhunik Powertech'}
+    { href: '/turnkey-cleanroom-solutions', text:'Turnkey Cleanroom Solutions', title: 'Turnkey Cleanroom Solutions | Adhunik Powertech'},
+    { href: '/air-cooling-haridwar-roorkee', text:'Air Cooling Solutions in Haridwar & Roorkee', title: 'Air Cooling Solutions in Haridwar & Roorkee | Adhunik Powertech'}
  
 ];
 

@@ -469,4 +469,12 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <url>
+   <loc>https://www.adhunikpowertech.com/air-cooling-haridwar-roorkee</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
 </urlset>
