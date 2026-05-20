@@ -349,10 +349,10 @@ export default function VentilationFans() {
                 fetchPriority="high"
                 decoding="async"
                 alt="Axial flow industrial fan with metal blades and protective front grille"
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764841403/axialflow_fan_iuzci5.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779253445/Axial_Flow_Fan_lf5tla.webp"
                 loading="lazy"
                  height="300"
-width="400"
+                 width="400"
               />
             </div>
           </div>
@@ -519,7 +519,7 @@ width="400"
                 loading="lazy"
                 decoding="async"
                 alt="Large industrial exhaust fans installed outside a tiled building wall"
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779253445/Axial_Flow_Fan_lf5tla.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764841403/Exhaust_Fan_1_dfceey.webp"
                  height="300"
                 width="600"
               />
