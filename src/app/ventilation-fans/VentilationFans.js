@@ -282,7 +282,7 @@ export default function VentilationFans() {
           <section className="flex flex-col md:flex-row gap-8 items-center mb-16">
             <div className=" w-full   h-full  md:w-6/12">
               <img
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764840885/Ventilation_fan_qb77j1.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779253637/VENTILATION_FAN_e0vb1a.webp"
                 alt="Close-up view of two large industrial ventilation fans mounted"
                 loading="lazy"
                 className="w-full h-full  object-center object-contain"
@@ -387,15 +387,7 @@ width="400"
 
     </div>
   </div>
-
-
 </div>
-
-
-
-
-
- 
 
 <div className="flex justify-center items-center w-full px-4 mb-4">
   <div className="overflow-x-auto w-full max-w-6xl">
@@ -486,9 +478,7 @@ width="400"
 </div>
 </div>
 </div>
-   
-
-
+  
     
    <div className="row">
 
@@ -529,9 +519,9 @@ width="400"
                 loading="lazy"
                 decoding="async"
                 alt="Large industrial exhaust fans installed outside a tiled building wall"
-                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1764841403/Exhaust_Fan_1_dfceey.webp"
+                src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779253445/Axial_Flow_Fan_lf5tla.webp"
                  height="300"
-width="600"
+                width="600"
               />
             </div>
           </div>
