@@ -1,7 +1,7 @@
 import PanelAirConditioners from "./PanelAirConditioners"
 export const metadata = {
-  title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
-  description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
+  title: "Heavy Duty Industrial Panel AC Manufacturer - Adhunik Powertech",
+  description: "Industrial panel AC manufacturer in India specializing in heavy-duty panel air conditioners for electrical panels and CNC machine cooling. Govt. authorized supplier delivering reliable enclosure cooling solutions. Get expert support today",
   keywords: [
     "Panel AC",
     "Panel Air Conditioner",
@@ -59,8 +59,8 @@ export const metadata = {
   
   robots: "index, follow",
   openGraph: {
-    title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
-    description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
+    title: "Heavy Duty Industrial Panel AC Manufacturer - Adhunik Powertech",
+    description: "Industrial panel AC manufacturer in India specializing in heavy-duty panel air conditioners for electrical panels and CNC machine cooling. Govt. authorized supplier delivering reliable enclosure cooling solutions. Get expert support today",
     url: "https://www.adhunikpowertech.com/panel-air-conditioners",
     type: "article",
     images: [
@@ -77,8 +77,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Heavy Duty Industrial Panel AC Manufacturer in India – Adhunik Powertech",
-    description: "Industrial panel AC manufacturer in India offering heavy duty enclosure cooling units for control panels & CNC machines. Authorized govt. supplier. Talk to experts",
+    title: "Heavy Duty Industrial Panel AC Manufacturer - Adhunik Powertech",
+    description: "Industrial panel AC manufacturer in India specializing in heavy-duty panel air conditioners for electrical panels and CNC machine cooling. Govt. authorized supplier delivering reliable enclosure cooling solutions. Get expert support today",
     image: "https://www.adhunikpowertech.com/_next/image?url=%2Fpanelac.png&w=640&q=75",
   },
 };
