@@ -445,6 +445,15 @@ export default function Blog() {
         "",
       link: "/air-cooling-haridwar-roorkee",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779273157/Air_Cooling_in_Haridwar_Roorkee_bfo5dw.webp",
+    }, 
+    {
+      id: 46,
+      title: "Best Commercial Air Conditioning in Roorkee | Adhunik Powertech",
+      date: "May 2026",
+      image:
+        "",
+      link: "/best-air-conditioning-in-roorkee",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779867467/Commerical-ac-in-roorkee_rgmmkz.webp",
     }
   ];
 
