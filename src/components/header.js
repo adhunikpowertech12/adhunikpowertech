@@ -77,7 +77,7 @@ function Navbar() {
 
         { label: 'Overview', href: '/hvac' },
         { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
-        { label: 'Clean-Room Solutions ', href: '/turnkey-cleanroom-solutions' },
+        { label: 'Cleanroom Solutions ', href: '/turnkey-cleanroom-solutions' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 
@@ -244,7 +244,7 @@ useEffect(() => {
 
         { label: "Overview", href: "/hvac" },
         { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
-                { label: 'Clean-Room Solutions ', href: '/turnkey-cleanroom-solutions' },
+                { label: 'Cleanroom Solutions ', href: '/turnkey-cleanroom-solutions' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
 

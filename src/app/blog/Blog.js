@@ -454,6 +454,15 @@ export default function Blog() {
         "",
       link: "/best-air-conditioning-in-roorkee",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779867467/Commerical-ac-in-roorkee_rgmmkz.webp",
+    }, 
+       {
+      id: 47,
+      title: "Cleanroom Wall Panels for GMP & ISO Cleanrooms | Adhunik Powertech",
+      date: "June 2026",
+      image:
+        "",
+      link: "/cleanroom-wall-panels",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780555671/modular-cleanroom-wall-panels_nkbgjv.webp",
     }
   ];
 

@@ -80,7 +80,8 @@ export default function SiteMap() {
     { href: '/how-to-choose-the-right-panel-ac', text:'How to Choose the Right Panel AC', title: 'How to Choose the Right Panel AC | Adhunik Powertech'},
     { href: '/turnkey-cleanroom-solutions', text:'Turnkey Cleanroom Solutions', title: 'Turnkey Cleanroom Solutions | Adhunik Powertech'},
     { href: '/air-cooling-haridwar-roorkee', text:'Air Cooling Solutions in Haridwar & Roorkee', title: 'Air Cooling Solutions in Haridwar & Roorkee | Adhunik Powertech'},
-     { href: '/best-air-conditioning-in-roorkee', text:'Best Air Conditioning in Roorkee', title: 'Best Air Conditioning in Roorkee | Adhunik Powertech'}
+     { href: '/best-air-conditioning-in-roorkee', text:'Best Air Conditioning in Roorkee', title: 'Best Air Conditioning in Roorkee | Adhunik Powertech'},
+     { href: '/cleanroom-wall-panels', text:'Cleanroom Wall Panels', title: 'Modular Cleanroom Wall Panels for GMP & ISO | Adhunik Powertech'}
 ];
 
   return (
