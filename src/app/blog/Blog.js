@@ -463,7 +463,25 @@ export default function Blog() {
         "",
       link: "/cleanroom-wall-panels",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780555671/modular-cleanroom-wall-panels_nkbgjv.webp",
-    }
+    },
+      {
+      id: 48,
+      title: "Benefits of Modular Cleanrooms Over Conventional Construction",
+      date: "June 2026",
+      image:
+        "",
+      link: "/modular-cleanroom-vs-conventional",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780651741/benefits-of_modular-cleanrooms-over_conventional_ahf4jx.webp",
+    },
+    {/*  
+      id: 49,
+      title: "Cleanroom Wall Panels for GMP & ISO Cleanrooms | Adhunik Powertech",
+      date: "June 2026",
+      image:
+        "",
+      link: "/cleanroom-wall-panels",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780555671/modular-cleanroom-wall-panels_nkbgjv.webp",
+    */}
   ];
 
   return (
