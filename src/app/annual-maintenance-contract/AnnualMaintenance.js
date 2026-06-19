@@ -104,7 +104,7 @@ const HeroSection = () => (
         muted
         playsInline
         className="w-full h-full object-cover"
-        src="https://res.cloudinary.com/ddkyx2jhh/video/upload/v1781595265/hvac-amc_qcyv70.mp4"
+        src="https://videos.pexels.com/video-files/29470941/12686080_2560_1440_30fps.mp4"
       />
     </div>
     <div className="relative z-20 container mx-auto px-4 text-center">
@@ -1700,7 +1700,7 @@ export default function AnnualMaintenance() {
     {
       id: 1,
       video:
-        "https://res.cloudinary.com/ddkyx2jhh/video/upload/v1738750032/Fire_Overview__k7uos8.mp4",
+        "https://res.cloudinary.com/ddkyx2jhh/video/upload/v1781595265/hvac-amc_qcyv70.mp4",
       title: (
         <>
           {" "}
