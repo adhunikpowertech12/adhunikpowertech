@@ -124,7 +124,7 @@ export default function ContactUs() {
             // 3. Proceed with original emailjs submission
             emailjs
                 .sendForm("service_vo5gd7i", "template_l7fwlg4", form.current, {
-                    publicKey: "HNVjZHjWsKKbBqDhx",
+                    publicKey: "l1ClVd3RFtBBP43zB",
                 })
                 .then(() => {
                     notifys();
