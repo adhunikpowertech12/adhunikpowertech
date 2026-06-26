@@ -82,7 +82,9 @@ export default function SiteMap() {
     { href: '/air-cooling-haridwar-roorkee', text:'Air Cooling Solutions in Haridwar & Roorkee', title: 'Air Cooling Solutions in Haridwar & Roorkee | Adhunik Powertech'},
     { href: '/best-air-conditioning-in-roorkee', text:'Best Air Conditioning in Roorkee', title: 'Best Air Conditioning in Roorkee | Adhunik Powertech'},
     { href: '/cleanroom-wall-panels', text:'Cleanroom Wall Panels', title: 'Modular Cleanroom Wall Panels for GMP & ISO | Adhunik Powertech'},
-    { href: '/modular-cleanroom-vs-conventional', text:'Modular Cleanroom vs Conventional', title: 'Modular Cleanroom vs Conventional | Adhunik Powertech'}
+    { href: '/modular-cleanroom-vs-conventional', text:'Modular Cleanroom vs Conventional', title: 'Modular Cleanroom vs Conventional | Adhunik Powertech'},
+    { href: '/cleanroom-manufacturer-in-roorkee-haridwar', text:'Cleanroom Manufacturer in Roorkee & Haridwar', title: 'Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech'}
+   
     ];
 
   return (

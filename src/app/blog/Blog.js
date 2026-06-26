@@ -472,6 +472,15 @@ export default function Blog() {
         "",
       link: "/modular-cleanroom-vs-conventional",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780651741/benefits-of_modular-cleanrooms-over_conventional_ahf4jx.webp",
+    },
+     {
+      id: 49,
+      title: "Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech",
+      date: "June 2026",
+      image:
+        "",
+      link: "/cleanroom-manufacturer-in-roorkee-haridwar",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782469867/cleanroom_manufacturer_sk2szl.webp",
     }
    
   ];
