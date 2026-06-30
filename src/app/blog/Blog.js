@@ -347,7 +347,7 @@ export default function Blog() {
       link: "/what-makes-a-contractor-reliable",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773833826/company_guide_b7dkig.webp",
     },
-    {
+    {/*
       id: 34,
       title: "AHU vs FFU in Pharma Clean Rooms: Which is Better?",
       date: "March 2026",
@@ -355,7 +355,7 @@ export default function Blog() {
         "",
       link: "/ahu-vs-ffu-in-pharma-clean-rooms",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774258077/ahuvsffu_pcs3xq.webp",
-    },
+    */},
     {
       id: 35,
       title: "Top HVAC Contractor in Delhi NCR | Industrial & Commercial HVAC Solutions",
@@ -481,72 +481,67 @@ export default function Blog() {
         "",
       link: "/cleanroom-manufacturer-in-roorkee-haridwar",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782469867/cleanroom_manufacturer_sk2szl.webp",
+    },
+    {
+      id: 50,
+      title: "Is Your HVAC System Reducing Product Quality? Find Out",
+      date: "June 2026",
+      image:
+        "",
+      link: "/hvac-system-product-quality",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782800892/Current_HVAC_System_Affecting_Product_Quality_fzv43r.webp",
     }
    
   ];
 
-  return (
-    <>
-      <div className="container  mt-28 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+ return (
+  <>
+    <div className="container mt-28 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-7xl mx-auto text-center">
+        <h1 className="text-2xl py-3 mb-4 font-bold md:text-4xl md:leading-tight text-transparent bg-clip-text bg-gradient-to-r to-[#06b6d4] from-[#0ea5e9]"> 
+          Featured Blogs 
+        </h1>
 
-        <div className="max-w-7xl mx-auto text-center ">
-          <h1 className="text-2xl py-3 mb-4 font-bold md:text-4xl md:leading-tight text-transparent bg-clip-text bg-gradient-to-r to-[#06b6d4] from-[#0ea5e9] "> Featured Blogs </h1>
-
-
-          <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {blogData.reverse().map((blog) => (
-              <Link
-                key={blog.id}
-                className="group border border-cyan-500 relative flex flex-col w-full  bg-cover bg-center rounded-xl hover:shadow-lg transition"
-
-                href={blog.link}
-                style={{
-                  backgroundImage: `url('${blog.image}')`
-
-                  ,
-                }}
-              >
-
-                <div className="pt-0 p-4 md:p-6">
-                  <div className="card w-full max-w-sm overflow-hidden rounded-md bg-white">
-                    <div className="w-full h-60 flex items-center justify-center bg-gray-100">
-                      <img
-                        src={blog.img}
-                        alt={blog.title}
-                        className="w-full h-full object-contain rounded-md"
-                        loading='lazy'
-                        height="300"
-                        width="300"
-                      />
-                    </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Creating a shallow copy with [...blogData] fixes the key tracking/rendering bugs */}
+          {[...blogData].reverse().map((blog) => (
+            <Link
+              key={blog.id || blog.title} // Fallback key just in case an id is missing
+              className="group border border-cyan-500 relative flex flex-col w-full bg-cover bg-center rounded-xl hover:shadow-lg transition"
+              href={blog.link || "#"} // Fallback prevents "undefined href" error from crashing Next.js
+              style={{
+                backgroundImage: `url('${blog.image || ""}')`,
+              }}
+            >
+              <div className="pt-0 p-4 md:p-6">
+                <div className="card w-full max-w-sm overflow-hidden rounded-md bg-white">
+                  <div className="w-full h-60 flex items-center justify-center bg-gray-100">
+                    <img
+                      src={blog.img}
+                      alt={blog.title}
+                      className="w-full h-full object-contain rounded-md"
+                      loading="lazy"
+                      height="300"
+                      width="300"
+                    />
                   </div>
-
-
-
-                  <div className=" mt-4  text-start flex flex-col">
-                    <h2 className="text-cyan-800 group-hover:text-gray-500 font-semibold  font-sans">
-
-                      {blog.title}
-                    </h2>
-                    <div className="date text-[14px] mt-1 font-sans text-cyan-700">
-
-                      {blog.date}
-                    </div>
-                  </div>
-
-
-
-
                 </div>
 
-              </Link>
-            ))}
-
-          </div>
+                <div className="mt-4 text-start flex flex-col">
+                  <h2 className="text-cyan-800 group-hover:text-gray-500 font-semibold font-sans">
+                    {blog.title}
+                  </h2>
+                  <div className="date text-[14px] mt-1 font-sans text-cyan-700">
+                    {blog.date}
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
-        {/* End Title */}
-
       </div>
-    </>
-  )
+      {/* End Title */}
+    </div>
+  </>
+);
 }

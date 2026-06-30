@@ -68,7 +68,6 @@ export default function SiteMap() {
     { href: '/hvac-turnkey-projects',text:'HVAC Turnkey Projects', title: 'HVAC Turnkey Projects in Delhi NCR | Industrial Cost-Saving Solutions'},
     { href: '/best-air-cooling-solutions',text:'Best Industrial Air Cooling Solutions', title: 'Best Industrial Air Cooling Solutions in Delhi NCR | Adhunik Powertech'},
     { href: '/what-makes-a-contractor-reliable',text:'What Makes a Contractor Reliable?', title: 'Top HVAC Contractor in Delhi NCR | Reliable Company Guide'},
-    { href: '/ahu-vs-ffu-in-pharma-clean-rooms',text:'AHU vs FFU in Pharma Clean Rooms', title: 'AHU vs FFU in Pharma Clean Rooms | Adhunik Powertech'},
     { href: '/top-hvac-contractor-in-delhi-ncr',text:'Top HVAC Contractor in Delhi NCR', title: 'Top HVAC Contractor in Delhi NCR for Industrial & Commercial Projects'},
     { href: '/cleanroom-hvac-guide',text:'Cleanroom HVAC Guide', title: 'Cleanroom HVAC Guide: Pharma Manufacturing (2026)'},
     { href: '/choose-right-hvac-company-in-haridwar', text:'Choose the Best HVAC Company in Haridwar | Expert Guide', title: 'Choose the Best HVAC Company in Haridwar | Expert Guide'},
@@ -83,7 +82,9 @@ export default function SiteMap() {
     { href: '/best-air-conditioning-in-roorkee', text:'Best Air Conditioning in Roorkee', title: 'Best Air Conditioning in Roorkee | Adhunik Powertech'},
     { href: '/cleanroom-wall-panels', text:'Cleanroom Wall Panels', title: 'Modular Cleanroom Wall Panels for GMP & ISO | Adhunik Powertech'},
     { href: '/modular-cleanroom-vs-conventional', text:'Modular Cleanroom vs Conventional', title: 'Modular Cleanroom vs Conventional | Adhunik Powertech'},
-    { href: '/cleanroom-manufacturer-in-roorkee-haridwar', text:'Cleanroom Manufacturer in Roorkee & Haridwar', title: 'Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech'}
+    { href: '/cleanroom-manufacturer-in-roorkee-haridwar', text:'Cleanroom Manufacturer in Roorkee & Haridwar', title: 'Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech'},
+    { href: '/hvac-system-product-quality', text:'HVAC System Product Quality', title: 's Your HVAC System Reducing Product Quality? Find Out'}
+   
    
     ];
 
