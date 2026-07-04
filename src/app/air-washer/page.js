@@ -1,7 +1,4 @@
 import AirWasher from "./AirWasher";
-
- 
-
 export const metadata = {
   title: "Top Air Washer Manufacturer in Delhi NCR & India | Adhunik Powertech",
   description: "Adhunik Powertech: Leading air washer supplier in Delhi NCR (Gurugram, Noida, Faridabad) & India (Jaipur, Chandigarh). Industrial & commercial air washers for efficient cooling.",
@@ -57,14 +54,10 @@ export const metadata = {
   },
 };
 
-
 export default function page() {
-
-
   return (
 
     <>
-
       <AirWasher />
 
     </>

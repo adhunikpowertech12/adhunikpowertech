@@ -1,16 +1,32 @@
 
 'use client'
-
 import Image from 'next/image';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
+// Unit conversion factors to feet
+const CONVERSION_FACTORS = {
+  Feet: 1,
+  Meter: 3.28084,
+  Centimeter: 1 / 30.48,
+  Inches: 1 / 12,
+  Millimeter: 1 / 304.8,
+};
+
+// Adhunik Powertech official industrial ventilation presets
+const APPLICATION_PRESETS = [
+  { label: 'Residential Room', value: 6 },
+  { label: 'Office', value: 8 },
+  { label: 'Shop', value: 10 },
+  { label: 'Warehouse', value: 12 },
+  { label: 'Factory', value: 20 },
+  { label: 'Textile Industry', value: 25 },
+  { label: 'Food Processing Area', value: 25 },
+  { label: 'Commercial Kitchen', value: 40 },
+];
+
 export default function AirWasher() {
-
-
-
-
   const accordionData = useMemo(() => [
 
     {
@@ -72,9 +88,7 @@ export default function AirWasher() {
             </div>
           </div>
         </>,
-
     },
-
     {
       title: " What Are the Differences Between an Air Washer and an AHU? ",
       content: <>
@@ -103,7 +117,6 @@ export default function AirWasher() {
       content:
         <>
           <div>
-
             <p><strong>Key factors to consider when choosing an air washer include:</strong></p>
             <ul className="list-disc pl-5">
               <li>Cooling Capacity</li>
@@ -132,29 +145,20 @@ export default function AirWasher() {
     }
   }, [accordionData]);
 
-
-
   const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
-
-
   const [showModal, setShowModal] = React.useState(false);
 
   const closeModal = () => {
     setShowModal(false);
   };
 
-
   const column1 = [
     "Industrial Plant ",
     "Commercial Kitchen",
     "Food Courts & cafeteria ",
     "Laundries",
-
-
-
   ];
 
 
@@ -162,13 +166,8 @@ export default function AirWasher() {
     "Workshops",
     "  Spot Cooling",
     " DG Rooms",
-
     "Warehouses",
-
-
   ];
-
-
 
   const logos = [
     { src: '/awi/6.webp', alt: 'Asahi-India-Glass-Ltd' },
@@ -181,8 +180,6 @@ export default function AirWasher() {
     { src: '/awi/13.webp', alt: 'Asahi-India-Glass-Ltd' },
 
   ];
-
-
   const lists = [
     {
       heading: '100% fresh, clean, cool air ',
@@ -244,16 +241,61 @@ export default function AirWasher() {
       items: ['   Blower doesn’t come in contact with moist air  ', '  Zero chance of blower rusting ',]
     },
   ];
+// ==========================================
+  // INLINE PERMANENT CFM CALCULATOR CORE STATE
+  // ==========================================
+  const [length, setLength] = useState('');
+  const [width, setWidth] = useState('');
+  const [height, setHeight] = useState('');
+  const [unit, setUnit] = useState('Feet');
+  const [appPreset, setAppPreset] = useState('Factory');
+  const [ach, setAch] = useState(20); 
+  const [cfmResult, setCfmResult] = useState(0);
+  const [cmhResult, setCmhResult] = useState(0);
 
+  const handlePresetChange = (e) => {
+    const selectedPreset = e.target.value;
+    setAppPreset(selectedPreset);
+    if (selectedPreset !== 'Custom') {
+      const match = APPLICATION_PRESETS.find(p => p.label === selectedPreset);
+      if (match) {
+        setAch(match.value);
+      }
+    }
+  };
 
+  const handleManualAchChange = (e) => {
+    const manualVal = parseInt(e.target.value, 10);
+    setAch(manualVal);
+    
+    const matchingPreset = APPLICATION_PRESETS.find(p => p.value === manualVal);
+    if (matchingPreset) {
+      setAppPreset(matchingPreset.label);
+    } else {
+      setAppPreset('Custom');
+    }
+  };
+
+  useEffect(() => {
+    const l = parseFloat(length) || 0;
+    const w = parseFloat(width) || 0;
+    const h = parseFloat(height) || 0;
+
+    const lengthInFt = l * CONVERSION_FACTORS[unit];
+    const widthInFt = w * CONVERSION_FACTORS[unit];
+    const heightInFt = h * CONVERSION_FACTORS[unit];
+
+    const volumeCuFt = lengthInFt * widthInFt * heightInFt;
+    const calculatedCfm = (volumeCuFt * ach) / 60;
+    const calculatedCmh = calculatedCfm * 1.69901;
+
+    setCfmResult(Math.round(calculatedCfm));
+    setCmhResult(Math.round(calculatedCmh));
+  }, [length, width, height, unit, ach]);
 
   return (
     <>
-
-
       <div className="row  mt-32 font-sans">
-
-
         <section className=' p-5 flex flex-col md:flex-row mb-5'>
           <div className="box md:w-4/12 justify-center flex items-center mx-auto">
 
@@ -272,11 +314,6 @@ export default function AirWasher() {
             </div>
 
           </div>
-
-
-
-
-
           <div className="box md:w-6/12 py-4 px-4 flex justify-center items-start flex-col">
             <h1 className="w-full text-center md:text-left font-sans text-4xl text-sky-700 leading-tight">
               Air Washers Explained : Dual-Purpose Air Cleaning & Humidity Control
@@ -296,17 +333,7 @@ export default function AirWasher() {
               Here's a detailed breakdown:
             </p>
           </div>
-
-
-
-
-
         </section>
-
-
-
-
-
         <section className=" relative">
 
           <div className="w-full max-w-8xl px-4 md:px-5 lg:px-5 mx-auto">
@@ -331,13 +358,9 @@ export default function AirWasher() {
 
                     </div>
 
-
                     <h2 className="text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
                       2. Evaporative Cooling Process :
                     </h2>
-
-
-
                     <div className="container  px-3">
                       <h3 className=" underline text-gray-700 text-2xl font-semibold font-manrope w-full leading-normal ">
 
@@ -490,18 +513,6 @@ export default function AirWasher() {
           </p>
 
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
         <div className="row">
           <div className=" h-full gap-5 flex flex-col md:flex-row  p-5  m-4">
 
@@ -538,10 +549,7 @@ export default function AirWasher() {
                   Technical Specifications :
 
                 </h2>
-
                 <div className="container">
-
-
                   <div className=" text-base  leading-relaxed   space-y-4">
 
                     <ul className="list-disc pl-5 text-gray-700">
@@ -576,11 +584,6 @@ export default function AirWasher() {
 
 
           </div>
-
-
-
-
-
         </div>
 
         <div className="row">
@@ -630,17 +633,8 @@ export default function AirWasher() {
                 </div>
               </div>
             </div>
-
-
           </div>
-
-
-
-
-
         </div>
-
-
         <div className="row">
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -695,23 +689,10 @@ export default function AirWasher() {
                 >
                   Enquiry Now
                 </button>
-
-
-
               </div>
             </div>
-
-
           </div>
-
-
-
-
-
         </div>
-
-
-
         <div className="row">
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -719,19 +700,12 @@ export default function AirWasher() {
               <div className="flex items-center justify-center h-full">
                 <div className=" px-10 py-16" >
                   <p className=' text-4xl uppercase' > Type for  Air Washer </p>
-
-
-
-
-
                   <div className=' py-3   text-left ' >
                     <IoMdCheckmarkCircleOutline className=' h-10 w-10 p-1' /> <div>
                       <span className='text-2xl' > Double stage  </span> <br />
                       <span className=' italic font-sans font-thin '>  (Indirect Evaporative Cooling System) </span>
                     </div>
-
                   </div>
-
                 </div>
               </div>
             </div>
@@ -747,9 +721,6 @@ export default function AirWasher() {
                   <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-xl">
                     <div className="w-auto">
                       <div className="w-full object-cover rounded-xl">
-
-
-
                         <Image
                           src="/awi/3.webp"
                           alt="Air washer"
@@ -765,18 +736,8 @@ export default function AirWasher() {
                 </div>
               </div>
             </div>
-
-
           </div>
-
-
-
-
         </div>
-
-
-
-
         <div className="row">
           <div className=" h-full flex flex-col md:flex-row text-center p-5 bg-[#F4F4F4] m-4">
 
@@ -849,31 +810,158 @@ export default function AirWasher() {
                 </div>
               </div>
             </div>
-
-
-
           </div>
+        </div>
+{/* =======================================================
+            HVAC CFM CALCULATOR 
+            ======================================================= */}
+<div className="container mx-auto max-w-5xl px-4 md:px-5 mb-8">
+          <div className="w-full p-6 md:p-8 border-2 border-gray-300 hover:border-cyan-500 transition-colors duration-500 bg-white rounded-xl shadow-sm">
+           <div className="border-b border-slate-200 pb-3 mb-6 text-center">
+            <h2 className="text-[#23395d] text-2xl font-bold font-manrope">
+              HVAC CFM Calculator
+            </h2>
+              <p className="text-sm text-gray-500 mt-1 font-sans">
+                Calculate the required volumetric airflow rates (CFM/CMH) for your facility based on plant layout dimensions and custom air change parameters.
+              </p>
+            </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Column 1: Workspace Dimensional Inputs */}
+              <div className="space-y-4">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-700 border-l-4 border-cyan-500 pl-2">
+                  1. Plant Area Configuration
+                </h3>
+                
+                <div className="space-y-1">
+                  <label className="block text-xs font-semibold text-slate-700">
+                    Unit of Measurement
+                  </label>
+                  <select
+                    value={unit}
+                    onChange={(e) => setUnit(e.target.value)}
+                    className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 font-normal cursor-pointer shadow-sm"
+                  >
+                    {Object.keys(CONVERSION_FACTORS).map((u) => (
+                      <option key={u} value={u}>{u}</option>
+                    ))}
+                  </select>
+                </div>
 
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="space-y-1">
+                    <label className="block text-xs font-semibold text-slate-700">
+                      Length ({unit.toLowerCase()})
+                    </label>
+                    <input
+                      type="number"
+                      value={length}
+                      placeholder="0.00"
+                      onChange={(e) => setLength(e.target.value)}
+                      className="w-full border border-slate-300 bg-white rounded-lg px-3 py-2 text-sm font-normal text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+                    />
+                  </div>
 
+                  <div className="space-y-1">
+                    <label className="block text-xs font-semibold text-slate-700">
+                      Width ({unit.toLowerCase()})
+                    </label>
+                    <input
+                      type="number"
+                      value={width}
+                      placeholder="0.00"
+                      onChange={(e) => setWidth(e.target.value)}
+                      className="w-full border border-slate-300 bg-white rounded-lg px-3 py-2 text-sm font-normal text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+                    />
+                  </div>
 
+                  <div className="space-y-1">
+                    <label className="block text-xs font-semibold text-slate-700">
+                      Height ({unit.toLowerCase()})
+                    </label>
+                    <input
+                      type="number"
+                      value={height}
+                      placeholder="0.00"
+                      onChange={(e) => setHeight(e.target.value)}
+                      className="w-full border border-slate-300 bg-white rounded-lg px-3 py-2 text-sm font-normal text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Column 2: ACH Selection & Live Air Flow Metrics */}
+              <div className="space-y-5 flex flex-col justify-between">
+                <div className="space-y-3">
+                  <h3 className="text-sm font-bold uppercase tracking-wider text-slate-700 border-l-4 border-cyan-500 pl-2">
+                    2. Air Change Requirements (ACPH)
+                  </h3>
+                  
+                  <div className="space-y-1">
+                    <label className="block text-xs font-semibold text-slate-700">
+                      Select Industry Preset Application
+                    </label>
+                    <select
+                      value={appPreset}
+                      onChange={handlePresetChange}
+                      className="w-full bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 font-medium cursor-pointer shadow-sm"
+                    >
+                      <option value="Custom">Custom Configuration (Use Slider Below)</option>
+                      {APPLICATION_PRESETS.map((preset) => (
+                        <option key={preset.label} value={preset.label}>
+                          {preset.label} ({preset.value} ACH)
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div className="pt-1">
+                    <div className="flex justify-between items-center mb-1">
+                      <span className="text-xs text-slate-500 font-medium">Fine-Tune Air Changes</span>
+                      <span className="text-xs font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-100">
+                        {ach} ACPH
+                      </span>
+                    </div>
+                    <input
+                      type="range"
+                      min="5"
+                      max="60"
+                      value={ach}
+                      onChange={handleManualAchChange}
+                      className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#3b5998]"
+                    />
+                  </div>
+                </div>
+
+                {/* Calculation Outputs Block */}
+                <div className="grid grid-cols-2 gap-3 bg-slate-50 border border-slate-200 p-4 rounded-xl shadow-inner mt-4 md:mt-0">
+                  <div className="text-center border-r border-slate-200">
+                    <span className="block text-[10px] uppercase tracking-wider text-slate-500 font-bold mb-1">
+                      Required Airflow (CFM)
+                    </span>
+                    <div className="text-2xl font-extrabold tracking-tight text-[#23395d]">
+                      {cfmResult.toLocaleString()} <span className="text-xs font-bold text-slate-500">ft³/min</span>
+                    </div>
+                  </div>
+
+                  <div className="text-center">
+                    <span className="block text-[10px] uppercase tracking-wider text-slate-500 font-bold mb-1">
+                      Equivalent Airflow (CMH)
+                    </span>
+                    <div className="text-2xl font-extrabold tracking-tight text-[#23395d]">
+                      {cmhResult.toLocaleString()} <span className="text-xs font-bold text-slate-500">m³/hr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
-
-
         <div className="row">
-
-
           <div className="inline-flex items-center justify-center w-full mx-auto my-4">
-
           </div>
-
-
-
-
-
-
         </div>
 
 
@@ -898,26 +986,16 @@ export default function AirWasher() {
                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                 <span className="relative">Contact Us</span>
               </a>
-
             </div>
 
           </div>
         </div>
-
-
-
         <div className="row">
-
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-
             <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center pb-16">
-
-
               <section >
                 <p className="mt-3 text-3xl font-sans font-bold text-gray-800 dark:text-neutral-400"> FAQs
-
                 </p>
-
                 <div className=" container mx-auto mt-8 mb-10">
                   {accordionData.map((item, index) => (
                     <div
@@ -960,29 +1038,19 @@ export default function AirWasher() {
                   ))}
                 </div>
 
-
                 <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-
-
-
                   <Link href="/our-Company" className="  rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white">
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">       Know more About Us </span>
+                    <span className="relative">Know more About Us </span>
                   </Link>
- 
                 </div>
- 
               </section>
-
-
               <div className="relative ms-4 items-center flex justify-center">
-
                 <div className="flex justify-center  absolute " >
                   <span className="relative flex h-16 w-16">
                     <span
                       className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"
                     ></span>
-
                     <span
                       className="relative flex justify-center items-center  h-16 w-16 rounded-full bg-white"
                     >
@@ -993,7 +1061,6 @@ export default function AirWasher() {
                   <button className=' z-50  text-transparent absolute p-5' onClick={() => setShowModal(true)}>.bdfbbdb</button>
                 </div>
 
- 
                 <Image
                   src="/awth.webp"
                   alt="What are the benefits of using an air washer?"
@@ -1007,8 +1074,6 @@ export default function AirWasher() {
                 <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
  
               </div>
-
-
               {showModal ? (
                 <>
                   <div
@@ -1019,38 +1084,23 @@ export default function AirWasher() {
                       className="relative  my-6    container-fluid "
                       onClick={(e) => e.stopPropagation()}
                     >
-
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-
-
-
                         <div className="relative  flex-auto">
-
                           <iframe className="responsive-iframe" width="860" height="515" src="https://www.youtube.com/embed/maCpVe_3Y2M?si=a1rz8p00L814B6xo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
-
-
                       </div>
                     </div>
                   </div>
                   <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
                 </>
               ) : null}
-
-
             </div>
-
           </div>
-
         </div>
 
-
         <div className="row pb-16 flex justify-center items-center flex-col">
-
-
           <div className="flex justify-center items-center w-full h-full flex-row">
             <div className="w-[30%] h-px my-8 bg-gray-300 border-0" />
-
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-gray-200 px-5 py-4 rounded-full bg-white md:text-4xl font-sans font-bold capitalize text-center">
               APPLICATIONS
             </span>
@@ -1059,19 +1109,13 @@ export default function AirWasher() {
           </div>
 
           <div className="row  w-full h-full">
-
-
             <div className="relative overflow-x-auto justify-center items-center flex font-sans font-thin">
-
-
               <table className="md:w-[50%] text-sm text-center text-gray-500 ">
 
                <caption className=" text-base font-semibold text-gray-700 mb-2">
-    Typical Applications of Our Air Washer Solutions
-  </caption>
+                 Typical Applications of Our Air Washer Solutions </caption>
 
                 <thead className="text-xs  text-gray-700 uppercase bg-gray-50 ">
-
                 </thead>
                 <tbody >
                   <tr className="bg-white text-[15px] flex flex-col md:flex-row justify-center  ">
@@ -1093,9 +1137,7 @@ export default function AirWasher() {
                 </tbody>
               </table>
             </div>
-
           </div>
-
 
           <div className="w-[85%] py-5 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
             {[...Array(2)].map((_, index) => (
