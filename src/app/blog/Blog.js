@@ -441,6 +441,15 @@ export default function Blog() {
         "",
       link: "/hvac-system-product-quality",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782800892/Current_HVAC_System_Affecting_Product_Quality_fzv43r.webp",
+    }, 
+    {
+      id: 47,
+      title: "Modular Cleanroom Ceiling Systems: Types, Materials, and Installation Guide",
+      date: "July 2026",
+      image:
+        "",
+      link: "/cleanroom-ceiling-systems",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1783673014/Cleanroom_Ceiling_System_tjuope.webp",
     }
    
   ];
