@@ -458,7 +458,7 @@ export default function Blog() {
       image:
         "",
       link: "/cleanroom-doors",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1783673014/Cleanroom_Ceiling_System_tjuope.webp",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1784194948/cleanroom-doors_k1nro5.webp",
     }
    
   ];
