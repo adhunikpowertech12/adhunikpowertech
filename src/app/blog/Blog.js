@@ -450,6 +450,15 @@ export default function Blog() {
         "",
       link: "/cleanroom-ceiling-systems",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1783673014/Cleanroom_Ceiling_System_tjuope.webp",
+    }, 
+    {
+      id: 48,
+      title: "Cleanroom Doors: Types, Materials & Selection Guide (2026)",
+      date: "July 2026",
+      image:
+        "",
+      link: "/cleanroom-doors",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1783673014/Cleanroom_Ceiling_System_tjuope.webp",
     }
    
   ];

@@ -84,7 +84,8 @@ export default function SiteMap() {
     { href: '/modular-cleanroom-vs-conventional', text:'Modular Cleanroom vs Conventional', title: 'Modular Cleanroom vs Conventional | Adhunik Powertech'},
     { href: '/cleanroom-manufacturer-in-roorkee-haridwar', text:'Cleanroom Manufacturer in Roorkee & Haridwar', title: 'Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech'},
     { href: '/hvac-system-product-quality', text:'HVAC System Product Quality', title: 's Your HVAC System Reducing Product Quality? Find Out'},
-    { href: '/cleanroom-ceiling-systems', text:'Cleanroom Ceiling Systems', title: 'Modular Cleanroom Ceiling Systems: Types, Materials & Benefits'}
+    { href: '/cleanroom-ceiling-systems', text:'Cleanroom Ceiling Systems', title: 'Modular Cleanroom Ceiling Systems: Types, Materials & Benefits'},
+    { href: '/cleanroom-doors', text:'Cleanroom Doors', title: 'Cleanroom Doors: Types, Features, Materials & Complete Selection Guide (2026)'}
    
     ];
 
