@@ -12,6 +12,7 @@ export const metadata = {
     "air changes per hour cleanroom",
     "cleanroom ach standards",
     "iso 14644-1 classification rules",
+    "iso clean room classification",
     
     // Technical & Engineering Keywords
     "cleanroom filtration strategies",
@@ -24,6 +25,8 @@ export const metadata = {
     // Sector & Brand Specific
     "turnkey cleanroom solutions india",
     "pharmaceutical cleanroom constructors",
+    "pharma cleanroom in haridwar and roorkee",
+    "Expert Cleanroom HVAC Contractor",
     "sterile compounding cleanroom hvac",
     "cleanroom manufacturer in haridwar",
     "cleanroom manufacturer in roorkee",
