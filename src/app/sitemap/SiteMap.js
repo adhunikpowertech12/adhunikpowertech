@@ -62,7 +62,6 @@ export default function SiteMap() {
     { href: '/why-panel-ac-is-your-best-investment', text: 'why-panel-ac-is-your-best-investment ', title: 'Best Investment for 2025: Panel AC Explained | Trusted Govt-Authorized Provider' },
     { href: '/panel-ac-manufacturer-india', text: 'Panel Ac manufactures with authorised govt supplier ', title: 'Best Panel AC Manufacturer India | Govt Approved' },
     { href: '/oil-chiller-maintenance-alerts', text: 'Maintaince Alterts for Oil Chiller ', title: 'Hydraulic Oil Chiller Maintenance Checklist' },
-    { href: '/industrial-turnkey-hvac-solutions', text: 'Industrial Turnkey HVAC Solutions', title: 'Industrial Turnkey HVAC Solutions | The Complete Industrial Guide' },
     { href: '/best-industrial-air-cooling-solution', text: 'Best Industrial Air Cooling Solution', title: 'Best Industrial Air Cooling Solution | Adhunik Powertech' },
     { href: '/panel-air-conditioner-vs-cooling-fans',text:'Panel Air Conditioner vs Cooling fans', title: 'Panel Ac vs Cooling Fans:Industrial Cooling Guide'},
     { href: '/best-air-cooling-solutions',text:'Best Industrial Air Cooling Solutions', title: 'Best Industrial Air Cooling Solutions in Delhi NCR | Adhunik Powertech'},
@@ -82,7 +81,8 @@ export default function SiteMap() {
     { href: '/cleanroom-manufacturer-in-roorkee-haridwar', text:'Cleanroom Manufacturer in Roorkee & Haridwar', title: 'Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech'},
     { href: '/hvac-system-product-quality', text:'HVAC System Product Quality', title: 's Your HVAC System Reducing Product Quality? Find Out'},
     { href: '/cleanroom-ceiling-systems', text:'Cleanroom Ceiling Systems', title: 'Modular Cleanroom Ceiling Systems: Types, Materials & Benefits'},
-    { href: '/cleanroom-doors', text:'Cleanroom Doors', title: 'Cleanroom Doors: Types, Features, Materials & Complete Selection Guide (2026)'}
+    { href: '/cleanroom-doors', text:'Cleanroom Doors', title: 'Cleanroom Doors: Types, Features, Materials & Complete Selection Guide (2026)'},
+   { href: '/iso-6-vs-7-vs-8-cleanrooms', text:'ISO 6 vs 7 vs 8 Cleanrooms', title: 'ISO Class 6 vs 7 vs 8 Cleanroom Guide: HVAC Design & ACH'}
    
     ];
 

@@ -749,8 +749,6 @@ useEffect(() => {
       </div>
 
       <div className="search-bar-container">
-      
-
         <div className="logo-section">
 
         </div>

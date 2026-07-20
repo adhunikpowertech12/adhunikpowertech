@@ -280,17 +280,9 @@ export default function Blog() {
       link: "/panel-air-conditioner-vs-cooling-fans",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771330538/Panel_AC_vs._Cooling_Fans_pooufv.webp",
     },
-    {
-      id: 29,
-      title: "HVAC Turnkey Projects in Delhi NCR | Industrial Cost-Saving Solutions",
-      date: "Feb 2026",
-      image:
-        "",
-      link: "/hvac-turnkey-projects",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1771838810/hvacturnkey_jpm1qj.webp",
-    },
+   
      {
-      id: 30,
+      id: 29,
       title: "Best Air Cooling Solutions in Delhi NCR | Adhunik Powertech",
       date: "March 2026",
       image:
@@ -298,26 +290,9 @@ export default function Blog() {
       link: "/best-air-cooling-solutions",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773394518/Air_cooling_solution_mh3hj2.webp",
     },
-     {
-      id: 31,
-      title: "Top HVAC Contractor in Delhi NCR | Reliable Company Guide",
-      date: "March 2026",
-      image:
-        "",
-      link: "/what-makes-a-contractor-reliable",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1773833826/company_guide_b7dkig.webp",
-    },
+  
     {
-      id: 32,
-      title: "Top HVAC Contractor in Delhi NCR | Industrial & Commercial HVAC Solutions",
-      date: "March 2026",
-      image:
-        "",
-      link: "/top-hvac-contractor-in-delhi-ncr",
-      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774247285/HVACinDelhincr_nioekh.webp",
-    },
-    {
-      id: 33,
+      id: 30,
       title: "Cleanroom HVAC Guide: Pharma Manufacturing (2026)",
       date: "March 2026",
       image:
@@ -326,7 +301,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp",
     },
      {
-      id: 34,
+      id: 31,
       title: "Choose the Best HVAC Company in Haridwar | Expert Guide",
       date: "April 2026",
       image:
@@ -335,7 +310,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775817226/hvaccompanyinharidwar_zvgumq.webp",
     },
     {
-      id: 35,
+      id: 32,
       title: "Top 10 HVAC Companies in Haridwar | Adhunik Powertech",
       date: "April 2026",
       image:
@@ -344,7 +319,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1775890444/haridwarhvac_u6fnes.webp",
     },
      {
-      id: 36,
+      id: 33,
       title: "Best HVAC Services in Haridwar | The Complete Guide",
       date: "April 2026",
       image:
@@ -353,7 +328,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776057546/besthvacservicesinharidwar_efifa7.webp",
     },
       {
-      id: 37,
+      id: 34,
       title: "Advantages of Panel AC for Industrial Cooling | Guide",
       date: "April 2026",
       image:
@@ -362,7 +337,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1776406523/panel-ac-advantages_smbjao.webp",
     },
      {
-      id: 38,
+      id: 35,
       title: "Trusted HVAC Consultants in Delhi NCR | Adhunik Powertech",
       date: "April 2026",
       image:
@@ -371,7 +346,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1777031578/Trusted_HVAC_Consultants_in_Delhi_NCR_zucxru.webp",
     },
     {
-      id: 39,
+      id: 36,
       title: "Panel AC Maintenance Checklist | Adhunik Powertech",
       date: "May 2026",
       image:
@@ -380,7 +355,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778061950/Panel_AC_Maintenance_Checklist_glnfpe.webp",
     },
      {
-      id: 40,
+      id: 37,
       title: "How to Choose the Right Panel Air Conditioner | Adhunik Powertech",
       date: "May 2026",
       image:
@@ -389,7 +364,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778587790/How_to_Choose_the_Right_Panel_Air_Conditioner_udm2kc.webp",
     },
      {
-      id: 41,
+      id: 38,
       title: "Best Industrial Air Cooling in Haridwar & Roorkee | Adhunik Powertech",
       date: "May 2026",
       image:
@@ -398,7 +373,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779273157/Air_Cooling_in_Haridwar_Roorkee_bfo5dw.webp",
     }, 
     {
-      id: 42,
+      id: 39,
       title: "Best Commercial Air Conditioning in Roorkee | Adhunik Powertech",
       date: "May 2026",
       image:
@@ -407,7 +382,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1779867467/Commerical-ac-in-roorkee_rgmmkz.webp",
     }, 
        {
-      id: 43,
+      id: 40,
       title: "Cleanroom Wall Panels for GMP & ISO Cleanrooms | Adhunik Powertech",
       date: "June 2026",
       image:
@@ -416,7 +391,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780555671/modular-cleanroom-wall-panels_nkbgjv.webp",
     },
       {
-      id: 44,
+      id: 41,
       title: "Benefits of Modular Cleanrooms Over Conventional Construction",
       date: "June 2026",
       image:
@@ -425,7 +400,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1780651741/benefits-of_modular-cleanrooms-over_conventional_ahf4jx.webp",
     },
      {
-      id: 45,
+      id: 42,
       title: "Cleanroom Manufacturer in Roorkee & Haridwar | Adhunik Powertech",
       date: "June 2026",
       image:
@@ -434,7 +409,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782469867/cleanroom_manufacturer_sk2szl.webp",
     },
     {
-      id: 46,
+      id: 43,
       title: "Is Your HVAC System Reducing Product Quality? Find Out",
       date: "June 2026",
       image:
@@ -443,7 +418,7 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1782800892/Current_HVAC_System_Affecting_Product_Quality_fzv43r.webp",
     }, 
     {
-      id: 47,
+      id: 44,
       title: "Modular Cleanroom Ceiling Systems: Types, Materials, and Installation Guide",
       date: "July 2026",
       image:
@@ -452,13 +427,22 @@ export default function Blog() {
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1783673014/Cleanroom_Ceiling_System_tjuope.webp",
     }, 
     {
-      id: 48,
+      id: 45,
       title: "Cleanroom Doors: Types, Materials & Selection Guide (2026)",
       date: "July 2026",
       image:
         "",
       link: "/cleanroom-doors",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1784194948/cleanroom-doors_k1nro5.webp",
+    }, 
+      {
+      id: 46,
+      title: "ISO Class 6 vs 7 vs 8 Cleanroom Guide: HVAC Design & ACH",
+      date: "July 2026",
+      image:
+        "",
+      link: "/iso-6-vs-7-vs-8-cleanrooms",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1784531334/Iso_Classifications_osayue.webp",
     }
    
   ];
