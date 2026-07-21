@@ -2,10 +2,10 @@ import CleanroomHVACContent from "./CleanroomHVACContent";
 
 export const metadata = {
   // Meta Title: Optimized for high-intent keywords + Brand Authority (56 chars)
-  title: "Cleanroom HVAC Guide 2026 | Turnkey Pharma HVAC India",
+  title: "Best Cleanroom Pharma Company in Haridwar | Adhunik Powertech",
 
   // Meta Description: High CTR with localized intent and CTA (158 chars)
-  description: "Master pharma cleanroom HVAC design. Adhunik Powertech offers GMP-compliant AHU & HEPA turnkey solutions in Haridwar, Baddi, & Rudrapur. Get your 2026 guide.",
+  description: "Discover why Adhunik Powertech is among the top cleanroom companies in Haridwar. Explore GMP-compliant pharma HVAC, modular cleanrooms & turnkey solutions.",
 
   keywords: [
     "cleanroom HVAC system",
@@ -30,8 +30,8 @@ export const metadata = {
   
   openGraph: {
     // OG Title: Branded and specific for social sharing
-    title: "Adhunik Powertech: The 2026 Guide to Pharma Cleanroom HVAC",
-    description: "Are your cleanroom systems GMP-ready? Explore our 2026 guide on HVAC design, AHU integration, and turnkey pharma solutions for India's manufacturing hubs.",
+    title: "Best Cleanroom Pharma Company in Haridwar | Adhunik Powertech",
+    description: "Discover why Adhunik Powertech is among the top cleanroom companies in Haridwar. Explore GMP-compliant pharma HVAC, modular cleanrooms & turnkey solutions.",
     url: "https://www.adhunikpowertech.com/cleanroom-hvac-guide", 
     type: "article",
     siteName: "Adhunik Powertech",
@@ -64,8 +64,8 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Adhunik Powertech: 2026 Pharma Cleanroom HVAC Guide",
-    description: "Expert HVAC strategies for pharma hubs including Baddi, Haridwar, and Rudrapur.",
+    title: "Best Cleanroom Pharma Company in Haridwar | Adhunik Powertech",
+    description: "Discover why Adhunik Powertech is among the top cleanroom companies in Haridwar. Explore GMP-compliant pharma HVAC, modular cleanrooms & turnkey solutions.",
     images: ["https://res.cloudinary.com/ddkyx2jhh/image/upload/v1774608929/cleanroomguide_tze0yq.webp"], 
   },
 };
