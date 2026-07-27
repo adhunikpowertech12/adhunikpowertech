@@ -636,39 +636,56 @@ const cleanroomImages = [
           {/* Cleanroom Dynamic Accordion List */}
           <div className="space-y-4">
             {[
-            {
-              q: "What turnkey cleanroom solutions does Adhunik Powertech provide?",
-              a: "Adhunik Powertech provides turnkey cleanroom solutions including design, engineering, modular panel manufacturing, HVAC systems, installation, testing, and validation for pharma, healthcare, labs, and industrial facilities."
-            },
-            {
-              q: "How does Adhunik Powertech manage cleanroom pressure and air changes (ACPH)?",
-              a: "Our cleanroom HVAC systems use AHUs, HEPA filters, and automated airflow controls to maintain precise pressure balance and required air changes, ensuring ISO 14644 and GMP compliance."
-            },
-            {
-              q: "Which ISO cleanroom classifications do you support?",
-              a: "We design and build ISO 14644 compliant cleanrooms, including ISO Class 5, 6, 7, and 8, based on your industry and contamination control requirements."
-            },
-            {
-              q: "Do you provide cleanroom validation documentation?",
-              a: "Yes, we provide complete IQ, OQ, and PQ validation documentation to support regulatory compliance and audit readiness."
-            },
-            {
-              q: "Do you offer cleanroom maintenance and particle count testing?",
-              a: "Yes, our AMC services include HEPA filter testing, particle count validation, airflow checks, pressure monitoring, and technical support."
-            },
-            {
-              q: "Which locations does Adhunik Powertech serve?",
-              a: "We serve Gurugram, Delhi NCR, Uttarakhand, Uttar Pradesh, Haryana, and Himachal Pradesh, including Haridwar, Roorkee, Rudrapur, Dehradun, Baddi, and other pharma hubs."
-            },
-            {
-              q: "What is the cost of building a modular cleanroom in India?",
-              a: "Cleanroom costs depend on size, ISO class, HVAC requirements, materials, and validation needs. We provide customized solutions based on your project and budget."
-            },
-            {
-              q: "Why choose Adhunik Powertech as your clean room manufacturer?",
-              a: "With in-house manufacturing, HVAC expertise, and turnkey execution, Adhunik Powertech delivers reliable ISO and GMP-compliant cleanroom solutions with long-term support."
-            }
-            ].map((faq, i) => {
+             {
+    q: "What does a turnkey cleanroom solution include?",
+    a: "A turnkey cleanroom solution typically covers requirement assessment, site survey, cleanroom design and engineering, modular wall and ceiling systems, HVAC and AHU systems, HEPA filtration, cleanroom equipment, installation, testing, commissioning, and validation support. The exact scope is customised according to the facility, ISO classification, process requirements, and regulatory needs."
+  },
+  {
+    q: "How do I choose the right cleanroom manufacturer in India?",
+    a: "When choosing a cleanroom manufacturer in India, consider cleanroom-specific experience, HVAC engineering capabilities, modular manufacturing expertise, project execution, testing and validation support, quality systems, and after-sales service. Adhunik Powertech combines cleanroom engineering with HVAC expertise and turnkey project execution for controlled-environment facilities."
+  },
+  {
+    q: "Which ISO cleanroom classifications does Adhunik Powertech support?",
+    a: "Adhunik Powertech designs and executes cleanroom solutions aligned with ISO 14644 requirements, including ISO Class 5, ISO Class 6, ISO Class 7, and ISO Class 8 applications. The appropriate classification is determined by the manufacturing process, product sensitivity, contamination-control requirements, and applicable regulatory standards."
+  },
+  {
+    q: "How does a cleanroom maintain pressure and required air changes?",
+    a: "Cleanroom pressure and air changes are controlled through coordinated HVAC design, AHU capacity, supply and return airflow, filtration, room sealing, and pressure-control systems. The required airflow and pressure cascade are determined according to the cleanroom classification, room function, contamination-control strategy, and project specifications."
+  },
+  {
+    q: "Do you provide cleanroom testing, commissioning, and validation support?",
+    a: "Yes. Depending on the project scope, cleanroom testing and commissioning may include airborne particle counting, airflow measurement, room pressure differential testing, HEPA filter integrity testing, temperature and humidity checks, recovery testing, and airflow visualisation. Validation and qualification documentation such as IQ, OQ, and PQ can be supported according to the facility's requirements."
+  },
+  {
+    q: "What cleanroom components and systems do you provide?",
+    a: "Our turnkey cleanroom solutions can include modular wall panels, ceiling systems, cleanroom doors and windows, AHUs, HVAC systems, HEPA filtration, ducting, air distribution systems, pass boxes, air showers, and environmental monitoring or control systems, depending on the project scope."
+  },
+  {
+    q: "How much does a cleanroom cost in India?",
+    a: "The cost of a cleanroom in India depends on factors such as cleanroom area, ISO classification, HVAC capacity, AHU requirements, panel construction, HEPA filtration, cleanroom equipment, existing building conditions, electrical work, and testing or validation requirements. Adhunik Powertech provides project-specific solutions and quotations based on your technical requirements and scope."
+  },
+  {
+    q: "How long does it take to build a cleanroom in India?",
+    a: "The timeline for a cleanroom project depends on its size, ISO classification, design complexity, site conditions, HVAC requirements, equipment, material availability, and validation scope. After reviewing your project requirements and site conditions, our team can provide a project-specific execution schedule."
+  },
+  {
+    q: "Can you build a cleanroom inside an existing factory or facility?",
+    a: "Yes. Cleanrooms can be designed for both new and existing facilities. For brownfield projects, the solution is developed after assessing the existing building, available space, ceiling height, HVAC infrastructure, utilities, electrical capacity, equipment layout, and production constraints."
+  },
+  {
+    q: "Do you provide cleanroom solutions for pharmaceutical and GMP facilities?",
+    a: "Yes. Adhunik Powertech provides cleanroom and HVAC solutions for pharmaceutical and other regulated manufacturing environments. Depending on the application, solutions can include modular cleanrooms, HVAC and AHUs, HEPA filtration, pressure control, controlled personnel and material movement, testing, commissioning, and validation support."
+  },
+  {
+    q: "Do you provide cleanroom projects in Haridwar and Roorkee?",
+    a: "Yes. Adhunik Powertech provides cleanroom engineering and turnkey project solutions in Haridwar, Roorkee, and other industrial locations across Uttarakhand and Northern India. Our services can include cleanroom design, modular construction, HVAC, AHUs, HEPA filtration, installation, testing, commissioning, and validation support."
+  },
+  {
+    q: "What industries do you provide cleanroom solutions for?",
+    a: "Our cleanroom solutions can be designed for pharmaceutical manufacturing, biotechnology, medical devices, healthcare, laboratories, electronics, food processing, research, and other applications requiring controlled environmental conditions. The cleanroom design is customised according to the specific process and contamination-control requirements."
+  },
+]
+            .map((faq, i) => {
               const isOpen = activeFaq === i;
               return (
                 <div 
