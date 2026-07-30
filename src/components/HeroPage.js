@@ -1440,7 +1440,7 @@ export default function HeroPage() {
 
           </div>
 
-          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+          {/*<div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
@@ -1494,6 +1494,7 @@ export default function HeroPage() {
             </div>
           </section>
 
+          */}
 
 
           <div className="row">
