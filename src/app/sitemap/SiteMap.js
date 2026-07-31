@@ -82,8 +82,8 @@ export default function SiteMap() {
     { href: '/hvac-system-product-quality', text:'HVAC System Product Quality', title: 's Your HVAC System Reducing Product Quality? Find Out'},
     { href: '/cleanroom-ceiling-systems', text:'Cleanroom Ceiling Systems', title: 'Modular Cleanroom Ceiling Systems: Types, Materials & Benefits'},
     { href: '/cleanroom-doors', text:'Cleanroom Doors', title: 'Cleanroom Doors: Types, Features, Materials & Complete Selection Guide (2026)'},
-   { href: '/iso-6-vs-7-vs-8-cleanrooms', text:'ISO 6 vs 7 vs 8 Cleanrooms', title: 'ISO Class 6 vs 7 vs 8 Cleanroom Guide: HVAC Design & ACH'}
-   
+    { href: '/iso-6-vs-7-vs-8-cleanrooms', text:'ISO 6 vs 7 vs 8 Cleanrooms', title: 'ISO Class 6 vs 7 vs 8 Cleanroom Guide: HVAC Design & ACH'},
+    { href: '/pharma-cleanroom-contractor-india', text:'Pharmaceutical Cleanroom Experts | Turnkey GMP Solutions India', title: 'Pharmaceutical Cleanroom Experts | Turnkey GMP Solutions India'}
     ];
 
   return (

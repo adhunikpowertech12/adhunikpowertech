@@ -433,6 +433,15 @@ export default function Blog() {
         "",
       link: "/iso-6-vs-7-vs-8-cleanrooms",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1784531334/Iso_Classifications_osayue.webp",
+    },
+     {
+      id: 46,
+      title: "Pharmaceutical Cleanroom Experts | Turnkey GMP Solutions India",
+      date: "July 2026",
+      image:
+        "",
+      link: "/pharma-cleanroom-contractor-india",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1785494265/cleanroom_contractor_kxdebm.webp",
     }
    
   ];
