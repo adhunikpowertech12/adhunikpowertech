@@ -471,8 +471,8 @@ useEffect(() => {
                   >
 
                     <a
-                      href="/Adhunik-Powertech-HVAC-Profile.pdf" // The file path in the public folder
-                      download="Adhunik-Powertech-HVAC-Profile"
+                      href="/Adhunik Powertech Project Catalogue.pdf" // The file path in the public folder
+                      download="Adhunik-Powertech-Project-Catalogue"
                       className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
                         ? " text-black hover:text-black border-black "
                         : " text-white hover:text-black "
