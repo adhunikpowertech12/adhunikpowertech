@@ -442,6 +442,15 @@ export default function Blog() {
         "",
       link: "/pharma-cleanroom-contractor-india",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1785494265/cleanroom_contractor_kxdebm.webp",
+    },
+    {
+      id: 47,
+      title: "Pass Box vs Air Shower: What's the Difference?",
+      date: "Aug 2026",
+      image:
+        "",
+      link: "/pass-box-vs-air-shower",
+      img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1787657181/Pass-Box-vs-Air-Shower_krfeov.webp",
     }
    
   ];
