@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import {
   Cpu,
   GaugeCircle,
+  Awards,
   Wind,
   Snowflake,
   SlidersHorizontal,

@@ -8,6 +8,7 @@ export const metadata = {
   keywords: [
     "Building Management System",
     "BMS system Delhi NCR",
+    "BMS system Gurugram",
     "BMS contractor Gurugram",
     "HVAC automation company",
     "chiller plant optimization BMS",
