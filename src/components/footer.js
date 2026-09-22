@@ -39,6 +39,8 @@ function Footer() {
     { href: "/air-shower", text: "Air Shower & Pass Box" },
     { href: "/industrial-cooler", text: "Industrial Cooler" },
     { href: "/bldc-fans", text: "BLDC Fans" },
+    { href: "/sensible-cooling-unit", text: "Sensible Cooling Unit" },
+    { href: "/building-management-system", text: "Building Management System" },
   ];
 
 
@@ -46,6 +48,7 @@ function Footer() {
 
     { href: "/hvac", text: "HVAC" },
     { href: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India", text: <>Fire &amp; Safety</> },
+    {href: "/cleanroom", text: "Clean Room Solutions" },
 
   ];
 
@@ -54,6 +57,7 @@ function Footer() {
 
     { href: "/", text: "Home" },
     { href: "/our-Company", text: "About Us" },
+    {href: "/hvac", text: "HVAC Projects" },
     { href: "/product-overview", text: "Products" },
     { href: "/manufacturing-and-r-&-d", text: <>Manufacturing and  R&amp;D </> },
     { href: "/annual-maintenance-contract", text: "Maintenance" },

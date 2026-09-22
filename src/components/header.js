@@ -234,6 +234,7 @@ useEffect(() => {
         {  label: 'Industrial Cooler',href: '/industrial-cooler'},
         {  label: 'BLDC Fans',href: '/bldc-fans'},
         {  label: 'Sensible Cooling Unit',href: '/sensible-cooling-unit'},
+        {  label: 'Building Management System',href: '/building-management-system'},
 
       ],
     },
