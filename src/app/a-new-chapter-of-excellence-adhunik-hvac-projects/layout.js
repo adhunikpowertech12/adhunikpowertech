@@ -10,6 +10,7 @@ export const metadata = {
   keywords: [
     "Adhunik HVAC Projects",
     "Adhunik Powertech",
+    "legacy of Adhunik Powertech",
     "turnkey HVAC contractor",
     "HVAC projects division",
     "commercial HVAC",
