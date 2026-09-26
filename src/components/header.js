@@ -357,6 +357,26 @@ useEffect(() => {
     { id: "12", name: " Glow Signage & Emergency Lights", link: "/glow-signage-&-emergency-lights" },
     { id: "13", name: " Fire tubing system", link: "/fire-tubing-system" },
     { id: "14", name: " Fire VESDA System", link: "/fire-VESDA-system" },
+    { id: "15", name: " Fire Alarm System", link: "/fire-alarm-system" },
+    { id: "16", name: "BLDC Fans", link: "/bldc-fans" },
+    { id: "17", name: "Sensible Cooling Unit", link: "/sensible-cooling-unit" },
+    { id: "18", name: "Building Management System", link: "/building-management-system" },
+    { id: "19", name: "Annual Maintenance Contract (AMC)", link: "/annual-maintenance-contract" },
+    { id: "20", name: "Our Company", link: "/our-Company" },
+    { id: "21", name: "Vision & Mission", link: "/vision-&-mission" },
+    { id: "22", name: "Certificate & Accreditation", link: "/certificate-&-accreditation" },
+    { id: "23", name: "Awards and Recognitions", link: "/awards-and-recognitions" },
+    { id: "24", name: "Overview", link: "/product-overview" },
+    { id: "25", name: "Our Clients", link: "/our-product-clients" },
+    { id: "26", name: "Overview", link: "/hvac" },
+    { id: "27", name: "Our Quality Service", link: "/top-HVAC-Contractor-in-Delhi-NCR-&-India" },
+    { id: "28", name: "Cleanroom Solutions", link: "/turnkey-cleanroom-solutions" },
+    { id: "29", name: "Our Projects", link: "/our-projects" },
+    { id: "30", name: "Our Clients", link: "/our-client" },
+    { id: "31", name: "Overview", link: "/manufacturing-and-r-&-d" },
+    { id: "32", name: "Overview", link: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India" },
+    { id: "33", name: "BLOG", link: "/blog" },
+    { id: "34", name: "CONTACT US", link: "/support-form" } 
   ];
 
   const fuse = new Fuse(items, {
