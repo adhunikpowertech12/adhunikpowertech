@@ -58,6 +58,7 @@ export const metadata = {
     "BMS and HVAC system energy efficiency",
     "Adhunik Powertech building automation system BAS",
     "BMS and HVAC system monitoring services",
+    "Adhunik Powertech smart building solutions India"
   ],
 
   openGraph: {
