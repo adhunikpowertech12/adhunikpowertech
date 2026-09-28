@@ -48,7 +48,7 @@ function Footer() {
 
     { href: "/hvac", text: "HVAC" },
     { href: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India", text: <>Fire &amp; Safety</> },
-    {href: "/cleanroom", text: "Clean Room Solutions" },
+    {href: "/turnkey-cleanroom-solutions", text: "Clean Room Solutions" },
 
   ];
 
