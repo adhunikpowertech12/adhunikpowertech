@@ -42,9 +42,8 @@ function Navbar() {
       text: 'ABOUT US',
       dropdownItems: [
         { href: '/our-Company', label: 'Our Company' },
-
         { href: '/vision-&-mission', label: 'Vision & Mission' },
-
+        { href: '/manufacturing-and-r-&-d', label: 'Manufacturing and R&D' },
         { href: '/certificate-&-accreditation', label: 'Certificate & Accreditation' },
         { href: '/awards-and-recognitions', label: 'Awards and Recognitions' },
 
@@ -104,9 +103,10 @@ function Navbar() {
     },
     {
       to: '#',
-      text: 'MANUFACTURING AND R&D',
+      text: 'BMS & Electrical Panels',
       dropdownItems: [
-        { label: 'Overview', href: '/manufacturing-and-r-&-d' },
+
+        {  label: 'Building Management System (BMS)',href: '/building-management-system'},
 
       ],
     },
@@ -214,6 +214,7 @@ useEffect(() => {
       dropdown: [
         { label: "Our Company", href: "/our-Company" },
         { label: "Vision & Mission", href: "/vision-&-mission" },
+        { label: "Manufacturing and R&D", href: "/manufacturing-and-r-&-d" },
         { label: "Certificate & Accreditation", href: "/certificate-&-accreditation" },
         { label: "Awards and Recognitions", href: "/awards-and-recognitions" },
       ],
@@ -234,7 +235,6 @@ useEffect(() => {
         {  label: 'Industrial Cooler',href: '/industrial-cooler'},
         {  label: 'BLDC Fans',href: '/bldc-fans'},
         {  label: 'Sensible Cooling Unit',href: '/sensible-cooling-unit'},
-        {  label: 'Building Management System',href: '/building-management-system'},
 
       ],
     },
@@ -271,10 +271,10 @@ useEffect(() => {
       ],
     },
     {
-      label: "MANUFACTURING AND R&D",
+      label: "BMS & Electrical Panels",
       dropdown: [
 
-        { label: "Overview", href: "/manufacturing-and-r-&-d" },
+        {  label: 'Building Management System (BMS)',href: '/building-management-system'},
 
       ],
     },
@@ -503,6 +503,32 @@ useEffect(() => {
                       <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
                       <span className="relative w-full text-left">
                         Project Catalogue
+                      </span>
+                      <span className="absolute inset-0 rounded-full"></span>
+                    </a>
+                  </div>
+
+                  <hr className=' rotate-90 w-10  relative hidden lg:block ' />
+
+
+                  <div
+                    className="col text-left text-[12px] ps-3 hidden lg:block"
+
+                    style={{ cursor: 'pointer' }} // Optional styling for pointer and color
+                  >
+
+                    <a
+                      href="/Adhunik-Powertech-Fire-Safety-Profile.pdf" // The file path in the public folder
+                      download="Adhunik-Powertech-Fire-Safety-Profile"
+                      className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
+                        ? " text-black hover:text-black border-black "
+                        : " text-white hover:text-black "
+                        }`}
+                    >
+                      <span className=" w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-gray-200 opacity-[3%]"></span>
+                      <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
+                      <span className="relative w-full text-left">
+                        Fire & Safety Catalogue
                       </span>
                       <span className="absolute inset-0 rounded-full"></span>
                     </a>
