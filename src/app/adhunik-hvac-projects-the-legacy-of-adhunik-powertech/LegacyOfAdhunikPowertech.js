@@ -237,7 +237,7 @@ export default function LegacyOfAdhunikPowertech() {
               </h1>
 
               <p className=" w-full md:w-10/12 text-sm text-gray-700 mb-6 text-justify md:text-left ">
-            For over 19 years, Adhunik Powertech has proudly stood as a benchmark for engineering excellence and project execution across India. Our journey, which began in 2005, has been defined by a relentless commitment to quality, innovation, and client satisfaction. A cornerstone of this success has been our comprehensive HVAC division, a team that has successfully delivered over 600 complex projects and earned the industry's highest honors, including the prestigious India Business Award 2025 for "Best Quality Standards & Services."
+            For over 21+ Years, Adhunik Powertech has proudly stood as a benchmark for engineering excellence and project execution across India. Our journey, which began in 2005, has been defined by a relentless commitment to quality, innovation, and client satisfaction. A cornerstone of this success has been our comprehensive HVAC division, a team that has successfully delivered over 600 complex projects and earned the industry's highest honors, including the prestigious India Business Award 2025 for "Best Quality Standards & Services."
 
               </p>
 

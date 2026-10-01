@@ -328,7 +328,7 @@ export default function ProductOverview() {
   const heroContent = {
     title: "Adhunik Powertech: Leading HVAC & Industrial Cooling Products in India",
     description: [
-      "Welcome to Adhunik Powertech, your trusted partner for cutting-edge Heating, Ventilation, and Air Conditioning (HVAC) and industrial cooling solutions. With over 19 years of expertise, we design, engineer, and manufacture a comprehensive range of high-performance products right here in India, catering to diverse sectors from manufacturing and pharmaceuticals to commercial establishments and cleanroom facilities.",
+      "Welcome to Adhunik Powertech, your trusted partner for cutting-edge Heating, Ventilation, and Air Conditioning (HVAC) and industrial cooling solutions. With over 21+ Years of expertise, we design, engineer, and manufacture a comprehensive range of high-performance products right here in India, catering to diverse sectors from manufacturing and pharmaceuticals to commercial establishments and cleanroom facilities.",
       "Our commitment is to deliver sustainable, energy-efficient, and reliable systems that optimize your environment and protect your critical assets."
     ]
   };
@@ -487,7 +487,7 @@ export default function ProductOverview() {
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "Over 19 Years of Expertise",
+      title: "Over 21+ Years of Expertise",
       description: "Benefit from nearly two decades of specialized experience in HVAC design, manufacturing, and project execution."
     },
     {

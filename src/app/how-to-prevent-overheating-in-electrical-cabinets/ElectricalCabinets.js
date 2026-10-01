@@ -728,7 +728,7 @@ export default function ElectricalCabinets() {
 
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm text-justify md:text-left">
-              When selecting a panel air conditioner, it's crucial to choose a partner with a proven track record. Adhunik Powertech is a top Indian manufacturer and an authorized government supplier, a testament to our commitment to quality and compliance. We have over 19 years of expertise and have successfully exported our robust, energy-efficient panel ACs to various countries, including the United States, United Arab Emirates, Saudi Arabia, Bangladesh, and Indonesia.
+              When selecting a panel air conditioner, it's crucial to choose a partner with a proven track record. Adhunik Powertech is a top Indian manufacturer and an authorized government supplier, a testament to our commitment to quality and compliance. We have over 21+ Years of expertise and have successfully exported our robust, energy-efficient panel ACs to various countries, including the United States, United Arab Emirates, Saudi Arabia, Bangladesh, and Indonesia.
  </p>
 
  <p className="text-gray-600 mb-4 text-sm text-justify md:text-left">

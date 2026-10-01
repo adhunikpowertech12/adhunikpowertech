@@ -42,7 +42,7 @@ export default function TopHvacContractorNoidaPage() {
   const whyAdhunik = [
     {
       title: "Unmatched Expertise & Experience (21+ Years)",
-      description: "With over 19 years of deep industry expertise (founded in 2005), our team of engineers possesses a profound understanding of HVAC dynamics. We don't just follow instructions; we analyze challenges and engineer reliable solutions.",
+      description: "With over 21+ Years of deep industry expertise (founded in 2005), our team of engineers possesses a profound understanding of HVAC dynamics. We don't just follow instructions; we analyze challenges and engineer reliable solutions.",
       icon: <Users className="w-8 h-8 text-cyan-600" />
     },
     {

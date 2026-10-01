@@ -268,7 +268,7 @@ export default function TurnkeyHVACSolutionsBlog() {
                                 <h3 className="text-xl font-bold text-gray-800">The Adhunik Advantage</h3>
                             </div>
                             <p className="text-sm text-gray-600 leading-relaxed mb-4 text-justify">
-                                With over 19 years of industry experience, we design low-maintenance, high-durability systems using industrial-grade components suitable for continuous operation and Indian conditions.
+                                With over 21+ Years of industry experience, we design low-maintenance, high-durability systems using industrial-grade components suitable for continuous operation and Indian conditions.
                             </p>
                             <div className="flex gap-6">
                                 <div>

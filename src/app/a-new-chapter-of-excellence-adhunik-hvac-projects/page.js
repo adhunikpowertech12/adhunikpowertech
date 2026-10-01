@@ -56,7 +56,7 @@ export default function LegacyBlogPage() {
                 A New Chapter of Engineering Excellence: Introducing Adhunik HVAC Projects
               </h1>
               <p className="text-sm text-gray-700 mb-6 text-justify md:text-left">
-                For over 19 years, <strong>Adhunik Powertech</strong> has been a benchmark for engineering excellence, manufacturing, and project execution across India. Our success has been built on a foundation of trust, quality, and an unwavering commitment to our clients.
+                For over 21+ Years, <strong>Adhunik Powertech</strong> has been a benchmark for engineering excellence, manufacturing, and project execution across India. Our success has been built on a foundation of trust, quality, and an unwavering commitment to our clients.
               </p>
               <p className="text-sm text-gray-700 mb-6 text-justify md:text-left">
                 Today, we are thrilled to announce a strategic and exciting evolution in our journey. To provide even greater focus and specialized expertise to our project clients, we have channeled the power of our legacy into a new, dedicated division under the company Adhunik Guds & Services Private Limited : <strong>Adhunik HVAC Projects</strong>.
