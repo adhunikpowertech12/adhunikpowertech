@@ -535,12 +535,12 @@ export default function HvacPanelClient() {
               <span>
                 {isSubmitting 
                   ? "Submitting Technical Request..." 
-                  : "Submit HVAC Panel Requirements for 24-Hr Engineering Review"}
+                  : "Submit HVAC Panel Requirements for Engineering Review"}
               </span>
             </button>
 
             <p className="text-[11px] text-center text-gray-500 font-medium">
-              Directly routed to Adhunik Powertech electro-mechanical engineering desk.
+              Reviewed by Adhunik Powertech engineering team.
             </p>
           </form>
 

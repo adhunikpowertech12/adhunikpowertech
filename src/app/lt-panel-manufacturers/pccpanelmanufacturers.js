@@ -507,12 +507,12 @@ export default function PccPanelClient() {
               <span>
                 {isSubmitting 
                   ? "Submitting Technical Request..." 
-                  : "Submit Single-Line Diagram for 24-Hr Review"}
+                  : "Submit Single-Line Diagram for Engineering Review"}
               </span>
             </button>
 
             <p className="text-[11px] text-center text-gray-500 font-medium">
-              Reviewed directly by Adhunik Powertech electrical engineering team.
+              Reviewed by Adhunik Powertech engineering team.
             </p>
           </form>
 
