@@ -17,6 +17,7 @@ import {
   ChevronDown,
   HardHat
 } from 'lucide-react';
+import { hover } from 'framer-motion';
 
 export default function ElectricalPanelsClient() {
   const router = useRouter();
@@ -101,6 +102,7 @@ export default function ElectricalPanelsClient() {
 
   // Structured Industrial Panel Portfolio with Individual Card Images
   const panelCatalog = [
+    
     {
       id: "pcc-lt",
       title: "PCC & Main LT Distribution Panels",
@@ -358,7 +360,7 @@ export default function ElectricalPanelsClient() {
               <div className="relative w-full max-w-md bg-white border border-gray-200 rounded-2xl p-4 shadow-xl">
                 <div className="relative w-full h-[320px] rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
                   <Image
-                    src="/Adhunik Electrical Panel.webp"
+                    src="/MCC & Intelligent Motor Control Centers.webp"
                     alt="Custom Industrial Electrical Switchboard"
                     width={450}
                     height={400}

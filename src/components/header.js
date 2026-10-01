@@ -108,6 +108,7 @@ function Navbar() {
 
         {  label: 'Building Management System (BMS)',href: '/building-management-system'},
         {  label: 'Electrical Panels',href: '/electrical-panels'},
+        {  label: 'PCC & Main LT Distribution Panels',href: '/lt-panel-manufacturers'},
 
       ],
     },
@@ -277,6 +278,7 @@ useEffect(() => {
 
         {  label: 'Building Management System (BMS)',href: '/building-management-system'},
         {  label: 'Electrical Panels',href: '/electrical-panels'},
+        {  label: 'PCC & Main LT Distribution Panels',href: '/lt-panel-manufacturers'},
 
       ],
     },
@@ -379,7 +381,8 @@ useEffect(() => {
     { id: "32", name: "Overview", link: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India" },
     { id: "33", name: "BLOG", link: "/blog" },
     { id: "34", name: "CONTACT US", link: "/support-form" },
-    { id: "35", name: "Electrical Panels", link: "/electrical-panels" } 
+    { id: "35", name: "Electrical Panels", link: "/electrical-panels" },
+    { id: "36", name: "PCC & Main LT Distribution Panels ", link: "/lt-panel-manufacturers" } 
   ];
 
   const fuse = new Fuse(items, {
