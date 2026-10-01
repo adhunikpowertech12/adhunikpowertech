@@ -107,6 +107,7 @@ function Navbar() {
       dropdownItems: [
 
         {  label: 'Building Management System (BMS)',href: '/building-management-system'},
+        {  label: 'Electrical Panels',href: '/electrical-panels'},
 
       ],
     },
@@ -275,6 +276,7 @@ useEffect(() => {
       dropdown: [
 
         {  label: 'Building Management System (BMS)',href: '/building-management-system'},
+        {  label: 'Electrical Panels',href: '/electrical-panels'},
 
       ],
     },
@@ -376,7 +378,8 @@ useEffect(() => {
     { id: "31", name: "Overview", link: "/manufacturing-and-r-&-d" },
     { id: "32", name: "Overview", link: "/top-Fire-Fighting-Company-in-Delhi-NCR-And-India" },
     { id: "33", name: "BLOG", link: "/blog" },
-    { id: "34", name: "CONTACT US", link: "/support-form" } 
+    { id: "34", name: "CONTACT US", link: "/support-form" },
+    { id: "35", name: "Electrical Panels", link: "/electrical-panels" } 
   ];
 
   const fuse = new Fuse(items, {

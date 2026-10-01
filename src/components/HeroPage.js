@@ -944,7 +944,7 @@ export default function HeroPage() {
 
                 <h1 className="mb-4 text-[20px] md:text-3xl  font-bold  text-gray-800 ">
 
-                  Adhunik Powertech: 19+ Years of HVAC Excellence – Contact Us Today!
+                  Adhunik Powertech: 21+ Years of HVAC Excellence – Contact Us Today!
 
                 </h1>
 
@@ -1021,7 +1021,7 @@ export default function HeroPage() {
                     {
                       icon: 'de__xjfjdj',
                       title: 'Detailed Engineering',
-                      content: "We have over 19+ years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
+                      content: "We have over 21+ Years of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with near 'zero' maintenance that is for large industrial, institutional, commercial as well as residential premises"
                     },
                     {
                       icon: 'Project_Exe_mptvqx',

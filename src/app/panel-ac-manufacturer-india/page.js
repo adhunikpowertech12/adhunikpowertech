@@ -7,7 +7,7 @@ export const metadata = {
 
     // UPDATED TITLE (Under 60 Characters for optimal visibility)
     title: "Best Panel AC Manufacturer India | Govt Approved",
-    description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
+    description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 21+ Years experience. Get best price today!",
 
     keywords: [
         "Panel AC Manufacturer in India",
@@ -45,7 +45,7 @@ export const metadata = {
     openGraph: {
         // UPDATED OpenGraph Title
         title: "Best Panel AC Manufacturer India | Govt Approved",
-        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
+        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 21+ Years experience. Get best price today!",
         url: "https://www.adhunikpowertech.com/panel-ac-manufacturer-india",
         type: "article",
         images: [
@@ -62,7 +62,7 @@ export const metadata = {
         card: "summary_large_image",
         // UPDATED Twitter Title
         title: "Best Panel AC Manufacturer India | Govt Approved",
-        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 19+ years experience. Get best price today!",
+        description: "Leading panel AC manufacturer in India offering industrial cooling solutions from 250W to 7000W. Govt authorized supplier with 21+ Years experience. Get best price today!",
         image: "/panelac.webp", // Placeholder
     },
 };

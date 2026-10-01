@@ -42,7 +42,7 @@ export default function HvacEnergyConsumptionPage() {
       icon: <Users className="w-8 h-8 text-cyan-600" />
     },
     {
-      title: "19+ Years of Proven Expertise",
+      title: "21+ Years of Proven Expertise",
       description: "Since 2005, we have been the trusted partner for hundreds of industrial and commercial clients. Our experience (inherited by Adhunik HVAC Projects) has been recognized with the India Business Award 2025 for 'Best Quality Standards'.",
       icon: <Award className="w-8 h-8 text-cyan-600" />
     },
@@ -65,7 +65,7 @@ export default function HvacEnergyConsumptionPage() {
                 Beyond the Thermostat: 5 Proven Ways to Reduce Commercial HVAC Energy Consumption
               </h1>
               <p className="text-sm text-gray-700 mb-6 text-justify md:text-left">
-                For nearly all commercial and industrial facilities in India, the HVAC system is one of the largest operational expenses, often accounting for 40-60% of an entire building's electricity bill. But these costs aren't fixed. Adhunik Powertech, with 19+ years of engineering expertise, shares 5 proven strategies to cut waste and significantly reduce your HVAC energy consumption.
+                For nearly all commercial and industrial facilities in India, the HVAC system is one of the largest operational expenses, often accounting for 40-60% of an entire building's electricity bill. But these costs aren't fixed. Adhunik Powertech, with 21+ Years of engineering expertise, shares 5 proven strategies to cut waste and significantly reduce your HVAC energy consumption.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <div className="flex items-center gap-2 p-3 bg-cyan-50 rounded-lg">

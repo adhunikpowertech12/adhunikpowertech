@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
 
   title: "Top HVAC Contractor in Delhi NCR | Reliable Company Guide",
-  description: "Find out what makes a TOP HVAC CONTRACTOR IN DELHI NCR reliable. Explore Adhunik Powertech's 19+ years of expertise in industrial and commercial HVAC projects.",
+  description: "Find out what makes a TOP HVAC CONTRACTOR IN DELHI NCR reliable. Explore Adhunik Powertech's 21+ Years of expertise in industrial and commercial HVAC projects.",
 
   keywords: [
     "Top HVAC Company in Delhi NCR",

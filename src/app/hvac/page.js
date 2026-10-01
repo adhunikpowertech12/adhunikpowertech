@@ -7,7 +7,7 @@ export const metadata = {
 
   title: "HVAC Contractor Gurugram | Turnkey HVAC Solutions - Adhunik Powertech",
 
-  description: "Adhunik Powertech: Your trusted HVAC contractor in Gurugram & Delhi NCR. We deliver turnkey HVAC solutions for commercial & industrial needs. 19+ years experience, award-winning service.",
+  description: "Adhunik Powertech: Your trusted HVAC contractor in Gurugram & Delhi NCR. We deliver turnkey HVAC solutions for commercial & industrial needs. 21+ Years experience, award-winning service.",
 
 
 
@@ -52,7 +52,7 @@ export const metadata = {
 
   openGraph: {
     title: "HVAC Contractor Gurugram | Turnkey HVAC Solutions - Adhunik Powertech",
-    description: "Adhunik Powertech: Your trusted HVAC contractor in Gurugram & Delhi NCR. We deliver turnkey HVAC solutions for commercial & industrial needs. 19+ years experience, award-winning service.",
+    description: "Adhunik Powertech: Your trusted HVAC contractor in Gurugram & Delhi NCR. We deliver turnkey HVAC solutions for commercial & industrial needs. 21+ Years experience, award-winning service.",
     url: "https://www.adhunikpowertech.com/hvac",
     type: "website",
     images: [
@@ -71,7 +71,7 @@ robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "HVAC Contractor Gurugram | Turnkey HVAC Solutions - Adhunik Powertech",
-    description: "Need a reliable HVAC contractor in Gurugram/Delhi NCR? Adhunik Powertech offers 19+ years experience in turnkey HVAC solutions for commercial & industrial sectors.",
+    description: "Need a reliable HVAC contractor in Gurugram/Delhi NCR? Adhunik Powertech offers 21+ Years experience in turnkey HVAC solutions for commercial & industrial sectors.",
     image: " https://res.cloudinary.com/ddkyx2jhh/image/upload/v1748256475/hvac2_v4rz2t.webp",
   },
 };

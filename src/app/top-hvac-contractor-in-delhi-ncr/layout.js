@@ -4,7 +4,7 @@ import React from 'react';
 export const metadata = {
   metadataBase: new URL('https://www.adhunikpowertech.com'),
   title: "Top HVAC Contractor in Delhi NCR | Industrial & Commercial HVAC Solutions",
-  description: "Looking for a TOP HVAC CONTRACTOR IN DELHI NCR? Adhunik Powertech offers 19+ years of expertise in industrial & commercial HVAC projects, turnkey solutions, and energy-efficient systems.",
+  description: "Looking for a TOP HVAC CONTRACTOR IN DELHI NCR? Adhunik Powertech offers 21+ Years of expertise in industrial & commercial HVAC projects, turnkey solutions, and energy-efficient systems.",
   
   keywords: [
     // Original Keywords

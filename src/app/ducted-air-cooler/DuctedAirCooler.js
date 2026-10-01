@@ -1084,7 +1084,7 @@ const Applications = [
 
 
  
-  <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+  <div className="h-full gap-5 flex flex-col md:flex-row md:pb-0 md:p-5 mt-0 m-4">
 
             <div className=" w-full md:p-7 md:pt-0   rounded-xl">
               <div className="flex items-center justify-center h-full">
@@ -1124,7 +1124,7 @@ const Applications = [
       ))}
     </ul>
 
-      <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-5  mt-0 m-4">
+      <div className=" h-full  gap-5 flex flex-col md:flex-row md:pb-0  md:p-5  mt-0 m-4">
 
             <div className=" w-full md:p-7 md:pt-0   rounded-xl">
               <div className="flex items-center justify-center h-full">

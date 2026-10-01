@@ -271,7 +271,7 @@ const [openIndex, setOpenIndex] = useState(null);
               <div className="w-full lg:w-7/12">
                 <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-6 flex items-center gap-2">
-                    <Globe className="w-4 h-4 text-cyan-600" /> Trusted By Industry Giants (19+ Years)
+                    <Globe className="w-4 h-4 text-cyan-600" /> Trusted By Industry Giants (21+ Years)
                   </h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-6">
                     {[
@@ -292,7 +292,7 @@ const [openIndex, setOpenIndex] = useState(null);
                     ))}
                   </div>
                   <p className="mt-8 text-[11px] text-gray-500 italic leading-relaxed border-t pt-4">
-                    With over 19+ years of experience as a manufacturer, we proudly serve various government and private sector clients, showcasing our commitment across diverse industries.
+                    With over 21+ Years of experience as a manufacturer, we proudly serve various government and private sector clients, showcasing our commitment across diverse industries.
                   </p>
                 </div>
               </div>

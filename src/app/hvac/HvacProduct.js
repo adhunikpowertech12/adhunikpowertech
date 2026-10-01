@@ -615,7 +615,7 @@ export default function HvacProduct() {
   const highlights = [
     {
       icon: <BadgeCheck className="w-6 h-6 text-cyan-600" />,
-      title: "19+ Years of Proven Expertise",
+      title: "21+ Years of Proven Expertise",
       description:
         "With nearly two decades in the HVAC industry, our seasoned team possesses the profound knowledge and practical experience to handle projects of any scale and complexity. We've mastered the art of designing and implementing robust HVAC systems.",
     },
@@ -790,7 +790,7 @@ export default function HvacProduct() {
           {/* Introduction */}
           <section className="py-16 px-5 max-w-4xl mx-auto">
             <p className=" text-sm md:text-lg leading-relaxed  text-justify text-gray-700 ">
-              Welcome to <Link href='/' className="font-semibold text-cyan-700">Adhunik Powertech</Link>, your premier HVAC contractor specializing in comprehensive, energy-efficient, and sustainable heating, ventilation, and air conditioning solutions. With over <span className="font-semibold">19+ years</span> of unparalleled experience, we pride ourselves on delivering end-to-end turnkey HVAC solutions for commercial, industrial, and specialized applications across Gurugram, Delhi NCR, and Haryana. As a trusted HVAC company, our dedication to precision engineering, timely execution, and unwavering quality ensures optimal indoor environments and long-term operational efficiency for your facility.
+              Welcome to <Link href='/' className="font-semibold text-cyan-700">Adhunik Powertech</Link>, your premier HVAC contractor specializing in comprehensive, energy-efficient, and sustainable heating, ventilation, and air conditioning solutions. With over <span className="font-semibold">21+ Years</span> of unparalleled experience, we pride ourselves on delivering end-to-end turnkey HVAC solutions for commercial, industrial, and specialized applications across Gurugram, Delhi NCR, and Haryana. As a trusted HVAC company, our dedication to precision engineering, timely execution, and unwavering quality ensures optimal indoor environments and long-term operational efficiency for your facility.
             </p>
           </section>
 

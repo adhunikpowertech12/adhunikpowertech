@@ -444,7 +444,7 @@ export default function PanelACInvestmentBlog() {
 
                         {/* Optional trust indicators */}
                         <p className="text-sm mt-6 text-cyan-200">
-                            Govt-Authorised Manufacturer • 19+ Years of Engineered Cooling Expertise • Trusted by Leading Industries
+                            Govt-Authorised Manufacturer • 21+ Years of Engineered Cooling Expertise • Trusted by Leading Industries
                         </p>
 
                     </div>

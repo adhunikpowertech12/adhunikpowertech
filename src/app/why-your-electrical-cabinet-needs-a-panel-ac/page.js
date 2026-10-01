@@ -140,7 +140,7 @@ export default function PanelAcBlogPage() {
           <section className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-cyan-800">The Adhunik Powertech Advantage: We're the Manufacturer</h2>
-              <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm">You can buy a panel cooler from any reseller, but Adhunik Powertech is a <Link href="https://www.adhunikpowertech.com/panel-air-conditioners" className="text-cyan-600 hover:underline"><strong>leading Panel AC manufacturer</strong></Link> with over 19+ years of engineering experience.</p>
+              <p className="mt-4 max-w-3xl mx-auto text-gray-600 text-sm">You can buy a panel cooler from any reseller, but Adhunik Powertech is a <Link href="https://www.adhunikpowertech.com/panel-air-conditioners" className="text-cyan-600 hover:underline"><strong>leading Panel AC manufacturer</strong></Link> with over 21+ Years of engineering experience.</p>
             </div>
             <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
               {whyAdhunik.map((item, index) => (

@@ -471,7 +471,7 @@ export default function OurQualityService() {
                       <h2 className="text-3xl font-semibold mb-4  text-center md:text-start"> Detailed Engineering </h2>
                       <p className="mb-4  text-justify font-normal font-sans " >
 
-                        We have over    <strong> 19+ years</strong> of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with minimum maintenance that is for large <strong> industrial, institutional, commercial </strong>  as well as residential premises.
+                        We have over    <strong> 21+ Years</strong> of experience in the HVAC Industry. Our focus while system designing & selection is to provide energy-efficient & cost-effective cooling solutions with minimum maintenance that is for large <strong> industrial, institutional, commercial </strong>  as well as residential premises.
 
                       </p>
 

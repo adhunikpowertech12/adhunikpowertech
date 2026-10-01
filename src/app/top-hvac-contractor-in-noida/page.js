@@ -41,7 +41,7 @@ export default function TopHvacContractorNoidaPage() {
 
   const whyAdhunik = [
     {
-      title: "Unmatched Expertise & Experience (19+ Years)",
+      title: "Unmatched Expertise & Experience (21+ Years)",
       description: "With over 19 years of deep industry expertise (founded in 2005), our team of engineers possesses a profound understanding of HVAC dynamics. We don't just follow instructions; we analyze challenges and engineer reliable solutions.",
       icon: <Users className="w-8 h-8 text-cyan-600" />
     },
@@ -74,7 +74,7 @@ export default function TopHvacContractorNoidaPage() {
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <div className="flex items-center gap-2 p-3 bg-cyan-50 rounded-lg">
                   <Clock className="w-6 h-6 text-cyan-700" />
-                  <span className="font-semibold text-cyan-800 text-sm">19+ Years of Expertise</span>
+                  <span className="font-semibold text-cyan-800 text-sm">21+ Years of Expertise</span>
                 </div>
                 <div className="flex items-center gap-2 p-3 bg-cyan-50 rounded-lg">
                   <Award className="w-6 h-6 text-cyan-700" />

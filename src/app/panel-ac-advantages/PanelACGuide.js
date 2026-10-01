@@ -146,7 +146,7 @@ export default function PanelACGuide() {
             <Award className="w-5 h-5" /> Adhunik Engineering Excellence
           </h3>
           <ul className="space-y-2 text-sm">
-            <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-cyan-600 shrink-0" /> <strong>19+ Years Legacy:</strong> Proven expertise since 2005.</li>
+            <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-cyan-600 shrink-0" /> <strong>21+ Years Legacy:</strong> Proven expertise since 2005.</li>
             <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-cyan-600 shrink-0" /> <strong>Cooling Range:</strong> Wide 250W–7000W range for all sizes.</li>
             <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-cyan-600 shrink-0" /> <strong>Heavy Duty:</strong> Built for harsh, high-ambient environments.</li>
             <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-cyan-600 shrink-0" /> <strong>Energy Efficient:</strong> Optimized to reduce total operating costs.</li>
