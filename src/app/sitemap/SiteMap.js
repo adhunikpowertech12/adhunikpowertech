@@ -84,9 +84,14 @@ export default function SiteMap() {
     { href: '/cleanroom-doors', text:'Cleanroom Doors', title: 'Cleanroom Doors: Types, Features, Materials & Complete Selection Guide (2026)'},
     { href: '/iso-6-vs-7-vs-8-cleanrooms', text:'ISO 6 vs 7 vs 8 Cleanrooms', title: 'ISO Class 6 vs 7 vs 8 Cleanroom Guide: HVAC Design & ACH'},
     { href: '/pharma-cleanroom-contractor-india', text:'Pharmaceutical Cleanroom Experts | Turnkey GMP Solutions India', title: 'Pharmaceutical Cleanroom Experts | Turnkey GMP Solutions India'},
-    { href: '/pass-box-vs-air-shower', text:'Pass Box vs Air Shower', title: 'Pass Box vs Air Shower: What is the Difference?  Cleanroom Guide'}
-    
-
+    { href: '/pass-box-vs-air-shower', text:'Pass Box vs Air Shower', title: 'Pass Box vs Air Shower: What is the Difference?  Cleanroom Guide'},
+    { href: '/fire-fighting-control-panels', text:'Fire Fighting & Smoke Pressurization Panels', title: 'Fire Fighting & Smoke Pressurization Panels: Overview, Applications, and Benefits'},
+    { href: '/hvac-electrical-control-panels', text:'HVAC Electrical Control Panels', title: 'HVAC Electrical Control Panels: Overview, Applications, and Benefits'},
+    { href: '/apfc-panel-manufacturers', text:'APFC Panel Manufacturers', title: 'APFC Panel Manufacturers: Overview, Applications, and Benefits'},
+    { href: '/vfd-control-panels', text:'VFD & PLC Process Automation', title: 'VFD & PLC Process Automation: Overview, Applications, and Benefits'},
+    { href: '/lt-panel-manufacturers', text:'PCC & Main LT Distribution Panels', title: 'PCC & Main LT Distribution Panels: Overview, Applications, and Benefits'},
+    { href: '/building-management-system', text:'Building Management System (BMS)', title: 'Building Management System (BMS): Overview, Applications, and Benefits'},
+    { href: '/electrical-panels', text:'Electrical Panel Manufacturers', title: 'Electrical Panel Manufacturers: Overview, Applications, and Benefits' },
 ];
 
   return (
