@@ -111,6 +111,9 @@ function Navbar() {
         {  label: 'PCC & Main LT Distribution Panels',href: '/lt-panel-manufacturers'},
         {  label: 'MCC & Intelligent Motor Control Centre',href: '/mcc-panel-manufacturers'},
         {  label: 'HVAC Electrical Control Panels',href: '/hvac-electrical-control-panels'},
+        {  label: 'APFC Panel',href: '/apfc-panel-manufacturers'},
+        {  label: 'VFD & PLC Process Automation',href: '/vfd-control-panels'},
+        {  label: 'Fire Fighting & Smoke Pressurization Panels',href: '/fire-fighting-control-panels'},
 
       ],
     },
@@ -283,6 +286,9 @@ useEffect(() => {
         {  label: 'PCC & Main LT Distribution Panels',href: '/lt-panel-manufacturers'},
         {  label: 'MCC & Intelligent Motor Control Centre',href: '/mcc-panel-manufacturers'},
         {  label: 'HVAC Electrical Control Panels',href: '/hvac-electrical-control-panels'},
+        {  label: 'APFC Panel',href: '/apfc-panel-manufacturers'},
+        {  label: 'VFD & PLC Process Automation',href: '/vfd-control-panels'},
+        {  label: 'Fire Fighting & Smoke Pressurization Panels',href: '/fire-fighting-control-panels'},
 
       ],
     },
@@ -441,6 +447,9 @@ useEffect(() => {
     { id: "88", name: "Electrical Panels", link: "/electrical-panels" },
     { id: "89", name: "MCC & IMCC Panels", link: "/mcc-panel-manufacturers" }, 
     { id: "90", name: "HVAC Electrical Control Panels", link: "/hvac-electrical-control-panels" },
+    { id: "91", name: "APFC Panel", link: "/apfc-panel-manufacturers" },
+    { id:"92", name: "VFD & PLC Process Automation", link: "/vfd-control-panels" },
+    { id:"93", name: "Fire Fighting & Smoke Pressurization Panels", link: "/fire-fighting-control-panels" },
   ];
 
   const fuse = new Fuse(items, {
