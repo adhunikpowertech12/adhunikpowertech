@@ -59,7 +59,7 @@ function Footer() {
     { href: "/our-Company", text: "About Us" },
     {href: "/hvac", text: "HVAC Projects" },
     { href: "/product-overview", text: "Products" },
-    { href: "/manufacturing-and-r-&-d", text: <>Manufacturing and  R&amp;D </> },
+    { href: "/manufacturing-and-rd", text: <>Manufacturing and  R&amp;D </> },
     { href: "/annual-maintenance-contract", text: "Maintenance" },
     { href: "/blog", text: "Blog" },
     { href: "/support-form", text: "Contact Us" },
