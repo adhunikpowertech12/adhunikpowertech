@@ -92,6 +92,13 @@ export default function SiteMap() {
     { href: '/lt-panel-manufacturers', text:'PCC & Main LT Distribution Panels', title: 'PCC & Main LT Distribution Panels: Overview, Applications, and Benefits'},
     { href: '/building-management-system', text:'Building Management System (BMS)', title: 'Building Management System (BMS): Overview, Applications, and Benefits'},
     { href: '/electrical-panels', text:'Electrical Panel Manufacturers', title: 'Electrical Panel Manufacturers: Overview, Applications, and Benefits' },
+    {href: '/lt-panel-manufacturers', text:'LT Panel Manufacturers', title: 'LT Panel Manufacturers: Overview, Applications, and Benefits' },
+    {href: '/mcc-panel-manufacturers', text:'MCC Panel Manufacturers', title: 'MCC Panel Manufacturers: Overview, Applications, and Benefits' },
+    {href: '/hvac-electrical-control-panels', text:'HVAC Electrical Control Panels', title: 'HVAC Electrical Control Panels: Overview, Applications, and Benefits' },
+    {href: '/fire-fighting-control-panels', text:'Fire Fighting Control Panels', title: 'Fire Fighting Control Panels: Overview, Applications, and Benefits' },
+    {href: '/apfc-panel-manufacturers', text:'APFC Panel Manufacturers', title: 'APFC Panel Manufacturers: Overview, Applications, and Benefits' },
+    {href: '/vfd-control-panels', text:'VFD Control Panels', title: 'VFD Control Panels: Overview, Applications, and Benefits' },
+    {href: '/form-1-form-2-form-3-form-4a-form-4b-panel-separation-guide', text:'Panel Separation Guide', title: 'Panel Separation Guide: Overview, Applications, and Benefits' },
 ];
 
   return (
