@@ -451,8 +451,15 @@ export default function Blog() {
         "",
       link: "/pass-box-vs-air-shower",
       img: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1787657181/Pass-Box-vs-Air-Shower_krfeov.webp",
-    }
-   
+    },
+    {
+      id: 48,
+      title: "Electrical Panel Segregation StandardsForm 1, 2, 3, 4a, 4b | Panel Separation Guide (IEC 61439-2)",
+      date: "Oct 2026",
+      image: "",
+      link: "/form-1-form-2-form-3-form-4a-form-4b-panel-separation-guide",
+      img: "/Internal Panel Separation Guide.webp",
+    },
   ];
 
  return (

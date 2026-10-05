@@ -180,7 +180,7 @@ export default function PccPanelClient() {
                   className="px-6 py-3.5 rounded-lg bg-cyan-700 hover:bg-cyan-800 text-white font-semibold text-sm transition shadow-md flex items-center gap-2"
                 >
                   <FileText className="w-4 h-4" />
-                  Submit SLD for 24-Hr Quotation
+                  Submit SLD for Quotation
                 </a>
                 <a
                   href="tel:8287885885"
@@ -352,7 +352,7 @@ export default function PccPanelClient() {
           
           <div className="text-center max-w-2xl mx-auto mb-10">
             <span className="text-xs font-bold uppercase tracking-widest text-cyan-700">
-              Fast 24-Hr Techno-Commercial Offer
+              Fast Techno-Commercial Offer
             </span>
             <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight mt-1">
               Request a PCC & LT Panel Quotation
@@ -554,7 +554,7 @@ export default function PccPanelClient() {
             Have a Transformer Substation Drawing or Tender BOQ?
           </h2>
           <p className="text-xs sm:text-sm text-cyan-100 mb-6 max-w-2xl mx-auto leading-relaxed">
-            Our engineering team in Gurugram / Delhi NCR reviews electrical schedules and delivers complete GA drawings and offers within 24–48 hours.
+            Our engineering team in Gurugram / Delhi NCR reviews electrical schedules and delivers complete GA drawings.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
