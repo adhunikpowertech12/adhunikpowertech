@@ -137,12 +137,47 @@ const catalogSchema = {
   ]
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What standards do Adhunik Powertech electrical panels conform to?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adhunik Powertech electrical panels are built in compliance with IS 8623 and IEC 61439-1 & 2 standards, CPRI type-tested up to 4000A / 65kA with Form 3b/4b segregation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the turnaround time for SLD evaluation and quotation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preliminary Single-Line Diagrams (SLD), GA drawings, and commercial quotations are provided within 24 to 48 hours of receiving your electrical schedules or BOQ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do your panels withstand high ambient temperatures during Delhi NCR summers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Panels feature generous thermal derating on all copper and aluminium busbars, forced ventilation with dust-proof louvers, or closed-loop industrial panel air conditioners to avoid nuisance tripping in sheds over 48°C."
+      }
+    }
+  ]
+};
+
 export default function Page() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <ElectricalPanels />
     </>

@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
-//import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'; //Comment this line if you are not using reCAPTCHA v3 
 import 'react-toastify/dist/ReactToastify.css';
 
 import { 
@@ -15,19 +14,22 @@ import {
   PhoneCall, 
   FileText, 
   ChevronDown,
-  HardHat
+  HardHat,
+  Cpu,
+  Layers,
+  Zap,
+  Activity,
+  SlidersHorizontal,
+  Flame
 } from 'lucide-react';
-import { hover } from 'framer-motion';
 
 export default function ElectricalPanelsClient() {
   const router = useRouter();
   const form = useRef(null);
-  //const { executeRecaptcha } = useGoogleReCaptcha();
 
   // Toast notifications
   const notifye = () => toast.error("Invalid Details. Please check the fields.");
   const notifys = () => toast.success("Enquiry Sent Successfully!");
-  const notifyBot = () => toast.error("reCAPTCHA failed. Please try again.");
 
   // FAQ Accordion State
   const [openFaq, setOpenFaq] = useState(null);
@@ -58,9 +60,9 @@ export default function ElectricalPanelsClient() {
     if (!formData.phoneNumber.trim()) {
       newErrors.phoneNumber = "Phone Number is required";
     } else if (!/^\d{10}$/.test(formData.phoneNumber.trim())) {
-      newErrors.phoneNumber = "Must be 10 digits";
+      newErrors.phoneNumber = "Must be a valid 10-digit number";
     }
-    if (!formData.company.trim()) newErrors.company = "Company is required";
+    if (!formData.company.trim()) newErrors.company = "Company & Location is required";
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -102,7 +104,6 @@ export default function ElectricalPanelsClient() {
 
   // Structured Industrial Panel Portfolio with Individual Card Images
   const panelCatalog = [
-    
     {
       id: "pcc-lt",
       title: "PCC & Main LT Distribution Panels",
@@ -119,7 +120,8 @@ export default function ElectricalPanelsClient() {
         "Motorized auto-source changeover (AMF / bus coupler logic)",
         "Class 0.5 / 1.0 smart digital energy monitoring with RS485 Modbus"
       ],
-      link: "/lt-panel-manufacturers"
+      link: "/lt-panel-manufacturers",
+      btnText: "Explore LT & PCC Panels"
     },
     {
       id: "mcc-imcc",
@@ -137,7 +139,8 @@ export default function ElectricalPanelsClient() {
         "Microprocessor-based motor protection relays (MPR) with jam/stall detection",
         "Separate vertical cable chambers and busbar alleys for safe live maintenance"
       ],
-      link: "/mcc-panel-manufacturers"
+      link: "/mcc-panel-manufacturers",
+      btnText: "Explore MCC Panels"
     },
     {
       id: "hvac-starter",
@@ -155,7 +158,8 @@ export default function ElectricalPanelsClient() {
         "Fire alarm interlock with auto-damper shutoff and fan trip sequences",
         "Differential pressure (DP) switches for clogged filter warning telemetry"
       ],
-      link: "/hvac-electrical-control-panels"
+      link: "/hvac-electrical-control-panels",
+      btnText: "Explore HVAC Panels"
     },
     {
       id: "apfc",
@@ -173,7 +177,8 @@ export default function ElectricalPanelsClient() {
         "Heavy-duty MPP capacitors equipped with internal discharge resistors",
         "Thyristor-switched capacitor (TSC) modules for rapid fluctuating loads"
       ],
-      link: "/apfc-panel-manufacturers"
+      link: "/apfc-panel-manufacturers",
+      btnText: "Explore APFC Panels"
     },
     {
       id: "vfd-plc",
@@ -191,7 +196,8 @@ export default function ElectricalPanelsClient() {
         "Line reactors and harmonic chokes to protect drives against spikes",
         "Integrated enclosure cooling maintaining internal temperature below 35°C"
       ],
-      link: "/vfd-control-panels"
+      link: "/vfd-control-panels",
+      btnText: "Explore VFD/PLC Panels"
     },
     {
       id: "fire-fighting",
@@ -209,7 +215,8 @@ export default function ElectricalPanelsClient() {
         "Staircase and lift-well pressurization fan controls for fire NOC clearance",
         "Pressure switch auto-start cascade sequencing for hydrant and sprinkler lines"
       ],
-      link: "/fire-fighting-control-panels"
+      link: "/fire-fighting-control-panels",
+      btnText: "Explore Fire Panels"
     }
   ];
 
@@ -335,8 +342,28 @@ export default function ElectricalPanelsClient() {
               </h1>
 
               <p className="text-base sm:text-lg text-gray-600 max-w-2xl leading-relaxed">
-                Adhunik Powertech designs, fabricates, and tests heavy-duty LT panels, Motor Control Centers (MCC), Power Control Centers (PCC), and smart HVAC control panels. Engineered with Tier-1 switchgear (Schneider, L&T, Siemens) and thermally derated for harsh Northern India ambient conditions. Trusted by top industrial leaders.
+                Adhunik Powertech designs, fabricates, and tests heavy-duty LT panels, Motor Control Centers (MCC), Power Control Centers (PCC), and smart HVAC control panels up to 4000A / 65kA. Engineered with Tier-1 switchgear (Schneider, L&T, Siemens) and thermally derated for harsh Northern India ambient conditions.
               </p>
+
+              {/* Trust Metric Badges */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+                <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
+                  <div className="text-xl font-extrabold text-cyan-800">4000A</div>
+                  <div className="text-xs text-gray-500 font-medium">Rated Capacity</div>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
+                  <div className="text-xl font-extrabold text-cyan-800">65 kA</div>
+                  <div className="text-xs text-gray-500 font-medium">1-Sec Fault Rating</div>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
+                  <div className="text-xl font-extrabold text-cyan-800">Form 4b</div>
+                  <div className="text-xs text-gray-500 font-medium">Internal Isolation</div>
+                </div>
+                <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
+                  <div className="text-xl font-extrabold text-cyan-800">IP55 / IP65</div>
+                  <div className="text-xs text-gray-500 font-medium">PU Gasket Seal</div>
+                </div>
+              </div>
 
               <div className="flex flex-wrap items-center gap-4 pt-4">
                 <a
@@ -427,14 +454,89 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 3. PRODUCT CATALOG */}
+      {/* 🌟 3. EDUCATIONAL & FOUNDATIONAL SECTION: WHAT IS AN ELECTRICAL PANEL? */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Engineering Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              What is an Industrial Electrical Control Panel?
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              An <strong>industrial electrical panel</strong> (also known as a switchboard, distribution board, or motor control center) serves as the central nervous system of any commercial or manufacturing facility. It is a rigid, weather-sealed sheet-metal enclosure housing protective switchgear, energized busbars, automation controllers, and monitoring instrumentation designed to receive raw electrical power from transformers or captive DG sets, govern its distribution, and protect equipment from destructive electrical faults.
+            </p>
+          </div>
+
+          {/* 4-Pillar Grid Explaining Core Functions */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <Zap className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">1. Power Distribution</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Takes massive incoming high-ampere current (up to 4000A) and channels it safely across main horizontal and vertical copper/aluminium busbars to individual sub-feeders and plant machinery.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <ShieldCheck className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">2. Fault Protection</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Isolates circuits instantly during short circuits, overloads, phase imbalances, and ground faults via micro-logic Air Circuit Breakers (ACB) and MCCBs, preventing factory fires and cable melt-downs.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <SlidersHorizontal className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">3. Motor & Process Control</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Governs the speed, starting sequence, and torque of heavy industrial electric motors through Direct-On-Line (DOL), Star-Delta, Soft-Starters, and Variable Frequency Drives (VFDs).
+              </p>
+            </div>
+
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <Layers className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">4. Operator Isolation (Form 4b)</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Provides internal metal barriers separating busbars, cable alleys, and functional modules. This ensures technicians can service an isolated breaker safely without de-energizing the whole facility.
+              </p>
+            </div>
+          </div>
+
+          {/* Contextual Paragraph linking to Adhunik Engineering */}
+          <div className="mt-10 bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Why standard panels fail in Indian operating conditions:</strong> Industrial facilities across Delhi NCR face brutal 48°C ambient summers and high dust loads. Generic unverified panels suffer premature thermal tripping, busbar oxidization, and contactor welding. <strong>Adhunik Powertech</strong> manufactures custom enclosures with generous busbar derating, polyurethane PU gaskets, and CPRI-verified 65kA short-circuit fault withstand capacity.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Get Custom GA Layout
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      {/* 4. PRODUCT CATALOG - TARGETED ANCHORS */}
       <section className="py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
             Engineered Portfolio
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
-            Industrial Electrical Panels Built for Any Load
+            Industrial Electrical Panels & Switchgear Manufactured in Delhi NCR
           </h2>
           <p className="text-sm text-gray-600 mt-3 leading-relaxed">
             From primary high-capacity power intake to specialized air-side HVAC starters, explore our comprehensive range of custom low-tension assemblies.
@@ -498,7 +600,7 @@ export default function ElectricalPanelsClient() {
                     href={panel.link}
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-cyan-700 hover:text-cyan-900 transition flex-1"
                   >
-                    View Details <ArrowRight className="w-3.5 h-3.5" />
+                    {panel.btnText} <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                   <button
                     onClick={() => {
@@ -517,7 +619,7 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 4. EXECUTION DISCIPLINE */}
+      {/* 5. EXECUTION DISCIPLINE */}
       <section className="py-16 bg-gray-50 border-y border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">
@@ -525,7 +627,7 @@ export default function ElectricalPanelsClient() {
               Execution Discipline
             </span>
             <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
-              From Design Approval to Commissioning
+              Manufacturing & Factory Acceptance Testing (FAT) Protocol
             </h2>
             <p className="text-sm text-gray-600 mt-2">
               Every order follows a documented engineering protocol so what arrives on site integrates without modification.
@@ -550,14 +652,14 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 5. TECHNICAL SPECIFICATION MATRIX */}
+      {/* 6. TECHNICAL SPECIFICATION MATRIX */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
             Verified Parameters
           </span>
           <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
-            LT & PCC Switchboard Engineering Specifications
+            LT & PCC Switchboard Engineering Specifications (Up to 4000A / 65kA)
           </h2>
         </div>
 
@@ -597,12 +699,38 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 6. PROVEN SECTOR DEPLOYMENTS */}
+{/* INDUSTRIAL BELT & REGIONAL COVERAGE */}
+<section className="py-12 bg-white border-t border-gray-200">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+      Northern India Engineering Network
+    </span>
+    <h2 className="text-2xl font-bold text-gray-900 mb-6">
+      Serving Industrial Manufacturing Belts Across Delhi NCR & Haryana
+    </h2>
+    <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+      {[
+        "IMT Manesar", "Udyog Vihar Gurugram", "Sector 37 PACE City", "Faridabad Industrial Area",
+        "Ecotech Greater Noida", "Noida Phase-2", "Bawana & Narela Industrial Estate", "Sahibabad Ghaziabad",
+        "Dharuhera Industrial Zone", "Bawal Industrial Area", "Neemrana RIICO", "Kundli & Rai Sonipat"
+      ].map((belt, index) => (
+        <span 
+          key={index}
+          className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md hover:bg-cyan-50 hover:border-cyan-300 hover:text-cyan-800 transition cursor-default"
+        >
+          {belt}
+        </span>
+      ))}
+    </div>
+  </div>
+</section>
+
+      {/* 7. PROVEN SECTOR DEPLOYMENTS */}
       <section className="py-16 bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
-              Sectors & Infrastructure We Power
+              Sectors & Infrastructure We Power Across Delhi NCR
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 mt-2">
               Delivering dependable electrical control systems for mission-critical installations across Northern India.
@@ -629,7 +757,27 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 7. CONNECTED RFQ FORM (EmailJS + reCAPTCHA v3) */}
+{/* DOWNLOADABLE SPECIFICATION CARD */}
+<div className="bg-gradient-to-r from-gray-900 to-cyan-950 rounded-2xl p-6 sm:p-6 text-white mt-8 flex flex-col md:flex-row items-center justify-between gap-6 max-w-5xl mx-auto">
+  <div className="space-y-2 text-center md:text-left">
+    <div className="inline-block bg-cyan-500/20 text-cyan-300 text-xs font-bold uppercase px-2.5 py-1 rounded">
+      Consultant Technical Asset
+    </div>
+    <h3 className="text-xl font-bold">Standard LT Panel Tender Specification Checklist</h3>
+    <p className="text-xs text-gray-300 max-w-100">
+      Includes busbar current density sizing formulas, Form 4b segregation clauses, and FAT inspection templates for drafting MEP tenders.
+    </p>
+  </div>
+  <a
+    href="/support-form"
+    className="px-6 py-3 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition whitespace-nowrap shadow-md flex items-center gap-2"
+  >
+    <FileText className="w-4 h-4" />
+    Request Tender Specific Document
+  </a>
+</div>
+
+      {/* 8. CONNECTED RFQ FORM */}
       <section id="rfq-section" className="py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white border-2 border-cyan-700/20 rounded-3xl p-8 sm:p-12 shadow-xl relative">
           
@@ -809,10 +957,15 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 8. TECHNICAL FAQS ACCORDION */}
+      {/* 9. TECHNICAL FAQS ACCORDION */}
       <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-200">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">Frequently Asked Questions</h2>
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Common Inquiries
+          </span>
+          <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
+            Frequently Asked Technical Questions
+          </h2>
         </div>
 
         <div className="space-y-3">
@@ -835,7 +988,7 @@ export default function ElectricalPanelsClient() {
         </div>
       </section>
 
-      {/* 9. BOTTOM CONVERSION FOOTER STRIP */}
+      {/* 10. BOTTOM CONVERSION FOOTER STRIP */}
       <section className="py-12 bg-cyan-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold mb-3">
