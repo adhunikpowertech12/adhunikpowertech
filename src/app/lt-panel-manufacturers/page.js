@@ -25,6 +25,22 @@ export const metadata = {
     "IP54 LT Panels",
     "IP55 Electrical Enclosures",
 
+    // Regional Industrial Corridors & Geotargeting
+    "PCC Panel Manufacturers Gurugram",
+    "Main LT Panel Manufacturers Manesar",
+    "LT Distribution Panels Faridabad",
+    "PCC Panel Manufacturers Noida",
+    "Power Control Centers Greater Noida",
+    "LT Switchgear Manufacturers Ghaziabad",
+    "PCC Panel Manufacturers Sonipat Panipat",
+    "Industrial LT Panels Rohtak Rewari Palwal",
+    "PCC Panel Suppliers Bhiwadi",
+    "LT Distribution Panels Neemrana Tapukara",
+    "LT Panel Manufacturers Bawal Dharuhera",
+    "Industrial Electrical Panels Meerut Muzaffarnagar",
+    "PCC Panel Manufacturers Chandigarh Jaipur",
+    "Substation LT Panels Delhi NCR India",
+
     // Breakers, Components & Sizing
     "4000A LT Panel",
     "3200A PCC Panel",

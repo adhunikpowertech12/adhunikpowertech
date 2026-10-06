@@ -221,6 +221,133 @@ export default function PccPanelClient() {
         </div>
       </section>
 
+      {/* FOUNDATIONAL EDUCATION: WHAT IS LT PANEL & WHAT IS PCC PANEL */}
+<section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div className="max-w-3xl mb-12">
+      <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+        Electrical Architecture & Fundamentals
+      </span>
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+        Understanding Low Tension (LT) Panels &amp; Power Control Centers (PCC)
+      </h2>
+      <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+        In industrial plants and commercial high-rises, managing incoming bulk power safely requires clear structural segregation between primary intake and secondary distribution. 
+      </p>
+    </div>
+
+    {/* Dual Deep-Dive Cards */}
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      
+      {/* What is an LT Panel Card */}
+      <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-7 shadow-sm hover:border-cyan-500 transition">
+        <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+          <Zap className="w-6 h-6 text-cyan-700" />
+        </div>
+        <h3 className="text-xl font-bold text-gray-900 mb-3">
+          What is a Low Tension (LT) Panel?
+        </h3>
+        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify mb-4">
+          A <strong>Low Tension (LT) Panel</strong> is a collective term for any electrical switchboard designed to operate under low-voltage thresholds—typically <strong>415V AC (three-phase, 50 Hz)</strong> or <strong>230V AC (single-phase)</strong>. 
+        </p>
+        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify">
+          It acts as the broad power distribution infrastructure across a facility, receiving stepped-down electricity from secondary substation transformers and routing it to departmental switchboards, lighting feeders, auxiliary panels, and HVAC systems.
+        </p>
+        <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-gray-700 space-y-1.5 font-medium">
+          <div className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+            <span><strong>Operating Voltage:</strong> 415V AC &plusmn; 10%, 3-Phase, 4-Wire</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+            <span><strong>Primary Function:</strong> Facility-wide power distribution &amp; branch metering</span>
+          </div>
+        </div>
+      </div>
+
+      {/* What is a PCC Panel Card */}
+      <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-7 shadow-sm hover:border-cyan-500 transition">
+        <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+          <ShieldCheck className="w-6 h-6 text-cyan-700" />
+        </div>
+        <h3 className="text-xl font-bold text-gray-900 mb-3">
+          What is a Power Control Center (PCC)?
+        </h3>
+        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify mb-4">
+          A <strong>Power Control Center (PCC Panel)</strong> is the <em>heavy-duty master intake board</em> at the apex of the LT hierarchy. It is terminated directly at the secondary terminals of the distribution transformer or captive diesel generators (DG sets).
+        </p>
+        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify">
+          Built to carry massive currents (<strong>from 1000A up to 4000A</strong>), a PCC incorporates heavy-duty drawout Air Circuit Breakers (ACBs), automated source changeover schemes (AMF/Bus Couplers), and Form 4b internal segregation to withstand severe fault events (up to <strong>65kA for 1 second</strong>).
+        </p>
+        <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-gray-700 space-y-1.5 font-medium">
+          <div className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+            <span><strong>Current Rating:</strong> 1000A up to 4000A continuous</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+            <span><strong>Fault Level:</strong> CPRI tested 50kA / 65kA for 1.0 second</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    {/* The Core Structural Distinction */}
+    <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm">
+      <div className="bg-cyan-900 text-white px-6 py-4">
+        <h3 className="text-base sm:text-lg font-bold">
+          Key Technical Comparison: PCC Panel vs LT Panel. 
+        </h3>
+        <p className="text-xs text-cyan-200 mt-0.5">
+          How to select the right switchboard tier for your electrical single-line diagram (SLD).
+        </p>
+      </div>
+
+      <div className="overflow-x-auto">
+        <table className="w-full text-xs text-left text-gray-700 border-collapse">
+          <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+            <tr>
+              <th className="py-3 px-5 w-1/4">Comparison Parameter</th>
+              <th className="py-3 px-5 w-3/8 text-cyan-900">Power Control Center (PCC)</th>
+              <th className="py-3 px-5 w-3/8">General LT Distribution Panel</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            <tr className="hover:bg-gray-50 transition">
+              <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Grid Hierarchy Position</td>
+              <td className="py-3.5 px-5 font-semibold text-cyan-950">Primary intake directly from Transformer or DG sets</td>
+              <td className="py-3.5 px-5">Secondary distribution downstream from the PCC board</td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition">
+              <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Current Carrying Capacity</td>
+              <td className="py-3.5 px-5 font-semibold text-cyan-950">High amperage: 1000A up to 4000A continuous</td>
+              <td className="py-3.5 px-5">Medium to low: 63A up to 1000A</td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition">
+              <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Primary Switchgear Type</td>
+              <td className="py-3.5 px-5 font-semibold text-cyan-950">Drawout Air Circuit Breakers (ACB) with LSIG logic</td>
+              <td className="py-3.5 px-5">Molded Case Circuit Breakers (MCCB) &amp; MCBs</td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition">
+              <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Internal Segregation</td>
+              <td className="py-3.5 px-5 font-semibold text-cyan-950">Form 3b / Form 4b (IS 8623 / IEC 61439-1 &amp; 2)</td>
+              <td className="py-3.5 px-5">Form 2b / Form 3b compartmentalization</td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition">
+              <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Fault Withstand Capacity</td>
+              <td className="py-3.5 px-5 font-semibold text-cyan-950">50kA / 65kA rms for 1.0 second (Substation rated)</td>
+              <td className="py-3.5 px-5">25kA / 35kA rms for 1.0 second</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
       {/* 2. CORE CAPABILITIES (PCC SPECIFIC) */}
       <section className="py-16 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -345,6 +472,33 @@ export default function PccPanelClient() {
           </div>
         </div>
       </section>
+
+      {/* INDUSTRIAL BELT & REGIONAL COVERAGE */}
+<section className="py-12 bg-white border-t border-gray-200">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+      Northern India Engineering Network
+    </span>
+    <h2 className="text-2xl font-bold text-gray-900 mb-6">
+      Supplying PCC &amp; LT Panels Across Major Manufacturing Hubs
+    </h2>
+    <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+      {[
+        "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+        "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+        "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+        "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+      ].map((belt, index) => (
+        <span 
+          key={index}
+          className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+        >
+          {belt}
+        </span>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* 5. DIRECT SLD RFQ SUBMISSION FORM */}
       <section id="rfq-section" className="py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
