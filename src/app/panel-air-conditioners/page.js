@@ -1,6 +1,6 @@
 import PanelAirConditioners from "./PanelAirConditioners"
 export const metadata = {
-  title: "Panel Air Conditioner Manufacturer in India | Adhunik Powertech",
+  title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
   description: "Protect your electrical panels from overheating with heavy-duty Panel Air Conditioners by Adhunik Powertech. Reliable enclosure cooling for CNC machines & industrial control cabinets. Get a free quote today.",
   keywords: [
     "Panel AC",
@@ -59,7 +59,7 @@ export const metadata = {
   
   robots: "index, follow",
   openGraph: {
-    title: "Panel Air Conditioner Manufacturer in India | Adhunik Powertech",
+    title: "Top Panel AC Manufacturer - Authorized Govt. Supplier | Adhunik Powertech",
     description: "Protect your electrical panels from overheating with heavy-duty Panel Air Conditioners by Adhunik Powertech. Reliable enclosure cooling for CNC machines & industrial control cabinets. Get a free quote today.",
     url: "https://www.adhunikpowertech.com/panel-air-conditioners",
     type: "article",
