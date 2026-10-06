@@ -1440,7 +1440,7 @@ export default function HeroPage() {
 
           </div>
 
-          {/*<div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
+          <div className="  inline-flex mb-4  items-center justify-center w-full mx-auto mt-3 ">
 
             <hr className="w-[90%] h-px my-8 bg-gray-300 border-0  " />
 
@@ -1458,11 +1458,11 @@ export default function HeroPage() {
                 rel="nofollow"
               >
                 <img
-                  src="/indiamartreview.webp"
+                  src="/AdhunikIndiaMartReview.webp"
                         width="300"
                   height="300"
                   loading="lazy"
-                  alt="4.5 out of 5 indiamart ratings of adhunik powertech"
+                  alt="4.45 out of 5 indiamart ratings of adhunik powertech has 80 good reviews"
                 />
               </a>
             </div>
@@ -1471,21 +1471,21 @@ export default function HeroPage() {
 
               <Link href="https://g.page/r/CdkchWQZZnQmEBE/review">
                 <img
-                  src="/googlereview.webp"
+                  src="/adhunikgooglereview.webp"
                         width="300"
                   height="300"
                   loading="lazy"
-                  alt="4.6 out of 5 Google ratings of adhunik powertech has 96 good reviews"
+                  alt="4.7 out of 5 Google ratings of adhunik powertech has 151 good reviews"
                 />
               </Link>
-
+        
             </div>
 
             <div className="box w-fit md:w-4/12 lg:w-2/12 border-2 rounded-xl">
               <a href="https://www.ambitionbox.com/overview/adhunik-powertech-private-limited-overview?utm_source=employer-dashboard&utm_campaign=adhunik-powertech-private-limited&utm_medium=badges">
                 <img
                   src="https://employer.ambitionbox.com/api/badge/225936?badge-type=ratings"
-                  alt="image"
+                  alt="4.3 out of 5 AmbitionBox ratings of adhunik powertech has 38 good reviews"
                   loading='lazy'
                      width="300"
                      height="300"
@@ -1493,8 +1493,6 @@ export default function HeroPage() {
               </a>
             </div>
           </section>
-
-          */}
 
 
           <div className="row">
