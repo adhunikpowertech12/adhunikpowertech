@@ -1,4 +1,5 @@
 import ElectricalPanels from "./ElectricalPanels";
+
 export const metadata = {
   title: "Electrical Panel Manufacturers in Delhi NCR | Adhunik Powertech",
   description:
@@ -67,7 +68,7 @@ export const metadata = {
     description:
       "Custom CPRI & IEC 61439 compliant LT, MCC, PCC, and HVAC control panels in Delhi NCR. Get fast 24-hr SLD reviews, competitive pricing, and local site support.",
     url: "https://www.adhunikpowertech.com/electrical-panels",
-    type: "article",
+    type: "website",
     images: [
       {
         url: "https://www.adhunikpowertech.com/panel_ac%20upper%20image.webp",
@@ -91,10 +92,59 @@ export const metadata = {
   },
 };
 
+// Declared outside metadata as a valid standalone schema
+const catalogSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Industrial Electrical Control Panels Portfolio",
+  "itemListElement": [
+    {
+      "@type": "SiteNavigationElement",
+      "position": 1,
+      "name": "PCC & Main LT Distribution Panels",
+      "url": "https://www.adhunikpowertech.com/lt-panel-manufacturers"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 2,
+      "name": "MCC & Intelligent Motor Control Centers",
+      "url": "https://www.adhunikpowertech.com/mcc-panel-manufacturers"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 3,
+      "name": "HVAC & Air Washer Control Panels",
+      "url": "https://www.adhunikpowertech.com/hvac-electrical-control-panels"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 4,
+      "name": "APFC Harmonic Filter Panels",
+      "url": "https://www.adhunikpowertech.com/apfc-panel-manufacturers"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 5,
+      "name": "VFD & PLC Automation Panels",
+      "url": "https://www.adhunikpowertech.com/vfd-control-panels"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 6,
+      "name": "Fire Fighting & Smoke Pressurization Panels",
+      "url": "https://www.adhunikpowertech.com/fire-fighting-control-panels"
+    }
+  ]
+};
+
 export default function Page() {
   return (
     <>
-      <ElectricalPanels/>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogSchema) }}
+      />
+      <ElectricalPanels />
     </>
   );
 }
