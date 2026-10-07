@@ -221,6 +221,146 @@ export default function MccPanelClient() {
         </div>
       </section>
 
+      {/* FOUNDATIONAL EDUCATION: WHAT IS MCC & WHAT IS IMCC */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Motor Control Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              Understanding Motor Control Centers (MCC) &amp; Intelligent IMCC Switchboards
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              In heavy manufacturing, process industries, and large commercial facilities, motors consume over 70% of total plant power. Coordinating starting torque, short-circuit protection, and process telemetry requires centralized, segregated motor management switchgear.
+            </p>
+          </div>
+
+          {/* Dual Deep-Dive Explainer Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            
+            {/* What is an MCC Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-7 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                <Layers className="w-6 h-6 text-cyan-700" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                What is a Motor Control Center (MCC)?
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify mb-4">
+                A <strong>Motor Control Center (MCC)</strong> is a modular, compartmentalized metal enclosure that houses multiple motor starter units in a vertical lineup, served by a common horizontal busbar. Each motor feeder operates inside its own isolated compartment equipped with an isolator or circuit breaker, motor contactor, overload relay, and control transformer.
+              </p>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify">
+                Conventional MCCs use hardwired pushbuttons, indicator lamps, and control relays, directing power safely to multi-motor infrastructure including compressors, conveyors, heavy exhaust fans, and water pumps.
+              </p>
+              <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-gray-700 space-y-1.5 font-medium">
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+                  <span><strong>Architecture:</strong> Fixed compartmentalized or modular drawout drawers</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+                  <span><strong>Protection:</strong> Type-2 coordinated thermal-magnetic or electronic OLRs</span>
+                </div>
+              </div>
+            </div>
+
+            {/* What is an Intelligent MCC (IMCC) */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-7 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                <Cpu className="w-6 h-6 text-cyan-700" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                What is an Intelligent Motor Control Center (IMCC)?
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify mb-4">
+                An <strong>Intelligent Motor Control Center (IMCC)</strong> upgrades conventional motor control by integrating microprocessor-based Motor Management Relays (MMRs) and digital industrial fieldbus communication (Modbus, Profibus, Ethernet/IP, or Profinet).
+              </p>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-justify">
+                Instead of hundreds of bundles of hardwired analog and digital control cables, all diagnostic data—including real-time phase current, voltage, thermal motor capacity, ground fault alerts, and running hours—is streamed straight to the central SCADA or BMS workstation, enabling automated predictive maintenance.
+              </p>
+              <div className="mt-5 pt-4 border-t border-gray-200 text-xs text-gray-700 space-y-1.5 font-medium">
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+                  <span><strong>Telemetry:</strong> Live kW, power factor, thermal capacity %, and run hours</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-600"></span>
+                  <span><strong>Diagnostics:</strong> Rotor jam, stall, phase loss, and ground-fault root causes</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Technical Comparison Matrix */}
+          <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm mb-12">
+            <div className="bg-cyan-900 text-white px-6 py-4">
+              <h3 className="text-base sm:text-lg font-bold">
+                Technical Comparison: Conventional MCC vs. Intelligent IMCC
+              </h3>
+              <p className="text-xs text-cyan-200 mt-0.5">
+                Key functional differences to evaluate for plant design and automation tenders.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs text-left text-gray-700 border-collapse">
+                <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+                  <tr>
+                    <th className="py-3 px-5 w-1/4">Engineering Aspect</th>
+                    <th className="py-3 px-5 w-3/8 text-cyan-950">Intelligent IMCC Switchboard</th>
+                    <th className="py-3 px-5 w-3/8">Conventional Standard MCC</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Control Wiring Topology</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Single fieldbus trunk cable (RS-485 / Ethernet / Profinet)</td>
+                    <td className="py-3.5 px-5">Dense point-to-point hardwired copper multi-core cabling</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Protection &amp; Relaying</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Digital MMR with programmable I²t thermal curves &amp; stall trip</td>
+                    <td className="py-3.5 px-5">Bi-metallic thermal overload relays or standard electronic relays</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Real-Time Process Data</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Full telemetry: Current, Voltage, THD, Run Hours, Power Factor</td>
+                    <td className="py-3.5 px-5">Limited to door-mounted analog/digital meters per feeder</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Fault Diagnostics &amp; History</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Timestamped event log with pre-fault current snapshot</td>
+                    <td className="py-3.5 px-5">Simple door trip lamp indication without cause history</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Commissioning &amp; Modifications</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Software logic reconfiguration without re-pulling wires</td>
+                    <td className="py-3.5 px-5">Physical rewiring of terminal blocks and control circuits required</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Type-2 Coordination Callout */}
+          <div className="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Verified Type-2 Coordination Standard:</strong> In accordance with IEC 60947-4-1, Adhunik Powertech designs starter feeder assemblies engineered to endure high prospective short circuits without contactor welding or damage to overload devices. In the event of a fault, the feeder returns to operation immediately without needing component replacements.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Submit Motor Load List
+            </a>
+          </div>
+
+        </div>
+      </section>
+
       {/* 2. CORE CAPABILITIES (MCC SPECIFIC) */}
       <section className="py-16 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -358,13 +498,40 @@ export default function MccPanelClient() {
         </div>
       </section>
 
+      {/* INDUSTRIAL BELT & REGIONAL COVERAGE */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Northern India Engineering Network
+          </span>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Supplying MCC &amp; IMCC Panels Across Major Industrial Hubs
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+            {[
+              "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+              "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+              "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+              "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+            ].map((belt, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+              >
+                {belt}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 5. DIRECT MOTOR SCHEDULE RFQ SUBMISSION FORM */}
       <section id="rfq-section" className="py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white border-2 border-cyan-700/20 rounded-3xl p-8 sm:p-12 shadow-xl relative">
           
           <div className="text-center max-w-2xl mx-auto mb-10">
             <span className="text-xs font-bold uppercase tracking-widest text-cyan-700">
-              Fast 24-Hr Techno-Commercial Offer
+              Fast Techno-Commercial Offer
             </span>
             <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight mt-1">
               Request an MCC / IMCC Proposal
@@ -581,7 +748,7 @@ export default function MccPanelClient() {
             Have a Motor Feeder Schedule or Plant SLD?
           </h2>
           <p className="text-xs sm:text-sm text-cyan-100 mb-6 max-w-2xl mx-auto leading-relaxed">
-            Our engineering team in Gurugram / Delhi NCR reviews electrical schedules and delivers complete GA drawings and offers within 24–48 hours.
+            Our engineering team in Gurugram / Delhi NCR reviews electrical schedules and delivers complete GA drawings and offers.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
