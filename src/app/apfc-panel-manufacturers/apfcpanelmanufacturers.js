@@ -219,6 +219,134 @@ export default function ApfcPanelClient() {
         </div>
       </section>
 
+      {/* 3. FOUNDATIONAL EDUCATION: WHAT IS AN APFC PANEL & HOW POWER FACTOR WORKS */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Power Quality &amp; Energy Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              What is an Automatic Power Factor Correction (APFC) Panel?
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              In industrial facilities driven by inductive loads—such as induction motors, transformers, welding plants, and compressors—current naturally lags behind voltage. This lag creates <strong>reactive power (kVAr)</strong>, reducing efficiency and driving down the facility&apos;s <strong>Power Factor (PF)</strong>. An <strong>APFC Panel</strong> is an automated capacitor bank cubicle engineered to detect this phase displacement in real time and switch calibrated capacitor banks into the circuit, maintaining operating power factor near unity (<strong>&gt; 0.98 to 1.00</strong>).
+            </p>
+          </div>
+
+          {/* 4-Pillar Grid: Core Operational Mechanisms */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <Cpu className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">1. Real-Time Sensing</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                A digital microprocessor APFC controller tracks line voltage (PT) and active load current (CT) continuously, computing instantaneous phase angle displacement and reactive kVAr deficit.
+              </p>
+            </div>
+
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <Layers className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">2. Multi-Step Switching</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Based on target setpoints, the controller energizes heavy-duty capacitor steps (ranging from 8 to 16 stages) via specialized capacitor-duty contactors or fast solid-state thyristors (TSC).
+              </p>
+            </div>
+
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <Percent className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">3. 7% / 14% Detuning</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Series copper/aluminium detuned filter reactors shift the circuit resonant frequency below the 5th and 7th harmonics, protecting capacitors from blowing out due to harmonic resonance.
+              </p>
+            </div>
+
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition">
+              <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4">
+                <TrendingUp className="w-5 h-5 text-cyan-700" />
+              </div>
+              <h3 className="text-base font-bold text-gray-900 mb-2">4. Penalty Mitigation</h3>
+              <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                Eliminates DISCOM low power factor penalty surcharges (e.g., DHBVN, UHBVN, BSES, TPDDL), cuts apparent kVA maximum demand charges, and qualifies facilities for power factor rebates.
+              </p>
+            </div>
+
+          </div>
+
+          {/* Technical Comparison Table: Contactor Switched vs. Thyristor Switched (TSC) */}
+          <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm mb-12">
+            <div className="bg-cyan-900 text-white px-6 py-4">
+              <h3 className="text-base sm:text-lg font-bold">
+                Comparison: Contactor-Switched APFC vs. Thyristor-Switched (TSC) Harmonic Panels
+              </h3>
+              <p className="text-xs text-cyan-200 mt-0.5">
+                Choosing the right capacitor switching topology for steady versus fluctuating industrial loads.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs text-left text-gray-700 border-collapse">
+                <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+                  <tr>
+                    <th className="py-3 px-5 w-1/4">System Attribute</th>
+                    <th className="py-3 px-5 w-3/8 text-cyan-950">Thyristor-Switched Capacitor (TSC) Panel</th>
+                    <th className="py-3 px-5 w-3/8">Standard Contactor-Switched APFC Panel</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Switching Response Speed</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Ultra-fast (&lt; 20 milliseconds) at zero-crossing</td>
+                    <td className="py-3.5 px-5">Standard response (30 to 60 seconds discharge interval)</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Ideal Plant Load Profile</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Spot welding, CNC machining, cranes &amp; injection molding</td>
+                    <td className="py-3.5 px-5">Steady continuous loads: spinning mills, pumps &amp; fans</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Switching Inrush Transients</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Zero transient current spikes; smooth solid-state engagement</td>
+                    <td className="py-3.5 px-5">Controlled via pre-insertion resistor damping contacts</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Mechanical Wear &amp; Tear</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">No moving parts; virtually infinite switching cycles</td>
+                    <td className="py-3.5 px-5">Periodic contactor tip replacement required after set operations</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Harmonic Filtering Standard</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Integrated 7% / 14% detuned copper or aluminium reactors</td>
+                    <td className="py-3.5 px-5">Optional detuned reactors or standard capacitor banks</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Contextual Commercial Callout */}
+          <div className="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Facing DISCOM Low Power Factor Penalties?</strong> If your utility bill displays penalties or maximum demand surcharges due to fluctuating power factor, our power quality engineering desk will audit your monthly kWh/kVAh bill and size the exact kVAr capacitor steps, reactor ratings, and payback timeline.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Upload Electricity Bill
+            </a>
+          </div>
+
+        </div>
+      </section>
+
       {/* 2. CORE CAPABILITIES */}
       <section className="py-16 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -303,6 +431,33 @@ export default function ApfcPanelClient() {
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      {/* 4. REGIONAL COVERAGE STRIP (PLACED RIGHT BEFORE FAQS) */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Northern India Engineering Network
+          </span>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Supplying APFC &amp; Harmonic Filter Panels Across Industrial Corridors
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+            {[
+              "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+              "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+              "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+              "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+            ].map((belt, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+              >
+                {belt}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
