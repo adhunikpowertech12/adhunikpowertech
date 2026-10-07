@@ -19,7 +19,8 @@ import {
   Activity,
   Layers,
   HardHat,
-  Gauge
+  Gauge,
+  ArrowRight
 } from 'lucide-react';
 
 export default function FireFightingControlPanelsClient() {
@@ -99,13 +100,13 @@ export default function FireFightingControlPanelsClient() {
   };
 
   const fireTechnicalSpecs = [
-    { label: "Governing Standards", value: "National Building Code (NBC 2016 Part 4), IS 8623, IEC 61439-1 & 2, NFPA 20"},
-    { label: "Enclosure Construction", value: "2-Hour Fire-Rated Sheet Steel (2.0mm CRCA), IP55 Dust & Water Jet Ingress Protection"},
-    { label: "Dual Power Auto-Changeover", value: "Four-Pole Motorized ATS / Incomer AMF logic (Normal Mains + Captive Emergency DG)"},
-    { label: "Pump Starter Topologies", value: "Automatic Star-Delta & Soft-Starters for Main Hydrant/Sprinkler; DOL for Jockey Pump"},
-    { label: "Diesel Engine Controller Sync", value: "Engine starting contactors, 12V/24V dual battery charger, speed & oil pressure trips"},
-    { label: "Pressure Cascade Staging", value: "Direct multi-stage pressure switch inputs for automated Jockey-Hydrant-Sprinkler cascading"},
-    { label: "Smoke Pressurization & Exhaust", value: "Dedicated starters for Staircase Pressurization, Lift-Well Blowers & Basement Jet Fans"},
+    { label: "Governing Standards", value: "National Building Code (NBC 2016 Part 4), IS 8623, IEC 61439-1 & 2, NFPA 20" },
+    { label: "Enclosure Construction", value: "2-Hour Fire-Rated Sheet Steel (2.0mm CRCA), IP55 Dust & Water Jet Ingress Protection" },
+    { label: "Dual Power Auto-Changeover", value: "Four-Pole Motorized ATS / Incomer AMF logic (Normal Mains + Captive Emergency DG)" },
+    { label: "Pump Starter Topologies", value: "Automatic Star-Delta & Soft-Starters for Main Hydrant/Sprinkler; DOL for Jockey Pump" },
+    { label: "Diesel Engine Controller Sync", value: "Engine starting contactors, 12V/24V dual battery charger, speed & oil pressure trips" },
+    { label: "Pressure Cascade Staging", value: "Direct multi-stage pressure switch inputs for automated Jockey-Hydrant-Sprinkler cascading" },
+    { label: "Smoke Pressurization & Exhaust", value: "Dedicated starters for Staircase Pressurization, Lift-Well Blowers & Basement Jet Fans" },
     { label: "Fire Alarm (FACP) Interface", value: "Potential-free alarm input contacts, auto-override of thermal overloads during fire runs" },
     { label: "Internal Wiring Specification", value: "Fire Survival (FS) / FRLS ZHFR copper wiring rated up to 950°C for circuit integrity" },
     { label: "Enclosure Finish", value: "7-Tank Chemical Processed, Pure Polyester Powder Coated in Signal Red (RAL 3000 / 3001)" }
@@ -134,13 +135,12 @@ export default function FireFightingControlPanelsClient() {
     <div className="bg-[#fcfdfd] text-gray-800 font-sans min-h-screen pt-12 selection:bg-cyan-600 selection:text-white">
       <ToastContainer />
 
-      {/* 1. HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-cyan-900/10 via-white to-white border-b border-gray-200 py-24 lg:py-24">
+      {/* 2. HERO SECTION */}
+      <section className="relative bg-gradient-to-b from-cyan-900/10 via-white to-white border-b border-gray-200 py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             <div className="lg:col-span-7 space-y-6">
-              
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight leading-[1.18]">
                 Fire Pump &amp; Smoke Pressurization <br />
@@ -155,7 +155,7 @@ export default function FireFightingControlPanelsClient() {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
                 <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
                   <div className="text-xl font-extrabold text-cyan-800">NBC 2016</div>
-                  <div className="text-xs text-gray-500 font-medium">Safety Standard</div>
+                  <div className="text-xs text-gray-500 font-medium">Part 4 Compliant</div>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-lg p-3 shadow-sm">
                   <div className="text-xl font-extrabold text-cyan-800">2-Hour</div>
@@ -218,7 +218,161 @@ export default function FireFightingControlPanelsClient() {
         </div>
       </section>
 
-      {/* 2. CORE CAPABILITIES */}
+      {/* 3. FOUNDATIONAL EDUCATION: WHAT IS A FIRE PUMP & SMOKE PRESSURIZATION PANEL? */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Life Safety Engineering Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              What are Fire Pump &amp; Smoke Pressurization Control Panels?
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              During a structural fire emergency, standard building power grids are intentionally cut or tripped to prevent electrocution hazards. However, <strong>life-safety systems must stay operational without fail</strong>. A <strong>Fire Fighting &amp; Smoke Pressurization Control Panel</strong> is an emergency-grade, fire-resistant electrical switchboard that manages two mission-critical functions: delivering immediate high-pressure water to sprinkler and hydrant lines, and creating positive air pressure along stairwells and lift shafts to keep emergency evacuation paths free of toxic smoke.
+            </p>
+          </div>
+
+          {/* 3-Pillar Deep Dive Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            
+            {/* What is a Fire Pump Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Flame className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  1. Fire Pump Starter Panel
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  Controls the primary hydraulic suppression network, housing heavy-duty Star-Delta or Soft-Starters for the Main Hydrant Pump, Sprinkler Pump, and Jockey Pump.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  Wired directly to manifold pressure switches, it initiates automatic cascade pump starts upon pressure drops, bypassing thermal overloads to run continuously through active emergency suppression.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Standard:</strong> NBC 2016 Part 4 &amp; NFPA 20 compliant</div>
+                <div><strong>Logic:</strong> Pressure switch automated cascade starting</div>
+              </div>
+            </div>
+
+            {/* What is a Smoke Pressurization Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Wind className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  2. Smoke Pressurization Panel
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  Operates high-velocity centrifugal and axial supply air blowers dedicated to vertical fire escape routes, including emergency stairwells and lift shafts.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  Upon receiving a signal from the Fire Alarm Control Panel (FACP), it creates a positive pressure barrier (typically 50 Pa), preventing hot poisonous gases from infiltrating staircases.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Objective:</strong> Smoke-free emergency human egress routes</div>
+                <div><strong>Interlock:</strong> Direct potential-free Fire Alarm (FACP) link</div>
+              </div>
+            </div>
+
+            {/* Diesel Standby & Dual Source ATS */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Zap className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  3. Dual Power ATS &amp; Engine Sync
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  Integrates an automatic 4-pole Automatic Transfer Switch (ATS) transitioning between grid mains and captive emergency generator power within seconds.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  Also synchronizes the standby diesel engine pump controller, managing 12V/24V dual battery float-boost chargers, crank timers, oil pressure sensors, and water temperature interlocks.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Transfer:</strong> 4-Pole motorized ATS electrical interlocking</div>
+                <div><strong>Engine Care:</strong> Dual battery float-boost automated chargers</div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Technical Comparison Matrix: Fire Pump vs Smoke Pressurization */}
+          <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm mb-12">
+            <div className="bg-cyan-900 text-white px-6 py-4">
+              <h3 className="text-base sm:text-lg font-bold">
+                Comparison: Fire Pump Starter Panels vs. Smoke Pressurization Panels
+              </h3>
+              <p className="text-xs text-cyan-200 mt-0.5">
+                Technical differences in trigger mechanisms, run logic, and emergency override standards.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs text-left text-gray-700 border-collapse">
+                <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+                  <tr>
+                    <th className="py-3 px-5 w-1/4">Engineering Aspect</th>
+                    <th className="py-3 px-5 w-3/8 text-cyan-950">Fire Water Pump Control Panel</th>
+                    <th className="py-3 px-5 w-3/8">Staircase &amp; Lift Pressurization Panel</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Primary Activation Trigger</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Header pressure drop via calibrated mechanical pressure switches</td>
+                    <td className="py-3.5 px-5">Smoke detector activation / FACP fire alarm trip signal</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Connected Equipment Loads</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Main Hydrant Pump, Sprinkler Pump, Jockey Pump, Diesel Engine</td>
+                    <td className="py-3.5 px-5">Stairwell Blowers, Lift Shaft Fans, Basement Jet Fans</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Thermal Overload Behavior</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Bypassed during fire mode (runs to failure to maintain water)</td>
+                    <td className="py-3.5 px-5">Thermal trips bypassed; manual lockable overrides provided</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Enclosure Rating &amp; Finish</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">IP55 2.0mm CRCA Sheet, Fire Signal Red (RAL 3000 / 3001)</td>
+                    <td className="py-3.5 px-5">IP54/IP55 2-hour fire-rated steel or standard RAL 7035</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Regulatory Compliance</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">NBC 2016 Part 4, NFPA 20, Local Fire Authority NOC clearance</td>
+                    <td className="py-3.5 px-5">NBC 2016 Clause 4.4.2.5 (Positive pressure smoke barriers)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Fire NOC Compliance Callout */}
+          <div className="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Facing Stringent Fire NOC Inspection Standards?</strong> Fire departments across Delhi NCR, Haryana, and Uttar Pradesh require verified dual power auto-changeover, labeled auto-manual selector keys, and documented FAT sequence records. Adhunik Powertech designs panels fully verified to meet local Chief Fire Officer (CFO) and MEP consultant requirements on first inspection.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Submit Pump Room BOQ
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      {/* 4. CORE CAPABILITIES */}
       <section className="py-16 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">
@@ -267,7 +421,7 @@ export default function FireFightingControlPanelsClient() {
         </div>
       </section>
 
-      {/* 3. TECHNICAL SPECIFICATIONS DATA TABLE */}
+      {/* 5. TECHNICAL SPECIFICATIONS DATA TABLE */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
@@ -305,7 +459,34 @@ export default function FireFightingControlPanelsClient() {
         </div>
       </section>
 
-      {/* 4. RFQ SUBMISSION FORM */}
+      {/* 6. REGIONAL COVERAGE STRIP */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Northern India Engineering Network
+          </span>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Supplying Fire Pump &amp; Pressurization Panels Across Major Industrial Hubs
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+            {[
+              "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+              "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+              "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+              "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+            ].map((belt, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+              >
+                {belt}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. RFQ SUBMISSION FORM */}
       <section id="rfq-section" className="py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white border-2 border-cyan-700/20 rounded-3xl p-8 sm:p-12 shadow-xl relative">
           
@@ -489,14 +670,14 @@ export default function FireFightingControlPanelsClient() {
             </button>
 
             <p className="text-[11px] text-center text-gray-500 font-medium">
-              Directly routed to Adhunik Powertech engineering team.
+              Directly routed to Adhunik Powertech life safety electrical engineering desk.
             </p>
           </form>
 
         </div>
       </section>
 
-      {/* 5. TECHNICAL FAQS ACCORDION */}
+      {/* 8. TECHNICAL FAQS ACCORDION */}
       <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-200">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">
@@ -524,7 +705,7 @@ export default function FireFightingControlPanelsClient() {
         </div>
       </section>
 
-      {/* 6. BOTTOM CONVERSION FOOTER STRIP */}
+      {/* 9. BOTTOM CONVERSION FOOTER STRIP */}
       <section className="py-12 bg-cyan-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold mb-3">
