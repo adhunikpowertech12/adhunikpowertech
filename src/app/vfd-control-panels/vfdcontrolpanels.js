@@ -145,8 +145,8 @@ export default function VfdControlPanelsClient() {
               
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight leading-[1.18]">
-                VFD &amp; PLC Process Automation <br />
-                <span className="text-cyan-700">Panels in Delhi NCR</span>
+                VFD &amp; PLC Process Automation Panels<br />
+                <span className="text-cyan-700"> Manufacturer in Delhi NCR</span>
               </h1>
 
               <p className="text-base sm:text-lg text-gray-600 max-w-2xl leading-relaxed">
@@ -217,6 +217,160 @@ export default function VfdControlPanelsClient() {
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* 3. FOUNDATIONAL EDUCATION: WHAT IS A VFD & PLC AUTOMATION PANEL */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Industrial Automation Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              What is a VFD &amp; PLC Process Automation Control Panel?
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              In modern industrial manufacturing and complex fluid systems, fixed-speed motor running results in massive energy wastage, mechanical shock, and sluggish process control. A <strong>VFD &amp; PLC Process Automation Panel</strong> combines intelligent digital logic controllers (Programmable Logic Controllers) with solid-state speed regulators (Variable Frequency Drives) and operator touchscreens (HMIs) inside a climate-controlled enclosure. This setup automates multi-motor sequences, matches motor output to dynamic process demands, and delivers complete real-time production telemetry.
+            </p>
+          </div>
+
+          {/* 3 Core Architecture Pillars: PLC, VFD, and HMI/SCADA */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            
+            {/* What is a PLC in the Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Cpu className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  1. The Brain: Programmable Logic Controller (PLC)
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  The PLC reads field sensors (pressure, temperature, flow, limit switches) across digital and analog I/O channels.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  Running tailored logic programs (Ladder, FBD, SCL), it handles complex interlocking, automatic lead-lag equipment rotation, safety cutoffs, and recipe-driven batch sequencing.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Supported Hardware:</strong> Siemens (S7-1200 / 1500), Schneider, Delta, Allen-Bradley</div>
+                <div><strong>Core Execution:</strong> Closed-loop PID algorithms &amp; safety sequencing</div>
+              </div>
+            </div>
+
+            {/* What is a VFD in the Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Sliders className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  2. The Muscle: Variable Frequency Drive (VFD)
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  The VFD converts incoming 50 Hz AC power into an adjustable frequency and voltage output, modulating induction motor RPM smoothly from 0 to 100%.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  This eliminates starting inrush current spikes, prevents hydraulic water hammer in long pump pipelines, and reduces plant electrical consumption by up to 30–50% under partial loads.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Protective Topology:</strong> AC line chokes, dV/dt filters &amp; bypass contactors</div>
+                <div><strong>Energy Impact:</strong> Smooth ramp start, soft stop &amp; kW optimization</div>
+              </div>
+            </div>
+
+            {/* What is HMI & Industrial Networking */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Monitor className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  3. The Interface: Touchscreen HMI &amp; Fieldbus
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  Industrial color touchscreens (7&quot; to 15&quot;) mounted on panel doors display dynamic machine mimic diagrams, live process curves, and detailed fault history.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  Digital networking via Profinet, Ethernet/IP, or Modbus eliminates thick bundles of hardwired multi-core cabling and allows direct integration into facility SCADA and cloud IoT dashboards.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Touchscreen Displays:</strong> 7&quot; to 15&quot; high-resolution IP65 front bezels</div>
+                <div><strong>Protocols:</strong> Profinet, Modbus TCP/RTU, Ethernet/IP, BACnet</div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Technical Comparison Table: Conventional Hardwired Panels vs. Integrated PLC-VFD Panels */}
+          <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm mb-12">
+            <div className="bg-cyan-900 text-white px-6 py-4">
+              <h3 className="text-base sm:text-lg font-bold">
+                Comparison: Integrated PLC-VFD Automation Panels vs. Conventional Starter Panels
+              </h3>
+              <p className="text-xs text-cyan-200 mt-0.5">
+                Why modern facilities are transitioning from electro-mechanical relay logic to digital PLC automation cubicles.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs text-left text-gray-700 border-collapse">
+                <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+                  <tr>
+                    <th className="py-3 px-5 w-1/4">System Characteristic</th>
+                    <th className="py-3 px-5 w-3/8 text-cyan-950">Integrated PLC + VFD Automation Panel</th>
+                    <th className="py-3 px-5 w-3/8">Conventional DOL / Star-Delta Starter Panel</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Motor Speed &amp; Torque Control</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Continuous variable modulation (0–100%) via PID loop feedback</td>
+                    <td className="py-3.5 px-5">Fixed 100% full-speed running only; zero operational modulation</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Starting Inrush Current</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Soft, progressive ramp up (1.0x to 1.5x full load current)</td>
+                    <td className="py-3.5 px-5">Severe current spikes (6x to 8x rated current) causing voltage dips</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Process Flexibility &amp; Logic</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Software reprogrammable; recipe control, staging, timers &amp; logic</td>
+                    <td className="py-3.5 px-5">Rigid physical timers and auxiliary contactor relay wiring</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Diagnostics &amp; Operator Visibility</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Full color HMI graphic screens with timestamped trip alarms</td>
+                    <td className="py-3.5 px-5">Basic door pushbuttons and red/green indicator lamps only</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Energy Consumption Impact</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Cube law power savings (affinity laws) on centrifugal pumps and fans</td>
+                    <td className="py-3.5 px-5">Motors pull maximum power; throttled via inefficient mechanical dampers/valves</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Thermal Management Callout */}
+          <div className="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Engineered for High-Ambient Industrial Sheds:</strong> VFD drives and electronic power supplies dissipate notable heat. During Delhi NCR summers (exceeding 45°C), uncooled enclosures lead to drive tripping and microprocessor failure. Adhunik Powertech designs automation enclosures with integrated closed-circuit industrial panel air conditioners that keep internal core temperatures strictly below 35°C.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Submit Automation Specs
+            </a>
+          </div>
+
         </div>
       </section>
 
@@ -304,6 +458,33 @@ export default function VfdControlPanelsClient() {
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      {/* 4. REGIONAL COVERAGE STRIP (PLACED RIGHT BEFORE FAQS) */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Northern India Engineering Network
+          </span>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Supplying VFD &amp; PLC Automation Panels Across Major Industrial Hubs
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+            {[
+              "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+              "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+              "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+              "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+            ].map((belt, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+              >
+                {belt}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
