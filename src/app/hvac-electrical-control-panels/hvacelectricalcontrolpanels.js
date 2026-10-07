@@ -144,7 +144,7 @@ export default function HvacPanelClient() {
               
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight leading-[1.18]">
-                HVAC & Air Washer <br />
+                HVAC, AHU & Air Washer <br />
                 <span className="text-cyan-700">Electrical Control Panels</span>
               </h1>
 
@@ -216,6 +216,160 @@ export default function HvacPanelClient() {
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* 3. FOUNDATIONAL EDUCATION: WHAT IS HVAC, AHU & AIR WASHER CONTROL PANEL */}
+      <section className="py-16 lg:py-20 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="max-w-3xl mb-12">
+            <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-2">
+              Electrical Fundamentals
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight">
+              Understanding HVAC, AHU &amp; Air Washer Electrical Control Panels
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed text-justify sm:text-left">
+              In commercial developments, cleanrooms, and industrial factories, airside systems operate on dynamic fluid dynamics—varying duct pressure, filter resistances, and ambient moisture. Dedicated HVAC electrical panels act as the operational brain, coordinating motor speed, dampering, and safety interlocks.
+            </p>
+          </div>
+
+          {/* 3-Pillar Cards Explaining HVAC, AHU & Air Washer Panels */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            
+            {/* What is an HVAC Control Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Wind className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  What is an HVAC Control Panel?
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  An <strong>HVAC Electrical Control Panel</strong> is an overarching centralized switchboard engineered to govern the entire heating, ventilation, and air conditioning plant room.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  It synchronizes primary and secondary chilled water pumps, condenser pumps, cooling tower fans, and ventilation exhausts with central Building Management Systems (BMS) over BACnet or Modbus protocols.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Primary Role:</strong> Central chiller plant &amp; ventilation sequencing</div>
+                <div><strong>Integration:</strong> Native BACnet IP / Modbus RTU telemetry</div>
+              </div>
+            </div>
+
+            {/* What is an AHU Control Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <SlidersHorizontal className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  What is an AHU Control Panel?
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  An <strong>Air Handling Unit (AHU) Control Panel</strong> controls individual supply and return air blowers. It adjusts airflow to regulate room temperature and maintain cleanroom static pressure.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  It houses Variable Frequency Drives (VFDs) linked to duct static pressure sensors, interfaces with motorized fire dampers, and tracks differential pressure (ΔP) switches across HEPA/Pre-filters.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Primary Role:</strong> Static ΔP speed control &amp; fire damper cutoff</div>
+                <div><strong>Safety:</strong> Fail-safe smoke extraction &amp; filter warning trips</div>
+              </div>
+            </div>
+
+            {/* What is an Air Washer Control Panel */}
+            <div className="bg-gray-50/80 border border-gray-200 rounded-2xl p-6 shadow-sm hover:border-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-5">
+                  <Activity className="w-6 h-6 text-cyan-700" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  What is an Air Washer Control Panel?
+                </h3>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify mb-3">
+                  An <strong>Air Washer Control Panel</strong> is an electro-mechanical cubicle designed for single-stage and two-stage evaporative cooling systems.
+                </p>
+                <p className="text-xs text-gray-600 leading-relaxed text-justify">
+                  It interlocks high-CFM supply air blowers with water circulation pumps, incorporates multi-level sump tank liquid sensors (dry-run prevention), and regulates auto-fill and auto-drain purging cycles.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-gray-200 text-[11px] text-gray-700 space-y-1 font-medium">
+                <div><strong>Primary Role:</strong> Blower &amp; water pump synchronization</div>
+                <div><strong>Interlocks:</strong> Sump water level, dry-run protection &amp; lead-lag pumps</div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Architectural Comparison Table */}
+          <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm mb-12">
+            <div className="bg-cyan-900 text-white px-6 py-4">
+              <h3 className="text-base sm:text-lg font-bold">
+                Comparison: HVAC vs. AHU vs. Air Washer Control Panels
+              </h3>
+              <p className="text-xs text-cyan-200 mt-0.5">
+                Technical differences in control loops, field devices, and life-safety cutoffs.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs text-left text-gray-700 border-collapse">
+                <thead className="bg-gray-100 text-gray-800 uppercase font-semibold text-[11px] border-b border-gray-200">
+                  <tr>
+                    <th className="py-3 px-5 w-1/4">System Attribute</th>
+                    <th className="py-3 px-5 w-1/4 text-cyan-950">AHU Starter &amp; VFD Panel</th>
+                    <th className="py-3 px-5 w-1/4">Air Washer Control Panel</th>
+                    <th className="py-3 px-5 w-1/4">Central HVAC Switchboard</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Primary Managed Loads</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Supply/Return Air Fans (5 HP to 60 HP)</td>
+                    <td className="py-3.5 px-5">High-CFM Blowers &amp; Submersible Pumps</td>
+                    <td className="py-3.5 px-5">Chillers, Secondary Pumps &amp; Cooling Towers</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Speed Regulation Logic</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">VFD PID loop via Duct Static ΔP Transducer</td>
+                    <td className="py-3.5 px-5">Dual-speed starter or seasonal VFD modulation</td>
+                    <td className="py-3.5 px-5">Differential pressure (ΔP) &amp; temperature staging</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Field Interlocks</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Motorized Fire Damper (MFD) &amp; Filter DP</td>
+                    <td className="py-3.5 px-5">Water Level Sensors (High/Low) &amp; Float Valves</td>
+                    <td className="py-3.5 px-5">Flow Switches, BTU meters &amp; Chiller Interlocks</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="py-3.5 px-5 font-bold text-gray-900 bg-gray-50/40">Emergency Fire Sequence</td>
+                    <td className="py-3.5 px-5 font-semibold text-cyan-950">Auto fan shutoff on smoke / MFD micro-switch trip</td>
+                    <td className="py-3.5 px-5">Blower cutoff / Emergency exhaust switchover</td>
+                    <td className="py-3.5 px-5">Staircase pressurization &amp; basement smoke dump</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Highlight Callout */}
+          <div className="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="text-xs sm:text-sm text-cyan-950 max-w-3xl">
+              <strong>Need Integrated BMS &amp; Energy Efficiency?</strong> Adhunik Powertech designs AHU and Air Washer panels with native BACnet IP and Modbus RS485 communication cards. This gives facility engineers remote control over VFD frequencies, filter replacement alerts, and motor run hours without dedicated external hardware gateways.
+            </div>
+            <a
+              href="#rfq-section"
+              className="px-4 py-2.5 bg-cyan-800 hover:bg-cyan-900 text-white rounded-lg text-xs font-bold whitespace-nowrap shadow-sm transition"
+            >
+              Submit Airside BOQ
+            </a>
+          </div>
+
         </div>
       </section>
 
@@ -351,6 +505,33 @@ export default function HvacPanelClient() {
                   {sub.desc}
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4. REGIONAL COVERAGE STRIP (PLACED RIGHT BEFORE FAQS) */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="text-cyan-700 text-xs font-bold uppercase tracking-widest block mb-1">
+            Northern India Engineering Network
+          </span>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Supplying HVAC, AHU &amp; Air Washer Panels Across Industrial Corridors
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-2 max-w-4xl mx-auto text-xs font-medium text-gray-600">
+            {[
+              "Delhi NCR", "Gurugram", "Faridabad", "Noida", "Greater Noida", 
+              "Ghaziabad", "Sonipat", "Panipat", "Rohtak", "Rewari", 
+              "Palwal", "Bhiwadi", "Meerut", "Neemrana", "Tapukara", 
+              "Bawal", "Manesar", "Dharuhera", "Muzaffarnagar", "Jaipur", "Chandigarh"
+            ].map((belt, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 border border-gray-200 px-3 py-1.5 rounded-md text-gray-700 hover:border-cyan-400 hover:text-cyan-800 transition"
+              >
+                {belt}
+              </span>
             ))}
           </div>
         </div>
@@ -492,6 +673,8 @@ export default function HvacPanelClient() {
                 ))}
               </div>
             </div>
+
+            
 
             {/* Message / BOQ specifications */}
             <div>
