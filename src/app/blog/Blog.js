@@ -460,6 +460,14 @@ export default function Blog() {
       link: "/form-1-form-2-form-3-form-4a-form-4b-panel-separation-guide",
       img: "/Internal Panel Separation Guide.webp",
     },
+    {
+      id: 49,
+      title: "Top 10 HVAC Companies in India (2026 Guide)",
+      date: "Oct 2026",
+      image: "",
+      link: "/top-10-hvac-companies-in-india",
+      img: "/top-10-hvac-companies-in-india.webp",
+    },
   ];
 
  return (
