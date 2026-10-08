@@ -99,6 +99,7 @@ export default function SiteMap() {
     {href: '/apfc-panel-manufacturers', text:'APFC Panel Manufacturers', title: 'APFC Panel Manufacturers: Overview, Applications, and Benefits' },
     {href: '/vfd-control-panels', text:'VFD Control Panels', title: 'VFD Control Panels: Overview, Applications, and Benefits' },
     {href: '/form-1-form-2-form-3-form-4a-form-4b-panel-separation-guide', text:'Panel Separation Guide', title: 'Panel Separation Guide: Overview, Applications, and Benefits' },
+    {href: '/top-10-hvac-companies-in-india', text:'Top 10 HVAC Companies in India', title: 'Top 10 HVAC Companies in India: Overview, Applications, and Benefits' },
 ];
 
   return (
