@@ -31,7 +31,7 @@ export default function SiteMap() {
     { href: '/fire-tubing-system', text: 'Fire Tubing System', title: 'Fire suppression through tubing systems' },
     { href: '/fire-VESDA-system', text: 'Fire VESDA System', title: 'Very Early Smoke Detection Apparatus (VESDA)' },
     { href: '/glow-signage-&-emergency-lights', text: 'Glow Signage and Emergency Lights', title: 'Explore emergency lighting and signage' },
-    { href: '/manufacturing-and-r-&-d', text: 'Manufacturing and Research & Development ', title: 'Our R&D and manufacturing initiatives' },
+    { href: '/manufacturing-and-rd', text: 'Manufacturing and Research & Development ', title: 'Our R&D and manufacturing initiatives' },
     { href: '/annual-maintenance-contract', text: 'Annual Maintenance Contracts', title: 'Information on our AMC services' },
     { href: '/top-HVAC-Contractor-Across-Delhi-NCR-and-India', text: 'Premier HVAC Contractor Across Delhi NCR and India', title: 'HVAC Contractor Across Delhi NCR and India Explore our top contractor services' },
     { href: '/hire-The-Right-HVAC-Contractor-in-India', text: 'Finding the Right Contractor in India', title: 'Steps to hire the best HVAC contractor' },
