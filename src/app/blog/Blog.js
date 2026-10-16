@@ -468,7 +468,16 @@ export default function Blog() {
       link: "/top-10-hvac-companies-in-india",
       img: "/top-10-hvac-companies-in-india.webp",
     },
+    {
+      id: 50,
+      title: "Top Fire Fighting Contractors in India (2026 Guide)",
+      date: "Oct 2026",
+      image: "",
+      link: "/top-fire-fighting-contractors-in-india",
+      img: "/Top Fire Contractors.webp",
+    },
   ];
+  
 
  return (
   <>
