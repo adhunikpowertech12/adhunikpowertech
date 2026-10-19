@@ -49,28 +49,10 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Product",
-        "@id": "https://www.adhunikpowertech.com/panel-air-conditioners/#product",
-        "name": "Adhunik Industrial Panel Air Conditioner",
-        "url": "https://www.adhunikpowertech.com/panel-air-conditioners",
-        "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778587790/How_to_Choose_the_Right_Panel_Air_Conditioner_udm2kc.webp",
-        "description": "Industrial closed-loop panel air conditioner for electrical control cabinets, CNC enclosures, and automation panels ranging from 250W to 7000W.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Adhunik Powertech"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": "https://mkp.gem.gov.in/panel-air-conditioner/panel-air-conditioner/p-5116877-574145587-cat.html#variant_id=5116877-574145587",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock"
-        }
-      },
-      {
         "@type": "TechArticle",
         "@id": "https://www.adhunikpowertech.com/blog/panel-air-conditioners-in-gem/#article",
         "headline": "How to Procure Industrial Panel Air Conditioners on GeM: Complete Guide for PSUs & Government Tenders",
-        "description": "Comprehensive engineering and statutory guide for public sector purchase officers procuring enclosure cooling systems through GeM.",
+        "description": "Comprehensive engineering and statutory guide for public sector purchase officers procuring enclosure cooling systems through the Government e-Marketplace (GeM).",
         "url": "https://www.adhunikpowertech.com/blog/panel-air-conditioners-in-gem",
         "image": "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1778587790/How_to_Choose_the_Right_Panel_Air_Conditioner_udm2kc.webp",
         "author": {
@@ -86,9 +68,18 @@ export default function Page() {
             "url": "https://www.adhunikpowertech.com/images/logo.png"
           }
         },
-        "mainEntityOfPage": "https://www.adhunikpowertech.com/panel-air-conditioners",
-        "sameAs": [
-          "https://mkp.gem.gov.in/panel-air-conditioner/panel-air-conditioner/p-5116877-574145587-cat.html#variant_id=5116877-574145587"
+        "mainEntityOfPage": "https://www.adhunikpowertech.com/blog/panel-air-conditioners-in-gem",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Industrial Panel Air Conditioner",
+            "sameAs": "https://www.adhunikpowertech.com/panel-air-conditioners"
+          },
+          {
+            "@type": "Thing",
+            "name": "Government e-Marketplace (GeM) Procurement",
+            "sameAs": "https://mkp.gem.gov.in/panel-air-conditioner/panel-air-conditioner/p-5116877-574145587-cat.html#variant_id=5116877-574145587"
+          }
         ],
         "inLanguage": "en-IN"
       },
