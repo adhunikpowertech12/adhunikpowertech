@@ -102,6 +102,7 @@ export default function SiteMap() {
     {href: '/top-10-hvac-companies-in-india', text:'Top 10 HVAC Companies in India', title: 'Top 10 HVAC Companies in India: Overview, Applications, and Benefits' },
     {href: '/top-fire-fighting-contractors-in-india', text:'Top Fire Fighting Contractors in India', title: 'Top Fire Fighting Contractors in India: Overview, Applications, and Benefits' },
     {href: '/panel-ac-for-cnc-machines', text:'Panel AC for CNC Machines', title: 'Panel AC for CNC Machines: Overview, Applications, and Benefits' },
+    {href: '/panel-air-conditioners-in-gem', text:'Panel Air Conditioners in GeM', title: 'Panel Air Conditioners in GeM: Overview, Applications, and Benefits' },
 ];
 
   return (
