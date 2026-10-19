@@ -103,6 +103,7 @@ export default function SiteMap() {
     {href: '/top-fire-fighting-contractors-in-india', text:'Top Fire Fighting Contractors in India', title: 'Top Fire Fighting Contractors in India: Overview, Applications, and Benefits' },
     {href: '/panel-ac-for-cnc-machines', text:'Panel AC for CNC Machines', title: 'Panel AC for CNC Machines: Overview, Applications, and Benefits' },
     {href: '/panel-air-conditioners-in-gem', text:'Panel Air Conditioners in GeM', title: 'Panel Air Conditioners in GeM: Overview, Applications, and Benefits' },
+    {href: '/panel-air-conditioner-panelac', text:'Panel Air Conditioner (Panel AC)', title: 'Panel Air Conditioner (Panel AC): Overview, Applications, and Benefits' },
 ];
 
   return (
