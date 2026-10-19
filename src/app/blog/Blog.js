@@ -483,6 +483,13 @@ export default function Blog() {
       link: "/panel-ac-for-cnc-machines",
       img: "/Panel ac for cnc machines.webp",
     },
+    {id: 52,
+      title: "Panel for GeM portal | Procurement Guide for PSUs & Government Tenders",  
+      date: "Oct 2026",
+      image: "",
+      link: "/panel-air-conditioners-in-gem",
+      img: "/Precure panel ac on gem.webp",
+    },
   ];
   
 
