@@ -476,6 +476,13 @@ export default function Blog() {
       link: "/top-fire-fighting-contractors-in-india",
       img: "/Top Fire Contractors.webp",
     },
+    {id: 51,
+      title: "Panel AC for CNC Machines | Sizing, Installation & VFD Protection",
+      date: "Oct 2026",
+      image: "",
+      link: "/panel-ac-for-cnc-machines",
+      img: "/Panel ac for cnc machines.webp",
+    },
   ];
   
 
