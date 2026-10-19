@@ -100,6 +100,8 @@ export default function SiteMap() {
     {href: '/vfd-control-panels', text:'VFD Control Panels', title: 'VFD Control Panels: Overview, Applications, and Benefits' },
     {href: '/form-1-form-2-form-3-form-4a-form-4b-panel-separation-guide', text:'Panel Separation Guide', title: 'Panel Separation Guide: Overview, Applications, and Benefits' },
     {href: '/top-10-hvac-companies-in-india', text:'Top 10 HVAC Companies in India', title: 'Top 10 HVAC Companies in India: Overview, Applications, and Benefits' },
+    {href: '/top-fire-fighting-contractors-in-india', text:'Top Fire Fighting Contractors in India', title: 'Top Fire Fighting Contractors in India: Overview, Applications, and Benefits' },
+    {href: '/panel-ac-for-cnc-machines', text:'Panel AC for CNC Machines', title: 'Panel AC for CNC Machines: Overview, Applications, and Benefits' },
 ];
 
   return (
