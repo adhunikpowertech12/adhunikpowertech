@@ -490,6 +490,13 @@ export default function Blog() {
       link: "/panel-air-conditioners-in-gem",
       img: "/Precure panel ac on gem.webp",
     },
+    {id: 53,
+      title: "Industrial Panel Air Conditioner (Panel AC) for Electrical & Control Panels",
+      date: "Oct 2026",
+      image: "",
+      link: "/panel-air-conditioner-panelac",
+      img: "/Industrial Panel Air Conditioner.webp",
+    },
   ];
   
 
