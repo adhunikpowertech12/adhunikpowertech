@@ -1,5 +1,6 @@
 import React from 'react'; 
 import Link from 'next/link';
+import { text } from '@cloudinary/url-gen/qualifiers/source';
 
 export default function SiteMap() {
     const sitemapLinks = [
@@ -104,6 +105,7 @@ export default function SiteMap() {
     {href: '/panel-ac-for-cnc-machines', text:'Panel AC for CNC Machines', title: 'Panel AC for CNC Machines: Overview, Applications, and Benefits' },
     {href: '/panel-air-conditioners-in-gem', text:'Panel Air Conditioners in GeM', title: 'Panel Air Conditioners in GeM: Overview, Applications, and Benefits' },
     {href: '/panel-air-conditioner-panelac', text:'Panel Air Conditioner (Panel AC)', title: 'Panel Air Conditioner (Panel AC): Overview, Applications, and Benefits' },
+    {href: '/best-panel-ac-in-india', text: 'Best Panel AC in India', title: 'Best Panel AC in India: Engineering Sizing & OEM Review'},
 ];
 
   return (
