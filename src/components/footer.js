@@ -119,14 +119,9 @@ function Footer() {
               at the   fingertips.
             </h2>
 
-            <p className=' font-semibold text-[15px]  font-sans  pb-1'>Head Office </p>
+            <p className=' font-semibold text-[15px]  font-sans  pb-1'>Contact Us </p>
 
-            <p className=' pb-1'>
-
-
-          Unit No. 6-03B, 6th floor, Reach My Tower,
-Sector 70, Gurugram, Pin Code-122101
-</p>
+            
             <p className=' pb-1'>Email: info@adhunikpowertech.com</p>
             <p>Phone: 8287885885</p>
 
