@@ -497,6 +497,13 @@ export default function Blog() {
       link: "/panel-air-conditioner-panelac",
       img: "/Industrial Panel Air Conditioner.webp",
     },
+    {id: 54,
+      title: "Best Panel AC in India: Sizing & Manufacturer Guide | Adhunik Powertech",
+      date: "Oct 2026",
+      image: "",
+      link: "/best-panel-ac-in-india",
+      img: "/Best panel ac in india.webp",
+    },
   ];
   
 
