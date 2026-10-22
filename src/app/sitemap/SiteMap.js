@@ -108,6 +108,8 @@ export default function SiteMap() {
     {href: '/panel-air-conditioner-panelac', text:'Panel Air Conditioner (Panel AC)', title: 'Panel Air Conditioner (Panel AC): Overview, Applications, and Benefits' },
     {href: '/best-panel-ac-in-india', text: 'Best Panel AC in India', title: 'Best Panel AC in India: Engineering Sizing & OEM Review'},
     {href: '/hvac-contractor-in-rajasthan', text: 'HAVC Contractor in Rajasthan', title: 'Top & Best HVAC Contractor in Rajasthan'},
+    {href: '/hvac-contractor-in-madhya-pradesh', text: 'HAVC Contractor in Madhya Pradesh', title: 'Top & Best HVAC Contractor in Madhya Pradesh'},
+    {href: '/hvac-contractor-in-gujarat', text: 'HAVC Contractor in Gujarat', title: 'Top & Best HVAC Contractor in Gujarat'},
 ];
 
   return (
