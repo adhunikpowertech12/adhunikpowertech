@@ -504,6 +504,13 @@ export default function Blog() {
       link: "/best-panel-ac-in-india",
       img: "/Best panel ac in india.webp",
     },
+    {id:55,
+      title: "Best & Top HVAC Contractor in Rajasthan | Adhunik Powertech",
+      date: "Oct 2026",
+      image: "",
+      link: "/hvac-contractor-in-rajasthan",
+      img:"/Top and Best HVAC Contractor in Rajasthan.webp",
+    }
   ];
   
 
