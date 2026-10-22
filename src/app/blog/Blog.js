@@ -505,12 +505,26 @@ export default function Blog() {
       img: "/Best panel ac in india.webp",
     },
     {id:55,
-      title: "Best & Top HVAC Contractor in Rajasthan | Adhunik Powertech",
+      title: "Top & Best HVAC Contractor in Rajasthan | Adhunik Powertech",
       date: "Oct 2026",
       image: "",
       link: "/hvac-contractor-in-rajasthan",
       img:"/Top and Best HVAC Contractor in Rajasthan.webp",
-    }
+    },
+    {id:56,
+      title: "Top & Best HVAC Contractor in Madhya Pradesh | Adhunik Powertech",
+      date: "Oct 2026",
+      image: "",
+      link: "/hvac-contractor-in-madhya-pradesh",
+      img:"/Top and Best HVAC Contractor in Madhya Pradesh.webp",
+    },
+    {id:57,
+      title: "Top & Best HVAC Contractor in Gujarat | Adhunik Powertech",
+      date: "Oct 2026",
+      image: "",
+      link: "/hvac-contractor-in-gujarat",
+      img:"/Top and Best HVAC Contractor Gujarat.webp",
+    },
   ];
   
 
