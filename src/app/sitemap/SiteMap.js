@@ -1,6 +1,7 @@
 import React from 'react'; 
 import Link from 'next/link';
 import { text } from '@cloudinary/url-gen/qualifiers/source';
+import HVACContractorRajasthan from '../hvac-contractor-in-rajasthan/hvaccontractorrajasthan';
 
 export default function SiteMap() {
     const sitemapLinks = [
@@ -106,6 +107,7 @@ export default function SiteMap() {
     {href: '/panel-air-conditioners-in-gem', text:'Panel Air Conditioners in GeM', title: 'Panel Air Conditioners in GeM: Overview, Applications, and Benefits' },
     {href: '/panel-air-conditioner-panelac', text:'Panel Air Conditioner (Panel AC)', title: 'Panel Air Conditioner (Panel AC): Overview, Applications, and Benefits' },
     {href: '/best-panel-ac-in-india', text: 'Best Panel AC in India', title: 'Best Panel AC in India: Engineering Sizing & OEM Review'},
+    {href: '/hvac-contractor-in-rajasthan', text: 'HAVC Contractor in Rajasthan', title: 'Top & Best HVAC Contractor in Rajasthan'},
 ];
 
   return (
