@@ -110,6 +110,7 @@ export default function SiteMap() {
     {href: '/hvac-contractor-in-rajasthan', text: 'HAVC Contractor in Rajasthan', title: 'Top & Best HVAC Contractor in Rajasthan'},
     {href: '/hvac-contractor-in-madhya-pradesh', text: 'HAVC Contractor in Madhya Pradesh', title: 'Top & Best HVAC Contractor in Madhya Pradesh'},
     {href: '/hvac-contractor-in-gujarat', text: 'HAVC Contractor in Gujarat', title: 'Top & Best HVAC Contractor in Gujarat'},
+    {href: '/top-best-panel-ac-manufacturer-in-pune', text: 'Panel Ac Manufacturer in Pune', title: 'Top & Best Panel AC Manufacturer in Pune'},
 ];
 
   return (
