@@ -525,6 +525,13 @@ export default function Blog() {
       link: "/hvac-contractor-in-gujarat",
       img:"/Top and Best HVAC Contractor Gujarat.webp",
     },
+    {id:58,
+      title: "Top & Best Panel AC Manufacturer in Pune | Adhunik Powertech",
+      date: "Oct 2026",
+      image: "",
+      link: "/top-best-panel-ac-manufacturer-in-pune",
+      img:"/Top Panel ac manufacturer in pune.webp",
+    },
   ];
   
 
