@@ -439,9 +439,9 @@ export default function BestPanelACInIndia() {
                 Trusted in India&apos;s Dominant Manufacturing Hubs
               </h2>
               <p className="text-xs text-slate-600 leading-relaxed">
-                From the automotive corridors of Manesar, Pune, and Sanand to steel and heavy engineering facilities in Odisha, Chhattisgarh, and Bengal, Adhunik delivers rapid field engineering and dispatch.
+                From the automotive corridors of Manesar, Pune (<Link href="/top-best-panel-ac-manufacturer-in-pune">Chakan &amp; Bhosari MIDC)</Link>, and Sanand to steel and heavy engineering facilities in Odisha, Chhattisgarh, and Bengal, Adhunik delivers rapid field engineering and dispatch.
               </p>
-              <div className="text-xs font-bold text-slate-700">
+              <div className="text-xs font-bold text-slate-700"> 
                 Active in: Ahmedabad, Pune, Hyderabad, Chennai, Mumbai, Visakhapatnam, Kolkata, Jaipur, Faridabad, Bengaluru, Noida & Delhi NCR.
               </div>
             </div>
