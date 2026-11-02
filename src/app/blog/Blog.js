@@ -532,6 +532,13 @@ export default function Blog() {
       link: "/top-best-panel-ac-manufacturer-in-pune",
       img:"/Top Panel ac manufacturer in pune.webp",
     },
+    {id:59,
+      title: "Top Panel AC Manufacturer in Gujarat | Industrial Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/top-panel-ac-manufacturer-in-gujarat",
+      img:"/Top Panel ac manufacturer in Gujarat.webp",
+    },
   ];
   
 
