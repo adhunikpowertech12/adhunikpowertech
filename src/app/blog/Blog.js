@@ -539,6 +539,13 @@ export default function Blog() {
       link: "/top-panel-ac-manufacturer-in-gujarat",
       img:"/Top Panel ac manufacturer in Gujarat.webp",
     },
+    {id:60,
+      title: "Top Panel AC Manufacturer in Bangalore | CNC Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/top-panel-ac-manufacturer-in-bangalore",
+      img:"/Top Panel ac manufacturer in Bangalore.webp",
+    },
   ];
   
 
