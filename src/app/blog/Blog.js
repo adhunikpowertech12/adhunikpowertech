@@ -553,6 +553,13 @@ export default function Blog() {
       link: "/hvac-contractor-in-noida",
       img:"/Top HVAC Contractor in Noida.webp",
     },
+      {id:62,
+      title: "Panel AC Manufacturer and Supplier in Andhra Pradesh",
+      date: "Nov 2026",
+      image: "",
+      link: "/panel-ac-manufacturer-and-supplier-in-andhra-pradesh",
+      img:"/Panel AC Manufacturer and Supplier in Andhra Pradesh.webp",
+    },
   ];
   
 
