@@ -220,9 +220,9 @@ useEffect(() => {
       label: "ABOUT US",
       dropdown: [
         { label: "Our Company", href: "/our-Company" },
-        { label: "Vision & Mission", href: "/vision-&-mission" },
+        { label: "Vision & Mission", href: "/vision-and-mission" },
         { label: "Manufacturing and R&D", href: "/manufacturing-and-rd" },
-        { label: "Certificate & Accreditation", href: "/certificate-&-accreditation" },
+        { label: "Certificate & Accreditation", href: "/certificate-and-accreditation" },
         { label: "Awards and Recognitions", href: "/awards-and-recognitions" },
       ],
     },
@@ -251,7 +251,7 @@ useEffect(() => {
       dropdown: [
 
         { label: "Overview", href: "/hvac" },
-        { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-&-India' },
+        { label: 'Our Quality Service', href: '/top-HVAC-Contractor-in-Delhi-NCR-and-India' },
                 { label: 'Cleanroom Solutions ', href: '/turnkey-cleanroom-solutions' },
         { label: 'Our Projects ', href: '/our-projects' },
         { label: 'Our Clients ', href: '/our-client' },
@@ -274,7 +274,7 @@ useEffect(() => {
         { label: " Fire Alarm System ", href: "/fire-alarm-system" },
         { label: " Fire Tubing System ", href: "/fire-tubing-system " },
         { label: " Fire VESDA System ", href: "/fire-VESDA-system " },
-        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-&-emergency-lights" },
+        { label: " Glow Signage & Emergency Lights ", href: "/glow-signage-and-emergency-lights" },
       ],
     },
     {
