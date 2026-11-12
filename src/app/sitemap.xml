@@ -523,18 +523,6 @@
   <lastmod>2026-11-12</lastmod>
 </url>
 <url>
-  <loc>http://www.adhunikpowertech.com/tel:8287885885</loc>
-  <priority>0.6</priority>
-  <changefreq>daily</changefreq>
-  <lastmod>2026-11-12</lastmod>
-</url>
-<url>
-  <loc>http://www.adhunikpowertech.com/tel:8287885985</loc>
-  <priority>0.6</priority>
-  <changefreq>daily</changefreq>
-  <lastmod>2026-11-12</lastmod>
-</url>
-<url>
   <loc>http://www.adhunikpowertech.com/certificate-and-accreditation</loc>
   <priority>0.6</priority>
   <changefreq>daily</changefreq>
@@ -691,7 +679,8 @@
   <lastmod>2026-11-12</lastmod>
 </url>
 <url>
-  <loc></loc>
+  <loc>
+  </loc>
   <priority>0.6</priority>
   <changefreq>daily</changefreq>
   <lastmod>2026-11-12</lastmod>
