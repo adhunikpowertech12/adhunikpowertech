@@ -115,6 +115,7 @@ export default function SiteMap() {
     {href: '/top-panel-ac-manufacturer-in-bangalore', text: 'Panel Ac Manufacturer in Bangalore', title: 'Top & Best Panel AC Manufacturer in Bangalore'},
     {href: '/hvac-contractor-in-noida', text: 'HVAC Contractor in Noida', title: 'Top & Best HVAC Contractor in Noida'},
     {href: '/panel-ac-manufacturer-and-supplier-in-andhra-pradesh', text: 'Panel AC Manufacturer and Supplier in Andhra Pradesh', title: 'Top & Best Panel AC Manufacturer and Supplier in Andhra Pradesh'},
+    {href: '/panel-ac-manufacturer-in-ghaziabad', text: 'Panel AC Manufacturer in Ghaziabad', title: 'Top & Best Panel AC Manufacturer in Ghaziabad'},
 ];
 
   return (
