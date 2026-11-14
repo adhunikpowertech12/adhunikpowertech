@@ -660,10 +660,16 @@
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-   <url>
-    <loc>https://www.adhunikpowertech.com/panel-ac-manufacturer-in-ghaziabad</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
+    <url>
+      <loc>https://www.adhunikpowertech.com/panel-ac-manufacturer-in-ghaziabad</loc>
+      <lastmod>2026-11-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.6</priority>
+    </url>
+    <url>
+      <loc>https://www.adhunikpowertech.com/panel-ac-manufacturer-in-kolkata</loc>
+      <lastmod>2026-11-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.6</priority>
+    </url>
 </urlset>

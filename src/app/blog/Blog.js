@@ -567,6 +567,13 @@ export default function Blog() {
       link: "/panel-ac-manufacturer-in-ghaziabad",
       img:"/Panel AC Manufacturer in Ghaziabad.webp",
     },
+    {id:64,
+      title: "Top Panel AC Manufacturer in kolkata | Industrial Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/panel-ac-manufacturer-in-kolkata",
+      img:"/Top Panel ac manufacturer in kolkata.webp", 
+    }
   ];
   
 
