@@ -1,6 +1,6 @@
-
 'use client'
 import Image from 'next/image';
+import RegionalHubLinks from '@/components/RegionalHubLinks';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaPlay } from "react-icons/fa";
 import React, { useEffect, useMemo, useRef, useState } from 'react';
@@ -987,7 +987,6 @@ export default function AirWasher() {
                 <span className="relative">Contact Us</span>
               </a>
             </div>
-
           </div>
         </div>
         <div className="row">
@@ -1096,6 +1095,11 @@ export default function AirWasher() {
               ) : null}
             </div>
           </div>
+        </div>
+
+{/* Section 11: Regional Industrial Hub Links */}
+        <div className="w-full my-6">
+          <RegionalHubLinks />
         </div>
 
         <div className="row pb-16 flex justify-center items-center flex-col">
