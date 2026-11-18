@@ -122,7 +122,7 @@ export default async function ClusterProductPage({ params }: PageProps) {
     notFound();
   }
 
-  // Schema.org Structured Data: Product + AggregateRating + Local Geographic Scope
+  // Schema.org Structured Data: Product + AggregateRating + Merchant Listings / Offers
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -150,6 +150,7 @@ export default async function ClusterProductPage({ params }: PageProps) {
       priceCurrency: 'INR',
       price: product.basePriceINR,
       priceValidUntil: '2027-12-31',
+      validFrom: '2026-01-01',
       itemCondition: 'https://schema.org/NewCondition',
       availability: 'https://schema.org/InStock',
       seller: {
@@ -159,6 +160,41 @@ export default async function ClusterProductPage({ params }: PageProps) {
       areaServed: {
         '@type': 'AdministrativeArea',
         name: `${cluster.city}, ${cluster.state}`,
+      },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: '0',
+          currency: 'INR',
+        },
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: 'IN',
+        },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 1,
+            maxValue: 2,
+            unitCode: 'DAY',
+          },
+          transitTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 1,
+            maxValue: 4,
+            unitCode: 'DAY',
+          },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: 'IN',
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 15,
+        returnMethod: 'https://schema.org/ReturnByMail',
+        returnFees: 'https://schema.org/FreeReturn',
       },
     },
   };
