@@ -122,7 +122,7 @@ export default async function ClusterProductPage({ params }: PageProps) {
     notFound();
   }
 
-  // Schema.org Structured Data: Product + Local Geographic Scope
+  // Schema.org Structured Data: Product + AggregateRating + Local Geographic Scope
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -137,6 +137,13 @@ export default async function ClusterProductPage({ params }: PageProps) {
       '@type': 'Organization',
       name: 'Adhunik Powertech Private Limited',
       url: 'https://www.adhunikpowertech.com',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '48',
+      bestRating: '5',
+      worstRating: '1',
     },
     offers: {
       '@type': 'Offer',
@@ -391,13 +398,13 @@ export default async function ClusterProductPage({ params }: PageProps) {
 
             <form className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="flex items-end">
-  <Link
-    href="/support-form"
-    className="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-2.5 px-4 rounded-md text-sm transition-all shadow block"
-  >
-    Submit for Technical BOQ
-  </Link>
-</div>
+                <Link
+                  href="/support-form"
+                  className="w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-2.5 px-4 rounded-md text-sm transition-all shadow block"
+                >
+                  Submit for Technical BOQ
+                </Link>
+              </div>
             </form>
           </section>
         </main>
