@@ -1,21 +1,60 @@
-# Adhunik Powertech Private Limited - Industrial HVAC & Climate Systems
+# Adhunik Powertech
 
-> OEM Manufacturer of Industrial Panel Air Conditioners, Industrial Air Washers, Sensible Cooling Units, and Turnkey Ventilation Systems.
+> Adhunik Powertech Private Limited is an Indian OEM manufacturer specializing in industrial panel air conditioners, factory evaporative air washers, sensible cooling units (SCU), and industrial DIDW blowers for CNC, VFD, and factory automation environments.
 
-## Core Product Capabilities
-- **Industrial Panel Air Conditioners**: Closed-loop IP55 enclosure cooling for CNC, VFD, and automation drive cabinets (250 W to 7,500 W / R134a & R410A).
-- **Industrial Air Washers**: Factory evaporative cooling systems (5,000 CFM to 120,000 CFM) with single/two-stage CelDek media and DIDW centrifugal blowers.
-- **Sensible Cooling Units (SCU)**: Indirect sensible heat exchangers for hot industrial exhausts and clean spaces.
-- **Industrial Blowers**: DIDW forward and backward-curved aerofoil centrifugal fans.
+Adhunik Powertech designs and supplies heavy-duty, closed-loop IP55 enclosure cooling and factory climate control systems engineered for extreme ambient temperatures (up to 45°C+ dry bulb) across major Indian manufacturing corridors. All equipment conforms to CE and ISO 9001:2015 quality standards.
 
-## Primary Regional Corridors Served
-- North India: Gurugram, Manesar, Faridabad, Noida, Ghaziabad, Neemrana, Bawal, Sonipat, Haridwar, Roorkee.
-- East India: Durgapur, Asansol, Howrah, Kolkata, Jamshedpur, Jharsuguda, Kalinganagar, Rourkela.
-- West India: Sanand, Ahmedabad, Morbi, Ankleshwar, Chakan, Aurangabad, Nashik, Kolhapur.
-- South India: Sriperumbudur, Coimbatore, Peenya (Bengaluru), Hosur, Hyderabad, Sri City.
+## Core Products
+- [Industrial Panel Air Conditioners](https://www.adhunikpowertech.com/panel-air-conditioners): Closed-loop IP55 enclosure cooling units (250 W to 7,500 W / R134a & R410A) designed to protect CNC, VFD, and automation drive panels from airborne dust, humidity, and heat trips.
+- [Factory Evaporative Air Washers](https://www.adhunikpowertech.com/industrial-air-washer): Single-stage and two-stage industrial evaporative cooling systems (5,000 CFM to 120,000 CFM) utilizing CelDek 5090/7090 media and heavy-duty centrifugal blowers.
+- [Sensible Cooling Units (SCU)](https://www.adhunikpowertech.com/sensible-cooling-units): Indirect sensible heat exchangers designed for high-heat exhaust pre-cooling and cleanroom HVAC applications.
+- [Industrial Oil Chiller](https://www.adhunikpowertech.com/chiller-oil-water-coolant): Oil/Coolant Chiller is a powerful yet compact cooling solution tailored to meet the demands of various applications. This advanced refrigeration system effectively controls the temperature of your oil and other industrial fluids.
+
+## Priority Regional Hubs - North India
+- [Faridabad Industrial Corridor](https://www.adhunikpowertech.com/panel-air-conditioner/faridabad-industrial-corridor): Specifications and supply for sheet metal stamping, forging foundries, and hydraulic machinery clusters in Sector 24/25 and IMT.
+- [Noida & Greater Noida Hub](https://www.adhunikpowertech.com/panel-air-conditioner/noida-greater-noida-hub): Cleanroom-compatible IP55 enclosure cooling for electronics, SMT lines, and mobile hardware assembly plants.
+- [Ghaziabad Sahibabad Belt](https://www.adhunikpowertech.com/panel-air-conditioner/ghaziabad-sahibabad-belt): Heavy-duty cooling units engineered for tube mills, chemical pigments, and packaging machinery.
+- [Neemrana Japanese Zone](https://www.adhunikpowertech.com/panel-air-conditioner/neemrana-japanese-zone): Tropicalized high-ambient panel cooling for Japanese automotive tier-1 CNC toolrooms.
+- [Bawal Dharuhera Cluster](https://www.adhunikpowertech.com/panel-air-conditioner/bawal-dharuhera-cluster): Heavy industrial enclosure climate protection against foundry dust and high ambient casting temperatures.
+- [Sonipat Kundli Belt](https://www.adhunikpowertech.com/panel-air-conditioner/sonipat-kundli-belt): Corrosion-resistant SS 304 panel cooling for food processing and industrial cold chain manufacturing.
+- [Roorkee Bhagwanpur Corridor](https://www.adhunikpowertech.com/panel-air-conditioner/roorkee-industrial-area): IP55 blue-fin enclosure coolers engineered for wire drawing, paints, and packaging plants.
+
+## Priority Regional Hubs - East India
+- [Durgapur Asansol Belt](https://www.adhunikpowertech.com/panel-air-conditioner/durgapur-asansol-industrial-belt): Heavy-duty cooling systems for integrated steel mills, sponge iron plants, and heavy foundries facing conductive carbon dust.
+- [Howrah Hooghly Cluster](https://www.adhunikpowertech.com/panel-air-conditioner/howrah-hooghly-engineering-cluster): Condensation-controlled panel air conditioners built for high coastal relative humidity and railway component fabrication.
+- [Jamshedpur Adityapur Auto Cluster](https://www.adhunikpowertech.com/panel-air-conditioner/jamshedpur-adityapur-auto-cluster): High-ambient enclosure cooling for automotive press shops, commercial vehicle chassis, and die-casting lines.
+- [Jharsuguda Sambalpur Metals Belt](https://www.adhunikpowertech.com/panel-air-conditioner/jharsuguda-sambalpur-metals-belt): Dust-isolated tropicalized cooling for aluminum smelting plants and thermal power BOP panels.
+- [Kalinganagar Steel Hub](https://www.adhunikpowertech.com/panel-air-conditioner/jajpur-kalinganagar-steel-hub): SS 304 stainless steel enclosure coolers with polyurethane-coated fins for corrosive pickling and ferro-alloy zones.
+- [Kolkata Taratala Dhulagarh Hub](https://www.adhunikpowertech.com/panel-air-conditioner/kolkata-taratala-dhulagarh-hub): Moisture-resistant panel ACs with active condensate evaporators for switchgear and FMCG packaging plants.
+
+## Priority Regional Hubs - West India
+- [Sanand GIDC Industrial Hub](https://www.adhunikpowertech.com/panel-air-conditioner/sanand-industrial-hub): High-ambient cooling engineered for automotive OEM plants and precision tier-1 toolrooms.
+- [Ahmedabad Vatva Naroda Belt](https://www.adhunikpowertech.com/panel-air-conditioner/ahmedabad-vatva-naroda-belt): Chemical-resistant coated coils for dyes, intermediates, and high-speed textile weaving units.
+- [Morbi Ceramic Cluster](https://www.adhunikpowertech.com/panel-air-conditioner/morbi-ceramic-cluster): Heavy-ambient IP55 panel ACs engineered to counter fine abrasive silica dust and extreme kiln ambient temperatures.
+- [Ankleshwar Panoli PCPIR](https://www.adhunikpowertech.com/panel-air-conditioner/ankleshwar-panoli-chemical-zone): Solvent-resistant and SS 304 housing panel coolers for bulk drug APIs and agro-chemical plants.
+- [Aurangabad Shendra Waluj Belt](https://www.adhunikpowertech.com/panel-air-conditioner/aurangabad-shendra-waluj-belt): Microprocessor-controlled panel air conditioners for auto-electrical assemblies and CNC tooling.
+- [Nashik Ambad Satpur Hub](https://www.adhunikpowertech.com/panel-air-conditioner/nashik-ambad-satpur-hub): Hermetically sealed enclosure ACs for high-voltage switchgear and automotive stamping lines.
+- [Kolhapur Foundry Belt](https://www.adhunikpowertech.com/panel-air-conditioner/kolhapur-shiroli-gokul-shirgaon): Heavy-duty enclosure air conditioning designed to block conductive foundry carbon and molding sand.
+
+## Priority Regional Hubs - South India
+- [Sriperumbudur Oragadam Auto Belt](https://www.adhunikpowertech.com/panel-air-conditioner/sriperumbudur-oragadam-auto-belt): Active condensate evaporation panel cooling for automotive OEM lines and EV battery cleanrooms.
+- [Coimbatore Peelamedu Cluster](https://www.adhunikpowertech.com/panel-air-conditioner/coimbatore-peelamedu-pump-cluster): Lint-resistant closed-loop enclosure cooling for pump manufacturing and textile spinning machinery.
+- [Peenya Bommasandra Belt](https://www.adhunikpowertech.com/panel-air-conditioner/peenya-bommasandra-machining-belt): Ultra-precise temperature control enclosure coolers for aerospace CNC machining and semiconductor cleanrooms.
+- [Hosur SIPCOT Zone](https://www.adhunikpowertech.com/panel-air-conditioner/hosur-sipcot-engineering-zone): Metallic dust-isolated panel air conditioners for two-wheeler and transmission toolrooms.
+- [Hyderabad Cherlapally Pharma Zone](https://www.adhunikpowertech.com/panel-air-conditioner/hyderabad-cherlapally-pharma-zone): Polyurethane-coated coil panel coolers for bulk drug APIs and specialty chemical plants.
+- [Sri City SEZ](https://www.adhunikpowertech.com/panel-air-conditioner/sri-city-special-economic-zone): Tropicalized IP55 panel air conditioners for consumer appliance assembly and rolling stock plants.
+
+## Engineering Support & Inquiries
+- [Technical BOQ Sizing Desk](https://www.adhunikpowertech.com/support-form): Submit panel enclosure dimensions, CFM static requirements, and single-line diagrams for 3-hour thermal calculation.
+- [Corporate Engineering Office](https://www.adhunikpowertech.com): 102, Tower 1, DLF Corporate Greens, Sector-74A, Gurugram, Haryana – 122004. Contact: +91 8287885885 / ritesh@adhunikpowertech.com.
 
 ## Technical Documentation & Inquiries
 - Website: https://www.adhunikpowertech.com
 - Technical BOQ & Sizing Desk: https://www.adhunikpowertech.com/support-form
 - Engineering Helpline: +91 8287885885
-- Enterprise Inquiries: ritesh@adhunikpowertech.com / info@adhunikpowertech.com
+- Enterprise Inquiries: info@adhunikpowertech.com / ritesh@adhunikpowertech.com
+
+## Optional
+- [XML Sitemap](https://www.adhunikpowertech.com/sitemap.xml): Complete machine-readable XML sitemap indexing all 167 dynamic catalog routes.
+- [Robots Directives](https://www.adhunikpowertech.com/robots.txt): Standard crawler access instructions and sitemap references.
+
