@@ -108,6 +108,7 @@ const STATIC_PAGES = [
   'panel-ac-manufacturer-and-supplier-in-andhra-pradesh',
   'panel-ac-manufacturer-in-ghaziabad',
   'panel-ac-manufacturer-in-kolkata',
+  'panel-ac-manufacturer-in-odisha',
   'support-form',
   'sitemap',
 ];

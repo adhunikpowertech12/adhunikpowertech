@@ -573,6 +573,13 @@ export default function Blog() {
       image: "",
       link: "/panel-ac-manufacturer-in-kolkata",
       img:"/Top Panel ac manufacturer in kolkata.webp", 
+    },
+    {id:65,
+      title: "Top Panel AC Manufacturer in Odisha | Industrial Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/panel-ac-manufacturer-in-odisha",
+      img:"/Top Panel ac manufacturer in odisha.webp", 
     }
   ];
   
