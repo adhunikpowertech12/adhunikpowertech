@@ -580,6 +580,13 @@ export default function Blog() {
       image: "",
       link: "/panel-ac-manufacturer-in-odisha",
       img:"/Top Panel ac manufacturer in odisha.webp", 
+    },
+    {id:66,
+      title: "Top Panel AC Manufacturer in Gurugram | Industrial Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/top-panel-ac-manufacturer-in-gurugram",
+      img:"/Top Panel ac manufacturer in gurugram.webp", 
     }
   ];
   

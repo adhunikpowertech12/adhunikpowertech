@@ -109,6 +109,7 @@ const STATIC_PAGES = [
   'panel-ac-manufacturer-in-ghaziabad',
   'panel-ac-manufacturer-in-kolkata',
   'panel-ac-manufacturer-in-odisha',
+  'top-panel-ac-manufacturer-in-gurugram',
   'support-form',
   'sitemap',
 ];
