@@ -110,6 +110,7 @@ const STATIC_PAGES = [
   'panel-ac-manufacturer-in-kolkata',
   'panel-ac-manufacturer-in-odisha',
   'top-panel-ac-manufacturer-in-gurugram',
+  'top-panel-ac-manufacturer-in-manesar',
   'support-form',
   'sitemap',
 ];

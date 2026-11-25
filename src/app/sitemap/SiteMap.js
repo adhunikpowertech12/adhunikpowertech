@@ -119,6 +119,7 @@ export default function SiteMap() {
     {href: '/panel-ac-manufacturer-in-kolkata', text: 'Panel AC Manufacturer in Kolkata', title: 'Top & Best Panel AC Manufacturer in Kolkata'},
     {href: '/panel-ac-manufacturer-in-odisha', text: 'Panel AC Manufacturer in Odisha', title: 'Top & Best Panel AC Manufacturer in Odisha'},
     {href: '/top-panel-ac-manufacturer-in-gurugram', text: 'Panel AC Manufacturer in Gurugram', title: 'Top & Best Panel AC Manufacturer in Gurugram'},
+    {href: '/top-panel-ac-manufacturer-in-manesar', text: 'Panel AC Manufacturer in Manesar', title: 'Top & Best Panel AC Manufacturer in Manesar'},
 ];
 
   return (

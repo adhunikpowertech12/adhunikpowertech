@@ -587,6 +587,13 @@ export default function Blog() {
       image: "",
       link: "/top-panel-ac-manufacturer-in-gurugram",
       img:"/Top Panel ac manufacturer in gurugram.webp", 
+    },
+    {id:67,
+      title: "Top Panel AC Manufacturer in Manesar | Industrial Enclosure Coolers",
+      date: "Nov 2026",
+      image: "",
+      link: "/top-panel-ac-manufacturer-in-manesar",
+      img:"/Top Panel ac manufacturer in manesar.webp", 
     }
   ];
   
